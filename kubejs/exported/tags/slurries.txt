@@ -1,0 +1,67 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 23, 2021 6:24:16 PM
+
+#mekanism:dirty/zinc
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:dirty
+- mekanism:dirty_iron
+- mekanism:dirty_gold
+- mekanism:dirty_osmium
+- mekanism:dirty_copper
+- mekanism:dirty_tin
+- mekanism:dirty_lead
+- mekanism:dirty_uranium
+- jaopca:mekanism_dirty.aluminum
+- jaopca:mekanism_dirty.iridium
+- jaopca:mekanism_dirty.nickel
+- jaopca:mekanism_dirty.silver
+- jaopca:mekanism_dirty.thallasium
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:dirty/nickel
+- jaopca:mekanism_dirty.nickel
+
+#mekanism:clean/iridium
+- jaopca:mekanism_clean.iridium
+
+#mekanism:clean
+- mekanism:clean_iron
+- mekanism:clean_gold
+- mekanism:clean_osmium
+- mekanism:clean_copper
+- mekanism:clean_tin
+- mekanism:clean_lead
+- mekanism:clean_uranium
+- jaopca:mekanism_clean.aluminum
+- jaopca:mekanism_clean.iridium
+- jaopca:mekanism_clean.nickel
+- jaopca:mekanism_clean.silver
+- jaopca:mekanism_clean.thallasium
+- jaopca:mekanism_clean.zinc
+
+#mekanism:dirty/silver
+- jaopca:mekanism_dirty.silver
+
+#mekanism:clean/nickel
+- jaopca:mekanism_clean.nickel
+
+#mekanism:clean/aluminum
+- jaopca:mekanism_clean.aluminum
+
+#mekanism:clean/thallasium
+- jaopca:mekanism_clean.thallasium
+
+#mekanism:clean/zinc
+- jaopca:mekanism_clean.zinc
+
+#mekanism:dirty/aluminum
+- jaopca:mekanism_dirty.aluminum
+
+#mekanism:dirty/thallasium
+- jaopca:mekanism_dirty.thallasium
+
+#mekanism:dirty/iridium
+- jaopca:mekanism_dirty.iridium
+
+#mekanism:clean/silver
+- jaopca:mekanism_clean.silver
