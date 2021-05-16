@@ -1,0 +1,13 @@
+[
+	{
+		"dimension": "wotwmod:mars",
+		"mod": "wotwmod",
+		"onjoin": true,
+		"result": "allow",
+		"healthmultiply": 2,
+		"damagemultiply": 2
+	},
+	{
+		"result": "deny"
+	}
+]

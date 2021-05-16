@@ -1,0 +1,646 @@
+{
+	id: "0706115113454085",
+	group: "",
+	order_index: 3,
+	filename: "era_of_magic",
+	title: "Era of the Arcane",
+	icon: "botania:manasteel_ingot",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			subtitle: "Craft a Petal Apothecary to begin channeling the magic intrinsic to nature. Look through your Lexica Botanica for more information.",
+			dependencies: ["031023A8EA6FD4D0"],
+			size: 1.5d,
+			id: "44A732EE455674E8",
+			tasks: [{
+				id: "47B33342E8122DF8",
+				type: "item",
+				item: "botania:apothecary_default"
+			}]
+		},
+		{
+			title: "Manipulating Mana",
+			x: 4.0d,
+			y: 1.0d,
+			subtitle: "These items can be used to harness mana. Place a generating flower near a Mana Spreader, and point it towards the Mana Pool.",
+			dependencies: ["3B845F0A6E919ED1"],
+			id: "655AB81DE00B783B",
+			tasks: [
+				{
+					id: "60F9E357A4F4D950",
+					type: "item",
+					item: "botania:mana_pool"
+				},
+				{
+					id: "26B0428B1274146E",
+					type: "item",
+					item: "botania:mana_spreader"
+				}
+			]
+		},
+		{
+			title: "Generating Mana",
+			icon: "botania:endoflame",
+			x: 3.0d,
+			y: -1.0d,
+			subtitle: "Create a generating flower, such as an Endoflame.",
+			dependencies: ["44A732EE455674E8"],
+			id: "7A456971CB158835",
+			tasks: [{
+				id: "3B4DCC06E771851F",
+				type: "advancement",
+				advancement: "botania:main/generating_flower",
+				criterion: ""
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			subtitle: "Create a Pure Daisy, used to turn Stone and Wood into Livingwood and Livingrock.",
+			dependencies: ["44A732EE455674E8"],
+			id: "3B845F0A6E919ED1",
+			tasks: [{
+				id: "0F969A9E33B1F288",
+				type: "item",
+				item: "botania:pure_daisy"
+			}]
+		},
+		{
+			title: "Manasteel and Mana Pearls",
+			x: 6.0d,
+			y: 0.0d,
+			subtitle: "Drop a Steel Ingot into a filled Mana Pool to create a Manasteel Ingot. This same method works for Mana Pearls, using Eyes of Ender instead.",
+			dependencies: [
+				"7A456971CB158835",
+				"655AB81DE00B783B"
+			],
+			id: "48148EE28276AB64",
+			tasks: [
+				{
+					id: "471D0E92102DA055",
+					type: "item",
+					item: "botania:manasteel_ingot"
+				},
+				{
+					id: "1435B7042F97CAFB",
+					type: "item",
+					item: "botania:mana_pearl"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			shape: "hexagon",
+			subtitle: "A Resonating Wand will allow you to explore the magic of the stars. Make sure to look through your Astral Tome.",
+			dependencies: ["6915EC195906281A"],
+			size: 1.5d,
+			id: "5B24E6B0D366B061",
+			tasks: [{
+				id: "0501A99337976739",
+				type: "item",
+				item: "astralsorcery:wand"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			subtitle: "A Lightwell, when given items such as Aquamarine or Rock Crystals, will create Liquid Starlight from them.",
+			dependencies: ["6833FFB6AB33C9D6"],
+			id: "5E731BFE079CCF9C",
+			tasks: [{
+				id: "06E785FD3221E4D1",
+				type: "item",
+				item: "astralsorcery:well"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			subtitle: "Rock Crystals are used to craft equipment that can handle starlight.",
+			dependencies: ["5B24E6B0D366B061"],
+			id: "6833FFB6AB33C9D6",
+			tasks: [{
+				id: "75B983989D02D9C5",
+				type: "item",
+				item: {
+					id: "astralsorcery:rock_crystal",
+					Count: 1b,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}]
+		},
+		{
+			title: "Learning to Spellsling",
+			x: 6.0d,
+			y: -2.0d,
+			subtitle: "These materials are necessary to learn how to cast your own spells. Consult your Codex Arcana for more information.",
+			dependencies: [
+				"5E731BFE079CCF9C",
+				"48148EE28276AB64"
+			],
+			id: "1BB848DE3EA0A9CD",
+			tasks: [
+				{
+					id: "3BF460D5C7A35F21",
+					type: "item",
+					item: "mana-and-artifice:occulus"
+				},
+				{
+					id: "2E397DB3AB61895F",
+					type: "item",
+					item: "mana-and-artifice:inscription_table"
+				},
+				{
+					id: "1303086A891AAAEF",
+					type: "item",
+					item: "mana-and-artifice:manaweaving_altar"
+				},
+				{
+					id: "7250571C1DF93C1D",
+					type: "item",
+					item: "mana-and-artifice:runeforge"
+				},
+				{
+					id: "50E6A7E9129EE0D1",
+					type: "item",
+					item: "mana-and-artifice:manaweaver_wand"
+				}
+			]
+		},
+		{
+			title: "Starlight Crafting Altar",
+			icon: "astralsorcery:altar_attunement",
+			x: 6.0d,
+			y: -4.0d,
+			subtitle: "This altar can channel more starlight than before.",
+			dependencies: ["5E731BFE079CCF9C"],
+			id: "0CA03557153003A7",
+			tasks: [{
+				id: "20EA919F44226BEE",
+				type: "advancement",
+				advancement: "astralsorcery:craft_t2_altar",
+				criterion: ""
+			}]
+		},
+		{
+			title: "Celestial Altar",
+			icon: "astralsorcery:altar_constellation",
+			x: 10.0d,
+			y: -4.0d,
+			subtitle: "This can handle even more starlight than you could previously.",
+			dependencies: ["479274E5E5289335"],
+			id: "05B9DF27F7AD850D",
+			tasks: [{
+				id: "111012945845E399",
+				type: "advancement",
+				advancement: "astralsorcery:craft_t3_altar",
+				criterion: ""
+			}]
+		},
+		{
+			title: "Iridescent Altar",
+			icon: "astralsorcery:altar_radiance",
+			x: 12.0d,
+			y: -6.0d,
+			subtitle: "This is the ultimate altar, capable of handling massive amounts of starlight.",
+			dependencies: [
+				"05B9DF27F7AD850D",
+				"228C6065C50852C7"
+			],
+			id: "73A248C448C4C47D",
+			tasks: [{
+				id: "1499D40949B1ED85",
+				type: "advancement",
+				advancement: "astralsorcery:craft_t4_altar",
+				criterion: ""
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			subtitle: "A Runic Altar can be given mana to create a variety of magical runes.",
+			dependencies: ["48148EE28276AB64"],
+			id: "663E35409B5EA827",
+			tasks: [{
+				id: "2D436E085ECAB6ED",
+				type: "item",
+				item: "botania:runic_altar"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -2.0d,
+			shape: "diamond",
+			subtitle: "Terrasteel is potent for the usage of tools, armor, and arcane implements as a consequence of the immense amount of Mana channeled through it. Required to start the Era of Creation.",
+			dependencies: ["01FC38677F843BDA"],
+			size: 1.5d,
+			id: "111B86AE41B02D70",
+			tasks: [{
+				id: "2E530C37565916F0",
+				type: "item",
+				item: "botania:terrasteel_ingot"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -4.0d,
+			subtitle: "Resonating Gems, created at a Starlight Infuser, are an important ingredient in powerful magical artifacts.",
+			dependencies: ["05B9DF27F7AD850D"],
+			id: "1A99C6281674DE7C",
+			tasks: [{
+				id: "762FC5D50670D522",
+				type: "item",
+				item: "astralsorcery:resonating_gem"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.0d,
+			subtitle: "Mana Diamonds hold large amounts of Mana, making them a potent crafting ingredient.",
+			dependencies: [
+				"663E35409B5EA827",
+				"479274E5E5289335"
+			],
+			id: "3D75721DA9392AA5",
+			tasks: [{
+				id: "32247098E1983CFB",
+				type: "item",
+				item: "botania:mana_diamond"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			subtitle: "Starmetal is made by infusing Iron Ore with starlight from a Collector Crystal.",
+			description: [""],
+			dependencies: ["0CA03557153003A7"],
+			id: "479274E5E5289335",
+			tasks: [{
+				id: "324328CA462E99A4",
+				type: "item",
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -2.0d,
+			subtitle: "The Terrestrial Agglomeration Plate is used to create Terrasteel from Manasteel, Mana Diamonds, and Mana Pearls.",
+			dependencies: [
+				"3D75721DA9392AA5",
+				"479274E5E5289335",
+				"45377B497F84545D"
+			],
+			id: "01FC38677F843BDA",
+			tasks: [{
+				id: "5DF7884765B966F5",
+				type: "item",
+				item: "botania:terra_plate"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			subtitle: "Advance to tier 2 using your Occulus, and then perform a ritual for a Mote of Magic.",
+			dependencies: ["1BB848DE3EA0A9CD"],
+			id: "45377B497F84545D",
+			tasks: [{
+				id: "4E543EFB4D1E02D2",
+				type: "item",
+				item: "mana-and-artifice:enchantment_focus_arcane"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			subtitle: "Attuning yourself to a Constellation early on is wise, as it will allow you to level up your Starlight Level throughout your journey. If you happened to lose some of your Constellation Papers, you can craft new ones attuned to the five bright constellations easily.",
+			dependencies: ["0CA03557153003A7"],
+			id: "4483446C4DA06FCE",
+			tasks: [{
+				id: "5082D24BD4409663",
+				type: "item",
+				item: "astralsorcery:attunement_altar"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			subtitle: "Mana Tablets are used to store mana. This can be used to power any tools that may require it.",
+			dependencies: ["48148EE28276AB64"],
+			optional: true,
+			id: "460254D143E858D3",
+			tasks: [{
+				id: "66D622282E10162E",
+				type: "item",
+				item: {
+					id: "botania:mana_tablet",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -1.0d,
+			subtitle: "By default, the Terra Shatterer is simply a powerful pickaxe. However, as you store more and more Mana into it, the radius which it can mine in will increase.",
+			dependencies: ["111B86AE41B02D70"],
+			optional: true,
+			id: "2DAB08911EF5DBE5",
+			tasks: [{
+				id: "7D18B7D6306D0B3F",
+				type: "item",
+				item: {
+					id: "botania:terra_pick",
+					Count: 1b,
+					tag: {
+						mana: 9999,
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Portal to Alfheim",
+			icon: "botania:alfheim_portal",
+			x: 14.0d,
+			y: -3.0d,
+			subtitle: "There is a dimension of elves eager for a trading partner. While you won't be able to go there yourself, if you chuck your Lexica Botanica into their portal, you may be able to acquire their help.",
+			dependencies: ["111B86AE41B02D70"],
+			id: "1119B900C1D0A4ED",
+			tasks: [{
+				id: "4E2A6038B72B7ED5",
+				type: "advancement",
+				advancement: "botania:main/elf_portal_open",
+				criterion: ""
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 2.0d,
+			subtitle: "A Botanical Brewery can use Mana to create powerful and reusable potions",
+			dependencies: ["663E35409B5EA827"],
+			optional: true,
+			id: "26E2DFED52DBB2F6",
+			tasks: [{
+				id: "421F22199E47E5E8",
+				type: "item",
+				item: "botania:brewery"
+			}]
+		},
+		{
+			x: 16.0d,
+			y: -4.0d,
+			shape: "diamond",
+			subtitle: "The Gaia Guardian is a powerful entity, but the Gaia Spirits it drops will surely prove useful. Required to finish the Era of Creation.",
+			dependencies: [
+				"1A99C6281674DE7C",
+				"1119B900C1D0A4ED"
+			],
+			id: "38D10FFD0D8CA152",
+			tasks: [{
+				id: "02DA0625BF81F536",
+				type: "item",
+				item: "botania:life_essence"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 0.0d,
+			subtitle: "The Terra Truncator can cut down entire trees at once, at the cost of large amounts of Mana.",
+			dependencies: ["111B86AE41B02D70"],
+			optional: true,
+			id: "4C7D7A9EABF77336",
+			tasks: [{
+				id: "78A99538BECF4449",
+				type: "item",
+				item: {
+					id: "botania:terra_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			subtitle: "A Mana Fluxfield can convert Mana into electricity. Any more tech-savvy mage may find use in this.",
+			dependencies: ["48148EE28276AB64"],
+			optional: true,
+			id: "573D9BD499D8F6ED",
+			tasks: [{
+				id: "204D7C49AD392CFE",
+				type: "item",
+				item: "botania:mana_fluxfield"
+			}]
+		},
+		{
+			x: 16.0d,
+			y: -2.0d,
+			subtitle: "The Orechid costs large amounts of Mana, but from that it can turn nearby Stone into ores.",
+			dependencies: ["1119B900C1D0A4ED"],
+			optional: true,
+			id: "298FE0BAD49E65D4",
+			tasks: [{
+				id: "7684E4710E08A9EA",
+				type: "item",
+				item: "botania:orechid"
+			}]
+		},
+		{
+			title: "Corporea",
+			x: 14.0d,
+			y: -5.0d,
+			subtitle: "Corporea is a powerful system for managing large amounts of items wirelessly. Consult your Lexica Botanica for an in-depth explanation.",
+			dependencies: ["1119B900C1D0A4ED"],
+			optional: true,
+			id: "1E4A2EC5111CF337",
+			tasks: [
+				{
+					id: "34DBF0431E99C8CD",
+					type: "item",
+					item: "botania:corporea_spark_master"
+				},
+				{
+					id: "3BF3B17399BCB1AF",
+					type: "item",
+					item: "botania:corporea_spark"
+				},
+				{
+					id: "41AC6E7D3DDCD6FA",
+					type: "item",
+					item: "botania:corporea_index"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -6.0d,
+			subtitle: "A Celestial Gateway can act as a long range teleporter.",
+			dependencies: ["0CA03557153003A7"],
+			optional: true,
+			id: "140BBF063F2F861A",
+			tasks: [{
+				id: "32F4F351D7DCDB24",
+				type: "item",
+				item: {
+					id: "astralsorcery:celestial_gateway",
+					Count: 1b,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}]
+		},
+		{
+			title: "The Forest of Eternal Twilight",
+			icon: "twilightforest:twilight_portal_miniature_structure",
+			x: 12.0d,
+			y: 2.0d,
+			shape: "hexagon",
+			description: [
+				"Create a 2 by 2 pool of water, surround it with flowers, and drop a mana diamond inside to be transported to the Twilight Forest.",
+				"",
+				"There are many useful items and materials in here that will serve you well for future arcane pursuits."
+			],
+			dependencies: ["3D75721DA9392AA5"],
+			size: 1.5d,
+			id: "1B0B410B28EB378D",
+			tasks: [{
+				id: "46AE371D148B8493",
+				type: "dimension",
+				dimension: "twilightforest:twilightforest"
+			}],
+			rewards: [{
+				id: "760076AE879B7D47",
+				type: "item",
+				item: "twilightforest:magic_map_empty"
+			}]
+		},
+		{
+			title: "Magical Might!",
+			x: 18.0d,
+			y: -4.0d,
+			subtitle: "Craft a set of Terrasteel Armor.",
+			dependencies: ["38D10FFD0D8CA152"],
+			optional: true,
+			id: "242CA22C21CA3B56",
+			tasks: [
+				{
+					id: "600E32485DF1852E",
+					type: "item",
+					item: {
+						id: "botania:terrasteel_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "633F01D9F7524E21",
+					type: "item",
+					item: {
+						id: "botania:terrasteel_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "06412C069CCAD31E",
+					type: "item",
+					item: {
+						id: "botania:terrasteel_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4B82CE9DEDFDE874",
+					type: "item",
+					item: {
+						id: "botania:terrasteel_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "I Can See Clearly, Now",
+			x: 13.5d,
+			y: -7.5d,
+			subtitle: "The Observatory allows you to find Dim Constellations, which let you add powerful additional effects to rituals.",
+			dependencies: ["73A248C448C4C47D"],
+			id: "71852135BE64F35E",
+			tasks: [{
+				id: "0022194E216010D5",
+				type: "item",
+				item: "astralsorcery:observatory"
+			}]
+		},
+		{
+			title: "Efficient Collecting",
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal",
+				Count: 1b,
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia",
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size",
+									pLevel: 3,
+									discovered: 1b
+								},
+								{
+									property: "astralsorcery:purity",
+									pLevel: 2,
+									discovered: 1b
+								},
+								{
+									property: "astralsorcery:shape",
+									pLevel: 3,
+									discovered: 1b
+								},
+								{
+									property: "astralsorcery:collector.rate",
+									pLevel: 3,
+									discovered: 1b
+								},
+								{
+									property: "astralsorcery:constellation.discidia",
+									pLevel: 2,
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			},
+			x: 10.0d,
+			y: -6.0d,
+			subtitle: "You can also attune Collector Crystals to a particular constellation.",
+			description: ["If the constellation matches the constellation a ritual is attuned to, the collector crystal will provide the ritual with a small boost in effectiveness."],
+			dependencies: ["4483446C4DA06FCE"],
+			id: "228C6065C50852C7",
+			tasks: [{
+				id: "01CDC8AE6750360F",
+				type: "checkmark"
+			}]
+		}
+	]
+}

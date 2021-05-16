@@ -1,0 +1,120 @@
+{
+	id: "481D218E1815B49D",
+	group: "",
+	order_index: 5,
+	filename: "era_of_creation",
+	title: "Era of Creation",
+	icon: "kubejs:transcendium_ingot",
+	default_quest_shape: "circle",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "Uraninite is incredibly dense in energy, and has value both in crafting and as a fuel source for a specialized reactor. You will need a good amount of this, so make sure you are able to automate the ingredients required to make it.",
+			dependencies: [
+				"7DA6847CD760EB34",
+				"36367A18678E09A3"
+			],
+			id: "5D0D81D9E51AC854",
+			tasks: [{
+				id: "741555242ECF6453",
+				type: "item",
+				item: "powah:uraninite"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Dielectric Paste transmits electricity better than anything else, making it perfect for high-end electronics.",
+			dependencies: ["5D0D81D9E51AC854"],
+			id: "593458E8E1351193",
+			tasks: [{
+				id: "0DDE1385F6FE2513",
+				type: "item",
+				item: "powah:dielectric_paste"
+			}]
+		},
+		{
+			title: "Ultimate Crafting",
+			x: 4.0d,
+			y: 0.0d,
+			subtitle: "Ultimate Ingots are an incredibly expensive alloy used for crafting items normally exclusive to Creative Mode.",
+			dependencies: [
+				"593458E8E1351193",
+				"38D10FFD0D8CA152"
+			],
+			id: "4AF832B32DEBFBD1",
+			tasks: [{
+				id: "22DAF069FF4756EC",
+				type: "item",
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "The Creative Storage Upgrade can upgrade your Storage Drawer to hold (almost) an infinite quantity of items.",
+			dependencies: ["4AF832B32DEBFBD1"],
+			id: "62C2FBFF4871DA3B",
+			tasks: [{
+				id: "7F96E326A478D65E",
+				type: "item",
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			shape: "diamond",
+			subtitle: "The Creative Motor can supply a customizable amount of Rotational Force, requiring no energy input.",
+			dependencies: ["4AF832B32DEBFBD1"],
+			id: "7F105B513C128872",
+			tasks: [{
+				id: "22CF79EBAD9A32CD",
+				type: "item",
+				item: "create:creative_motor"
+			}]
+		},
+		{
+			title: "Nitro Reactor",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "This reactor will produce billions of FE/t, assuming you can supply it with enough Uraninite. Good luck.",
+			dependencies: ["593458E8E1351193"],
+			id: "563E5ACABDC911B1",
+			tasks: [{
+				id: "189A7B44352E83A9",
+				type: "item",
+				item: "powah:reactor_nitro",
+				count: 36L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			subtitle: "The Energizing Orb can use FE to create a variety of items.",
+			dependencies: ["593458E8E1351193"],
+			id: "17442ADE28BA9B49",
+			tasks: [{
+				id: "5897B4B6C4AED454",
+				type: "item",
+				item: "powah:energizing_orb"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "The Antiprotonic Nucleosynthesizer can be used for a variety of potent recipes, such as compressing Coal into Diamonds.",
+			dependencies: ["4AF832B32DEBFBD1"],
+			id: "369C01E276FD287F",
+			tasks: [{
+				id: "0A27FC80D4E32343",
+				type: "item",
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+	]
+}

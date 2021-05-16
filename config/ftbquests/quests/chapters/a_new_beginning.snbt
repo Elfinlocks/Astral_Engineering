@@ -1,0 +1,585 @@
+{
+	id: "24F728EF8FBE1617",
+	group: "",
+	order_index: 0,
+	filename: "a_new_beginning",
+	title: "Era of Introduction",
+	icon: "minecraft:grass_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 9.5d,
+			y: -3.5d,
+			subtitle: "Forge Bricks from Clay by the heat of a Campfire.",
+			description: [""],
+			dependencies: ["3C77B6E3F795CE27"],
+			id: "700881191CCA75DC",
+			tasks: [{
+				id: "799F4AAA918DE82F",
+				type: "item",
+				item: "minecraft:brick"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 0.0d,
+			subtitle: "Craft your first Furnace.",
+			description: [
+				"That's right! You get a whole iron pickaxe head, just like that, because the modpack author loves you very much.",
+				"",
+				"You can upgrade your stone pickaxe to iron anything, via the tinker station you just made earlier.",
+				"",
+				"You can't cast your own iron yet, but we're getting there!"
+			],
+			dependencies: [
+				"700881191CCA75DC",
+				"5D74AF12C8F91134"
+			],
+			size: 1.5d,
+			id: "1AF3E867A00953D7",
+			tasks: [{
+				id: "452C5BE79A6B398A",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [{
+				id: "42D4A06B5D856BFA",
+				type: "item",
+				item: {
+					id: "tconstruct:pickaxe_head",
+					Count: 1b,
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 0.0d,
+			subtitle: "Craft an Engineer's Hammer.",
+			dependencies: ["1AF3E867A00953D7"],
+			id: "3E2E706C04B33A45",
+			tasks: [{
+				id: "7702DDC68BD72434",
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Coke Oven",
+			x: 16.5d,
+			y: 1.5d,
+			subtitle: "Craft Coke Bricks. Left click for information on creating a Coke Oven.",
+			description: [
+				"Right click a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven.",
+				"",
+				"The Coke Oven will fill up with Creosote Oil and eventually stop working, so try to automate draining this as soon as possible."
+			],
+			dependencies: ["3E2E706C04B33A45"],
+			id: "75ACC6EA81DF8C4D",
+			tasks: [{
+				id: "67EDF398D500CD42",
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}]
+		},
+		{
+			title: "Blast Furnace",
+			x: 16.5d,
+			y: 0.0d,
+			subtitle: "Craft Blast Bricks. Left click for information on creating a Blast Furnace.",
+			description: [
+				"Right click a 3x3x3 cube of Blast Bricks with an Engineer's Hammer to make a Blast Furnace.",
+				"",
+				"A Blast Furnace will accept Coal Coke produced in a Coke Oven and Iron Ingots to slowly produce Steel."
+			],
+			dependencies: ["3E2E706C04B33A45"],
+			id: "0E1C4AEDB8594945",
+			tasks: [{
+				id: "2B20273225A90A38",
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}]
+		},
+		{
+			title: "Blazing Through",
+			x: 18.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Craft Steel in a Blast Furnace. Required to start the Era of Invention, and to progress the Era of the Arcane.",
+			dependencies: [
+				"0E1C4AEDB8594945",
+				"75ACC6EA81DF8C4D"
+			],
+			id: "031023A8EA6FD4D0",
+			tasks: [{
+				id: "5CFC34FC014226DE",
+				type: "item",
+				item: "immersiveengineering:ingot_steel"
+			}]
+		},
+		{
+			title: "Early Alloys",
+			x: 14.5d,
+			y: -2.0d,
+			subtitle: "Pewter Blend can be crafted using Tin and Lead. Smelt this for a Pewter Ingot.",
+			dependencies: ["3E2E706C04B33A45"],
+			id: "632ED810D5453781",
+			tasks: [{
+				id: "7027344EDDD2BB91",
+				type: "item",
+				item: "eidolon:pewter_ingot"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -3.5d,
+			subtitle: "A Crucible can, when given heat and water, be used to combine certain items.",
+			dependencies: ["632ED810D5453781"],
+			id: "331536656893BD82",
+			tasks: [{
+				id: "25034D878C6CBB58",
+				type: "item",
+				item: "eidolon:crucible"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -2.0d,
+			subtitle: "Consult your Ars Ecclesia for information on the Crystallization Ritual, used to obtain Soul Shards.",
+			dependencies: ["632ED810D5453781"],
+			id: "2D3D6EDBFDA95965",
+			tasks: [{
+				id: "48BF2DB2F3FA3627",
+				type: "item",
+				item: "eidolon:soul_shard"
+			}]
+		},
+		{
+			title: "Intro to the Arcane",
+			x: 18.5d,
+			y: -2.0d,
+			shape: "diamond",
+			subtitle: "Mix up a Lesser Soul Gem in your Crucible. Required to start the Era of the Arcane.",
+			dependencies: [
+				"2D3D6EDBFDA95965",
+				"331536656893BD82"
+			],
+			id: "6915EC195906281A",
+			tasks: [{
+				id: "3B07F279BF4260BE",
+				type: "item",
+				item: "eidolon:lesser_soul_gem"
+			}]
+		},
+		{
+			title: "Welcome to Astral Engineering!",
+			icon: "ftbquests:book",
+			x: -2.0d,
+			y: 0.0d,
+			shape: "octagon",
+			subtitle: "Left click for more information!",
+			description: [
+				"This Quest Book will serve as a guide for players who are having difficulty navigating this modpack. While it can't explain everything, it should give you enough information for you to be able to discover what you need on your own.",
+				"",
+				"Use of this Quest Book is entirely optional. There are no items that will be gated behind completion of certain quests, and in fact, many of the pathways this book will suggest can be overcome through different manners. ",
+				"",
+				'This book is seperated into multiple "Eras" which you can look through as you progress, along with another chapter that will introduce you to a variety of powerful tools you may not have discovered by yourself.',
+				"",
+				"Additionally, there is one more chapter that lists some optional challenges you may want to undertake. There is no reward, but their completion may require infrastructure that will be a huge help in your journey."
+			],
+			size: 1.5d,
+			id: "4983D289845799E1",
+			tasks: [{
+				id: "3D3D9A5D27DAD9FC",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Let's kick this off...",
+			x: -0.5d,
+			y: 0.0d,
+			description: [
+				"Our first step in getting back into the technological era is making it to the Stone Age. To do this, you'll need some pebbles. Luckily for you, they're laying all over the place.",
+				"",
+				"Pick up a few to complete this quest."
+			],
+			dependencies: ["4983D289845799E1"],
+			id: "1DB2A6AFE2AF850C",
+			tasks: [{
+				id: "0B3884BF8269FF66",
+				type: "item",
+				item: "natural-progression:stone_pebble",
+				count: 8L
+			}],
+			rewards: [{
+				id: "2B34E6E949606152",
+				type: "item",
+				item: "natural-progression:stone_pebble",
+				count: 4
+			}]
+		},
+		{
+			title: "Knapping Time!",
+			x: 1.0d,
+			y: 0.0d,
+			description: ["Next, you'll need to knap the pebbles together to get some flint. Do this by placing half of the pebbles in your main hand, and half in your off-hand. Hold down right click to knock them together to get some flint."],
+			dependencies: ["1DB2A6AFE2AF850C"],
+			id: "55E3B585CA78FDC1",
+			tasks: [{
+				id: "17CB14E51FAE00F9",
+				type: "item",
+				item: "minecraft:flint",
+				count: 3L
+			}],
+			rewards: [{
+				id: "405FF767050F64CC",
+				type: "item",
+				item: "farmersdelight:egg_sandwich"
+			}]
+		},
+		{
+			title: "Your First Tool!",
+			x: 2.5d,
+			y: 0.0d,
+			shape: "circle",
+			description: ["Now, we'll put together a flint hatchet using our flint, and some sticks. If you haven't found any sticks, you can get some by breaking leaf blocks."],
+			dependencies: ["55E3B585CA78FDC1"],
+			id: "135A2E7E28176AF2",
+			tasks: [{
+				id: "04856CC654D1CD73",
+				type: "item",
+				item: {
+					id: "natural-progression:flint_hatchet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "381D2065E75529E2",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			title: "Lumbering Around",
+			x: 4.0d,
+			y: 0.0d,
+			description: ["Next, let's get some actual wood to work with. First, we need to take our brand new Flint Hatchet, and strip a tree's wood with it. Then, chop the stripped log. Finally, place the stripped log and the Flint Hatchet in a crafting grid together to get planks. You need 4 in total."],
+			dependencies: ["135A2E7E28176AF2"],
+			id: "19AE69765EF8C5E8",
+			tasks: [{
+				id: "01DCD17AE28C83CB",
+				type: "item",
+				title: "Any #minecraft:planks",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:planks"
+					}
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: "5F8DDEBCDBDA42FA",
+				type: "item",
+				item: "minecraft:stick",
+				count: 3
+			}]
+		},
+		{
+			title: "Let's get down to crafting!",
+			x: 6.0d,
+			y: 0.0d,
+			description: [
+				"Finally, combine your four planks to create a basic Crafting Workbench.",
+				"",
+				"Your reward for your troubles is a Tinker's Station, which we'll use in a moment to make our first stone tools!"
+			],
+			dependencies: ["19AE69765EF8C5E8"],
+			size: 1.5d,
+			id: "3C77B6E3F795CE27",
+			tasks: [{
+				id: "2A1EB0E6B2B91D63",
+				type: "item",
+				title: "Any Workbench",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:workbenches"
+					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "2377B8C49065C064",
+				type: "item",
+				item: {
+					id: "tconstruct:tinker_station",
+					Count: 1b,
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			description: ["Now that we have a 3x3 crafting grid to work with, we can make a basic saw from flint and sticks. This will give you 4 planks per stripped log, instead of 1."],
+			dependencies: ["3C77B6E3F795CE27"],
+			id: "3D1E3C2796EF6995",
+			tasks: [{
+				id: "74BD02647B91F82B",
+				type: "item",
+				item: {
+					id: "natural-progression:basic_saw",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "158444E784288C8E",
+				type: "item",
+				item: "minecraft:stripped_oak_log",
+				count: 3
+			}]
+		},
+		{
+			title: "The OG Building Block",
+			x: 8.0d,
+			y: 2.0d,
+			description: [
+				"Craft some pebbles together to get some cobblestone blocks.",
+				"",
+				"Congratulations! You've made it to the stone age. Now we can really get moving..."
+			],
+			dependencies: ["3D1E3C2796EF6995"],
+			id: "3EF7AE55CEB3E6D0",
+			tasks: [{
+				id: "6FF622A12F50AE12",
+				type: "item",
+				title: "Any #forge:cobblestone",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:cobblestone"
+					}
+				},
+				count: 3L
+			}],
+			rewards: [{
+				id: "1F5CCDAD299F0240",
+				type: "item",
+				item: "tconstruct:pattern"
+			}]
+		},
+		{
+			title: "Old Reliable",
+			x: 11.0d,
+			y: 0.0d,
+			description: ["Craft a Stone Pickaxe."],
+			dependencies: ["145156D2151CB55D"],
+			id: "5D74AF12C8F91134",
+			tasks: [{
+				id: "6E0E37D85F1BD670",
+				type: "item",
+				item: {
+					id: "tconstruct:pickaxe",
+					Count: 1b,
+					tag: {
+						tic_stats: {
+							mining_speed: 4.4f,
+							attack: 2.0f,
+							reach: 5.0f,
+							durability: 104,
+							attack_speed: 1.2f,
+							harvest_level: 1
+						},
+						tic_broken: 0b,
+						tic_modifiers: [{
+							name: "tconstruct:stonebound",
+							level: 3s
+						}],
+						tic_materials: [
+							"tconstruct:stone",
+							"tconstruct:stone",
+							"tconstruct:stone"
+						],
+						Damage: 0,
+						tic_persistent_data: {
+							abilities: 1,
+							traits: 0,
+							upgrades: 3
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "6007B6B20D9FE176",
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: "5F9729B0E19AAA31",
+					type: "item",
+					item: "tconstruct:pattern",
+					count: 3
+				}
+			]
+		},
+		{
+			title: "Stone-Age Arsenal!",
+			x: 9.5d,
+			y: -1.0d,
+			description: ["Craft yourself 2 stone axe heads, a stone blade, and a stone kama head to make yourself a mattock, a hand-axe, and a sword."],
+			dependencies: ["5D74AF12C8F91134"],
+			id: "1EFF2408D0597172",
+			tasks: [
+				{
+					id: "16F95C0A8C1092E9",
+					type: "item",
+					item: {
+						id: "tconstruct:axe_head",
+						Count: 1b,
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					},
+					count: 2L
+				},
+				{
+					id: "434F190DA7A3FF56",
+					type: "item",
+					item: {
+						id: "tconstruct:kama_head",
+						Count: 1b,
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				},
+				{
+					id: "16FB5765E474CEDD",
+					type: "item",
+					item: {
+						id: "tconstruct:sword_blade",
+						Count: 1b,
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "01B42528428DC318",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			title: "Getting Ahead",
+			x: 11.0d,
+			y: 2.0d,
+			description: ["Next, use your shiny Tinker Station to make a Stone Pickaxe Head!"],
+			dependencies: ["70003EB0C320E474"],
+			id: "145156D2151CB55D",
+			tasks: [{
+				id: "195C18DB1F93B49C",
+				type: "item",
+				item: {
+					id: "tconstruct:pickaxe_head",
+					Count: 1b,
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "12A6748F99906E52",
+					type: "item",
+					item: {
+						id: "tconstruct:tool_binding",
+						Count: 1b,
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				},
+				{
+					id: "2D09DDDAEB96DCEA",
+					type: "item",
+					item: {
+						id: "tconstruct:tool_handle",
+						Count: 1b,
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "ImPARTial Crafting",
+			x: 9.5d,
+			y: 2.0d,
+			description: ["Make a Part Table, and use your pattern to make a Stone Pickaxe Head."],
+			dependencies: ["3EF7AE55CEB3E6D0"],
+			id: "70003EB0C320E474",
+			tasks: [{
+				id: "76C5123794913C09",
+				type: "item",
+				title: "Part Table",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+		},
+		{
+			title: "Easy Storage, Easy Life",
+			icon: "sophisticatedbackpacks:backpack",
+			x: -0.5d,
+			y: -2.0d,
+			description: [
+				"This is your basic starter backpack, capable of holding extra gear. In addition, it gains upgrade slots as you upgrade the backpack itself - check out the Handy Tools quest chapter for more info.",
+				"",
+				"Tip: Shift-click when holding your backpack to open it up! ",
+				"",
+				"Bonus Tip: You can wear these in your bauble slot!"
+			],
+			dependencies: ["4983D289845799E1"],
+			id: "5930B15B7CA1A44E",
+			tasks: [{
+				id: "6F72672DE5BE20ED",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "4FA970856EEF72B1",
+				type: "item",
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+	]
+}

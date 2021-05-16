@@ -1,0 +1,487 @@
+{
+	id: "61A770E27D4F8C3B",
+	group: "",
+	order_index: 1,
+	filename: "era_of_sustainability",
+	title: "Era of Sustainability",
+	icon: "farmersdelight:honey_glazed_ham_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 3.0d,
+			y: 2.0d,
+			subtitle: "Pigs can drop Ham when killed with a Flint Knife, as well as having large litters when bred.",
+			dependencies: ["484335796DA3D55B"],
+			id: "033327D0C0939A5D",
+			tasks: [{
+				id: "09D6C85F39EDEF24",
+				type: "item",
+				item: "farmersdelight:ham"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			subtitle: "A Crock Pot can be used to mix foods into a variety of new recipes. Many of these meals can have special effects!",
+			dependencies: ["484335796DA3D55B"],
+			id: "2FC5BC222CE3DBB4",
+			tasks: [{
+				id: "7BBB6F62A102FCF7",
+				type: "item",
+				item: "crockpot:crock_pot_basic"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.0d,
+			subtitle: "An upgraded Crock Pot, used to create even more recipes.",
+			dependencies: ["2FC5BC222CE3DBB4"],
+			id: "6253736D58DC8BE2",
+			tasks: [{
+				id: "5B9362D6B36801B8",
+				type: "item",
+				item: "crockpot:crock_pot_advanced"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			subtitle: "Eating a diverse set of meals will allow you to grow stronger. Craft a Food Book to keep track of recent meals. Left click for more information.",
+			description: [
+				"Every food item contributes a certain amount to your Food Diversity. As you consume a wider variety of meals, you will obtain stat buffs that last as long as you are able to maintain the varied diet. A poor diet won't hurt you, but its certainly in your best interest to keep a diverse set of meals.",
+				"",
+				"By default, a food item will contribute one point to your Food Diversity. However, foods which give you more will have a tooltip displaying how much they are worth.",
+				"",
+				"Note that the more times you have eaten between an old meal and your current, the less the old meal will contribute to your Food Diversity.",
+				"",
+				'You can type "Food Diversity" into JEI in order to see a list of meals with customized Food Diversity values.'
+			],
+			size: 1.5d,
+			id: "484335796DA3D55B",
+			tasks: [{
+				id: "15757FC1D69A6C41",
+				type: "item",
+				item: "solcarrot:food_book"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -7.0d,
+			subtitle: "The ultimate Crock Pot, for creating meals fit for a king.",
+			dependencies: ["6253736D58DC8BE2"],
+			id: "6FA822B4FEC59E3A",
+			tasks: [{
+				id: "142754F0A0B871F8",
+				type: "item",
+				item: "crockpot:crock_pot_ultimate"
+			}]
+		},
+		{
+			title: "Old McPumpkin",
+			x: -3.0d,
+			y: -2.0d,
+			subtitle: "A Carved Pumpkin placed above a Hay Bale will summon a minion to tend to your crops.",
+			dependencies: ["484335796DA3D55B"],
+			id: "43DDADA6C0A42D91",
+			tasks: [
+				{
+					id: "3A225B673AF1B1D6",
+					type: "item",
+					item: "minecraft:hay_block"
+				},
+				{
+					id: "0B4E1D90FD6A3BAA",
+					type: "item",
+					item: "minecraft:carved_pumpkin"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -3.0d,
+			subtitle: "Organic Compost will decay into Rich Soil when placed in the world, creating earth perfect for farming.",
+			dependencies: ["484335796DA3D55B"],
+			id: "3EE2B749DB28A779",
+			tasks: [{
+				id: "31D32BC0404047E4",
+				type: "item",
+				item: "farmersdelight:organic_compost"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			subtitle: "A Cooking Pot can be used to create a variety of meals. Remember to have a heat source below!",
+			dependencies: ["484335796DA3D55B"],
+			id: "741D6A06592385E0",
+			tasks: [{
+				id: "47CC0B316EDBBF9F",
+				type: "item",
+				item: "farmersdelight:cooking_pot"
+			}]
+		},
+		{
+			title: "Fine Dining",
+			x: 2.0d,
+			y: 3.0d,
+			subtitle: "Create some of the finest meals known to man.",
+			dependencies: ["484335796DA3D55B"],
+			id: "1EDC60A75E0AF309",
+			tasks: [
+				{
+					id: "4E72DE008FAAC3A3",
+					type: "item",
+					item: "farmersdelight:stuffed_pumpkin_block"
+				},
+				{
+					id: "33B7019E1DFCCCF2",
+					type: "item",
+					item: "farmersdelight:honey_glazed_ham_block"
+				},
+				{
+					id: "4B05D4A74B5D6174",
+					type: "item",
+					item: "farmersdelight:roast_chicken_block"
+				},
+				{
+					id: "7448A3B0A2B0680F",
+					type: "item",
+					item: "crockpot:surf_n_turf"
+				},
+				{
+					id: "590E54B1C7D76DEE",
+					type: "item",
+					item: "crockpot:tropical_bouillabaisse"
+				},
+				{
+					id: "7C7ABC39B10E3AA6",
+					type: "item",
+					item: "crockpot:tea"
+				}
+			]
+		},
+		{
+			title: "Personalized Kitchen",
+			x: 3.0d,
+			y: -3.0d,
+			subtitle: "Creating a Cooking Table will allow you easy access to any food stored in connected Kitchen Counters, or other similar blocks.",
+			dependencies: ["484335796DA3D55B"],
+			id: "27F3D40913A09CFB",
+			tasks: [
+				{
+					id: "55E20B103D6D5490",
+					type: "item",
+					item: "cookingforblockheads:cooking_table"
+				},
+				{
+					id: "00ACC381976647F2",
+					type: "item",
+					item: "cookingforblockheads:counter"
+				},
+				{
+					id: "07713EF44A2D2EAE",
+					type: "item",
+					item: "cookingforblockheads:cabinet"
+				},
+				{
+					id: "76C245F2F5EA45D1",
+					type: "item",
+					item: "cookingforblockheads:fruit_basket"
+				},
+				{
+					id: "7EBC24C412747775",
+					type: "item",
+					item: "cookingforblockheads:spice_rack"
+				}
+			]
+		},
+		{
+			title: "Kitchen Utilities",
+			x: 5.0d,
+			y: -3.0d,
+			subtitle: "These items can provide additional functionality to your kitchen.",
+			dependencies: ["27F3D40913A09CFB"],
+			id: "267BDB02DD8DF18B",
+			tasks: [
+				{
+					id: "421A9D02258F497A",
+					type: "item",
+					item: "cookingforblockheads:milk_jar"
+				},
+				{
+					id: "4C77FC5BE5911F93",
+					type: "item",
+					item: "cookingforblockheads:sink"
+				}
+			]
+		},
+		{
+			title: "A Healthy Breakfast",
+			x: 2.0d,
+			y: -3.0d,
+			subtitle: "Pancakes can be placed and stacked on top of eachother, and then topped with either Syrup (refined from Sap) or Honey.",
+			dependencies: ["484335796DA3D55B"],
+			id: "7E0A31F3DB1BD4A7",
+			tasks: [{
+				id: "7BA19F8F59473121",
+				type: "item",
+				item: "supplementaries:pancake"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			subtitle: "Honey is a valuable ingredient in the kitchen. Make sure you have an ample supply of it. Using Mana, you might be able to create some from other ingredients.",
+			dependencies: ["484335796DA3D55B"],
+			id: "294428D258FCD574",
+			tasks: [{
+				id: "2BDEB2F9AEDD563E",
+				type: "item",
+				item: "minecraft:honey_bottle"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.0d,
+			subtitle: "A normal Watercan won't be very good, but in a pinch it can serve as a way to grow crops quicker.",
+			dependencies: ["484335796DA3D55B"],
+			id: "13AEA0CDD38B98BD",
+			tasks: [{
+				id: "73875F5BCC462D19",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:watering_can",
+					Count: 1b,
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.0d,
+			subtitle: "The Iron Watercan is a better alternative to the wooden one, storing more water and growing crops over a larger area.",
+			dependencies: ["13AEA0CDD38B98BD"],
+			id: "1E0EBE0074291F20",
+			tasks: [{
+				id: "324E435D2E84F01F",
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_watering_can",
+					Count: 1b,
+					tag: {
+						Water: 0b,
+						Active: 0b
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.0d,
+			subtitle: "A Seed Pouch can store and plant up to 10 stacks of seeds.",
+			dependencies: ["484335796DA3D55B"],
+			id: "0D347A2CBEE59716",
+			tasks: [{
+				id: "556BF091EF89C8E4",
+				type: "item",
+				item: {
+					id: "quark:seed_pouch",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			subtitle: "Chilloos spawn rarely in snowy biomes. They can dig up Carrots, Potatoes, and Frozen Truffles if they are above any dirt-like block.",
+			dependencies: ["484335796DA3D55B"],
+			id: "7E667E293C497757",
+			tasks: [{
+				id: "1BAC5F28816B0FD3",
+				type: "item",
+				item: "frozenup:frozen_truffle"
+			}]
+		},
+		{
+			title: "Pie",
+			x: 1.0d,
+			y: 3.0d,
+			subtitle: "Pie.",
+			dependencies: ["484335796DA3D55B"],
+			id: "4C1008C39CA7FFF2",
+			tasks: [
+				{
+					id: "4BCB677B79133BD7",
+					type: "item",
+					item: "farmersdelight:apple_pie"
+				},
+				{
+					id: "75989A9A2E3DB997",
+					type: "item",
+					item: "farmersdelight:chocolate_pie"
+				},
+				{
+					id: "69D3ECF8F8F851B2",
+					type: "item",
+					item: "minecraft:pumpkin_pie"
+				}
+			]
+		},
+		{
+			title: "Not a lie",
+			x: 0.0d,
+			y: 5.0d,
+			subtitle: "Craft one of every available cake.",
+			dependencies: ["7E667E293C497757"],
+			id: "7E2908135D3906E1",
+			tasks: [
+				{
+					id: "3F28C7259103F2AA",
+					type: "item",
+					item: "minecraft:cake"
+				},
+				{
+					id: "76555301E6027A61",
+					type: "item",
+					item: "farmersdelight:sweet_berry_cheesecake"
+				},
+				{
+					id: "411BD3151027D964",
+					type: "item",
+					item: "frozenup:truffle_cake"
+				},
+				{
+					id: "70719BEF443DFB7B",
+					type: "item",
+					item: "neapolitan:chocolate_cake"
+				},
+				{
+					id: "64005B036CBE4606",
+					type: "item",
+					item: "neapolitan:strawberry_cake"
+				},
+				{
+					id: "11E7818170FA31AE",
+					type: "item",
+					item: "neapolitan:vanilla_cake"
+				},
+				{
+					id: "48C2AA39EC7B0A7C",
+					type: "item",
+					item: "neapolitan:banana_cake"
+				},
+				{
+					id: "3FA34372CC407D7D",
+					type: "item",
+					item: "neapolitan:mint_cake"
+				},
+				{
+					id: "7394BF67FF9692D8",
+					type: "item",
+					item: "neapolitan:adzuki_cake"
+				},
+				{
+					id: "692809320BC42116",
+					type: "item",
+					item: "autumnity:pancake"
+				}
+			]
+		},
+		{
+			title: "Gone Fishing",
+			x: -3.0d,
+			y: 2.0d,
+			subtitle: "With an upgraded rod and a Tackle Box, fish will be easier than ever to find.",
+			dependencies: ["484335796DA3D55B"],
+			id: "1D5642DA68EB7BE2",
+			tasks: [
+				{
+					id: "599D2241AFDC7F81",
+					type: "item",
+					item: {
+						id: "aquaculture:iron_fishing_rod",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2B7DC4427E38A7D9",
+					type: "item",
+					item: "aquaculture:tackle_box"
+				}
+			]
+		},
+		{
+			title: "They Came from the Tunnels",
+			x: -3.0d,
+			y: 3.0d,
+			subtitle: "A Worm Farm can be given a variety of plants in order to generate Worms.",
+			dependencies: ["484335796DA3D55B"],
+			id: "12E91937FC15A637",
+			tasks: [{
+				id: "674743121D2DE478",
+				type: "item",
+				item: "aquaculture:worm_farm"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			subtitle: "There is a wide variety of treasure that you can find under the waves.",
+			dependencies: ["1D5642DA68EB7BE2"],
+			id: "42AF545672802A08",
+			tasks: [{
+				id: "38B24752954C6FF8",
+				type: "item",
+				item: "aquaculture:neptunes_bounty"
+			}]
+		},
+		{
+			title: "Chocolate!",
+			x: 2.5d,
+			y: 0.0d,
+			subtitle: "I remember when they invented chocolate...",
+			description: ["Make yourself a saucepan, and you can start cooking up Chocolate! This stuff is very useful for making Stamina Vessels (see Handy Tools quest chapter)."],
+			dependencies: ["484335796DA3D55B"],
+			id: "7240F78BAAF1E2AD",
+			tasks: [{
+				id: "7A40DAD4F90D67B5",
+				type: "item",
+				item: "pamhc2foodcore:saucepanitem"
+			}],
+			rewards: [
+				{
+					id: "5EDEE9C12EB27F6A",
+					type: "item",
+					item: "minecraft:cocoa_beans",
+					count: 3
+				},
+				{
+					id: "08CAFBB873EEF2C9",
+					type: "item",
+					item: "minecraft:jungle_sapling"
+				}
+			]
+		},
+		{
+			title: "I cooka da meatboll",
+			x: 5.0d,
+			y: -2.0d,
+			description: ["Use your new cooking pot to make some meatball pasta."],
+			dependencies: ["741D6A06592385E0"],
+			id: "6180348C15622FE1",
+			tasks: [{
+				id: "46FC411554D288A7",
+				type: "item",
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+		}
+	]
+}
