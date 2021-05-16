@@ -1,0 +1,1 @@
+<recipetype:create:crushing>.addRecipe("log_crushing", [<item:farmersdelight:tree_bark> * 3, <item:farmersdelight:tree_bark> % 80, <item:farmersdelight:tree_bark> * 3 % 10], <tag:items:minecraft:logs>);

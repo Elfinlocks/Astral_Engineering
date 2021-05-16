@@ -1,0 +1,1 @@
+craftingTable.addShapeless("seashells", <item:projectvibrantjourneys:seashells>, [<item:immersiveengineering:hammer>, <item:minecraft:nautilus_shell>]);
