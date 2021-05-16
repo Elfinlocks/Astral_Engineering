@@ -1,0 +1,9 @@
+##    Ore Tweaker - Information   ##
+
+Edit the OreTweaker.json file generated on launch to tweak ore generation
+By default the file mimics vanilla world generation settings.
+Check out more info on the wiki at https://github.com/EwyBoy/OreTweaker/wiki
+
+Bugs can be reported here at https://github.com/EwyBoy/OreTweaker/issues
+
+-Ewy
