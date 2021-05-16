@@ -1,0 +1,34 @@
+
+#Common configuration settings
+[common]
+
+	#Vein Goblin Trader settings
+	[common.vein_goblin_trader]
+		#The minimum level the trader can spawn
+		#Range: 0 ~ 256
+		traderMinSpawnLevel = 0
+		#The maximum level the trader can spawn
+		#Range: 0 ~ 256
+		traderMaxSpawnLevel = 128
+		#The amount of ticks before the trader will spawn again
+		#Range: > 0
+		traderSpawnDelay = 24000
+		#The chance out of one hundred that the trader will spawn in the over world
+		#Range: 1 ~ 100
+		traderSpawnChance = 25
+
+	#Goblin Trader settings
+	[common.goblin_trader]
+		#The minimum level the trader can spawn
+		#Range: 0 ~ 256
+		traderMinSpawnLevel = 0
+		#The maximum level the trader can spawn
+		#Range: 0 ~ 256
+		traderMaxSpawnLevel = 64
+		#The amount of ticks before the trader will spawn again
+		#Range: > 0
+		traderSpawnDelay = 24000
+		#The chance out of one hundred that the trader will spawn in the over world
+		#Range: 1 ~ 100
+		traderSpawnChance = 25
+

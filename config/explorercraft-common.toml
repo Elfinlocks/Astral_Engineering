@@ -1,0 +1,47 @@
+
+["Bamboo Grove World Generation"]
+	#Spawn Bamboo Groves in Overworld
+	spawnBambooGroves = true
+	#Bamboo Grove rarity - Higher equals more frequent
+	#Range: 0 ~ 30
+	bambooGroveRarity = 5
+	#Spawn Jade in the Bamboo Grove
+	spawnJade = true
+	#Spawn rice paddies in the Bamboo Grove
+	spawnRicePaddies = true
+	#Spawn Cherry blossom center pieces inside the Bamboo Grove
+	spawnCherryBlossomStructures = true
+	#Spawn giant Torii gates inside the Bamboo Grove
+	spawnToriiGates = true
+
+["Vanilla Tweaks"]
+	#Allow Horses to swim - (They wont buck you off if in deep water)
+	swimmingHorse = true
+	#Spawn slimey caves in Overworld
+	spawnSpawnChunkCaves = true
+	#Allow noctilucas to spawn naturally in the world
+	spawnNoctilucas = true
+	#Spawn Forested Mountains in Overworld
+	spawnForestedMountain = true
+	#Forested Mountain rarity - Higher equals more frequent
+	#Range: 0 ~ 100
+	forestedMountainRarity = 5
+	#Spawn Marble in Forested Mountain (has a much higher ratio)
+	spawnMarbleInForestedMountains = true
+	#Spawn Marble in Overworld
+	spawnMarbleInOverworld = true
+	#Size of Marble vein in the Forested Mountain biome
+	#Range: 0 ~ 64
+	marbleVeinSizeInForestedMountains = 64
+	#Chance of spawning Marble in the Forested Mountain biome
+	#Range: 0 ~ 100
+	marbleChanceInForestedMountains = 60
+	#Size of Marble vein generated all over the Overworld
+	#Range: 0 ~ 64
+	marbleVeinSizeInOverworld = 20
+	#Chance of spawning Marble in the Overworld
+	#Range: 0 ~ 100
+	marbleChanceInOverworld = 10
+	#Spawn Temple Ruins in the Forested Mountains
+	spawnTempleRuins = true
+

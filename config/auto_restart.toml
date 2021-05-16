@@ -1,0 +1,13 @@
+#Should the Server do automatic restarts?
+auto_restart = false
+#Times in 24 hour format on with the server will automaticaly restarts.
+restart_times = ["14:00", "16:32"]
+#Message that is shown on auto restart.
+restart_message = "Server will auto restart."
+#Is the server started by an external restart script?
+uses_restart_script = false
+#Should the server be automatically restarted when it crashes.
+restart_on_crash = false
+#Command that is executed on Server stopped to restart the server. Only called if [uses_restart_script] is false.
+restart_command = ""
+

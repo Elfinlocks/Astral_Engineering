@@ -1,0 +1,17 @@
+
+#No comment
+[Configuration]
+	#Enable the Environment Detector or not.
+	enableEnvironmentDetector = true
+	#Enable the Rs Bridge or not.
+	enableRsBridge = true
+	#Enable the Player Detector or not.
+	enablePlayerDetector = true
+	#Enable the Chat Box or not.
+	enableChatBox = true
+	#Enable the Me Bridge or not.
+	enableMeBridge = true
+	#This deactivates the methods and the event of the chat box.
+	#Range: > 1
+	chatBoxCooldown = 10
+
