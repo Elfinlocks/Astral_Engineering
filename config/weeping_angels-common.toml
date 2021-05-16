@@ -1,0 +1,81 @@
+
+[world_gen]
+	#Config to toggle the generation of arms in snow biomes
+	arms = false
+	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
+	genCatacombs = true
+	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
+	genGraveyard = true
+	#Configure whether the mods ores spawn. This MAY require a restart when changed.
+	genOres = false
+
+[spawn]
+	#Note: A list of biomes where angels should spawn.
+	allowedBiomes = ["minecraft:taiga_hills", "minecraft:taiga", "minecraft:desert", "minecraft:desert_hills", "minecraft:plains", "minecraft:swamp", "minecraft:beach", "minecraft:snowy_taiga"]
+	#Angel spawn type
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT, MISC
+	spawnType = "MONSTER"
+	#The maximum amount of angels per biome
+	#Range: 1 ~ 100
+	maximumSpawn = 1
+	#The angel spawn spawn weight
+	#Range: 1 ~ 100
+	spawnWeight = 5
+	#The minimum amount of angels per biome
+	#Range: 1 ~ 100
+	minimumSpawn = 1
+
+[angel]
+	#if enabled, Only pickaxes and generators will work on the angels
+	pickaxeOnly = true
+	#The damage dealt by an angel
+	#Range: 1.0 ~ 1.7976931348623157E308
+	damage = 8.0
+	#XP gained from angels
+	#Range: > 1
+	xpGained = 25
+	#Determines the range the angels will look for players within, personally, I'd stay under 100
+	#Range: 1 ~ 100
+	stalkRange = 65
+	#The maximum range a angel can break blocks within
+	#Range: 1 ~ 120
+	blockBreakRange = 5
+	#If this is enabled, baby angels will blow out light items from the players hand
+	torchBlowOut = true
+	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
+	freezeOnAngel = false
+	#If this is enabled, angels will break blocks (If gamerules allow)
+	blockBreaking = true
+	#Toggle seen sounds
+	playSeenSounds = true
+	#If this is enabled, the timey wimey detector can blow up chickens when in use randomly
+	chickenGoboom = true
+	#Non-child angels play scraping sounds when moving, this toggles that
+	playScrapeSound = true
+	#Damage Type For Angels
+	#Allowed Values: NOTHING, ANY_PICKAXE_AND_GENERATOR_ONLY, ANY_PICKAXE_ONLY, DIAMOND_AND_ABOVE_PICKAXE_ONLY, GENERATOR_ONLY
+	damageType = "ANY_PICKAXE_AND_GENERATOR_ONLY"
+	#Determines the angels move speed
+	#Range: 0.1 ~ 1.7976931348623157E308
+	angelMovementSpeed = 0.5
+
+[teleport]
+	#Note: This a list of dimensions that angels should NOT teleport you to.
+	notAllowedDimensions = ["minecraft:the_end"]
+	#Should Angels target creative players?
+	aggroCreative = false
+	#The maximum range a user can be teleported by the Angels
+	#Range: > 1
+	teleportRange = 450
+	#If this is enabled, angel teleporting can also tp the player to other dimensions
+	angelDimTeleport = false
+	#Teleport Type - STRUCTURES: Teleports you to Structures Only - DONT: No Teleporting, only damage - RANDOM: Anywhere
+	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
+	teleportType = "RANDOM_PLACE"
+	#just teleport. no damage.
+	justTeleport = false
+
+[block]
+	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
+	spawnFromBlocks = false
+

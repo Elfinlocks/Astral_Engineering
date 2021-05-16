@@ -1,0 +1,40 @@
+
+#War of the Worlds Mod Config
+["WOTWMod [General]"]
+	#Enables and disables the spreading of all redweed blocks (Default: True)
+	redweed_spread = false
+	#Tree capitator style tree cutting (only on y axis) off by default (Default: False)
+	tree_fell = false
+	#Configures whether hostile vanilla mobs will spawn naturally (Default: True)
+	vanilla_mobs = true
+	#The higher this value, the slower redweed spreads (Default: 300)
+	#Range: 30 ~ 100000
+	redweedspread = 300
+	#Configures the light level martians can spawn in 0.5 is daylight (Default: 0.5)
+	#Range: 0.0 ~ 1.0
+	martian_light_level_spawn = 0.0
+
+#War of the Worlds Mod Config
+["WOTWMod [Greifing]"]
+	#Changes the blast radius of miners tnt (Default: 5)
+	#Range: 0 ~ 30
+	mining_tnt_radius = 5
+	#Enables and disables the martian mining laser (Default: True)
+	martian_mining_laser_enabled = false
+	#Enables and disables the rpg (Default: True)
+	rpg_enabled = false
+	#Enables and disables Molotovs (Default: True)
+	molotov_enabled = false
+	#Enables and disables the nuke block (Default: True)
+	nuke_enabled = false
+
+#War of the Worlds Mod Config
+["WOTWMod [Difficulty]"]
+	#Changes the blast radius of martian laser impacts (Default: 1)
+	#Range: 1 ~ 100
+	martian_explosion_radius = 1
+	#Toggle if scalpers can actually pickup blocks (Default: True)
+	scalper_pickup = true
+	#Toggles martians actually blowing stuff up (Default: True)
+	destruction = true
+
