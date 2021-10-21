@@ -1,13 +1,103 @@
 [
-	{
-		"dimension": "wotwmod:mars",
-		"mod": "wotwmod",
-		"onjoin": true,
-		"result": "allow",
-		"healthmultiply": 2,
-		"damagemultiply": 2
-	},
-	{
-		"result": "deny"
-	}
+  {
+    "dimension": "boss_tools:mars",
+	"onjoin": true,
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "tconstruct:sky_slime",
+	  "tconstruct:earth_slime",
+	  "artifacts:mimic"
+    ],
+    "result": "deny"
+  },
+  {
+	"dimension": "boss_tools:mars",
+	"mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"],
+	"result": "allow",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "armorhelmet": "boss_tools:oxygen_mask",
+	"armorboots": "boss_tools:space_boots",
+	"armorlegs": "boss_tools:space_suit",
+	"armorchest": "boss_tools:space_pants"
+  },
+  {
+    "dimension": "boss_tools:mercury",
+	"onjoin": true,
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "tconstruct:sky_slime",
+	  "tconstruct:earth_slime",
+	  "artifacts:mimic"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "boss_tools:moon",
+	"onjoin": true,
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "tconstruct:earth_slime",
+	  "artifacts:mimic"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "boss_tools:mercury",
+	"result": "allow",
+    "mob": [
+      "minecraft:magma_cube"
+    ],
+    "healthmultiply": 4,
+	"damagemultiply": 3
+  },
+  {
+    "dimension": "boss_tools:mercury",
+	"result": "allow",
+    "mob": [
+	  "thermal:basalz"
+    ],
+    "healthmultiply": 2,
+	"damagemultiply": 2
+  },
+  {
+    "dimension": "mythicbotany:alfheim",
+	"onjoin": true,
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "artifacts:mimic"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "twilightforest:twilightforest",
+	"onjoin": true,
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "artifacts:mimic"
+    ],
+    "result": "deny"
+  }
 ]

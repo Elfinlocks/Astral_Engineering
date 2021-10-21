@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "libvulpes:orerutile",
+      "filler": "boss_tools:mercury_cobblestone",
+      "minY": 1,
+      "maxY": 50,
+      "maxVeinSize": 3,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

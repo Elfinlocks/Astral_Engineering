@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/electrolyser_item_port_items_input"
+    }
+  }
+}

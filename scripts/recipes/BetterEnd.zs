@@ -1,0 +1,1 @@
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("aeternium", <tag:items:forge:ingots/terminite> * 2, [<item:minecraft:netherite_ingot> * 1], 60, 120000, [<item:betterendforge:aeternium_ingot>]);

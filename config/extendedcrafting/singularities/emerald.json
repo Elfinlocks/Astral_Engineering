@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.emerald",
+  "materialCount": 2500,
   "colors": [
     "41f384",
     "aa2c"

@@ -1,7 +1,7 @@
 
 [world_gen]
 	#Config to toggle the generation of arms in snow biomes
-	arms = false
+	arms = true
 	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
 	genCatacombs = true
 	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
@@ -11,16 +11,16 @@
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
-	allowedBiomes = ["minecraft:taiga_hills", "minecraft:taiga", "minecraft:desert", "minecraft:desert_hills", "minecraft:plains", "minecraft:swamp", "minecraft:beach", "minecraft:snowy_taiga"]
+	allowedBiomes = ["boss_tools:mercury_biome", "boss_tools:mars_biome"]
 	#Angel spawn type
 	#Allowed Values: MONSTER, CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT, MISC
 	spawnType = "MONSTER"
 	#The maximum amount of angels per biome
 	#Range: 1 ~ 100
-	maximumSpawn = 1
+	maximumSpawn = 3
 	#The angel spawn spawn weight
 	#Range: 1 ~ 100
-	spawnWeight = 5
+	spawnWeight = 3
 	#The minimum amount of angels per biome
 	#Range: 1 ~ 100
 	minimumSpawn = 1
@@ -30,10 +30,10 @@
 	pickaxeOnly = true
 	#The damage dealt by an angel
 	#Range: 1.0 ~ 1.7976931348623157E308
-	damage = 8.0
+	damage = 12.0
 	#XP gained from angels
 	#Range: > 1
-	xpGained = 25
+	xpGained = 50
 	#Determines the range the angels will look for players within, personally, I'd stay under 100
 	#Range: 1 ~ 100
 	stalkRange = 65
@@ -41,11 +41,11 @@
 	#Range: 1 ~ 120
 	blockBreakRange = 5
 	#If this is enabled, baby angels will blow out light items from the players hand
-	torchBlowOut = true
+	torchBlowOut = false
 	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
 	freezeOnAngel = false
 	#If this is enabled, angels will break blocks (If gamerules allow)
-	blockBreaking = true
+	blockBreaking = false
 	#Toggle seen sounds
 	playSeenSounds = true
 	#If this is enabled, the timey wimey detector can blow up chickens when in use randomly
@@ -54,10 +54,12 @@
 	playScrapeSound = true
 	#Damage Type For Angels
 	#Allowed Values: NOTHING, ANY_PICKAXE_AND_GENERATOR_ONLY, ANY_PICKAXE_ONLY, DIAMOND_AND_ABOVE_PICKAXE_ONLY, GENERATOR_ONLY
-	damageType = "ANY_PICKAXE_AND_GENERATOR_ONLY"
+	damageType = "DIAMOND_AND_ABOVE_PICKAXE_ONLY"
 	#Determines the angels move speed
 	#Range: 0.1 ~ 1.7976931348623157E308
 	angelMovementSpeed = 0.5
+	#Note: This a list of Angel Variations that are allowed
+	allowedTypes = ["VILLAGER", "ANGELA_MC", "ED", "CHERUB", "VIO_1", "VIO_2", "A_DIZZLE"]
 
 [teleport]
 	#Note: This a list of dimensions that angels should NOT teleport you to.

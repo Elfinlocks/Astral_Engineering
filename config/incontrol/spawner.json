@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton"],
+    "persecond": 1.0,
+    "attempts": 20,
+    "amount": {
+      "minimum": 3,
+      "maximum": 7
+    },
+    "conditions": {
+      "dimension": "boss_tools:mars",
+      "mindist": 3,
+      "maxdist": 60,
+      "minheight": 60,
+      "maxheight": 85,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": ["thermal:basalz", "minecraft:magma_cube"],
+    "persecond": 1.0,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 6
+    },
+    "conditions": {
+      "dimension": "boss_tools:mercury",
+      "mindist": 3,
+      "maxdist": 60,
+      "minheight": 60,
+      "maxheight": 85,
+      "maxthis": 5
+    }
+  },
+  {
+	"dimension": "minecraft:overworld",
+    "mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "eidolon:wraith"
+	],
+    "persecond": 1.0,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "maxthis": 3
+    }
+  }
+]

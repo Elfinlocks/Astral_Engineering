@@ -1,0 +1,34 @@
+{
+  "oreConfig": [
+    {
+      "ore": "libvulpes:orealuminum",
+      "filler": "botania:livingrock",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 8,
+      "spawnRate": 12.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "libvulpes:orealuminum",
+      "filler": "boss_tools:venus_stone",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 8,
+      "spawnRate": 12.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "libvulpes:orealuminum",
+      "filler": "boss_tools:mercury_cobblestone",
+      "minY": 1,
+      "maxY": 70,
+      "maxVeinSize": 10,
+      "spawnRate": 7.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

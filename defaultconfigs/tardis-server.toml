@@ -2,7 +2,7 @@
 ["Tardis Configurations"]
 	#List of dimensions Tardis cannot travel to, everything else is allowed
 	#Seperate every entry except the last one with commas
-	blacklistedDims = ['twilightforest:skylight_forest', 'tardis:space', 'tardis:moon']
+	blacklistedDims = ['twilightforest:skylight_forest', 'wrd:the_deeper_depths', 'appliedenergistics2:spatial_storage']
 	#If two TARDISes are closer than this number, they are considered 'colliding'
 	#When they collide, a Time Ram event is initiated
 	collisionRange = 16

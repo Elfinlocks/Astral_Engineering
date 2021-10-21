@@ -1,0 +1,1117 @@
+{
+	id: "3CCC3E6993A24690"
+	group: "5338BDEB2CDD0EE0"
+	order_index: 1
+	filename: "handy_tools"
+	title: "Handy Tools"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "THROW ME THE WHIP"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Rope Coils can be crafted in bulk using String and Straw, and used to descend large drops."
+			id: "33D5A2FDF1FA724F"
+			tasks: [{
+				id: "5FDEB2DC2060F0D2"
+				type: "item"
+				item: "quark:rope"
+			}]
+		}
+		{
+			title: "Goodbye, Glider"
+			x: -8.0d
+			y: 4.0d
+			subtitle: "In the Age of Ingenuity, you can make Jetpacks!"
+			dependencies: ["3AED57EBD34E6829"]
+			optional: true
+			id: "2CDDEBFFE9627ADC"
+			tasks: [{
+				id: "18D3AEF8DCDE09E5"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek1"
+			}]
+		}
+		{
+			title: "Moving Up In The World"
+			x: -8.0d
+			y: 2.0d
+			subtitle: "Upgrade your jetpack to the next tier!"
+			dependencies: ["2CDDEBFFE9627ADC"]
+			optional: true
+			id: "203D9E6F2E559DE7"
+			tasks: [{
+				id: "695F7C2334F41FB9"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek2"
+			}]
+		}
+		{
+			title: "Not Quite To The Sun Yet..."
+			x: -8.0d
+			y: 0.0d
+			subtitle: "This is the second-to-last upgrade for your jetpack."
+			dependencies: ["203D9E6F2E559DE7"]
+			optional: true
+			id: "2F20017E7CA8C886"
+			tasks: [{
+				id: "25CDBC52FF606C10"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek3"
+			}]
+		}
+		{
+			title: "The Pinnacle of Flight!"
+			x: -8.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "This is the best jetpack available, and provides Creative-level flight!"
+			dependencies: ["2F20017E7CA8C886"]
+			optional: true
+			id: "1447975E50D42E3F"
+			tasks: [{
+				id: "7D9A7CC5163C2C47"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek4"
+			}]
+			rewards: [{
+				id: "5F7D820C3BE81BC0"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "Getting an upgrade"
+			icon: "sophisticatedbackpacks:gold_backpack"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Upgrade your backpack to the next tier for more room!"
+			dependencies: ["74416A0FA26371A2"]
+			dependency_requirement: "one_completed"
+			id: "0DD49C340174DC36"
+			tasks: [{
+				id: "6DA51F6DB3ADFAC1"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			title: "This is getting crazy"
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Next up is diamond tier - more space, more upgrade slots - what's not to love?"
+			dependencies: ["0DD49C340174DC36"]
+			id: "5DD436A6AA413AB2"
+			tasks: [{
+				id: "2F928C75D2065389"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			title: "When you haven't finished Dragon Slayer..."
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Traditional armor is harder to obtain than usual. Luckily, a set of chainmail can serve you well early on."
+			dependencies: ["1AF3E867A00953D7"]
+			id: "5D06E604C22A0163"
+			tasks: [
+				{
+					id: "2623AAA560616C71"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BD2A088A599E0A4"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "090AA021FEDE2420"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6740D57F6E9707B2"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Scoobin'"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "There are tons of untapped resources underwater. A Scuba Set will allow you to access them with greater ease."
+			dependencies: ["1AF3E867A00953D7"]
+			id: "322136B6B6FA8DFF"
+			tasks: [
+				{
+					id: "1E544B037127099C"
+					type: "item"
+					item: {
+						id: "scuba_gear:scuba_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A300BF67AAAA911"
+					type: "item"
+					item: {
+						id: "scuba_gear:scuba_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "269184FCE46E5B34"
+					type: "item"
+					item: {
+						id: "scuba_gear:scuba_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45156279519448DA"
+					type: "item"
+					item: {
+						id: "scuba_gear:scuba_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "A Mining Helmet can help you see in even the darkest caverns."
+			dependencies: ["1AF3E867A00953D7"]
+			id: "2CEDC3AA9FCD6CA3"
+			tasks: [{
+				id: "0DF63BF438301687"
+				type: "item"
+				item: {
+					id: "mining_helmet:mining_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "The ultimate tool"
+			icon: {
+				id: "mekanism:atomic_disassembler"
+				Count: 1b
+				tag: {
+					HideFlags: 2
+				}
+			}
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Atomic Dissassemblers are an all in one tool - the ultimate electronic paxel, if you will."
+			dependencies: ["7D1B8FA0E879196C"]
+			id: "23E9C22E5B4C45F4"
+			tasks: [{
+				id: "47A26CAB92CAD42A"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			title: "The Cure to Inventory Woes"
+			icon: "sophisticatedbackpacks:iron_backpack"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Backpacks are extremely handy, as both a storage space and for their utility!"
+			description: [
+				"Tip: You can shift-click a backpack to open it up!"
+				""
+				"Bonus Tip: You can wear these in a bauble slot, to avoid taking up your chestpiece slot."
+			]
+			id: "74416A0FA26371A2"
+			tasks: [{
+				id: "045BBD5EF11FE82B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "56A5547202E95C6A"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "Ah Yes, Enslaved Bag of Sleep"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "A Sleeping Bag can be used to sleep without changing your spawn point. This makes them great for travelling!"
+			id: "1D3FD3655C8BD142"
+			tasks: [{
+				id: "377295D516F3C3B4"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			title: "Easy Livin'"
+			x: -4.0d
+			y: -2.0d
+			subtitle: "A Hammock can be used to sleep until sunset. Find an area with a four block gap between where you would like to place your Hammock, place two Rope and Nail (one on each side) and then right click one of them with the Hammock Cloth."
+			id: "33E92D5FE2C7DF03"
+			tasks: [
+				{
+					id: "79D2948C8EAC279A"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+				{
+					id: "057E6244FCDCC6FD"
+					type: "item"
+					item: "comforts:rope_and_nail"
+				}
+			]
+		}
+		{
+			title: "Efficient Mass Storage"
+			x: -4.0d
+			y: 2.0d
+			subtitle: "Storage Drawers are an alternative way to keep track of your items. Each drawer can only hold a small variety of different items, but once upgraded they can hold a large quantity of those few items."
+			id: "19AA57B76BF58355"
+			tasks: [{
+				id: "7EB44AAB97B2A566"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			title: "Upgrades and Accessories"
+			x: -4.0d
+			y: 4.0d
+			subtitle: "Upgrade Templates can be made into upgrades for your Drawers. Check JEI to see what options are available to you."
+			dependencies: ["19AA57B76BF58355"]
+			id: "11E77584A305EF3B"
+			tasks: [{
+				id: "0D1C0A4279B37BDB"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			title: "Tank you very much"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "A Fluid Tank can be used to store large quantities of Water of other liquids. Try using them instead of buckets to hold Creosote Oil."
+			description: ["Tip: These tanks can form larger multiblocks, as long as they form a cube. Each one holds 8000mb."]
+			dependencies: ["1AF3E867A00953D7"]
+			id: "2EB6B370AA2511F9"
+			tasks: [{
+				id: "234A3645DDEC1BD4"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			title: "Poor Man Portable Storage"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "These Wooden Storage Crates act similarly to a Shulker Box, and can be reinforced."
+			dependencies: ["75ACC6EA81DF8C4D"]
+			id: "48D3F6B00BE148BB"
+			tasks: [{
+				id: "0F528615E644A874"
+				type: "item"
+				item: "immersiveengineering:crate"
+			}]
+		}
+		{
+			title: "Glide, glide on by..."
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Paragliders make traversing the world much easier - make yourself one and let the wind do all the work!"
+			description: ["For best results, use in conjunction with slime slings and high points."]
+			id: "11DD885FA2FA7209"
+			tasks: [{
+				id: "48A90BD1A719779B"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "29D3A4B4CC229DCD"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Spreading Your Wings"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "We've had one flight yes, but what about more flight?"
+			description: ["Craft a Stamina Vessel to increase the duration that you can use your glider for. You can consume up to 10 vessels in total."]
+			dependencies: ["11DD885FA2FA7209"]
+			id: "69905385C45819E5"
+			tasks: [{
+				id: "217CC1601510D881"
+				type: "item"
+				item: "paraglider:stamina_vessel"
+			}]
+			rewards: [{
+				id: "1A017037C15FFEC4"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecaramelfudgeitem"
+			}]
+		}
+		{
+			title: "The Pack to Cover All Backs"
+			x: 6.0d
+			y: 4.0d
+			subtitle: "Create the ultimate backpack!"
+			description: [""]
+			dependencies: ["5DD436A6AA413AB2"]
+			id: "79E00D9C67596C37"
+			tasks: [{
+				id: "2FA008D400242844"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			title: "Natural Locator"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "The ultimate base location hunting device!"
+			id: "13FACE57F4E7B800"
+			tasks: [{
+				id: "14FB9AB36D6746E7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "25349D3CF888D08A"
+				type: "item"
+				item: "minecraft:map"
+			}]
+		}
+		{
+			title: "The good wrench"
+			x: 0.0d
+			y: 2.0d
+			description: ["This is Mekanisms' wrench, primarily used for adjusting the settings on Mekanism pipes."]
+			id: "059A3FFEF1C9668F"
+			tasks: [{
+				id: "3DFB00126FDB7BEA"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+		{
+			title: "The better wrench"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "The best one"
+			description: ["This is the most universal wrench in this pack - I highly recommend it as your first solution for rotating blocks."]
+			dependencies: ["059A3FFEF1C9668F"]
+			id: "7D1B8FA0E879196C"
+			tasks: [{
+				id: "3182EE06A6D55480"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+		{
+			title: "Shoot 'em dead"
+			icon: "tardis:squareness_gun"
+			x: 10.5d
+			y: 0.75d
+			shape: "octagon"
+			subtitle: "I have yet to meet someone that can outsmart bullet."
+			description: ["There are lots and lots of \"toys\" available to you in this modpack, dependent upon your progression. This mini series of quests outlines a few."]
+			size: 1.5d
+			id: "38378898C38226F9"
+			tasks: [{
+				id: "5A7DCEFD16BD17DD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "The Liam Special"
+			x: 10.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "Certainly Scientific"
+			description: [
+				"The Railgun - the most powerful tool of death you'll ever make."
+				""
+				"This weapon has been dramatically buffed, and is best used with graphite rods for ammunition for full effect."
+			]
+			dependencies: ["38378898C38226F9"]
+			id: "754964480CF55773"
+			tasks: [{
+				id: "60CE684173F8B4F6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "With Great Capacity, Comes Great Destruction."
+			x: 9.0d
+			y: -3.5d
+			subtitle: "The Capacitor Backpack allows you to hold extra charge for the Railgun."
+			description: ["Note: You can wear this in the bauble slot!"]
+			dependencies: ["754964480CF55773"]
+			id: "7F543A18DC908411"
+			tasks: [{
+				id: "25B5151477BC29E7"
+				type: "item"
+				item: "immersiveengineering:powerpack"
+			}]
+		}
+		{
+			title: "Boom, Headshot"
+			x: 12.0d
+			y: -3.5d
+			subtitle: "A scope allows the Railgun to zoom in, to ease with long distance aiming."
+			dependencies: ["754964480CF55773"]
+			id: "602E53D8A19E71F3"
+			tasks: [{
+				id: "7086878F311CBB68"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_scope"
+			}]
+		}
+		{
+			title: "Greater Efficiency"
+			x: 10.5d
+			y: -4.0d
+			subtitle: "Heatsinks half the recharge time of the Railgun, allowing you to unleash hell on your enemies more often."
+			dependencies: ["754964480CF55773"]
+			id: "08A4236EAD7868F0"
+			tasks: [{
+				id: "175C954F3017D071"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}]
+		}
+		{
+			title: "Suiting Up"
+			x: 10.5d
+			y: 3.0d
+			subtitle: "I am Iron Man."
+			dependencies: ["38378898C38226F9"]
+			id: "1261E20FC60575D0"
+			tasks: [
+				{
+					id: "0768CF610D9F41F4"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "6575E51CDC4DFB9F"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "34246E44D352A472"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "7513DB85659772F6"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "You've Upgraded Your Armor!"
+			x: 10.5d
+			y: 4.5d
+			subtitle: "I've made a few modifications of my own!"
+			dependencies: ["1261E20FC60575D0"]
+			id: "2A8218C19F3EF77A"
+			tasks: [{
+				id: "33747D2599FEBC2B"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+		}
+		{
+			title: "Under Da Sea"
+			x: 9.0d
+			y: 6.0d
+			subtitle: "This module provides you with air underwater."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "470668A518E011B2"
+			tasks: [{
+				id: "2D9353EA74C5E83A"
+				type: "item"
+				item: "mekanism:module_electrolytic_breathing_unit"
+			}]
+		}
+		{
+			title: "A S C E N D"
+			x: 10.5d
+			y: 6.5d
+			subtitle: "A Gravitational Modulation Unit grants you Creative flight!"
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "650580C71C9EBE59"
+			tasks: [{
+				id: "653A7A9DD39E2472"
+				type: "item"
+				item: "mekanism:module_gravitational_modulating_unit"
+			}]
+		}
+		{
+			title: "You don't just walk into a store, and buy Plutonium..."
+			x: 12.0d
+			y: 6.0d
+			subtitle: "This module, as the name implies, shields you from radiation. Can be applied to any piece of the Mekasuit."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "1331E584A6A3AF56"
+			tasks: [{
+				id: "396DED916E9534DF"
+				type: "item"
+				item: "mekanism:module_radiation_shielding_unit"
+			}]
+		}
+		{
+			title: "The name's Eastwood. Clint Eastwood."
+			x: 12.5d
+			y: -0.5d
+			subtitle: "A revolver isn't the flashiest weapon, but is surprisingly effective."
+			dependencies: ["38378898C38226F9"]
+			id: "184B4BB821123589"
+			tasks: [{
+				id: "0745C8F0ADD8A97A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Extendin' a Magazine..."
+			x: 14.0d
+			y: -1.5d
+			subtitle: "It's an Extended Magazine - what do you think it does?"
+			description: [""]
+			dependencies: ["184B4BB821123589"]
+			id: "2E32BFB50A8FD18C"
+			tasks: [{
+				id: "516090E4E3F7BA13"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_magazine"
+			}]
+		}
+		{
+			title: "Fastest Guns in the Weast"
+			x: 14.0d
+			y: 0.0d
+			subtitle: "A Revolver speedloader lets you...speedily load your revolver."
+			dependencies: ["184B4BB821123589"]
+			id: "393442ED89FE3DAC"
+			tasks: [{
+				id: "300C5F691D6F74FA"
+				type: "item"
+				item: {
+					id: "immersiveengineering:speedloader"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 8
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Run, Cowards!"
+			x: 12.5d
+			y: 1.5d
+			subtitle: "The Minigun is a powerful weapon from PneumaticCraft, with several types of specialized ammo."
+			dependencies: ["38378898C38226F9"]
+			id: "17484741AAA39F10"
+			tasks: [{
+				id: "31D793ECE7DBAC70"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+		}
+		{
+			title: "Mob Farming Essentials"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "These handy items can help with automating mob farming."
+			description: ["Cursed Earth rapidly spawns hostile mobs on top of itself. Diamond spikes deal 8 damage every 10 ticks (.5 seconds), mobs will drop items when killed (upgrade to Netherite for XP as well)."]
+			id: "0CF923CEBD536897"
+			tasks: [
+				{
+					id: "3E653D1AE16329A4"
+					type: "item"
+					item: "miniutilities:cursed_earth"
+				}
+				{
+					id: "28448221C4F8E48F"
+					type: "item"
+					item: "miniutilities:diamond_spikes"
+				}
+			]
+		}
+		{
+			title: "After Me Charms"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "Cyclic adds several handy charms, which can be worn as baubles."
+			id: "42B01A4546971D1A"
+			tasks: [
+				{
+					id: "06F34558CD0CFFCB"
+					type: "item"
+					item: {
+						id: "cyclic:charm_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6530E93B8B328357"
+					type: "item"
+					item: {
+						id: "cyclic:charm_antidote"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7635FECA55343329"
+					type: "item"
+					item: {
+						id: "cyclic:charm_wither"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C44C903D3EB3A20"
+					type: "item"
+					item: {
+						id: "cyclic:charm_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Staying Watchful..."
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Weeping Angels can spawn in the cold and deserted places in the world. This device will help you avoid them, or see them coming."
+			id: "59D2DA9DB1F15A51"
+			tasks: [{
+				id: "79D40E8B7AB45ECB"
+				type: "item"
+				item: {
+					id: "weeping_angels:timey_wimey_detector"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "A Note on Base Building..."
+			icon: "mcwfurnitures:oak_chair"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "This modpack includes several decorative mods, which you may want to use."
+			description: [
+				"Notable examples include Decorative Blocks, Supplementaries, SecurityCraft, Engineer's Decor, Additional Lights, Fairy Lights, Chipped, and Macaw's various mods. I hope you enjoy working on your dream base with this wonderful assortment of building components!"
+				""
+				"Tip: Don't forget, you can search \"@<mod name here>\" to find all the blocks that a certain mod adds."
+			]
+			id: "4125EA9A96EF4C11"
+			tasks: [{
+				id: "479B4943C77D3A0C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2E594BA4C13B60FB"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+		}
+		{
+			title: "An Underrated Transportation Method..."
+			x: -6.0d
+			y: 2.0d
+			subtitle: "Don't knock 'em till you try 'em"
+			description: ["This pack includes not only Create, but also a lesser known mod called More Minecarts and Rails. With their powers combined, you could make a notably efficient transportation network for items, fluids, or even other players! I encourage you to check it out."]
+			id: "2347551683E7AC52"
+			tasks: [{
+				id: "69F77C36EAEA3135"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+			rewards: [
+				{
+					id: "2ED861497D620F87"
+					type: "item"
+					item: "moreminecarts:rail_turn"
+					count: 4
+				}
+				{
+					id: "70533F820F606775"
+					type: "item"
+					item: "moreminecarts:parallel_rail"
+					count: 10
+				}
+				{
+					id: "229FF863DF699ED2"
+					type: "item"
+					item: "minecraft:rail"
+					count: 20
+				}
+			]
+		}
+		{
+			title: "Pls don't sue, Nintendo"
+			x: -6.0d
+			y: 4.0d
+			subtitle: "A monster ball does exactly what you think it does."
+			id: "37F6FF720135911D"
+			tasks: [{
+				id: "444CF556A53E5984"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			rewards: [{
+				id: "665E35751A019397"
+				type: "item"
+				item: "minecraft:zombie_villager_spawn_egg"
+			}]
+		}
+		{
+			title: "Structural Analysis"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "The Structure Compass....finds structures, what did you think?"
+			description: ["This tool is extremely useful, and due to this is not cheap, sorry!"]
+			dependencies: ["462CAAE1D6B399C0"]
+			id: "629C0338B5449F17"
+			tasks: [{
+				id: "5EC762EBDC531A21"
+				type: "item"
+				item: "structurescompass:structures_compass"
+			}]
+		}
+		{
+			title: "Interdimensional Pockets"
+			x: -2.0d
+			y: -4.0d
+			subtitle: "A handy little pouch to access your items."
+			description: ["EnderPouches are a mobile type of EnderStorage. You can use an EnderPouch on any EnderChest to change the pouch color code to match that of the chest. EnderPouches access the same inventory as their EnderChest counterparts, allowing easy access to your base resources right from your inventory."]
+			dependencies: ["539D2A826813BA8B"]
+			id: "58E0D0709E59E591"
+			tasks: [{
+				id: "3893268AE29F5104"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+			rewards: [{
+				id: "2684B75A5147C289"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			title: "Phenominal Cosmic Power!"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"EnderChests are a stationary type of EnderStorage. You can use dye on the wool pads on top of the chest to alter its color code. As an alternative, you can craft an EnderChest with three dyes to change the color code as well."
+				""
+				"EnderChests work as any other chest for the purposes of blocks that manipulate chests contents. This makes EnderChests an ideal way to transport items over vast distances in an instant."
+			]
+			dependencies: ["539D2A826813BA8B"]
+			id: "28E023A238D05F15"
+			tasks: [{
+				id: "615CC822E3B587A2"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "2CF2601CEF52C823"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			title: "Itty Bitty Living Space"
+			x: 2.0d
+			y: -4.0d
+			description: ["EnderTanks work on the same principal of EnderChests, but store liquids."]
+			dependencies: ["539D2A826813BA8B"]
+			id: "525204FEF8F05D75"
+			tasks: [{
+				id: "4856633161BD6BA9"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "4693D1B0AB3B3AE7"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "For The Lazy Miners"
+			x: -4.0d
+			y: -4.0d
+			subtitle: "Exchangers offer a quick and easy way to mine up ores."
+			description: ["Exchangers can also be upgraded, all the way to the End-tier exchanger, which is capable of mining any ore!"]
+			dependencies: ["0B24A252AF995334"]
+			id: "4C68FFBB09DED9F7"
+			tasks: [{
+				id: "5301C93362E7E09A"
+				type: "item"
+				item: {
+					id: "exchangers:wooden_exchanger"
+					Count: 1b
+					tag: {
+						mode: 0
+						fuzzyPlacementChance: 100
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						voidItems: 0b
+						range: 0
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "41CE1131D838002D"
+				type: "item"
+				item: "exchangers:exchanger_core_tier1"
+			}]
+		}
+		{
+			title: "Look Buddy, I'm an Engineer"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "That means I solve problems."
+			description: [
+				"This modpack includes a VERY powerful mod, called More Red."
+				""
+				"Essentially, More Red adds several tools which allow the player to create intricate circuit networks through its logic gate blocks. These gates can be placed on WALLS and CEILINGS as well! You may want to reference the More Red wiki when attempting to utilize this mod."
+			]
+			dependencies: ["73CC3630DABFEB89"]
+			id: "7C37096468CB685B"
+			tasks: [{
+				id: "516866067AB37D06"
+				type: "item"
+				item: "morered:gatecrafting_plinth"
+			}]
+		}
+		{
+			title: "Buildin' a Building"
+			x: 4.0d
+			y: -4.0d
+			subtitle: "The RFTools Builder is an incredibly powerful device, with a variety of applications."
+			dependencies: ["3AED57EBD34E6829"]
+			id: "1FD63270324ABCDE"
+			tasks: [{
+				id: "33019D68E6796DA6"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+		}
+		{
+			title: "Big Dumb Goofus Man"
+			x: -6.0d
+			y: -4.0d
+			subtitle: "It's a target dummy - what more do you want?"
+			id: "4B9330F944AC92CC"
+			tasks: [{
+				id: "0FC2B2ADCC44588E"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+		}
+		{
+			title: "I Can Fly!"
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Here's something to put in your cap!"
+			id: "5AB05EB43CBF0086"
+			tasks: [{
+				id: "19566C90E66E11F0"
+				type: "item"
+				item: "magicfeather:magicfeather"
+			}]
+		}
+		{
+			title: "Scan Report"
+			x: -8.0d
+			y: -4.0d
+			subtitle: "No sign of intelligent life anywhere."
+			description: [
+				"The scanner does exactly what you think it does - it's a handy tool to search for just about anything. Can be made once you have access to Dilithium."
+				""
+				"You can have up to three modules installed at a time. For my recommendations, please see the associated subquests."
+				""
+				"I have left the module recipes exactly the same, you're welcome."
+			]
+			dependencies: ["5F079DAC35170B45"]
+			id: "7BECD1393761A899"
+			tasks: [{
+				id: "5773BDD9E2DE4294"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			subtitle: "Seeks out rare ores, as it says on the tin."
+			description: ["Disclaimer: Not guaranteed to work on all rare ores."]
+			dependencies: ["7BECD1393761A899"]
+			id: "50011DE4307530FA"
+			tasks: [{
+				id: "4D68E32FF28F0F3C"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			subtitle: "Seeks out a specific, configurable block."
+			dependencies: ["7BECD1393761A899"]
+			id: "6C511544633E7864"
+			tasks: [{
+				id: "27D98A0C5236E1B5"
+				type: "item"
+				item: "scannable:module_block"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			subtitle: "Seeks out hostile mobs within the area."
+			dependencies: ["7BECD1393761A899"]
+			id: "787F18C42EF4F868"
+			tasks: [{
+				id: "39BFA497692F6099"
+				type: "item"
+				item: "scannable:module_monster"
+			}]
+		}
+	]
+}

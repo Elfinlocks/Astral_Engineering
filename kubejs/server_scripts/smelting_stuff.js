@@ -2,13 +2,20 @@ events.listen("recipes", function (event) {
 
 var s = event.recipes.minecraft.smelting
 
-
-
-
 // Removals =======================================================================
+event.remove({id: 'cyclic:solidifier_apple_enchanted'})
+event.remove({id: 'jaopca:mekanism.material_to_dust.cinnabar'})
+event.remove({id: 'jaopca:thermal_expansion.dust_to_material.steel'})
+event.remove({id: 'jaopca:thermal_expansion.material_to_dust.cinnabar'})
+event.remove({id: 'thermal:compat/create/pulverizer_create_zinc_ore'})
+event.remove({id: 'quark:tweaks/smelting/bone_meal_utility'})
+event.remove({output: 'eidolon:enchanted_ash'})
 event.remove({output: 'thermal:compressed_iron_ingot'})
 event.remove({id: 'thermal:compressing/compressed_iron_ingot'})
 
+event.remove({id: 'betterendforge:aeternium_ingot'})
+event.remove({id: 'thermal:machine/furnace/furnace_rotten_flesh_to_leather'})
+event.remove({id: 'immersiveengineering:arcfurnace/steel'})
 event.remove({type: 'minecraft:smelting', output: '#forge:ingots/tin'})
 event.remove({type: 'minecraft:smelting', output: '#forge:ingots/copper'})
 event.remove({type: 'minecraft:smelting', output: '#forge:ingots/aluminum'})
@@ -94,7 +101,5 @@ s('minecraft:gold_ingot', '#thermal:chunks/gold').xp(0.1)
 s('minecraft:gold_ingot', '#forge:dusts/gold')
 s('minecraft:gold_ingot', 'create:crushed_gold_ore')
 s('thermal:cinnabar', '#forge:ores/cinnabar')
-s('iceandfire:sapphire_gem', '#forge:ores/sapphire').xp(0.1)
-s('iceandfire:amythest_gem', '#forge:ores/amethyst').xp(0.1)
 s('thermal:apatite', '#forge:ores/apatite').xp(0.1)
 })

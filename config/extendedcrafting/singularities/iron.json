@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.iron",
+  "materialCount": 2500,
   "colors": [
     "d8d8d8",
     "a8a8a8"

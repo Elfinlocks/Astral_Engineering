@@ -1,0 +1,794 @@
+{
+	id: "28AB4CEFBE88E987"
+	group: "3DAEDBA3E5F09E07"
+	order_index: 0
+	filename: "advanced_industry"
+	title: "Advanced Industry"
+	icon: "kubejs:electrolysis_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Power of Metallury"
+			x: -6.75d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "The Metallurgic Infuser is a versatile machine, necessary for many electronics."
+			description: [
+				"Welcome to Advanced Industry! In this chapter, you will learn how to create Aluminum, a necessary material for further progression. In addition, you finally unlock digital storage in this chapter!"
+				""
+				"Note: You will need to progress through magic as well, in order to complete this chapter."
+			]
+			dependencies: ["120F2353F2110106"]
+			size: 1.5d
+			id: "09812AE1E82D15C5"
+			tasks: [{
+				id: "6568C18319153187"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "28CFA01D6948AD85"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 4
+			}]
+		}
+		{
+			title: "Logistical Solutions"
+			x: -8.0d
+			y: 2.0d
+			subtitle: "Mekanism offers several different solutions for transferring energy, gases, items, and fluids."
+			description: [""]
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "338DFFCE0AF30239"
+			tasks: [
+				{
+					id: "61536388056FA5A3"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+					count: 8L
+				}
+				{
+					id: "329F622C85B7CE98"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+					count: 8L
+				}
+				{
+					id: "112A772E29E775F5"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+					count: 8L
+				}
+				{
+					id: "62904231795DB740"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "21A5F3B7E0F1B68A"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 4
+			}]
+		}
+		{
+			title: "Gas, Gas, Gas!"
+			x: 3.0d
+			y: -4.5d
+			subtitle: "By inputting burnable gases such as Hydrogen, the Gas Generator can produce a healthy amount of FE."
+			description: ["You can get Hydrogen to burn in this generator by electroylsing water in the Electrolytic Separator."]
+			dependencies: ["62D2D5FA1059D613"]
+			optional: true
+			id: "63E82FCB50EE3961"
+			tasks: [{
+				id: "5B8DAAEAF793C7EE"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			title: "Advanced Engineering Blocks"
+			x: 5.5d
+			y: -1.5d
+			subtitle: "These blocks will be used to construct powerful multiblock machines, such as the Excavator or Diesel Generator."
+			dependencies: ["3AED57EBD34E6829"]
+			optional: true
+			id: "7D4AA3C434A30047"
+			tasks: [
+				{
+					id: "220AAAB4F955E74A"
+					type: "item"
+					item: "immersiveengineering:radiator"
+				}
+				{
+					id: "251538FCBAEC2A4F"
+					type: "item"
+					item: "immersiveengineering:generator"
+				}
+			]
+		}
+		{
+			title: "Excavator"
+			icon: "immersiveengineering:excavator"
+			x: 7.5d
+			y: 0.5d
+			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk."
+			dependencies: ["7B3BFD67BF675C5D"]
+			optional: true
+			id: "751DB16191F3159E"
+			tasks: [
+				{
+					id: "12EB9C155EB9FF8C"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 9L
+				}
+				{
+					id: "5FABD729EDB1DDA0"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 26L
+				}
+				{
+					id: "023CC9056723A5AF"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "3A0D2910F2DC9935"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "455B9727573ACB21"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "3EF2F26B092103C5"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4E49776A270D2AE7"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Diesel Generator"
+			icon: "immersiveengineering:diesel_generator"
+			x: 5.5d
+			y: 0.5d
+			subtitle: "Construct the Diesel Generator, which can produce up to 8192 RF per tick using Diesel or Biodiesel."
+			description: [""]
+			dependencies: ["7D4AA3C434A30047"]
+			optional: true
+			id: "26C28AE460BABB1A"
+			tasks: [
+				{
+					id: "3A42196ECDD1AF51"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "703BF41E5AA3ED61"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "2B26717257397D47"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "265433C89C6DD0C0"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "78C1B58CEEE51CD5"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "682313881A73E986"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "1735A8C7B3EAEB34"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 24
+			}]
+		}
+		{
+			title: "Finally! Digital Storage!"
+			x: 0.5d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "These are some of the key components for constructing an ME System. This can serve as a versatile system for managing items."
+			description: [
+				"Note: You may prefer to use Refined Storage instead. There are no quests for Refined Storage, but it is balanced for this pack, if you choose to utilize it."
+				""
+				"Hint: To easily view the items, type \"@Refined\" in JEIs search bar."
+			]
+			dependencies: [
+				"581A8A8E2DFB365A"
+				"3AED57EBD34E6829"
+			]
+			optional: true
+			id: "1C05494507330E8B"
+			tasks: [
+				{
+					id: "68490042F05BCEC5"
+					type: "item"
+					item: "appliedenergistics2:controller"
+				}
+				{
+					id: "675CE271B7675ED4"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "5050334DFF813FE0"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+					count: 4L
+				}
+				{
+					id: "27BC43268CEBE1EB"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "653F34AFE6999AD7"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+					count: 2
+				}
+				{
+					id: "47A70B2DFAE3292C"
+					type: "item"
+					item: "kubejs:compounded_plastic"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "On Our Way To The Digital Age..."
+			x: -4.0d
+			y: -2.0d
+			subtitle: "Fluix Crystals can be obtained by dropping Charged Certus Quartz, Nether Quartz, and Redstone Dust into a pool of Water."
+			description: ["The production of these crystals can also be automated."]
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "631FBD2CC11F4972"
+			tasks: [{
+				id: "6B384C8BF06BA418"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+			rewards: [{
+				id: "03E522D2755538A2"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+				count: 5
+			}]
+		}
+		{
+			title: "Advanced Electrolysis Incorporation"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "The Electroyltic Separator can break down liquids into their component gases."
+			description: ["Tip: If you plan to use this for ore quadrupling, I high recommend that you set it up to Electrolyse water."]
+			dependencies: ["3AED57EBD34E6829"]
+			id: "62D2D5FA1059D613"
+			tasks: [{
+				id: "0E658C23824A1BD5"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "3CC1E4C4330D0BA5"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 8
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			x: -6.75d
+			y: -5.25d
+			shape: "gear"
+			subtitle: "Thermal Expansion offers powerful and versatile machines to improve your automation efforts."
+			description: ["Like Mekanism, the Thermal Expansion offers basic processing machines as well, such as the Redstone Furnace and Sawmill."]
+			dependencies: ["09812AE1E82D15C5"]
+			size: 1.5d
+			id: "4010B64090D3B97C"
+			tasks: [{
+				id: "2244794474B4DCD1"
+				type: "checkmark"
+				title: "The Thermal Expansion!"
+			}]
+			rewards: [{
+				id: "152421ED59646283"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			title: "Essential Induction"
+			x: -6.75d
+			y: -7.0d
+			subtitle: "The Induction Smelter offers an easy way to make most alloys, most notably Andesite Alloy."
+			dependencies: ["4010B64090D3B97C"]
+			optional: true
+			id: "071C4E90E33D1CEF"
+			tasks: [{
+				id: "0FE91E46B307BC71"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			title: "Phytogenic Insulation!"
+			x: -5.5d
+			y: -4.0d
+			subtitle: "The Phytogenic Insulator offers a way to automate the production of natural produce, even trees!"
+			dependencies: ["4010B64090D3B97C"]
+			optional: true
+			id: "2E831B205068536C"
+			tasks: [{
+				id: "728B685071B9799A"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+		}
+		{
+			title: "Plate-maker 9000"
+			x: -8.5d
+			y: -5.5d
+			subtitle: "The Multiservo Press, when upgraded, is the fastest method of producing plates, amongst other things."
+			dependencies: ["4010B64090D3B97C"]
+			optional: true
+			id: "66C8DCA897895152"
+			tasks: [{
+				id: "7CB3CEC2A1F027DC"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			title: "Fabrication Inspiration"
+			x: -8.0d
+			y: -4.0d
+			subtitle: "The Sequential Fabricator is capable of creating nearly any 3x3 recipe, and can even use liquids!"
+			dependencies: ["4010B64090D3B97C"]
+			optional: true
+			id: "7159B4857A0C1954"
+			tasks: [{
+				id: "09E74AB6371192CB"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+		}
+		{
+			title: "\"And from his lava came this song of hope...\""
+			x: -5.0d
+			y: -5.5d
+			subtitle: "The Magmatic Dynamo uses lava to produce some serious power output!"
+			dependencies: ["4010B64090D3B97C"]
+			optional: true
+			id: "1DCE91BD530FC18F"
+			tasks: [{
+				id: "3406C8A23CD194BF"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			title: "Drilling Down..."
+			x: 7.5d
+			y: -1.5d
+			subtitle: "To determine what a particular chunk's ore vein has in it, you'll need to use a Core Sample Drill. "
+			dependencies: ["7D4AA3C434A30047"]
+			optional: true
+			id: "7B3BFD67BF675C5D"
+			tasks: [{
+				id: "6C0D55C294B5C974"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			title: "First Processors"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Next, we'll need some basic processor prints. These can be made more easily via The Thermal Expansion, if you have delved into it."
+			dependencies: ["631FBD2CC11F4972"]
+			optional: true
+			id: "4E756DC38491E2A1"
+			tasks: [
+				{
+					id: "2CCFB0A10EA3D6AD"
+					type: "item"
+					item: "appliedenergistics2:printed_silicon"
+				}
+				{
+					id: "00A85F9DD48882B2"
+					type: "item"
+					item: "appliedenergistics2:printed_logic_processor"
+				}
+				{
+					id: "35EE728D2C243C89"
+					type: "item"
+					item: "appliedenergistics2:printed_calculation_processor"
+				}
+				{
+					id: "7D87F2C3EA3B5DAF"
+					type: "item"
+					item: "appliedenergistics2:printed_engineering_processor"
+				}
+			]
+			rewards: [{
+				id: "34A0854C43FAFB48"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			title: "The Process of Engineering"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Next, create some processors using a Mechanical Crafter Array - you should have several set up by now."
+			description: [""]
+			dependencies: ["4E756DC38491E2A1"]
+			optional: true
+			id: "581A8A8E2DFB365A"
+			tasks: [
+				{
+					id: "316BFC2D5570FBA4"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+				}
+				{
+					id: "0794E281D5EB1C0F"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+				}
+				{
+					id: "474B6AA181A1CDCE"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+				}
+			]
+			rewards: [{
+				id: "2F95CB32A2EF96CE"
+				type: "item"
+				item: "kubejs:integrated_circuit"
+				count: 3
+			}]
+		}
+		{
+			title: "Basic Electrolysis Components - Part 1"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "We're finally going to develop a process for purifying Bauxite! Aluminum is required for lots of machines going forward."
+			dependencies: ["09812AE1E82D15C5"]
+			id: "4D9E038AE2B58ACE"
+			tasks: [
+				{
+					id: "11A3A1236B4C50B0"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 29L
+				}
+				{
+					id: "35B4C3256398DDD0"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 42L
+				}
+				{
+					id: "305EBBDE986CA7C5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 9L
+				}
+				{
+					id: "20F5B70CED9D88C9"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 4L
+				}
+				{
+					id: "3FCA46857CEAA993"
+					type: "item"
+					item: "engineersdecor:halfslab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "126B9D4118B759E3"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "7A414DED9B95BE91"
+					type: "item"
+					item: "immersiveengineering:stairs_steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "78DA97C03A766624"
+					type: "item"
+					item: "engineersdecor:steel_floor_grating"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "374BD373457116A7"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 32
+				}
+				{
+					id: "764280FE3132AE10"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Basic Electrolysis Components - Part 2"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "Next, we'll need to make the ports for the multiblock."
+			description: [
+				"Tip: Right-click the controller block in JEI to see how the machine is put together."
+				""
+				"Bonus Tip: Left click the square in the bottom right to view the machine's individual layers."
+				""
+				"Tip 3 - Revenge of the Tip: Hold down right click and move your mouse forwards or backwards to zoom in and out, respectively. Hold down left click and drag to rotate."
+			]
+			dependencies: ["4D9E038AE2B58ACE"]
+			id: "38A5DA68F7F259EE"
+			tasks: [
+				{
+					id: "63038BA7580C26C3"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "6055D87B43C0024A"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_gas_port_mekanism_gas_output"
+				}
+				{
+					id: "4A9374BEF77FB2A5"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_item_port_items_output"
+				}
+				{
+					id: "7C8C6011BF03AEA7"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_item_port_items_input"
+				}
+				{
+					id: "2AEEA3DD1A6CB8E4"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_fluid_port_fluids_input"
+				}
+				{
+					id: "140169F3C35EF09D"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_energy_port_energy_input"
+				}
+				{
+					id: "112058010CA6585B"
+					type: "item"
+					item: "masterfulmachinery:electrolyser_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "3F387EF1FB0712AC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4A7D5BDA0C889EC9"
+					type: "item"
+					item: "kubejs:compounded_plastic"
+					count: 5
+				}
+				{
+					id: "08D0DAF61F50C25A"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Finally! Aluminum Ingots!"
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "The electrolysis process isolates the Aluminum from the Bauxite ore, allowing it to be smelted into ingots."
+			description: ["Tip: This process produces a small amount of excess Oxygen gas - you may find a use for it in ore processing."]
+			dependencies: ["38A5DA68F7F259EE"]
+			size: 1.5d
+			id: "3AED57EBD34E6829"
+			tasks: [{
+				id: "6A833B3E7CDAE1F3"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+			rewards: [{
+				id: "77CAE0B6A3AFD1A7"
+				type: "item"
+				item: "paraglider:heart_container"
+			}]
+		}
+		{
+			title: "Really, REALLY hot topic"
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
+			x: -5.5d
+			y: 2.0d
+			subtitle: "The Arc Furnace is capable of recycling unwanted gear, and is needed to make powerful materials and alloys."
+			dependencies: ["09812AE1E82D15C5"]
+			id: "2A70B95D65653013"
+			tasks: [
+				{
+					id: "0DE3542AD06D4A37"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "6B0522F5926D1F59"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "47175425B89F5B47"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "4407A1188C0F4428"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "3EA150D742366A19"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "092BF7587E3B60E6"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "4166BAFB497595A9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "2A651A299DA9BC2E"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "6F58CAD6E0EEE906"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [
+				{
+					id: "71BD6CECE26A07B1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 3
+				}
+				{
+					id: "635EDBF63FDA2E9C"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "Dynamic Integration"
+			icon: "integrateddynamics:on_the_dynamics_of_integration"
+			x: -8.5d
+			y: 0.0d
+			subtitle: "A surprise tool that will help you later."
+			description: [
+				"Keen-eyed players may have noticed that Integrated Dynamics lacks modified recipes in this pack almost entirely. This is by design: here in Astral Engineering, we believe in rewarding players who possess enough game knowledge to make use of it."
+				""
+				"If you're unfamiliar with this very useful mod, you may want to begin by referencing the guide book, found in your Akashic Tome."
+			]
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "03F0CDD45D1C4257"
+			tasks: [{
+				id: "71BB407FB1BDBFBB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2FA7B5EF923113A3"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+		}
+		{
+			title: "Surfin' The 'Net"
+			x: -10.5d
+			y: 0.0d
+			subtitle: "Like Integrated Dynamics, XNet is largely unchanged in this pack."
+			dependencies: ["03F0CDD45D1C4257"]
+			optional: true
+			id: "09503847E11443B2"
+			tasks: [{
+				id: "7750E340E8AE2B0F"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+	]
+}

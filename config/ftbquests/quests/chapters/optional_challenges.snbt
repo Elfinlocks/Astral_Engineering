@@ -1,169 +1,788 @@
 {
-	id: "7AD2EAF62A54E7FC",
-	group: "",
-	order_index: 7,
-	filename: "optional_challenges",
-	title: "Optional Challenges",
-	icon: "minecraft:nether_star",
-	default_quest_shape: "",
+	id: "7AD2EAF62A54E7FC"
+	group: "5338BDEB2CDD0EE0"
+	order_index: 4
+	filename: "optional_challenges"
+	title: "Optional Challenges"
+	icon: "atmadditions:atm_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "How this Chapter Works",
-			icon: "botania:cosmetic_questgiver_mark",
-			x: 0.0d,
-			y: 0.0d,
-			subtitle: "Left click for more information on this chapter.",
+			title: "How this Chapter Works"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "This chapter is filled with optional challenges that you may want to complete. None of these are mandatory, and there are mostly no rewards. These are intended primarily for players who just want an extra challenge or objective."
 			description: [
-				"This chapter is filled with optional challenges that you may want to complete. None of these are mandatory, and there is no reward. These are intended mostly for players who just want an extra challenge or objective.",
-				"",
-				"",
-				"",
 				""
-			],
-			id: "60FE564C79D326E1",
+				""
+				""
+				""
+				""
+			]
+			dependencies: [
+				"031023A8EA6FD4D0"
+				"6915EC195906281A"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "60FE564C79D326E1"
 			tasks: [{
-				id: "568A51602FFB4960",
+				id: "568A51602FFB4960"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Automated Crop Farming",
-			icon: "minecraft:wheat_seeds",
-			x: 3.5d,
-			y: 1.5d,
-			subtitle: "Create a fully automated farm for your crop of choice, not including Sugarcane, Pumpkins, or Melons. Items should be output automatically with no player input.",
-			dependencies: ["60FE564C79D326E1"],
-			id: "4BAC399DB1C4B903",
+			title: "Automated Crop Farming"
+			icon: "minecraft:wheat_seeds"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Create a fully automated farm for your crop of choice, not including Sugarcane, Pumpkins, or Melons. Items should be output automatically with no player input."
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "4BAC399DB1C4B903"
 			tasks: [{
-				id: "5AB85E444177086E",
+				id: "5AB85E444177086E"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Ore Quintupling",
-			icon: "mekanism:crystal_iron",
-			x: 2.0d,
-			y: -2.0d,
-			subtitle: "Set up a system that, when given ores, will process them and quintuple the output.",
-			dependencies: ["60FE564C79D326E1"],
-			id: "4588B102F038498A",
+			title: "Ore Quintupling"
+			icon: "mekanism:crystal_iron"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Set up a system that, when given ores, will process them and quintuple the output."
+			description: [""]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "4588B102F038498A"
 			tasks: [{
-				id: "10D9062152478F16",
+				id: "10D9062152478F16"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Watermelon Man",
-			icon: "minecraft:melon",
-			x: 0.0d,
-			y: -3.0d,
-			shape: "circle",
-			subtitle: "Fully automate a self-sustaining power production system off of vanilla Melons",
-			dependencies: ["60FE564C79D326E1"],
-			id: "0ED4AAC3C39C383D",
+			title: "Watermelon Man"
+			icon: "minecraft:melon"
+			x: -1.5d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "Fully automate a self-sustaining power production system off of Melons."
+			description: ["Dedicated to InspireFire."]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			hide_text_until_complete: false
+			id: "0ED4AAC3C39C383D"
 			tasks: [{
-				id: "18F3A75411C496F9",
+				id: "18F3A75411C496F9"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Dodging Chernobyl",
-			icon: "mekanism:ingot_uranium",
-			x: -2.0d,
-			y: 0.0d,
-			subtitle: "Create a maximum size Fission Reactor from Mekanism, and have enough infrastructure to keep it cooled.",
-			dependencies: ["60FE564C79D326E1"],
-			id: "7213B10A51500CDB",
+			title: "Dodging Chernobyl"
+			icon: "mekanism:ingot_uranium"
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Create a maximum size Fission Reactor from Mekanism, and have enough infrastructure to keep it cooled."
+			description: ["The maximum size is 18x18x18."]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "7213B10A51500CDB"
 			tasks: [{
-				id: "3228AED3AC555B71",
+				id: "3228AED3AC555B71"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Solving World Hunger",
-			icon: "farmersdelight:steak_and_potatoes",
-			x: -2.0d,
-			y: -2.0d,
-			subtitle: "Automate the production of 14 unique food types.",
-			description: [""],
-			dependencies: ["60FE564C79D326E1"],
-			id: "5441397882B70253",
+			title: "Solving World Hunger"
+			icon: "farmersdelight:steak_and_potatoes"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Automate the production of 14 unique food types."
+			description: [""]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "5441397882B70253"
 			tasks: [{
-				id: "07DE7DB9FD8A7148",
+				id: "07DE7DB9FD8A7148"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Withered Away",
-			icon: "minecraft:nether_star",
-			x: -2.0d,
-			y: 2.0d,
-			subtitle: "Automate the construction and death of Withers.",
-			dependencies: ["60FE564C79D326E1"],
-			id: "68D5E0B9DAAB951A",
+			title: "Withered Away"
+			icon: "minecraft:nether_star"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Automate the construction and death of Withers."
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "68D5E0B9DAAB951A"
 			tasks: [{
-				id: "31934E12B29D4C59",
+				id: "31934E12B29D4C59"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Many Manas",
+			title: "The Stuff of Heaven"
 			icon: {
-				id: "botania:mana_tablet",
-				Count: 1b,
+				id: "botania:mana_tablet"
+				Count: 1b
 				tag: {
 					mana: 500000
 				}
-			},
-			x: 2.0d,
-			y: 2.0d,
-			subtitle: "Create a setup that can automatically produce mana with no inputs. Hydroangeas don't count.",
-			dependencies: ["60FE564C79D326E1"],
-			id: "70BE6D33AB62AC33",
+			}
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Create a setup that can automatically produce mana with no inputs. Hydroangeas don't count."
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "70BE6D33AB62AC33"
 			tasks: [{
-				id: "27F4B6B9CE3D0748",
+				id: "27F4B6B9CE3D0748"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Many-er Manas",
-			icon: "botania:rafflowsia",
-			x: 3.5d,
-			y: 3.5d,
-			subtitle: "Automate producing Mana with the Rafflowsia, with a system that can create and feed it 39 unique flower types.",
-			dependencies: ["70BE6D33AB62AC33"],
-			id: "2223701DC7B67A4B",
+			title: "I Want To Eat ALL The Colors"
+			icon: "botania:rafflowsia"
+			x: 3.5d
+			y: 3.5d
+			subtitle: "Automate producing Mana with the Rafflowsia, with a system that can create and feed it 39 unique flower types."
+			dependencies: ["70BE6D33AB62AC33"]
+			id: "2223701DC7B67A4B"
 			tasks: [{
-				id: "6315E4ADDC7573A9",
+				id: "6315E4ADDC7573A9"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Imagine Manually Mining",
-			icon: "minecraft:gold_ore",
-			x: 0.0d,
-			y: 2.0d,
-			subtitle: "Automate the creation and harvesting of ores in a fully self-sustaining system.",
-			description: [""],
-			dependencies: ["60FE564C79D326E1"],
-			id: "004F2B4AFEC7AC13",
+			title: "Imagine Manually Mining"
+			icon: "minecraft:gold_ore"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Automate the creation and harvesting of ores in a fully self-sustaining system."
+			description: [""]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "004F2B4AFEC7AC13"
 			tasks: [{
-				id: "27A8A46AD2C248D3",
+				id: "27A8A46AD2C248D3"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Have You Many Wools",
-			icon: "twilightforest:aurora_block",
-			x: 3.5d,
-			y: -1.5d,
-			subtitle: "Complete the Questing Ram's Quest in the Twilight Forest.",
-			description: [""],
-			dependencies: ["60FE564C79D326E1"],
-			id: "349DCB2B83A51B81",
+			title: "Have You Many Wools"
+			icon: "twilightforest:quest_ram_trophy"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Complete the Questing Ram's Quest in the Twilight Forest."
+			description: [""]
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "349DCB2B83A51B81"
 			tasks: [{
-				id: "5459E4D38FA7C338",
+				id: "5677534F04F38162"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1579D7D2FD8CDF54"
+				type: "item"
+				item: "paraglider:heart_container"
+			}]
+		}
+		{
+			title: "AFK Runecrafting"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Fully automate the crafting of runes from Botania."
+			dependencies: ["60FE564C79D326E1"]
+			hide: true
+			id: "7F50F10624169F57"
+			tasks: [{
+				id: "01E818DF3616B4CD"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			title: "Curious Artifacts..."
+			x: 6.0d
+			y: 0.0d
+			subtitle: "What da inconceivable artifacts doin'?"
+			description: [
+				"This is it, this is where you make the best of the best items. You can't start these until you have finished the final chapter and obtained antimatter."
+				""
+				"Warning: These are creative-level items, and are not for the faint of heart."
+			]
+			dependencies: [
+				"60FE564C79D326E1"
+				"36367A18678E09A3"
+			]
+			hide: true
+			id: "72A22FC844EF346E"
+			tasks: [{
+				id: "19E6EA0B243504A7"
 				type: "checkmark"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Seed of Interdimensional Power"
+			icon: "atmadditions:dimensional_seed"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "An unstable and mysterious \"seed\" of some kind. You can buy one for an assortment of dimensional items."
+			dependencies: ["72A22FC844EF346E"]
+			hide: true
+			id: "27C9432867359A63"
+			tasks: [
+				{
+					id: "5881B324D390EDFC"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4274785FCEE463D4"
+					type: "item"
+					item: "mekanism:dust_netherite"
+					consume_items: true
+				}
+				{
+					id: "2F334DBB12E47D6B"
+					type: "item"
+					item: "minecraft:end_stone"
+					consume_items: true
+				}
+				{
+					id: "0C326178721C7A56"
+					type: "item"
+					item: "twilightforest:castle_brick"
+					consume_items: true
+				}
+				{
+					id: "5B90908E31689199"
+					type: "item"
+					item: "mythicbotany:alfsteel_nugget"
+					consume_items: true
+				}
+				{
+					id: "4A167E7FD3C0E022"
+					type: "item"
+					item: "boss_tools:venus_stone"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "47E176E5B820249F"
+				type: "item"
+				item: "atmadditions:dimensional_seed"
+			}]
+		}
+		{
+			title: "Trophy Hunting"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "There are lots of unique treasures to be found around the world(s)..."
+			description: ["This quest subtree will provide you with an overview for a few of them. If you manage to collect enough, you get a special reward. Sounds fun, right?"]
+			dependencies: ["60FE564C79D326E1"]
+			id: "5690667F7B7136CE"
+			tasks: [{
+				id: "0B3D46A98FFB8F78"
+				type: "checkmark"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "BUN"
+			x: -4.0d
+			y: -2.0d
+			subtitle: "hehe bnuny"
+			description: ["Bunny plushies can be found in Abandoned Mineshafts."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "675F6283301647BB"
+			tasks: [{
+				id: "3058465570E6AB7F"
+				type: "item"
+				title: "Any #minecraft:bunny_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:bunny_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B69CBF355FFDDED"
+				type: "item"
+				item: "dads_sewing:sheep_plush"
+			}]
+		}
+		{
+			title: "The Cow Goes..."
+			x: -8.0d
+			y: -2.0d
+			subtitle: "Moo."
+			description: ["Cows can be found in Villages, within Butcher Huts."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "483312E18232D239"
+			tasks: [{
+				id: "47EE7202F41EAD32"
+				type: "item"
+				title: "Any #minecraft:cow_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:cow_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "52A85070013F0388"
+				type: "item"
+				item: "dads_sewing:pig_plush"
+			}]
+		}
+		{
+			title: "A Llama?!"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "He's supposed to be DEAD!"
+			description: ["Llama plushies can be found in Desert Pyramids."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "085387725DA538D3"
+			tasks: [{
+				id: "3CF460E17F284174"
+				type: "item"
+				title: "Any #minecraft:llama_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:llama_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "616FCF8FF6F7E8A2"
+				type: "item"
+				item: "dads_sewing:llama_plush_evil"
+			}]
+		}
+		{
+			title: "My Little Brand-Friendly Equine"
+			x: -5.0d
+			y: -2.0d
+			subtitle: "This de-branding brought to you by the Modded Minecraft Safety Commission "
+			description: ["Pony and Unicorn plushies can be found in Woodland Mansions."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "1C8FCFCCBCB1074C"
+			tasks: [{
+				id: "3A89CC985E3A8A18"
+				type: "item"
+				title: "Any #minecraft:horse_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:horse_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B8A6278BCB1EED1"
+				type: "item"
+				item: "dads_sewing:unicorn_plush_evil"
+			}]
+		}
+		{
+			title: "Plushie Collection 1"
+			icon: "dads_sewing:prince_plush"
+			x: -6.0d
+			y: -5.25d
+			subtitle: "Congratulations! You managed to collect a bunch of plushies! Here's a prize!"
+			dependencies: [
+				"1C8FCFCCBCB1074C"
+				"085387725DA538D3"
+				"675F6283301647BB"
+				"483312E18232D239"
+				"00871F85F98A01FB"
+			]
+			size: 1.5d
+			id: "2229331B624E0CD5"
+			tasks: [{
+				id: "7083552B7337DD24"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "08E1AB40F181C01D"
+				type: "item"
+				item: "dads_sewing:prince_plush"
+			}]
+		}
+		{
+			title: "Aw Man..."
+			x: -7.5d
+			y: 2.0d
+			subtitle: "So way back in the mines..."
+			description: ["Creeper plushies can be found whilst fishing."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "34B6C689BD0AC202"
+			tasks: [{
+				id: "2DF65793AD9BFEC6"
+				type: "item"
+				item: "dads_sewing:creeper_plush"
+			}]
+			rewards: [{
+				id: "221C8A954C0EC144"
+				type: "item"
+				item: "dads_sewing:seal_plush"
+			}]
+		}
+		{
+			title: "Mr Skellingtons"
+			x: -6.5d
+			y: 2.0d
+			subtitle: "What is a skeleton's favorite snack?"
+			description: [
+				"RIBS!!! SPARE RIBS!!!!!"
+				""
+				"Note: Skeleton plushies can be found in Jungle Temples."
+			]
+			dependencies: ["5690667F7B7136CE"]
+			id: "37BCF1974B502D36"
+			tasks: [{
+				id: "6285C82ABA0E562C"
+				type: "item"
+				title: "Any #minecraft:skeleton_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:skeleton_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1369003439456885"
+				type: "item"
+				item: "dads_sewing:spider_plush"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "Durrr...."
+			description: ["Zombie plushies can be found in Pillager Outposts."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "5301CC48C510BF5E"
+			tasks: [{
+				id: "2EBACFC21A45FBB6"
+				type: "item"
+				item: "dads_sewing:zombie_plush"
+			}]
+			rewards: [{
+				id: "545447BE150A4F22"
+				type: "item"
+				item: "dads_sewing:pig_plush_evil"
+			}]
+		}
+		{
+			title: "The Nether Collection"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "Hot stuff."
+			description: ["Nether collection plushies can be found in the treasure chests of Piglin Bastions."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "7E9816192E3B8EC3"
+			tasks: [{
+				id: "43B0F5B91495BA2C"
+				type: "item"
+				title: "Any #minecraft:nether_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:nether_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1657CBBB9F810D4B"
+				type: "item"
+				item: "dads_sewing:strider_plush"
+			}]
+		}
+		{
+			title: "Plushie Collection 2"
+			icon: "dads_sewing:prince_plush_vampire"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Congratulations! You collected a bunch of mob plushies! Here's a SUPER EVIL prize!"
+			dependencies: [
+				"34B6C689BD0AC202"
+				"37BCF1974B502D36"
+				"5301CC48C510BF5E"
+				"7E9816192E3B8EC3"
+			]
+			size: 1.5d
+			id: "7423CE7C1FD0045A"
+			tasks: [{
+				id: "529D90E871617F77"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "35ED8454F8212F91"
+				type: "item"
+				item: "dads_sewing:prince_plush_vampire"
+			}]
+		}
+		{
+			title: "The Ultimate Plushie"
+			icon: "dads_sewing:rana_plush"
+			x: -11.25d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Only Real Gamers(tm) remember"
+			description: ["Did you know? Rana was originally added to Minecraft as a mob, during the indev phase of Minecraft's development. She was added by a developer named Dock, who removed her when he left the Minecraft project."]
+			dependencies: [
+				"2229331B624E0CD5"
+				"7423CE7C1FD0045A"
+			]
+			size: 1.5d
+			id: "214D83C3320FFF40"
+			tasks: [{
+				id: "33DDEA2961F3BD89"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "708A2BAF03C569BF"
+				type: "item"
+				item: "dads_sewing:rana_plush"
+			}]
+		}
+		{
+			title: "It's More Than I Can Bear!"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Oh bother."
+			description: ["Bear plushies can be found in Ruined Portal chests."]
+			dependencies: ["5690667F7B7136CE"]
+			id: "00871F85F98A01FB"
+			tasks: [{
+				id: "596F9F74C0167352"
+				type: "item"
+				title: "Any #minecraft:bear_plushies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:bear_plushies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "346FF7197E3E2C06"
+				type: "item"
+				item: "dads_sewing:bird_plush_white"
+			}]
+		}
+		{
+			title: "Interspacial Transporation"
+			icon: "astralsorcery:shifting_star_vicio"
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Extremely safe and consistent interdimensional transportation"
+			description: [
+				"*Not actually safe or consistent at all"
+				""
+				""
+			]
+			dependencies: ["27C9432867359A63"]
+			hide: true
+			id: "70D3C2F06582E4FA"
+			tasks: [{
+				id: "13B59B69305FDE1B"
+				type: "advancement"
+				icon: "astralsorcery:shifting_star_vicio"
+				advancement: "tardis:obtain_tardis"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "30BE1C462FDD6209"
+					type: "item"
+					item: {
+						id: "tardis:stattenheim_remote"
+						Count: 1b
+						tag: {
+							cap_sync: {
+								loc: {
+									name: ""
+									dim: "minecraft:overworld"
+									dir: 2
+									pos: 0L
+								}
+								time_left: 0.0d
+								is_flying: 0b
+								fuel: 0.0f
+							}
+						}
+						ForgeCaps: {
+							"tardis:remote": {
+								loc: {
+									pos: 0L
+									name: ""
+									dim: "minecraft:overworld"
+									dir: 2
+								}
+								time_left: 0.0d
+								is_flying: 0b
+								fuel: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "1581202CC5EB4F27"
+					type: "item"
+					item: "tardis:manual"
+				}
+			]
+		}
+		{
+			title: "Fancy A Barrows Run?"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Obtain every Will from Botania."
+			dependencies: ["60FE564C79D326E1"]
+			id: "03A78FE2E6B15FC8"
+			tasks: [
+				{
+					id: "5F62D2FD9D00F0A5"
+					type: "item"
+					item: "botania:ancient_will_ahrim"
+				}
+				{
+					id: "7FC3F999D54042F4"
+					type: "item"
+					item: "botania:ancient_will_dharok"
+				}
+				{
+					id: "4997F30D146F04C8"
+					type: "item"
+					item: "botania:ancient_will_guthan"
+				}
+				{
+					id: "4C92857D3CF82878"
+					type: "item"
+					item: "botania:ancient_will_torag"
+				}
+				{
+					id: "11EE3E8DFCE62E52"
+					type: "item"
+					item: "botania:ancient_will_verac"
+				}
+				{
+					id: "43F927EE95F39950"
+					type: "item"
+					item: "botania:ancient_will_karil"
+				}
+			]
+			rewards: [{
+				id: "6B4AC822BC5B8393"
+				type: "item"
+				item: {
+					id: "quark:forgotten_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Now THIS Is An Alloy!"
+			x: 8.0d
+			y: 1.5d
+			subtitle: "Take all the things you've found across the universe, mash them together...what's the worst that could happen?"
+			dependencies: ["72A22FC844EF346E"]
+			id: "294690BBCB747B25"
+			tasks: [{
+				id: "60D5FC91C4B2B73F"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "The Force of Giants, In Your Hand"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "The Creative Motor offers the pinnacle of creative might!"
+			dependencies: ["294690BBCB747B25"]
+			id: "349999C2CD8A2571"
+			tasks: [{
+				id: "6632863555D78D62"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			title: "All The Room In The World"
+			x: 10.0d
+			y: 1.5d
+			subtitle: "And still not enough space."
+			dependencies: ["294690BBCB747B25"]
+			id: "43E6347B9B0AB0C0"
+			tasks: [{
+				id: "5EC583ADA9F2B242"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			title: "Pool of Everlasting Guilt"
+			x: 9.0d
+			y: 3.0d
+			subtitle: "Now you've done it, you've ruined the imbalance of the universe for some mana. Happy?"
+			dependencies: ["294690BBCB747B25"]
+			id: "67B6894F9E61970B"
+			tasks: [{
+				id: "468FF6FD15989D56"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			title: "Atomic Exchange"
+			x: 7.0d
+			y: 3.0d
+			subtitle: "It's like that one overpowered mod, but with science, and antimatter."
+			dependencies: ["294690BBCB747B25"]
+			id: "2F7E0DF693F3C978"
+			tasks: [{
+				id: "47F447CA1C5A9951"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
 			}]
 		}
 	]

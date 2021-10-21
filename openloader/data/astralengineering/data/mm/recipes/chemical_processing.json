@@ -1,0 +1,38 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "chemical_reactor_machine",
+    "controllerId": "chemical_reactor",
+    "ticks": 100,
+    "inputs": [
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "mekanism:oxygen",
+                "amount": 1000
+            }
+        },
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "pneumaticcraft:kerosene",
+                "amount": 1000
+            }
+        },
+		{
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 400000
+            }
+        }
+		
+    ],
+    "outputs":[
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "advancedrocketry:rocket_fuel",
+                "amount": 1000
+            }
+        }
+    ]
+}

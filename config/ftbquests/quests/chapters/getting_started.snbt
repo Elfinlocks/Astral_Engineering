@@ -1,0 +1,637 @@
+{
+	id: "24F728EF8FBE1617"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "First Steps"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Not Brown"
+			x: 12.5d
+			y: -3.0d
+			subtitle: "Forge Bricks from Clay by the heat of a Campfire."
+			description: [""]
+			dependencies: ["0E867AE7C53EF7BE"]
+			id: "700881191CCA75DC"
+			tasks: [{
+				id: "799F4AAA918DE82F"
+				type: "item"
+				item: "minecraft:brick"
+				count: 4L
+			}]
+		}
+		{
+			title: "Stone Age Livin'"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "Craft your first Furnace."
+			description: [
+				"That's right! You get a whole iron pickaxe head, just like that, because the modpack author loves you very much."
+				""
+				"You can upgrade your stone pickaxe to iron, via the tinker station you just made earlier."
+				""
+				"You can't cast your own iron yet, but we're getting there!"
+			]
+			dependencies: [
+				"700881191CCA75DC"
+				"5D74AF12C8F91134"
+			]
+			size: 1.5d
+			id: "1AF3E867A00953D7"
+			tasks: [{
+				id: "452C5BE79A6B398A"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "42D4A06B5D856BFA"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+		}
+		{
+			title: "HAMMAH!"
+			x: 14.5d
+			y: 0.0d
+			subtitle: "Craft an Engineer's Hammer."
+			dependencies: ["1AF3E867A00953D7"]
+			id: "3E2E706C04B33A45"
+			tasks: [{
+				id: "7702DDC68BD72434"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "JESSE, WE NEED TO COOK"
+			icon: {
+				id: "immersiveengineering:coke_oven"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
+			x: 16.5d
+			y: 0.0d
+			subtitle: "Craft Coke Bricks. Left click for information on creating a Coke Oven."
+			description: [
+				"Right click a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven."
+				""
+				"The Coke Oven will fill up with Creosote Oil and eventually stop working, so try to automate draining this as soon as possible."
+			]
+			dependencies: ["3E2E706C04B33A45"]
+			id: "75ACC6EA81DF8C4D"
+			tasks: [{
+				id: "67EDF398D500CD42"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "00D0207F8EF77B7D"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 3
+			}]
+		}
+		{
+			title: "Brown Bricks"
+			icon: {
+				id: "immersiveengineering:blast_furnace"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
+			x: 20.5d
+			y: 0.0d
+			subtitle: "Craft Blast Bricks. Left click for information on creating a Blast Furnace."
+			description: [
+				"Right click a 3x3x3 cube of Blast Bricks with an Engineer's Hammer to make a Blast Furnace."
+				""
+				"A Blast Furnace will accept Coal Coke produced in a Coke Oven and Iron Ingots to slowly produce Steel."
+			]
+			dependencies: ["73CC3630DABFEB89"]
+			id: "0E1C4AEDB8594945"
+			tasks: [{
+				id: "2B20273225A90A38"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "3FF494CE479A40E2"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10
+			}]
+		}
+		{
+			title: "Blazing Through"
+			x: 22.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
+			dependencies: ["0E1C4AEDB8594945"]
+			size: 1.5d
+			id: "031023A8EA6FD4D0"
+			tasks: [{
+				id: "5CFC34FC014226DE"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 10L
+			}]
+			rewards: [{
+				id: "49221E1091AB2A3A"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 3
+			}]
+		}
+		{
+			title: "Early Alloys"
+			x: 16.5d
+			y: -4.0d
+			subtitle: "Pewter Blend can be crafted using Tin and Lead. Smelt this for a Pewter Ingot."
+			dependencies: ["35D0D95034259B1D"]
+			id: "632ED810D5453781"
+			tasks: [{
+				id: "7027344EDDD2BB91"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 5L
+			}]
+			rewards: [{
+				id: "6C1D0AE5AEBA5EA0"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Bubble, Bubble.."
+			x: 15.0d
+			y: -5.5d
+			subtitle: "A Crucible can, when given heat and water, be used to combine certain items."
+			dependencies: ["632ED810D5453781"]
+			id: "331536656893BD82"
+			tasks: [{
+				id: "25034D878C6CBB58"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "5B799ED7EF81CFA8"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Not Necromancy, We Swear"
+			x: 18.0d
+			y: -5.5d
+			subtitle: "Consult your Ars Ecclesia for information on the Crystallization Ritual, used to obtain Soul Shards."
+			dependencies: ["632ED810D5453781"]
+			id: "2D3D6EDBFDA95965"
+			tasks: [{
+				id: "48BF2DB2F3FA3627"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6F8DA81D6A033514"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
+			}]
+		}
+		{
+			title: "Intro to the Arcane"
+			x: 16.5d
+			y: -6.75d
+			shape: "diamond"
+			subtitle: "Mix up a Lesser Soul Gem in your Crucible. Required to begin Arcane Exploits."
+			dependencies: [
+				"2D3D6EDBFDA95965"
+				"331536656893BD82"
+			]
+			size: 1.5d
+			id: "6915EC195906281A"
+			tasks: [{
+				id: "3B07F279BF4260BE"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [{
+				id: "030BEB6A0D0E8CA6"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 4
+			}]
+		}
+		{
+			title: "Welcome to Astral Engineering!"
+			icon: "ftbquests:book"
+			x: 4.5d
+			y: -3.0d
+			shape: "octagon"
+			subtitle: "Left click for more information!"
+			description: [
+				"This quest book will show you how to progress through advancements in technology and magic, to reach the endgame of space travel. "
+				""
+				"Although the quests are not required for progression, it is recommended that you follow them for the free items you will obtain along the way."
+				""
+				"The quests begin here, at \"Tier 0\". From here, tech leads into Early Industry and Advanced Inudstry, and magic leads into Arcane Exploits. Both of them are needed to progress through the space chapter, Solar Sightseeing."
+				""
+				"Thanks for reading, and I hope you enjoy!"
+			]
+			size: 1.5d
+			id: "4983D289845799E1"
+			tasks: [{
+				id: "3D3D9A5D27DAD9FC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "15F1021524CF1B66"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Let's get down to crafting!"
+			x: 7.0d
+			y: -3.0d
+			description: [
+				"Get four planks to create a basic Crafting Workbench."
+				""
+				"Your reward for your troubles is a Tinker's Station, which we'll use in a moment to make our first stone tools!"
+			]
+			dependencies: ["4983D289845799E1"]
+			id: "3C77B6E3F795CE27"
+			tasks: [{
+				id: "2A1EB0E6B2B91D63"
+				type: "item"
+				title: "Any Workbench"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "2377B8C49065C064"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			title: "Old Reliable"
+			x: 12.5d
+			y: 2.0d
+			description: ["Craft a Stone Pickaxe."]
+			dependencies: ["145156D2151CB55D"]
+			id: "5D74AF12C8F91134"
+			tasks: [{
+				id: "6E0E37D85F1BD670"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 4.4f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 104.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:stonebound"
+								level: 3s
+							}
+						]
+						tic_materials: [
+							"tconstruct:stone"
+							"tconstruct:stone"
+							"tconstruct:stone"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							traits: 0
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6007B6B20D9FE176"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F9729B0E19AAA31"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Stone-Age Arsenal!"
+			x: 12.5d
+			y: 3.5d
+			description: ["Craft yourself a stone axe head, a stone blade, and a stone pickaxe head to make yourself a mattock, a hand-axe, and a sword."]
+			dependencies: ["5D74AF12C8F91134"]
+			optional: true
+			id: "1EFF2408D0597172"
+			tasks: [
+				{
+					id: "16F95C0A8C1092E9"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "16FB5765E474CEDD"
+					type: "item"
+					item: {
+						id: "tconstruct:small_blade"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+				{
+					id: "6D8383BDFB9BE996"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:stone"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "01B42528428DC318"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "Getting Ahead"
+			x: 9.5d
+			y: 2.0d
+			description: ["Next, use your shiny Tinker Station to make a Stone Pickaxe Head!"]
+			dependencies: ["70003EB0C320E474"]
+			id: "145156D2151CB55D"
+			tasks: [{
+				id: "195C18DB1F93B49C"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12A6748F99906E52"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "2D09DDDAEB96DCEA"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "ImPARTial Crafting"
+			x: 7.0d
+			y: 0.0d
+			description: ["Make a Part Table, and use your pattern to make a Stone Pickaxe Head."]
+			dependencies: ["3C77B6E3F795CE27"]
+			id: "70003EB0C320E474"
+			tasks: [{
+				id: "32E3C3F9268C9471"
+				type: "item"
+				item: "tconstruct:part_builder"
+			}]
+			rewards: [{
+				id: "51ADFE77ECCCE14A"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "Dumping Excess..."
+			x: 22.5d
+			y: 2.0d
+			subtitle: "Once you get ahold of some piping, a fluid trash can will serve you well for disposing of unwanted Creosote Oil."
+			dependencies: ["031023A8EA6FD4D0"]
+			optional: true
+			id: "162DFFD5D4CE1757"
+			tasks: [
+				{
+					id: "0B49B5D4E8A589D7"
+					type: "item"
+					item: "trashcans:liquid_trash_can"
+				}
+				{
+					id: "64CA781452668D4E"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "6478E23D50BF08DF"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+		{
+			title: "Dealing With Snipers"
+			x: 10.5d
+			y: 0.0d
+			subtitle: "Shields are cheap and effective - I recommend making one ASAP, if you plan to go exploring!"
+			dependencies: ["1AF3E867A00953D7"]
+			optional: true
+			id: "719C689F2307FDD7"
+			tasks: [{
+				id: "659C449B3401041C"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Down, Down, to Ghast Town"
+			icon: "dads_sewing:ghast_plush"
+			x: 18.5d
+			y: 0.0d
+			subtitle: "Construct a Nether Portal and travel to your first of many dimensions."
+			description: ["You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."]
+			dependencies: ["75ACC6EA81DF8C4D"]
+			dependency_requirement: "one_completed"
+			id: "73CC3630DABFEB89"
+			tasks: [{
+				id: "687678E6C3960D34"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "6B8C7A164092900D"
+				type: "item"
+				item: "dads_sewing:ghast_plush"
+			}]
+		}
+		{
+			title: "A Source of Leather"
+			x: 11.0d
+			y: -1.5d
+			subtitle: "If you're not the farming type, a Drying Basin can help you get ahold of Leather a bit easier."
+			description: ["In later tech, you can smelt flesh directly into leather, but a normal furnace won't accomplish this."]
+			dependencies: ["1AF3E867A00953D7"]
+			optional: true
+			id: "34D16AA94D6174C5"
+			tasks: [{
+				id: "2C90FD4C388EE198"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+			rewards: [{
+				id: "41E2FC9208A5C1F2"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Don't forget to adjust your keybindings! I took the liberty of clearing most of them, so that you start with a clean slate."
+			dependencies: ["4983D289845799E1"]
+			id: "5C3734DA48D7E479"
+			tasks: [{
+				id: "0C701C6D77A130C1"
+				type: "checkmark"
+				title: "Quick Reminder"
+			}]
+		}
+		{
+			title: "Basic Ore Processing"
+			x: 16.5d
+			y: -2.0d
+			subtitle: "You'll need some ore dusts to proceed from here."
+			description: [
+				"A simple ore grinder will help you with this. Don't worry, there's easier ways to accomplish this later on."
+				""
+				"To use, simply place the grinder, and then place the crank on top. Right click twice to grind the ore down into dust. Please note that this only works with some ores."
+			]
+			dependencies: ["75ACC6EA81DF8C4D"]
+			id: "35D0D95034259B1D"
+			tasks: [
+				{
+					id: "3A9FEC07A547022B"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "57B2DEED7CBCD11C"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			title: "Diggy Diggy Hole"
+			x: 9.5d
+			y: -3.0d
+			subtitle: "Make a wooden or stone shovel, we don't judge"
+			dependencies: ["3C77B6E3F795CE27"]
+			id: "0E867AE7C53EF7BE"
+			tasks: [{
+				id: "320DFB1102C4AC08"
+				type: "item"
+				title: "Any #forge:tools/shovels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:tools/shovels"
+					}
+				}
+			}]
+		}
+	]
+}

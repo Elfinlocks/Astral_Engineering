@@ -1,0 +1,26 @@
+{
+  "controllerId": "fuel_encap",
+  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+  "name": "Fuel Encapsulator",
+  "ports": [
+     {
+      "type": "masterfulmachinery:items",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+     },
+	 {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+     }
+	]
+}

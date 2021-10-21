@@ -1,0 +1,11 @@
+{
+  "oreConfig": [
+    {
+      "ore": "tardis:cinnabar_ore",
+      "minY": 0,
+      "maxY": 0,
+      "maxVeinSize": 0,
+      "spawnRate": 0.0
+    }
+  ]
+}

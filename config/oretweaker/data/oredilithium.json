@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+    {
+      "ore": "libvulpes:oredilithium",
+	  "filler": "boss_tools:moon_stone",
+      "minY": 1,
+      "maxY": 32,
+      "maxVeinSize": 4,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+	{
+      "ore": "libvulpes:oredilithium",
+	  "filler": "boss_tools:mars_stone",
+      "minY": 1,
+      "maxY": 32,
+      "maxVeinSize": 8,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,1320 @@
+{
+	id: "483465337353161C"
+	group: "0663EB7A978FD08B"
+	order_index: 0
+	filename: "solar_sightseeing"
+	title: "Solar Sightseeing"
+	icon: "astralsorcery:shifting_star_vicio"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 11.5d
+			y: 7.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/blocks/books/miners_hut_map.png"
+			hover: ["You'll probably want the Mekanism Wiki for this..."]
+			click: "https://wiki.aidancbrady.com/wiki/Main_Page"
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/blocks/books/miners_hut_map.png"
+			hover: ["Mekanism Wiki article for Supercritical Phase Shifter construction"]
+			click: "https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter"
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecolonies:textures/blocks/books/miners_hut_map.png"
+			hover: ["Mekanism Wiki article for Fission Reactors"]
+			click: "https://wiki.aidancbrady.com/wiki/Fission_Reactor"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Cores of Teleportation"
+			x: 11.0d
+			y: 12.0d
+			subtitle: "A Teleportation Core is an essential component for interdimensional technology."
+			description: ["They can be used to make a wide variety of powerful items, including Ender tanks and chests."]
+			dependencies: ["40623128C431038D"]
+			optional: true
+			id: "539D2A826813BA8B"
+			tasks: [{
+				id: "035B3C6E5831BA96"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+			rewards: [{
+				id: "3825C19A3C68CEA0"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "The Power of Nuclear Fission!"
+			x: 2.0d
+			y: 7.0d
+			subtitle: "A Fission Reactor produces nuclear waste from fissile fuel."
+			description: ["Additionally, while not able to generate power by itself, if hooked up to a turbine any heated coolants can be used to generate massive amounts of FE. Make sure to do your own research on setting this up properly, as the results of a meltdown can be devastating"]
+			dependencies: ["2F80516A889EFB34"]
+			id: "375AE1646F859207"
+			tasks: [
+				{
+					id: "2F427A022992030D"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "05AC6540864F2B93"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+				}
+				{
+					id: "73C2AEFB3E964EDE"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "204192DFDB46ECCA"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				{
+					id: "0FE8FFD1C560EE5E"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "24690AEF7CEB3711"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			rewards: [{
+				id: "76BBEFD534633830"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			title: "High Density Poly Ethylene"
+			x: 11.0d
+			y: 10.5d
+			subtitle: "HDPE Pellets are used to craft a variety of items that will be useful from here on out."
+			dependencies: ["7F4C79207EF7DA39"]
+			id: "40623128C431038D"
+			tasks: [{
+				id: "5F4E614A68873FDD"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+			}]
+		}
+		{
+			title: "Supercritical Phase Shifting"
+			x: -3.75d
+			y: 6.75d
+			subtitle: "Now this is just ridiculous."
+			description: [
+				"A Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas, which can be crystallized into antimatter pellets."
+				""
+				"You will need these pellets to create endgame items."
+			]
+			dependencies: [
+				"1859605A1841610A"
+				"42A95A41017EF8B6"
+			]
+			size: 1.5d
+			id: "36367A18678E09A3"
+			tasks: [
+				{
+					id: "7CC832AF4CB38DAE"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "6FE16ACF2ABBB41A"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 123L
+				}
+				{
+					id: "026002E279E73A0A"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "005C57F1BC389717"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			rewards: [
+				{
+					id: "2FF4DC683FC47991"
+					type: "item"
+					item: "mekanism:sps_port"
+				}
+				{
+					id: "2F12089769513C95"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 3
+				}
+				{
+					id: "72A9336BBC1BDF2E"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "706D388DEC137831"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 8.0d
+			subtitle: "An Induction Matrix is essentially a massive battery, capable of storing trillions of FE."
+			dependencies: ["3ADD95C01FC89CF2"]
+			optional: true
+			id: "193203BEECAB4478"
+			tasks: [
+				{
+					id: "03320163CB512BA9"
+					type: "item"
+					item: "mekanism:induction_casing"
+				}
+				{
+					id: "3C42964ABF46D47C"
+					type: "item"
+					item: "mekanism:induction_port"
+				}
+				{
+					id: "691DA4F67B2C42E9"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "70DE4D5F960122CB"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+		}
+		{
+			title: "Fusion Reactor"
+			x: -3.0d
+			y: 9.0d
+			subtitle: "A Fusion Reactor can be used to produce immense quantities of FE."
+			dependencies: ["1859605A1841610A"]
+			optional: true
+			id: "037FF843580DC12D"
+			tasks: [
+				{
+					id: "30D7418CDD8E65FF"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "5092FC4849C3769F"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+				}
+				{
+					id: "62F51C125397D70C"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+				}
+				{
+					id: "639B3AFFF1D751C3"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+				}
+			]
+		}
+		{
+			title: "Solar Activation"
+			x: -1.0d
+			y: 10.5d
+			subtitle: "This machine makes Polonium from Nuclear Waste, a material with a wide variety of uses."
+			dependencies: [
+				"40623128C431038D"
+				"375AE1646F859207"
+			]
+			id: "40A5FCC4396E623C"
+			tasks: [{
+				id: "35509A58894EAEB8"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "3A720B03D32B25CF"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				id: "boss_tools:tier_3_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: -5.25d
+			y: -3.0d
+			subtitle: "Now we can really get moving."
+			description: [
+				"The following quests will focus on your development of space travel, which will grant you access to rare and valuable materials, which in turn allow you to progress even further."
+				""
+				"This chapter is all about bringing your tech to the next level!"
+			]
+			dependencies: ["3AED57EBD34E6829"]
+			size: 1.5d
+			id: "14EC3076B2D0C926"
+			tasks: [{
+				id: "047EC38001FF6D0F"
+				type: "checkmark"
+				title: "Welcome to the Space Age!"
+			}]
+		}
+		{
+			icon: "mekanism:electrolytic_separator"
+			x: -3.0d
+			y: -3.0d
+			subtitle: "If you didn't already, finish the Electrolytic Separator quest in the previous chapter."
+			description: ["You will need to use one of these to create Oxygen for the upcoming multiblock machine."]
+			dependencies: [
+				"62D2D5FA1059D613"
+				"14EC3076B2D0C926"
+			]
+			id: "64382C714CBFD461"
+			tasks: [{
+				id: "59FDE6881318B5D5"
+				type: "checkmark"
+				title: "Incorporation of Electrolysis"
+			}]
+		}
+		{
+			title: "NOC-NOC!"
+			icon: "boss_tools:barrel_of_fuel"
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Who's there?"
+			description: [
+				"It's the Nitrogen-Oxygen Compressor! This handy multiblock is your best friend for the production of precious rocket fuel. Simply insert oxygen gas and enriched carbon, and watch it produce fuel!"
+				""
+				"Note: This machine also requires power and PneumaticCraft pressure to function."
+			]
+			dependencies: ["64382C714CBFD461"]
+			id: "6FEDE1093D9FF647"
+			tasks: [
+				{
+					id: "374C6B2EA6D8A9A6"
+					type: "item"
+					item: "immersiveengineering:stairs_steel_scaffolding_standard"
+					count: 16L
+				}
+				{
+					id: "6EFC3FDC697AC9AF"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 10L
+				}
+				{
+					id: "2BBFB03793DED5CC"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 38L
+				}
+				{
+					id: "741E0A0E2B47CE4C"
+					type: "item"
+					item: "minecraft:gray_concrete"
+					count: 13L
+				}
+				{
+					id: "2076E52D1D5F6407"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 14L
+				}
+				{
+					id: "38A37BC040D7BB79"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 17L
+				}
+				{
+					id: "5174D4B99EEAF0BD"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "0CE561C4E4DF7923"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 4L
+				}
+				{
+					id: "063FD42532141859"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "3030AF161CC661EA"
+					type: "item"
+					item: "engineersdecor:halfslab_sheetmetal_steel"
+					count: 2L
+				}
+				{
+					id: "25150AC658054E0C"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 2L
+				}
+				{
+					id: "51C935C9C2C8DD84"
+					type: "item"
+					item: "immersiveengineering:conveyor_covered"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "This way for a suit!"
+			x: 2.5d
+			y: -4.5d
+			subtitle: "You'll need one, unless you enjoy suffocating to death."
+			description: ["Just kidding, you don't have a choice in this, sorry!"]
+			dependencies: ["7BA8EE4BE7271B3C"]
+			id: "486F62807E339903"
+			tasks: [
+				{
+					id: "6F7851C035AEE3CD"
+					type: "item"
+					item: {
+						id: "boss_tools:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "028B5831DC519ABF"
+					type: "item"
+					item: {
+						id: "boss_tools:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10849448FA187F89"
+					type: "item"
+					item: {
+						id: "boss_tools:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35E2D5FC1FEC31BF"
+					type: "item"
+					item: {
+						id: "boss_tools:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "This way for the rocket!"
+			icon: {
+				id: "boss_tools:tier_1_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: -1.5d
+			subtitle: "They help tremendously with that whole \"getting off the ground\" thing."
+			description: ["You will need a LOT of resources to make one of these bad boys. Don't worry - it only gets tougher. What did you expect from the final chapter?"]
+			dependencies: ["7BA8EE4BE7271B3C"]
+			id: "3E33F973E971D889"
+			tasks: [{
+				id: "0762552780CC080B"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "A Leg to Stand On"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "These launch pad blocks provide a secure spot for your rocket to eject incredibly hot fire."
+			dependencies: ["3E33F973E971D889"]
+			id: "570BDF2DEAD1AB4B"
+			tasks: [{
+				id: "7A2396A862335D06"
+				type: "item"
+				item: "boss_tools:rocket_launch_pad"
+				count: 9L
+			}]
+		}
+		{
+			title: "First Stop: The Moon!"
+			icon: "pamhc2foodcore:cheeseitem"
+			x: 6.5d
+			y: -3.0d
+			subtitle: "As the closest and easiest to reach part of the local solar system, the moon is our first stop."
+			description: [
+				"To fuel your rocket, simply shift+right click it, and deposit the fuel barrel in. It will empty into the rocket, and you're ready to go!"
+				""
+				"WARNING: Bring extra launch pads and fuel!"
+			]
+			dependencies: [
+				"570BDF2DEAD1AB4B"
+				"0E3216152E5B2B3A"
+			]
+			size: 1.5d
+			id: "4E53F7B2450CADBB"
+			tasks: [{
+				id: "6908ADFBC9BA6DAD"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "2C97C95AB8925EFC"
+					type: "item"
+					item: "pamhc2foodcore:cheesecakeitem"
+				}
+				{
+					id: "2D95F446E8E28680"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Just Like the Conquistadors..."
+			x: 4.5d
+			y: -6.5d
+			subtitle: "May as well mark what's rightfully yours."
+			dependencies: ["0E3216152E5B2B3A"]
+			optional: true
+			id: "44680539CD21035E"
+			tasks: [{
+				id: "32741AABB1E27C9E"
+				type: "item"
+				item: "boss_tools:flag"
+			}]
+		}
+		{
+			title: "New Resources!"
+			icon: "jaopca:create_crushed_ores.desh"
+			x: 8.0d
+			y: -4.3d
+			subtitle: "The Moon is host to materials not found on Earth."
+			description: [
+				"You'll need Desh to make the next tier of rocket components, and dilithium is a valuable material for the production of advanced electronics."
+				""
+				"Note: Dilithium is used to make the Scanner (see Handy Tools) - you will make great use of this!"
+			]
+			dependencies: ["4E53F7B2450CADBB"]
+			id: "5F079DAC35170B45"
+			tasks: [
+				{
+					id: "34E8BD9E5F34992C"
+					type: "item"
+					item: "boss_tools:desh_ingot"
+					count: 10L
+				}
+				{
+					id: "4E94483E3CE9A910"
+					type: "item"
+					item: "libvulpes:gemdilithium"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Refreshing!"
+			x: 4.5d
+			y: -4.5d
+			subtitle: "This simple machine extracts oxygen from plant matter, and then loads it into your suit."
+			description: ["NOTE: Unfortunately, this machine only accepts vanilla Minecraft Oak leaves at the moment. However, I have put in a universal conversion recipe to combat this."]
+			dependencies: ["486F62807E339903"]
+			id: "0E3216152E5B2B3A"
+			tasks: [{
+				id: "76351A45D30499E8"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+		}
+		{
+			title: "Upwards and Onwards!"
+			x: 13.0d
+			y: -5.5d
+			subtitle: "Did I mention that the next tier of rocket would be harder?"
+			dependencies: ["3664DE482F3B8868"]
+			id: "035529DD540CECE8"
+			tasks: [{
+				id: "28796101D8007988"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_2_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "The Chances Are A Million To One..."
+			icon: {
+				id: "fairylights:jack_o_lantern"
+				Count: 1b
+				tag: {
+					color: 11546150
+				}
+			}
+			x: 13.0d
+			y: -3.0d
+			subtitle: "The Red Planet Awaits"
+			dependencies: ["035529DD540CECE8"]
+			size: 1.5d
+			id: "6D038C6527B718DB"
+			tasks: [{
+				id: "03E15BF336E3406D"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+			rewards: [
+				{
+					id: "28347B9A8E72793B"
+					type: "item"
+					item: "pamhc2foodextended:redvelvetcupcakeitem"
+				}
+				{
+					id: "206799FBE3AF5E18"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Home Above Home"
+			x: 8.0d
+			y: -6.0d
+			subtitle: "A Space Station is a fun extraterrestrial base to set up."
+			dependencies: ["5F079DAC35170B45"]
+			id: "5546DF5DEB644C6B"
+			tasks: [{
+				id: "643D9E623D4D5F08"
+				type: "item"
+				item: "boss_tools:space_station"
+			}]
+		}
+		{
+			title: "More New Things!"
+			x: 13.0d
+			y: -1.0d
+			subtitle: "Progression is coming along nicely!"
+			description: [
+				"Mars contains deposits of Silicon, and is the only source of this useful ore. It is used in the production of more advanced electronic components."
+				""
+				"In addition, Dilithium is slightly more common on Mars than the Moon."
+			]
+			dependencies: ["6D038C6527B718DB"]
+			id: "04E68FBB97AC8095"
+			tasks: [{
+				id: "708A0120C92F8A5F"
+				type: "item"
+				item: "boss_tools:silicon_ingot"
+				count: 5L
+			}]
+		}
+		{
+			title: "The Best Rock!"
+			x: 13.0d
+			y: 2.0d
+			subtitle: "This took a while..."
+			dependencies: ["57844CE419D74217"]
+			id: "0B0964D4863E3C70"
+			tasks: [{
+				id: "707687873119267C"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Men Are From Mars. Women Are From..."
+			icon: "thermal:signalum_dust"
+			x: 11.5d
+			y: 4.0d
+			subtitle: "Venus is the only planet to spin clockwise."
+			description: ["Venus not only has raw, pure aluminum available for gathering, but also the rare Iridium ore!"]
+			dependencies: ["0B0964D4863E3C70"]
+			size: 1.5d
+			id: "1E14D4F1B3BB549D"
+			tasks: [{
+				id: "7311DCD4655BBEDA"
+				type: "dimension"
+				dimension: "boss_tools:venus"
+			}]
+			rewards: [
+				{
+					id: "71476C448D7A05B0"
+					type: "item"
+					item: "pamhc2foodextended:lemondrizzlecakeitem"
+				}
+				{
+					id: "08E0288DEE21C7CA"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Wasteland At The Front of The Universe."
+			icon: "mana-and-artifice:enchantment_focus_fire"
+			x: 14.5d
+			y: 4.0d
+			subtitle: "Mercury is the only place that you can find Rutile."
+			description: ["Like Venus, Mercury also has Aluminum and Iridium, but not as commonly."]
+			dependencies: ["0B0964D4863E3C70"]
+			size: 1.5d
+			id: "32065B4871D4F940"
+			tasks: [{
+				id: "691C122ECCDDD907"
+				type: "dimension"
+				dimension: "boss_tools:mercury"
+			}]
+			rewards: [
+				{
+					id: "78858C4D446C1741"
+					type: "item"
+					item: "pamhc2foodextended:baklavaitem"
+				}
+				{
+					id: "6D0DBAFA4B7960C1"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Rarest Components"
+			x: 13.0d
+			y: 6.0d
+			subtitle: "Mercury and Venus have some of the rarest available materials in the solar system!"
+			description: ["Iridium ore can be found on both Venus and Mercury, though it is rarer on Mercury. In turn, Rutile (a mineral primarily composed of titanium dioxide) can only be found on Mercury."]
+			dependencies: [
+				"1E14D4F1B3BB549D"
+				"32065B4871D4F940"
+			]
+			id: "1681BF3BBDC4DA22"
+			tasks: [
+				{
+					id: "47B359DFB0E328D1"
+					type: "item"
+					item: "libvulpes:ingotiridium"
+					count: 5L
+				}
+				{
+					id: "6D5811C9809E2760"
+					type: "item"
+					item: "libvulpes:ingottitanium"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "3A6730DBECF59463"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			title: "The Pinnacle of Tech!"
+			x: 13.0d
+			y: 8.0d
+			subtitle: "Congratulations! We can make some really fun things with these..."
+			dependencies: ["1681BF3BBDC4DA22"]
+			id: "3ADD95C01FC89CF2"
+			tasks: [{
+				id: "2A790D899EC5A4E5"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "3DEFB092C912BC9D"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			title: "Elite Circuitry!"
+			x: 13.0d
+			y: 0.5d
+			subtitle: "Second best still counts, right?"
+			dependencies: ["04E68FBB97AC8095"]
+			id: "57844CE419D74217"
+			tasks: [{
+				id: "1FF8AF79F7401808"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "3DB9B7348743BA06"
+				type: "item"
+				item: "boss_tools:silicon_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Advanced Circuitry"
+			x: 9.5d
+			y: -5.5d
+			subtitle: "With access to the Moon, you may now make Advanced Control Circuits!"
+			dependencies: ["5F079DAC35170B45"]
+			id: "656C09A346706F3A"
+			tasks: [{
+				id: "2FBDDA8CD0D37DD2"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			title: "So Long, Mineshafts..."
+			x: 13.0d
+			y: 12.0d
+			subtitle: "A Digital Miner can find exactly the ores you need!"
+			dependencies: ["539D2A826813BA8B"]
+			optional: true
+			id: "21735C9A0F9B9D86"
+			tasks: [{
+				id: "654E97D9D42CE6E5"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "498FCA51F8D00FD9"
+				type: "item"
+				item: "mekanism:teleportation_core"
+				count: 2
+			}]
+		}
+		{
+			title: "Digital Storage, But Bigger"
+			x: 9.0d
+			y: 12.0d
+			subtitle: "QIO is a mass storage system."
+			description: ["It's not quite as configurable as Applied Energistics, but it's still decently useful, purely for the mass amount of storage space it provides."]
+			dependencies: ["539D2A826813BA8B"]
+			optional: true
+			id: "2BDF15F30CA06996"
+			tasks: [
+				{
+					id: "4D3AF8D8BCD7F7FC"
+					type: "item"
+					item: "mekanism:qio_drive_array"
+				}
+				{
+					id: "06E8D33CA12ED8FB"
+					type: "item"
+					item: "mekanism:qio_dashboard"
+				}
+				{
+					id: "10483EDEBB5C5530"
+					type: "item"
+					item: "mekanism:qio_importer"
+				}
+				{
+					id: "11EE46AB6784FAE4"
+					type: "item"
+					item: "mekanism:qio_exporter"
+				}
+			]
+			rewards: [{
+				id: "73A53F277EC63726"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 3
+			}]
+		}
+		{
+			icon: "minecraft:grindstone"
+			x: 11.0d
+			y: 8.0d
+			subtitle: "You'll never make it to the creative items like this."
+			description: [
+				"Now that we have access to all of the good stuff, let's use it! Our goal is simple: creation of antimatter!"
+				""
+				"You'll need two major ingredients, Polonium and Plutonium, for this process."
+			]
+			dependencies: ["3ADD95C01FC89CF2"]
+			id: "6BBAD6B4C56A86A1"
+			tasks: [{
+				id: "70F392C84BF7F28B"
+				type: "checkmark"
+				title: "What? You Thought We Were Done?"
+			}]
+		}
+		{
+			title: "Plutonium Creation For Dummies"
+			x: 8.0d
+			y: 7.0d
+			subtitle: "Step 1: Do NOT rip off Libyans."
+			description: ["To create yellow cake uranium, simply insert uranium ingots into an enrichment chamber."]
+			dependencies: ["6BBAD6B4C56A86A1"]
+			id: "2D0834585E87EE41"
+			tasks: [{
+				id: "28CB1E00735588EF"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+				count: 64L
+			}]
+		}
+		{
+			title: "Step 2: Oxidation!"
+			x: 5.5d
+			y: 7.0d
+			subtitle: "This is pretty easy, thanks to these magic boxes."
+			description: ["Next, oxidize the yellow cake uranium into uranium oxide."]
+			dependencies: ["2D0834585E87EE41"]
+			id: "0C8D5D96E8ACC6FC"
+			tasks: [{
+				id: "4F7D156D07E37DD6"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			title: "Another Pressure Chamber"
+			x: 13.0d
+			y: 10.5d
+			subtitle: "This one is different, I promise"
+			description: ["This device allows for very specific pressurized reactions to occur - we'll be using it a lot in the coming quests."]
+			dependencies: ["3ADD95C01FC89CF2"]
+			id: "7F4C79207EF7DA39"
+			tasks: [{
+				id: "354A94569ED73640"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "5B701CC503A5471D"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			title: "Oh Pluto!"
+			x: -1.0d
+			y: 5.5d
+			subtitle: "A pellet of highly dangerous plutonium - what could go wrong?"
+			dependencies: ["5ED4D955C3E37769"]
+			id: "42A95A41017EF8B6"
+			tasks: [{
+				id: "04972CB9643F98EC"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "6D0F1568B91FE6EB"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			title: "Polonium!"
+			x: -1.0d
+			y: 8.0d
+			subtitle: "Named for Marie Curie's homeland, Poland."
+			description: ["Combine the Polonium with Fluorite and water to get pellets!"]
+			dependencies: ["40A5FCC4396E623C"]
+			id: "1859605A1841610A"
+			tasks: [{
+				id: "72915EB3B3404D73"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0EFF18483117220A"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				count: 2
+			}]
+		}
+		{
+			title: "To Protect Yourself and the Environment"
+			x: 2.0d
+			y: 9.0d
+			subtitle: "Radioactive Waste Barrels will slowly discard waste from the world."
+			description: ["Be very careful with these things - their contents can create irradiated areas."]
+			dependencies: ["375AE1646F859207"]
+			id: "0359BDA230AF4569"
+			tasks: [{
+				id: "7464AC3A584E8FC1"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+			rewards: [
+				{
+					id: "234B3B45DB45201C"
+					type: "item"
+					item: "mekanism:radioactive_waste_barrel"
+				}
+				{
+					id: "1042DF2FE86FB3EB"
+					type: "item"
+					item: "engineersdecor:sign_radioactive"
+				}
+			]
+		}
+		{
+			title: "Finally Fissiling"
+			x: 3.5d
+			y: 7.0d
+			subtitle: "An Isotropic Centrifuge can produce Fissile Fuel from Uranium Hexafloride"
+			dependencies: ["4849218F04AE21A8"]
+			id: "2F80516A889EFB34"
+			tasks: [{
+				id: "088462023EFA5E55"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "224D5107221EF36F"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			subtitle: "A brief guide"
+			description: [
+				"Convert nuclear waste in your Isotopic Centrifuge to obtain Plutonium gas!"
+				""
+				"Next, you will need to process it with Fluorite and water in your Pressurized Reaction Chamber to obtain a pellet of Plutonium."
+			]
+			dependencies: ["375AE1646F859207"]
+			id: "5ED4D955C3E37769"
+			tasks: [{
+				id: "1AC657A13616FC47"
+				type: "checkmark"
+				title: "Making Plutonium"
+			}]
+		}
+		{
+			title: "Chemically Dissolving"
+			x: 8.0d
+			y: 9.0d
+			subtitle: "This stuff is definitely safe and not toxic at all."
+			description: [
+				"Process Fluorite with Sulfuric Acid to create a Hydrofluoric Acid."
+				""
+				"If you haven't made Sulfuric Acid before, check out the chapter on Ore Doubling - it explains this process."
+			]
+			dependencies: ["6BBAD6B4C56A86A1"]
+			id: "4ED8D79FC13DB1EB"
+			tasks: [{
+				id: "5402A4878AC01E62"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			title: "Putting It All Together Again!"
+			x: 3.5d
+			y: 9.0d
+			subtitle: "Finally, combine the Hydrofluoric Acid and Uranium Oxide to produce Uranium Hexafluoride."
+			dependencies: [
+				"0C8D5D96E8ACC6FC"
+				"4ED8D79FC13DB1EB"
+			]
+			id: "4849218F04AE21A8"
+			tasks: [{
+				id: "311AEEFFF3BEFFC2"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			title: "HARDER!"
+			x: 9.5d
+			y: -7.0d
+			subtitle: "Let's upgrade those Thermal machines!"
+			dependencies: ["656C09A346706F3A"]
+			optional: true
+			id: "5FB354608483857B"
+			tasks: [{
+				id: "30D5819DC910D7A1"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "1207A43B3A2CEB9A"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			title: "Advanced Mekanism Factories!"
+			x: 9.5d
+			y: -4.0d
+			subtitle: "This upgrade item allows you to easily improve your Mekanism machines."
+			dependencies: ["656C09A346706F3A"]
+			optional: true
+			id: "2F61BC43A2F0F25F"
+			tasks: [{
+				id: "3D5133910F38258C"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [{
+				id: "1C482AFCB0613508"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			title: "Elite Mekanism Factories!"
+			x: 11.5d
+			y: 0.5d
+			subtitle: "Moving up in the world."
+			dependencies: ["57844CE419D74217"]
+			optional: true
+			id: "35D08F4854793035"
+			tasks: [{
+				id: "3E7ECB0E5D7D3DC2"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "1BE0A31FCB1CF853"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			title: "Reinforcing Notions"
+			x: 14.5d
+			y: 0.5d
+			subtitle: "Bring your machines to the next level!"
+			dependencies: ["57844CE419D74217"]
+			optional: true
+			id: "22C25A1DFD469114"
+			tasks: [{
+				id: "76B85AD6D5735C88"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "146BC82A8DA8FDC8"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			title: "Resonance"
+			x: 15.0d
+			y: 6.5d
+			subtitle: "This is the final upgrade tier for Thermal machines."
+			dependencies: ["3ADD95C01FC89CF2"]
+			optional: true
+			id: "20E965436974ED8C"
+			tasks: [{
+				id: "27C6148FD16068C6"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "6CDCFF34E18793B2"
+				type: "item"
+				item: "libvulpes:ingottitanium"
+				count: 2
+			}]
+		}
+		{
+			title: "Ultimate Factories!"
+			x: 15.0d
+			y: 9.5d
+			subtitle: "It doesn't get any better than this!"
+			dependencies: ["3ADD95C01FC89CF2"]
+			optional: true
+			id: "4AE86C041DE235C6"
+			tasks: [{
+				id: "6322820B71AFAFC5"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [{
+				id: "7844A20693160BBB"
+				type: "item"
+				item: "libvulpes:ingottitanium"
+				count: 2
+			}]
+		}
+		{
+			title: "NOC Components - Part 2"
+			icon: "masterfulmachinery:noc_controller"
+			x: 1.0d
+			y: -3.0d
+			subtitle: "The second half of your shopping list."
+			dependencies: ["6FEDE1093D9FF647"]
+			id: "7BA8EE4BE7271B3C"
+			tasks: [
+				{
+					id: "33C20FF3598115CE"
+					type: "item"
+					item: "masterfulmachinery:noc_controller"
+				}
+				{
+					id: "41CF6DD4FC2466D5"
+					type: "item"
+					item: "masterfulmachinery:noc_item_port_items_input"
+				}
+				{
+					id: "01847631F21DE1E9"
+					type: "item"
+					item: "masterfulmachinery:noc_energy_port_energy_input"
+				}
+				{
+					id: "0E495686ED8DD52B"
+					type: "item"
+					item: "masterfulmachinery:noc_gas_port_mekanism_gas_input"
+				}
+				{
+					id: "007FABA546C502B4"
+					type: "item"
+					item: "masterfulmachinery:noc_air_port_pncr_pressure_input"
+				}
+				{
+					id: "62433DDE0C0BAFAC"
+					type: "item"
+					item: "masterfulmachinery:noc_fluid_port_fluids_output"
+				}
+			]
+		}
+		{
+			title: "Another Machine?!"
+			icon: "masterfulmachinery:fuel_encap_controller"
+			x: 11.3d
+			y: -5.5d
+			subtitle: "Yea, sorry about that. It's for a good cause though!"
+			description: ["Essentially, this thing barrels your fuel. Currently, Tier 2 and Tier 3 rockets only take these barrels, and not the buckets. Vice versa for the Tier 1 rocket. All this machine does is barrel the fuel."]
+			dependencies: ["656C09A346706F3A"]
+			id: "3664DE482F3B8868"
+			tasks: [
+				{
+					id: "051B0E7F2AC162E3"
+					type: "item"
+					item: "masterfulmachinery:fuel_encap_controller"
+				}
+				{
+					id: "6F028C940D1F62EE"
+					type: "item"
+					item: "masterfulmachinery:fuel_encap_item_port_items_input"
+				}
+				{
+					id: "4563807CC17129C8"
+					type: "item"
+					item: "masterfulmachinery:fuel_encap_item_port_items_output"
+				}
+				{
+					id: "12C03F490B7B8062"
+					type: "item"
+					item: "masterfulmachinery:fuel_encap_fluid_port_fluids_input"
+				}
+				{
+					id: "301EEDF6A1662241"
+					type: "item"
+					item: "minecraft:yellow_concrete"
+					count: 13L
+				}
+				{
+					id: "30D38BDA400F6E50"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "087BC5E16AB1C3A1"
+				type: "item"
+				item: "boss_tools:barrel"
+			}]
+		}
+	]
+}

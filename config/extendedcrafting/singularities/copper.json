@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.copper",
+  "materialCount": 2500,
   "colors": [
     "ce7201",
     "ce7201"

@@ -1,3 +1,8 @@
 {
-	chapter_groups: []
+	chapter_groups: [
+		{ id: "64DFD76C777DC386", title: "Getting Started" }
+		{ id: "3DAEDBA3E5F09E07", title: "Technomagical Wonders" }
+		{ id: "0663EB7A978FD08B", title: "The Great Beyond" }
+		{ id: "5338BDEB2CDD0EE0", title: "Miscellaneous Miscellany" }
+	]
 }

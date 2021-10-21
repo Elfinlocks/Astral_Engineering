@@ -1,0 +1,45 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "electrolysis_machine",
+    "controllerId": "electrolyser",
+    "ticks": 100,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "libvulpes:orerutile",
+                "count": 1
+            }
+        },
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "minecraft:water",
+                "amount": 1000
+            }
+        },
+		{
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 300000
+            }
+        }
+		
+    ],
+    "outputs":[
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "libvulpes:dusttitanium",
+                "count": 1
+            }
+        },
+		{
+            "type": "masterfulmachinery:mekanism_gas",
+            "data":{
+                "gas": "mekanism:oxygen",
+                "amount": 100
+            }
+        }
+    ]
+}

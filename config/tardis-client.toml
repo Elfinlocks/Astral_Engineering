@@ -14,12 +14,17 @@
 	#Seperate every entry except the last one with commas
 	#To blacklist all blocks from a mod, use YourModId:*
 	botiBlacklistedBlocks = [""]
+	#Define if machine tooltips should show more information. E.g. Show Progress in ticks
+	showMoreMachineTooltips = false
+	#Define if tools such as the Sonic Screwdriver will play their sounds when notifying the player
+	#Example: Sonic playing sound when it detects a Rift Chunk
+	playToolNotificationSounds = true
 
 	["Client Settings"."Vortex Manipulator"]
 		#Toggles whether the Vortex Manipulator in the inventory will open its GUI if the player right clicks with an empty hand
 		openVMEmptyHand = false
 
 	["Client Settings"."Tardis Client Settings"]
-		#Toggles whether to shake the camera during flight and when the exterior is hit
+		#Toggles whether to shake the camera during flight or when the exterior is hit
 		interiorShake = true
 

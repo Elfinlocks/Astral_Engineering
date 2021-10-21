@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.redstone",
+  "materialCount": 5000,
   "colors": [
     "aa0f01",
     "720000"

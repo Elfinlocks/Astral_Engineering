@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.glowstone",
+  "materialCount": 5000,
   "colors": [
     "ffbc5e",
     "b47140"

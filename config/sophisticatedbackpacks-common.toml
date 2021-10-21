@@ -4,10 +4,7 @@
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_tool_swapper_upgrade:false", "diamond_backpack:true", "smelting_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "stonecutter_upgrade:false", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:false", "feeding_upgrade:false", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "inception_upgrade:false", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_4:false", "stack_upgrade_tier_2:false", "stack_upgrade_tier_3:false", "stack_upgrade_tier_1:false", "upgrade_base:true", "refill_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true"]
-	#Shift clicking will first move the stack into open tab and only then to player's inventory or to backpack (based on where shift clicking from backpack or from player's inventory).
-	#Setting this to false will move stacks to backpack/inventory first.
-	shiftClickIntoOpenTabFirst = true
+	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_tool_swapper_upgrade:false", "diamond_backpack:true", "smelting_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "stonecutter_upgrade:false", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:false", "feeding_upgrade:false", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "inception_upgrade:false", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_4:false", "stack_upgrade_tier_2:false", "stack_upgrade_tier_3:false", "stack_upgrade_tier_1:false", "upgrade_base:true", "refill_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "netherite_backpack:true", "advanced_feeding_upgrade:true", "tank_upgrade:true", "battery_upgrade:true"]
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]
@@ -251,7 +248,7 @@
 	[common.entityBackpackAdditions]
 		#Chance of an entity spawning with Backpack
 		#Range: 0.0 ~ 1.0
-		chance = 0.01
+		chance = 0.0
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
 		buffWithPotionEffects = true
 		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
@@ -266,4 +263,31 @@
 		addLoot = true
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
 		playJukebox = true
+
+	#Advanced Feeding Upgrade Settings
+	[common.advancedFeedingUpgrade]
+		#Number of Advanced Feeding Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Tank Upgrade Settings
+	[common.tankUpgrade]
+		#Capacity in mB the tank upgrade will have per row of backpack slots
+		#Range: 500 ~ 20000
+		capacityPerSlotRow = 2000
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
+		#Range: 0.0 ~ 5.0
+		stackMultiplierRatio = 1.0
+		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
+		#Range: 1 ~ 100
+		autoFillDrainContainerCooldown = 20
+		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max storage gets multiplied by number of rows in backpack and stack multiplier.
+		#Range: 1 ~ 1000
+		maxInputOutput = 20
+		#Energy in FE the battery upgrade will have per row of backpack slots
+		#Range: 500 ~ 50000
+		energyPerSlotRow = 10000
 

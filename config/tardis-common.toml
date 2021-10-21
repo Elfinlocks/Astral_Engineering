@@ -1,19 +1,30 @@
 
 ["World Generation"]
-	#This value is divided by 1 to form the final probability
+	#The chance for Cinnabar Ore to spawn in the world
+	#This must be a whole number, no decimals
+	#The final spawn chance is equal to 1 divided by this config value
 	#Example: Value = 2, Spawn Chance = 1/2
-	cinnabarOreSpawnChance = 0
+	#Use 1 to always generate this ore, 1001 to disable generation
+	#Range: 1 ~ 1001
+	cinnabarOreSpawnChance = 1
+	#The chance for Xion Crystals to spawn in the world
+	#This option does not allow decimal points
 	#This value is divided by 100 to form the final probability
 	#Example: Value = 1, Spawn Chance = 1/100
-	xionCrystalSpawnChance = 30
+	xionCrystalSpawnChance = 0
 	#This value is divided by 100 to form the final probability
 	#Example: Value = 1, Spawn Chance = 1/100
-	tardisSpawnProbability = 1
+	tardisSpawnProbability = 0
+	#The list of dimension ids that a Broken Tardis Exterior cannot spawn in
+	#Example. tardis:moon
+	#Add an asterisk after the mod id to blacklist all dimensions.
+	#Example. tardis:*
+	tardisSpawnDimBlacklist = ["twilightforest:twilightforest", "twilightforest:skylight_forest", "regeneration:*"]
 
 	["World Generation"."Crashed Structure"]
 		#This value is divided by 100 to form the final probability
 		#Example: Value = 1, Spawn Chance = 1/100
-		crashedStructureSpawnChance = 10
+		crashedStructureSpawnChance = 0
 		#The number of chunks that can seperate two instances of this structure
 		#This option does not allow decimal points
 		crashedStructureSeperation = 100
@@ -23,9 +34,12 @@
 		crashedStructureSpacing = 60
 
 	["World Generation"."Space Station"]
+		#The chance for a Space Station Structure and its mission, to spawn in the world
+		#This option allows does allow decimal points
+		#This structure only spawns in the Space Dimension
 		#This value is divided by 100 to form the final probability
 		#Example: Value = 1, Spawn Chance = 1/100
-		spaceStationMissionSpawnChance = 5
+		spaceStationMissionSpawnChance = 0
 		#The number of chunks that can seperate two instances of this structure
 		#This option does not allow decimal points
 		spaceStationMissionSeperation = 120
@@ -35,9 +49,11 @@
 		spaceStationMissionSpacing = 30
 
 	["World Generation"."Dalek Saucer"]
+		#The chance for a Dalek Saucer Structure to spawn in the world
+		#This option does not allow decimal points
 		#This value is divided by 100 to form the final probability
 		#Example: Value = 1, Spawn Chance = 1/100
-		dalekSaucerSpawnChance = 3
+		dalekSaucerSpawnChance = 0
 		#The number of chunks that can seperate two instances of this structure
 		#This option does not allow decimal points
 		dalekSaucerSeperation = 200
@@ -47,16 +63,39 @@
 		dalekSaucerSpacing = 50
 
 	["World Generation"."Abandoned Spaceship"]
+		#The chance for Abandoned Spaceship Structure, to spawn in the world
+		#This option does not allow decimal points
 		#This value is divided by 100 to form the final probability
 		#Example: Value = 1, Spawn Chance = 1/100
-		abandonedSpaceshipSpawnChance = 8
+		abandonedSpaceshipSpawnChance = 0
 		#The number of chunks that can seperate two instances of this structure
 		#This option does not allow decimal points
-		#This structure only spawns in the Space Dimension
 		abandonedSpaceshipSeperation = 100
 		#The chunk radius around a potential spawn location in which this structure can spawn.
 		#Structure Spacing value must be smaller than Structure Seperation
 		#This option does not allow decimal points
-		#This structure only spawns in the Space Dimension
 		abandonedSpaceshipSpacing = 20
+
+	["World Generation"."Moon Lander"]
+		#The chance for Moon Lander Structure to spawn in the world
+		#This option does not allow decimal points
+		#This structure only spawns in the Moon Dimension
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		moonLanderSpawnChance = 15
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		moonLanderSeperation = 50
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		moonLanderSpacing = 20
+
+["Entity Spawns"]
+	#Toggle if Daleks should spawn in each Village Raid Wave
+	dalekJoinVillageRaid = true
+	#Number of Daleks that should spawn in each Village Raid Wave
+	#The index of the number determines which raid you are setting
+	#E.g. A list of {2,3,5,6,7,9,12} means the 1st wave will contain 2 Daleks, 2nd wave contains 3 Daleks, 3rd wave contains 5 Daleks, etc.
+	dalekVillageRaidSpawnCount = [2, 3, 5, 7, 8, 10, 12]
 

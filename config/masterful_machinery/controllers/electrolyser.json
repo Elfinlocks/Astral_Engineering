@@ -1,0 +1,43 @@
+{
+  "controllerId": "electrolyser",
+  "name": "Electrolyser",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "name": "Electrolyser Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Electrolyser Energy",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Electrolyser Water",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Electrolyser Gas",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "gas",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

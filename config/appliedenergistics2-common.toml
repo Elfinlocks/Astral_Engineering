@@ -48,11 +48,11 @@
 		#No comment
 		CertusQuartzWorldGen = true
 		#No comment
-		VillagerTrading = true
+		VillagerTrading = false
 		#No comment
-		SpawnPressesInMeteorites = true
+		SpawnPressesInMeteorites = false
 		#No comment
-		MeteoriteWorldGen = true
+		MeteoriteWorldGen = false
 
 [general]
 	#Will auto-remove items that crash when being loaded from storage. This will destroy those items instead of crashing the game!
@@ -74,7 +74,7 @@
 [GrindStone]
 	#Chance to actually get an output with stacksize > 1.
 	#Range: 0.0 ~ 100.0
-	oreDoublePercentage = 90.0
+	oreDoublePercentage = 0.0
 
 [battery]
 	entropyManipulator = 200000

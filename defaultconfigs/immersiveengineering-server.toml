@@ -89,10 +89,10 @@
 	lightning_output = 16000000
 	#The Flux per tick that the Diesel Generator will output. The burn time of the fuel determines the total output
 	#Range: > 0
-	dieselGen_output = 4096
+	dieselGen_output = 8192
 	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
 	#Range: > 1
-	preheater_consumption = 32
+	preheater_consumption = 64
 	#The Flux per tick the Charging Station can insert into an item
 	#Range: > 1
 	charger_consumption = 256
@@ -502,7 +502,7 @@
 		consumption = 800
 		#A modifier for the damage of all projectiles fired by the Railgun
 		#Range: 0.0 ~ 1.7976931348623157E308
-		damage_modifier = 2.0
+		damage_modifier = 4.0
 
 	[tools.powerpack]
 		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]

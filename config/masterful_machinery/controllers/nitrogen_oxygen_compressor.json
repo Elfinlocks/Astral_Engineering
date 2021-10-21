@@ -1,0 +1,55 @@
+{
+  "controllerId": "noc",
+  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+  "name": "Nitrogen Oxygen Compressor",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Gas",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "gas",
+      "data": {
+        "capacity": 10000
+      }
+	},
+	{
+      "type": "masterfulmachinery:pncr_pressure",
+      "name": "Pressure",
+	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+      "id": "air",
+      "data": {
+        "volume": 10000,
+		"dangerPressure": 4,
+		"criticalPressure": 5
+		}
+	}
+  ]
+}

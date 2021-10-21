@@ -1,0 +1,304 @@
+{
+	id: "0181AACBCDCA9E0D"
+	group: "5338BDEB2CDD0EE0"
+	order_index: 2
+	filename: "how_to_double_your_ores"
+	title: "How To Double Your Ores"
+	icon: "minecraft:diamond_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "mekanism:basic_enriching_factory"
+			x: 7.5d
+			y: -9.0d
+			shape: "gear"
+			subtitle: "This is the first of a chain of optional subquests, which will teach you how to QUINTUPLE ore!"
+			description: ["Tip: Each quest that marks a milestone (x2, x3, and x4) will be denoted by a rounded square icon."]
+			dependencies: ["62D2D5FA1059D613"]
+			size: 1.5d
+			optional: true
+			id: "2B1C582A68DB9091"
+			tasks: [{
+				id: "476B30FB150003F3"
+				type: "checkmark"
+				title: "The Great Ore Expedition!"
+			}]
+		}
+		{
+			title: "Basic Enrichment"
+			x: 9.5d
+			y: -9.0d
+			shape: "rsquare"
+			subtitle: "First, craft a basic Enrichment Chamber. You can upgrade this to a factory variant if you wish."
+			description: ["This item provides basic ore doubling services that you're used to."]
+			dependencies: ["2B1C582A68DB9091"]
+			optional: true
+			id: "70F4B1487B944DDC"
+			tasks: [{
+				id: "601E2664E763C3AF"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			title: "Tripling Ores - Part 1"
+			icon: "mekanism:purification_chamber"
+			x: 11.0d
+			y: -9.0d
+			subtitle: "To triple ores, first place them in a Purification Chamber..."
+			dependencies: ["70F4B1487B944DDC"]
+			optional: true
+			id: "732963CAB9D7B086"
+			tasks: [{
+				id: "6AAB59029BFF4D03"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			title: "Tripling Ores - Part 2"
+			x: 11.0d
+			y: -7.5d
+			shape: "rsquare"
+			subtitle: "...Then send those ore clumps into a Crusher to receive dirt dust. Process this through an Enrichment Chamber, and smelt as normal for x3 ores!"
+			dependencies: ["732963CAB9D7B086"]
+			optional: true
+			id: "1BB83F0C4FA32362"
+			tasks: [{
+				id: "0CD260BDD349380B"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			title: "Quadrupling Ores - Part 1"
+			x: 13.0d
+			y: -7.5d
+			subtitle: "To begin with ore quadrupling, you need a Chemical Injection Chamber. Your ores will go in here."
+			dependencies: ["1BB83F0C4FA32362"]
+			optional: true
+			id: "5C18E00F6BDB013E"
+			tasks: [{
+				id: "4D5DAD72A520F0CE"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			title: "Quadrupling Ores - Part 2"
+			x: 13.0d
+			y: -9.0d
+			subtitle: "To begin quadrupling ores, you'll first need Brine. This is obtained from a Thermal Evaporation Plant."
+			description: [
+				"The structure has a 4 by 4 block base, with a minimum height of 3 blocks, to a maximum height of 18. The base is made with only Thermal Evaporation Blocks, and the walls contain a Thermal Evaporation Controller, and at least 2 Thermal Evaporation Valves."
+				""
+				"The structure has no solid roof, and instead can be capped by removing the 4 top corners of the multiblock with Advanced Solar Generators."
+			]
+			dependencies: ["5C18E00F6BDB013E"]
+			optional: true
+			id: "1A5F2375A4EC88C5"
+			tasks: [
+				{
+					id: "7F877088BBAC3DE7"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "5EE21D789DE2710A"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+				}
+				{
+					id: "68BC2705541610FA"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+					count: 4L
+				}
+				{
+					id: "14FE130667AFCCF8"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Quadrupling Ores - Part 3"
+			icon: "mekanism:electrolytic_separator"
+			x: 13.0d
+			y: -10.5d
+			subtitle: "Next, you'll need to send this Brine through the Electrolysis process."
+			description: ["Doing this should output Chlorine and Sodium."]
+			dependencies: ["1A5F2375A4EC88C5"]
+			optional: true
+			id: "66E55EAFB4B36E40"
+			tasks: [{
+				id: "506C1E329FFAE795"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Quadrupling Ores - Part 4"
+			x: 13.0d
+			y: -12.5d
+			subtitle: "From here, the Chlorine must be combined with Hydrogen to obtain HCl."
+			description: ["If you didn't set it up beforehand, one of the easiest ways to get Hydrogen is by electrolysing water."]
+			dependencies: ["66E55EAFB4B36E40"]
+			optional: true
+			id: "576B860979257A32"
+			tasks: [{
+				id: "042983EACF4C293A"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			title: "Quadrupling Ores - Part 5"
+			icon: "mekanism:shard_iron"
+			x: 14.5d
+			y: -11.5d
+			shape: "rsquare"
+			subtitle: "You've made it! Send the HCl into your Chemical Injection chamber. You will now obtain 4 shards of ore, instead of 3 clumps. Send these shards through the process as normal."
+			dependencies: ["576B860979257A32"]
+			optional: true
+			id: "64B75C0959BD44D0"
+			tasks: [{
+				id: "3BDBE80EB2BDE7BB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 1"
+			x: 14.5d
+			y: -9.5d
+			subtitle: "To begin with ore quintupling, you'll need a source of sulfur. One such source is to combine HCl with Gunpowder in a Chemical Injection Chamber."
+			dependencies: ["64B75C0959BD44D0"]
+			optional: true
+			id: "15EA055F6478D5D0"
+			tasks: [{
+				id: "342EABB18E2F441E"
+				type: "item"
+				item: "thermal:sulfur_dust"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 2"
+			x: 14.5d
+			y: -8.0d
+			subtitle: "Next, you'll need to process this sulfur through a Chemical Oxidizer, to obtain Sulfur Dioxide."
+			dependencies: ["15EA055F6478D5D0"]
+			optional: true
+			id: "17E42DA992C2186D"
+			tasks: [{
+				id: "202F45495494C4A6"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 3"
+			icon: "mekanism:chemical_infuser"
+			x: 14.5d
+			y: -6.0d
+			subtitle: "This Sulfur Dioxide must be infused with Oxygen, to create Sulfur Trioxide."
+			dependencies: ["17E42DA992C2186D"]
+			optional: true
+			id: "14DB457B25359CF9"
+			tasks: [{
+				id: "2FFBE4999D094F24"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Ore Quintupling - Rotary Condensation"
+			x: 18.5d
+			y: -6.0d
+			subtitle: "You'll need one of these to turn water into water vapor."
+			hide_dependency_lines: true
+			dependencies: ["14DB457B25359CF9"]
+			optional: true
+			id: "1305604623509E74"
+			tasks: [{
+				id: "550701D0AA1AD20D"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 4"
+			icon: "mekanism:sulfuric_acid_bucket"
+			x: 16.5d
+			y: -6.0d
+			subtitle: "Following this, the Sulfur Trioxide and Water Vapor must be combined in a Chemical Infuser, to create Sulfuric Acid."
+			dependencies: [
+				"14DB457B25359CF9"
+				"1305604623509E74"
+			]
+			optional: true
+			id: "089A1474EEC20FF1"
+			tasks: [{
+				id: "3593D276ADEE3318"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 5"
+			x: 16.5d
+			y: -4.5d
+			subtitle: "Place the ore in a Chemical Dissolution Chamber with Sulfuric Acid, to receive ore slurry."
+			dependencies: ["089A1474EEC20FF1"]
+			optional: true
+			id: "140C32EE534C1C97"
+			tasks: [{
+				id: "2236787E41BD95FD"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			title: "Quintupling Ores - Part 6"
+			x: 18.5d
+			y: -4.5d
+			subtitle: "This ore slurry is then cleaned in a Chemical Washer, which must be provided with water to operate."
+			dependencies: ["140C32EE534C1C97"]
+			optional: true
+			id: "0EC5CF5A23E489F7"
+			tasks: [{
+				id: "72743FF65A23BEA5"
+				type: "item"
+				item: "mekanism:chemical_washer"
+			}]
+		}
+		{
+			title: "Ore Quintupling - Part 7"
+			x: 20.5d
+			y: -4.5d
+			subtitle: "Almost there! Process the clean ore slurry in a Chemical Crystallizer to get Ore Crystals."
+			dependencies: ["0EC5CF5A23E489F7"]
+			optional: true
+			id: "60F39BB1C12A19A4"
+			tasks: [{
+				id: "05AEBAB197A5F010"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			title: "FINALLY! Ore Quintupling!"
+			icon: "minecraft:diamond_ore"
+			x: 22.5d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "Process the crystals through the HCl-fueled Chemical Injection Chamber, and you're done!"
+			dependencies: ["60F39BB1C12A19A4"]
+			size: 1.5d
+			optional: true
+			id: "5A8B1C01D1AFB98E"
+			tasks: [{
+				id: "6A3428DC37A63635"
+				type: "checkmark"
+			}]
+		}
+	]
+}
