@@ -21,6 +21,8 @@ events.listen('block.tags', function (event) {
 	event.get('chisel:marble').add('quark:marble_pillar')
 	event.get('chisel:marble').add('quark:marble')
 	event.get('chisel:marble').add('quark:polished_marble')
+	event.get('forge:storage_blocks/desh').add('boss_tools:block_of_desh')
+	event.get('forge:storage_blocks/silicon').add('boss_tools:block_of_silicon')
 })
 
 events.listen('item.tags', function (event) {
@@ -128,4 +130,6 @@ events.listen('item.tags', function (event) {
 	event.get('forge:raw_fishes').add('aquaculture:fish_fillet_raw')
 	event.get('forge:cookedfish').add('aquaculture:fish_fillet_cooked')
 	event.get('forge:cooked_fishes').add('aquaculture:fish_fillet_cooked')
+	event.get('forge:storage_blocks/desh').add('boss_tools:block_of_desh')
+	event.get('forge:storage_blocks/silicon').add('boss_tools:block_of_silicon')
 })

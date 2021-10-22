@@ -10,6 +10,8 @@ onEvent('item.registry', event => {
 	event.create('unfinished_circuit').displayName('Unfinished Circuit')
 	event.create('prepared_circuit').displayName('Prepared Circuit')
 	event.create('drilled_circuit').displayName('Drilled Circuit')
+	event.create('rocket_salvage_1').displayName('Tier 1 Rocket Salvage')
+	event.create('rocket_salvage_2').displayName('Tier 2 Rocket Salvage')
 })
 
 onEvent('block.registry', event => {
