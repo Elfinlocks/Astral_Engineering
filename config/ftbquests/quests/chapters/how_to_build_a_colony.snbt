@@ -124,6 +124,11 @@
 				type: "item"
 				item: "minecolonies:blockhuttavern"
 			}]
+			rewards: [{
+				id: "518A26D3CF583365"
+				type: "item"
+				item: "structurize:blockbarreldeco_standing"
+			}]
 		}
 		{
 			title: "Agricultural Advancement"
@@ -158,6 +163,12 @@
 				type: "item"
 				item: "minecolonies:blockhutfisherman"
 			}]
+			rewards: [{
+				id: "0A8876FFAD5E6C0D"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 10
+			}]
 		}
 		{
 			title: "Run, Forest!"
@@ -171,6 +182,12 @@
 				id: "718F8375472675F8"
 				type: "item"
 				item: "minecolonies:blockhutlumberjack"
+			}]
+			rewards: [{
+				id: "3F1CD5F45F34CE60"
+				type: "item"
+				item: "minecraft:oak_sapling"
+				count: 5
 			}]
 		}
 		{
@@ -190,6 +207,12 @@
 				type: "item"
 				item: "minecolonies:blockhutminer"
 			}]
+			rewards: [{
+				id: "2D20C7251391B919"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 10
+			}]
 		}
 		{
 			title: "Where Do I Put All of This?!"
@@ -204,6 +227,12 @@
 				type: "item"
 				item: "minecolonies:blockhutwarehouse"
 			}]
+			rewards: [{
+				id: "3093E5B0E45B74C5"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+				count: 2
+			}]
 		}
 		{
 			title: "Can't Someone Else Do It?"
@@ -217,6 +246,11 @@
 				id: "4600C34F514F302E"
 				type: "item"
 				item: "minecolonies:blockhutdeliveryman"
+			}]
+			rewards: [{
+				id: "7F1F79F0F17F3A32"
+				type: "item"
+				item: "pamhc2crops:hotcoffeeitem"
 			}]
 		}
 		{
@@ -379,6 +413,12 @@
 				type: "item"
 				item: "minecolonies:blockhutsmeltery"
 			}]
+			rewards: [{
+				id: "49F6B49F532AB35F"
+				type: "item"
+				item: "minecraft:cooked_porkchop"
+				count: 4
+			}]
 		}
 		{
 			title: "Stone Cold, But Not Actually"
@@ -397,6 +437,12 @@
 				type: "item"
 				item: "minecolonies:blockhutstonesmeltery"
 			}]
+			rewards: [{
+				id: "0D318424721FA9FF"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
 		}
 		{
 			title: "Shack Sweet Shack"
@@ -408,6 +454,11 @@
 			id: "5C1137B827903DFE"
 			tasks: [{
 				id: "381A9DAC6BF26B73"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+			rewards: [{
+				id: "18B8783799FA3B8A"
 				type: "item"
 				item: "minecolonies:blockhutcitizen"
 			}]
@@ -425,6 +476,12 @@
 				type: "item"
 				item: "minecolonies:blockhutcook"
 			}]
+			rewards: [{
+				id: "12DBECCB17694F17"
+				type: "item"
+				item: "pamhc2foodcore:carrotsoupitem"
+				count: 3
+			}]
 		}
 		{
 			title: "Please Let This Be A Normal Field Trip..."
@@ -438,6 +495,20 @@
 				id: "709479FB3F7F19D5"
 				type: "item"
 				item: "minecolonies:blockhutschool"
+			}]
+			rewards: [{
+				id: "77311FFF41E6E2A3"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "cyclic:experience_boost"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -453,6 +524,12 @@
 				type: "item"
 				item: "minecolonies:blockhutuniversity"
 			}]
+			rewards: [{
+				id: "340F5841AACDA458"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 4
+			}]
 		}
 		{
 			title: "Wee-oo, wee-oo..."
@@ -467,6 +544,20 @@
 				type: "item"
 				item: "minecolonies:blockhuthospital"
 			}]
+			rewards: [
+				{
+					id: "6F8CD1496DC7E656"
+					type: "item"
+					item: "minecraft:dandelion"
+					count: 4
+				}
+				{
+					id: "1BC822C4D4823282"
+					type: "item"
+					item: "minecraft:potato"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Someone's Gotta Do It"
@@ -485,6 +576,12 @@
 				type: "item"
 				item: "minecolonies:blockhutguardtower"
 			}]
+			rewards: [{
+				id: "4D1AB79142A2D156"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 32
+			}]
 		}
 		{
 			title: "Now THIS is automation!"
@@ -499,6 +596,11 @@
 				id: "219892CB3ABCE725"
 				type: "item"
 				item: "colony4cc:colony_peripheral"
+			}]
+			rewards: [{
+				id: "22CF40290CB2FDA7"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

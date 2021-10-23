@@ -19,6 +19,19 @@
 				type: "item"
 				item: "quark:rope"
 			}]
+			rewards: [
+				{
+					id: "3B90D53E5AD01FB3"
+					type: "item"
+					item: "quark:rope"
+					count: 4
+				}
+				{
+					id: "47A0CEF10E1AE496"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Goodbye, Glider"
@@ -33,6 +46,19 @@
 				type: "item"
 				item: "simplyjetpacks:jetpack_mek1"
 			}]
+			rewards: [
+				{
+					id: "28E4ED07482099CE"
+					type: "item"
+					item: "immersiveengineering:plate_aluminum"
+					count: 5
+				}
+				{
+					id: "26537A353714995E"
+					type: "xp"
+					xp: 300
+				}
+			]
 		}
 		{
 			title: "Moving Up In The World"
@@ -47,6 +73,19 @@
 				type: "item"
 				item: "simplyjetpacks:jetpack_mek2"
 			}]
+			rewards: [
+				{
+					id: "1FAE4EC5FACB5986"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+					count: 2
+				}
+				{
+					id: "4D09FC88A9A3485E"
+					type: "xp"
+					xp: 400
+				}
+			]
 		}
 		{
 			title: "Not Quite To The Sun Yet..."
@@ -61,6 +100,18 @@
 				type: "item"
 				item: "simplyjetpacks:jetpack_mek3"
 			}]
+			rewards: [
+				{
+					id: "5C3F054663E0046C"
+					type: "item"
+					item: "mekanism:elite_control_circuit"
+				}
+				{
+					id: "67FE73CB393096F2"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
 			title: "The Pinnacle of Flight!"
@@ -76,11 +127,18 @@
 				type: "item"
 				item: "simplyjetpacks:jetpack_mek4"
 			}]
-			rewards: [{
-				id: "5F7D820C3BE81BC0"
-				type: "item"
-				item: "mekanism:pellet_antimatter"
-			}]
+			rewards: [
+				{
+					id: "413342148BCD051F"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+				{
+					id: "38016BE3E2B915ED"
+					type: "xp"
+					xp: 750
+				}
+			]
 		}
 		{
 			title: "Getting an upgrade"
@@ -96,6 +154,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:gold_backpack"
 			}]
+			rewards: [
+				{
+					id: "68146E029D5BC92F"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+				}
+				{
+					id: "57457CAD6BE90333"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "This is getting crazy"
@@ -110,6 +180,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:diamond_backpack"
 			}]
+			rewards: [
+				{
+					id: "04B61DAF83275761"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+				}
+				{
+					id: "08D8B9806193E1A6"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			title: "When you haven't finished Dragon Slayer..."
@@ -162,6 +244,19 @@
 							Damage: 0
 						}
 					}
+				}
+			]
+			rewards: [
+				{
+					id: "43BFE1864FFA1D83"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 3
+				}
+				{
+					id: "313A8D1901AEDD86"
+					type: "xp"
+					xp: 200
 				}
 			]
 		}
@@ -218,6 +313,19 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "7588448E5918E12F"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+				{
+					id: "30753526ECC674A2"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -235,6 +343,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "508E69463D5ECB31"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16
 			}]
 		}
 		{
@@ -262,6 +376,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3D977683542BDBA1"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "6BFE94B770EBC49F"
+					type: "xp"
+					xp: 450
+				}
+			]
 		}
 		{
 			title: "The Cure to Inventory Woes"
@@ -296,6 +422,18 @@
 				type: "item"
 				item: "comforts:sleeping_bag_white"
 			}]
+			rewards: [
+				{
+					id: "3BFDD83B4C60E093"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "7165B994169BF70A"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Easy Livin'"
@@ -315,6 +453,19 @@
 					item: "comforts:rope_and_nail"
 				}
 			]
+			rewards: [
+				{
+					id: "52F82A4F4CEE6B45"
+					type: "item"
+					item: "minecraft:string"
+					count: 3
+				}
+				{
+					id: "61D43185A5824ADE"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Efficient Mass Storage"
@@ -326,6 +477,12 @@
 				id: "7EB44AAB97B2A566"
 				type: "item"
 				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "68F76001F4328FDE"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+				count: 2
 			}]
 		}
 		{
@@ -339,6 +496,12 @@
 				id: "0D1C0A4279B37BDB"
 				type: "item"
 				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "5A352B9DD218A68E"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4
 			}]
 		}
 		{
@@ -354,6 +517,12 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
+			rewards: [{
+				id: "3B1A9C1662DB6D93"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2
+			}]
 		}
 		{
 			title: "Poor Man Portable Storage"
@@ -366,6 +535,11 @@
 				id: "0F528615E644A874"
 				type: "item"
 				item: "immersiveengineering:crate"
+			}]
+			rewards: [{
+				id: "3D3A41849A8E345B"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
 			}]
 		}
 		{
@@ -424,6 +598,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
+			rewards: [
+				{
+					id: "16C6F358AA5B3E75"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+				}
+				{
+					id: "0BD3EA36D7AE99BF"
+					type: "xp"
+					xp: 300
+				}
+			]
 		}
 		{
 			title: "Natural Locator"
@@ -471,6 +657,11 @@
 				type: "item"
 				item: "thermal:wrench"
 			}]
+			rewards: [{
+				id: "1FAA9B6AA0696B93"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Shoot 'em dead"
@@ -514,6 +705,25 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1B9F08196762909C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 2
+				}
+				{
+					id: "48666ACCC6446DFE"
+					type: "xp"
+					xp: 750
+				}
+			]
 		}
 		{
 			title: "With Great Capacity, Comes Great Destruction."
@@ -528,6 +738,11 @@
 				type: "item"
 				item: "immersiveengineering:powerpack"
 			}]
+			rewards: [{
+				id: "2E5F22161D28DC06"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Boom, Headshot"
@@ -541,6 +756,11 @@
 				type: "item"
 				item: "immersiveengineering:toolupgrade_railgun_scope"
 			}]
+			rewards: [{
+				id: "2333B3ED6DA2346B"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Greater Efficiency"
@@ -553,6 +773,11 @@
 				id: "175C954F3017D071"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}]
+			rewards: [{
+				id: "64FC44C4013D7544"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -608,6 +833,24 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "5C846E77C68C1DBB"
+					type: "item"
+					item: "mekanism:module_base"
+					count: 2
+				}
+				{
+					id: "0B77F1F6ACDED38C"
+					type: "item"
+					item: "mekanism:ultimate_energy_cube"
+				}
+				{
+					id: "17138EADEFF13149"
+					type: "xp"
+					xp: 750
+				}
+			]
 		}
 		{
 			title: "You've Upgraded Your Armor!"
@@ -621,6 +864,18 @@
 				type: "item"
 				item: "mekanism:modification_station"
 			}]
+			rewards: [
+				{
+					id: "422F6745D94D184D"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "17FC7071038C5F23"
+					type: "xp"
+					xp: 250
+				}
+			]
 		}
 		{
 			title: "Under Da Sea"
@@ -634,6 +889,19 @@
 				type: "item"
 				item: "mekanism:module_electrolytic_breathing_unit"
 			}]
+			rewards: [
+				{
+					id: "1EB8B45FF8F82038"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 3
+				}
+				{
+					id: "015959D592895754"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			title: "A S C E N D"
@@ -646,6 +914,11 @@
 				id: "653A7A9DD39E2472"
 				type: "item"
 				item: "mekanism:module_gravitational_modulating_unit"
+			}]
+			rewards: [{
+				id: "2DCEB850378ECD11"
+				type: "xp"
+				xp: 200
 			}]
 		}
 		{
@@ -660,6 +933,19 @@
 				type: "item"
 				item: "mekanism:module_radiation_shielding_unit"
 			}]
+			rewards: [
+				{
+					id: "037EF87B24281B8E"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 3
+				}
+				{
+					id: "0B4FF57209CE2CFE"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			title: "The name's Eastwood. Clint Eastwood."
@@ -682,6 +968,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "037915D53472231B"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 3
+				}
+				{
+					id: "7CB2CDAE1C46E84C"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Extendin' a Magazine..."
@@ -695,6 +994,11 @@
 				id: "516090E4E3F7BA13"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_revolver_magazine"
+			}]
+			rewards: [{
+				id: "53D5E8BA2A55B3D7"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -718,6 +1022,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F47236ECAC13584"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Run, Cowards!"
@@ -731,6 +1040,18 @@
 				type: "item"
 				item: "pneumaticcraft:minigun"
 			}]
+			rewards: [
+				{
+					id: "6644F6B0BA75814C"
+					type: "item"
+					item: "pneumaticcraft:air_canister"
+				}
+				{
+					id: "7C1735E4BCBF2BBA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Mob Farming Essentials"
@@ -749,6 +1070,18 @@
 					id: "28448221C4F8E48F"
 					type: "item"
 					item: "miniutilities:diamond_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "7C3EB9F378809B7E"
+					type: "item"
+					item: "miniutilities:cursed_earth"
+				}
+				{
+					id: "41CC04081B81FA76"
+					type: "xp"
+					xp: 300
 				}
 			]
 		}
@@ -804,6 +1137,19 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "705791770CA00890"
+					type: "item"
+					item: "cyclic:gem_amber"
+					count: 2
+				}
+				{
+					id: "31A6B5498882A8B6"
+					type: "xp"
+					xp: 250
+				}
+			]
 		}
 		{
 			title: "Staying Watchful..."
@@ -820,6 +1166,18 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "113B341DD99056A8"
+					type: "item"
+					item: "minecraft:clock"
+				}
+				{
+					id: "58722E7EC222B953"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "A Note on Base Building..."
@@ -905,6 +1263,11 @@
 				id: "5EC762EBDC531A21"
 				type: "item"
 				item: "structurescompass:structures_compass"
+			}]
+			rewards: [{
+				id: "6C2C72534DC58D8A"
+				type: "xp"
+				xp: 500
 			}]
 		}
 		{
@@ -1018,6 +1381,18 @@
 				type: "item"
 				item: "morered:gatecrafting_plinth"
 			}]
+			rewards: [
+				{
+					id: "64821329D5910A3C"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "7951B02827E52212"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Buildin' a Building"
@@ -1031,6 +1406,18 @@
 				type: "item"
 				item: "rftoolsbuilder:builder"
 			}]
+			rewards: [
+				{
+					id: "624EC65033B55E59"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+				{
+					id: "44C83D3A3814DA17"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
 			title: "Big Dumb Goofus Man"
@@ -1043,18 +1430,38 @@
 				type: "item"
 				item: "dummmmmmy:target_dummy_placer"
 			}]
+			rewards: [{
+				id: "0C333322E4CE3551"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
 		}
 		{
 			title: "I Can Fly!"
 			x: 6.0d
 			y: -4.0d
 			subtitle: "Here's something to put in your cap!"
+			description: ["As long as you're in the area of a beacon, this feather gives you creative flight! Very useful for base building! "]
 			id: "5AB05EB43CBF0086"
 			tasks: [{
 				id: "19566C90E66E11F0"
 				type: "item"
 				item: "magicfeather:magicfeather"
 			}]
+			rewards: [
+				{
+					id: "4903E88CB099F36F"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+					count: 3
+				}
+				{
+					id: "5189CBE522B9F1AA"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
 		}
 		{
 			title: "Scan Report"
@@ -1088,6 +1495,11 @@
 				type: "item"
 				item: "scannable:module_ore_rare"
 			}]
+			rewards: [{
+				id: "57B0C0E95FE79FD8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -9.5d
@@ -1100,6 +1512,11 @@
 				type: "item"
 				item: "scannable:module_block"
 			}]
+			rewards: [{
+				id: "7969BE9519866FB8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -9.5d
@@ -1111,6 +1528,11 @@
 				id: "39BFA497692F6099"
 				type: "item"
 				item: "scannable:module_monster"
+			}]
+			rewards: [{
+				id: "2D18ECC9A12D2CBB"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

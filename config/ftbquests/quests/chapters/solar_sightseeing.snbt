@@ -61,9 +61,10 @@
 				item: "mekanism:teleportation_core"
 			}]
 			rewards: [{
-				id: "3825C19A3C68CEA0"
+				id: "2D26CF9BFBFA2BFE"
 				type: "item"
-				item: "mekanism:pellet_antimatter"
+				item: "mekanism:hdpe_sheet"
+				count: 2
 			}]
 		}
 		{
@@ -226,6 +227,12 @@
 					item: "mekanism:basic_induction_provider"
 				}
 			]
+			rewards: [{
+				id: "41DC6189AA675AD9"
+				type: "item"
+				item: "mekanism:induction_casing"
+				count: 4
+			}]
 		}
 		{
 			title: "Fusion Reactor"
@@ -257,6 +264,12 @@
 					item: "mekanismgenerators:fusion_reactor_logic_adapter"
 				}
 			]
+			rewards: [{
+				id: "63946063ECC18EE2"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 2
+			}]
 		}
 		{
 			title: "Solar Activation"
@@ -407,6 +420,19 @@
 					count: 2L
 				}
 			]
+			rewards: [
+				{
+					id: "66A1DAA5E287A323"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 3
+				}
+				{
+					id: "70D9D37AC7FFB6E3"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			title: "This way for a suit!"
@@ -462,6 +488,18 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "6D76F6723470C326"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C2E82713AE859F1"
+					type: "item"
+					item: "boss_tools:oxygen_gear"
+				}
+			]
 		}
 		{
 			title: "This way for the rocket!"
@@ -485,6 +523,19 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "02A4D84210E63EEA"
+					type: "item"
+					item: "thermal:signalum_ingot"
+					count: 7
+				}
+				{
+					id: "782D0673718DC178"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
 			title: "A Leg to Stand On"
@@ -498,6 +549,11 @@
 				type: "item"
 				item: "boss_tools:rocket_launch_pad"
 				count: 9L
+			}]
+			rewards: [{
+				id: "18EDA65D14D2488F"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -554,6 +610,11 @@
 				type: "item"
 				item: "boss_tools:flag"
 			}]
+			rewards: [{
+				id: "5164E23F191D92B9"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "New Resources!"
@@ -582,6 +643,12 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "2F0629A28989FFA3"
+				type: "item"
+				item: "boss_tools:moon_desh_ore"
+				count: 3
+			}]
 		}
 		{
 			title: "Refreshing!"
@@ -613,6 +680,19 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "403C9B2CF431BF4D"
+					type: "item"
+					item: "thermal:lumium_plate"
+					count: 7
+				}
+				{
+					id: "0B08421C89233F1E"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
 			title: "The Chances Are A Million To One..."
@@ -665,6 +745,18 @@
 				type: "item"
 				item: "boss_tools:space_station"
 			}]
+			rewards: [
+				{
+					id: "028C700FFEBF82FC"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "39CA01CC16324BE7"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "More New Things!"
@@ -684,6 +776,12 @@
 				item: "boss_tools:silicon_ingot"
 				count: 5L
 			}]
+			rewards: [{
+				id: "1DB8956AAE92BBAC"
+				type: "item"
+				item: "boss_tools:mars_silicon_ore"
+				count: 3
+			}]
 		}
 		{
 			title: "The Best Rock!"
@@ -701,6 +799,19 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "56A74F058CED4CB7"
+					type: "item"
+					item: "thermal:enderium_ingot"
+					count: 5
+				}
+				{
+					id: "0B5B595943C0D43E"
+					type: "xp"
+					xp: 500
+				}
+			]
 		}
 		{
 			title: "Men Are From Mars. Women Are From..."
@@ -850,6 +961,11 @@
 				type: "item"
 				item: "mekanism:advanced_control_circuit"
 			}]
+			rewards: [{
+				id: "1BB1D462B448DDFC"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
 		}
 		{
 			title: "So Long, Mineshafts..."
@@ -868,7 +984,6 @@
 				id: "498FCA51F8D00FD9"
 				type: "item"
 				item: "mekanism:teleportation_core"
-				count: 2
 			}]
 		}
 		{
@@ -906,7 +1021,7 @@
 				id: "73A53F277EC63726"
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
-				count: 3
+				count: 2
 			}]
 		}
 		{
@@ -954,6 +1069,11 @@
 				id: "4F7D156D07E37DD6"
 				type: "item"
 				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "0C7D4D137656CC18"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
 			}]
 		}
 		{
@@ -1093,6 +1213,18 @@
 				type: "item"
 				item: "mekanism:chemical_dissolution_chamber"
 			}]
+			rewards: [
+				{
+					id: "0ECD76002C622854"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+				{
+					id: "69EA2E2C4A522765"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Putting It All Together Again!"
@@ -1108,6 +1240,11 @@
 				id: "311AEEFFF3BEFFC2"
 				type: "item"
 				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "1F0B21EA056FBF61"
+				type: "item"
+				item: "thermal:machine_frame"
 			}]
 		}
 		{
@@ -1266,6 +1403,12 @@
 					item: "masterfulmachinery:noc_fluid_port_fluids_output"
 				}
 			]
+			rewards: [{
+				id: "7B21C19610C2C08B"
+				type: "item"
+				item: "immersiveengineering:storage_aluminum"
+				count: 2
+			}]
 		}
 		{
 			title: "Another Machine?!"
@@ -1310,11 +1453,19 @@
 					count: 10L
 				}
 			]
-			rewards: [{
-				id: "087BC5E16AB1C3A1"
-				type: "item"
-				item: "boss_tools:barrel"
-			}]
+			rewards: [
+				{
+					id: "087BC5E16AB1C3A1"
+					type: "item"
+					item: "boss_tools:barrel"
+				}
+				{
+					id: "5F03CFC18C742728"
+					type: "item"
+					item: "immersiveengineering:plate_aluminum"
+					count: 5
+				}
+			]
 		}
 	]
 }

@@ -90,6 +90,12 @@
 				type: "item"
 				item: "mekanismgenerators:gas_burning_generator"
 			}]
+			rewards: [{
+				id: "1BA29DB926C2CD39"
+				type: "item"
+				item: "immersiveengineering:plate_aluminum"
+				count: 4
+			}]
 		}
 		{
 			title: "Advanced Engineering Blocks"
@@ -109,6 +115,18 @@
 					id: "251538FCBAEC2A4F"
 					type: "item"
 					item: "immersiveengineering:generator"
+				}
+			]
+			rewards: [
+				{
+					id: "547CECF666C635A4"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+				{
+					id: "33F15A633EF7605D"
+					type: "xp"
+					xp: 200
 				}
 			]
 		}
@@ -162,6 +180,18 @@
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
 					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1EACC84372219F7E"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "43C140F4905A0F24"
+					type: "xp"
+					xp: 250
 				}
 			]
 		}
@@ -361,6 +391,11 @@
 				type: "item"
 				item: "thermal:machine_smelter"
 			}]
+			rewards: [{
+				id: "3B9D4CDD1105E059"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
 		}
 		{
 			title: "Phytogenic Insulation!"
@@ -374,6 +409,12 @@
 				id: "728B685071B9799A"
 				type: "item"
 				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "5D6684DC875650A3"
+				type: "item"
+				item: "thermal:lumium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -389,6 +430,12 @@
 				type: "item"
 				item: "thermal:machine_press"
 			}]
+			rewards: [{
+				id: "7677735D450DAA78"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 5
+			}]
 		}
 		{
 			title: "Fabrication Inspiration"
@@ -402,6 +449,12 @@
 				id: "09E74AB6371192CB"
 				type: "item"
 				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "2C6CFB47C1087624"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 10
 			}]
 		}
 		{
@@ -417,6 +470,12 @@
 				type: "item"
 				item: "thermal:dynamo_magmatic"
 			}]
+			rewards: [{
+				id: "01567219ED0DB75A"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 2
+			}]
 		}
 		{
 			title: "Drilling Down..."
@@ -430,6 +489,12 @@
 				id: "6C0D55C294B5C974"
 				type: "item"
 				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [{
+				id: "1B7816589D1CA4CF"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 5
 			}]
 		}
 		{
@@ -658,11 +723,18 @@
 				type: "item"
 				item: "immersiveengineering:ingot_aluminum"
 			}]
-			rewards: [{
-				id: "77CAE0B6A3AFD1A7"
-				type: "item"
-				item: "paraglider:heart_container"
-			}]
+			rewards: [
+				{
+					id: "77CAE0B6A3AFD1A7"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "3E9672E8775EC243"
+					type: "xp"
+					xp: 1000
+				}
+			]
 		}
 		{
 			title: "Really, REALLY hot topic"

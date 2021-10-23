@@ -58,6 +58,11 @@
 				type: "item"
 				item: "farmersdelight:ham"
 			}]
+			rewards: [{
+				id: "4D533F13B0B3196C"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+			}]
 		}
 		{
 			x: 0.0d
@@ -70,6 +75,11 @@
 				type: "item"
 				item: "crockpot:crock_pot_basic"
 			}]
+			rewards: [{
+				id: "38639AA1B42A5CF6"
+				type: "item"
+				item: "crockpot:pepper_popper"
+			}]
 		}
 		{
 			x: 0.0d
@@ -81,6 +91,11 @@
 				id: "5B9362D6B36801B8"
 				type: "item"
 				item: "crockpot:crock_pot_advanced"
+			}]
+			rewards: [{
+				id: "3920F8196482EF2F"
+				type: "item"
+				item: "crockpot:gazpacho"
 			}]
 		}
 		{
@@ -117,6 +132,11 @@
 				type: "item"
 				item: "crockpot:crock_pot_ultimate"
 			}]
+			rewards: [{
+				id: "06F4C30FE4B91A04"
+				type: "item"
+				item: "crockpot:california_roll"
+			}]
 		}
 		{
 			title: "Old McPumpkin"
@@ -137,6 +157,12 @@
 					item: "minecraft:carved_pumpkin"
 				}
 			]
+			rewards: [{
+				id: "5B8F7610F2CAC78E"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+				count: 5
+			}]
 		}
 		{
 			title: "All Natural"
@@ -163,6 +189,11 @@
 				id: "47CC0B316EDBBF9F"
 				type: "item"
 				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "679D40E2B4F15027"
+				type: "item"
+				item: "minecraft:bucket"
 			}]
 		}
 		{
@@ -270,6 +301,12 @@
 					item: "cookingforblockheads:sink"
 				}
 			]
+			rewards: [{
+				id: "0333204848E5E59F"
+				type: "item"
+				item: "minecraft:terracotta"
+				count: 5
+			}]
 		}
 		{
 			title: "A Healthy Breakfast"
@@ -282,6 +319,11 @@
 				id: "7BA19F8F59473121"
 				type: "item"
 				item: "supplementaries:pancake"
+			}]
+			rewards: [{
+				id: "58C94C063B38F241"
+				type: "item"
+				item: "minecraft:honey_bottle"
 			}]
 		}
 		{
@@ -296,6 +338,11 @@
 				id: "2BDEB2F9AEDD563E"
 				type: "item"
 				item: "minecraft:honey_bottle"
+			}]
+			rewards: [{
+				id: "27C94193BA71C392"
+				type: "item"
+				item: "minecraft:beehive"
 			}]
 		}
 		{
@@ -449,6 +496,11 @@
 					item: "aquaculture:tackle_box"
 				}
 			]
+			rewards: [{
+				id: "02CFA7D026F95C9F"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
 		}
 		{
 			title: "They Came from the Tunnels"
@@ -463,6 +515,12 @@
 				type: "item"
 				item: "aquaculture:worm_farm"
 			}]
+			rewards: [{
+				id: "58EF05D8D618AC52"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 10
+			}]
 		}
 		{
 			x: -5.0d
@@ -476,6 +534,19 @@
 				type: "item"
 				item: "aquaculture:neptunes_bounty"
 			}]
+			rewards: [
+				{
+					id: "41501C9D9A6CB4AC"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+					count: 3
+				}
+				{
+					id: "0701CECE10BAEEB8"
+					type: "xp"
+					xp: 250
+				}
+			]
 		}
 		{
 			title: "CHOCOLATE"
@@ -508,6 +579,7 @@
 			title: "I cooka da meatboll"
 			x: 5.0d
 			y: -1.5d
+			subtitle: "Who toucha my spaghet?"
 			description: ["Use your new cooking pot to make some meatball pasta."]
 			dependencies: ["741D6A06592385E0"]
 			id: "6180348C15622FE1"
@@ -515,6 +587,12 @@
 				id: "46FC411554D288A7"
 				type: "item"
 				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "2523BA6FB62B69CF"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+				count: 10
 			}]
 		}
 		{

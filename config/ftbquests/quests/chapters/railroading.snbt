@@ -21,18 +21,11 @@
 	}]
 	quests: [
 		{
-			title: "Comically Large Wrench"
+			title: "A Comically Large Wrench"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Good lord, it even extends outside of the quest bubble!"
-			description: [
-				"You've seen wrenches, but no wrench can even come close to the size of this absolute unit of a wrench!"
-				"This big boy is a railroader's most important tool, as it allows you to assemble the 5 multiblock machines needed to produce vehicle parts and rails. It also allows you to assemble and disassemble locomotives and rolling stock."
-				"To turn the multiblock machines into their functional forms, simply right-click with the wrench on the structure, and it should undergo a rapid physical transformation into the machine everyone knows and loves."
-				"You NEED this tool, so craft one to continue."
-				""
-				""
-			]
+			subtitle: "The Biggest Iron, if you will."
+			description: ["This wrench functions just like the Engineer's Hammer, but for Immersive Railroading stuff. You'll need it to assemble the multiblocks."]
 			dependencies: ["51A685EBAB18D29D"]
 			id: "69F71A525AF732C1"
 			tasks: [{
@@ -40,18 +33,19 @@
 				type: "item"
 				item: "immersiverailroading:item_large_wrench"
 			}]
+			rewards: [{
+				id: "1751032A95453E8B"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
 		}
 		{
-			title: "Some Light Reading"
+			title: "Reading On The Railroad"
 			x: 3.0d
 			y: 0.0d
-			subtitle: "Better get your reading glasses"
+			subtitle: "All the live-long day..."
 			description: [
-				"Actually, there's not a single word inside of this thick, heavy tome. Instead, it contains all the blueprints you need for the machines in Immersive Railroading."
-				"Shift-right-clicking the book in the air will cycle through the 5 different machines you are able to make."
-				"Holding the book allows you to see a ghost image of where the machine is going to be placed. In order to place the machine, you need to have all the required blocks in your inventory, then you can right-click where you want the machine to go."
-				"Right-clicking the book in the air will broadcast a github link in the chat, which will take you to the wiki should you want more information."
-				"Craft this book, then we can continue."
+				"This book essentially functions like a Projector - it allows you to see how to construct multiblocks for Immersive Railroading. It will be a big help in the coming quests."
 				""
 				"NOTE: Make some space for these machines! They are BIG, and you'll need a railyard-sized space to fit them!"
 			]
@@ -73,15 +67,17 @@
 			}]
 		}
 		{
-			title: "Casting Call"
+			title: "The Whole Cast"
+			icon: "create:basin"
 			x: 4.5d
 			y: -0.5d
-			subtitle: "Next!"
+			subtitle: "Talk about a resource sink..."
 			description: [
-				"The first (and most important) machine you need is the Casting Machine. This big bin accepts power at the top, and steel from the bin. Just toss them in!"
-				"Right-clicking anywhere on the machine will open up the GUI, allowing you to select a part to cast, the size (gauge) you want to cast the part in, as well as a handy \"repeat cast\" function!"
-				"The amount of steel required depends on the part and the gauge of the part you chose, so a model train sized part will require less steel than a Brunel (read: very large) part."
-				"After casting, you can right click (or use Create's Mechanical Deployer) the machine to retrieve your part."
+				"The Casting Basin is the first major multiblock you need to make to progress. The Basin creates different parts for rolling stock, specifically wheels and frames, as well as the Rail Cast for use with the Track Roller. The Gauge selector changes between gauges."
+				""
+				"To create a selected part, drop Steel Blocks or Steel Ingots into the Basin and make sure it has power. The part will be created in short order - right-click on the Basin to retrieve the part."
+				""
+				"Power is input through the top of the machine, on the color-coded yellow/orange block."
 			]
 			dependencies: ["79B198495FAA428E"]
 			id: "628AE2ACA3870B1D"
@@ -151,14 +147,15 @@
 			]
 		}
 		{
-			title: "They See Me Rollin'"
+			title: "Boilin' and Rollin'"
 			x: 1.5d
 			y: 3.5d
-			subtitle: "They hatin'"
+			subtitle: "This one is pretty cheap, to be honest."
 			description: [
 				"In order to produce boiler tubes for steam locomotives, the boiler plates (produced in the plate roller) must be rolled again into tubes by the Boiler Roller."
 				"Like all these machines, just power it from the power port, and insert a plate to begin rolling it. There's no animation, so just right-click the machine once you see the tube to retrieve your freshly made part."
-				"Note that not all steam locomotives require a boiler tube (I'm looking at you, Skookum 2-4-4-2)"
+				""
+				"Note that not all steam locomotives require a boiler tube."
 			]
 			dependencies: ["418476C1DCA0DA2E"]
 			id: "6D7BBFC6355EBAA7"
@@ -197,10 +194,10 @@
 			]
 		}
 		{
-			title: "Smash That Like Button"
+			title: "Hammer DOWN!"
 			x: 3.0d
 			y: 2.0d
-			subtitle: "And don't forget to OBLITERATE that subscribe button"
+			subtitle: "Your next multiblock awaits."
 			description: [
 				"Now, you're gonna need another machine to continue. The steam hammer allows you to process certain parts like connecting rods into usable pieces."
 				"Power it from the top, and right-click on it to open the GUI. I'm not sure if this one can be automated, but you won't really need to automate it anyways."
@@ -232,22 +229,33 @@
 					count: 10L
 				}
 			]
-			rewards: [{
-				id: "15A4F1DA9F6A9FBD"
-				type: "item"
-				item: "kubejs:integrated_circuit"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "15A4F1DA9F6A9FBD"
+					type: "item"
+					item: "kubejs:integrated_circuit"
+					count: 3
+				}
+				{
+					id: "1784A38A1E8DBC07"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 5
+				}
+			]
 		}
 		{
-			title: "Get Railed"
+			title: "Buildin' a Railroad"
+			icon: "create:controller_rail"
 			x: 4.5d
 			y: 0.5d
-			subtitle: "Ouch"
+			subtitle: "*CLANG* *CLANG* *CLANG*"
 			description: [
-				"The second machine you will need is the Track Roller, or Rail Machine (as I like to call it, since it makes rails, not tracks). This long boy turns rail castings into rail segments."
-				"To use it, simply provide it power to the input at the top of the machine, and right-click with your rail cast in hand. You'll hear some banging, and out pops some rail segments ripe for the picking!"
-				"Right-click the machine again to retrieve the rail segments. You can also use the Create Mechanical Deployer to automate both the inserting and removing process."
+				"This is the second of two multiblocks that you'll need to start out. This one is a Track Roller - it turns rail castings into rail segments."
+				""
+				"All you have to do is provide power to the input at the top of the machine, and then right click with your rail cast. Right click again to retrieve the finished rail segments."
+				""
+				"Note: This can be automated through various avenues in this pack, such as Create."
 			]
 			dependencies: ["79B198495FAA428E"]
 			id: "13715A5947D99E08"
@@ -286,14 +294,15 @@
 			]
 		}
 		{
-			title: "Dinner Plate"
+			title: "The Big One"
 			x: 1.5d
 			y: 4.5d
-			subtitle: "Don't eat off of this one!"
+			subtitle: "In awe at the size of this lad"
 			description: [
 				"This next machine is required for most steam locomotives, but not so much for diesel locomotives."
 				"Power it from the top, and right-click to open the GUI. From here, you can select the type of plate you want to make, whether that be small, medium, large, or boiler plate."
-				"When you've got your choice selected, right-click the machine with steel blocks in hand (or use the Create Deployer) to start the platemaking process. Right-click the machine again to get the plate out."
+				""
+				"When you've got your choice selected, right-click the machine with steel blocks in hand to start the platemaking process. Right-click the machine again to get the plate out."
 			]
 			dependencies: ["418476C1DCA0DA2E"]
 			id: "40616E96987E96BB"
@@ -332,18 +341,14 @@
 			]
 		}
 		{
-			title: "Off The Rails"
+			title: "Getting On Track"
 			x: 6.0d
 			y: 0.0d
-			subtitle: "Let's make tracks!"
+			subtitle: "Now that we have the machines, we can actually make something."
 			description: [
-				"Arguably, the most important part of the railroad is the rails! Otherwise, you just have a boring road, and that's no fun."
-				"To begin making rails (and eventually tracks), you'll need the Casting Machine and the Track Roller. There will be other multiblock machines, but we'll get there when we get there."
-				"For now, simply right-click the casting machine, select the \"Rail Casting\" choice, then click \"Single Casting\" and watch it go to work!"
-				"When the machine is finished, right-click the sandy trough to retrieve your cast."
-				"You can select different sizes (referred to as \"gauges) of rail, which cost different amounts of steel."
-				"Make sure you have the correct gauge selected before you cast!"
+				"Now to finally begin making rails:"
 				""
+				"Cast yourself a rail and retrieve it from the Basin, as described in the Casting Basin quest. You can set different gauges (sizes) of rail, which in turn cost varying amounts of steel based upon the gauge selected."
 			]
 			dependencies: [
 				"628AE2ACA3870B1D"
@@ -359,17 +364,18 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5BF6E7E2D8A9A247"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "On The Rails"
 			x: 7.5d
 			y: 0.0d
-			subtitle: "Let's make...tracks? Sh*t, we already made that quip."
-			description: [
-				"Once you have your casting, it's time to use the next machine: the Track Roller. Simply power the machine and right-click on it with your rail casting."
-				"You'll hear a lot of banging noises as the casting enters the machine and emerges as a glorious rail!"
-				"When the animation is finished playing, right-click the machine to retrieve your rail segments. Each casting produces 12 rail segments at a time. You might want to use Create's mechanical deployer if you want to automate this machine!"
-			]
+			subtitle: "Tired of train puns yet? No? Great!"
+			description: ["Use your casting on the Track Roller to get your rails. Each casting makes 12."]
 			dependencies: ["62C3F19F67278594"]
 			id: "3009334C5C7AC9FF"
 			tasks: [{
@@ -382,17 +388,23 @@
 				}
 				count: 12L
 			}]
+			rewards: [{
+				id: "27CBD83CD865B239"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Let's Make Tracks!"
 			x: 9.0d
 			y: 0.0d
-			subtitle: "I can use the same quip three times, dammit!"
+			subtitle: "Ok ok I'll stop..."
 			description: [
 				"In order to start placing tracks, you need the track blueprint. The track blueprint allows you to choose from a variety of track sizes, styles, and shapes, letting you plan out and construct the railway of your dreams!"
+				""
 				"Right-click the air with the blueprint to enter configuration mode, and select your options. From there, you can look at the ground while holding the blueprint to see a ghost image of the rail you want to place, allowing you to align it perfectly."
+				""
 				"After that, right click the ground to actually place the track. You need the proper sized rail segments, as well as some iron, concrete, or treated wood depending on the style of track you chose."
-				"The wiki has loads of info on the other settings, so I invite you to check that out! Remember that you can access the wiki link by right-clicking the IR book in the air."
 			]
 			dependencies: ["3009334C5C7AC9FF"]
 			id: "7846F7D54B9568DB"
@@ -405,8 +417,14 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "05A07975764BE017"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
+			title: "The Little Chugger That Could"
 			icon: {
 				id: "immersiverailroading:item_rolling_stock"
 				Count: 1b
@@ -417,13 +435,13 @@
 			}
 			x: 9.0d
 			y: 2.0d
-			subtitle: "It's a me, Mar-I mean...Thomas?"
+			subtitle: "It's your first train - don't expect that much."
 			description: [
 				"If you've placed down your first lengths of track, congratulations! You are finally ready to create your first train!"
-				"We'll start off pretty simple, with a cute lil' engine called the Super Chugger. I recommend you craft this train in the \"Minecraft\" scale, since this loco is designed for that scale and will look (and feel) better at this size. (It also costs less steel!)"
+				""
+				"We'll start off pretty simple, with a cute lil' engine called the Super Chugger. I recommend you craft this train in the \"Minecraft\" scale, since this train is designed for that scale and will look (and feel) better at this size."
+				""
 				"As you follow along, just know that the assembly process for all other trains and rolling stock follows a similar process, just with different parts. It all boils down to placing the frame, producing the correct parts, and adding them to the frame until you have a finished locomotive!"
-				"Grab your conductor's hat (or a hat that resembles one since conductor's hats are only a traincraft thing :P) and let's-a-go!"
-				"To continue, click the checkmark."
 			]
 			dependencies: ["7846F7D54B9568DB"]
 			id: "2147CDF18CF3FCDE"
@@ -432,14 +450,20 @@
 				type: "checkmark"
 				title: "Super Chugger 64"
 			}]
+			rewards: [{
+				id: "03136D4213985A02"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Chugger Frame"
+			title: "Framed"
 			x: 7.5d
 			y: 2.0d
 			subtitle: "It wasn't me, I swear!"
 			description: [
 				"This is the chassis for the Super Chugger engine. Simply place it on the correct gauge of track."
+				""
 				"At any point in the assembly process, you can right-click the locomotive with a compatable part to add it to the loco, or bring up a chat message telling you the parts you need to add next. You can also right-click with the wrench to bring up this message."
 				"The chat message tells you how many of each part you need, and it even tells you the machines you need to use to make that part! How nice of it!"
 			]
@@ -458,6 +482,11 @@
 						raw_cast: 0b
 					}
 				}
+			}]
+			rewards: [{
+				id: "1CF2A620F56B9978"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -484,6 +513,11 @@
 						raw_cast: 0b
 					}
 				}
+			}]
+			rewards: [{
+				id: "16FDE754FB7A1033"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -512,12 +546,17 @@
 				}
 				count: 2L
 			}]
+			rewards: [{
+				id: "0B3CD34E74DBCD85"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Chugger Piston Rod"
 			x: 1.5d
 			y: 2.0d
-			subtitle: "He did WHAT in his rod???"
+			subtitle: "The muscles of the train"
 			description: [
 				"The piston rods connect to the Steam Chest, where the steam from the boiler will expand against the pistons, pushing the rods and driving the wheels."
 				"You'll need two of these, and they have to undergo a good steam hammering after casting."
@@ -539,12 +578,17 @@
 				}
 				count: 2L
 			}]
+			rewards: [{
+				id: "195068C57A89F5A1"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Chugger Main Rod"
 			x: 0.0d
 			y: 2.0d
-			subtitle: "Mainstreet"
+			subtitle: "The main rod connects to the....other rod"
 			description: [
 				"The Main Rods connect the Piston Rods to some other rods which will drive the wheels. The ones on the Super Chugger look kind of wierd when attached to the locomotive, but they get covered up eventually."
 				"You need to make two of them, one for each piston."
@@ -566,12 +610,17 @@
 				}
 				count: 2L
 			}]
+			rewards: [{
+				id: "58DE8F2AE0AB3CF6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Chugger Side Rod"
 			x: 0.0d
 			y: 4.0d
-			subtitle: "It's just a side gig, I swear"
+			subtitle: "Another side gig"
 			description: [
 				"The side rods are what connects the main rods to the wheels. They also serve the purpose of making sure the wheels are in sync with each other, providing a smooth 4-wheel drive experience."
 				"On some steam locomotives, these rods are on the outside of the wheels. You'll need two of these rods, one for each side."
@@ -593,6 +642,11 @@
 				}
 				count: 2L
 			}]
+			rewards: [{
+				id: "7CD31FC237881895"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Chugger Firebox, Smokebox, Piping, and Boiler"
@@ -602,9 +656,13 @@
 			description: [
 				"These next parts require you to make plates in the plate machine. Once you've made the proper size plate, just click on the locomotive with them to automatically make the required parts."
 				"To make the boiler, produce an appropriately sized boilerplate in the plate machine, then use the boiler roller to create a boiler tube."
+				""
 				"The Firebox contains the coal, which is burned to heat water into steam"
+				""
 				"The boiler is where said water is stored and boiled, hence its name."
+				""
 				"The Smokebox is where smoke from the coal is collected and released, through the aptly-named smokestack."
+				""
 				"Finally, the Piping transfers the steam to the Steam Chest, where it can expand against the pistons, driving the wheels."
 			]
 			dependencies: [
@@ -641,6 +699,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7CACD09FC7B2E37A"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Chugger Whistle"
@@ -656,9 +719,10 @@
 			}
 			x: 6.0d
 			y: 4.0d
-			subtitle: "Choo Choo!!!!!"
+			subtitle: "The most important part, by far"
 			description: [
 				"The final touch is the most fun one: the whistle! This component uses excess steam to produce a high-pitched warning blast, and is an iconic feature of every steam loco."
+				""
 				"This whistle requires a small plate as opposed to a large plate."
 			]
 			dependencies: ["5D2D70B3A0D0EF56"]
@@ -690,7 +754,7 @@
 			}
 			x: 4.5d
 			y: 4.0d
-			subtitle: "If you put your ear up to it, you'll probably get burned to be honest"
+			subtitle: "No shellshock here!"
 			description: [
 				"In order to prevent people from touching the inner workings of the engine, a metal shell is required to cover them up."
 				"Crafting the shell requires a large plate, so you know the drill."
@@ -709,17 +773,21 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0CC6269154F59B53"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "First Loco Complete!"
+			title: "Your First Engine!"
 			x: 7.5d
 			y: 4.0d
-			subtitle: "Wahoo!"
+			subtitle: "That wasn't so bad, right?"
 			description: [
 				"Congratulations! You have just finished assembling your first steam locomotive! Give yourself a pat on the back, because you're ready to learn how to drive this thing."
-				"Then, we'll create some rolling stock for it, followed by a quick lunch break."
-				"Afterwards, we'll create the Diesel Workhorse Locomotive, if steam isn't quite your thing."
-				"Oh, and one more thing. To complete this quest, you need to have the full Super Chugger in your inventory. Shift-left-click any completed locomotive or rolling stock with the wrench to turn it into a convenient item that you can carry around. We're not quite sure how it works, honestly."
+				""
+				"Note: To complete this quest, you need to have the full Super Chugger in your inventory. Shift-left-click any completed locomotive or rolling stock with the wrench to turn it into a convenient item that you can carry around. We're not quite sure how it works, honestly."
 			]
 			dependencies: ["769BBE54ED13D042"]
 			id: "635D8767F74D64EF"
@@ -735,14 +803,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "554F6877660AB042"
+				type: "xp"
+				xp: 250
+			}]
 		}
 		{
-			title: "LFuel"
+			title: "Steam!"
 			x: 9.0d
 			y: 4.0d
-			subtitle: "It's like Gfuel, but for Locomotives."
+			subtitle: "Not the game platform."
 			description: [
-				"Before you can actually get anywhere, you need to put in fuel, obviously! To open up the Loco GUI, simply shift-right-click the locomotive, or just right click the loco while sitting on it."
+				"Before you can actually get anywhere, you need to put in fuel, obviously! To open up the train's GUI, simply shift-right-click the locomotive, or just right click the train itself while sitting on it."
+				""
 				"From there, you can insert water and coal, which will energize the loco! I believe you can use any type of coal to fuel steam locomotives, but no guarantees."
 				"Now might be a good time to build some sort of water tower..."
 			]
@@ -761,16 +835,32 @@
 					item: "minecraft:water_bucket"
 				}
 			]
+			rewards: [
+				{
+					id: "543C93001A188A29"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0463B675D08A9727"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+			]
 		}
 		{
+			title: "Warming Up..."
 			x: 9.0d
 			y: 6.0d
-			subtitle: "Time to get moving!"
+			subtitle: "This might take a bit."
 			description: [
-				"Once you've fueled your loco, it's time to wait a bit. While sitting on the locomotive, you should pay attention to the meters at the bottom left corner of the screen. They represent the temperature, speed, pressure, and more."
-				"Once the loco reaches a high enough temperature, you're ready to roll!"
+				"Once you've fueled your train, it's time to wait a bit. While sitting on the locomotive, you should pay attention to the meters at the bottom left corner of the screen. They represent the temperature, speed, pressure, and more."
+				""
+				"Once the train reaches a high enough temperature, you're ready to roll!"
 				"Pay attention, because here's how to drive. All the driver keys are part of the numpad, so feel free to rebind them to something else should you lack one."
-				"Use the 8 and 2 keys to adjust the throttle, and the 5 key to reset the throttle to 0. Use the 7 and 1 keys to adjust the brake, and the 4 key to reset the brake to 0. Don't go too fast, or you might overshoot your destination, or worse: derail!!!!"
+				""
+				"Use the 8 and 2 keys to adjust the throttle, and the 5 key to reset the throttle to 0. Use the 7 and 1 keys to adjust the brake, and the 4 key to reset the brake to 0. Don't go too fast, or you might overshoot your destination, or worse: derail."
 			]
 			dependencies: ["79D05DD02B180BAE"]
 			id: "0AA40F9D1A5699B4"
@@ -780,46 +870,15 @@
 				title: "DriveTime!"
 				icon: "immersiveengineering:voltmeter"
 			}]
-		}
-		{
-			icon: {
-				id: "immersiverailroading:item_rolling_stock_component"
-				Count: 1b
-				tag: {
-					defID: "rolling_stock/locomotives/superchugger.json"
-					gauge: 0.632d
-					componentType: 13
-					raw_cast: 0b
-				}
-			}
-			x: 7.5d
-			y: 6.0d
-			subtitle: "Give it a toot!"
-			description: [
-				"Oh! I almost forgot! The most important key when driving a locomotive: the numpad \"Enter\" key."
-				"This has the very important job of blowing the whistle."
-			]
-			dependencies: ["0AA40F9D1A5699B4"]
-			id: "1C3B9A7BF111BAF1"
-			tasks: [{
-				id: "758FF2E472522A2B"
-				type: "checkmark"
-				title: "Woo Woo!"
-				icon: {
-					id: "immersiverailroading:item_rolling_stock_component"
-					Count: 1b
-					tag: {
-						defID: "rolling_stock/locomotives/superchugger.json"
-						gauge: 0.632d
-						componentType: 12
-						raw_cast: 0b
-					}
-				}
+			rewards: [{
+				id: "09380C5DD4A27826"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
 			icon: "moreminecarts:coupler"
-			x: 4.5d
+			x: 6.0d
 			y: 6.0d
 			subtitle: "How sweet."
 			description: [
@@ -833,17 +892,22 @@
 				type: "checkmark"
 				title: "Couple Goals"
 			}]
+			rewards: [{
+				id: "7F51551C5A5927EF"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Iron Horse"
-			x: 3.0d
+			title: "How's This For Horsepower?"
+			x: 4.5d
 			y: 6.0d
-			subtitle: "Neigh"
+			subtitle: "Note: do not attempt to pull DeLoreans."
 			description: [
-				"Steam isn't the only way to get moving, however. If you've got a significant production line, it might be better to use trains that are powered by biodiesel/regular diesel."
+				"Steam isn't the only way to get moving; if you've got a significant production line, it might be better to use trains that are powered by diesel or biodiesel!"
 				"The goal is to make a Workhorse Mine Diesel engine. It's pretty simple, only requiring a frame, two wheels, and a shell."
-				"I trust that you know the ins and outs of locomotive building, so the quest will be complete when you have the locomotive in your inventory."
-				"To drive it, it's pretty much the same as a steam loco, except you fuel it with diesel (or biodiesel) first. Then, press the + key to start/stop the engine."
+				""
+				"To drive it, press the + key to start/stop the engine."
 				"Diesel locomotives might be cheaper to make, but they require a significant diesel production line to keep them running efficiently."
 			]
 			dependencies: ["7D98817421746A79"]
@@ -860,17 +924,26 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "49EF94640EDC07E5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 4.5d
+			title: "Last Train Home"
+			x: 3.5d
 			y: 8.0d
-			subtitle: "He had seen everything"
+			subtitle: "This trip was truly fun, wasn't it?"
 			description: [
 				"Well, that's it! You are now a certified engineer! Set up trade lines, supply routes, passenger stations, and conquer the world with rails!"
-				"if you crave more locomotives and such, I encourage you to try adding Create to the mix - the possibilities are endless!"
-				"But for now, this is the last stop. This line terminates here. See ya!"
+				""
+				"If you crave more locomotives and such, I encourage you to try adding Create to the mix - the possibilities are nigh endless!"
+				""
+				"But for now, this is the last stop. This line terminates here. Safe travels!"
 			]
 			dependencies: ["7341362073FB0D49"]
+			size: 1.5d
 			id: "415896E1F9AF6B09"
 			tasks: [{
 				id: "5CA6E83AB37A45D6"
@@ -903,19 +976,24 @@
 						}
 					}
 				}
+				{
+					id: "70FCC04BB350D3EE"
+					type: "xp"
+					xp: 500
+				}
 			]
 		}
 		{
 			title: "Bringing Friends Along..."
-			x: 6.0d
+			x: 7.5d
 			y: 6.0d
 			subtitle: "What's the point of trains if you can't bring others with you?"
 			description: [
 				"Once you've got the hang of making locomotives, why not make some rolling stock?"
-				"Making rolling stock is very very similar to making locomotives, just place the frame on the tracks and add the required parts. To complete this quest, make sure to shift-left-click the finished cart to put it in your inventory!"
+				"Making rolling stock is very similar to making locomotives, just place the frame on the tracks and add the required parts. To complete this quest, make sure to shift-left-click the finished cart to put it in your inventory!"
 				"Aside from the seat cart, you can also make a cargo minecart, as well as a liquid tank minecart."
 			]
-			dependencies: ["1C3B9A7BF111BAF1"]
+			dependencies: ["0AA40F9D1A5699B4"]
 			id: "7FD334F6138B3582"
 			tasks: [{
 				id: "0754593E6F0C1178"
@@ -929,16 +1007,23 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "29E1F627C58D4BC0"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Watchful Eyes"
-			x: 1.5d
+			title: "Automation Imagination"
+			x: 3.0d
 			y: 6.0d
-			subtitle: "Why prospect when you can detect?"
+			subtitle: "These things let you do some crazy stuff, man."
 			description: [
 				"We've reached the final segment: Track Modifiers! These little doodads can be placed on rail tracks, and removed by right-clicking them with a wrench. Some modifiers have alternate modes, which can be cycled through by clicking on them with a redstone torch."
 				"Some modifiers also have filters, allowing you to specify which locomotive or rolling stock the modifier looks for/acts on. I'm going to do my best to explain what each modifier does, but check the wiki for more info."
+				""
 				"This first modifier is the detector. It has multiple modes which can be cycled through, which can measure speed, cargo fullness, passenger fullness, and rolling stock type."
+				""
 				"Data is output in the form of a redstone signal with varying strength. This modifier also has a filter."
 			]
 			dependencies: ["031CDA3839FB4160"]
@@ -955,14 +1040,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6B3C47E70E24B83D"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "In Control"
-			x: 0.0d
+			x: 1.5d
 			y: 6.0d
 			subtitle: "Stay in the groove"
 			description: [
 				"This modifier allows you to automatically set the throttle, brakes, and whistle of any passing locomotive. It also has a filter."
+				""
 				"The amount of brake/throttle set is proportional to the redstone signal strength input into the modifier. It might be handy to use Create's Analog Lever for easy strength control."
 			]
 			dependencies: ["5B87A801D949B0DE"]
@@ -979,14 +1070,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "478AE5696F38DAB8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Cargo Space"
+			title: "Cargo Space?"
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 			subtitle: "No, car go land."
 			description: [
 				"The Item Loader/Unloaders allow you to automate the transfer of cargo on and off of rolling stock. It also has a filter."
+				""
 				"To insert/remove items, treat it as if it was a chest, meaning that you can use hoppers, conveyors, or whatever other method you choose. You can also use this to feed fuel into a locomotive."
 				"Take note that the train car should be stopped over the modifier for max efficiency."
 			]
@@ -1018,14 +1115,20 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0DF6EC6917588772"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Sloshing Around"
-			x: 1.5d
+			title: "Flash Liquidizing Ultra Dousing Devices"
+			x: 0.0d
 			y: 8.0d
-			subtitle: "Splish Splush"
+			subtitle: "How to move those pesky fluid blocks around"
 			description: [
 				"The Fluid Unloader/Loader works in nearly the exact same way as the item counterpart. This includes the filter."
+				""
 				"Simply pump liquid into/out of the corresponding modifier to fill a compatable tank car or locomotive."
 			]
 			dependencies: ["581C48CC144C848A"]
@@ -1056,14 +1159,20 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "37D9F6DE90FADE1D"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "Slow Your Roll"
-			x: 3.0d
+			title: "Slow Ride..."
+			x: 1.5d
 			y: 8.0d
-			subtitle: "Take a brake"
+			subtitle: "Take it easy..."
 			description: [
 				"This last modifier allows you to apply a slowing force to a train, proportional to the redstone signal strength applied, as well as the amount of speed retarder modifiers around it."
+				""
 				"From my testing, it seemed that locomotive controls were a little more effective at slowing down a train, but who knows."
 			]
 			dependencies: ["2188541E72D0449A"]
@@ -1080,14 +1189,21 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "60D940BA1E1AF0AD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
+			title: "Welcome to Immersive Railroading!"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Your tickets please!"
-			description: ["Please mind the gap! You're about to embark on a journey into the wide wonderful world of Immersive Railroading! I recommend that before you start this tutorial, you get your steel production in tip-top shape, since you'll need a LOT of it!"]
+			subtitle: "You're about to get into some serious industry!"
+			description: ["I recommend getting your steel production into a good position, or even automated entirely, before truly digging into this chapter - you will need a lot of it!"]
 			dependencies: ["031023A8EA6FD4D0"]
 			hide: true
+			size: 1.5d
 			id: "51A685EBAB18D29D"
 			tasks: [{
 				id: "47E1A11DC8FA0E7A"

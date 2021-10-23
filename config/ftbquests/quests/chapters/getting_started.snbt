@@ -20,7 +20,13 @@
 				id: "799F4AAA918DE82F"
 				type: "item"
 				item: "minecraft:brick"
-				count: 4L
+				count: 2L
+			}]
+			rewards: [{
+				id: "4F2E9DB0B2657A4B"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 2
 			}]
 		}
 		{
@@ -76,6 +82,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "235D4083E53FCE79"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "3D50552F75A3043F"
+					type: "xp"
+					xp: 25
+				}
+			]
 		}
 		{
 			title: "JESSE, WE NEED TO COOK"
@@ -533,6 +551,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "25D4B2BFF361C371"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Down, Down, to Ghast Town"
@@ -612,6 +635,12 @@
 					item: "appliedenergistics2:crank"
 				}
 			]
+			rewards: [{
+				id: "09DB81689D9EB39E"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 2
+			}]
 		}
 		{
 			title: "Diggy Diggy Hole"
@@ -631,6 +660,12 @@
 						value: "forge:tools/shovels"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0709AF076793667C"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 2
 			}]
 		}
 	]

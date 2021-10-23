@@ -352,6 +352,12 @@
 				item: "create:crushing_wheel"
 				count: 2L
 			}]
+			rewards: [{
+				id: "71384AAF95165A41"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
 		}
 		{
 			title: "Industrially Revolutionizing! "
@@ -697,6 +703,12 @@
 				type: "item"
 				item: "create:mechanical_harvester"
 			}]
+			rewards: [{
+				id: "1383C443F2C27943"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
@@ -714,6 +726,11 @@
 				id: "3B9F6ED9226F4D47"
 				type: "item"
 				item: "immersivepetroleum:projector"
+			}]
+			rewards: [{
+				id: "1A17FA7BAE1A7A6B"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -828,6 +845,12 @@
 				icon: "immersiveengineering:plate_copper"
 				advancement: "immersiveengineering:main/mb_metalpress"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "1EF39C4E96CB4697"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 5
 			}]
 		}
 		{
@@ -1122,6 +1145,19 @@
 					id: "57597AD108ABFA75"
 					type: "item"
 					item: "minecraft:hopper"
+				}
+			]
+			rewards: [
+				{
+					id: "4DBCE20EB0CA1AB9"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 10
+				}
+				{
+					id: "0D43C6333C802F2D"
+					type: "item"
+					item: "immersiveengineering:coke"
 				}
 			]
 		}
