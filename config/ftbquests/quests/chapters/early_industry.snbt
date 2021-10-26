@@ -491,12 +491,19 @@
 				type: "item"
 				item: "createaddition:electric_motor"
 			}]
-			rewards: [{
-				id: "2C00B55B0152F810"
-				type: "item"
-				item: "immersiveengineering:plate_iron"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "039D3064E7ED9503"
+					type: "item"
+					item: "createaddition:capacitor"
+				}
+				{
+					id: "10A2A097BC424B34"
+					type: "item"
+					item: "immersiveengineering:plate_iron"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 12.0d

@@ -5,9 +5,9 @@ craftingTable.removeRecipe(<item:pneumaticcraft:heat_frame>);
 craftingTable.removeRecipe(<item:pneumaticcraft:reinforced_stone>);
 
 craftingTable.addShaped("compounded_plastic", <item:kubejs:compounded_plastic>, [
-	[<item:minecraft:air>, <item:kubejs:compounded_plastic>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:kubejs:compounded_plastic>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:kubejs:compounded_plastic>, <item:minecraft:air>]]);
+	[<item:minecraft:air>, <item:pneumaticcraft:plastic>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:pneumaticcraft:plastic>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:pneumaticcraft:plastic>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("reinforced_stone", <item:pneumaticcraft:reinforced_stone> * 8, [
 	[<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>],
@@ -45,6 +45,8 @@ mods.jei.JEI.addInfo(<item:kubejs:prepared_circuit>, ["All of the essential comp
 <recipetype:pneumaticcraft:assembly_drill>.addRecipe("circuit1", <item:kubejs:prepared_circuit>, <item:kubejs:drilled_circuit>);
 
 <recipetype:pneumaticcraft:assembly_laser>.addRecipe("circuit2", <item:kubejs:drilled_circuit>, <item:kubejs:integrated_circuit> * 5);
+
+<recipetype:pneumaticcraft:assembly_laser>.addRecipe("xion_to_exotronic", <item:tardis:xion_crystal>, <item:tardis:circuits> * 1);
 
 craftingTable.addShaped("prepared_circuit", <item:kubejs:prepared_circuit>, [
 	[<item:minecraft:air>, <item:thermal:signalum_gear>, <item:minecraft:air>],

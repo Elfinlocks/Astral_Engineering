@@ -5,6 +5,7 @@ craftingTable.removeRecipe(<item:thermal:dynamo_magmatic>);
 craftingTable.removeRecipe(<item:thermal:dynamo_numismatic>);
 craftingTable.removeRecipe(<item:thermal:dynamo_lapidary>);
 <recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
+<recipetype:thermal:smelter>.removeRecipe(<item:libvulpes:ingottitanium>);
 
 craftingTable.addShaped("dynamo_compression", <item:thermal:dynamo_compression>, [
 	[<item:thermal:electrum_gear>, <item:thermal:rf_coil>, <item:thermal:electrum_gear>],
@@ -55,6 +56,9 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 <recipetype:thermal:pulverizer>.addRecipe("pulv_zinc", [<item:jaopca:dusts.zinc> % 200] , <tag:items:forge:ores/zinc>, 2, 500);
 
 <recipetype:thermal:smelter>.removeRecipe(<item:mekanism:ingot_steel>);
+
+<recipetype:thermal:smelter>.addRecipe("red_alloy_iron", [<item:morered:red_alloy_ingot> % 100], [<item:minecraft:iron_ingot>, <item:minecraft:redstone> * 3], 5, 1500);
+<recipetype:thermal:smelter>.addRecipe("red_alloy_copper", [<item:morered:red_alloy_ingot> % 100], [<tag:items:forge:ingots/copper>, <item:minecraft:redstone> * 3], 5, 1500);
 
 // Integral Components Changes
 

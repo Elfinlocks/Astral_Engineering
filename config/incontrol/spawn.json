@@ -27,6 +27,16 @@
 	"armorchest": "boss_tools:space_pants"
   },
   {
+	"dimension": "minecraft:overworld",
+	"onjoin": true,
+	"mob": [
+		"minecraft:skeleton",
+		"minecraft:zombie"
+	],
+	"result": "allow",
+	"healthmultiply": 2
+  },
+  {
     "dimension": "boss_tools:mercury",
 	"onjoin": true,
     "mob": [

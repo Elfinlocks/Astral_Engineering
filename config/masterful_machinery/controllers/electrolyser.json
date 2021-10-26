@@ -15,16 +15,16 @@
     {
       "type": "masterfulmachinery:energy",
       "name": "Electrolyser Energy",
-	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+	  "textureOverride": "immersiveengineering:block/metal_device/furnace_heater_socket",
       "id": "energy",
       "data": {
-        "capacity": 50000
+        "capacity": 350000
       }
     },
     {
       "type": "masterfulmachinery:fluids",
       "name": "Electrolyser Water",
-	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+	  "textureOverride": "immersiveengineering:block/metal/storage_aluminum",
       "id": "fluid",
       "data": {
         "capacity": 10000

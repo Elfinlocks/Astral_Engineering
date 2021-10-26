@@ -7,6 +7,8 @@ mods.jei.JEI.hideItem(<item:appliedenergistics2:name_press>);
 craftingTable.removeRecipe(<item:appliedenergistics2:inscriber>);
 craftingTable.removeRecipe(<item:appliedenergistics2:controller>);
 craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);
+craftingTable.removeRecipe(<item:appliedenergistics2:crafting_card>);
+craftingTable.removeRecipe(<item:appliedenergistics2:crafting_terminal>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:logic_processor>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:calculation_processor>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:engineering_processor>);
@@ -18,6 +20,11 @@ craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:engineering_processor_press>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:calculation_processor_press>);
 <recipetype:appliedenergistics2:inscriber>.removeRecipe(<item:appliedenergistics2:printed_silicon>);
+
+// General Fixes
+
+craftingTable.addShapeless("crafting_card", <item:appliedenergistics2:crafting_card>, [<tag:items:forge:workbench>, <item:appliedenergistics2:basic_card>]);
+craftingTable.addShapeless("crafting_terminal", <item:appliedenergistics2:crafting_terminal>, [<item:appliedenergistics2:terminal>, <tag:items:forge:workbench>, <item:appliedenergistics2:calculation_processor>]);
 
 // Grindstone recipes 
 

@@ -154,32 +154,32 @@ craftingTable.addShaped("diamond_engine", <item:boss_tools:diamond_engine>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:pneumaticcraft:gps_area_tool>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:signalum_plate>, <item:thermal:signalum_plate>, <item:thermal:signalum_plate>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:signalum_plate>, <item:immersiveengineering:storage_aluminum>, <item:thermal:signalum_plate>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:signalum_plate>, <item:astralsorcery:starmetal>, <item:thermal:signalum_plate>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:signalum_plate>, <item:immersiveengineering:sheetmetal_steel>, <item:appliedenergistics2:engineering_processor>, <item:immersiveengineering:sheetmetal_steel>, <item:thermal:signalum_plate>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:signalum_plate>, <item:immersiveengineering:sheetmetal_steel>, <item:rftoolsbase:machine_frame>, <item:immersiveengineering:sheetmetal_steel>, <item:thermal:signalum_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:signalum_plate>, <item:immersiveengineering:radiator>, <item:computercraft:computer_advanced>, <item:immersiveengineering:radiator>, <item:thermal:signalum_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:thermal:signalum_plate>, <item:boss_tools:iron_tank>, <item:immersiveengineering:storage_aluminum>, <item:boss_tools:iron_tank>, <item:thermal:signalum_plate>, <item:boss_tools:rocket_fin>],
+	[<item:boss_tools:rocket_fin>, <item:thermal:signalum_plate>, <item:boss_tools:iron_tank>, <item:astralsorcery:starmetal>, <item:boss_tools:iron_tank>, <item:thermal:signalum_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:boss_tools:rocket_fin>]]);
 	
 <recipetype:create:mechanical_crafting>.addRecipe("rocket2", <item:boss_tools:tier_2_rocket>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:pneumaticcraft:gps_area_tool>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:lumium_plate>, <item:thermal:lumium_plate>, <item:thermal:lumium_plate>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:lumium_plate>, <item:immersiveengineering:storage_aluminum>, <item:thermal:lumium_plate>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:lumium_plate>, <item:botania:terrasteel_block>, <item:thermal:lumium_plate>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:lumium_plate>, <tag:items:forge:storage_blocks/desh>, <item:mekanism:advanced_control_circuit>, <tag:items:forge:storage_blocks/desh>, <item:thermal:lumium_plate>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:lumium_plate>, <tag:items:forge:storage_blocks/desh>, <item:kubejs:rocket_salvage_1>, <tag:items:forge:storage_blocks/desh>, <item:thermal:lumium_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:lumium_plate>, <item:immersiveengineering:radiator>, <item:mekanism:advanced_control_circuit>, <item:immersiveengineering:radiator>, <item:thermal:lumium_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:thermal:lumium_plate>, <item:boss_tools:golden_tank>, <item:immersiveengineering:storage_aluminum>, <item:boss_tools:golden_tank>, <item:thermal:lumium_plate>, <item:boss_tools:rocket_fin>],
+	[<item:boss_tools:rocket_fin>, <item:thermal:lumium_plate>, <item:boss_tools:golden_tank>, <item:botania:terrasteel_block>, <item:boss_tools:golden_tank>, <item:thermal:lumium_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:boss_tools:rocket_fin>]]);
 	
 <recipetype:create:mechanical_crafting>.addRecipe("rocket3", <item:boss_tools:tier_3_rocket>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:pneumaticcraft:gps_area_tool>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:enderium_plate>, <item:immersiveengineering:storage_aluminum>, <item:thermal:enderium_plate>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:thermal:enderium_plate>, <item:mythicbotany:alfsteel_block>, <item:thermal:enderium_plate>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:enderium_plate>, <tag:items:forge:storage_blocks/silicon>, <item:mekanism:elite_control_circuit>, <tag:items:forge:storage_blocks/silicon>, <item:thermal:enderium_plate>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:thermal:enderium_plate>, <tag:items:forge:storage_blocks/silicon>, <item:kubejs:rocket_salvage_2>, <tag:items:forge:storage_blocks/silicon>, <item:thermal:enderium_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:enderium_plate>, <item:immersiveengineering:radiator>, <item:mekanism:elite_control_circuit>, <item:immersiveengineering:radiator>, <item:thermal:enderium_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:thermal:enderium_plate>, <item:boss_tools:diamond_tank>, <item:immersiveengineering:storage_aluminum>, <item:boss_tools:diamond_tank>, <item:thermal:enderium_plate>, <item:boss_tools:rocket_fin>],
+	[<item:boss_tools:rocket_fin>, <item:thermal:enderium_plate>, <item:boss_tools:diamond_tank>, <item:mythicbotany:alfsteel_block>, <item:boss_tools:diamond_tank>, <item:thermal:enderium_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:boss_tools:rocket_fin>]]);
 	

@@ -13,7 +13,7 @@
 
 <recipetype:create:mechanical_crafting>.addRecipe("ultimate_ingot", <item:extendedcrafting:the_ultimate_ingot>, [
 [<item:thermal:enderium_ingot>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:shadow_steel>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:thermal:enderium_ingot>],
-[<item:mekanism:pellet_antimatter>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:botania:gaia_ingot>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:mekanism:pellet_antimatter>],
+[<item:mekanism:pellet_antimatter>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:libvulpes:blockiridium>, <item:botania:gaia_ingot>, <item:libvulpes:blocktitanium>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:mekanism:pellet_antimatter>],
 [<item:thermal:enderium_ingot>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:refined_radiance>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:thermal:enderium_ingot>]]);
 
 // Creative Storage Upgrade

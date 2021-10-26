@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "immersiveengineering:block/metal/storage_steel"
+        "base": "immersiveengineering:block/metal_device/furnace_heater_socket"
       },
       "elements": [
         {

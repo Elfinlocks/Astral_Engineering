@@ -17,6 +17,21 @@
     }
   },
   {
+    "mob": ["minecraft:zombie", "minecraft:skeleton"],
+    "persecond": 1.0,
+    "attempts": 20,
+    "amount": {
+      "minimum": 5,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 3,
+      "maxdist": 60,
+      "maxthis": 10
+    }
+  },
+  {
     "mob": ["thermal:basalz", "minecraft:magma_cube"],
     "persecond": 1.0,
     "attempts": 20,
@@ -42,7 +57,8 @@
       "mana-and-artifice:pixie",
       "mana-and-artifice:skeleton_assassin",
 	  "mana-and-artifice:spell_breaker",
-	  "eidolon:wraith"
+	  "eidolon:wraith",
+	  "artifacts:mimic"
 	],
     "persecond": 1.0,
     "attempts": 10,

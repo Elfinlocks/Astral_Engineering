@@ -26,7 +26,7 @@ craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer
 // Aluminum
 
 <recipetype:create:pressing>.addRecipe("pressing/aluminum", [<item:immersiveengineering:plate_aluminum>], <tag:items:forge:ingots/aluminum>);
-<recipetype:thermal:press>.addRecipe("thermal_pressing/aluminum", [<item:immersiveengineering:plate_aluminum> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/aluminum>], 500);
+<recipetype:thermal:press>.addRecipe("thermal_pressing/aluminum", [<item:immersiveengineering:plate_aluminum> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/aluminum>], 1500);
 
 // Lead
 
@@ -47,19 +47,19 @@ craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer
 // Electrum
 
 <recipetype:create:pressing>.addRecipe("pressing/electrum", [<item:immersiveengineering:plate_electrum>], <tag:items:forge:ingots/electrum>);
-<recipetype:thermal:press>.addRecipe("thermal_pressing/electrum", [<item:immersiveengineering:plate_electrum> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/electrum>], 500);
+<recipetype:thermal:press>.addRecipe("thermal_pressing/electrum", [<item:immersiveengineering:plate_electrum> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/electrum>], 1500);
 
 // Steel
 
 <recipetype:create:pressing>.addRecipe("pressing/steel", [<item:immersiveengineering:plate_steel>], <tag:items:forge:ingots/steel>);
-<recipetype:thermal:press>.addRecipe("thermal_pressing/steel", [<item:immersiveengineering:plate_steel> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/steel>], 500);
+<recipetype:thermal:press>.addRecipe("thermal_pressing/steel", [<item:immersiveengineering:plate_steel> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/steel>], 1500);
 
 // Iron
 
 <recipetype:create:pressing>.addRecipe("pressing/iron", [<item:immersiveengineering:plate_iron>], <tag:items:forge:ingots/iron>);
-<recipetype:thermal:press>.addRecipe("thermal_pressing/iron", [<item:immersiveengineering:plate_iron> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/iron>], 500);
+<recipetype:thermal:press>.addRecipe("thermal_pressing/iron", [<item:immersiveengineering:plate_iron> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/iron>], 1500);
 
 // Tin
 
 <recipetype:create:pressing>.addRecipe("pressing/tin", [<item:thermal:tin_plate>], <tag:items:forge:ingots/tin>);
-<recipetype:immersiveengineering:metal_press>.addRecipe("tin_plate", <tag:items:forge:ingots/tin>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:tin_plate>);
+<recipetype:immersiveengineering:metal_press>.addRecipe("tin_plate", <tag:items:forge:ingots/tin>, <item:immersiveengineering:mold_plate>, 1500, <item:thermal:tin_plate>);

@@ -653,11 +653,6 @@
 			id: "38A5DA68F7F259EE"
 			tasks: [
 				{
-					id: "63038BA7580C26C3"
-					type: "item"
-					item: "mekanism:electric_pump"
-				}
-				{
 					id: "6055D87B43C0024A"
 					type: "item"
 					item: "masterfulmachinery:electrolyser_gas_port_mekanism_gas_output"
@@ -704,7 +699,7 @@
 					id: "08D0DAF61F50C25A"
 					type: "item"
 					item: "immersiveengineering:ingot_steel"
-					count: 16
+					count: 24
 				}
 			]
 		}

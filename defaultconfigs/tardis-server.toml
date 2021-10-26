@@ -2,7 +2,7 @@
 ["Tardis Configurations"]
 	#List of dimensions Tardis cannot travel to, everything else is allowed
 	#Seperate every entry except the last one with commas
-	blacklistedDims = ['twilightforest:skylight_forest', 'wrd:the_deeper_depths', 'appliedenergistics2:spatial_storage']
+	blacklistedDims = ['twilightforest:skylight_forest', 'appliedenergistics2:spatial_storage', 'tardis:moon', 'tardis:space']
 	#If two TARDISes are closer than this number, they are considered 'colliding'
 	#When they collide, a Time Ram event is initiated
 	collisionRange = 16
@@ -26,7 +26,7 @@
 		toggleVMWhitelistDims = true
 		#List of dimensions the VM can travel to, anything else is not allowed
 		#Seperate every entry except the last one with commas
-		whitelistedVMDims = ["minecraft:overworld", "minecraft:nether", "minecraft:the_end"]
+		whitelistedVMDims = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 		#List of dimensions the VM cannot travel to, everything else is allowed
 		#Seperate every entry except the last one with commas
 		blacklistedVMDims = ["modID:dimensionName"]
