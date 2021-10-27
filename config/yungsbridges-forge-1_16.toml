@@ -6,7 +6,7 @@
 	# Entries must have the mod namespace included.
 	# For example: "[minecraft:river, minecraft:frozen_river]"
 	# Default: "[]"
-	"Blacklisted Biomes" = "[]"
+	"Blacklisted Biomes" = "[twilightforest:*]"
 
 	###########################################################################################################
 	# Spawn Rates.

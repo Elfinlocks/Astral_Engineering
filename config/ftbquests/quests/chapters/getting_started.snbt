@@ -267,7 +267,7 @@
 		{
 			title: "Welcome to Astral Engineering!"
 			icon: "ftbquests:book"
-			x: 4.5d
+			x: 7.0d
 			y: -3.0d
 			shape: "octagon"
 			subtitle: "Left click for more information!"
@@ -294,42 +294,6 @@
 					Count: 1b
 					tag: {
 						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Let's get down to crafting!"
-			x: 7.0d
-			y: -3.0d
-			description: [
-				"Get four planks to create a basic Crafting Workbench."
-				""
-				"Your reward for your troubles is a Tinker's Station, which we'll use in a moment to make our first stone tools!"
-			]
-			dependencies: ["4983D289845799E1"]
-			id: "3C77B6E3F795CE27"
-			tasks: [{
-				id: "2A1EB0E6B2B91D63"
-				type: "item"
-				title: "Any Workbench"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:workbenches"
-					}
-				}
-				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "2377B8C49065C064"
-				type: "item"
-				item: {
-					id: "tconstruct:tinker_station"
-					Count: 1b
-					tag: {
-						texture: "minecraft:oak_planks"
 					}
 				}
 			}]
@@ -492,7 +456,7 @@
 			x: 7.0d
 			y: 0.0d
 			description: ["Make a Part Table, and use your pattern to make a Stone Pickaxe Head."]
-			dependencies: ["3C77B6E3F795CE27"]
+			dependencies: ["4983D289845799E1"]
 			id: "70003EB0C320E474"
 			tasks: [{
 				id: "32E3C3F9268C9471"
@@ -600,7 +564,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 5.0d
 			y: -3.0d
 			subtitle: "Don't forget to adjust your keybindings! I took the liberty of clearing most of them, so that you start with a clean slate."
 			dependencies: ["4983D289845799E1"]
@@ -647,7 +611,7 @@
 			x: 9.5d
 			y: -3.0d
 			subtitle: "Make a wooden or stone shovel, we don't judge"
-			dependencies: ["3C77B6E3F795CE27"]
+			dependencies: ["4983D289845799E1"]
 			id: "0E867AE7C53EF7BE"
 			tasks: [{
 				id: "320DFB1102C4AC08"

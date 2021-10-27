@@ -2,7 +2,7 @@
   "quality": {
     "cloud_quality": "DEFAULT",
     "weather_quality": "DEFAULT",
-    "enable_vignette": true,
+    "enable_vignette": false,
     "enable_clouds": true,
     "smooth_lighting": "HIGH"
   },
@@ -18,10 +18,10 @@
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },
-  "debug": {
+  "experimental": {
     "display_fps": false
   },
   "notifications": {
-    "hide_donation_button": false
+    "hide_donation_button": true
   }
 }
