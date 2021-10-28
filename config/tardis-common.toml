@@ -6,7 +6,7 @@
 	#Example: Value = 2, Spawn Chance = 1/2
 	#Use 1 to always generate this ore, 1001 to disable generation
 	#Range: 1 ~ 1001
-	cinnabarOreSpawnChance = 1
+	cinnabarOreSpawnChance = 1001
 	#The chance for Xion Crystals to spawn in the world
 	#This option does not allow decimal points
 	#This value is divided by 100 to form the final probability

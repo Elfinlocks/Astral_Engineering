@@ -28,13 +28,57 @@
   },
   {
 	"dimension": "minecraft:overworld",
-	"onjoin": true,
 	"mob": [
 		"minecraft:skeleton",
 		"minecraft:zombie"
 	],
-	"result": "allow",
-	"healthmultiply": 2
+	"result": "default",
+	"healthmultiply": 2,
+	"maxlight": 5,
+	"incontrol": true
+  },
+  {
+	"dimension": "minecraft:overworld",
+	"onjoin": true,
+	"mob": [
+      "mana-and-artifice:witch_hunter",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+	  "mana-and-artifice:spell_breaker",
+	  "minecraft:creeper"
+	],
+	"result": "default",
+	"maxlight": 5,
+	"mintime": 13500,
+	"maxtime": 23000,
+	"incontrol": true
+  },
+  {
+	"dimension": "minecraft:overworld",
+	"onjoin": true,
+	"mob": [
+		"minecraft:skeleton",
+		"minecraft:zombie",
+		"minecraft:creeper",
+		"minecraft:witch",
+		"minecraft:spider",
+		"minecraft:bat",
+	    "mana-and-artifice:witch_hunter",
+		"mana-and-artifice:hulking_zombie",
+		"mana-and-artifice:mushroom_soldier",
+		"mana-and-artifice:pixie",
+		"mana-and-artifice:skeleton_assassin",
+		"mana-and-artifice:spell_breaker",
+		"eidolon:wraith",
+		"eidolon:zombie_brute",
+		"mowziesmobs:foliaath"
+	],
+	"mintime": 0,
+	"maxtime": 13000,
+	"minheight": 55,
+	"result": deny 
   },
   {
     "dimension": "boss_tools:mercury",

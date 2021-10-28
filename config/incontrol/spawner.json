@@ -19,10 +19,10 @@
   {
     "mob": ["minecraft:zombie", "minecraft:skeleton"],
     "persecond": 1.0,
-    "attempts": 20,
+    "attempts": 10,
     "amount": {
-      "minimum": 5,
-      "maximum": 10
+      "minimum": 3,
+      "maximum": 6
     },
     "conditions": {
       "dimension": "minecraft:overworld",
