@@ -20,6 +20,7 @@
     "mob": ["minecraft:zombie", "minecraft:skeleton"],
     "persecond": 1.0,
     "attempts": 10,
+	"weight": 30,
     "amount": {
       "minimum": 3,
       "maximum": 6

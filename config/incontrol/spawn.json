@@ -57,7 +57,8 @@
   },
   {
 	"dimension": "minecraft:overworld",
-	"onjoin": true,
+	"onjoin": false,
+	"spawner": false,
 	"mob": [
 		"minecraft:skeleton",
 		"minecraft:zombie",
@@ -65,6 +66,10 @@
 		"minecraft:witch",
 		"minecraft:spider",
 		"minecraft:bat",
+		"minecraft:zombie_villager",
+		"minecraft:drowned",
+		"minecraft:husk",
+		"minecraft:stray",
 	    "mana-and-artifice:witch_hunter",
 		"mana-and-artifice:hulking_zombie",
 		"mana-and-artifice:mushroom_soldier",

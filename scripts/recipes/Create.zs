@@ -1,5 +1,17 @@
 craftingTable.removeRecipe(<item:createaddition:capacitor>);
 <recipetype:create:pressing>.removeRecipe(<item:create:iron_sheet>);
+craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
+craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
+
+craftingTable.addShaped("radiance_casing", <item:create:refined_radiance_casing> * 2, [
+	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>],
+	[<item:create:refined_radiance>, <item:botania:bifrost_perm>, <item:create:refined_radiance>],
+	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>]]);
+	
+craftingTable.addShaped("shadow_casing", <item:create:shadow_steel_casing> *2, [
+	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>],
+	[<item:create:shadow_steel>, <item:extendedcrafting:frame>, <item:create:shadow_steel>],
+	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>]]);
 
 craftingTable.addShaped("capacitor", <item:createaddition:capacitor>, [
     [<tag:items:forge:dusts/nickel>, <tag:items:forge:plates/zinc>, <tag:items:forge:dusts/nickel>],
