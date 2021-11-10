@@ -632,5 +632,30 @@
 				count: 2
 			}]
 		}
+		{
+			icon: "losttrinkets:piggy"
+			x: 7.0d
+			y: -5.0d
+			subtitle: "A Quick How-To"
+			description: [
+				"Lost Trinkets is a mod included within this pack. For the uninitiated, this mod allows you to passively collect trinkets, which give you unique and powerful abilities."
+				""
+				"However, you can't use them all simultaneously - you have a limited number of slots, and must operate within those bounds. You can purchase additional slots for XP levels, up to a maximum of 20."
+				""
+				"Have some bonus experience to help you on the way, and for reading this!"
+			]
+			dependencies: ["4983D289845799E1"]
+			id: "1E6D133D630C94BE"
+			tasks: [{
+				id: "1BE4FEC262687263"
+				type: "checkmark"
+				title: "Trinket Collecting"
+			}]
+			rewards: [{
+				id: "25BE84DE029C40E8"
+				type: "xp"
+				xp: 100
+			}]
+		}
 	]
 }

@@ -100,6 +100,10 @@ mods.jei.JEI.hideItem(<item:thermal:constantan_nugget>);
 
 // Hiding dusts
 
+mods.jei.JEI.hideItem(<item:thermal:silver_dust>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_iron>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_lead>);
+mods.jei.JEI.hideItem(<item:thermal:nickel_dust>);
 mods.jei.JEI.hideItem(<item:mekanism:dust_copper>);
 mods.jei.JEI.hideItem(<item:libvulpes:dustcopper>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_copper>);

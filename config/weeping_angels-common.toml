@@ -3,9 +3,9 @@
 	#Config to toggle the generation of arms in snow biomes
 	arms = true
 	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
-	genCatacombs = true
+	genCatacombs = false
 	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
-	genGraveyard = true
+	genGraveyard = false
 	#Configure whether the mods ores spawn. This MAY require a restart when changed.
 	genOres = false
 
@@ -79,5 +79,9 @@
 
 [block]
 	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
-	spawnFromBlocks = false
+	spawnFromBlocks = true
+
+[mod]
+	#This config option toggles the update message on join
+	updateChecker = true
 

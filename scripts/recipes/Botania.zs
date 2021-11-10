@@ -9,7 +9,7 @@ craftingTable.addShaped("elven_spreader", <item:botania:elven_spreader>, [
 	[<item:botania:dreamwood>, <item:botania:dreamwood>, <item:botania:dreamwood>]]);
 
 craftingTable.addShaped("terra_plate", <item:botania:terra_plate>, [
-    [<item:mana-and-artifice:enchantment_focus_arcane>, <item:astralsorcery:starmetal>, <item:mana-and-artifice:enchantment_focus_arcane>],
+    [<item:mana-and-artifice:greater_mote_arcane>, <item:astralsorcery:starmetal>, <item:mana-and-artifice:greater_mote_arcane>],
     [<item:botania:rune_water>, <tag:items:forge:storage_blocks/mana_diamond>, <item:botania:rune_fire>],
     [<item:botania:rune_earth>, <item:botania:rune_mana>, <item:botania:rune_air>]]);
 	

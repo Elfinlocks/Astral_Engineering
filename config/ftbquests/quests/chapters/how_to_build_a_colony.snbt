@@ -609,7 +609,13 @@
 			x: 17.0d
 			y: 0.0d
 			subtitle: "Where will you lead?"
-			description: ["We have barely scratched the surface of all of the available buildings, but I'm not going to hold your hand the entire time. Take a look through the MineColonies wiki to see all the other available buildings, and choose how your colony will thrive!"]
+			description: [
+				"We have barely scratched the surface of all of the available buildings, but I'm not going to hold your hand the entire time. Take a look through the MineColonies wiki to see all the other available buildings, and choose how your colony will thrive!"
+				""
+				"This waystone will help to truly put your colony on the map, now that you've invested into it. "
+				""
+				"WARNING: Be careful where you place it! As you may know, it CANNOT BE MOVED!"
+			]
 			dependencies: ["4D1D7CBE858AAFCB"]
 			id: "50DEDBC762BE512F"
 			tasks: [{
@@ -617,9 +623,9 @@
 				type: "checkmark"
 			}]
 			rewards: [{
-				id: "47205D495F3CACA2"
-				type: "xp"
-				xp: 500
+				id: "7D30126DAB53FA7C"
+				type: "item"
+				item: "waystones:waystone"
 			}]
 		}
 		{

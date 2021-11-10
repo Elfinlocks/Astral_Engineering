@@ -3,10 +3,10 @@
 [mobs]
 	#Spawn weight for zombie brute entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	zombieBruteSpawnWeight = 20
+	zombieBruteSpawnWeight = 10
 	#Spawn weight for wraith entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	wraithSpawnWeight = 40
+	wraithSpawnWeight = 15
 
 #World generation settings
 [world]

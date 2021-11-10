@@ -49,11 +49,11 @@ event.replaceOutput({}, '#forge:gears/lead', 'thermal:lead_gear')
 
 event.replaceOutput({}, '#forge:ingots/nickel', 'thermal:nickel_ingot')
 event.replaceOutput({}, '#forge:dusts/nickel', 'immersiveengineering:dust_nickel')
+event.replaceOutput({}, 'thermal:nickel_dust', 'immersiveengineering:dust_nickel')
 event.replaceOutput({}, '#forge:nuggets/nickel', 'thermal:nickel_nugget') 
 event.replaceOutput({}, '#forge:storage_blocks/nickel', 'thermal:nickel_block') 
 event.replaceOutput({}, '#forge:plates/nickel', 'immersiveengineering:plate_nickel') 
 event.replaceOutput({}, '#forge:gears/nickel', 'thermal:nickel_gear')
-event.replaceOutput({}, 'immersiveengineering:dust_nickel', 'thermal:nickel_dust')
 
 event.replaceOutput({}, '#forge:ingots/zinc', 'create:zinc_ingot')
 event.replaceOutput({}, '#forge:dusts/zinc', 'jaopca:dusts.zinc')  
@@ -159,15 +159,14 @@ event.replaceOutput({}, '#forge:dusts/coal_coke', 'immersiveengineering:dust_cok
 
 
 
-// Special Gems / Coke ==================================================================================================================
+// Misc ==================================================================================================================
 
 event.replaceOutput({}, '#forge:gems/sapphire', 'iceandfire:sapphire_gem') 
 event.replaceOutput({}, '#forge:storage_blocks/sapphire', 'iceandfire:sapphire_block') 
 event.replaceOutput({}, '#forge:gems/amethyst', 'iceandfire:amythest_gem') 
 event.replaceOutput({}, '#forge:storage_blocks/amethyst', '#forge:storage_blocks/amethyst') 
 event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite') 
-
-
+event.replaceOutput({}, 'boss_tools:chesse', 'pamhc2foodcore:cheeseitem')
 event.replaceOutput({}, '#forge:coal_coke', 'immersiveengineering:coal_coke') 
  
   

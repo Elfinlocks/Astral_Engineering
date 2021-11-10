@@ -33,6 +33,7 @@ craftingTable.removeRecipe(<item:boss_tools:diamond_engine>);
 
 // Hiding items zzz 
 
+mods.jei.JEI.hideItem(<item:boss_tools:chesse>);
 mods.jei.JEI.hideItem(<item:boss_tools:steel_sword>);
 mods.jei.JEI.hideItem(<item:boss_tools:steel_shovel>);
 mods.jei.JEI.hideItem(<item:boss_tools:steel_pickaxe>);
@@ -159,7 +160,7 @@ craftingTable.addShaped("diamond_engine", <item:boss_tools:diamond_engine>, [
 	[<item:minecraft:air>, <item:thermal:signalum_plate>, <item:immersiveengineering:sheetmetal_steel>, <item:rftoolsbase:machine_frame>, <item:immersiveengineering:sheetmetal_steel>, <item:thermal:signalum_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:signalum_plate>, <item:immersiveengineering:radiator>, <item:computercraft:computer_advanced>, <item:immersiveengineering:radiator>, <item:thermal:signalum_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:signalum_plate>, <item:boss_tools:iron_tank>, <item:astralsorcery:starmetal>, <item:boss_tools:iron_tank>, <item:thermal:signalum_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:boss_tools:rocket_fin>]]);
+	[<item:boss_tools:rocket_fin>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:mana-and-artifice:greater_mote_air>, <item:boss_tools:iron_engine>, <item:boss_tools:iron_engine>, <item:boss_tools:rocket_fin>]]);
 	
 <recipetype:create:mechanical_crafting>.addRecipe("rocket2", <item:boss_tools:tier_2_rocket>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -170,7 +171,7 @@ craftingTable.addShaped("diamond_engine", <item:boss_tools:diamond_engine>, [
 	[<item:minecraft:air>, <item:thermal:lumium_plate>, <tag:items:forge:storage_blocks/desh>, <item:kubejs:rocket_salvage_1>, <tag:items:forge:storage_blocks/desh>, <item:thermal:lumium_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:lumium_plate>, <item:immersiveengineering:radiator>, <item:mekanism:advanced_control_circuit>, <item:immersiveengineering:radiator>, <item:thermal:lumium_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:lumium_plate>, <item:boss_tools:golden_tank>, <item:botania:terrasteel_block>, <item:boss_tools:golden_tank>, <item:thermal:lumium_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:boss_tools:rocket_fin>]]);
+	[<item:boss_tools:rocket_fin>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:mana-and-artifice:greater_mote_air>, <item:boss_tools:golden_engine>, <item:boss_tools:golden_engine>, <item:boss_tools:rocket_fin>]]);
 	
 <recipetype:create:mechanical_crafting>.addRecipe("rocket3", <item:boss_tools:tier_3_rocket>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:boss_tools:nose_cone>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -181,5 +182,5 @@ craftingTable.addShaped("diamond_engine", <item:boss_tools:diamond_engine>, [
 	[<item:minecraft:air>, <item:thermal:enderium_plate>, <tag:items:forge:storage_blocks/silicon>, <item:kubejs:rocket_salvage_2>, <tag:items:forge:storage_blocks/silicon>, <item:thermal:enderium_plate>, <item:minecraft:air>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:enderium_plate>, <item:immersiveengineering:radiator>, <item:mekanism:elite_control_circuit>, <item:immersiveengineering:radiator>, <item:thermal:enderium_plate>, <item:boss_tools:rocket_fin>],
 	[<item:boss_tools:rocket_fin>, <item:thermal:enderium_plate>, <item:boss_tools:diamond_tank>, <item:mythicbotany:alfsteel_block>, <item:boss_tools:diamond_tank>, <item:thermal:enderium_plate>, <item:boss_tools:rocket_fin>],
-	[<item:boss_tools:rocket_fin>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:mana-and-artifice:enchantment_focus_air>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:boss_tools:rocket_fin>]]);
+	[<item:boss_tools:rocket_fin>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:mana-and-artifice:greater_mote_air>, <item:boss_tools:diamond_engine>, <item:boss_tools:diamond_engine>, <item:boss_tools:rocket_fin>]]);
 	

@@ -1,5 +1,23 @@
 // zzzzzzzz hiding stuff zzzzzzzzz
 
+mods.jei.JEI.hideItem(<item:miniutilities:laser_hub>);
+mods.jei.JEI.hideItem(<item:miniutilities:laser_port>);
+mods.jei.JEI.hideItem(<item:miniutilities:ethereal_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:reverse_ethereal_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:redstone_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:glowing_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:dark_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:dark_ethereal_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:dark_reverse_ethereal_glass>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_1x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_2x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_3x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_4x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_5x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_6x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_7x>);
+mods.jei.JEI.hideItem(<item:miniutilities:experience_pearl_8x>);
 mods.jei.JEI.hideItem(<item:miniutilities:blursed_earth>);
 mods.jei.JEI.hideItem(<item:miniutilities:blessed_earth>);
 mods.jei.JEI.hideItem(<item:miniutilities:ender_ore>);
@@ -57,6 +75,24 @@ mods.jei.JEI.hideItem(<item:miniutilities:magical_egg>);
 
 // zzzzzzzzzz removing recipes zzzzzzzzzzzz 
 
+craftingTable.removeRecipe(<item:miniutilities:laser_hub>);
+craftingTable.removeRecipe(<item:miniutilities:laser_port>);
+craftingTable.removeRecipe(<item:miniutilities:ethereal_glass>);
+craftingTable.removeRecipe(<item:miniutilities:reverse_ethereal_glass>);
+craftingTable.removeRecipe(<item:miniutilities:redstone_glass>);
+craftingTable.removeRecipe(<item:miniutilities:glowing_glass>);
+craftingTable.removeRecipe(<item:miniutilities:dark_glass>);
+craftingTable.removeRecipe(<item:miniutilities:dark_ethereal_glass>);
+craftingTable.removeRecipe(<item:miniutilities:dark_reverse_ethereal_glass>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_1x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_2x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_3x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_4x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_5x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_6x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_7x>);
+craftingTable.removeRecipe(<item:miniutilities:experience_pearl_8x>);
 craftingTable.removeRecipe(<item:miniutilities:blursed_earth>);
 craftingTable.removeRecipe(<item:miniutilities:blessed_earth>);
 craftingTable.removeRecipe(<item:miniutilities:ender_ore>);
@@ -121,6 +157,6 @@ craftingTable.addShaped("caelestis", <item:miniutilities:gray_lapis_caelestis>, 
 	[<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]]);
 	
 craftingTable.addShaped("cursed_earth", <item:miniutilities:cursed_earth>, [
-	[<item:mana-and-artifice:enchantment_focus_earth>, <item:eidolon:shadow_gem>, <item:mana-and-artifice:enchantment_focus_earth>],
+	[<item:mana-and-artifice:greater_mote_earth>, <item:eidolon:shadow_gem>, <item:mana-and-artifice:greater_mote_earth>],
 	[<item:eidolon:shadow_gem>, <item:minecraft:wither_rose>, <item:eidolon:shadow_gem>],
-	[<item:mana-and-artifice:enchantment_focus_earth>, <item:eidolon:shadow_gem>, <item:mana-and-artifice:enchantment_focus_earth>]]);
+	[<item:mana-and-artifice:greater_mote_earth>, <item:eidolon:shadow_gem>, <item:mana-and-artifice:greater_mote_earth>]]);

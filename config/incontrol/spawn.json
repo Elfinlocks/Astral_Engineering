@@ -16,9 +16,22 @@
     "result": "deny"
   },
   {
+	  "dimension": "boss_tools:venus",
+	  "mob": "tardis:dalek",
+	  "result": "allow",
+	  "damagemultiply": 2
+  },
+  {
+	  "dimension": ["boss_tools:moon", "boss_tools:mars"],
+	  "mob": "weeping_angels:weeping_angel",
+	  "result": "allow",
+	  "healthmultiply": 3
+  },
+  {
 	"dimension": "boss_tools:mars",
 	"mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"],
 	"result": "allow",
+	"customname": "Undead Astronaut",
     "healthmultiply": 3,
     "damagemultiply": 2,
     "armorhelmet": "boss_tools:oxygen_mask",
@@ -30,56 +43,19 @@
 	"dimension": "minecraft:overworld",
 	"mob": [
 		"minecraft:skeleton",
-		"minecraft:zombie"
+		"minecraft:zombie",
+		"eidolon:zombie_brute",
+		"mana-and-artifice:hulking_zombie"
 	],
 	"result": "default",
 	"healthmultiply": 2,
-	"maxlight": 5,
-	"incontrol": true
-  },
-  {
-	"dimension": "minecraft:overworld",
-	"onjoin": true,
-	"mob": [
-      "mana-and-artifice:witch_hunter",
-      "mana-and-artifice:hulking_zombie",
-      "mana-and-artifice:mushroom_soldier",
-      "mana-and-artifice:pixie",
-      "mana-and-artifice:skeleton_assassin",
-	  "mana-and-artifice:spell_breaker",
-	  "minecraft:creeper"
-	],
-	"result": "default",
-	"maxlight": 5,
-	"mintime": 13500,
-	"maxtime": 23000,
-	"incontrol": true
+	"maxlight": 5
   },
   {
 	"dimension": "minecraft:overworld",
 	"onjoin": false,
 	"spawner": false,
-	"mob": [
-		"minecraft:skeleton",
-		"minecraft:zombie",
-		"minecraft:creeper",
-		"minecraft:witch",
-		"minecraft:spider",
-		"minecraft:bat",
-		"minecraft:zombie_villager",
-		"minecraft:drowned",
-		"minecraft:husk",
-		"minecraft:stray",
-	    "mana-and-artifice:witch_hunter",
-		"mana-and-artifice:hulking_zombie",
-		"mana-and-artifice:mushroom_soldier",
-		"mana-and-artifice:pixie",
-		"mana-and-artifice:skeleton_assassin",
-		"mana-and-artifice:spell_breaker",
-		"eidolon:wraith",
-		"eidolon:zombie_brute",
-		"mowziesmobs:foliaath"
-	],
+	"hostile": true,
 	"mintime": 0,
 	"maxtime": 13000,
 	"minheight": 55,
@@ -112,13 +88,15 @@
       "mana-and-artifice:skeleton_assassin",
 	  "mana-and-artifice:spell_breaker",
 	  "tconstruct:earth_slime",
-	  "artifacts:mimic"
+	  "artifacts:mimic",
+	  "minecraft:pig"
     ],
     "result": "deny"
   },
   {
     "dimension": "boss_tools:mercury",
 	"result": "allow",
+	"customname": "Mercurial Cube",
     "mob": [
       "minecraft:magma_cube"
     ],
@@ -128,10 +106,11 @@
   {
     "dimension": "boss_tools:mercury",
 	"result": "allow",
+	"customname": "Mercurial Basalz",
     "mob": [
 	  "thermal:basalz"
     ],
-    "healthmultiply": 2,
+    "healthmultiply": 3,
 	"damagemultiply": 2
   },
   {

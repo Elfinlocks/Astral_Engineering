@@ -32,7 +32,7 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 	[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:redstone>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:eidolon:soul_shard>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:redstone>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 50, 35);
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 125, 35);
 
 <recipetype:astralsorcery:altar>.addRecipe("structures_compass", "RADIANCE", <item:structurescompass:structures_compass>, [
 	[<item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:thermal:signalum_plate>, <item:immersiveengineering:plate_aluminum>, <item:minecraft:air>],
@@ -46,7 +46,7 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 	[<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:mana-and-artifice:purified_vinteum_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:mana-and-artifice:purified_vinteum_dust>, <item:astralsorcery:aquamarine>, <item:mana-and-artifice:purified_vinteum_dust>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:mana-and-artifice:purified_vinteum_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 20, 25);
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 50, 25);
 	
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/illumination_powder");
 

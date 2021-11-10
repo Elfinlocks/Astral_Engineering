@@ -1,5 +1,47 @@
 // zzzzzz hiding items zzzzzzzzzzz
 
+mods.jei.JEI.hideItem(<item:cyclic:spikes_diamond>);
+mods.jei.JEI.hideItem(<item:cyclic:chorus_flight>);
+mods.jei.JEI.hideItem(<item:cyclic:chorus_spectral>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_longfall>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_creeper>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_stone>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_antipotion>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_boostpotion>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_crit>);
+mods.jei.JEI.hideItem(<item:cyclic:quiver_damage>);
+mods.jei.JEI.hideItem(<item:cyclic:quiver_lightning>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_invisible>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_magicdefense>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_starvation>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_venom>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_water>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_speed>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_knockback_resistance>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_luck>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_attack_speed>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_xp_speed>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_xp_blocker>);
+mods.jei.JEI.hideItem(<item:cyclic:prospector>);
+mods.jei.JEI.hideItem(<item:cyclic:ender_book>);
+mods.jei.JEI.hideItem(<item:cyclic:wireless_energy>);
+mods.jei.JEI.hideItem(<item:cyclic:wireless_item>);
+mods.jei.JEI.hideItem(<item:cyclic:spawn_inspector>);
+mods.jei.JEI.hideItem(<item:cyclic:charm_wing>);
+mods.jei.JEI.hideItem(<item:cyclic:slingshot>);
+mods.jei.JEI.hideItem(<item:cyclic:soulstone>);
+mods.jei.JEI.hideItem(<item:cyclic:wireless_fluid>);
+mods.jei.JEI.hideItem(<item:cyclic:inventory_cake>);
+mods.jei.JEI.hideItem(<item:cyclic:generator_fuel>);
+mods.jei.JEI.hideItem(<item:cyclic:generator_food>);
+mods.jei.JEI.hideItem(<item:cyclic:generator_fluid>);
+mods.jei.JEI.hideItem(<item:cyclic:generator_item>);
+mods.jei.JEI.hideItem(<item:cyclic:packager>);
+mods.jei.JEI.hideItem(<item:cyclic:apple_sprout>);
+mods.jei.JEI.hideItem(<item:cyclic:apple_sprout_diamond>);
+mods.jei.JEI.hideItem(<item:cyclic:apple_sprout_emerald>);
+mods.jei.JEI.hideItem(<item:cyclic:eye_teleport>);
+mods.jei.JEI.hideItem(<item:cyclic:spawner_seeker>);
 mods.jei.JEI.hideItem(<item:cyclic:battery>);
 mods.jei.JEI.hideItem(<item:cyclic:peat_generator>);
 mods.jei.JEI.hideItem(<item:cyclic:peat_unbaked>);
@@ -126,6 +168,48 @@ mods.jei.JEI.hideItem(<item:cyclic:computer_shape>);
 
 // zzzzzzzzz disabled items zzzzzzzzzzz
 
+craftingTable.removeRecipe(<item:cyclic:spikes_diamond>);
+craftingTable.removeRecipe(<item:cyclic:chorus_flight>);
+craftingTable.removeRecipe(<item:cyclic:chorus_spectral>);
+craftingTable.removeRecipe(<item:cyclic:charm_longfall>);
+craftingTable.removeRecipe(<item:cyclic:charm_creeper>);
+craftingTable.removeRecipe(<item:cyclic:charm_stone>);
+craftingTable.removeRecipe(<item:cyclic:charm_antipotion>);
+craftingTable.removeRecipe(<item:cyclic:charm_boostpotion>);
+craftingTable.removeRecipe(<item:cyclic:charm_crit>);
+craftingTable.removeRecipe(<item:cyclic:quiver_damage>);
+craftingTable.removeRecipe(<item:cyclic:quiver_lightning>);
+craftingTable.removeRecipe(<item:cyclic:charm_invisible>);
+craftingTable.removeRecipe(<item:cyclic:charm_magicdefense>);
+craftingTable.removeRecipe(<item:cyclic:charm_starvation>);
+craftingTable.removeRecipe(<item:cyclic:charm_venom>);
+craftingTable.removeRecipe(<item:cyclic:charm_water>);
+craftingTable.removeRecipe(<item:cyclic:charm_speed>);
+craftingTable.removeRecipe(<item:cyclic:charm_knockback_resistance>);
+craftingTable.removeRecipe(<item:cyclic:charm_luck>);
+craftingTable.removeRecipe(<item:cyclic:charm_attack_speed>);
+craftingTable.removeRecipe(<item:cyclic:charm_xp_speed>);
+craftingTable.removeRecipe(<item:cyclic:charm_xp_blocker>);
+craftingTable.removeRecipe(<item:cyclic:prospector>);
+craftingTable.removeRecipe(<item:cyclic:ender_book>);
+craftingTable.removeRecipe(<item:cyclic:wireless_energy>);
+craftingTable.removeRecipe(<item:cyclic:wireless_item>);
+craftingTable.removeRecipe(<item:cyclic:spawn_inspector>);
+craftingTable.removeRecipe(<item:cyclic:charm_wing>);
+craftingTable.removeRecipe(<item:cyclic:slingshot>);
+craftingTable.removeRecipe(<item:cyclic:soulstone>);
+craftingTable.removeRecipe(<item:cyclic:wireless_fluid>);
+craftingTable.removeRecipe(<item:cyclic:inventory_cake>);
+craftingTable.removeRecipe(<item:cyclic:generator_fuel>);
+craftingTable.removeRecipe(<item:cyclic:generator_food>);
+craftingTable.removeRecipe(<item:cyclic:generator_fluid>);
+craftingTable.removeRecipe(<item:cyclic:generator_item>);
+craftingTable.removeRecipe(<item:cyclic:packager>);
+craftingTable.removeRecipe(<item:cyclic:apple_sprout>);
+craftingTable.removeRecipe(<item:cyclic:apple_sprout_diamond>);
+craftingTable.removeRecipe(<item:cyclic:apple_sprout_emerald>);
+craftingTable.removeRecipe(<item:cyclic:eye_teleport>);
+craftingTable.removeRecipe(<item:cyclic:spawner_seeker>);
 craftingTable.removeRecipe(<item:cyclic:battery>);
 craftingTable.removeRecipe(<item:cyclic:peat_generator>);
 craftingTable.removeRecipe(<item:cyclic:peat_unbaked>);
@@ -255,9 +339,9 @@ craftingTable.removeRecipe(<item:cyclic:dark_glass>);
 // New recipes
 
 craftingTable.addShaped("terra_preta", <item:cyclic:terra_preta>, [
-	[<item:mana-and-artifice:enchantment_focus_earth>, <item:botania:rune_earth>, <item:mana-and-artifice:enchantment_focus_earth>],
+	[<item:mana-and-artifice:mote_earth>, <item:botania:rune_earth>, <item:mana-and-artifice:mote_earth>],
 	[<item:thermal:phytogro>, <item:farmersdelight:organic_compost>, <item:thermal:phytogro>],
-	[<item:mana-and-artifice:enchantment_focus_earth>, <item:botania:rune_earth>, <item:mana-and-artifice:enchantment_focus_earth>]]);
+	[<item:mana-and-artifice:mote_earth>, <item:botania:rune_earth>, <item:mana-and-artifice:mote_earth>]]);
 	
 craftingTable.addShaped("dark_glass", <item:cyclic:dark_glass>, [
 	[<item:minecraft:air>, <item:mekanism:enriched_refined_obsidian>, <item:minecraft:air>],
