@@ -1062,26 +1062,26 @@
 			id: "0CF923CEBD536897"
 			tasks: [
 				{
-					id: "3E653D1AE16329A4"
+					id: "0ED88DC5CCCC3FE5"
 					type: "item"
-					item: "miniutilities:cursed_earth"
+					item: "cursedearth:cursed_earth"
 				}
 				{
-					id: "28448221C4F8E48F"
+					id: "19C417252D5CA833"
 					type: "item"
-					item: "miniutilities:diamond_spikes"
+					item: "cyclic:spikes_diamond"
 				}
 			]
 			rewards: [
 				{
-					id: "7C3EB9F378809B7E"
-					type: "item"
-					item: "miniutilities:cursed_earth"
-				}
-				{
 					id: "41CC04081B81FA76"
 					type: "xp"
 					xp: 300
+				}
+				{
+					id: "70B2EF8E14A1435F"
+					type: "item"
+					item: "cyclic:spikes_diamond"
 				}
 			]
 		}
@@ -1473,7 +1473,7 @@
 				""
 				"You can have up to three modules installed at a time. For my recommendations, please see the associated subquests."
 				""
-				"I have left the module recipes exactly the same, you're welcome."
+				"I have left the module recipes completely vanilla on purpose; you're welcome."
 			]
 			dependencies: ["5F079DAC35170B45"]
 			id: "7BECD1393761A899"

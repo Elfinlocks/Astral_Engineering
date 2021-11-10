@@ -1,6 +1,5 @@
 // zzzzzz hiding items zzzzzzzzzzz
 
-mods.jei.JEI.hideItem(<item:cyclic:spikes_diamond>);
 mods.jei.JEI.hideItem(<item:cyclic:chorus_flight>);
 mods.jei.JEI.hideItem(<item:cyclic:chorus_spectral>);
 mods.jei.JEI.hideItem(<item:cyclic:charm_longfall>);
@@ -113,7 +112,6 @@ mods.jei.JEI.hideItem(<item:cyclic:apple_chocolate>);
 mods.jei.JEI.hideItem(<item:cyclic:boomerang_stun>);
 mods.jei.JEI.hideItem(<item:cyclic:boomerang_carry>);
 mods.jei.JEI.hideItem(<item:cyclic:boomerang_damage>);
-mods.jei.JEI.hideItem(<item:cyclic:spikes_iron>);
 mods.jei.JEI.hideItem(<item:cyclic:spikes_curse>);
 mods.jei.JEI.hideItem(<item:cyclic:spikes_fire>);
 mods.jei.JEI.hideItem(<item:cyclic:energy_pipe>);
@@ -281,7 +279,6 @@ craftingTable.removeRecipe(<item:cyclic:apple_chocolate>);
 craftingTable.removeRecipe(<item:cyclic:boomerang_stun>);
 craftingTable.removeRecipe(<item:cyclic:boomerang_carry>);
 craftingTable.removeRecipe(<item:cyclic:boomerang_damage>);
-craftingTable.removeRecipe(<item:cyclic:spikes_iron>);
 craftingTable.removeRecipe(<item:cyclic:spikes_curse>);
 craftingTable.removeRecipe(<item:cyclic:spikes_fire>);
 craftingTable.removeRecipe(<item:cyclic:energy_pipe>);
@@ -337,6 +334,11 @@ craftingTable.removeRecipe(<item:cyclic:terra_preta>);
 craftingTable.removeRecipe(<item:cyclic:dark_glass>);
 
 // New recipes
+
+craftingTable.addShaped("diamond_spikes", <item:cyclic:spikes_diamond>, [
+	[<item:minecraft:air>, <item:cyclic:spikes_iron>, <item:minecraft:air>],
+	[<item:minecraft:diamond_sword>, <item:cyclic:spikes_iron>, <item:minecraft:diamond_sword>],
+	[<item:cyclic:spikes_iron>, <item:minecraft:diamond_block>, <item:cyclic:spikes_iron>]]);
 
 craftingTable.addShaped("terra_preta", <item:cyclic:terra_preta>, [
 	[<item:mana-and-artifice:mote_earth>, <item:botania:rune_earth>, <item:mana-and-artifice:mote_earth>],

@@ -22,7 +22,7 @@
 		[Settings."World Gen".Groundcover]
 			rocks = true
 			twigs = true
-			fallenLeaves = true
+			fallenLeaves = false
 			bones = true
 			charredBones = true
 			iceChunks = true
@@ -30,7 +30,7 @@
 			seashells = true
 			# % chance of groundcover placement
 			#Range: 0 ~ 100
-			groundcoverChance = 100
+			groundcoverChance = 80
 			#Groundcover Biome Blacklist, example: ["minecraft:plains", "minecraft:beach"]
 			groundcoverBlacklist = ["tardis:moon_field", "twilightforest_dark_forest", "twilightforest_dark_forest_center"]
 
