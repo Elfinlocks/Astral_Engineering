@@ -20,7 +20,8 @@
     "ignore_driver_blacklist": false
   },
   "experimental": {
-    "display_fps": false
+    "display_fps": false,
+    "display_fps_pos": 2
   },
   "notifications": {
     "hide_donation_button": true

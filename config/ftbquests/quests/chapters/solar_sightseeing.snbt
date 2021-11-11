@@ -849,7 +849,7 @@
 		}
 		{
 			title: "The Wasteland At The Front of The Universe."
-			icon: "mana-and-artifice:enchantment_focus_fire"
+			icon: "minecraft:magma_block"
 			x: 14.5d
 			y: 4.0d
 			subtitle: "Mercury is the only place that you can find Rutile."
@@ -864,11 +864,6 @@
 			}]
 			rewards: [
 				{
-					id: "78858C4D446C1741"
-					type: "item"
-					item: "pamhc2foodextended:baklavaitem"
-				}
-				{
 					id: "6D0DBAFA4B7960C1"
 					type: "item"
 					item: {
@@ -878,6 +873,11 @@
 							spell: { }
 						}
 					}
+				}
+				{
+					id: "54F93575C856CD82"
+					type: "item"
+					item: "tconstruct:magma_cake"
 				}
 			]
 		}

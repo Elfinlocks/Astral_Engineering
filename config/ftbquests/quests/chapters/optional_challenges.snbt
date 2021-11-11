@@ -226,7 +226,6 @@
 				"60FE564C79D326E1"
 				"36367A18678E09A3"
 			]
-			hide: true
 			id: "72A22FC844EF346E"
 			tasks: [{
 				id: "19E6EA0B243504A7"
@@ -611,6 +610,7 @@
 			icon: "astralsorcery:shifting_star_vicio"
 			x: 6.0d
 			y: -4.0d
+			shape: "gear"
 			subtitle: "Extremely safe and consistent interdimensional transportation"
 			description: [
 				"*Not actually safe or consistent at all"
@@ -619,6 +619,7 @@
 			]
 			dependencies: ["27C9432867359A63"]
 			hide: true
+			size: 1.5d
 			id: "70D3C2F06582E4FA"
 			tasks: [{
 				id: "13B59B69305FDE1B"

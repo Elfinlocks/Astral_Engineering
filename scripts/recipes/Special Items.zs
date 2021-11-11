@@ -2,7 +2,7 @@ import crafttweaker.api.registries.ICookingRecipeManager;
 
 craftingTable.removeRecipe(<item:extendedcrafting:basic_table>);
 
-mods.jei.JEI.addInfo(<item:atmadditions:dimensional_seed>, ["An unstable interdimensional seed. Valuable to extraplanar denizens, may pop under pressure."]);
+<item:atmadditions:dimensional_seed>.addTooltip("An unstable interdimensional seed. Valuable to extraplanar denizens, may hatch under pressure.");
 
 mods.jei.JEI.hideItem(<item:tardis:broken_exterior>);
 mods.jei.JEI.hideItem(<item:kubejs:red_herring>);
