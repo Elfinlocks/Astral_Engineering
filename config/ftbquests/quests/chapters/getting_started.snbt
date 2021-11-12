@@ -363,7 +363,11 @@
 			title: "Stone-Age Arsenal!"
 			x: 12.5d
 			y: 3.5d
-			description: ["Craft yourself a stone axe head, a stone blade, and a stone pickaxe head to make yourself a mattock, a hand-axe, and a sword."]
+			description: [
+				"Craft yourself a stone axe head, a stone blade, and a stone pickaxe head to make yourself a mattock, a hand-axe, and a sword."
+				""
+				"Make the handle out of whatever you choose!"
+			]
 			dependencies: ["5D74AF12C8F91134"]
 			optional: true
 			id: "1EFF2408D0597172"
