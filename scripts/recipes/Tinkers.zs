@@ -4,7 +4,7 @@ craftingTable.removeRecipe(<item:tconstruct:part_builder>);
 
 craftingTable.addShaped("tinker_controller", <item:tconstruct:smeltery_controller>, [
 	[<tag:items:forge:stone>, <tag:items:forge:ingots/copper>, <tag:items:forge:stone>],
-	[<tag:items:forge:ingots/copper>, <item:tconstruct:smeltery_controller>, <tag:items:forge:ingots/copper>],
+	[<tag:items:forge:ingots/copper>, <item:tconstruct:seared_heater>, <tag:items:forge:ingots/copper>],
 	[<tag:items:forge:stone>, <tag:items:forge:ingots/copper>, <tag:items:forge:stone>]]);
 
 craftingTable.addShaped("tinker_anvil", <item:tconstruct:tinkers_anvil>, [

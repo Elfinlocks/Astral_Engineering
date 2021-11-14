@@ -332,8 +332,14 @@ craftingTable.removeRecipe(<item:cyclic:sleeping_mat>);
 craftingTable.removeRecipe(<item:cyclic:computer_shape>);
 craftingTable.removeRecipe(<item:cyclic:terra_preta>);
 craftingTable.removeRecipe(<item:cyclic:dark_glass>);
+craftingTable.removeRecipe(<item:cyclic:disenchanter>);
 
 // New recipes
+
+craftingTable.addShaped("disenchanter", <item:cyclic:disenchanter>, [
+	[<item:minecraft:emerald>, <item:mana-and-artifice:greater_mote_arcane>, <item:minecraft:emerald>],
+	[<item:astralsorcery:starmetal_ingot>, <item:minecraft:enchanting_table>, <item:astralsorcery:starmetal_ingot>],
+	[<tag:items:forge:obsidian>, <tag:items:forge:obsidian>, <tag:items:forge:obsidian>]]);
 
 craftingTable.addShaped("diamond_spikes", <item:cyclic:spikes_diamond>, [
 	[<item:minecraft:air>, <item:cyclic:spikes_iron>, <item:minecraft:air>],

@@ -93,13 +93,13 @@
 		[cyclic.energy.cost]
 			#Power per use disenchanter
 			#Range: 0 ~ 64000
-			disenchanter = 1500
+			disenchanter = 15000
 			#Power per use user
 			#Range: 0 ~ 64000
-			user = 50
+			user = 100
 			#Power per repair anvil
 			#Range: 0 ~ 64000
-			anvil = 250
+			anvil = 500
 			#Power per recipe melter
 			#Range: 0 ~ 64000
 			melter = 5000
@@ -360,11 +360,11 @@
 	[cyclic.fluid]
 		#Cost of magma fluid per action
 		#Range: 1 ~ 64000
-		anvil_magma = 100
+		anvil_magma = 150
 		#Cost of (or payment for if negative) per enchanted book generated
 		#Range: -1000 ~ 16000
-		disenchanter = 100
+		disenchanter = 0
 		#Payment per void action, if not zero
 		#Range: 0 ~ 16000
-		void_anvil = 25
+		void_anvil = 0
 

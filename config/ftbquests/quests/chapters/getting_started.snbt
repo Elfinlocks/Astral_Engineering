@@ -302,7 +302,8 @@
 			title: "Old Reliable"
 			x: 12.5d
 			y: 2.0d
-			description: ["Craft a Stone Pickaxe."]
+			subtitle: "A familiar tool with a new twist."
+			description: ["Craft a stone pickaxe from your tools in a Tinker Station."]
 			dependencies: ["145156D2151CB55D"]
 			id: "5D74AF12C8F91134"
 			tasks: [{
@@ -363,6 +364,7 @@
 			title: "Stone-Age Arsenal!"
 			x: 12.5d
 			y: 3.5d
+			subtitle: "Some extra tools that may be of use."
 			description: [
 				"Craft yourself a stone axe head, a stone blade, and a stone pickaxe head to make yourself a mattock, a hand-axe, and a sword."
 				""
@@ -416,6 +418,7 @@
 			title: "Getting Ahead"
 			x: 9.5d
 			y: 2.0d
+			subtitle: "Because it's like...the head of the pickaxe! No? Ok.."
 			description: ["Next, use your shiny Tinker Station to make a Stone Pickaxe Head!"]
 			dependencies: ["70003EB0C320E474"]
 			id: "145156D2151CB55D"
@@ -459,6 +462,7 @@
 			title: "ImPARTial Crafting"
 			x: 7.0d
 			y: 0.0d
+			subtitle: "An essential workbench for Tinker's Construct progression."
 			description: ["Make a Part Table, and use your pattern to make a Stone Pickaxe Head."]
 			dependencies: ["4983D289845799E1"]
 			id: "70003EB0C320E474"

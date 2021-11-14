@@ -24,6 +24,8 @@ events.listen('block.tags', function (event) {
 	event.get('forge:storage_blocks/desh').add('boss_tools:block_of_desh')
 	event.get('forge:storage_blocks/silicon').add('boss_tools:block_of_silicon')
 	event.get('forge:workbench').add('minecraft:crafting_table')
+	event.get('chisel:marble').add('explorercraft:marble')
+    event.get('chisel:basalt').add('explorercraft:basalt')
 })
 
 events.listen('item.tags', function (event) {
@@ -134,4 +136,6 @@ events.listen('item.tags', function (event) {
 	event.get('forge:storage_blocks/desh').add('boss_tools:block_of_desh')
 	event.get('forge:storage_blocks/silicon').add('boss_tools:block_of_silicon')
 	event.get('forge:workbench').add('minecraft:crafting_table')
+	event.get('chisel:marble').add('explorercraft:marble')
+    event.get('chisel:basalt').add('explorercraft:basalt')
 })

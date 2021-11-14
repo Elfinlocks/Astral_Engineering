@@ -262,8 +262,8 @@
 		}
 		{
 			title: "They See Me Rollin'"
-			x: 2.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 			subtitle: "A Rolling Mill can be used to create metal rods and wires."
 			description: ["If you haven't found any rods as loot to make a cast from, you will need to make one of these in order to create more rods."]
 			dependencies: ["338596C4B0C1A8E5"]
@@ -335,7 +335,7 @@
 		}
 		{
 			title: "Early Doubling!"
-			x: 3.5d
+			x: 8.0d
 			y: -1.5d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
@@ -343,7 +343,7 @@
 				""
 				"It's worth noting that crushers guarantee a doubled output, with a 30% chance of a triple output."
 			]
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2BA7183800B331E0"]
 			optional: true
 			id: "4F4EA5E52336BC7B"
 			tasks: [{
@@ -1188,7 +1188,7 @@
 		}
 		{
 			title: "Black Bricks"
-			x: 4.0d
+			x: 5.5d
 			y: 4.5d
 			subtitle: "Seared Bricks are the fundamental building block of Tinkers Construct."
 			description: ["You'll need several to complete your smeltery, but getting these does become easier. You'll need a good bit of clay, sand, and gravel."]
@@ -1246,10 +1246,11 @@
 		{
 			title: "Casting Your Metal"
 			x: 8.0d
-			y: 3.0d
-			subtitle: "Next, we need to cast the controller."
-			description: ["Tip: Once you melt your copper for the next step, it is safe to break the heater, to use in the casting of the controller."]
-			dependencies: ["6118686358D14408"]
+			y: 3.5d
+			subtitle: "Next, we need casting materials."
+			description: ["These will be useful once the completed smeltery is assembled."]
+			dependencies: ["4E810B1014C143CA"]
+			dependency_requirement: "one_completed"
 			id: "4E613C4D92609F06"
 			tasks: [
 				{
@@ -1269,33 +1270,6 @@
 				type: "item"
 				item: "thermal:copper_ingot"
 				count: 4
-			}]
-		}
-		{
-			title: "Baby Steps"
-			x: 6.0d
-			y: 4.5d
-			subtitle: "Before we can jump to a smeltery, we need a basic melter."
-			description: ["Place the heater on the ground, and then place the melter on top of it. You need to fuel the heater with basic furnace fuels, such as coal or wood."]
-			dependencies: ["4E810B1014C143CA"]
-			id: "6118686358D14408"
-			tasks: [
-				{
-					id: "40980C195F550A06"
-					type: "item"
-					item: "tconstruct:seared_melter"
-				}
-				{
-					id: "3C54B1FA52F4AB06"
-					type: "item"
-					item: "tconstruct:seared_heater"
-				}
-			]
-			rewards: [{
-				id: "25D48636E07F07A9"
-				type: "item"
-				item: "minecraft:iron_ore"
-				count: 3
 			}]
 		}
 		{

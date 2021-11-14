@@ -37,10 +37,10 @@
 		#Sets the seconds of cooldown time needed between uses of the Vortex Manipulator
 		vmCooldownTime = 10
 		#Sets the effect side effects experienced after using the Vortex Manipulator
-		vmSideEffects = ["minecraft:nausea", "minecraft:blindness", "minecraft:weakness"]
+		vmSideEffects = ["minecraft:nausea", "minecraft:weakness"]
 		#Sets the duration in seconds for each effect in the above value
 		#The order of the numbers should match the effect you are setting the duration for.
-		vmSideEffectTime = [5, 5, 10]
+		vmSideEffectTime = [5, 10]
 
 	["Vortex Manipulator (VM) Configurations"."Fuel Control"]
 		#Sets the base value that scales for how much fuel is used by the VM

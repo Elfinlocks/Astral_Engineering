@@ -11,3 +11,11 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
+[create]
+	#The byproduct material to output in Create's crushing.
+	byproduct = "minecraft:cobblestone"
+
