@@ -29,6 +29,13 @@ events.listen('block.tags', function (event) {
 })
 
 events.listen('item.tags', function (event) {
+	event.get('forge:egg').remove('pamhc2trees:bananaitem')
+	event.get('forge:egg').remove('pamhc2trees:avocadoitem')
+	event.get('forge:egg').remove('pamhc2crops:flaxitem')
+	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_council')
+	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_demons')
+	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_fey')
+	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_undead')
 	event.get('straw_foragables').add('biomesoplenty:cattail')
 	event.get('straw_foragables').add('byg:cattail')
 	event.get('straw_foragables').add('projectvibrantjourneys:cattail')

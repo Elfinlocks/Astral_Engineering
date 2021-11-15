@@ -1,1 +1,0 @@
-craftingTable.removeRecipe(<item:pamhc2foodcore:saltitem>);

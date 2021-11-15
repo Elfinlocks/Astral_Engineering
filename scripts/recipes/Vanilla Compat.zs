@@ -24,3 +24,9 @@ craftingTable.addShaped("stone_button_fix", <item:minecraft:stone_button>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:stone>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+	
+craftingTable.removeRecipe(<item:minecraft:enchanting_table>);
+craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [
+	[<item:mana-and-artifice:mote_arcane>, <item:minecraft:book>, <item:mana-and-artifice:mote_arcane>],
+	[<item:minecraft:diamond>, <item:minecraft:obsidian>, <item:minecraft:diamond>],
+	[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);

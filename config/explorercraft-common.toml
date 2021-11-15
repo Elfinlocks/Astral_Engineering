@@ -4,7 +4,7 @@
 	spawnBambooGroves = true
 	#Bamboo Grove rarity - Higher equals more frequent
 	#Range: 0 ~ 30
-	bambooGroveRarity = 5
+	bambooGroveRarity = 2
 	#Spawn Jade in the Bamboo Grove
 	spawnJade = true
 	#Spawn rice paddies in the Bamboo Grove

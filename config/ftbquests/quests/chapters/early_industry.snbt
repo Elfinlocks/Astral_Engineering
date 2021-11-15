@@ -163,7 +163,7 @@
 		}
 		{
 			title: "Mixing Things Up"
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
 			subtitle: "A Mechanical Mixer placed 2 blocks above a Basin allows for blending a variety of items together. Some recipes may require heat."
 			dependencies: ["696CC33BB96232F5"]
@@ -223,7 +223,7 @@
 		}
 		{
 			title: "Industrial Heating"
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 			subtitle: "A Blaze Burner can act as a perfect heat source for a Basin."
 			dependencies: ["4D36622ECF38295D"]
@@ -319,23 +319,23 @@
 			shape: "gear"
 			subtitle: "This is a major milestone! You've discovered a way to convert Rotational Energy into electricity (FE)."
 			description: ["You will need several alternators, or a significant bank of capacitors, to progress from this point."]
-			dependencies: ["208693EBDC962B76"]
+			dependencies: ["4B9454AF18012B10"]
 			size: 1.5d
 			id: "0EF94371D99AC9BA"
 			tasks: [{
-				id: "10E467607238794F"
+				id: "0EE7AD4C47E46181"
 				type: "item"
-				item: "createaddition:alternator"
+				item: "steampowered:alternator"
 			}]
 			rewards: [{
-				id: "14E518757522F6ED"
+				id: "2CDA289B28B8887F"
 				type: "item"
-				item: "createaddition:alternator"
+				item: "steampowered:alternator"
 			}]
 		}
 		{
 			title: "Early Doubling!"
-			x: 8.0d
+			x: 6.0d
 			y: -1.5d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
@@ -357,32 +357,6 @@
 				type: "item"
 				item: "create:andesite_alloy"
 				count: 10
-			}]
-		}
-		{
-			title: "Industrially Revolutionizing! "
-			x: 10.0d
-			y: 0.0d
-			subtitle: "A Furnace Engine can produce massive amounts of Rotational Force."
-			dependencies: ["2BA7183800B331E0"]
-			id: "208693EBDC962B76"
-			tasks: [
-				{
-					id: "230664784E3EEAA1"
-					type: "item"
-					item: "create:furnace_engine"
-				}
-				{
-					id: "1AD49361DC754A9E"
-					type: "item"
-					item: "create:flywheel"
-				}
-			]
-			rewards: [{
-				id: "2204EBECD639EC34"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 15
 			}]
 		}
 		{
@@ -440,7 +414,7 @@
 			description: [
 				"Note: Capable of transferring up to 2048 RF per tick."
 				""
-				"If desired, you may want to substitute basic Mekanism power pipes, if you have the steel to do so."
+				"If desired, you may want to substitute basic Mekanism universal cables, if you have the steel to do so."
 			]
 			dependencies: ["0EF94371D99AC9BA"]
 			id: "1F1994D8C11FAB3D"
@@ -1303,10 +1277,10 @@
 				id: "156F91F9C382A125"
 				type: "item"
 				item: {
-					id: "tconstruct:scorched_anvil"
+					id: "tconstruct:tinkers_anvil"
 					Count: 1b
 					tag: {
-						texture: "immersiveengineering:storage_steel"
+						texture: "tconstruct:tinkers_bronze"
 					}
 				}
 			}]
@@ -1511,6 +1485,225 @@
 				type: "item"
 				item: "immersiveengineering:seed"
 				count: 10
+			}]
+		}
+		{
+			title: "Full Steam Ahead!"
+			x: 8.0d
+			y: -2.5d
+			subtitle: "We've got some basic industry going, let's kick this up a notch or two!"
+			description: ["The following quests will teach you how to create steam, and then use it to power steam engines!"]
+			dependencies: ["2BA7183800B331E0"]
+			id: "2559683F0335DB99"
+			tasks: [{
+				id: "08B79F2624DA7B47"
+				type: "item"
+				item: "steampowered:bronze_burner"
+			}]
+			rewards: [{
+				id: "06DC358DF84863FC"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "Boil 'Em, Mash 'Em...Wait, No"
+			x: 10.0d
+			y: -4.5d
+			subtitle: "A boiler will heat up water piped into it, when on top of a burning chamber."
+			dependencies: ["2559683F0335DB99"]
+			id: "1746D5BCECF86493"
+			tasks: [{
+				id: "37153E880C340C78"
+				type: "item"
+				item: "steampowered:bronze_boiler"
+			}]
+			rewards: [
+				{
+					id: "485F545BCCBEE322"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C7522AD2B37F2DB"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Pump, Pump It Up!"
+			disable_toast: true
+			x: 2.0d
+			y: -2.5d
+			subtitle: "A pump is a great way to get fluids moving around."
+			description: [
+				"Simply attach a pump along the pipeline and provide rotational force!"
+				""
+				"Create will treat any contiguous collection of 1,000 or more fluid blocks as infinite, but this is not needed for fluids such as water, which allow infinite sources."
+				""
+				"Tip: You can reverse the direction of the mechanical pump with an engineer's wrench."
+			]
+			dependencies: ["338596C4B0C1A8E5"]
+			id: "139213600D20C9FA"
+			tasks: [
+				{
+					id: "77B518B437B927A4"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "26BCFFC6B5E0C077"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "1C4B616DEF91716B"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Stylish AND Functional!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "An Engineer's Wrench is your best friend for all things Create."
+			dependencies: ["338596C4B0C1A8E5"]
+			id: "7773C57CB30240D5"
+			tasks: [{
+				id: "37903313609D6F1A"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "558852D6F6816D7C"
+				type: "item"
+				item: "minecraft:gold_ore"
+				count: 2
+			}]
+		}
+		{
+			title: "Blowing Off Steam"
+			x: 12.0d
+			y: -2.5d
+			subtitle: "Pump your steam into an engine, hook it up to a flywheel, and watch the magic!"
+			description: [
+				"Now we're talking! This is some serious rotational force. "
+				""
+				"I bet if you used all of this horsepower to create a rotating magnetic field, you could make an electric charge..."
+				""
+				"Note: The Bronze Flywheel has a stress capacity of 2048."
+			]
+			dependencies: ["1746D5BCECF86493"]
+			id: "4B9454AF18012B10"
+			tasks: [
+				{
+					id: "322E40AB7937E60B"
+					type: "item"
+					item: "steampowered:bronze_steam_engine"
+				}
+				{
+					id: "5767EBB624634401"
+					type: "item"
+					item: "steampowered:bronze_flywheel"
+				}
+			]
+			rewards: [{
+				id: "597D80EB15D3F15C"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 6
+			}]
+		}
+		{
+			title: "Upgrades, People - Upgrades!"
+			x: 13.5d
+			y: -4.5d
+			subtitle: "If you can spare the resources, you can really turn things up a notch."
+			description: ["The Cast Iron flywheel and engine setup has a stress capacity of 4096."]
+			dependencies: ["4B9454AF18012B10"]
+			optional: true
+			id: "555F46F17ADBACE9"
+			tasks: [
+				{
+					id: "0EE54D96910D3A49"
+					type: "item"
+					item: "steampowered:cast_iron_burner"
+				}
+				{
+					id: "7A47B8B6BDE25AF4"
+					type: "item"
+					item: "steampowered:cast_iron_boiler"
+				}
+				{
+					id: "72FC8FCD4E0C8FFD"
+					type: "item"
+					item: "steampowered:cast_iron_steam_engine"
+				}
+				{
+					id: "24B95CF2AC2F7B4B"
+					type: "item"
+					item: "steampowered:cast_iron_flywheel"
+				}
+			]
+			rewards: [{
+				id: "1A01D189F9A37627"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10
+			}]
+		}
+		{
+			title: "Industrially Revolutionizing"
+			x: 15.0d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "A steel steam engine knocks the others out of the park!"
+			description: ["The Steel Flywheel and Engine can generate up to 9216su!"]
+			dependencies: ["555F46F17ADBACE9"]
+			optional: true
+			id: "639FEBA9F1C5AF29"
+			tasks: [
+				{
+					id: "04BAC01475DCE872"
+					type: "item"
+					item: "steampowered:steel_flywheel"
+				}
+				{
+					id: "42B438925A7108A0"
+					type: "item"
+					item: "steampowered:steel_steam_engine"
+				}
+			]
+			rewards: [{
+				id: "7ACA65D1E802B604"
+				type: "item"
+				item: "steampowered:alternator"
+			}]
+		}
+		{
+			title: "I Can See...I Can FIGHT!"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Engineer Goggles make tweaking your creations much easier."
+			description: ["They allow you see stress capacity, interconnected devices, and more!"]
+			dependencies: ["696CC33BB96232F5"]
+			optional: true
+			id: "677EFF1454F57237"
+			tasks: [{
+				id: "6561A5D438BCED75"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "25C1C06B5BDC4151"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

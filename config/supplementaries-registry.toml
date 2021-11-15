@@ -71,7 +71,7 @@
 		redstone_illuminator = true
 		crimson_lantern = true
 		lock_block = true
-		flax = true
+		flax = false
 		planter = true
 		wind_vane = true
 		item_shelf = true

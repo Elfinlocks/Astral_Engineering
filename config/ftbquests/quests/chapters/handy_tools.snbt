@@ -7,18 +7,6 @@
 	icon: "thermal:wrench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -1.0d
-		y: -7.0d
-		width: 1.0d
-		height: 1.0d
-		rotation: 0.0d
-		image: "minecolonies:textures/blocks/books/miners_hut_map.png"
-		hover: ["Further Apotheosis information can be found on the project page."]
-		click: "https://www.curseforge.com/minecraft/mc-mods/apotheosis"
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "THROW ME THE WHIP"
@@ -1548,75 +1536,8 @@
 			}]
 		}
 		{
-			title: "Magical Recycling"
-			x: 2.0d
-			y: -6.0d
-			subtitle: "The Altar of the Sea is a block with allows you to recycle worthless enchanted items."
-			description: ["o begin, you need four enchanted items and a fair amount of experience.  Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item).  Once all four pillars hold an item, the Altar will begin to drain experience from nearby players."]
-			id: "3C2E3075D69E8CC1"
-			tasks: [{
-				id: "064123D497C84189"
-				type: "item"
-				item: "apotheosis:prismatic_altar"
-			}]
-			rewards: [{
-				id: "421E5D43E3600B4E"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			title: "No More Book Barrels"
-			x: 0.0d
-			y: -6.0d
-			subtitle: "The Enchantment Library offers a convenient place to store excess tomes."
-			dependencies: ["1A70D8438F2FBA48"]
-			id: "7BA8E922A3A820EB"
-			tasks: [{
-				id: "313B3E5F4B6137FA"
-				type: "item"
-				item: "apotheosis:enchantment_library"
-			}]
-			rewards: [
-				{
-					id: "56FF8F9F74AB82A3"
-					type: "item"
-					item: "apotheosis:blazing_hellshelf"
-				}
-				{
-					id: "5FAA160F945FCEC4"
-					type: "item"
-					item: "apotheosis:glowing_hellshelf"
-				}
-				{
-					id: "50D3CDDBB25984CE"
-					type: "xp"
-					xp: 250
-				}
-			]
-		}
-		{
-			title: "Magical Repositories"
-			x: -2.0d
-			y: -6.0d
-			subtitle: "Apotheosis requires specialized shelves to ensure the best enchantments."
-			description: ["The Endshelves tend to be the most effective, but you'll have to work your way up to that."]
-			dependencies: ["73CC3630DABFEB89"]
-			id: "1A70D8438F2FBA48"
-			tasks: [{
-				id: "3FC3B7BF9076A8B4"
-				type: "item"
-				item: "apotheosis:hellshelf"
-			}]
-			rewards: [{
-				id: "08056DFC5251FC28"
-				type: "item"
-				item: "apotheosis:hellshelf"
-			}]
-		}
-		{
 			title: "Your Best Building Friend"
-			x: -4.0d
+			x: -6.0d
 			y: -6.0d
 			subtitle: "The iChisel makes converting blocks extremely easy!"
 			id: "0E107FF2A7C10FE1"
@@ -1644,33 +1565,6 @@
 					item: "minecraft:diamond"
 				}
 			]
-		}
-		{
-			title: "For The Simplified Distrubtion of Arcane Knowledge"
-			x: 4.0d
-			y: -6.0d
-			subtitle: "Your new best friend for post-dungeon loot organization."
-			description: ["The disenchanter is a very useful tool for retrieving enchantments from items. Simply provide it power and a book!"]
-			id: "1FB9E6389A11D1ED"
-			tasks: [{
-				id: "268A169EBDBB9D66"
-				type: "item"
-				item: "cyclic:disenchanter"
-			}]
-			rewards: [{
-				id: "7AEEFB6DD09EC984"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "minecraft:mending"
-						}]
-					}
-				}
-			}]
 		}
 	]
 }

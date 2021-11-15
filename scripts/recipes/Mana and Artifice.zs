@@ -55,11 +55,11 @@ craftingTable.addShaped("runeforge", <item:mana-and-artifice:runeforge>, [
 
 craftingTable.addShaped("occulus", <item:mana-and-artifice:occulus>, [
     [<item:minecraft:air>, <item:minecraft:ender_eye>, <item:minecraft:air>],
-    [<item:minecraft:air>, <tag:items:forge:glass/colorless>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:astralsorcery:glass_lens>, <item:minecraft:air>],
     [<item:botania:manasteel_ingot>, <item:mana-and-artifice:vinteum_dust>, <item:botania:manasteel_ingot>]]);
 
 craftingTable.addShaped("manaweaving_altar", <item:mana-and-artifice:manaweaving_altar>, [
-    [<item:botania:manasteel_ingot>, <tag:items:forge:glass/colorless>, <item:botania:manasteel_ingot>],
+    [<item:botania:manasteel_ingot>, <item:astralsorcery:glass_lens>, <item:botania:manasteel_ingot>],
     [<tag:items:botania:livingrock>, <item:mana-and-artifice:vinteum_dust>, <tag:items:botania:livingrock>],
     [<item:minecraft:air>, <tag:items:botania:livingrock>, <item:minecraft:air>]]);
 	

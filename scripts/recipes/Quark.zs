@@ -7,6 +7,7 @@ mods.jei.JEI.hideItem(<item:quark:pickarang>);
 mods.jei.JEI.hideItem(<item:quark:flamerang>);
 mods.jei.JEI.hideItem(<item:quark:magnet>);
 mods.jei.JEI.hideItem(<item:quark:chute>);
+mods.jei.JEI.hideItem(<item:quark:matrix_enchanter>);
 
 // Recipes
 

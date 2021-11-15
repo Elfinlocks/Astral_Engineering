@@ -28,6 +28,65 @@ craftingTable.addShaped("crafting_table/andesite_alloy", <item:create:andesite_a
 	
 <recipetype:thermal:smelter>.addRecipe("andesite", [<item:create:andesite_alloy> % 200], [<item:minecraft:andesite>, <item:immersiveengineering:ingot_steel>], 50, 3200);
 
+// Create: Steampowered fixes and adjustments
+
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:create:flywheel>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:create:furnace_engine>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:cast_iron_steam_engine>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:steel_steam_engine>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:alternator>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:createaddition:alternator>);
+mods.jei.JEI.hideItem(<item:create:flywheel>);
+mods.jei.JEI.hideItem(<item:create:furnace_engine>);
+mods.jei.JEI.hideItem(<item:createaddition:furnace_burner>);
+mods.jei.JEI.hideItem(<item:createaddition:crude_burner>);
+mods.jei.JEI.hideItem(<item:createaddition:alternator>);
+mods.jei.JEI.hideItem(<item:steampowered:bronze_sheet>);
+craftingTable.removeRecipe(<item:createaddition:crude_burner>);
+craftingTable.removeRecipe(<item:createaddition:furnace_burner>);
+craftingTable.removeRecipe(<item:steampowered:cast_iron_burner>);
+craftingTable.removeRecipe(<item:steampowered:steel_burner>);
+craftingTable.removeRecipe(<item:steampowered:cast_iron_boiler>);
+craftingTable.removeRecipe(<item:steampowered:steel_boiler>);
+
+craftingTable.addShaped("iron_burner", <item:steampowered:cast_iron_burner>, [
+	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>],
+	[<tag:items:forge:plates/iron>, <item:steampowered:bronze_burner>, <tag:items:forge:plates/iron>],
+	[<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>]]);
+	
+craftingTable.addShaped("steel_burner", <item:steampowered:steel_burner>, [
+	[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:plates/steel>, <item:steampowered:cast_iron_burner>, <tag:items:forge:plates/steel>],
+	[<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>]]);
+	
+craftingTable.addShaped("iron_boiler", <item:steampowered:cast_iron_boiler>, [
+	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>],
+	[<tag:items:forge:plates/iron>, <item:steampowered:bronze_boiler>, <tag:items:forge:plates/iron>],
+	[<tag:items:forge:plates/iron>, <item:create:fluid_pipe>, <tag:items:forge:plates/iron>]]);
+	
+craftingTable.addShaped("steel_boiler", <item:steampowered:steel_boiler>, [
+	[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:plates/steel>, <item:steampowered:cast_iron_boiler>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:plates/steel>, <item:create:fluid_pipe>, <tag:items:forge:plates/steel>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("alternator", <item:steampowered:alternator>, [
+	[<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:redstone_block>, <item:minecraft:iron_ingot>, <item:minecraft:air>],
+	[<item:minecraft:iron_ingot>, <item:steampowered:cast_iron_large_cogwheel>, <item:createaddition:copper_spool>, <item:steampowered:cast_iron_cogwheel>, <item:minecraft:iron_ingot>],
+	[<item:minecraft:redstone_block>, <item:createaddition:copper_spool>, <item:createaddition:capacitor>, <item:createaddition:copper_spool>, <item:minecraft:redstone_block>],
+	[<item:minecraft:iron_ingot>, <item:steampowered:cast_iron_cogwheel>, <item:createaddition:copper_spool>, <item:steampowered:cast_iron_large_cogwheel>, <item:minecraft:iron_ingot>],
+	[<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:redstone_block>, <item:minecraft:iron_ingot>, <item:minecraft:air>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("iron_engine", <item:steampowered:cast_iron_steam_engine>, [
+	[<tag:items:forge:plates/iron>, <item:create:fluid_pipe>, <tag:items:forge:plates/iron>],
+	[<tag:items:forge:plates/iron>, <item:steampowered:bronze_steam_engine>, <tag:items:forge:piston>],
+	[<tag:items:forge:plates/iron>, <item:create:fluid_pipe>, <tag:items:forge:plates/iron>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("steel_engine", <item:steampowered:steel_steam_engine>, [
+	[<tag:items:forge:plates/steel>, <item:create:fluid_pipe>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:plates/steel>, <item:steampowered:cast_iron_steam_engine>, <tag:items:forge:piston>],
+	[<tag:items:forge:plates/steel>, <item:create:fluid_pipe>, <tag:items:forge:plates/steel>]]);
+
+
 // Sequenced Assembly 
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_integrated")

@@ -4,7 +4,7 @@
 	#Farmer's Delight adds crates (3x3) for vanilla crops, similar to Quark and Thermal Cultivation. Should they be craftable?
 	enableVanillaCropCrates = true
 	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
-	farmersBuyFDCrops = true
+	farmersBuyFDCrops = false
 	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
 	richSoilBoostChance = 0.2
@@ -36,9 +36,9 @@
 #World generation
 [world]
 	#Generate crop items on Village houses (all biomes)
-	cropsOnVillageHouseLoot = true
+	cropsOnVillageHouseLoot = false
 	#Generate crop items on a Shipwreck's supply chests
-	cropsOnShipwreckSupplyLoot = true
+	cropsOnShipwreckSupplyLoot = false
 	#Generate Compost Heaps across all village biomes
 	genVillageCompostHeaps = true
 
@@ -48,7 +48,7 @@
 		#Range: > 0
 		chance = 10
 		#Generate sea beets on beaches
-		genWildBeetroots = true
+		genWildBeetroots = false
 
 	#Tomato Vines generation
 	[world.wild_tomatoes]
@@ -56,7 +56,7 @@
 		#Range: > 0
 		chance = 8
 		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
-		genWildTomatoes = true
+		genWildTomatoes = false
 
 	#Wild Cabbage generation
 	[world.wild_cabbages]
@@ -64,12 +64,12 @@
 		#Range: > 0
 		chance = 10
 		#Generate wild cabbages on beaches
-		genWildCabbages = true
+		genWildCabbages = false
 
 	#Wild Onion generation
 	[world.wild_onions]
 		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
-		genWildOnions = true
+		genWildOnions = false
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 8
@@ -80,7 +80,7 @@
 		#Range: > 0
 		chance = 8
 		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
-		genWildPotatoes = true
+		genWildPotatoes = false
 
 	#Wild Carrot generation
 	[world.wild_carrots]
@@ -88,7 +88,7 @@
 		#Range: > 0
 		chance = 8
 		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
-		genWildCarrots = true
+		genWildCarrots = false
 
 	#Wild Rice generation
 	[world.wild_rice]
@@ -96,5 +96,5 @@
 		#Range: > 0
 		chance = 10
 		#Generate wild rice on swamps and jungles
-		genWildRice = true
+		genWildRice = false
 
