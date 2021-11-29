@@ -111,7 +111,7 @@ craftingTable.addShaped("radiator_block", <item:immersiveengineering:radiator> *
 
 craftingTable.addShaped("generator_block", <item:immersiveengineering:generator> * 2, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:sheetmetal_steel>],
-    [<item:immersiveengineering:plate_electrum>, <item:createaddition:alternator>, <item:immersiveengineering:plate_electrum>],
+    [<item:immersiveengineering:plate_electrum>, <item:steampowered:alternator>, <item:immersiveengineering:plate_electrum>],
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:sheetmetal_steel>]]);
 
 craftingTable.addShaped("light_engineering_block", <item:immersiveengineering:light_engineering> * 4, [
