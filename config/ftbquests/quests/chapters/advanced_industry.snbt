@@ -80,8 +80,8 @@
 			title: "Gas, Gas, Gas!"
 			x: 3.0d
 			y: -4.5d
-			subtitle: "By inputting burnable gases such as Hydrogen, the Gas Generator can produce a healthy amount of FE."
-			description: ["You can get Hydrogen to burn in this generator by electroylsing water in the Electrolytic Separator."]
+			subtitle: "By inputting burnable gases such as Hydrogen or Ethylene, the Gas Generator can produce a healthy amount of FE."
+			description: [""]
 			dependencies: ["62D2D5FA1059D613"]
 			optional: true
 			id: "63E82FCB50EE3961"
@@ -855,6 +855,25 @@
 				id: "7750E340E8AE2B0F"
 				type: "item"
 				item: "xnet:controller"
+			}]
+		}
+		{
+			title: "The Power of The Sun"
+			x: -6.75d
+			y: 3.0d
+			subtitle: "In the palm of your hand."
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "25325B771BD18195"
+			tasks: [{
+				id: "0610FB00ADBCD718"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [{
+				id: "389723AF410A824D"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
 			}]
 		}
 	]

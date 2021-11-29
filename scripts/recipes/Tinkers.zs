@@ -18,6 +18,5 @@ craftingTable.addShaped("tinker_station", <item:tconstruct:tinker_station>, [
 	[<item:tconstruct:pattern>, <item:tconstruct:pattern>, <item:tconstruct:pattern>]]);
 
 craftingTable.addShaped("part_builder", <item:tconstruct:part_builder>, [
-	[<item:tconstruct:pattern>, <item:tconstruct:pattern>, <item:minecraft:air>],
-	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+	[<item:tconstruct:pattern>, <item:tconstruct:pattern>],
+	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);

@@ -41,7 +41,7 @@
 	uakari_spawn_weight = 40
 	#Spawn weight of Zombie apes
 	#Range: 0 ~ 1000
-	zombie_ape_spawn_weight = 40
+	zombie_ape_spawn_weight = 0
 
 ["Savannah Primates Spawn Weight"]
 	#Spawn weight of Baboons

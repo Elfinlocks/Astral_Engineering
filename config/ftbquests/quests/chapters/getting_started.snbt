@@ -304,7 +304,7 @@
 			y: 2.0d
 			subtitle: "A familiar tool with a new twist."
 			description: ["Craft a stone pickaxe from your tools in a Tinker Station."]
-			dependencies: ["145156D2151CB55D"]
+			dependencies: ["0983D0816E31CB30"]
 			id: "5D74AF12C8F91134"
 			tasks: [{
 				id: "6E0E37D85F1BD670"
@@ -416,7 +416,7 @@
 		}
 		{
 			title: "Getting Ahead"
-			x: 9.5d
+			x: 7.0d
 			y: 2.0d
 			subtitle: "Because it's like...the head of the pickaxe! No? Ok.."
 			description: ["Next, use your shiny Tinker Station to make a Stone Pickaxe Head!"]
@@ -433,30 +433,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "12A6748F99906E52"
-					type: "item"
-					item: {
-						id: "tconstruct:tool_binding"
-						Count: 1b
-						tag: {
-							Material: "tconstruct:wood"
-						}
-					}
-				}
-				{
-					id: "2D09DDDAEB96DCEA"
-					type: "item"
-					item: {
-						id: "tconstruct:tool_handle"
-						Count: 1b
-						tag: {
-							Material: "tconstruct:wood"
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "73399CD3EBE25BDB"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
 		}
 		{
 			title: "ImPARTial Crafting"
@@ -663,6 +644,74 @@
 				id: "25BE84DE029C40E8"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			title: "All Together Now!"
+			x: 9.5d
+			y: 2.0d
+			subtitle: "Use a Tinker Station to build your custom tools!"
+			dependencies: ["145156D2151CB55D"]
+			id: "0983D0816E31CB30"
+			tasks: [{
+				id: "43FAB86370B9FC3C"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6130C5AEEC3AA7A6"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "1C9536296DAD1666"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "A quick note to make your crafting easier."
+			description: [
+				"In this pack, I have included universal conversion recipes for the purpose of acting as a universal fix for any potential compatibility issues."
+				""
+				"This is accomplished through universal conversion recipes for cobblestone, stone, and leaves - any blocks with the appropriate tags will convert to their vanilla variant in a 2x2 crafting grid."
+				""
+				"This is to ease the process of crafting fringe recipes, and for Minecolonies. Give it a shot!"
+			]
+			dependencies: ["4983D289845799E1"]
+			id: "155D7663ABCEF788"
+			tasks: [{
+				id: "6DE47AD5E153ED0F"
+				type: "checkmark"
+				title: "Universal Conversions"
+			}]
+			rewards: [{
+				id: "79D028283738D618"
+				type: "item"
+				item: "minecraft:stone"
+				count: 3
 			}]
 		}
 	]

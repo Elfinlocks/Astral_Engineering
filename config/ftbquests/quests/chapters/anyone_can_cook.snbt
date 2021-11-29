@@ -198,7 +198,7 @@
 		}
 		{
 			title: "Fine Dining"
-			x: 1.0d
+			x: 0.5d
 			y: 3.0d
 			subtitle: "Create some of the finest meals known to man."
 			dependencies: ["484335796DA3D55B"]
@@ -328,7 +328,7 @@
 		}
 		{
 			title: "Honey Do"
-			x: 2.5d
+			x: 3.0d
 			y: 3.0d
 			subtitle: "Honey is a valuable ingredient in the kitchen. Make sure you have an ample supply of it."
 			description: ["Tip: Using mana, you may be able to create honey from alternative ingredients."]
@@ -371,7 +371,7 @@
 		}
 		{
 			title: "Pie"
-			x: 0.0d
+			x: -0.5d
 			y: 3.0d
 			subtitle: "Pie."
 			dependencies: ["484335796DA3D55B"]
@@ -421,7 +421,7 @@
 		}
 		{
 			title: "Not a lie"
-			x: -1.0d
+			x: -1.5d
 			y: 3.0d
 			subtitle: "Craft one of every available cake."
 			dependencies: ["484335796DA3D55B"]
@@ -734,6 +734,66 @@
 				id: "78E6DDD6B4D1504E"
 				type: "item"
 				item: "paraglider:heart_container"
+			}]
+		}
+		{
+			title: "Permanent Sugar High"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Care for some water with that glass of sugar?"
+			dependencies: ["484335796DA3D55B"]
+			id: "7C2DF040E5FFA06C"
+			tasks: [
+				{
+					id: "294FC98F3B2204A1"
+					type: "item"
+					item: "pamhc2foodextended:cherrysodaitem"
+				}
+				{
+					id: "1220D22552B21DBE"
+					type: "item"
+					item: "pamhc2foodextended:colasodaitem"
+				}
+				{
+					id: "7EA3C3D6602FF341"
+					type: "item"
+					item: "pamhc2foodextended:gingersodaitem"
+				}
+				{
+					id: "252A4226DEF16E2C"
+					type: "item"
+					item: "pamhc2foodextended:grapefruitsodaitem"
+				}
+				{
+					id: "1AFC9A6EBCC86CDF"
+					type: "item"
+					item: "pamhc2foodextended:grapesodaitem"
+				}
+				{
+					id: "3D0C55829CEC5A5D"
+					type: "item"
+					item: "pamhc2foodextended:lemonlimesodaitem"
+				}
+				{
+					id: "0FDA6489A6407898"
+					type: "item"
+					item: "pamhc2foodextended:orangesodaitem"
+				}
+				{
+					id: "367A91549DD6D797"
+					type: "item"
+					item: "pamhc2foodextended:rootbeersodaitem"
+				}
+				{
+					id: "6B555DABEAC53BFD"
+					type: "item"
+					item: "pamhc2foodextended:strawberrysodaitem"
+				}
+			]
+			rewards: [{
+				id: "261AC46992388BE1"
+				type: "item"
+				item: "losttrinkets:rock_candy"
 			}]
 		}
 	]
