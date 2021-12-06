@@ -1,3 +1,5 @@
+import crafttweaker.api.villagers.VillagerTrades;
+
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:immersiveengineering:generator>);
@@ -188,3 +190,11 @@ craftingTable.addShaped("kiln_bricks", <item:immersiveengineering:alloybrick>, [
     [<item:minecraft:nether_brick>, <item:quark:sandy_bricks>, <item:minecraft:nether_brick>]]);
 	
 <recipetype:immersiveengineering:alloy>.addRecipe("kiln_pewter", <tag:items:forge:ingots/tin> * 2, <tag:items:forge:ingots/lead>, 200, <item:eidolon:pewter_ingot> * 2);
+
+// Villager Fixes
+
+villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 2, <item:immersiveengineering:alu_scaffolding_standard> * 4);
+villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 2, <item:immersiveengineering:armor_faraday_feet>);
+villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 2, <item:immersiveengineering:armor_faraday_legs>);
+villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 3, <item:immersiveengineering:armor_faraday_chest>);
+villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 3, <item:immersiveengineering:armor_faraday_head>);

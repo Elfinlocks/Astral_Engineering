@@ -621,7 +621,11 @@
 			x: 17.0d
 			y: 3.5d
 			subtitle: "Next, gather the remaining materials needed for a Pumpjack. You can consult your Engineer's Manual for the layout of this machine."
-			description: ["Note: a Pumpjack requires 512 RF per tick to operate."]
+			description: [
+				"Note: a Pumpjack requires 512 RF per tick to operate."
+				""
+				"Note 2: The Pumpjack does NOT require pipes connecting to Bedrock - just to a good surface within an oil chunk."
+			]
 			dependencies: ["357C8ABBFAD44DC9"]
 			id: "48BBC2E819A1B6A5"
 			tasks: [
@@ -1705,6 +1709,38 @@
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			title: "Molten Core!"
+			x: 18.5d
+			y: 3.5d
+			subtitle: "A Core Sample Drill will help you find Oil"
+			description: [
+				"The Core Sample Drill needs power, but only a bit - approximately 40 RF per tick. You must then activate it with a right click, or a redstone signal. It will provide you with detailed information on available ores and fluids in the particular chunk."
+				""
+				"NOTE: Oil reservoirs DO NOT run dry! Once you find a good place to set up, it's yours!"
+			]
+			dependencies: ["48BBC2E819A1B6A5"]
+			optional: true
+			id: "799EDCEE695EA2F5"
+			tasks: [{
+				id: "297877E0369F94E0"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "516F1F60CE187B44"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 3
+				}
+				{
+					id: "5F2DD68150A4C1DA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }

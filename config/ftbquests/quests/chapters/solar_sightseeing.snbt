@@ -295,7 +295,7 @@
 		}
 		{
 			icon: {
-				id: "boss_tools:tier_3_rocket"
+				id: "boss_tools:rocket_t3"
 				Count: 1b
 				tag: { }
 			}
@@ -335,7 +335,7 @@
 		}
 		{
 			title: "NOC-NOC!"
-			icon: "boss_tools:barrel_of_fuel"
+			icon: "boss_tools:fuel_bucket"
 			x: -1.0d
 			y: -3.0d
 			subtitle: "Who's there?"
@@ -504,7 +504,7 @@
 		{
 			title: "This way for the rocket!"
 			icon: {
-				id: "boss_tools:tier_1_rocket"
+				id: "boss_tools:rocket_t1"
 				Count: 1b
 				tag: { }
 			}
@@ -515,10 +515,10 @@
 			dependencies: ["7BA8EE4BE7271B3C"]
 			id: "3E33F973E971D889"
 			tasks: [{
-				id: "0762552780CC080B"
+				id: "6EF55ACA9CA06D05"
 				type: "item"
 				item: {
-					id: "boss_tools:tier_1_rocket"
+					id: "boss_tools:rocket_t1"
 					Count: 1b
 					tag: { }
 				}
@@ -563,7 +563,7 @@
 			y: -3.0d
 			subtitle: "As the closest and easiest to reach part of the local solar system, the moon is our first stop."
 			description: [
-				"To fuel your rocket, simply shift+right click it, and deposit the fuel barrel in. It will empty into the rocket, and you're ready to go!"
+				"To fuel your rocket, simply shift+right click it, and deposit the fuel bucket(s). It will empty into the rocket, and you're ready to go!"
 				""
 				"WARNING: Bring extra launch pads and fuel!"
 			]
@@ -654,14 +654,20 @@
 			title: "Refreshing!"
 			x: 4.5d
 			y: -4.5d
-			subtitle: "This simple machine extracts oxygen from plant matter, and then loads it into your suit."
-			description: ["NOTE: Unfortunately, this machine only accepts vanilla Minecraft Oak leaves at the moment. However, I have put in a universal conversion recipe to combat this."]
+			subtitle: "This simple machine extracts Oxygen from water."
+			description: ["You'll need it to fill your space suit with air. Additionally, you can pump Mekanism Oxygen Gas directly into this device."]
 			dependencies: ["486F62807E339903"]
 			id: "0E3216152E5B2B3A"
 			tasks: [{
 				id: "76351A45D30499E8"
 				type: "item"
 				item: "boss_tools:oxygen_loader"
+			}]
+			rewards: [{
+				id: "46211006D85BA3E0"
+				type: "item"
+				item: "immersiveengineering:plate_aluminum"
+				count: 3
 			}]
 		}
 		{
@@ -672,10 +678,10 @@
 			dependencies: ["3664DE482F3B8868"]
 			id: "035529DD540CECE8"
 			tasks: [{
-				id: "28796101D8007988"
+				id: "2CDEC46647A1263E"
 				type: "item"
 				item: {
-					id: "boss_tools:tier_2_rocket"
+					id: "boss_tools:rocket_t2"
 					Count: 1b
 					tag: { }
 				}
@@ -735,28 +741,17 @@
 		}
 		{
 			title: "Home Above Home"
+			icon: "losttrinkets:starfish"
 			x: 8.0d
 			y: -6.0d
 			subtitle: "A Space Station is a fun extraterrestrial base to set up."
+			description: ["You can configure one from the rocket travel menu. It will cost various resources to set up, but will provide you with a stylish starter station to build on."]
 			dependencies: ["5F079DAC35170B45"]
 			id: "5546DF5DEB644C6B"
 			tasks: [{
-				id: "643D9E623D4D5F08"
-				type: "item"
-				item: "boss_tools:space_station"
+				id: "46C00AF372549B19"
+				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "028C700FFEBF82FC"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "39CA01CC16324BE7"
-					type: "xp"
-					xp: 100
-				}
-			]
 		}
 		{
 			title: "More New Things!"
@@ -791,10 +786,10 @@
 			dependencies: ["57844CE419D74217"]
 			id: "0B0964D4863E3C70"
 			tasks: [{
-				id: "707687873119267C"
+				id: "54E8AFAA5D52B254"
 				type: "item"
 				item: {
-					id: "boss_tools:tier_3_rocket"
+					id: "boss_tools:rocket_t3"
 					Count: 1b
 					tag: { }
 				}
@@ -1369,6 +1364,11 @@
 			x: 1.0d
 			y: -3.0d
 			subtitle: "The second half of your shopping list."
+			description: [
+				"You will now need to put it all together - as before, you can view the layout in JEI, by right-clicking on the controller block. "
+				""
+				"Once assembled, you will need to provide the machine with PneumaticCraft pressure, RF, Mekanism Oxygen Gas, and Enriched Carbon. It will then synthesize Rocket Fuel! This can be easily pumped out and bucketed through normal methods."
+			]
 			dependencies: ["6FEDE1093D9FF647"]
 			id: "7BA8EE4BE7271B3C"
 			tasks: [
