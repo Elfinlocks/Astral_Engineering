@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 10.5d
-			y: 4.0d
+			x: 11.0d
+			y: 4.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -245,7 +245,7 @@
 			x: 4.0d
 			y: 0.0d
 			subtitle: "Smash some copper down into plates for the next step in this route."
-			description: [""]
+			description: ["You can also make these with an Engineer's Hammer."]
 			dependencies: ["338596C4B0C1A8E5"]
 			id: "5F68C4D92EF20E09"
 			tasks: [{
@@ -288,7 +288,7 @@
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
 			dependencies: [
 				"2E3880C1F6D082FA"
-				"4EB25C20BB94A8BB"
+				"0CDEC483A2ED93A5"
 			]
 			dependency_requirement: "one_completed"
 			id: "2BA7183800B331E0"
@@ -1188,7 +1188,7 @@
 		{
 			title: "Controlled Smelting"
 			x: 8.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
 			description: [
 				"The controller, fuel tank, and drain must all be placed on a specific side of the Tinker's Smeltery, meaning that they cannot occupy a \"corner\" block."
@@ -1224,7 +1224,7 @@
 		{
 			title: "Casting Your Metal"
 			x: 8.0d
-			y: 3.5d
+			y: 4.5d
 			subtitle: "Next, we need casting materials."
 			description: ["These will be useful once the completed smeltery is assembled."]
 			dependencies: ["4E810B1014C143CA"]
@@ -1252,7 +1252,7 @@
 		}
 		{
 			x: 10.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "Materials and You is a comprehensive guide to all of the neat modifiers available from Tinkers Construct for your tools."
 			dependencies: ["4EB25C20BB94A8BB"]
 			optional: true
@@ -1271,7 +1271,7 @@
 		{
 			title: "ACME Anvils"
 			x: 6.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "The creator of this modpack is not responsible for any harm done by such anvils to cartoon critters."
 			description: ["A Tinker's Anvil can be used to create much more powerful tools, such as the broadaxe, excavator, and more."]
 			dependencies: ["4EB25C20BB94A8BB"]
@@ -1737,6 +1737,52 @@
 				}
 				{
 					id: "5F2DD68150A4C1DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Castaway"
+			icon: "tconstruct:seared_table"
+			x: 8.0d
+			y: 1.5d
+			subtitle: "These essentials will make the creation of specific parts a bit easier."
+			description: [
+				"Hint: You can use the following items to make the casts:"
+				""
+				"Rod: Any Stick"
+				"Plate: A Copper Plate"
+				"Wire: A Copper Wire"
+			]
+			dependencies: ["4EB25C20BB94A8BB"]
+			id: "0CDEC483A2ED93A5"
+			tasks: [
+				{
+					id: "35164697B73D5959"
+					type: "item"
+					item: "tconstruct:rod_cast"
+				}
+				{
+					id: "3FD446BD6DCE9DA2"
+					type: "item"
+					item: "tconstruct:wire_cast"
+				}
+				{
+					id: "1A516EC5A68899E6"
+					type: "item"
+					item: "tconstruct:plate_cast"
+				}
+			]
+			rewards: [
+				{
+					id: "141C45ABE7DB49CA"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "43B026EC3E78839B"
 					type: "xp"
 					xp: 100
 				}

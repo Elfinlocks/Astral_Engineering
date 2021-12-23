@@ -1,1 +1,0 @@
-craftingTable.addShapeless("sawdust", <item:thermal:sawdust>, [<tag:items:minecraft:planks>, <item:immersiveengineering:hammer>]);

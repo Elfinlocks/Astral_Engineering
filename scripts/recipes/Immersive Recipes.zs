@@ -1,4 +1,5 @@
 import crafttweaker.api.villagers.VillagerTrades;
+import crafttweaker.api.item.IIngredient;
 
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
@@ -11,7 +12,6 @@ craftingTable.removeByName("immersiveengineering:crafting/wire_steel");
 craftingTable.removeByName("immersiveengineering:crafting/wire_aluminum");
 craftingTable.removeByName("immersiveengineering:crafting/wire_copper");
 craftingTable.removeByName("immersiveengineering:crafting/wire_electrum");
-craftingTable.removeByName("immersiveengineering:crafting/plate_copper_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_gold_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/stick_iron");
 craftingTable.removeByName("immersiveengineering:crafting/stick_steel");
@@ -198,3 +198,7 @@ villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 2
 villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 2, <item:immersiveengineering:armor_faraday_legs>);
 villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 3, <item:immersiveengineering:armor_faraday_chest>);
 villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 3, <item:immersiveengineering:armor_faraday_head>);
+
+// Hammer and Pliers crafting 
+craftingTable.addShapeless("sawdust", <item:thermal:sawdust>, [<tag:items:minecraft:planks>, <item:immersiveengineering:hammer>.anyDamage()]);
+craftingTable.addShapeless("copper_wire", <item:createaddition:copper_wire>, [<tag:items:forge:plates/copper>, <item:immersiveengineering:wirecutter>.anyDamage()]);
