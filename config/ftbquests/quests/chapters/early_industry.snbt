@@ -1753,7 +1753,7 @@
 				""
 				"Rod: Any Stick"
 				"Plate: A Copper Plate"
-				"Wire: A Copper Wire"
+				""
 			]
 			dependencies: ["4EB25C20BB94A8BB"]
 			id: "0CDEC483A2ED93A5"
@@ -1762,11 +1762,6 @@
 					id: "35164697B73D5959"
 					type: "item"
 					item: "tconstruct:rod_cast"
-				}
-				{
-					id: "3FD446BD6DCE9DA2"
-					type: "item"
-					item: "tconstruct:wire_cast"
 				}
 				{
 					id: "1A516EC5A68899E6"

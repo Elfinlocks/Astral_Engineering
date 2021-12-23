@@ -60,7 +60,15 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 	[<item:minecraft:air>, <item:astralsorcery:starmetal_ingot>, <item:astralsorcery:nocturnal_powder>, <item:astralsorcery:starmetal_ingot>, <item:minecraft:air>]], 200, 75);
 	
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:resonating_gem>);
+<recipetype:astralsorcery:infusion>.addRecipe("gunpowder_to_sulfur", <item:thermal:sulfur_dust>, <item:minecraft:gunpowder>, <fluid:astralsorcery:liquid_starlight>, 200, 2, false, true, false);
+
+// Transmutation
+
+<recipetype:astralsorcery:block_transmutation>.addRecipe("cobble_to_diorite", <blockstate:minecraft:diorite>, <blockstate:minecraft:cobblestone>, false, 200);
+<recipetype:astralsorcery:block_transmutation>.addRecipe("diorite_to_granite", <blockstate:minecraft:granite>, <blockstate:minecraft:diorite>, false, 200);
+<recipetype:astralsorcery:block_transmutation>.addRecipe("granite_to_andesite", <blockstate:minecraft:andesite>, <blockstate:minecraft:granite>, false, 200);
+<recipetype:astralsorcery:block_transmutation>.addRecipe("andesite_to_cobble", <blockstate:minecraft:cobblestone>, <blockstate:minecraft:andesite>, false, 200);
 <recipetype:astralsorcery:block_transmutation>.removeRecipe(<blockstate:astralsorcery:starmetal_ore>);
 <recipetype:astralsorcery:block_transmutation>.addRecipe("transmutation_starmetal", <blockstate:astralsorcery:starmetal_ore>, <blockstate:minecraft:gold_ore>, false, 200);
 
-<recipetype:astralsorcery:infusion>.addRecipe("gunpowder_to_sulfur", <item:thermal:sulfur_dust>, <item:minecraft:gunpowder>, <fluid:astralsorcery:liquid_starlight>, 200, 2, false, true, false);
+
