@@ -58,8 +58,6 @@
 	#Determines the angels move speed
 	#Range: 0.1 ~ 1.7976931348623157E308
 	angelMovementSpeed = 0.5
-	#Note: This a list of Angel Variations that are allowed
-	allowedTypes = ["VILLAGER", "ANGELA_MC", "ED", "CHERUB", "VIO_1", "VIO_2", "A_DIZZLE"]
 
 [teleport]
 	#Note: This a list of dimensions that angels should NOT teleport you to.
@@ -81,7 +79,11 @@
 	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
 	spawnFromBlocks = true
 
-[mod]
-	#This config option toggles the update message on join
-	updateChecker = true
+[misc]
+	#Toggle whether santa hats are shown at Xmas
+	showSantaHatsAtXmas = true
+	#Toggle certain angel models (Only applies to Entity)
+	allowedAngelTypes = ["DISASTER_MC", "DOCTOR", "ED", "ED_ANGEL_CHILD", "A_DIZZLE", "DYING", "VILLAGER", "VIO_1", "VIO_2"]
+	#Toggle certain angel variants (Only applies to Entity)
+	allowedVariants = ["weeping_angels:gold", "weeping_angels:diamond", "weeping_angels:iron", "weeping_angels:mossy", "weeping_angels:normal", "weeping_angels:basalt", "weeping_angels:rusted", "weeping_angels:rusted_no_arm", "weeping_angels:rusted_no_wing", "weeping_angels:rusted_no_head", "weeping_angels:dirt", "weeping_angels:emerald", "weeping_angels:copper", "weeping_angels:lapis_lazuli", "weeping_angels:quartz"]
 

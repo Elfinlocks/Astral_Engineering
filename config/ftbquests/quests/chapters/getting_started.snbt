@@ -332,6 +332,7 @@
 								level: 3s
 							}
 						]
+						HideFlags: 3
 						tic_materials: [
 							"tconstruct:stone"
 							"tconstruct:stone"
