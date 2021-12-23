@@ -1,0 +1,90 @@
+{
+  "type":"mana-and-artifice:emerald_chimerite",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+	  "terms": [
+		{
+			"condition": "block_state_property",
+			"block": "minecraft:emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:phyllite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:slate_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:quartzite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:phyllite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:granodiorite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:white_granite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:rhyolite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:dolomite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:conglomerate_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:beige_limestone_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:limestone_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:grey_limestone_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:siltstone_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:mudstone_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:granite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:diorite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:andesite_emerald_ore"
+		},
+		{
+			"condition": "block_state_property",
+			"block": "unearthed:sandstone_emerald_ore"
+		}
+	  ]
+    }
+  ],  
+  "numChimerite": 10,
+  "magicLevel": 5,
+  "chance": 0.9,
+  "dropsWith": "minecraft:emerald"
+}

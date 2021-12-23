@@ -182,9 +182,9 @@
 	#  potion: buyItem1;buyItemCount1;[buyItem2;buyItemCount2;]sellItem;potion - the potion (supports regex, randomly selects one if multiple fit) is applied to the sell item, so unless you have additional potion-like items added by other mods, this should only be minecraft:potion, minecraft:splash_potion, minecraft:lingering_potion or minecraft:tipped_arrow
 	#  stew: buyItem1;buyItemCount1;[buyItem2;buyItemCount2;]effect;duration - effect is an effect id (e. g. minecraft:strength), duration is the duration in ticks
 	villager_1_trades = []
-	villager_2_trades = []
-	villager_3_trades = []
-	villager_4_trades = []
+	villager_2_trades = ["engineer;4;2;0.05;normal;minecraft:emerald;2;immersiveengineering:steel_scaffolding_standard;4"]
+	villager_3_trades = ["electrician;4;2;0.05;normal;minecraft:emerald;4;immersiveengineering:wirecoil_electrum;4"]
+	villager_4_trades = ["electrician;4;2;0.05;normal;minecraft:emerald;4;immersiveengineering:wirecoil_steel;4"]
 	villager_5_trades = []
 
 [wandering_trader_trading]
