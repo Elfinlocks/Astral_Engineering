@@ -1,0 +1,32 @@
+{
+	"name": "Minecart Mk2",
+	"model": "immersiverailroading:models/rolling_stock/freight/mccart/mccart.obj",
+	"darken_model": "-0.05",
+	"show_current_loads_only": false,
+	"model_gauge_m": 0.750,
+	"recommended_gauge_m": 0.750,
+	"properties": {
+		"weight_kg": 200
+	},
+	"passenger": {
+		"slots": 1,
+		"center_x": 0.25,
+		"center_y": 0.83,
+		"length": 0.3,
+		"width": 0.45,
+		"should_sit": true
+	},
+	"freight": {
+		"slots": 4,
+		"width": 2,
+		"cargo": ["all"]
+	},
+	"trucks": {
+		"front": 1, 
+		"rear": -1
+	},
+	"couplers": {
+		"front_offset": 0,
+		"rear_offset": 0
+	}
+}

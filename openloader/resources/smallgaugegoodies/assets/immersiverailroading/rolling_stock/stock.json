@@ -1,0 +1,7 @@
+{
+    "locomotives": ["resicza2", "mav399", "c50", "superchugger", "workhorse"],
+	"freight": ["mcgore", "mcgcargo", "mcgcargounc", "mccart"],
+	"passenger": ["daytripper"],
+	"tender": ["chuggerseat"],
+	"tank": ["mctank"]
+}

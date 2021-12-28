@@ -48,6 +48,44 @@ craftingTable.removeRecipe(<item:steampowered:cast_iron_burner>);
 craftingTable.removeRecipe(<item:steampowered:steel_burner>);
 craftingTable.removeRecipe(<item:steampowered:cast_iron_boiler>);
 craftingTable.removeRecipe(<item:steampowered:steel_boiler>);
+craftingTable.removeRecipe(<item:steampowered:bronze_burner>);
+craftingTable.removeRecipe(<item:steampowered:bronze_boiler>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:bronze_steam_engine>);
+craftingTable.removeRecipe(<item:steampowered:bronze_cogwheel>);
+craftingTable.removeRecipe(<item:steampowered:bronze_large_cogwheel>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:bronze_flywheel>);
+
+craftingTable.addShaped("bronze_burner", <item:steampowered:bronze_burner>, [
+	[<tag:items:forge:plates/bronze>, <tag:items:forge:plates/bronze>, <tag:items:forge:plates/bronze>],
+	[<tag:items:forge:plates/bronze>, <item:minecraft:air>, <tag:items:forge:plates/bronze>],
+	[<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>]]);
+	
+craftingTable.addShaped("bronze_boiler", <item:steampowered:bronze_boiler>, [
+	[<tag:items:forge:plates/bronze>, <tag:items:forge:plates/bronze>, <tag:items:forge:plates/bronze>],
+	[<tag:items:forge:plates/bronze>, <item:create:fluid_pipe>, <tag:items:forge:plates/bronze>],
+	[<tag:items:forge:plates/bronze>, <item:create:fluid_pipe>, <tag:items:forge:plates/bronze>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("bronze_engine", <item:steampowered:bronze_steam_engine>, [
+	[<tag:items:forge:plates/bronze>, <item:create:fluid_pipe>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:plates/bronze>, <item:create:fluid_pipe>, <tag:items:forge:piston>],
+	[<tag:items:forge:plates/bronze>, <item:create:fluid_pipe>, <tag:items:forge:ingots/bronze>]]);
+	
+craftingTable.addShaped("bronze_cog", <item:steampowered:bronze_cogwheel> * 8, [
+	[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:ingots/bronze>, <item:create:andesite_alloy>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>]]);
+	
+craftingTable.addShaped("bronze_cog_large", <item:steampowered:bronze_large_cogwheel> * 8, [
+	[<tag:items:forge:ingots/bronze>, <tag:items:forge:plates/bronze>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:plates/bronze>, <item:create:andesite_alloy>, <tag:items:forge:plates/bronze>],
+	[<tag:items:forge:ingots/bronze>, <tag:items:forge:plates/bronze>, <tag:items:forge:ingots/bronze>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("bronze_flywheel", <item:steampowered:bronze_flywheel>, [
+	[<item:minecraft:air>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <item:minecraft:air>],
+	[<tag:items:forge:ingots/bronze>, <item:steampowered:bronze_cogwheel>, <tag:items:minecraft:planks>, <item:steampowered:bronze_cogwheel>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:ingots/bronze>, <tag:items:minecraft:planks>, <item:create:shaft>, <tag:items:minecraft:planks>, <tag:items:forge:ingots/bronze>],
+	[<tag:items:forge:ingots/bronze>, <item:steampowered:bronze_cogwheel>, <tag:items:minecraft:planks>, <item:steampowered:bronze_cogwheel>, <tag:items:forge:ingots/bronze>],
+	[<item:minecraft:air>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/bronze>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("iron_burner", <item:steampowered:cast_iron_burner>, [
 	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>],

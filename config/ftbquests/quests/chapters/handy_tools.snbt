@@ -1566,5 +1566,51 @@
 				}
 			]
 		}
+		{
+			title: "No, The Other One"
+			x: -4.0d
+			y: -6.0d
+			subtitle: "Your other best building friend, for the detailers!"
+			id: "6B6F5B124E49520F"
+			tasks: [
+				{
+					id: "008D094CA2731BBB"
+					type: "item"
+					title: "Any #chiselsandbits:chisel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chiselsandbits:chisel"
+						}
+					}
+				}
+				{
+					id: "5B2FCF1DB19FBB73"
+					type: "item"
+					title: "Any #chiselsandbits:bit_bag"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chiselsandbits:bit_bag"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "58D63449EB3FD4F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D7C6F31081CF5F3"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 4
+				}
+			]
+		}
 	]
 }

@@ -1,0 +1,38 @@
+{
+	"era": "steam",
+	"name": "Mav399",
+	"works": "Krauss Locomotive factory",
+	"model": "immersiverailroading:models/rolling_stock/locomotives/mav399/mav399.obj",
+	"darken_model": "-0.05",
+	"model_gauge_m": 0.750,
+	"recommended_gauge_m": 0.750,
+	"properties": {
+		"max_psi": 160,
+		"water_capacity_l": 2700, 
+		"horsepower": 880,
+		"tractive_effort_lbf": 14300,
+		"max_speed_kmh": 32,
+		"valve_gear": "stephenson",
+		"weight_kg": 13300
+	},
+	"firebox": {
+		"slots": 4,
+		"width": 2
+	},
+	"passenger": {
+		"slots": 2,
+		"center_x": -2,
+		"center_y": 1,
+		"length": 0.9,
+		"width": 1.43,
+		"should_sit": false
+	},
+	"trucks": {
+		"front": 1, 
+		"rear": -1
+	},
+	"couplers": {
+		"front_offset": 0,
+		"rear_offset": 0
+	}
+}
