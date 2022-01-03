@@ -2,6 +2,7 @@
 
 mods.jei.JEI.hideItem(<item:immersiveengineering:dynamo>);
 mods.jei.JEI.hideItem(<item:mekanismgenerators:wind_generator>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:thermoelectric_generator>);
 mods.jei.JEI.hideItem(<item:appliedenergistics2:facade>);
 mods.jei.JEI.hideItem(<item:quark:backpack>);
 mods.jei.JEI.hideItem(<item:paraglider:heart_container>);

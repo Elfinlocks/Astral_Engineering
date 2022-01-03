@@ -1155,7 +1155,7 @@
 			title: "Staying Watchful..."
 			x: -6.0d
 			y: -2.0d
-			subtitle: "Weeping Angels can spawn in the cold and deserted places in the universe. This device will help you avoid them, or see them coming."
+			subtitle: "Weeping Angels can spawn in the cold and deserted places of the solar system. This device will help you avoid them, or see them coming."
 			id: "59D2DA9DB1F15A51"
 			tasks: [{
 				id: "79D40E8B7AB45ECB"
