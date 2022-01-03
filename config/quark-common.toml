@@ -229,7 +229,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
@@ -239,9 +239,9 @@
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
-		"Enable Chests" = true
+		"Enable Chests" = false
 		"Enable Player Inventory In Chests" = true
-		"Enable Player Inventory" = true
+		"Enable Player Inventory" = false
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
@@ -1945,11 +1945,11 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Backpack = true
+	Backpack = false
 	Crate = false
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
-	Pipes = true
+	Pipes = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -2057,11 +2057,11 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = true
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
