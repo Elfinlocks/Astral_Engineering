@@ -5,7 +5,7 @@
 
 [recipes]
 	#The materials that should not have hammering recipes added.
-	hammerToPlateMaterialBlacklist = []
+	hammerToPlateMaterialBlacklist = ["silicon", "desh", "iridium", "zinc", "starmetal", "thallasium", "brass", "tin", "lead", "gold", "iron", "bronze", "signalum", "invar", "lumium", "enderium", "titanium"]
 	#The materials that should not have crusher recipes added.
 	toDustMaterialBlacklist = []
 	#The materials that should not have press to gear recipes added.
