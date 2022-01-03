@@ -64,6 +64,8 @@
 [recipes]
 	#List of recipes that should not be added.
 	blacklist = []
+	#List of recipes by regex that should not be added.
+	regexBlacklist = []
 
 #Configurations related to loot tables.
 [lootTables]

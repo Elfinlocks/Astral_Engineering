@@ -29,6 +29,19 @@ craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_zinc");
 craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_cobalt");
 craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_copper");
 
+craftingTable.removeByName("jaopca:immersiveengineering.ore_to_dust_hammer.silicon");
+craftingTable.removeByName("jaopca:immersiveengineering.ore_to_dust_hammer.desh");
+craftingTable.removeByName("jaopca:immersiveengineering.ore_to_dust_hammer.iridium");
+craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.desh");
+craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.zinc");
+craftingTable.removeByName("jaopca:immersiveengineering.ore_to_dust_hammer.starmetal");
+craftingTable.removeByName("jaopca:immersiveengineering.ore_to_dust_hammer.thallasium");
+craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.brass");
+craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.tin");
+craftingTable.removeByName("jaopca:immersiveengineering.plate_to_wire.lead");
+craftingTable.removeByName("jaopca:immersiveengineering.plate_to_wire.gold");
+craftingTable.removeByName("jaopca:immersiveengineering.plate_to_wire.iron");
+
 craftingTable.removeByName("immersiveengineering:crafting/wire_lead");
 craftingTable.removeByName("createaddition:compat/immersiveengineering/blastfurnace_preheater");
 craftingTable.removeByName("immersiveengineering:crafting/furnace_heater");

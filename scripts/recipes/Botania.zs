@@ -1,6 +1,4 @@
 craftingTable.removeRecipe(<item:botania:terra_plate>);
-craftingTable.removeRecipe(<item:jaopca:storage_blocks.mana_diamond>);
-craftingTable.removeByName("jaopca:storage_blocks.to_material.mana_diamond");
 craftingTable.removeRecipe(<item:botania:elven_spreader>);
 mods.botania.Orechid.main.removeOreWeight(<blockstate:libvulpes:orealuminum>);
 
