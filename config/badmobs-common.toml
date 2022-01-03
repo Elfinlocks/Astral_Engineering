@@ -8244,3 +8244,196 @@
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
 		removeAggressively = false
 
+#Options for the weeping_angels mod.
+[weeping_angels]
+
+	#Spawning options for weeping_angels:weeping_angel
+	[weeping_angels.weeping_angel]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for weeping_angels:anomaly
+	[weeping_angels.anomaly]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for weeping_angels:chronodyne_generator
+	[weeping_angels.chronodyne_generator]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the tardis mod.
+[tardis]
+
+	#Spawning options for tardis:control
+	[tardis.control]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:interior_door
+	[tardis.interior_door]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:chair
+	[tardis.chair]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:tardis
+	[tardis.tardis]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:holo_pilot
+	[tardis.holo_pilot]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:security_drone
+	[tardis.security_drone]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:laser
+	[tardis.laser]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:bessie
+	[tardis.bessie]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:display_tardis
+	[tardis.display_tardis]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:ship_captain
+	[tardis.ship_captain]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:crewmate
+	[tardis.crewmate]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:companion
+	[tardis.companion]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:dalek
+	[tardis.dalek]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+	#Spawning options for tardis:tardis_backdoor
+	[tardis.tardis_backdoor]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+

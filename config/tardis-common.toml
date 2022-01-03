@@ -94,22 +94,22 @@
 	["World Generation".Observatory]
 
 		["World Generation".Observatory.Plains]
-			#The spawn weight of this structure to spawn in villages.
-			#Higher weight means more chance of spawning
+			#The spawn weight of the village street which can spawn this structure in villages.
+			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
 			observatorySpawnWeightPlains = 1
 
 		["World Generation".Observatory.Desert]
-			#The spawn weight of this structure to spawn in villages.
-			#Higher weight means more chance of spawning
+			#The spawn weight of the village street which can spawn this structure in villages.
+			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
 			observatorySpawnWeightDesert = 1
 
 		["World Generation".Observatory.Savanna]
-			#The spawn weight of this structure to spawn in villages.
-			#Higher weight means more chance of spawning
+			#The spawn weight of the village street which can spawn this structure in villages.
+			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
 			observatorySpawnWeightSavanna = 1
