@@ -3,6 +3,8 @@
 	#biomeSize * sampleSpaceModifier = sampleSpace. Lowering this value will increase search accuracy but will make the process more resource intensive.
 	#Range: 0 ~ 1000000
 	sampleSpaceModifier = 16
+	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
+	displayCoordinates = true
 	#Allows a player to teleport to a located biome when in creative mode, opped, or in cheat mode.
 	allowTeleport = true
 	#The maximum number of samples to be taken when searching for a biome.
@@ -13,6 +15,4 @@
 	#biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .
 	#Range: 0 ~ 1000000
 	radiusModifier = 2500
-	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
-	displayCoordinates = true
 

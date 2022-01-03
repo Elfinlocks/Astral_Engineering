@@ -4,6 +4,8 @@
 	"Disable ChunkSyncOverride" = false
 	#Defines if the Profiler should run in the background or not
 	enable-profiler = false
+	#Changes the World Generator to process Multiple chunks at the same time (Multithreading) to use more resources if present, may cause crashes with mods
+	Multithread-Hack = false
 	#Defines how many milliseconds the Chunk Deleter gets per tick
 	#Range: 1 ~ 1000
 	"Deletion Time" = 10
@@ -12,15 +14,13 @@
 	"Threading Rule" = 0
 	#Defines if the pregenerator should automatically restart on server start. Automatically set to true when a task is running, and automatically set to false if no task is running
 	auto-restart = false
+	#Override increases the Watchdog Kill switch to a minimum of 10 minutes instead of 60 seconds. Because Heavy modpacks cause spikes that can last 60 seconds during pregen and saving, this just reduces crashes by minecraft itself and leaves the killswitch
+	"Disable Watchdog Override" = false
 	#Defines how many Players have to be online for the Processor to Auto Pause, -1 = Disabled. It is Inclusive 2 = Allows 1 Player
 	#Range: > -1
 	"Player Limit" = -1
-	#Changes the World Generator to process Multiple chunks at the same time (Multithreading) to use more resources if present, may cause crashes with mods
-	Multithread-Hack = false
 	#Defines if the Improved Command Arguments should be used on Command Creation. If enabled mod is required on client
 	"Advanced Command Arguments" = true
-	#Override increases the Watchdog Kill switch to a minimum of 10 minutes instead of 60 seconds. Because Heavy modpacks cause spikes that can last 60 seconds during pregen and saving, this just reduces crashes by minecraft itself and leaves the killswitch
-	"Disable Watchdog Override" = false
 
 [client]
 

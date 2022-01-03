@@ -2,9 +2,11 @@
 #Common Settings
 [common]
 	#Turns on/off loot added to various vanilla chest loot tables
-	chestLootEnabled = true
+	chestLootEnabled = false
 	#Disable / enable any items here (disables their recipes)
 	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_tool_swapper_upgrade:false", "diamond_backpack:true", "smelting_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "stonecutter_upgrade:false", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:false", "feeding_upgrade:false", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "inception_upgrade:false", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_4:false", "stack_upgrade_tier_2:false", "stack_upgrade_tier_3:false", "stack_upgrade_tier_1:false", "upgrade_base:true", "refill_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "netherite_backpack:true", "advanced_feeding_upgrade:true", "tank_upgrade:true", "battery_upgrade:true", "pump_upgrade:true", "advanced_pump_upgrade:true", "xp_pump_upgrade:true"]
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = []
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]
@@ -307,4 +309,12 @@
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max input/output value. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting input/output
 		#Range: 0.0 ~ 5.0
 		stackMultiplierRatio = 1.0
+
+	#Xp Pump Upgrade Settings
+	[common.xpPumpUpgrade]
+		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
+		mendingOn = true
+		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
+		#Range: 1 ~ 20
+		maxXpPointsPerMending = 5
 

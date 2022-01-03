@@ -73,12 +73,12 @@
 			toughness = 0.0
 
 	[tools_and_abilities.naga_fang_dagger]
-		#Duration in ticks of the poison effect (20 ticks = 1 second).
-		#Range: > 0
-		poison_duration = 40
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
 		backstab_damage_mult = 2.0
+		#Duration in ticks of the poison effect (20 ticks = 1 second).
+		#Range: > 0
+		poison_duration = 40
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
@@ -141,35 +141,35 @@
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_min = 60
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = ["minecraft:grass_block", "minecraft:sand"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost", "mowziesmobs:barakoa_village"]
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
 			max_group_size = 1
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
-			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:sand"]
-			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
-			#Minimum number of mobs that appear in a spawn group
-			#Range: > 1
-			min_group_size = 1
-			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = false
-			#Smaller number causes less spawning, 0 to disable spawning
-			#Range: > 0
-			spawn_rate = 5
-			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
-			#Names of structures this mob will avoid spawning near.
-			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost", "mowziesmobs:barakoa_village"]
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
 
 	[mobs.barako]
 		#How many of the item Barako desires in exchange for the Sun's Blessing
@@ -213,6 +213,8 @@
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 8
+			#Names of structures this mob/structure will avoid when generating
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
@@ -222,8 +224,6 @@
 			height_max = 100.0
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
-			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 	[mobs.foliaath]
 
@@ -253,35 +253,35 @@
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_min = 60
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = ["minecraft:grass_block", "minecraft:podzol", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:jungle_log"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 70
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
 			max_group_size = 4
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
-			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:podzol", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:jungle_log"]
-			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
-			#Minimum number of mobs that appear in a spawn group
-			#Range: > 1
-			min_group_size = 1
-			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = false
-			#Smaller number causes less spawning, 0 to disable spawning
-			#Range: > 0
-			spawn_rate = 70
-			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
-			#Names of structures this mob will avoid spawning near.
-			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
 
 	[mobs.frostmaw]
 		#Disable/enable frostmaws healing while asleep
@@ -321,6 +321,8 @@
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 8
+			#Names of structures this mob/structure will avoid when generating
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
@@ -330,8 +332,6 @@
 			height_max = 100.0
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
-			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 	[mobs.grottol]
 		#Scale mob health by this value
@@ -356,35 +356,35 @@
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_min = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = []
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = true
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 2
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = []
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
 			max_group_size = 1
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = 55
-			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = []
-			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = true
-			#Minimum number of mobs that appear in a spawn group
-			#Range: > 1
-			min_group_size = 1
-			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = false
-			#Smaller number causes less spawning, 0 to disable spawning
-			#Range: > 0
-			spawn_rate = 2
-			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:base_stone_overworld"]
-			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 1
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
 
 	[mobs.lantern]
 		#Scale mob health by this value
@@ -409,35 +409,35 @@
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_min = 60
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = ["minecraft:grass_block", "minecraft:dark_oak_leaves", "minecraft:dark_oak_log", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:birch_leaves", "minecraft:birch_log"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = []
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
 			max_group_size = 4
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
-			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:dark_oak_leaves", "minecraft:dark_oak_log", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:birch_leaves", "minecraft:birch_log"]
-			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
-			#Minimum number of mobs that appear in a spawn group
-			#Range: > 1
-			min_group_size = 2
-			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = false
-			#Smaller number causes less spawning, 0 to disable spawning
-			#Range: > 0
-			spawn_rate = 5
-			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
-			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 2
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
 
 	[mobs.naga]
 
@@ -467,35 +467,35 @@
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_min = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
+			allowed_blocks = ["minecraft:grass_block", "minecraft:stone", "minecraft:sand"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = true
+			#Smaller number causes less spawning, 0 to disable spawning
+			#Range: > 0
+			spawn_rate = 70
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
+			#Names of structures this mob will avoid spawning near.
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
 			max_group_size = 4
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
-			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:stone", "minecraft:sand"]
-			#Set to true to only spawn mob if it can't see the sky.
-			needs_cant_see_sky = false
-			#Minimum number of mobs that appear in a spawn group
-			#Range: > 1
-			min_group_size = 2
-			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = true
-			#Smaller number causes less spawning, 0 to disable spawning
-			#Range: > 0
-			spawn_rate = 70
-			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = []
-			#Names of structures this mob will avoid spawning near.
-			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
+			#Minimum number of mobs that appear in a spawn group
+			#Range: > 1
+			min_group_size = 2
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut healing while not active
@@ -533,6 +533,8 @@
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
 			generation_separation = 5
+			#Names of structures this mob/structure will avoid when generating
+			avoid_structures = []
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
@@ -542,6 +544,4 @@
 			height_max = 55.0
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
-			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = []
 

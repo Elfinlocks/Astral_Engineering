@@ -10,8 +10,6 @@
 	fire_damage = true
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 	reduced_debug_info = false
-	#No comment
-	do_puddle_creation = true
 	#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer, but may also be used to travel unfairly long distances in survival mode (cheating).
 	disable_elytra_movement_check = false
 	#Whether advancements should be announced in chat
@@ -73,10 +71,12 @@
 	spawn_radius = 10
 	#Whether players in spectator mode can generate chunks
 	spectators_generate_chunks = true
-	#No comment
-	tf_enforced_progression = true
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
+	#No comment
+	do_puddle_creation = true
+	#No comment
+	tf_enforced_progression = true
 
 #Configs related to difficult changes
 [difficulty]

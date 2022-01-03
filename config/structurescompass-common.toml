@@ -2,10 +2,6 @@
 #configs for both server and clients
 [General]
 	#
-	#A list of structures that the compass will not search, specified by resource location. 
-	#Ex: ["minecraft:stronghold", "quark:big_dungeon"]
-	blacklist = []
-	#
 	#The pseudo maximum searching radius.
 	#If the distance to the structure exceeds this value, HUD would display 'Not Found'
 	#Range: 20.0 ~ 20000.0
@@ -24,4 +20,12 @@
 	#3: Position of the structure and distance in x/y/z axis.
 	#Range: 0 ~ 3
 	HUD_Level = 3
+	#
+	#The mode of the filter, either blacklist or whitelist, default is blacklist
+	#Allowed Values: blacklist, whitelist
+	filterMode = "blacklist"
+	#
+	#A list of structures that the compass will not search in blacklist mode or will only search in whitelist mode, specified by resource location, supporting regex.
+	#Ex: ["minecraft:stronghold", "quark:big_dungeon"]
+	filter = []
 

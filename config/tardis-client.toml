@@ -9,19 +9,19 @@
 	#Seperate every entry except the last one with commas
 	#To blacklist all entities from a mod, use YourModId:*
 	botiBlacklistedEntities = [""]
+	#Define if machine tooltips should show more information. E.g. Show Progress in ticks
+	showMoreMachineTooltips = false
+	#Display the Optifine Warning message when logging in
+	#Use Optifine at your own risk...
+	displayOptifineWarning = true
 	#List block ids that will be blacklisted from rendering in the Bigger On the Inside Effect
 	#Example: minecraft:tall_grass
 	#Seperate every entry except the last one with commas
 	#To blacklist all blocks from a mod, use YourModId:*
 	botiBlacklistedBlocks = [""]
-	#Define if machine tooltips should show more information. E.g. Show Progress in ticks
-	showMoreMachineTooltips = false
 	#Define if tools such as the Sonic Screwdriver will play their sounds when notifying the player
 	#Example: Sonic playing sound when it detects a Rift Chunk
 	playToolNotificationSounds = true
-	#Display the Optifine Warning message when logging in
-	#Use Optifine at your own risk...
-	displayOptifineWarning = true
 
 	["Client Settings"."Vortex Manipulator"]
 		#Toggles whether the Vortex Manipulator in the inventory will open its GUI if the player right clicks with an empty hand

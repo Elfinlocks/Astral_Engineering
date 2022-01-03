@@ -47,6 +47,8 @@
 	hudGuiModeColor = "00f0f0"
 	#Allow player configuration mode.
 	allowPlayerConfig = true
+	#Permit to set IdleFPS=1.
+	allowOneFps = false
 	#CPU usage type. (0:one processor basis, 1:all processors basis)
 	#Range: 0 ~ 1
 	cpuUsageType = 0
@@ -55,8 +57,6 @@
 	cpuUsageThread = 0
 	#Reduced fps HUD color
 	hudReductionColor = "00f000"
-	#Permit to set IdleFPS=1.
-	allowOneFps = false
 
 #Debug options
 [debug]

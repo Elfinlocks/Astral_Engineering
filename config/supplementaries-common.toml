@@ -34,6 +34,8 @@
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
 
 	[blocks.sack]
 		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down

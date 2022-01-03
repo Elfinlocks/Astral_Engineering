@@ -30,6 +30,12 @@
 #Performance related options.
 [performance]
 
+	#Options related to the building of the chiseled block models.
+	[performance.model-building]
+		#How many CPU threads should be used to build models?
+		#Range: 1 ~ 8
+		thead-count = 4
+
 	#Configures caches
 	[performance.caches]
 
@@ -44,12 +50,6 @@
 			#Size of the model face cache.
 			#Range: 3500 ~ 20000
 			block-faces = 10000
-
-	#Options related to the building of the chiseled block models.
-	[performance.model-building]
-		#How many CPU threads should be used to build models?
-		#Range: 1 ~ 8
-		thead-count = 4
 
 	#Lighting related options.
 	[performance.lighting]

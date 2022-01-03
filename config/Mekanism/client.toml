@@ -26,19 +26,6 @@
 	energyColor = 3997338
 	#Align HUD (text) with left (if true) or right (if false)
 	alignHUDLeft = true
-	#Show particles when machines active.
-	machineEffects = true
-	#Should active machines produce block light.
-	enableAmbientLighting = true
-	#How much light to produce if ambient lighting is enabled.
-	#Range: 1 ~ 15
-	ambientLightingLevel = 15
-	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
-	enableMultiblockFormationParticles = true
-	#How far (in blocks) from the player radiation particles can spawn.
-	radiationParticleRadius = 30
-	#How many particles spawn when rendering radiation effects (scaled by radiation level).
-	radiationParticleCount = 100
 
 	#QIO Config
 	[client.qio]
@@ -71,4 +58,66 @@
 		hudWarningColor = 16768335
 		#Color of danger HUD elements used by MekaSuit.
 		hudDangerColor = 16726076
+
+		#Last Window Positions. In general these values should not be modified manually.
+		[client.gui.window]
+
+			[client.gui.window.mekaSuitHelmet]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.color]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting1]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.upgrade]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting0]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.rename]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.sideConfig]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.confirmation]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting2]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.transporterConfig]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.skinSelect]
+				x = 2147483647
+				y = 2147483647
+
+	#Particle Config
+	[client.particle]
+		#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
+		enableMultiblockFormationParticles = true
+		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
+		toolAOE = true
+		#How far (in blocks) from the player radiation particles can spawn.
+		radiationParticleRadius = 30
+		#How many particles spawn when rendering radiation effects (scaled by radiation level).
+		radiationParticleCount = 100
+		#Show particles when machines active.
+		machineEffects = true
+		#Show bolts when the Magnetic Attraction Unit is pulling items.
+		magneticAttraction = true
 

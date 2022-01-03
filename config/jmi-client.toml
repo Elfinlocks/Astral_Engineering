@@ -1,12 +1,12 @@
 
 #Client-Side Integration
 [FTBChunks]
-	#Enable FTBChunks Integration
-	ftbChunks = true
-	#Range: 0.0 ~ 1.0
-	claimedChunkOverlayOpacity = 0.25
 	#Disable conflict functions for FTBChunks (MiniMap, Waypoint beam, Death waypoint)
 	disableFTBFunction = true
+	#Range: 0.0 ~ 1.0
+	claimedChunkOverlayOpacity = 0.25
+	#Enable FTBChunks Integration
+	ftbChunks = true
 
 [Waystones]
 	#Enable Waystones Integration
