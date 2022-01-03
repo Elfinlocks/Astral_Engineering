@@ -196,6 +196,17 @@
 						}
 					}
 				}
+				{
+					id: "2B02295C46439E2F"
+					type: "item"
+					item: {
+						id: "twilightforest:glass_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
