@@ -136,6 +136,8 @@
 				"A Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas, which can be crystallized into antimatter pellets."
 				""
 				"You will need these pellets to create endgame items."
+				""
+				"Your journey doesn't have to end here, either - check out the Optional Challenges page for some extra content!"
 			]
 			dependencies: [
 				"1859605A1841610A"
@@ -203,7 +205,12 @@
 						id: "twilightforest:glass_sword"
 						Count: 1b
 						tag: {
+							Unbreakable: 1b
 							Damage: 0
+							display: {
+								Lore: ["\"An elven sword of pure crystal\""]
+								Name: "\"Elven Crystal Blade\""
+							}
 						}
 					}
 				}

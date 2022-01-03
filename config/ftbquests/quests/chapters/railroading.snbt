@@ -973,6 +973,9 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+							display: {
+								Name: "\"Sir Topham's Hat\""
+							}
 						}
 					}
 				}

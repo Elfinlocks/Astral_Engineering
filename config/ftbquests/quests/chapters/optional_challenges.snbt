@@ -602,9 +602,9 @@
 			shape: "gear"
 			subtitle: "Extremely safe and consistent interdimensional transportation"
 			description: [
-				"*Not actually safe or consistent at all"
+				"*Not actually safe or consistent at all, but a lot of fun."
 				""
-				""
+				"This is your reward for reaching the endgame! Thank you for playing Astral Engineering!"
 			]
 			dependencies: ["27C9432867359A63"]
 			hide: true
