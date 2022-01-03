@@ -15,19 +15,19 @@ craftingTable.addShaped("reinforced_stone", <item:pneumaticcraft:reinforced_ston
 	[<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]]);
 
 craftingTable.addShaped("air_compressor", <item:pneumaticcraft:air_compressor>, [
-	[<item:immersiveengineering:plate_steel>, <item:immersiveengineering:plate_steel>, <item:immersiveengineering:plate_steel>],
-	[<item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:pneumaticcraft:pressure_tube>],
-	[<item:immersiveengineering:plate_steel>, <item:minecraft:blast_furnace>, <item:immersiveengineering:plate_steel>]]);
+	[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:plates/steel>, <item:minecraft:air>, <item:pneumaticcraft:pressure_tube>],
+	[<tag:items:forge:plates/steel>, <item:minecraft:blast_furnace>, <tag:items:forge:plates/steel>]]);
 
 craftingTable.addShaped("vortex_tube", <item:pneumaticcraft:vortex_tube>, [ 
-	[<item:immersiveengineering:plate_steel>, <item:createaddition:iron_rod>, <item:immersiveengineering:plate_steel>],
+	[<tag:items:forge:plates/steel>, <tag:items:forge:rods/iron>, <tag:items:forge:plates/steel>],
 	[<item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:pressure_tube>],
-	[<item:immersiveengineering:plate_steel>, <item:createaddition:iron_rod>, <item:immersiveengineering:plate_steel>]]);
+	[<tag:items:forge:plates/steel>, <tag:items:forge:rods/iron>, <tag:items:forge:plates/steel>]]);
 	
 craftingTable.addShaped("thermopneumatic_processing_plant", <item:pneumaticcraft:thermopneumatic_processing_plant>, [
-	[<item:immersiveengineering:plate_steel>, <item:minecraft:piston>, <item:immersiveengineering:plate_steel>],
+	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>],
 	[<item:pneumaticcraft:small_tank>, <item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:small_tank>],
-	[<item:immersiveengineering:plate_steel>, <item:minecraft:piston>, <item:immersiveengineering:plate_steel>]]);
+	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>]]);
 	
 craftingTable.addShaped("heat_frame", <item:pneumaticcraft:heat_frame>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
