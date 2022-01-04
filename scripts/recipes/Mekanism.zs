@@ -102,6 +102,7 @@ craftingTable.addShaped("enrichment_chamber", <item:mekanism:enrichment_chamber>
 	[<item:mekanism:alloy_infused>, <item:mekanism:basic_control_circuit>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.addShapeless("gravity_module", <item:mekanism:module_gravitational_modulating_unit>, [<item:simplyjetpacks:jetpack_mek4>]);
+craftingTable.addShapeless("gravity_module_return", <item:simplyjetpacks:jetpack_mek4>, [<item:mekanism:module_gravitational_modulating_unit>]);
 
 craftingTable.addShaped("crusher", <item:mekanism:crusher>, [
 	[<item:mekanism:alloy_infused>, <item:mekanism:basic_control_circuit>, <item:mekanism:alloy_infused>],
