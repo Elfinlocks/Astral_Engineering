@@ -12,14 +12,6 @@ craftingTable.removeByName("immersiveengineering:crafting/plate_electrum_hammeri
 craftingTable.removeByName("immersiveengineering:crafting/plate_steel_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering");
 <recipetype:create:pressing>.removeRecipe(<item:thermal:constantan_plate>);
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.bronze");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.invar");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.signalum");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.lumium");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.enderium");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.silicon");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.titanium");
-craftingTable.removeByName("jaopca:immersiveengineering.material_to_plate_hammer.iridium");
 
 // Reimplements as create press recipes
 
