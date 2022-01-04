@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mypanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  path = assets/logo.png
+  orientation = top-centered
+  x = -99
+  width = 227
+  action = addtexture
+  actionid = a44edb5f-1f92-462d-8ab5-9bfbe105cba11624997608621
+  y = 0
+  height = 118
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = c0aa64d6-b9ea-4ebb-b292-dee86c049a841641250086565
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = Astral Engineering v1.4
+}
+

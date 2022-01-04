@@ -1,3 +1,11 @@
+/not-enough-crashes/*
+options.txt
+optionsof.txt
+optionsshaders.txt
+knownkeys.txt
+/kubejs/exported/*
+/dumps/*
+/crash-reports/*
 config_new_temp*
 config.bak*
 background*
@@ -47,7 +55,6 @@ config.json
 reauth.toml
 servers.dat_old
 woot/*
-*.txt
 *.dat
 !defaultconfigs/*
 journeymap/journeymap.log
