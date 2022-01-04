@@ -907,21 +907,14 @@
 			title: "A S C E N D"
 			x: 10.5d
 			y: 6.5d
-			subtitle: "A Gravitational Modulation Unit grants you Creative flight!"
+			subtitle: "Take your Elytra to the next level!"
 			dependencies: ["2A8218C19F3EF77A"]
 			id: "650580C71C9EBE59"
-			tasks: [
-				{
-					id: "653A7A9DD39E2472"
-					type: "item"
-					item: "mekanism:module_gravitational_modulating_unit"
-				}
-				{
-					id: "1BF69A236E7E873A"
-					type: "item"
-					item: "mekanism:module_elytra_unit"
-				}
-			]
+			tasks: [{
+				id: "1BF69A236E7E873A"
+				type: "item"
+				item: "mekanism:module_elytra_unit"
+			}]
 			rewards: [{
 				id: "2DCEB850378ECD11"
 				type: "xp"

@@ -128,6 +128,8 @@ craftingTable.removeRecipe(<item:immersiveengineering:electron_tube>);
 craftingTable.removeRecipe(<item:immersiveengineering:railgun>);
 craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}));
 
+// Metal Press
+
 <recipetype:immersiveengineering:metal_press>.removeRecipe(<item:immersiveengineering:wire_copper> * 2);
 
 <recipetype:immersiveengineering:metal_press>.removeRecipe(<item:immersiveengineering:stick_iron> * 2);
@@ -135,6 +137,16 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 <recipetype:immersiveengineering:metal_press>.addRecipe("copper_wires", <tag:items:forge:ingots/copper>, <item:immersiveengineering:mold_wire>, 1000, <item:createaddition:copper_wire> * 2);
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("iron_rods", <tag:items:forge:ingots/iron>, <item:immersiveengineering:mold_rod>, 1000, <item:createaddition:iron_rod> * 2);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("netherite_plates", <tag:items:forge:ingots/netherite>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:netherite_plate>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("signalum_plates", <tag:items:forge:ingots/signalum>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:signalum_plate>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("lumium_plates", <tag:items:forge:ingots/lumium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:lumium_plate>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("enderium_plates", <tag:items:forge:ingots/enderium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:enderium_plate>);
+
+// Blueprints
 
 craftingTable.addShaped("blueprint_crafting", <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), [
 	[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/manasteel>],
