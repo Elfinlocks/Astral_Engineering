@@ -146,6 +146,12 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("enderium_plates", <tag:items:forge:ingots/enderium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:enderium_plate>);
 
+<recipetype:immersiveengineering:metal_press>.addRecipe("silicon_plates", <tag:items:forge:ingots/silicon>, <item:immersiveengineering:mold_plate>, 1000, <item:libvulpes:platesilicon>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("titanium_plates", <tag:items:forge:ingots/titanium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:titanium_plate>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("iridium_plates", <tag:items:forge:ingots/iridium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:iridium_plate>);
+
 // Blueprints
 
 craftingTable.addShaped("blueprint_crafting", <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), [
@@ -171,8 +177,12 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 	[<item:minecraft:air>, <item:createaddition:brass_rod>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electrum" as string}), <item:thermal:enderium_gear>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:immersiveengineering:component_steel>, <item:thermal:lumium_gear>, <item:createaddition:brass_rod>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:immersiveengineering:component_steel>, <item:immersiveengineering:component_steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+// Arc Furnace
 	
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_steel", <item:minecraft:iron_ingot>, [<item:immersiveengineering:dust_coke>], 40, 12000, [<item:immersiveengineering:ingot_steel>], <item:immersiveengineering:slag>);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_titanium", <item:libvulpes:dusttitanium>, [<item:immersiveengineering:dust_coke>], 1200, 1200000, [<item:libvulpes:ingottitanium>], <item:thermal:rich_slag>);
 
 // Blast bricks 
 
