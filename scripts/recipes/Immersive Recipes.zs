@@ -148,9 +148,9 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("silicon_plates", <tag:items:forge:ingots/silicon>, <item:immersiveengineering:mold_plate>, 1000, <item:libvulpes:platesilicon>);
 
-<recipetype:immersiveengineering:metal_press>.addRecipe("titanium_plates", <tag:items:forge:ingots/titanium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:titanium_plate>);
+<recipetype:immersiveengineering:metal_press>.addRecipe("titanium_plates", <tag:items:forge:ingots/titanium>, <item:immersiveengineering:mold_plate>, 1000, <item:libvulpes:platetitanium>);
 
-<recipetype:immersiveengineering:metal_press>.addRecipe("iridium_plates", <tag:items:forge:ingots/iridium>, <item:immersiveengineering:mold_plate>, 1000, <item:thermal:iridium_plate>);
+<recipetype:immersiveengineering:metal_press>.addRecipe("iridium_plates", <tag:items:forge:ingots/iridium>, <item:immersiveengineering:mold_plate>, 1000, <item:libvulpes:plateiridium>);
 
 // Blueprints
 
