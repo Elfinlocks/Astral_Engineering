@@ -1,9 +1,0 @@
-
-["Server settings"]
-	#Mood penalty when user use a setter function
-	#Range: > 0
-	moodPenaltyOnSetter = 1
-	#Loyalty penalty when user use a setter function
-	#Range: > 0
-	loyaltyPenaltyOnSetter = 1
-

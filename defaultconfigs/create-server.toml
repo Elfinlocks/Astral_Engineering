@@ -20,7 +20,7 @@
 	bulkCutting = false
 	# 
 	#When true, allows any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
-	allowShapelessInMixer = false
+	allowShapelessInMixer = true
 	# 
 	#When true, allows any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
 	allowShapedSquareInPress = true

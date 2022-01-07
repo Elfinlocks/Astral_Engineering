@@ -1,5 +1,6 @@
-events.listen("recipes", function (event) {
-	event.remove({id: 'boss_tools:workbenching/tier1'})
-	event.remove({id: 'boss_tools:workbenching/tier2'})
-	event.remove({id: 'boss_tools:workbenching/tier3'})
+events.listen('block.tags', function (event) {
+	event.get('boss_tools:vehicle_fuel').remove('immersiveengineering:biodiesel')
+	event.get('boss_tools:vehicle_fuel').remove('immersivepetroleum:diesel')
+	event.get('boss_tools:vehicle_fuel').remove('thermal:refined_fuel')
 })
+

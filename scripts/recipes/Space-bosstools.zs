@@ -31,6 +31,21 @@ craftingTable.removeRecipe(<item:boss_tools:iron_engine>);
 craftingTable.removeRecipe(<item:boss_tools:golden_engine>);
 craftingTable.removeRecipe(<item:boss_tools:diamond_engine>);
 
+// Giselle Addon Adjustments
+
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:electric_blast_furnace>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:advanced_compressor>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:fuel_loader>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:gravity_normalizer>);
+mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:electric_blast_furnace>);
+mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:advanced_compressor>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_space_breathing_unit>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_space_fire_proof_unit>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_venus_acid_proof_unit>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:press_compressing_die>);
+mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:press_compressing_die>);
+
 // Hiding items zzz 
 
 mods.jei.JEI.hideItem(<item:boss_tools:chesse>);
