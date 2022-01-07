@@ -735,6 +735,11 @@
 				type: "item"
 				item: "create:creative_motor"
 			}]
+			rewards: [{
+				id: "6B4294BAD17EEAF7"
+				type: "xp"
+				xp: 2000
+			}]
 		}
 		{
 			title: "All The Room In The World"
@@ -747,6 +752,11 @@
 				id: "5EC583ADA9F2B242"
 				type: "item"
 				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "14E5B29A2F350FEA"
+				type: "xp"
+				xp: 2000
 			}]
 		}
 		{
@@ -761,6 +771,11 @@
 				type: "item"
 				item: "botania:creative_pool"
 			}]
+			rewards: [{
+				id: "5B1D81078F754034"
+				type: "xp"
+				xp: 2000
+			}]
 		}
 		{
 			title: "Atomic Exchange"
@@ -773,6 +788,11 @@
 				id: "47F447CA1C5A9951"
 				type: "item"
 				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [{
+				id: "0C3B606ADE562849"
+				type: "xp"
+				xp: 2000
 			}]
 		}
 		{

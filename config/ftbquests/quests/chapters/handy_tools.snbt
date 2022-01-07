@@ -352,7 +352,7 @@
 			}]
 		}
 		{
-			title: "The ultimate tool"
+			title: "The Ultimate Tool"
 			icon: {
 				id: "mekanism:atomic_disassembler"
 				Count: 1b
@@ -505,7 +505,7 @@
 			}]
 		}
 		{
-			title: "Tank you very much"
+			title: "Tank You Very Much"
 			x: 6.0d
 			y: 2.0d
 			subtitle: "A Fluid Tank can be used to store large quantities of Water of other liquids. Try using them instead of buckets to hold Creosote Oil."
@@ -633,9 +633,10 @@
 			}]
 		}
 		{
-			title: "The good wrench"
+			title: "The Good Wrench"
 			x: 0.0d
 			y: 2.0d
+			subtitle: "A unsurprising tool to help you immediately."
 			description: ["This is Mekanisms' wrench, primarily used for adjusting the settings on Mekanism pipes."]
 			id: "059A3FFEF1C9668F"
 			tasks: [{
@@ -643,9 +644,15 @@
 				type: "item"
 				item: "mekanism:configurator"
 			}]
+			rewards: [{
+				id: "29310A2151F68B05"
+				type: "item"
+				item: "immersiveengineering:plate_steel"
+				count: 2
+			}]
 		}
 		{
-			title: "The better wrench"
+			title: "The Better Wrench"
 			x: 2.0d
 			y: 2.0d
 			subtitle: "The best one"
