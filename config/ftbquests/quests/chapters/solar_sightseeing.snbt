@@ -1485,5 +1485,34 @@
 				}
 			]
 		}
+		{
+			title: "A Little More Refining"
+			x: 3.5d
+			y: -3.0d
+			subtitle: "A Fuel Loader allows you to pump rocket fuel directly to the rocket, rather than bucket it manually."
+			dependencies: ["7BA8EE4BE7271B3C"]
+			optional: true
+			id: "519E888A4DA35F64"
+			tasks: [{
+				id: "6A26DD2993D26BC5"
+				type: "item"
+				item: "boss_tools_giselle_addon:fuel_loader"
+			}]
+		}
+		{
+			title: "This Is Heavy, Doc!"
+			x: 8.0d
+			y: -7.5d
+			subtitle: "A Gravity Normalizer makes the gravity within its area of effect act like overworld gravity. Useful for more permanent space residences."
+			description: ["Works in up to a 31x31! Very cheap energy consumption, too."]
+			dependencies: ["5546DF5DEB644C6B"]
+			optional: true
+			id: "1F02E20654FB5859"
+			tasks: [{
+				id: "68053C212B64B748"
+				type: "item"
+				item: "boss_tools_giselle_addon:gravity_normalizer"
+			}]
+		}
 	]
 }

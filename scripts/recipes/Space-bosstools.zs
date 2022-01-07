@@ -30,6 +30,7 @@ craftingTable.removeRecipe(<item:boss_tools:diamond_tank>);
 craftingTable.removeRecipe(<item:boss_tools:iron_engine>);
 craftingTable.removeRecipe(<item:boss_tools:golden_engine>);
 craftingTable.removeRecipe(<item:boss_tools:diamond_engine>);
+craftingTable.removeRecipe(<item:boss_tools:water_pump>);
 
 // Giselle Addon Adjustments
 
@@ -39,12 +40,36 @@ craftingTable.removeRecipe(<item:boss_tools_giselle_addon:fuel_loader>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:gravity_normalizer>);
 mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:electric_blast_furnace>);
 mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:advanced_compressor>);
-craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_space_breathing_unit>);
-craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_space_fire_proof_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_venus_acid_proof_unit>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:press_compressing_die>);
 mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:press_compressing_die>);
+
+craftingTable.addShaped("fire_unit", <item:boss_tools_giselle_addon:module_space_fire_proof_unit>, [
+	[<item:mekanism:alloy_reinforced>, <item:boss_tools:desh_plate>, <item:mekanism:alloy_reinforced>],
+	[<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
+	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]]);
+	
+craftingTable.addShaped("acid_unit", <item:boss_tools_giselle_addon:module_venus_acid_proof_unit>, [
+	[<item:mekanism:alloy_reinforced>, <tag:items:forge:plates/silicon>, <item:mekanism:alloy_reinforced>],
+	[<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
+	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]]);
+	
+craftingTable.addShaped("gravity_unit", <item:boss_tools_giselle_addon:module_gravity_normalizing_unit>, [
+	[<item:mekanism:alloy_infused>, <item:eidolon:gravity_belt>, <item:mekanism:alloy_infused>],
+	[<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
+	[<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]]);
+	
+craftingTable.addShaped("gravity_machine", <item:boss_tools_giselle_addon:gravity_normalizer>, [
+	[<tag:items:forge:plates/aluminum>, <item:eidolon:gravity_belt>, <tag:items:forge:plates/aluminum>],
+	[<item:mekanism:basic_control_circuit>, <item:rftoolsbase:machine_frame>, <item:mekanism:basic_control_circuit>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
+	
+craftingTable.addShaped("fuel_loader", <item:boss_tools_giselle_addon:fuel_loader>, [
+	[<tag:items:forge:plates/aluminum>, <item:pneumaticcraft:vacuum_pump>, <tag:items:forge:plates/aluminum>],
+	[<item:mekanism:basic_control_circuit>, <item:rftoolsbase:machine_frame>, <item:mekanism:basic_control_circuit>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
 // Hiding items zzz 
 
@@ -69,6 +94,7 @@ mods.jei.JEI.hideItem(<item:boss_tools:solar_panel>);
 mods.jei.JEI.hideItem(<item:boss_tools:blast_furnace>);
 mods.jei.JEI.hideItem(<item:boss_tools:nasa_workbench>);
 mods.jei.JEI.hideItem(<item:boss_tools:steel_block>);
+mods.jei.JEI.hideItem(<item:boss_tools:water_pump>);
 
 // Adjusted Recipes - Space Suit
 

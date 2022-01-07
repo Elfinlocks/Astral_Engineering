@@ -855,7 +855,7 @@
 		{
 			title: "You've Upgraded Your Armor!"
 			x: 10.5d
-			y: 4.5d
+			y: 5.5d
 			subtitle: "I've made a few modifications of my own!"
 			dependencies: ["1261E20FC60575D0"]
 			id: "2A8218C19F3EF77A"
@@ -880,7 +880,7 @@
 		{
 			title: "Under Da Sea"
 			x: 9.0d
-			y: 6.0d
+			y: 7.5d
 			subtitle: "This module provides you with air underwater."
 			dependencies: ["2A8218C19F3EF77A"]
 			id: "470668A518E011B2"
@@ -906,7 +906,7 @@
 		{
 			title: "A S C E N D"
 			x: 10.5d
-			y: 6.5d
+			y: 8.0d
 			subtitle: "Take your Elytra to the next level!"
 			dependencies: ["2A8218C19F3EF77A"]
 			id: "650580C71C9EBE59"
@@ -924,7 +924,7 @@
 		{
 			title: "You don't just walk into a store, and buy Plutonium..."
 			x: 12.0d
-			y: 6.0d
+			y: 7.5d
 			subtitle: "This module, as the name implies, shields you from radiation. Can be applied to any piece of the Mekasuit."
 			dependencies: ["2A8218C19F3EF77A"]
 			id: "1331E584A6A3AF56"
@@ -1609,6 +1609,176 @@
 					type: "item"
 					item: "minecraft:white_wool"
 					count: 4
+				}
+			]
+		}
+		{
+			title: "A Breath of Fresh Air"
+			x: 12.5d
+			y: 5.5d
+			subtitle: "Unfortunately, this unit acts independently of the water electrolysis unit, meaning that it does not provide you water breathing."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "52144D71C0C2CA89"
+			tasks: [{
+				id: "7203087614BD633C"
+				type: "item"
+				item: "boss_tools_giselle_addon:module_space_breathing_unit"
+			}]
+			rewards: [
+				{
+					id: "797912E5482031E6"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 3
+				}
+				{
+					id: "46DC76B24F827130"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "A Leg To Stand On"
+			x: 8.5d
+			y: 5.5d
+			subtitle: "The Gravity Normalization Unit lets to simulate overworld gravity in space."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "67BBE0219F860518"
+			tasks: [{
+				id: "25D6061A9F026078"
+				type: "item"
+				item: "boss_tools_giselle_addon:module_gravity_normalizing_unit"
+			}]
+			rewards: [
+				{
+					id: "4A9D143C34F2696A"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 3
+				}
+				{
+					id: "56B07371BFA6B461"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Getting Toasty"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "The Fire Protection Unit lets you ignore the inferno atmosphere of certain planets."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "24ADBBDEBE256BD2"
+			tasks: [{
+				id: "2529D4449BD07162"
+				type: "item"
+				item: "boss_tools_giselle_addon:module_space_fire_proof_unit"
+			}]
+		}
+		{
+			title: "I'm Meltingggg...."
+			x: 12.0d
+			y: 4.0d
+			subtitle: "The Acid Proof Unit does what it says on the tin: it keeps you from getting melted by extraplanetary acid."
+			dependencies: ["2A8218C19F3EF77A"]
+			id: "3155ABC7CE7604EC"
+			tasks: [{
+				id: "78B6EC218E1AD3B3"
+				type: "item"
+				item: "boss_tools_giselle_addon:module_venus_acid_proof_unit"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			subtitle: "A powerful, configurable, pneumatic base defense weapon."
+			dependencies: ["38378898C38226F9"]
+			id: "72FF2CC94DF6D60D"
+			tasks: [{
+				id: "6ABECE253616670F"
+				type: "item"
+				item: "pneumaticcraft:sentry_turret"
+			}]
+			rewards: [
+				{
+					id: "6348F076EE3736CA"
+					type: "item"
+					item: "pneumaticcraft:minigun"
+				}
+				{
+					id: "53763BB409E9E999"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "This Feels Like a War Crime..."
+			x: 8.0d
+			y: 0.75d
+			subtitle: "The chemthrower turret makes roasting mobs alive easier than ever."
+			dependencies: ["38378898C38226F9"]
+			id: "75B68F06AA2435CB"
+			tasks: [{
+				id: "11C10EE5F35F3F25"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+			rewards: [
+				{
+					id: "1D5B45B5A41B87FE"
+					type: "item"
+					item: {
+						id: "immersiveengineering:chemthrower"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1A6B2697B7770050"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Old Reliable"
+			x: 8.5d
+			y: 2.0d
+			subtitle: "The Gun Turret isn't fancy or flashy, but it does it's job."
+			dependencies: ["38378898C38226F9"]
+			id: "0DF91E1F313667F1"
+			tasks: [{
+				id: "038C8C245B8A956E"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+			rewards: [
+				{
+					id: "370AD44980629672"
+					type: "item"
+					item: {
+						id: "immersiveengineering:revolver"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 21
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0FAC961C314A4021"
+					type: "xp"
+					xp: 100
 				}
 			]
 		}
