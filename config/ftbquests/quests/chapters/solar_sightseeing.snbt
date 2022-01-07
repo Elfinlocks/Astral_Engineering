@@ -617,7 +617,7 @@
 		}
 		{
 			title: "Just Like the Conquistadors..."
-			x: 4.5d
+			x: 3.5d
 			y: -6.5d
 			subtitle: "May as well mark what's rightfully yours."
 			dependencies: ["0E3216152E5B2B3A"]
@@ -1523,6 +1523,25 @@
 				id: "21F182AEB4AA30FC"
 				type: "item"
 				item: "libvulpes:orealuminum"
+			}]
+		}
+		{
+			title: "A Portable Atmosphere"
+			x: 5.5d
+			y: -6.5d
+			subtitle: "Oxygen Cans allow you to bring extra air along."
+			description: ["You can even store them in your bauble slots!"]
+			dependencies: ["0E3216152E5B2B3A"]
+			id: "3CCC76C0481CC1AF"
+			tasks: [{
+				id: "21A002AA77C3DAF1"
+				type: "item"
+				item: "boss_tools_giselle_addon:oxygen_can"
+			}]
+			rewards: [{
+				id: "7F7E9B7E02ED9FE3"
+				type: "item"
+				item: "boss_tools_giselle_addon:oxygen_can"
 			}]
 		}
 	]

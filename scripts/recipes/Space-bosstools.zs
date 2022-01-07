@@ -45,6 +45,12 @@ craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_venus_acid_proo
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:press_compressing_die>);
 mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:press_compressing_die>);
+craftingTable.removeRecipe(<item:boss_tools_giselle_addon:oxygen_can>);
+
+craftingTable.addShaped("oxygen_canister", <item:boss_tools_giselle_addon:oxygen_can>, [
+	[<item:minecraft:air>, <tag:items:forge:rods/aluminum>, <item:minecraft:air>],
+	[<tag:items:forge:plates/aluminum>, <item:minecraft:air>, <tag:items:forge:plates/aluminum>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
 craftingTable.addShaped("fire_unit", <item:boss_tools_giselle_addon:module_space_fire_proof_unit>, [
 	[<item:mekanism:alloy_reinforced>, <item:boss_tools:desh_plate>, <item:mekanism:alloy_reinforced>],
