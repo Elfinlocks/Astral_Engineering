@@ -6,18 +6,6 @@
   },
   "mana": 3000000,
   "ingredients": [
-    {
-      "item": "mana-and-artifice:greater_mote_earth"
-    },
-    {
-      "item": "mana-and-artifice:greater_mote_earth"
-    },
-    {
-      "item": "mana-and-artifice:greater_mote_earth"
-    },
-	{
-      "item": "mana-and-artifice:greater_mote_earth"
-    },
 	{
 	  "item": "astralsorcery:fountain_prime_liquid"
 	},
