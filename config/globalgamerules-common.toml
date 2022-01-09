@@ -32,7 +32,7 @@
 	#Whether the weather can change
 	do_weather_cycle = true
 	#Whether the day-night cycle and moon phases progress
-	do_daylight_cycle = true
+	do_daylight_cycle = false
 	#Whether entities that are not mobs should have drops
 	do_entity_drops = true
 	#Players respawn immediately without showing the death screen
