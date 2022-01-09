@@ -100,22 +100,22 @@
     
       // The average distance between two blacksmiths. Must be higher than minimum.
       // Minimum: 1
-      "average_distance": 35,
+      "average_distance": 250,
       
       // The minimum distance between two blacksmiths
       // Minimum: 1
-      "minimum_distance": 25
+      "minimum_distance": 175
     },
     
     "library": {
     
       // The average distance between two libraries. Must be higher than minimum.
       // Minimum: 1
-      "average_distance": 35,
+      "average_distance": 500,
       
       // The minimum distance between two libraries
       // Minimum: 1
-      "minimum_distance": 25
+      "minimum_distance": 300
     },
     
     "spring_world_tree": {

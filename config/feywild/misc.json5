@@ -12,5 +12,5 @@
   
   // This determines the weight of the rune stone appearing in mineshaft treasure chests.
   // Range: 1 - 100
-  "rune_stone_weight": 1
+  "rune_stone_weight": 10
 }
