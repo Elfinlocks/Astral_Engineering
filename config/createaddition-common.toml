@@ -35,7 +35,7 @@
 	#Range: > 0
 	charger_capacity = 32000
 
-#Electric Motor 
+#Electric Motor
 [electric_motor]
 	#Electric Motor internal capacity in FE.
 	#Range: > 0

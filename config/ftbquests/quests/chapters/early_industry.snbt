@@ -457,7 +457,7 @@
 			x: 15.0d
 			y: -2.0d
 			subtitle: "While electricity is good and all, sometimes you need Rotational Force. This Electric Motor acts as a way to convery FE to Rotational Force."
-			description: ["The Electric Motor uses a flat 256 RF/t to produce anywhere from one to 256 RPM."]
+			description: ["The Electric Motor uses a flat amount of 256 FE/t to produce anywhere from one to 256 RPM."]
 			dependencies: ["10CAC510498E8582"]
 			optional: true
 			id: "263BA2874CB8F6DC"
