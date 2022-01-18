@@ -715,5 +715,18 @@
 				count: 3
 			}]
 		}
+		{
+			x: 5.5d
+			y: -4.5d
+			subtitle: "Read me!"
+			description: ["Check out the Handy Tools chapter - there's lots of useful stuff in there, and even some freebies!"]
+			dependencies: ["4983D289845799E1"]
+			id: "049649C017D3F5EC"
+			tasks: [{
+				id: "437EAEBD9E819B4C"
+				type: "checkmark"
+				title: "Helpful Tools to Help You Later"
+			}]
+		}
 	]
 }

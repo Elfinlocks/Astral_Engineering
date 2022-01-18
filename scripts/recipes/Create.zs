@@ -224,7 +224,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 
 // Milling Mill Fixes 
 
-<recipetype:create:crushing>.addRecipe("mill_apatite", [<item:thermal:apatite_dust> * 1 % 100], <tag:items:forge:gems/apatite>);
 <recipetype:create:crushing>.addRecipe("mill_starmetal", [<item:jaopca:dusts.starmetal> * 1 % 100], <tag:items:forge:ingots/starmetal>);
 <recipetype:create:crushing>.addRecipe("mill_netherite", [<item:mekanism:dust_netherite> * 1 % 100], <tag:items:forge:ingots/netherite>);
 <recipetype:create:crushing>.addRecipe("mill_steel", [<item:immersiveengineering:dust_steel> * 1 % 100], <tag:items:forge:ingots/steel>);
