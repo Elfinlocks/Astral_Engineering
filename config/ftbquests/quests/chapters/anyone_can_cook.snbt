@@ -348,7 +348,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			subtitle: "A Seed Pouch can store and plant up to 10 stacks of seeds."
+			subtitle: "A Seed Pouch can store and plant up to 10 stacks of a particular seed type."
 			dependencies: ["484335796DA3D55B"]
 			id: "0D347A2CBEE59716"
 			tasks: [{
