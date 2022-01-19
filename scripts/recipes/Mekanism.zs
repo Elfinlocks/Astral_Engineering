@@ -1,7 +1,4 @@
-mods.jei.JEI.hideItem(<item:mekanism:basic_fluid_tank>);
-mods.jei.JEI.hideItem(<item:mekanism:advanced_fluid_tank>);
-mods.jei.JEI.hideItem(<item:mekanism:elite_fluid_tank>);
-mods.jei.JEI.hideItem(<item:mekanism:ultimate_fluid_tank>);
+
 mods.jei.JEI.hideItem(<item:mekanism:creative_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:module_jetpack_unit>);
 

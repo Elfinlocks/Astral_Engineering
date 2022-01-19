@@ -16,14 +16,6 @@
 	#Sets the amount of damage reduction a player gets when being hit by a DE chaos-damage-related damagetype.
 	#Range: 0.0 ~ 1.0
 	capeChaosResistance = 0.8
-	#If this is set to true, charged crystals tools can revert back to their inert state.
-	chargedToolsRevert = true
-	#Defines the minimum uses a user at least gets before it's trying to revert to an inert crystal tool.
-	#Range: 0 ~ 2147483646
-	chargedToolsRevertStart = 40
-	#After 'chargedCrystalToolsRevertStart' uses, it will random.nextInt(chance) == 0 try and see if the tool gets reverted to its inert crystal tool.
-	#Range: 1 ~ 1073741823
-	chargedToolsRevertChance = 80
 
 	[tools.wands]
 		#Sets the quick-charge cost for one usage of the illumination wand
@@ -68,6 +60,8 @@
 	liquidStarlightDropInfusedWood = true
 	#Set this to false to disable the functionality that two crystals can merge and combine stats when thrown into liquid starlight.
 	liquidStarlightMergeCrystals = true
+	#Defines the state the starmetal ore will revert into when used up by a celestial crystal cluster. Obtain a valid state-string via '/astralsorcery serialize look' and look at the block you want to get. (Chat-Message can be copied)
+	starmetalRevertState = "minecraft:gold_ore"
 
 [lightnetwork]
 	#NOTE: ONLY run this once and set it to false again afterwards, nothing will be gained by setting this to true permanently, just longer loading times. When set to true and the server started, this will perform an integrity check over all nodes of the starlight network whenever a world gets loaded, removing invalid ones in the process. This might, depending on network sizes, take a while. It'll leave a message in the console when it's done. After this check has been run, you might need to tear down and rebuild your starlight network in case something doesn't work anymore.
@@ -268,7 +262,7 @@
 		[perks.type.miningsize]
 			#Defines the amount of starlight charge consumed per additional block break through this attribute.
 			#Range: 1 ~ 500
-			chargeCost = 4
+			chargeCostPerBreak = 2
 
 		[perks.type.dodge]
 			#Defines the amount of starlight charge consumed per dodged damage.
@@ -687,7 +681,7 @@
 
 	[registries.amulet_enchantments]
 		#Defines a whitelist of which enchantments can be rolled and buffed by the enchantment-amulet. The higher the weight, the more likely that roll is selected.Format: <enchantment-registry-name>;<weight>
-		amulet_enchantments = ["minecraft:protection;10", "minecraft:fire_protection;5", "minecraft:feather_falling;5", "minecraft:blast_protection;2", "minecraft:projectile_protection;5", "minecraft:respiration;2", "minecraft:aqua_affinity;2", "minecraft:thorns;1", "minecraft:depth_strider;2", "minecraft:frost_walker;2", "minecraft:soul_speed;1", "minecraft:sharpness;10", "minecraft:smite;5", "minecraft:bane_of_arthropods;5", "minecraft:knockback;5", "minecraft:fire_aspect;2", "minecraft:looting;2", "minecraft:sweeping;2", "minecraft:efficiency;10", "minecraft:silk_touch;1", "minecraft:unbreaking;5", "minecraft:fortune;2", "minecraft:power;10", "minecraft:punch;2", "minecraft:flame;2", "minecraft:infinity;1", "minecraft:luck_of_the_sea;2", "minecraft:lure;2", "minecraft:loyalty;5", "minecraft:impaling;2", "minecraft:riptide;2", "minecraft:channeling;1", "minecraft:multishot;2", "minecraft:quick_charge;5", "minecraft:piercing;10", "minecraft:mending;2", "astralsorcery:night_vision;1", "astralsorcery:scorching_heat;1", "alexsmobs:straddle_jump;10", "alexsmobs:lavawax;5", "alexsmobs:serpentfriend;2", "alexsmobs:board_return;5", "twilightforest:fire_react;5", "twilightforest:chill_aura;5", "buddycards:buddy_binding;5", "buddycards:buddy_boost;1", "buddycards:extra_page;2", "betterendforge:end_veil;1", "farmersdelight:backstabbing;5", "advancedrocketry:spacebreathing;10", "cyclic:excavate;2", "cyclic:experience_boost;5", "cyclic:beheading;10", "cyclic:growth;10", "cyclic:launch;2", "cyclic:life_leech;5", "cyclic:magnet;1", "cyclic:multishot;1", "cyclic:quickshot;2", "cyclic:reach;2", "cyclic:step;2", "cyclic:traveler;1", "cyclic:venom;5", "cyclic:auto_smelt;2", "cyclic:disarm;5", "cyclic:curse;2", "cyclic:ender;2", "simplyjetpacks:fuel_efficiency;2", "cofh_core:holding;10", "mana-and-artifice:aura-healing;1", "mana-and-artifice:aura-running;10", "mana-and-artifice:aura-jumping;10", "mana-and-artifice:aura-depths;10", "mana-and-artifice:aura-mining;5", "mana-and-artifice:aura-repair;1", "mana-and-artifice:bouncing;10", "mana-and-artifice:cloudstep;10", "mana-and-artifice:transitorystep;2"]
+		amulet_enchantments = ["minecraft:protection;10", "minecraft:fire_protection;5", "minecraft:feather_falling;5", "minecraft:blast_protection;2", "minecraft:projectile_protection;5", "minecraft:respiration;2", "minecraft:aqua_affinity;2", "minecraft:thorns;1", "minecraft:depth_strider;2", "minecraft:frost_walker;2", "minecraft:soul_speed;1", "minecraft:sharpness;10", "minecraft:smite;5", "minecraft:bane_of_arthropods;5", "minecraft:knockback;5", "minecraft:fire_aspect;2", "minecraft:looting;2", "minecraft:sweeping;2", "minecraft:efficiency;10", "minecraft:silk_touch;1", "minecraft:unbreaking;5", "minecraft:fortune;2", "minecraft:power;10", "minecraft:punch;2", "minecraft:flame;2", "minecraft:infinity;1", "minecraft:luck_of_the_sea;2", "minecraft:lure;2", "minecraft:loyalty;5", "minecraft:impaling;2", "minecraft:riptide;2", "minecraft:channeling;1", "minecraft:multishot;2", "minecraft:quick_charge;5", "minecraft:piercing;10", "minecraft:mending;2", "astralsorcery:night_vision;1", "astralsorcery:scorching_heat;1", "alexsmobs:straddle_jump;10", "alexsmobs:lavawax;5", "alexsmobs:serpentfriend;2", "alexsmobs:board_return;5", "betterendforge:end_veil;1", "farmersdelight:backstabbing;5", "cyclic:excavate;2", "cyclic:beheading;10", "cyclic:growth;10", "cyclic:launch;2", "cyclic:life_leech;5", "cyclic:magnet;1", "cyclic:multishot;1", "cyclic:quickshot;2", "cyclic:reach;2", "cyclic:step;2", "cyclic:traveler;1", "cyclic:venom;5", "cyclic:auto_smelt;2", "cyclic:disarm;5", "cyclic:curse;2", "cyclic:ender;2", "simplyjetpacks:fuel_efficiency;2", "cofh_core:holding;10", "mana-and-artifice:aura-healing;1", "mana-and-artifice:aura-running;10", "mana-and-artifice:aura-jumping;10", "mana-and-artifice:aura-depths;10", "mana-and-artifice:aura-mining;5", "mana-and-artifice:aura-repair;1", "mana-and-artifice:bouncing;10", "mana-and-artifice:cloudstep;10", "mana-and-artifice:transitorystep;2"]
 
 	[registries.gem_attributes]
 		#Format: '<attributeRegistryName>;<integerWeight>' Defines the attributes Perk Gems can roll.
@@ -703,7 +697,7 @@
 
 	[registries.mineralis_ritual_ore]
 		#Format: '<tagName>;<integerWeight>' Defines random-weighted ore-selection data. Define block-tags to select from here with associated weight. Specific mods can be blacklisted in the general AstralSorcery config in 'modidOreBlacklist'.
-		mineralis_ritual_ore = ["forge:ores/coal;5200", "forge:ores/iron;2500", "minecraft:mineralis_tin;1200", "minecraft:mineralis_copper;2100", "minecraft:mineralis_lead;550", "minecraft:mineralis_zinc;500", "forge:ores/gold;440", "minecraft:mineralis_silver;470" , "forge:ores/lapis;200", "forge:ores/redstone;600", "minecraft:mineralis_certus;200", "minecraft:mineralis_nickel;100", "forge:ores/emerald;60", "forge:ores/diamond;40", "minecraft:mineralis_uranium;50", "minecraft:mineralis_aluminum;40"]
+		mineralis_ritual_ore = ["forge:ores/coal;5200", "forge:ores/iron;2500", "minecraft:mineralis_tin;1200", "minecraft:mineralis_copper;2100", "minecraft:mineralis_lead;550", "minecraft:mineralis_zinc;500", "forge:ores/gold;440", "minecraft:mineralis_silver;470", "forge:ores/lapis;200", "forge:ores/redstone;600", "minecraft:mineralis_certus;200", "minecraft:mineralis_nickel;100", "forge:ores/emerald;60", "forge:ores/diamond;40", "minecraft:mineralis_uranium;50", "minecraft:mineralis_aluminum;40"]
 
 	[registries.entity_transmutation]
 		#Defines the entity types the corrupted pelotrio ritual can transmute from and to. Format: <EntityTypeFrom>;<EntityTypeTo>
