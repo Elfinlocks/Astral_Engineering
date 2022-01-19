@@ -59,9 +59,10 @@
 				item: "farmersdelight:ham"
 			}]
 			rewards: [{
-				id: "4D533F13B0B3196C"
+				id: "17EDEFE324CBA6E2"
 				type: "item"
-				item: "pamhc2foodcore:baconandeggsitem"
+				item: "minecraft:pig_spawn_egg"
+				count: 2
 			}]
 		}
 		{
@@ -309,10 +310,17 @@
 			}]
 		}
 		{
-			title: "A Healthy Breakfast"
+			title: "Blins and a Cat"
 			x: 2.0d
 			y: -3.0d
-			subtitle: "Pancakes can be placed and stacked on top of eachother, and then topped with either Syrup (refined from Sap) or Honey."
+			subtitle: "Quite the combination, wouldn't you say?"
+			description: [
+				"There is nothing else that would make one feel so alive: a plate of hot blins, and a great cat. "
+				""
+				"Who of us wouldn't like to have a plate of blins, and a cat nearby?"
+				""
+				"I have neither..."
+			]
 			dependencies: ["484335796DA3D55B"]
 			id: "7E0A31F3DB1BD4A7"
 			tasks: [{
@@ -550,8 +558,8 @@
 		}
 		{
 			title: "CHOCOLATE"
-			x: 4.5d
-			y: 0.0d
+			x: 5.5d
+			y: 0.5d
 			subtitle: "I remember when they invented chocolate..."
 			description: ["Make yourself a saucepan, and you can start cooking up Chocolate! This stuff is very useful for making Stamina Vessels (see Handy Tools quest chapter)."]
 			dependencies: ["484335796DA3D55B"]
@@ -794,6 +802,26 @@
 				id: "261AC46992388BE1"
 				type: "item"
 				item: "losttrinkets:rock_candy"
+			}]
+		}
+		{
+			title: "Delicious Rarebit"
+			x: 5.5d
+			y: -0.5d
+			subtitle: "Not to be confused with rabbits."
+			description: ["Rarebit is a Welsh dish, consisting of a hot cheese-based sauce served over slices of toasted bread."]
+			dependencies: ["484335796DA3D55B"]
+			id: "6AB9721BA54AEBA3"
+			tasks: [{
+				id: "5DA0CB7A1DD7AA4A"
+				type: "item"
+				item: "explorercraft:welsh_rarebit"
+			}]
+			rewards: [{
+				id: "6196A05E18BC6E76"
+				type: "item"
+				item: "minecraft:rabbit_spawn_egg"
+				count: 2
 			}]
 		}
 	]
