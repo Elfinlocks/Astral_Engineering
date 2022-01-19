@@ -156,4 +156,5 @@ events.listen('item.tags', function (event) {
 	event.get('forge:workbench').add('minecraft:crafting_table')
 	event.get('chisel:marble').add('explorercraft:marble')
     event.get('chisel:basalt').add('explorercraft:basalt')
+	event.get('curios:glasses').add('bountifulbaubles:sunglasses')
 })
