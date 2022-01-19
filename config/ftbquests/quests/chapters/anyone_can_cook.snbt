@@ -44,6 +44,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 3.0d
+			y: -3.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/entity_icon/cat/calico.png"
+			hover: ["Click here to learn more about blins and cats"]
+			click: "https://youtu.be/OgJIPP39pRI"
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -329,9 +341,9 @@
 				item: "supplementaries:pancake"
 			}]
 			rewards: [{
-				id: "58C94C063B38F241"
+				id: "785C6A4E911C80FA"
 				type: "item"
-				item: "minecraft:honey_bottle"
+				item: "minecraft:ocelot_spawn_egg"
 			}]
 		}
 		{
