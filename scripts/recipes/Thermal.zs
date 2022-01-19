@@ -6,6 +6,7 @@ craftingTable.removeRecipe(<item:thermal:dynamo_numismatic>);
 craftingTable.removeRecipe(<item:thermal:dynamo_lapidary>);
 <recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:thermal:smelter>.removeRecipe(<item:libvulpes:ingottitanium>);
+<recipetype:thermal:refinery>.removeByName("boss_tools_giselle_addon:compat/thermal/refinery/refinery_oil");
 
 craftingTable.addShaped("dynamo_compression", <item:thermal:dynamo_compression>, [
 	[<item:thermal:electrum_gear>, <item:thermal:rf_coil>, <item:thermal:electrum_gear>],
