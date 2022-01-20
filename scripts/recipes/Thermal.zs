@@ -13,6 +13,8 @@ craftingTable.addShaped("dynamo_compression", <item:thermal:dynamo_compression>,
 	[<item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>],
 	[<item:thermal:electrum_gear>, <item:thermal:rf_coil>, <item:thermal:electrum_gear>]]);
 	
+<recipetype:thermal:compression_fuel>.addFuel("rocket_fuel", <fluid:boss_tools:fuel> * 1000, 5000000);
+	
 craftingTable.addShaped("dynamo_magmatic", <item:thermal:dynamo_magmatic>, [
 	[<item:thermal:invar_gear>, <item:thermal:rf_coil>, <item:thermal:invar_gear>],
 	[<item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>],
