@@ -5,6 +5,7 @@ onEvent('recipes', event => {
 			group: 'minecraft:misc',
 			input: {fluid: fluid, amount: amount},
 			result: {item: result, count: count}
-		})
+		}).id('alchemistry_atomizer')
 	}
-atomizer('minecraft:lava', 500, 'chemlib:element_helium', 8)})
+atomizer('mekanism:hydrogen', 500, 'chemlib:element_hydrogen', 8)
+})
