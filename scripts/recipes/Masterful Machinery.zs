@@ -6,7 +6,7 @@ mods.jei.JEI.hideItem(<item:masterfulmachinery:electrolyser_gas_port_mekanism_ga
 
 craftingTable.addShaped("electrolyser_water_in", <item:masterfulmachinery:electrolyser_fluid_port_fluids_input>, [
 	[<item:immersiveengineering:plate_steel>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_steel>],
-	[<item:kubejs:integrated_circuit>, <item:pneumaticcraft:medium_tank>, <item:kubejs:integrated_circuit>],
+	[<item:kubejs:integrated_circuit>, <item:pneumaticcraft:medium_tank>.transformReplace(<item:minecraft:air>), <item:kubejs:integrated_circuit>],
 	[<item:immersiveengineering:plate_steel>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_steel>]]);
 
 craftingTable.addShaped("electrolyser_gas_out", <item:masterfulmachinery:electrolyser_gas_port_mekanism_gas_output>, [
@@ -61,7 +61,7 @@ craftingTable.addShaped("noc_gas_in", <item:masterfulmachinery:noc_gas_port_meka
 
 craftingTable.addShaped("noc_water_out", <item:masterfulmachinery:noc_fluid_port_fluids_output>, [
 	[<item:immersiveengineering:plate_aluminum>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:plate_aluminum>],
-	[<item:create:mechanical_pump>, <item:pneumaticcraft:medium_tank>, <item:create:mechanical_pump>],
+	[<item:create:mechanical_pump>, <item:pneumaticcraft:medium_tank>.transformReplace(<item:minecraft:air>), <item:create:mechanical_pump>],
 	[<item:immersiveengineering:plate_aluminum>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:plate_aluminum>]]);
 	
 craftingTable.addShaped("noc_pressure_in", <item:masterfulmachinery:noc_air_port_pncr_pressure_input>, [
@@ -92,7 +92,7 @@ craftingTable.addShaped("fuel_encap_item_out", <item:masterfulmachinery:fuel_enc
 	
 craftingTable.addShaped("fuel_encap_fuel_in", <item:masterfulmachinery:fuel_encap_fluid_port_fluids_input>, [
 	[<item:immersiveengineering:plate_aluminum>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:pneumaticcraft:medium_tank>, <item:mekanism:basic_control_circuit>],
+	[<item:mekanism:basic_control_circuit>, <item:pneumaticcraft:medium_tank>.transformReplace(<item:minecraft:air>), <item:mekanism:basic_control_circuit>],
 	[<item:immersiveengineering:plate_aluminum>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_aluminum>]]);
 	
 craftingTable.addShaped("fuel_encap_controller", <item:masterfulmachinery:fuel_encap_controller>, [

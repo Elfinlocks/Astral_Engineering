@@ -6,3 +6,5 @@ blastFurnace.addRecipe("bauxitetroll", <item:minecraft:cobblestone> * 2, <item:i
 furnace.addRecipe("bauxitememes", <item:minecraft:cobblestone>, <item:immersiveengineering:ore_aluminum>, 1.0, 30);
 
 mods.jei.JEI.addInfo(<item:immersiveengineering:ore_aluminum>, ["This is impure Aluminum, and must be Electrolysed to extract the pure ore.", "Pure Aluminum can be found elsewhere in the solar system."]);
+
+<item:immersiveengineering:ore_aluminum>.addTooltip("Impure Aluminum - will need electrolysis to purify it, in place of standard smelting.");

@@ -1544,5 +1544,24 @@
 				item: "boss_tools_giselle_addon:oxygen_can"
 			}]
 		}
+		{
+			title: "Something Extra"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Rocket fuel also works great as a high-output fuel!"
+			dependencies: ["7BA8EE4BE7271B3C"]
+			optional: true
+			id: "6C623872D667AC7E"
+			tasks: [{
+				id: "6B8AEEACF5DE49F1"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "43F299384F49D487"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
 	]
 }

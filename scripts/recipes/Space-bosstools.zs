@@ -162,12 +162,12 @@ craftingTable.addShaped("rocket_fin", <item:boss_tools:rocket_fin>, [
 	
 craftingTable.addShaped("iron_tank", <item:boss_tools:iron_tank>, [
 	[<item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:pneumaticcraft:medium_tank>, <item:mekanism:basic_control_circuit>],
+	[<item:mekanism:basic_control_circuit>, <item:pneumaticcraft:medium_tank>.transformReplace(<item:minecraft:air>), <item:mekanism:basic_control_circuit>],
 	[<item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>]]);
 	
 craftingTable.addShaped("golden_tank", <item:boss_tools:golden_tank>, [
 	[<item:boss_tools:desh_plate>, <item:boss_tools:desh_plate>, <item:boss_tools:desh_plate>],
-	[<item:mekanism:advanced_control_circuit>, <item:pneumaticcraft:large_tank>, <item:mekanism:advanced_control_circuit>],
+	[<item:mekanism:advanced_control_circuit>, <item:pneumaticcraft:large_tank>.transformReplace(<item:minecraft:air>), <item:mekanism:advanced_control_circuit>],
 	[<item:boss_tools:desh_plate>, <item:boss_tools:desh_plate>, <item:boss_tools:desh_plate>]]);
 	
 craftingTable.addShaped("diamond_tank", <item:boss_tools:diamond_tank>, [

@@ -1,3 +1,5 @@
+import crafttweaker.api.recipe.Replacer;
+
 craftingTable.removeRecipe(<item:pneumaticcraft:air_compressor>);
 craftingTable.removeRecipe(<item:pneumaticcraft:vortex_tube>);
 craftingTable.removeRecipe(<item:pneumaticcraft:thermopneumatic_processing_plant>);
@@ -26,7 +28,7 @@ craftingTable.addShaped("vortex_tube", <item:pneumaticcraft:vortex_tube>, [
 	
 craftingTable.addShaped("thermopneumatic_processing_plant", <item:pneumaticcraft:thermopneumatic_processing_plant>, [
 	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>],
-	[<item:pneumaticcraft:small_tank>, <item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:small_tank>],
+	[<item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>), <item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>)],
 	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>]]);
 	
 craftingTable.addShaped("heat_frame", <item:pneumaticcraft:heat_frame>, [
@@ -52,3 +54,5 @@ craftingTable.addShaped("prepared_circuit", <item:kubejs:prepared_circuit>, [
 	[<item:minecraft:air>, <item:thermal:signalum_gear>, <item:minecraft:air>],
 	[<item:mekanism:basic_control_circuit>, <item:create:polished_rose_quartz>, <item:mekanism:basic_control_circuit>],
 	[<item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>]]);
+	
+<recipetype:pneumaticcraft:fuel_quality>.addRecipe("rocket_fuel", <fluid:boss_tools:fuel> * 1, 2500, 2.0);
