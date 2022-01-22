@@ -30,4 +30,11 @@ atomizer('tconstruct:molten_gold', 500, 'chemlib:element_gold', 8)
 atomizer('tconstruct:molten_lead', 500, 'chemlib:element_lead', 8)
 atomizer('tconstruct:molten_uranium', 500, 'chemlib:element_uranium', 8)
 atomizer('materialis:molten_neptunium', 500, 'chemlib:element_neptunium', 8)
+
+// Compound Elements
+
+atomizer('mekanism:hydrogen_chloride', 500, 'chemlib:compound_hydrochloric_acid', 8)
+atomizer('mekanism:sulfur_dioxide', 500, 'chemlib:compound_sulfur_dioxide', 8)
+atomizer('mekanism:sulfuric_aicd', 500, 'chemlib:compound_sulfuric_acid', 8)
+atomizer('mekanism:sulfur_trioxide', 500, 'chemlib:compound_sulfur_trioxide', 8)
 })
