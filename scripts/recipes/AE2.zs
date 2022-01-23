@@ -26,6 +26,12 @@ craftingTable.removeRecipe(<item:appliedenergistics2:crafting_terminal>);
 craftingTable.addShapeless("crafting_card", <item:appliedenergistics2:crafting_card>, [<tag:items:forge:workbench>, <item:appliedenergistics2:basic_card>]);
 craftingTable.addShapeless("crafting_terminal", <item:appliedenergistics2:crafting_terminal>, [<item:appliedenergistics2:terminal>, <tag:items:forge:workbench>, <item:appliedenergistics2:calculation_processor>]);
 
+<recipetype:create:crushing>.addRecipe("pure_fluix_dust", [<item:appliedenergistics2:fluix_dust> % 100], <item:appliedenergistics2:purified_fluix_crystal>);
+
+<recipetype:thermal:pulverizer>.addRecipe("pulverizer_fluix_pure", [<item:appliedenergistics2:fluix_dust> % 100], <item:appliedenergistics2:purified_fluix_crystal>, 2, 4000);
+
+<recipetype:create:milling>.addRecipe("milling_fluix_pure", [<item:appliedenergistics2:fluix_dust> % 100], <item:appliedenergistics2:purified_fluix_crystal>);
+
 // Grindstone recipes 
 
 <recipetype:appliedenergistics2:grinder>.removeAll();
