@@ -4,12 +4,15 @@ mods.jei.JEI.hideItem(<item:mekanism:elite_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:creative_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:module_jetpack_unit>);
-
+craftingTable.removeRecipe(<item:mekanismgenerators:solar_generator>);
+craftingTable.removeRecipe(<item:mekanismgenerators:advanced_solar_generator>);
 craftingTable.removeRecipe(<item:mekanism:basic_fluid_tank>);
 craftingTable.removeRecipe(<item:mekanism:advanced_fluid_tank>);
 craftingTable.removeRecipe(<item:mekanism:elite_fluid_tank>);
 craftingTable.removeRecipe(<item:mekanism:ultimate_fluid_tank>);
 craftingTable.removeRecipe(<item:mekanism:creative_fluid_tank>);
+craftingTable.removeRecipe(<item:mekanism:chemical_washer>);
+craftingTable.removeRecipe(<item:mekanism:rotary_condensentrator>);
 craftingTable.removeRecipe(<item:mekanism:steel_casing>);
 craftingTable.removeRecipe(<item:mekanism:metallurgic_infuser>);
 craftingTable.removeRecipe(<item:mekanismgenerators:solar_panel>);
@@ -41,6 +44,16 @@ craftingTable.removeRecipe(<item:mekanism:configurator>);
 craftingTable.removeRecipe(<item:mekanism:electrolytic_separator>);
 craftingTable.removeRecipe(<item:mekanism:cardboard_box>);
 craftingTable.removeRecipe(<item:mekanism:pressurized_reaction_chamber>);
+
+craftingTable.addShaped("chemical_washer", <item:mekanism:chemical_washer>, [
+	[<tag:items:forge:ingots/refined_obsidian>, <item:pneumaticcraft:small_tank>, <tag:items:forge:ingots/refined_obsidian>],
+	[<item:mekanism:ultimate_control_circuit>, <item:thermal:machine_frame>, <item:mekanism:ultimate_control_circuit>],
+	[<tag:items:forge:ingots/refined_obsidian>, <item:mekanism:basic_chemical_tank>, <tag:items:forge:ingots/refined_obsidian>]]);
+	
+craftingTable.addShaped("rotary_condensentrator", <item:mekanism:rotary_condensentrator>, [
+	[<item:thermal:obsidian_glass>, <item:mekanism:basic_control_circuit>, <item:thermal:obsidian_glass>],
+	[<item:mekanism:basic_chemical_tank>, <item:mekanism:energy_tablet>, <item:pneumaticcraft:small_tank>],
+	[<item:thermal:obsidian_glass>, <item:mekanism:basic_control_circuit>, <item:thermal:obsidian_glass>]]);
 
 craftingTable.addShaped("pressurized_reaction_chamber", <item:mekanism:pressurized_reaction_chamber>, [
 	[<tag:items:forge:ingots/steel>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/steel>],
@@ -141,8 +154,18 @@ craftingTable.addShaped("metallurgic_infuser", <item:mekanism:metallurgic_infuse
 
 craftingTable.addShaped("solar_panel", <item:mekanismgenerators:solar_panel>, [
     [<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>],
-    [<item:immersiveengineering:plate_gold>, <item:mekanism:alloy_atomic>, <item:immersiveengineering:plate_gold>],
+    [<tag:items:forge:plates/electrum>, <item:mekanism:alloy_reinforced>, <tag:items:forge:plates/electrum>],
     [<item:mekanism:ingot_osmium>, <item:mekanism:ingot_osmium>, <item:mekanism:ingot_osmium>]]);
+	
+craftingTable.addShaped("solar_generator", <item:mekanismgenerators:solar_generator>, [
+	[<item:mekanismgenerators:solar_panel>, <item:mekanismgenerators:solar_panel>, <item:mekanismgenerators:solar_panel>],
+	[<item:mekanism:alloy_reinforced>, <item:kubejs:integrated_circuit>, <item:mekanism:alloy_reinforced>],
+	[<item:thermal:signalum_plate>, <item:thermal:signalum_plate>, <item:thermal:signalum_plate>]]);
+	
+craftingTable.addShaped("adv_solar_generator", <item:mekanismgenerators:advanced_solar_generator>, [
+	[<item:mekanismgenerators:solar_generator>, <item:thermal:machine_frame>, <item:mekanismgenerators:solar_generator>],
+	[<item:mekanismgenerators:solar_generator>, <item:thermal:machine_frame>, <item:mekanismgenerators:solar_generator>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
 craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generator>, [
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
