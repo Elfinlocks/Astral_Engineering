@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "chemlib:lamp_helium"
+    },
+    {
+      "tag": "forge:plates/nickel"
+    },
+    {
+      "tag": "forge:wires/electrum"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "category": "components",
+  "result": {
+    "item": "create:electron_tube",
+    "count": 6
+  }
+}

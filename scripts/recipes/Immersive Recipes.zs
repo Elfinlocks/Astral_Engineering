@@ -1,6 +1,16 @@
 import crafttweaker.api.villagers.VillagerTrades;
 import crafttweaker.api.item.IIngredient;
 
+// Removing unecessary vacuum tube recipes 
+
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_shield_flash>);
+craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
+craftingTable.removeRecipe(<item:immersiveengineering:electric_lantern>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_ie2>);
+craftingTable.removeRecipe(<item:immersiveengineering:floodlight>);
+craftingTable.removeRecipe(<item:immersiveengineering:logic_unit>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_electro>);
+
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:immersiveengineering:generator>);
@@ -170,9 +180,9 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 	[<tag:items:forge:paper>, <tag:items:forge:paper>, <tag:items:forge:paper>]]);	
 	
 <recipetype:create:mechanical_crafting>.addRecipe("railgun", <item:immersiveengineering:railgun>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:electron_tube>, <item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:wooden_grip>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:create:electron_tube>, <item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:wooden_grip>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:createaddition:capacitor>, <item:immersiveengineering:capacitor_hv>, <item:createaddition:brass_rod>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>],
-	[<item:minecraft:air>, <item:immersiveengineering:electron_tube>, <item:immersiveengineering:capacitor_hv>, <item:appliedenergistics2:engineering_processor>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:redstone" as string}), <item:createaddition:brass_rod>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:electron_tube>, <item:immersiveengineering:capacitor_hv>, <item:appliedenergistics2:engineering_processor>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:redstone" as string}), <item:createaddition:brass_rod>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:immersiveengineering:capacitor_hv>, <item:appliedenergistics2:engineering_processor>, <item:extendedcrafting:the_ultimate_ingot>, <item:thermal:enderium_gear>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:createaddition:brass_rod>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electrum" as string}), <item:thermal:enderium_gear>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:immersiveengineering:component_steel>, <item:thermal:lumium_gear>, <item:createaddition:brass_rod>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -215,3 +225,39 @@ villagerTrades.removeTradesSelling(<profession:immersiveengineering:engineer>, 3
 // Hammer and Pliers crafting 
 craftingTable.addShapeless("sawdust", <item:thermal:sawdust>, [<tag:items:minecraft:planks>, <item:immersiveengineering:hammer>.anyDamage()]);
 craftingTable.addShapeless("copper_wire", <item:createaddition:copper_wire>, [<tag:items:forge:plates/copper>, <item:immersiveengineering:wirecutter>.anyDamage()]);
+
+// Re-adding vacuum tube recipes 
+
+craftingTable.addShaped("flashbulb", <item:immersiveengineering:toolupgrade_shield_flash>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:glass_panes>, <tag:items:forge:plates/aluminum>],
+	[<tag:items:forge:glass_panes>, <item:create:electron_tube>, <tag:items:forge:glass_panes>]]);
+	
+craftingTable.addShaped("powered_lantern", <item:immersiveengineering:electric_lantern>, [
+	[<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
+	[<tag:items:forge:glass_panes>, <item:create:electron_tube>, <tag:items:forge:glass_panes>],
+	[<tag:items:forge:plates/iron>, <item:minecraft:redstone>, <tag:items:forge:plates/iron>]]);
+	
+craftingTable.addShaped("floodlight", <item:immersiveengineering:floodlight>, [
+	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>],
+	[<tag:items:forge:glass_panes>, <item:create:electron_tube>, <item:immersiveengineering:coil_lv>],
+	[<tag:items:forge:plates/iron>, <item:immersiveengineering:component_iron>, <tag:items:forge:plates/iron>]]);
+	
+craftingTable.addShaped("logic_unit", <item:immersiveengineering:logic_unit>, [
+	[<tag:items:forge:treated_wood>, <item:create:electron_tube>, <tag:items:forge:treated_wood>],
+	[<item:create:electron_tube>, <item:immersiveengineering:circuit_board>, <item:create:electron_tube>],
+	[<tag:items:forge:treated_wood>, <item:create:electron_tube>, <tag:items:forge:treated_wood>]]);
+	
+craftingTable.addShaped("amplifier_tubes", <item:immersiveengineering:toolupgrade_revolver_electro>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:create:electron_tube>, <item:create:electron_tube>, <item:create:electron_tube>],
+	[<tag:items:forge:rods/steel>, <tag:items:forge:wires/copper>, <tag:items:forge:rods/steel>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("cloche", <item:immersiveengineering:cloche>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:botania:elf_glass>, <item:create:electron_tube>, <item:botania:elf_glass>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>],
+	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <item:farmersdelight:rich_soil>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>],
+	[<tag:items:forge:treated_wood>, <item:thermal:machine_frame>, <item:immersiveengineering:logic_unit>, <item:thermal:machine_frame>, <tag:items:forge:treated_wood>]]);

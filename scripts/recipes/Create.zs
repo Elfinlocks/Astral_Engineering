@@ -1,3 +1,4 @@
+craftingTable.removeRecipe(<item:create:electron_tube>);
 craftingTable.removeRecipe(<item:createaddition:capacitor>);
 <recipetype:create:pressing>.removeRecipe(<item:create:iron_sheet>);
 craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
