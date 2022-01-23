@@ -120,10 +120,6 @@
 				"The Spice of Life mod keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health!"
 				""
 				"You can easily view what foods you have or have not eaten via a Food Book."
-				""
-				""
-				""
-				""
 			]
 			dependencies: ["4983D289845799E1"]
 			size: 1.5d
@@ -835,6 +831,44 @@
 				item: "minecraft:rabbit_spawn_egg"
 				count: 2
 			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "These handy upgrades will make using your kitchen a bit easier."
+			dependencies: ["267BDB02DD8DF18B"]
+			optional: true
+			id: "409149892A7FECA6"
+			tasks: [
+				{
+					id: "5C0BC9B4B8CD9F47"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "4FF6CF44706D2C88"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "102EA5B16BF4A79D"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "40B2F7C020151F6F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "669813AC736E7984"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }

@@ -1,4 +1,7 @@
-
+mods.jei.JEI.hideItem(<item:mekanism:basic_fluid_tank>);
+mods.jei.JEI.hideItem(<item:mekanism:advanced_fluid_tank>);
+mods.jei.JEI.hideItem(<item:mekanism:elite_fluid_tank>);
+mods.jei.JEI.hideItem(<item:mekanism:ultimate_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:creative_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:module_jetpack_unit>);
 
@@ -224,3 +227,21 @@ craftingTable.addShaped("mekasuit_boots", <item:mekanism:mekasuit_boots>, [
 	[<item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>],
 	[<item:mekanism:hdpe_sheet>, <item:mythicbotany:alfsteel_boots>, <item:mekanism:hdpe_sheet>],
 	[<item:mekanism:pellet_polonium>, <item:mekanism:basic_induction_cell>, <item:mekanism:pellet_polonium>]]);
+	
+// Energy Cube Changes
+
+craftingTable.removeRecipe(<item:mekanism:basic_energy_cube>);
+craftingTable.removeRecipe(<item:mekanism:advanced_energy_cube>);
+craftingTable.removeRecipe(<item:mekanism:elite_energy_cube>);
+craftingTable.removeRecipe(<item:mekanism:ultimate_energy_cube>);
+
+craftingTable.addShaped("basic_energy_cube", <item:mekanism:basic_energy_cube>, [
+	[<item:minecraft:redstone>, <item:mekanism:energy_tablet>.anyDamage(), <item:minecraft:redstone>],
+	[<tag:items:forge:ingots/lithium>, <item:immersiveengineering:capacitor_lv>, <tag:items:forge:ingots/lithium>],
+	[<item:minecraft:redstone>, <item:mekanism:energy_tablet>.anyDamage(), <item:minecraft:redstone>]]);
+	
+craftingTable.addShaped("advanced_energy_cube", <item:mekanism:advanced_energy_cube>, [
+	[<item:mekanism:enriched_redstone>, <item:mekanism:energy_tablet>.anyDamage(), <item:mekanism:enriched_redstone>],
+	[<tag:items:forge:ingots/lithium>, <item:immersiveengineering:capacitor_mv>, <tag:items:forge:ingots/lithium>],
+	[<item:mekanism:enriched_redstone>, <item:mekanism:energy_tablet>.anyDamage(), <item:mekanism:enriched_redstone>]]);
+	

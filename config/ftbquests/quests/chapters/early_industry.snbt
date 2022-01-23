@@ -500,6 +500,7 @@
 			}]
 		}
 		{
+			title: "Computer: Deactivate Iguana"
 			x: 12.0d
 			y: 3.5d
 			subtitle: "Computers can be programmed to suit your needs, and interface with a surprising amount of mods."
@@ -697,6 +698,7 @@
 			}]
 		}
 		{
+			title: "Your New Best Friend"
 			x: 13.5d
 			y: 3.5d
 			subtitle: "A projector is a valuable tool for quickly showing the exact layout for Immersive Engineering structures within the world."
@@ -907,6 +909,8 @@
 				"This thing sounds complicated, but it's not - one liquid goes in, different liquid comes out."
 				""
 				"From now on, this will be referred to as the TPP."
+				""
+				"If you haven't already, you will need to proceed down one of the oil refining quest lines as well to proceed."
 			]
 			min_required_dependencies: 2
 			dependencies: [
@@ -1779,6 +1783,32 @@
 				}
 				{
 					id: "43B026EC3E78839B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Heating Up"
+			x: 14.5d
+			y: 0.75d
+			subtitle: "A Heat Generator provides some very basic power generation, if you can get the fuel."
+			dependencies: ["4AADFD307A5BCF37"]
+			optional: true
+			id: "4DC544BA47129E60"
+			tasks: [{
+				id: "42A65F8E56D6EE0F"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "5253607E4CDF8F35"
+					type: "item"
+					item: "kubejs:integrated_circuit"
+				}
+				{
+					id: "13189D0F3F0508CB"
 					type: "xp"
 					xp: 100
 				}

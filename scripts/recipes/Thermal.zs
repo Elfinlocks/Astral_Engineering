@@ -1,3 +1,5 @@
+mods.jei.JEI.hideItem(<item:thermal:energy_cell>);
+craftingTable.removeRecipe(<item:thermal:energy_cell>);
 craftingTable.removeRecipe(<item:thermal:machine_frame>);
 craftingTable.removeRecipe(<item:thermal:dynamo_stirling>);
 craftingTable.removeRecipe(<item:thermal:dynamo_compression>);
