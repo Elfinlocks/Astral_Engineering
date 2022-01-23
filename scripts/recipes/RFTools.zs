@@ -3,9 +3,9 @@ craftingTable.removeRecipe(<item:rftoolsbase:machine_base>);
 craftingTable.removeRecipe(<item:rftoolsbuilder:builder>);
 
 craftingTable.addShaped("machine_frame", <item:rftoolsbase:machine_frame>, [
-	[<item:thermal:invar_gear>, <item:extendedcrafting:redstone_ingot>, <item:thermal:invar_gear>],
-	[<item:extendedcrafting:redstone_ingot>, <item:thermal:machine_frame>, <item:extendedcrafting:redstone_ingot>],
-	[<item:thermal:invar_gear>, <item:extendedcrafting:redstone_ingot>, <item:thermal:invar_gear>]]);
+	[<item:thermal:invar_gear>, <item:morered:red_alloy_ingot>, <item:thermal:invar_gear>],
+	[<item:morered:red_alloy_ingot>, <item:thermal:machine_frame>, <item:morered:red_alloy_ingot>],
+	[<item:thermal:invar_gear>, <item:morered:red_alloy_ingot>, <item:thermal:invar_gear>]]);
 	
 craftingTable.addShaped("machine_base", <item:rftoolsbase:machine_base>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],

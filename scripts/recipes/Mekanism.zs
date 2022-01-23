@@ -245,3 +245,12 @@ craftingTable.addShaped("advanced_energy_cube", <item:mekanism:advanced_energy_c
 	[<tag:items:forge:ingots/lithium>, <item:immersiveengineering:capacitor_mv>, <tag:items:forge:ingots/lithium>],
 	[<item:mekanism:enriched_redstone>, <item:mekanism:energy_tablet>.anyDamage(), <item:mekanism:enriched_redstone>]]);
 	
+craftingTable.addShaped("elite_energy_cube", <item:mekanism:elite_energy_cube>, [
+	[<item:morered:red_alloy_ingot>, <item:mekanism:energy_tablet>.anyDamage(), <item:morered:red_alloy_ingot>],
+	[<tag:items:forge:ingots/lithium>, <item:immersiveengineering:capacitor_hv>, <tag:items:forge:ingots/lithium>],
+	[<item:morered:red_alloy_ingot>, <item:mekanism:energy_tablet>.anyDamage(), <item:morered:red_alloy_ingot>]]);
+	
+craftingTable.addShaped("ultimate_energy_cube", <item:mekanism:ultimate_energy_cube>, [
+	[<item:mekanism:alloy_atomic>, <item:mekanism:energy_tablet>.anyDamage(), <item:mekanism:alloy_atomic>],
+	[<tag:items:forge:storage_blocks/lithium>, <item:mekanism:elite_energy_cube>, <tag:items:forge:storage_blocks/lithium>],
+	[<item:mekanism:alloy_atomic>, <item:mekanism:energy_tablet>.anyDamage(), <item:mekanism:alloy_atomic>]]);

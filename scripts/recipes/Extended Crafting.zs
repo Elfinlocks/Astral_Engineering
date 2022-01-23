@@ -1,5 +1,5 @@
 craftingTable.removeRecipe(<item:extendedcrafting:redstone_ingot>);
-
+mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_ingot>);
 craftingTable.removeRecipe(<item:extendedcrafting:black_iron_ingot>);
 
 craftingTable.addShaped("black_iron", <item:extendedcrafting:black_iron_ingot>, [
@@ -13,8 +13,6 @@ craftingTable.addShaped("black_frame", <item:extendedcrafting:frame>, [
 	[<item:extendedcrafting:black_iron_ingot>, <item:thermal:obsidian_glass>, <item:extendedcrafting:black_iron_ingot>],
 	[<item:thermal:obsidian_glass>, <item:botania:dreamwood>, <item:thermal:obsidian_glass>],
 	[<item:extendedcrafting:black_iron_ingot>, <item:thermal:obsidian_glass>, <item:extendedcrafting:black_iron_ingot>]]);
-
-<recipetype:thermal:smelter>.addRecipe("red_alloy", [<item:extendedcrafting:redstone_ingot> * 2 % 100], [<item:immersiveengineering:ingot_steel>, <item:mekanism:enriched_redstone>], 20, 500);
 
 craftingTable.removeRecipe(<item:extendedcrafting:luminessence>);
 
