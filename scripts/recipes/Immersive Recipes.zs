@@ -107,27 +107,27 @@ craftingTable.removeByName("mekanism:storage_blocks/steel");
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_charcoal", <tag:items:forge:charcoal>, 500, <item:mekanism:dust_charcoal>);
 
 
-craftingTable.addShaped("radiator_block", <item:immersiveengineering:radiator> * 2, [
+craftingTable.addShaped("radiator_block", <item:immersiveengineering:radiator> * 1, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:create:brass_sheet>, <item:immersiveengineering:sheetmetal_steel>],
     [<item:create:brass_sheet>, <item:mekanism:basic_control_circuit>, <item:create:brass_sheet>],
     [<item:immersiveengineering:sheetmetal_steel>, <item:create:brass_sheet>, <item:immersiveengineering:sheetmetal_steel>]]);
 
-craftingTable.addShaped("generator_block", <item:immersiveengineering:generator> * 2, [
+craftingTable.addShaped("generator_block", <item:immersiveengineering:generator> * 1, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:sheetmetal_steel>],
     [<item:immersiveengineering:plate_electrum>, <item:steampowered:alternator>, <item:immersiveengineering:plate_electrum>],
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:sheetmetal_steel>]]);
 
-craftingTable.addShaped("light_engineering_block", <item:immersiveengineering:light_engineering> * 4, [
+craftingTable.addShaped("light_engineering_block", <item:immersiveengineering:light_engineering> * 2, [
     [<item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:sheetmetal_iron>],
     [<item:immersiveengineering:component_iron>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:component_iron>],
     [<item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:sheetmetal_iron>]]);
 
-craftingTable.addShaped("heavy_engineering_block", <item:immersiveengineering:heavy_engineering> * 4, [
+craftingTable.addShaped("heavy_engineering_block", <item:immersiveengineering:heavy_engineering> * 2, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>],
     [<tag:items:forge:ingots/brass>, <item:kubejs:integrated_circuit>, <tag:items:forge:ingots/brass>],
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>]]);
 
-craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering:rs_engineering> * 4, [
+craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering:rs_engineering> * 2, [
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>]]);
