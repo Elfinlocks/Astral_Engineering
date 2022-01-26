@@ -168,10 +168,4 @@ event.replaceOutput({}, '#forge:storage_blocks/amethyst', '#forge:storage_blocks
 event.replaceOutput({}, '#forge:gems/apatite', 'thermal:apatite') 
 event.replaceOutput({}, 'boss_tools:chesse', 'pamhc2foodcore:cheeseitem')
 event.replaceOutput({}, '#forge:coal_coke', 'immersiveengineering:coal_coke') 
- 
-  
-// Rubber ==================================================================================================================
-  
-event.replaceOutput({}, '#forge:rubber', 'industrialforegoing:dryrubber') 
-event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber') 
 })

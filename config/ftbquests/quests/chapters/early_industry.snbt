@@ -134,7 +134,11 @@
 			x: 2.0d
 			y: 3.0d
 			subtitle: "These items are used to transfer and manipulate Rotational Force for powering contraptions."
-			description: ["Tip: Hold down W while looking at any Create item in JEI to Ponder. Doing this shows you a short \"cutscene\" that gives an overview of how the item in question works - its extremely useful!"]
+			description: [
+				"Tip: Hold down W while looking at any Create item in JEI to Ponder. Doing this shows you a short \"cutscene\" that gives an overview of how the item in question works - its extremely useful!"
+				""
+				"Get a source of rotational force online before proceeding. Your choices are outlined at the beginning of this chapter."
+			]
 			dependencies: ["3BD6D4ED98074251"]
 			id: "696CC33BB96232F5"
 			tasks: [
@@ -190,9 +194,9 @@
 		{
 			title: "Pressing Matters"
 			x: 2.0d
-			y: 0.0d
-			subtitle: "A Mechanical Press placed 2 blocks above a Depot allows you to turn Ingots into Plates."
-			dependencies: ["2807E15C7B1E4D22"]
+			y: 1.5d
+			subtitle: "A Mechanical Press can help you make many useful items."
+			dependencies: ["696CC33BB96232F5"]
 			id: "338596C4B0C1A8E5"
 			tasks: [
 				{
@@ -204,6 +208,11 @@
 					id: "71D680B583570783"
 					type: "item"
 					item: "create:depot"
+				}
+				{
+					id: "4260DE2410E52AF9"
+					type: "item"
+					item: "create:basin"
 				}
 			]
 			rewards: [
@@ -243,10 +252,10 @@
 		{
 			title: "Perfect Plates"
 			x: 4.0d
-			y: 0.0d
+			y: -4.5d
 			subtitle: "Smash some copper down into plates for the next step in this route."
 			description: ["You can also make these with an Engineer's Hammer."]
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2807E15C7B1E4D22"]
 			id: "5F68C4D92EF20E09"
 			tasks: [{
 				id: "3A4A271CA5FAE7EF"
@@ -263,10 +272,10 @@
 		{
 			title: "They See Me Rollin'"
 			x: 3.5d
-			y: -1.5d
+			y: -5.5d
 			subtitle: "A Rolling Mill can be used to create metal rods and wires."
 			description: ["If you haven't found any rods as loot to make a cast from, you will need to make one of these in order to create more rods."]
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2807E15C7B1E4D22"]
 			optional: true
 			id: "69DA94D714E296AC"
 			tasks: [{
@@ -283,7 +292,7 @@
 		{
 			title: "Automation Comes Early"
 			x: 8.0d
-			y: 0.0d
+			y: -4.5d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
 			dependencies: [
@@ -336,7 +345,7 @@
 		{
 			title: "Early Doubling!"
 			x: 6.0d
-			y: -1.5d
+			y: -6.0d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
 				"Tip: Crushers can be vertically or horizontally aligned. Keep this in mind when creating assembly lines!"
@@ -369,7 +378,7 @@
 				}
 			}
 			x: 6.0d
-			y: 0.0d
+			y: -4.5d
 			subtitle: "A Kiln can be used to combine some metals into alloys. Create it by right clicking a 2x2x2 cube of Kiln Bricks with an Engineer's Hammer."
 			description: [""]
 			dependencies: ["5F68C4D92EF20E09"]
@@ -680,9 +689,9 @@
 		{
 			title: "Putting Straw Golems Out of a Job"
 			x: 0.5d
-			y: -1.5d
+			y: -5.5d
 			subtitle: "A Harvester can be attached to a contraption to automatically harvest crops as it runs over them. A good start would be attaching these to blocks rotated around a Radial Chassis."
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2807E15C7B1E4D22"]
 			optional: true
 			id: "2AE34BAFE2B23647"
 			tasks: [{
@@ -1074,10 +1083,10 @@
 		{
 			title: "Mechanical Mobilization!"
 			x: 2.0d
-			y: 1.5d
+			y: -4.5d
 			subtitle: "Belts can be attached to two shafts to create conveyor belts - the faster the shafts are spinning, the faster the belt will move!"
 			description: ["Tip: These can be dyed to assist with organization!"]
-			dependencies: ["696CC33BB96232F5"]
+			dependencies: ["3EC21BD126A2320A"]
 			id: "2807E15C7B1E4D22"
 			tasks: [{
 				id: "28987DF8307F5CAF"
@@ -1498,8 +1507,8 @@
 		}
 		{
 			title: "Full Steam Ahead!"
-			x: 8.0d
-			y: -2.5d
+			x: 10.0d
+			y: -4.5d
 			subtitle: "We've got some basic industry going, let's kick this up a notch or two!"
 			description: ["The following quests will teach you how to create steam, and then use it to power steam engines!"]
 			dependencies: ["2BA7183800B331E0"]
@@ -1518,7 +1527,7 @@
 		}
 		{
 			title: "Boil 'Em, Mash 'Em...Wait, No"
-			x: 10.0d
+			x: 12.0d
 			y: -4.5d
 			subtitle: "A boiler will heat up water piped into it, when on top of a burning chamber."
 			dependencies: ["2559683F0335DB99"]
@@ -1546,7 +1555,7 @@
 			title: "Pump, Pump It Up!"
 			disable_toast: true
 			x: 2.0d
-			y: -2.5d
+			y: -6.5d
 			subtitle: "A pump is a great way to get fluids moving around."
 			description: [
 				"Simply attach a pump along the pipeline and provide rotational force!"
@@ -1555,7 +1564,7 @@
 				""
 				"Tip: You can reverse the direction of the mechanical pump with an engineer's wrench."
 			]
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2807E15C7B1E4D22"]
 			optional: true
 			id: "139213600D20C9FA"
 			tasks: [
@@ -1581,9 +1590,9 @@
 		{
 			title: "Stylish AND Functional!"
 			x: 0.0d
-			y: 0.0d
+			y: -4.5d
 			subtitle: "An Engineer's Wrench is your best friend for all things Create."
-			dependencies: ["338596C4B0C1A8E5"]
+			dependencies: ["2807E15C7B1E4D22"]
 			optional: true
 			id: "7773C57CB30240D5"
 			tasks: [{
@@ -1633,8 +1642,8 @@
 		}
 		{
 			title: "Upgrades, People - Upgrades!"
-			x: 13.5d
-			y: -4.5d
+			x: 14.0d
+			y: -3.5d
 			subtitle: "If you can spare the resources, you can really turn things up a notch."
 			description: ["The Cast Iron flywheel and engine setup has a stress capacity of 4096."]
 			dependencies: ["4B9454AF18012B10"]
@@ -1671,8 +1680,8 @@
 		}
 		{
 			title: "Industrially Revolutionizing"
-			x: 15.0d
-			y: -4.5d
+			x: 16.0d
+			y: -3.5d
 			shape: "gear"
 			subtitle: "A steel steam engine knocks the others out of the park!"
 			description: ["The Steel Flywheel and Engine can generate up to 9216su!"]
@@ -1815,6 +1824,33 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "The Foundation"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Rubber is a widely useful material - it will be worth the effort to automate!"
+			description: ["You may wish to make an Arboreal Extractor to ease with producing it."]
+			dependencies: ["338596C4B0C1A8E5"]
+			id: "38D0C9EF84083DE8"
+			tasks: [{
+				id: "68B3809EFBF6384E"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Cure the raw rubber in a furnace."
+			description: ["You can increase this output later with an Induction Smelter."]
+			dependencies: ["38D0C9EF84083DE8"]
+			id: "3EC21BD126A2320A"
+			tasks: [{
+				id: "6EE6525BBA713D5E"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
 		}
 	]
 }
