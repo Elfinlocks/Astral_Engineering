@@ -74,8 +74,6 @@
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
 	#No comment
-	do_puddle_creation = true
-	#No comment
 	tf_enforced_progression = true
 
 #Configs related to difficult changes
