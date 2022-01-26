@@ -22,7 +22,7 @@
 		loss = 0.05
 		#In- and output rates of copper wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 256
+		wireConnectorInput = 2048
 
 	[wires.electrum]
 		#The maximum length of electrum wires
@@ -36,7 +36,7 @@
 		loss = 0.025
 		#In- and output rates of electrum wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 1024
+		wireConnectorInput = 8192
 
 	[wires.hv]
 		#The maximum length of hv wires
@@ -50,7 +50,7 @@
 		loss = 0.025
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 4096
+		wireConnectorInput = 32768
 
 	[wires.rope]
 		#The maximum length of rope wires
