@@ -1556,6 +1556,7 @@
 				"Tip: You can reverse the direction of the mechanical pump with an engineer's wrench."
 			]
 			dependencies: ["338596C4B0C1A8E5"]
+			optional: true
 			id: "139213600D20C9FA"
 			tasks: [
 				{
@@ -1583,6 +1584,7 @@
 			y: 0.0d
 			subtitle: "An Engineer's Wrench is your best friend for all things Create."
 			dependencies: ["338596C4B0C1A8E5"]
+			optional: true
 			id: "7773C57CB30240D5"
 			tasks: [{
 				id: "37903313609D6F1A"

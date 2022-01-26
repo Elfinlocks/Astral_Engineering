@@ -1,0 +1,140 @@
+{
+	id: "5F0592A4A12A0D70"
+	group: "4E00F236C0BD2C6F"
+	order_index: 0
+	filename: "resource_production"
+	title: "Basic Resource Production"
+	icon: "create:chute"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: -4.0d
+			subtitle: "A brief overview."
+			description: ["This chapter explains the fundamentals of resource production in the pack. This will serve as a guide for getting some basic blocks!"]
+			size: 1.5d
+			id: "4CD4BF97E68271B1"
+			tasks: [{
+				id: "43861C34C9A57604"
+				type: "checkmark"
+				title: "How To Use This Chapter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["4CD4BF97E68271B1"]
+			id: "20D75CE5580B63B7"
+			tasks: [{
+				id: "13017BB7B5FDA18A"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["20D75CE5580B63B7"]
+			id: "1AD54946E35487CD"
+			tasks: [{
+				id: "2374CD4ECF9A0466"
+				type: "item"
+				item: "minecraft:stripped_oak_log"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["1AD54946E35487CD"]
+			id: "2232C77AF08783EA"
+			tasks: [{
+				id: "72F0D96573315075"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["4CD4BF97E68271B1"]
+			id: "4FE7AC80B0EE9611"
+			tasks: [{
+				id: "46485B5677623C8B"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["4FE7AC80B0EE9611"]
+			id: "2063177D66566E40"
+			tasks: [{
+				id: "265DD21E7DB13662"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["2063177D66566E40"]
+			id: "6CF4B3227E3DB10C"
+			tasks: [{
+				id: "3812F0C1E6BDEB1B"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2063177D66566E40"]
+			id: "27F13C4C2D8727BB"
+			tasks: [{
+				id: "19347092802C1045"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["27F13C4C2D8727BB"]
+			id: "0D5A81EC2D7FBFC4"
+			tasks: [{
+				id: "4E198D4C9376E091"
+				type: "item"
+				item: "create:limesand"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["0D5A81EC2D7FBFC4"]
+			id: "668FF7BA10638608"
+			tasks: [{
+				id: "719317170E538689"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["6CF4B3227E3DB10C"]
+			id: "46F9B866B642662D"
+			tasks: [{
+				id: "6E4D47B504A11AD5"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+	]
+}

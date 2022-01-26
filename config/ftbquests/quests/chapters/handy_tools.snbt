@@ -1544,7 +1544,7 @@
 		}
 		{
 			title: "Your Best Building Friend"
-			x: -6.0d
+			x: -2.0d
 			y: -6.0d
 			subtitle: "The iChisel makes converting blocks extremely easy!"
 			id: "0E107FF2A7C10FE1"
@@ -1575,7 +1575,7 @@
 		}
 		{
 			title: "No, The Other One"
-			x: -4.0d
+			x: 2.0d
 			y: -6.0d
 			subtitle: "Your other best building friend, for the detailers!"
 			id: "6B6F5B124E49520F"
@@ -1812,6 +1812,31 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "An Engineer's Best Friend"
+			icon: "create:brown_toolbox"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "A Toolbox offers a portable and convenient place to store all of your mechanical components!"
+			id: "66EC2CC70F572BCE"
+			tasks: [{
+				id: "37DF5431687964B0"
+				type: "item"
+				title: "Any #create:toolboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E5A7E8CBCC5922D"
+				type: "item"
+				item: "create:wrench"
+			}]
 		}
 	]
 }
