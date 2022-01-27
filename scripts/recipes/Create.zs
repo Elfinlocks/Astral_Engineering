@@ -134,7 +134,7 @@ craftingTable.addShaped("steel_boiler", <item:steampowered:steel_boiler>, [
     .loops(1)
     .addOutput(<item:kubejs:integrated_circuit>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:lapis_gear>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:morered:red_alloy_ingot>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 	

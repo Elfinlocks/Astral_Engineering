@@ -1,5 +1,7 @@
 mods.jei.JEI.hideItem(<item:thermal:energy_cell>);
 mods.jei.JEI.hideItem(<item:thermal:fluid_cell>);
+craftingTable.removeRecipe(<item:thermal:redstone_servo>);
+craftingTable.removeRecipe(<item:thermal:device_tree_extractor>);
 craftingTable.removeRecipe(<item:thermal:energy_cell>);
 craftingTable.removeRecipe(<item:thermal:fluid_cell>);
 craftingTable.removeRecipe(<item:thermal:machine_frame>);
@@ -11,6 +13,16 @@ craftingTable.removeRecipe(<item:thermal:dynamo_lapidary>);
 <recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:thermal:smelter>.removeRecipe(<item:libvulpes:ingottitanium>);
 <recipetype:thermal:refinery>.removeByName("boss_tools_giselle_addon:compat/thermal/refinery/refinery_oil");
+
+craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [
+	[<item:minecraft:redstone>, <item:minecraft:air>, <item:minecraft:redstone>],
+	[<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
+	[<item:minecraft:redstone>, <item:minecraft:air>, <item:minecraft:redstone>]]);
+	
+craftingTable.addShaped("arboreal_extractor", <item:thermal:device_tree_extractor>, [
+	[<tag:items:forge:treated_wood>, <item:thermal:iron_gear>, <tag:items:forge:treated_wood>],
+	[<tag:items:forge:plates/copper>, <item:minecraft:bucket>, <tag:items:forge:plates/copper>],
+	[<tag:items:forge:treated_wood>, <item:thermal:redstone_servo>, <tag:items:forge:treated_wood>]]);
 
 craftingTable.addShaped("dynamo_compression", <item:thermal:dynamo_compression>, [
 	[<item:thermal:electrum_gear>, <item:thermal:rf_coil>, <item:thermal:electrum_gear>],

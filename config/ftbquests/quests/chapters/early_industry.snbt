@@ -59,6 +59,7 @@
 		}
 		{
 			title: "Windmill, Windmill, For The Land..."
+			icon: "create:windmill_bearing"
 			x: -1.5d
 			y: 6.5d
 			subtitle: "A Windmill can provide you with large amounts of Rotational Force, used to power later machines."
@@ -131,6 +132,7 @@
 		}
 		{
 			title: "Working with Rotational Force"
+			icon: "create:large_cogwheel"
 			x: 2.0d
 			y: 3.0d
 			subtitle: "These items are used to transfer and manipulate Rotational Force for powering contraptions."
@@ -167,6 +169,7 @@
 		}
 		{
 			title: "Mixing Things Up"
+			icon: "create:mechanical_mixer"
 			x: 0.0d
 			y: 3.0d
 			subtitle: "A Mechanical Mixer placed 2 blocks above a Basin allows for blending a variety of items together. Some recipes may require heat."
@@ -193,6 +196,7 @@
 		}
 		{
 			title: "Pressing Matters"
+			icon: "create:mechanical_press"
 			x: 2.0d
 			y: 1.5d
 			subtitle: "A Mechanical Press can help you make many useful items."
@@ -291,6 +295,7 @@
 		}
 		{
 			title: "Automation Comes Early"
+			icon: "create:mechanical_crafter"
 			x: 8.0d
 			y: -4.5d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
@@ -417,6 +422,7 @@
 		}
 		{
 			title: "Manipulating Electricity"
+			icon: "immersiveengineering:wirecoil_copper"
 			x: 17.0d
 			y: 0.0d
 			subtitle: "You have power, but now you need a way to transfer it. These should get the job done."
@@ -530,6 +536,7 @@
 		}
 		{
 			title: "Engineering Blocks!"
+			icon: "immersiveengineering:light_engineering"
 			x: 14.5d
 			y: 2.0d
 			subtitle: "Engineering Blocks will be used as a component to construct large yet powerful machines."
@@ -777,6 +784,7 @@
 		}
 		{
 			title: "Refined Processing"
+			icon: "pneumaticcraft:refinery_output"
 			x: 18.5d
 			y: 5.0d
 			subtitle: "Next, we'll need some refining components..."
@@ -1201,6 +1209,7 @@
 		}
 		{
 			title: "Controlled Smelting"
+			icon: "tconstruct:smeltery_controller"
 			x: 8.0d
 			y: 3.0d
 			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
@@ -1237,6 +1246,7 @@
 		}
 		{
 			title: "Casting Your Metal"
+			icon: "tconstruct:seared_basin"
 			x: 8.0d
 			y: 4.5d
 			subtitle: "Next, we need casting materials."
@@ -1553,6 +1563,7 @@
 		}
 		{
 			title: "Pump, Pump It Up!"
+			icon: "create:mechanical_pump"
 			disable_toast: true
 			x: 2.0d
 			y: -6.5d
@@ -1609,6 +1620,7 @@
 		}
 		{
 			title: "Blowing Off Steam"
+			icon: "steampowered:bronze_flywheel"
 			x: 12.0d
 			y: -2.5d
 			subtitle: "Pump your steam into an engine, hook it up to a flywheel, and watch the magic!"
@@ -1642,6 +1654,7 @@
 		}
 		{
 			title: "Upgrades, People - Upgrades!"
+			icon: "steampowered:cast_iron_flywheel"
 			x: 14.0d
 			y: -3.5d
 			subtitle: "If you can spare the resources, you can really turn things up a notch."
@@ -1680,6 +1693,7 @@
 		}
 		{
 			title: "Industrially Revolutionizing"
+			icon: "steampowered:steel_flywheel"
 			x: 16.0d
 			y: -3.5d
 			shape: "gear"
@@ -1850,6 +1864,25 @@
 				id: "6EE6525BBA713D5E"
 				type: "item"
 				item: "thermal:cured_rubber"
+			}]
+		}
+		{
+			title: "Arboreal Automation"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "Passive resin collection can greatly help with producing rubber."
+			dependencies: ["38D0C9EF84083DE8"]
+			optional: true
+			id: "6F4A60ED8BAB2CAD"
+			tasks: [{
+				id: "69C424098C88805B"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "1F6693E4A26A5DD2"
+				type: "item"
+				item: "thermal:resin_bucket"
 			}]
 		}
 	]
