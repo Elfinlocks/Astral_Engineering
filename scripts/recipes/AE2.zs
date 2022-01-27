@@ -90,7 +90,7 @@ craftingTable.addShaped("wooden_gear", <item:appliedenergistics2:wooden_gear>, [
     .loops(2)
     .addOutput(<item:appliedenergistics2:logic_processor>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:integrated_circuit>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:mekanism:enriched_redstone>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 	
@@ -104,7 +104,7 @@ craftingTable.addShaped("wooden_gear", <item:appliedenergistics2:wooden_gear>, [
     .loops(2)
     .addOutput(<item:appliedenergistics2:calculation_processor>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:integrated_circuit>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:mekanism:enriched_redstone>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 	
@@ -118,15 +118,15 @@ craftingTable.addShaped("wooden_gear", <item:appliedenergistics2:wooden_gear>, [
     .loops(2)
     .addOutput(<item:appliedenergistics2:engineering_processor>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:integrated_circuit>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:mekanism:enriched_redstone>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 	
 // ME Controller
 
 <recipetype:create:mechanical_crafting>.addRecipe("me_controller", <item:appliedenergistics2:controller>, [
-	[<item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>],
+	[<item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>, <item:thermal:cured_rubber_block>, <item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>],
 	[<item:immersiveengineering:plate_aluminum>, <item:kubejs:compounded_plastic>, <item:mekanism:basic_control_circuit>, <item:kubejs:compounded_plastic>, <item:immersiveengineering:plate_aluminum>],
-	[<item:immersiveengineering:plate_aluminum>, <item:appliedenergistics2:fluix_pearl>, <item:appliedenergistics2:engineering_processor>, <item:appliedenergistics2:fluix_pearl>, <item:immersiveengineering:plate_aluminum>],
+	[<item:thermal:cured_rubber_block>, <item:appliedenergistics2:fluix_pearl>, <item:appliedenergistics2:engineering_processor>, <item:appliedenergistics2:fluix_pearl>, <item:thermal:cured_rubber_block>],
 	[<item:immersiveengineering:plate_aluminum>, <item:kubejs:compounded_plastic>, <item:mekanism:basic_control_circuit>, <item:kubejs:compounded_plastic>, <item:immersiveengineering:plate_aluminum>],
-	[<item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>]]);
+	[<item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>, <item:thermal:cured_rubber_block>, <item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>]]);

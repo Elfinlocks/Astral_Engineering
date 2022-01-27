@@ -31,6 +31,7 @@ craftingTable.removeRecipe(<item:boss_tools:iron_engine>);
 craftingTable.removeRecipe(<item:boss_tools:golden_engine>);
 craftingTable.removeRecipe(<item:boss_tools:diamond_engine>);
 craftingTable.removeRecipe(<item:boss_tools:water_pump>);
+craftingTable.removeRecipe(<item:boss_tools:wheel>);
 
 // Giselle Addon Adjustments
 
@@ -46,6 +47,13 @@ craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normali
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:press_compressing_die>);
 mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:press_compressing_die>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:oxygen_can>);
+
+// Recipe Changes
+
+craftingTable.addShaped("wheels", <item:boss_tools:wheel>, [
+	[<item:thermal:cured_rubber>, <tag:items:forge:slimeballs>, <item:thermal:cured_rubber>],
+	[<tag:items:forge:slimeballs>, <tag:items:forge:plates/steel>, <tag:items:forge:slimeballs>],
+	[<item:thermal:cured_rubber>, <tag:items:forge:slimeballs>, <item:thermal:cured_rubber>]]);
 
 craftingTable.addShaped("oxygen_canister", <item:boss_tools_giselle_addon:oxygen_can>, [
 	[<item:minecraft:air>, <tag:items:forge:rods/aluminum>, <item:minecraft:air>],

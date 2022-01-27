@@ -1275,7 +1275,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.5d
 			y: 3.0d
 			subtitle: "Materials and You is a comprehensive guide to all of the neat modifiers available from Tinkers Construct for your tools."
 			dependencies: ["4EB25C20BB94A8BB"]
@@ -1294,7 +1294,7 @@
 		}
 		{
 			title: "ACME Anvils"
-			x: 6.0d
+			x: 6.5d
 			y: 3.0d
 			subtitle: "The creator of this modpack is not responsible for any harm done by such anvils to cartoon critters."
 			description: ["A Tinker's Anvil can be used to create much more powerful tools, such as the broadaxe, excavator, and more."]

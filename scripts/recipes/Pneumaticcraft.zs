@@ -51,7 +51,7 @@ mods.jei.JEI.addInfo(<item:kubejs:prepared_circuit>, ["All of the essential comp
 <recipetype:pneumaticcraft:assembly_laser>.addRecipe("xion_to_exotronic", <item:tardis:xion_crystal>, <item:tardis:circuits> * 1);
 
 craftingTable.addShaped("prepared_circuit", <item:kubejs:prepared_circuit>, [
-	[<item:minecraft:air>, <item:thermal:signalum_gear>, <item:minecraft:air>],
+	[<item:thermal:cured_rubber>, <item:thermal:signalum_gear>, <item:thermal:cured_rubber>],
 	[<item:mekanism:basic_control_circuit>, <item:create:polished_rose_quartz>, <item:mekanism:basic_control_circuit>],
 	[<item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>]]);
 	
