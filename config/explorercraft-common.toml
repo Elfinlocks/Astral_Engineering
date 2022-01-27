@@ -19,13 +19,13 @@
 	spawnAmethyst = true
 	#Size of Marble vein generated all over the Overworld
 	#Range: 0 ~ 64
-	marbleVeinSizeInOverworld = 20
+	marbleVeinSizeInOverworld = 0
 	#Sets the max stack size for cawl
 	#Range: 1 ~ 64
 	cawlStackSize = 16
 	#Chance of spawning Marble in the Overworld
 	#Range: 0 ~ 100
-	marbleChanceInOverworld = 10
+	marbleChanceInOverworld = 0
 	#Size of Slate vein in the Snowdonia
 	#Range: 0 ~ 64
 	slateVeinSizeInSnowdonia = 44
@@ -34,16 +34,16 @@
 	slateChanceInSnowdonia = 40
 	#Size of Marble vein in the Forested Mountain biome
 	#Range: 0 ~ 64
-	marbleVeinSizeInForestedMountains = 64
+	marbleVeinSizeInForestedMountains = 0
 	#Allow noctilucas to spawn naturally in the world
-	spawnNoctilucas = true
+	spawnNoctilucas = false
 	#Spawn Snowdonia biome in Overworld
 	spawnSnowdonia = true
 	#Chance of spawning Basalt in the Overworld
 	#Range: 0 ~ 100
-	basaltChanceInOverworld = 10
+	basaltChanceInOverworld = 0
 	#Spawn slimey caves in Overworld
-	spawnSpawnChunkCaves = true
+	spawnSpawnChunkCaves = false
 	#Allow Horses to swim - (They wont buck you off if in deep water)
 	swimmingHorse = true
 	#Spawn Slate in Snowdonia (has a much higher ratio)
@@ -52,28 +52,28 @@
 	spawnTempleRuins = true
 	#Snowdonia rarity - Higher equals more frequent
 	#Range: 0 ~ 100
-	snowdoniaRarity = 2
+	snowdoniaRarity = 4
 	#Forested Mountain rarity - Higher equals more frequent
 	#Range: 0 ~ 100
-	forestedMountainRarity = 5
+	forestedMountainRarity = 3
 	#Chance of spawning Marble in the Forested Mountain biome
 	#Range: 0 ~ 100
-	marbleChanceInForestedMountains = 60
+	marbleChanceInForestedMountains = 0
 	#Spawn extra coal ore in Snowdonia
 	spawnExtraCoalOre = true
 	#Spawn Marble in Forested Mountain (has a much higher ratio)
-	spawnMarbleInForestedMountains = true
+	spawnMarbleInForestedMountains = false
 	#Size of Basalt vein generated all over the Overworld
 	#Range: 0 ~ 64
-	basaltVeinSizeInOverworld = 33
+	basaltVeinSizeInOverworld = 0
 	#Spawn Ruby in the Forested Mountains
 	spawnRuby = true
 	#Spawn Marble in Overworld
-	spawnMarbleInOverworld = true
+	spawnMarbleInOverworld = false
 	#Spawn extra gold ore in Snowdonia
 	spawnExtraGoldOre = true
 	#Spawn Basalt in Overworld
-	spawnBasaltInOverworld = true
+	spawnBasaltInOverworld = false
 	#Spawn Forested Mountains in Overworld
 	spawnForestedMountain = true
 
