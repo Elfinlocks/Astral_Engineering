@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "forge:wires/electrum"
+    },
+    {
+      "item": "thermal:cured_rubber"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "category": "components",
+  "result": {
+    "item": "pneumaticcraft:transistor",
+    "count": 1
+  }
+}

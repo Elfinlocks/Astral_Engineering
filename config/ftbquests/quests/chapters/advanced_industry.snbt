@@ -36,8 +36,8 @@
 		}
 		{
 			title: "Logistical Solutions"
-			x: -8.0d
-			y: 2.0d
+			x: -9.0d
+			y: 1.5d
 			subtitle: "Mekanism offers several different solutions for transferring energy, gases, items, and fluids."
 			description: [""]
 			dependencies: ["09812AE1E82D15C5"]
@@ -740,7 +740,7 @@
 					spell: { }
 				}
 			}
-			x: -5.5d
+			x: -7.5d
 			y: 2.0d
 			subtitle: "The Arc Furnace is capable of recycling unwanted gear, and is needed to make powerful materials and alloys."
 			dependencies: ["09812AE1E82D15C5"]
@@ -859,8 +859,8 @@
 		}
 		{
 			title: "The Power of The Sun"
-			x: -6.75d
-			y: 3.0d
+			x: -8.5d
+			y: -2.0d
 			subtitle: "In the palm of your hand."
 			dependencies: ["09812AE1E82D15C5"]
 			optional: true
@@ -874,6 +874,170 @@
 				id: "389723AF410A824D"
 				type: "item"
 				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:assembly_platform"
+			x: -4.0d
+			y: 2.0d
+			subtitle: "This optional quest chain will teach you some tricks for advanced automation!"
+			description: ["Feel free to consult your PneumaticCraft manual during this process for additional information."]
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "494397B38532DCE7"
+			tasks: [{
+				id: "229E142B1763673F"
+				type: "checkmark"
+				title: "Pneumatic Assembly!"
+			}]
+		}
+		{
+			title: "Beginning With Basics"
+			icon: "pneumaticcraft:unassembled_pcb"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Some first-step crafting to get things started."
+			description: [
+				"Before you can really kick off producing massive assembly lines, you need to make some basic components."
+				""
+				"Start with some unassembled PCBs, as well as a bucket or two of etching acid."
+			]
+			dependencies: ["494397B38532DCE7"]
+			optional: true
+			id: "403E69BA7138BC3A"
+			tasks: [
+				{
+					id: "66B4DB47AF6E7861"
+					type: "item"
+					item: "pneumaticcraft:etching_acid_bucket"
+				}
+				{
+					id: "3D06F9E3A674EED1"
+					type: "item"
+					item: "pneumaticcraft:unassembled_pcb"
+				}
+			]
+			rewards: [{
+				id: "64D36005D009A070"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+				count: 3
+			}]
+		}
+		{
+			title: "Etch-A-Sketch"
+			icon: "pneumaticcraft:etching_tank"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Next, some small machines are needed."
+			description: [
+				"First, place the PCBs in a UV Light Box. The greater their exposure, the more likely it is that the etching process will succeed."
+				""
+				"Once you believe you have a good shot at it, fill the Etching Tank with acid, and place up to 25 Empty PCBs inside."
+				""
+				"Don't worry - you can recycle failed etches!"
+			]
+			dependencies: ["403E69BA7138BC3A"]
+			optional: true
+			id: "7C2E4134FD7C4633"
+			tasks: [
+				{
+					id: "01387748529A98E0"
+					type: "item"
+					item: "pneumaticcraft:etching_tank"
+				}
+				{
+					id: "41BCF285BD86F190"
+					type: "item"
+					item: "pneumaticcraft:uv_light_box"
+				}
+			]
+			rewards: [
+				{
+					id: "6FE8734B99791CE0"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 3
+				}
+				{
+					id: "5D49ABFFF0A8F78E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Assembling!"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Make six assembled PCBs to continue!"
+			description: [""]
+			dependencies: ["7C2E4134FD7C4633"]
+			optional: true
+			id: "01C9B87C93A52A02"
+			tasks: [{
+				id: "511F4455B3D500D1"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+				count: 6L
+			}]
+			rewards: [{
+				id: "390271CBB61E1867"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+				count: 2
+			}]
+		}
+		{
+			title: "Assembly Line Go!"
+			icon: "pneumaticcraft:assembly_controller"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Make all of these assembly line pieces to get rolling!"
+			description: [
+				"Congratulations! You now have access to streamlined methods of crafting advanced components like circuitry and electrodes!"
+				""
+				"The details of the assembly system are a bit too extensive to fit into this quest description - consult your PneumaticCraft manual for further reading."
+			]
+			dependencies: ["01C9B87C93A52A02"]
+			optional: true
+			id: "4CC12FC67445BF4C"
+			tasks: [
+				{
+					id: "529E34311D9EBAF6"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "707FB8CF35E2FE4B"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "55510C125E70BE91"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "6FAD88AF16FC273C"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "214DB4DCEC1D7101"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "4D23BBA3EE02C740"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+			]
+			rewards: [{
+				id: "73E52AD63E22042B"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

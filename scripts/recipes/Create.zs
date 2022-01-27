@@ -17,7 +17,7 @@ craftingTable.addShaped("shadow_casing", <item:create:shadow_steel_casing> *2, [
 craftingTable.addShaped("capacitor", <item:createaddition:capacitor>, [
     [<tag:items:forge:dusts/nickel>, <tag:items:forge:plates/zinc>, <tag:items:forge:dusts/nickel>],
     [<tag:items:forge:plates/iron>, <tag:items:forge:plates/electrum>, <tag:items:forge:plates/iron>],
-    [<item:minecraft:air>, <item:minecraft:redstone_torch>, <item:minecraft:air>]]);
+    [<item:thermal:cured_rubber>, <item:minecraft:redstone_torch>, <item:thermal:cured_rubber>]]);
 
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);

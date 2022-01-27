@@ -180,7 +180,7 @@ craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generato
     .loops(2)
     .addOutput(<item:mekanism:advanced_control_circuit>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:integrated_circuit>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:libvulpes:gemdilithium>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 	
@@ -190,7 +190,7 @@ craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generato
     .loops(2)
     .addOutput(<item:mekanism:elite_control_circuit>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:kubejs:integrated_circuit>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:libvulpes:platesilicon>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 
@@ -200,9 +200,9 @@ craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generato
     .loops(3)
     .addOutput(<item:mekanism:ultimate_control_circuit>, 1)
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:mekanism:alloy_atomic>))
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:libvulpes:plateiridium>))
-	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:thermal:cured_rubber>))
 	.addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:libvulpes:platetitanium>))
 	.addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 
