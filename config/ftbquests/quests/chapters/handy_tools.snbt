@@ -1265,6 +1265,7 @@
 			subtitle: "The Structure Compass....finds structures, what did you think?"
 			description: ["This tool is extremely useful, and due to this is not cheap, sorry!"]
 			dependencies: ["462CAAE1D6B399C0"]
+			hide: false
 			id: "629C0338B5449F17"
 			tasks: [{
 				id: "5EC762EBDC531A21"
@@ -1284,6 +1285,7 @@
 			subtitle: "A handy little pouch to access your items."
 			description: ["EnderPouches are a mobile type of EnderStorage. You can use an EnderPouch on any EnderChest to change the pouch color code to match that of the chest. EnderPouches access the same inventory as their EnderChest counterparts, allowing easy access to your base resources right from your inventory."]
 			dependencies: ["539D2A826813BA8B"]
+			hide: false
 			id: "58E0D0709E59E591"
 			tasks: [{
 				id: "3893268AE29F5104"
@@ -1306,6 +1308,7 @@
 				"EnderChests work as any other chest for the purposes of blocks that manipulate chests contents. This makes EnderChests an ideal way to transport items over vast distances in an instant."
 			]
 			dependencies: ["539D2A826813BA8B"]
+			hide: false
 			id: "28E023A238D05F15"
 			tasks: [{
 				id: "615CC822E3B587A2"
@@ -1324,6 +1327,7 @@
 			y: -4.0d
 			description: ["EnderTanks work on the same principal of EnderChests, but store liquids."]
 			dependencies: ["539D2A826813BA8B"]
+			hide: false
 			id: "525204FEF8F05D75"
 			tasks: [{
 				id: "4856633161BD6BA9"
@@ -1343,6 +1347,7 @@
 			subtitle: "Exchangers offer a quick and easy way to mine up ores."
 			description: ["Exchangers can also be upgraded, all the way to the End-tier exchanger, which is capable of mining any ore!"]
 			dependencies: ["0B24A252AF995334"]
+			hide: false
 			id: "4C68FFBB09DED9F7"
 			tasks: [{
 				id: "5301C93362E7E09A"
@@ -1407,6 +1412,7 @@
 			y: -4.0d
 			subtitle: "The RFTools Builder is an incredibly powerful device, with a variety of applications."
 			dependencies: ["3AED57EBD34E6829"]
+			hide: false
 			id: "1FD63270324ABCDE"
 			tasks: [{
 				id: "33019D68E6796DA6"

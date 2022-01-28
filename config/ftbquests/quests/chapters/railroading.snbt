@@ -1205,7 +1205,6 @@
 			subtitle: "You're about to get into some serious industry!"
 			description: ["I recommend getting your steel production into a good position, or even automated entirely, before truly digging into this chapter - you will need a lot of it!"]
 			dependencies: ["031023A8EA6FD4D0"]
-			hide: true
 			size: 1.5d
 			id: "51A685EBAB18D29D"
 			tasks: [{

@@ -20,7 +20,6 @@
 				"Note: You will need to progress through magic as well, in order to complete this chapter."
 			]
 			dependencies: ["120F2353F2110106"]
-			hide: true
 			size: 1.5d
 			id: "09812AE1E82D15C5"
 			tasks: [{
