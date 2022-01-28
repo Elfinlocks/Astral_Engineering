@@ -36,8 +36,8 @@
 		}
 		{
 			title: "Logistical Solutions"
-			x: -9.0d
-			y: 1.5d
+			x: -8.25d
+			y: 1.25d
 			subtitle: "Mekanism offers several different solutions for transferring energy, gases, items, and fluids."
 			description: [""]
 			dependencies: ["09812AE1E82D15C5"]
@@ -99,8 +99,8 @@
 		}
 		{
 			title: "Advanced Engineering Blocks"
-			x: 5.5d
-			y: -1.5d
+			x: 4.5d
+			y: -2.0d
 			subtitle: "These blocks will be used to construct powerful multiblock machines, such as the Excavator or Diesel Generator."
 			dependencies: ["3AED57EBD34E6829"]
 			optional: true
@@ -134,7 +134,7 @@
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
 			x: 7.5d
-			y: 0.5d
+			y: -2.5d
 			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk."
 			dependencies: ["7B3BFD67BF675C5D"]
 			optional: true
@@ -198,8 +198,8 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: 5.5d
-			y: 0.5d
+			x: 6.0d
+			y: -0.5d
 			subtitle: "Construct the Diesel Generator, which can produce up to 8192 RF per tick using Diesel or Biodiesel."
 			description: [""]
 			dependencies: ["7D4AA3C434A30047"]
@@ -353,12 +353,12 @@
 					"patchouli:book": "thermal:guidebook"
 				}
 			}
-			x: -6.75d
-			y: -5.25d
+			x: 6.0d
+			y: 2.25d
 			shape: "gear"
 			subtitle: "Thermal Expansion offers powerful and versatile machines to improve your automation efforts."
 			description: ["Like Mekanism, the Thermal Expansion offers basic processing machines as well, such as the Redstone Furnace and Sawmill."]
-			dependencies: ["09812AE1E82D15C5"]
+			dependencies: ["3AED57EBD34E6829"]
 			size: 1.5d
 			id: "4010B64090D3B97C"
 			tasks: [{
@@ -380,8 +380,8 @@
 		}
 		{
 			title: "Essential Induction"
-			x: -6.75d
-			y: -7.0d
+			x: 8.0d
+			y: 4.0d
 			subtitle: "The Induction Smelter offers an easy way to make most alloys, most notably Andesite Alloy."
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -399,8 +399,8 @@
 		}
 		{
 			title: "Phytogenic Insulation!"
-			x: -5.5d
-			y: -4.0d
+			x: 6.0d
+			y: 4.5d
 			subtitle: "The Phytogenic Insulator offers a way to automate the production of natural produce, even trees!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -419,8 +419,8 @@
 		}
 		{
 			title: "Plate-maker 9000"
-			x: -8.5d
-			y: -5.5d
+			x: 8.0d
+			y: 0.75d
 			subtitle: "The Multiservo Press, when upgraded, is the fastest method of producing plates, amongst other things."
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -439,8 +439,8 @@
 		}
 		{
 			title: "Fabrication Inspiration"
-			x: -8.0d
-			y: -4.0d
+			x: 4.0d
+			y: 4.0d
 			subtitle: "The Sequential Fabricator is capable of creating nearly any 3x3 recipe, and can even use liquids!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -459,8 +459,8 @@
 		}
 		{
 			title: "\"And from his lava came this song of hope...\""
-			x: -5.0d
-			y: -5.5d
+			x: 9.0d
+			y: 2.25d
 			subtitle: "The Magmatic Dynamo uses lava to produce some serious power output!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -479,8 +479,8 @@
 		}
 		{
 			title: "Drilling Down..."
-			x: 7.5d
-			y: -1.5d
+			x: 6.0d
+			y: -4.0d
 			subtitle: "To determine what a particular chunk's ore vein has in it, you'll need to use a Core Sample Drill. "
 			dependencies: ["7D4AA3C434A30047"]
 			optional: true
@@ -740,7 +740,7 @@
 					spell: { }
 				}
 			}
-			x: -7.5d
+			x: -7.0d
 			y: 2.0d
 			subtitle: "The Arc Furnace is capable of recycling unwanted gear, and is needed to make powerful materials and alloys."
 			dependencies: ["09812AE1E82D15C5"]
@@ -822,8 +822,8 @@
 		{
 			title: "Dynamic Integration"
 			icon: "integrateddynamics:on_the_dynamics_of_integration"
-			x: -8.5d
-			y: 0.0d
+			x: -8.25d
+			y: -1.25d
 			subtitle: "A surprise tool that will help you later."
 			description: [
 				"Keen-eyed players may have noticed that Integrated Dynamics lacks modified recipes in this pack almost entirely. This is by design: here in Astral Engineering, we believe in rewarding players who possess enough game knowledge to make use of it."
@@ -845,10 +845,10 @@
 		}
 		{
 			title: "Surfin' The 'Net"
-			x: -10.5d
+			x: -9.0d
 			y: 0.0d
 			subtitle: "Like Integrated Dynamics, XNet is largely unchanged in this pack."
-			dependencies: ["03F0CDD45D1C4257"]
+			dependencies: ["09812AE1E82D15C5"]
 			optional: true
 			id: "09503847E11443B2"
 			tasks: [{
@@ -859,7 +859,7 @@
 		}
 		{
 			title: "The Power of The Sun"
-			x: -8.5d
+			x: -6.75d
 			y: -2.0d
 			subtitle: "In the palm of your hand."
 			dependencies: ["09812AE1E82D15C5"]
@@ -878,7 +878,7 @@
 		}
 		{
 			icon: "pneumaticcraft:assembly_platform"
-			x: -4.0d
+			x: -5.5d
 			y: 2.0d
 			subtitle: "This optional quest chain will teach you some tricks for advanced automation!"
 			description: ["Feel free to consult your PneumaticCraft manual during this process for additional information."]
@@ -894,7 +894,7 @@
 		{
 			title: "Beginning With Basics"
 			icon: "pneumaticcraft:unassembled_pcb"
-			x: -2.0d
+			x: -3.5d
 			y: 2.0d
 			subtitle: "Some first-step crafting to get things started."
 			description: [
@@ -927,7 +927,7 @@
 		{
 			title: "Etch-A-Sketch"
 			icon: "pneumaticcraft:etching_tank"
-			x: 0.0d
+			x: -1.5d
 			y: 2.0d
 			subtitle: "Next, some small machines are needed."
 			description: [
@@ -968,7 +968,7 @@
 		}
 		{
 			title: "Assembling!"
-			x: 2.0d
+			x: 0.5d
 			y: 2.0d
 			subtitle: "Make six assembled PCBs to continue!"
 			description: [""]
@@ -991,7 +991,7 @@
 		{
 			title: "Assembly Line Go!"
 			icon: "pneumaticcraft:assembly_controller"
-			x: 4.0d
+			x: 2.5d
 			y: 2.0d
 			subtitle: "Make all of these assembly line pieces to get rolling!"
 			description: [

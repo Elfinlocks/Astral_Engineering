@@ -13,6 +13,12 @@ craftingTable.removeRecipe(<item:thermal:dynamo_lapidary>);
 <recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:thermal:smelter>.removeRecipe(<item:libvulpes:ingottitanium>);
 <recipetype:thermal:refinery>.removeByName("boss_tools_giselle_addon:compat/thermal/refinery/refinery_oil");
+craftingTable.removeRecipe(<item:thermal:rf_coil>);
+
+craftingTable.addShaped("rf_coil", <item:thermal:rf_coil>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:wirecoil_redstone>],
+	[<item:minecraft:air>, <tag:items:forge:plates/electrum>, <item:minecraft:air>],
+	[<item:immersiveengineering:wirecoil_redstone>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("redstone_servo", <item:thermal:redstone_servo>, [
 	[<item:minecraft:redstone>, <item:minecraft:air>, <item:minecraft:redstone>],
