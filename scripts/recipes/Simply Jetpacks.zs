@@ -42,27 +42,27 @@ craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_mek4>);
 	
 // Thruster Fix
 
-craftingTable.removeRecipe(<item:simplyjetpacks:mek/thruster_mek1>);
-craftingTable.removeRecipe(<item:simplyjetpacks:mek/thruster_mek2>);
-craftingTable.removeRecipe(<item:simplyjetpacks:mek/thruster_mek3>);
-craftingTable.removeRecipe(<item:simplyjetpacks:mek/thruster_mek4>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_mek1>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_mek2>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_mek3>);
+craftingTable.removeRecipe(<item:simplyjetpacks:thruster_mek4>);
 
-craftingTable.addShaped("thruster1", <item:simplyjetpacks:mek/thruster_mek1>, [
+craftingTable.addShaped("thruster1", <item:simplyjetpacks:thruster_mek1>, [
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/osmium>],
 	[<item:immersiveengineering:coil_lv>, <item:mekanism:basic_energy_cube>, <item:immersiveengineering:coil_lv>],
 	[<tag:items:forge:ingots/osmium>, <item:morered:red_alloy_ingot>, <tag:items:forge:ingots/osmium>]]);
 	
-craftingTable.addShaped("thruster2", <item:simplyjetpacks:mek/thruster_mek2>, [
+craftingTable.addShaped("thruster2", <item:simplyjetpacks:thruster_mek2>, [
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:advanced_control_circuit>, <tag:items:forge:ingots/osmium>],
-	[<item:immersiveengineering:coil_mv>, <item:mekanism:advanced_energy_cube>, <item:immersiveengineering:coil_mv],
+	[<item:immersiveengineering:coil_mv>, <item:mekanism:advanced_energy_cube>, <item:immersiveengineering:coil_mv>],
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/osmium>]]);
 	
-craftingTable.addShaped("thruster3", <item:simplyjetpacks:mek/thruster_mek3>, [
+craftingTable.addShaped("thruster3", <item:simplyjetpacks:thruster_mek3>, [
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:elite_control_circuit>, <tag:items:forge:ingots/osmium>],
 	[<item:immersiveengineering:coil_hv>, <item:mekanism:elite_energy_cube>, <item:immersiveengineering:coil_hv>],
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:alloy_reinforced>, <tag:items:forge:ingots/osmium>]]);
 	
-craftingTable.addShaped("thruster4", <item:simplyjetpacks:mek/thruster_mek4>, [
+craftingTable.addShaped("thruster4", <item:simplyjetpacks:thruster_mek4>, [
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:ultimate_control_circuit>, <tag:items:forge:ingots/osmium>],
 	[<item:immersiveengineering:coil_hv>, <item:mekanism:ultimate_energy_cube>, <item:immersiveengineering:coil_hv>],
 	[<tag:items:forge:ingots/osmium>, <item:mekanism:alloy_atomic>, <tag:items:forge:ingots/osmium>]]);

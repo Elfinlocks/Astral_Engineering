@@ -740,7 +740,7 @@
 					spell: { }
 				}
 			}
-			x: -7.0d
+			x: -6.75d
 			y: 2.0d
 			subtitle: "The Arc Furnace is capable of recycling unwanted gear, and is needed to make powerful materials and alloys."
 			dependencies: ["09812AE1E82D15C5"]
@@ -878,8 +878,8 @@
 		}
 		{
 			icon: "pneumaticcraft:assembly_platform"
-			x: -5.5d
-			y: 2.0d
+			x: -5.25d
+			y: 1.25d
 			subtitle: "This optional quest chain will teach you some tricks for advanced automation!"
 			description: ["Feel free to consult your PneumaticCraft manual during this process for additional information."]
 			dependencies: ["09812AE1E82D15C5"]

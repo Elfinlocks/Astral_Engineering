@@ -1885,5 +1885,115 @@
 				item: "thermal:resin_bucket"
 			}]
 		}
+		{
+			title: "Vein Mining!"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "A Vein Hammer does what it says on the tin - it's vein mining!"
+			description: ["Make one out of any materials to complete this quest."]
+			dependencies: ["4AFDEA24E595D3A3"]
+			id: "2EA36E310843324F"
+			tasks: [{
+				id: "477092F8C4D681D1"
+				type: "item"
+				item: {
+					id: "tconstruct:vein_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:durability": 5.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "34A98E7407905121"
+				type: "item"
+				item: {
+					id: "tconstruct:hammer_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:steel"
+					}
+				}
+			}]
+		}
+		{
+			title: "Vein Chopping!"
+			x: 6.5d
+			y: 0.5d
+			subtitle: "A Broad Axe lets you fell trees with ease!"
+			description: ["Make one out of any materials to complete this quest."]
+			dependencies: ["4AFDEA24E595D3A3"]
+			id: "7D927BF498037372"
+			tasks: [{
+				id: "72657060B7A31EA8"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 4.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:durability": 4.25f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:axe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "324D18DB46AF742D"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:steel"
+					}
+				}
+			}]
+		}
 	]
 }
