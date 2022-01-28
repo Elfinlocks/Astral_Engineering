@@ -8,8 +8,8 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: -1.0d
-		y: -1.0d
+		x: 9.5d
+		y: -1.5d
 		width: 1.0d
 		height: 1.0d
 		rotation: 0.0d
@@ -22,7 +22,7 @@
 	quests: [
 		{
 			title: "A Comically Large Wrench"
-			x: 1.5d
+			x: 6.5d
 			y: 0.0d
 			subtitle: "The Biggest Iron, if you will."
 			description: ["This wrench functions just like the Engineer's Hammer, but for Immersive Railroading stuff. You'll need it to assemble the multiblocks."]
@@ -41,7 +41,7 @@
 		}
 		{
 			title: "Reading On The Railroad"
-			x: 3.0d
+			x: 8.0d
 			y: 0.0d
 			subtitle: "All the live-long day..."
 			description: [
@@ -69,7 +69,7 @@
 		{
 			title: "The Whole Cast"
 			icon: "create:basin"
-			x: 4.5d
+			x: 9.5d
 			y: -0.5d
 			subtitle: "Talk about a resource sink..."
 			description: [
@@ -148,7 +148,7 @@
 		}
 		{
 			title: "Boilin' and Rollin'"
-			x: 1.5d
+			x: 6.5d
 			y: 3.5d
 			subtitle: "This one is pretty cheap, to be honest."
 			description: [
@@ -195,7 +195,7 @@
 		}
 		{
 			title: "Hammer DOWN!"
-			x: 3.0d
+			x: 8.0d
 			y: 2.0d
 			subtitle: "Your next multiblock awaits."
 			description: [
@@ -247,7 +247,7 @@
 		{
 			title: "Buildin' a Railroad"
 			icon: "create:controller_rail"
-			x: 4.5d
+			x: 9.5d
 			y: 0.5d
 			subtitle: "*CLANG* *CLANG* *CLANG*"
 			description: [
@@ -295,7 +295,7 @@
 		}
 		{
 			title: "The Big One"
-			x: 1.5d
+			x: 6.5d
 			y: 4.5d
 			subtitle: "In awe at the size of this lad"
 			description: [
@@ -342,7 +342,7 @@
 		}
 		{
 			title: "Getting On Track"
-			x: 6.0d
+			x: 11.0d
 			y: 0.0d
 			subtitle: "Now that we have the machines, we can actually make something."
 			description: [
@@ -372,7 +372,7 @@
 		}
 		{
 			title: "On The Rails"
-			x: 7.5d
+			x: 12.5d
 			y: 0.0d
 			subtitle: "Tired of train puns yet? No? Great!"
 			description: ["Use your casting on the Track Roller to get your rails. Each casting makes 12."]
@@ -396,7 +396,7 @@
 		}
 		{
 			title: "Let's Make Tracks!"
-			x: 9.0d
+			x: 14.0d
 			y: 0.0d
 			subtitle: "Ok ok I'll stop..."
 			description: [
@@ -433,7 +433,7 @@
 					gauge: 0.632d
 				}
 			}
-			x: 9.0d
+			x: 14.0d
 			y: 2.0d
 			subtitle: "It's your first train - don't expect that much."
 			description: [
@@ -458,7 +458,7 @@
 		}
 		{
 			title: "Framed"
-			x: 7.5d
+			x: 12.5d
 			y: 2.0d
 			subtitle: "It wasn't me, I swear!"
 			description: [
@@ -491,7 +491,7 @@
 		}
 		{
 			title: "Chugger Steam Chest"
-			x: 6.0d
+			x: 11.0d
 			y: 2.0d
 			subtitle: "It's like a treasure chest, but for steam!"
 			description: [
@@ -522,7 +522,7 @@
 		}
 		{
 			title: "Chugger Wheels"
-			x: 4.5d
+			x: 9.5d
 			y: 2.0d
 			subtitle: "Now we're on a roll!"
 			description: [
@@ -554,7 +554,7 @@
 		}
 		{
 			title: "Chugger Piston Rod"
-			x: 1.5d
+			x: 6.5d
 			y: 2.0d
 			subtitle: "The muscles of the train"
 			description: [
@@ -586,7 +586,7 @@
 		}
 		{
 			title: "Chugger Main Rod"
-			x: 0.0d
+			x: 5.0d
 			y: 2.0d
 			subtitle: "The main rod connects to the....other rod"
 			description: [
@@ -618,7 +618,7 @@
 		}
 		{
 			title: "Chugger Side Rod"
-			x: 0.0d
+			x: 5.0d
 			y: 4.0d
 			subtitle: "Another side gig"
 			description: [
@@ -650,7 +650,7 @@
 		}
 		{
 			title: "Chugger Firebox, Smokebox, Piping, and Boiler"
-			x: 3.0d
+			x: 8.0d
 			y: 4.0d
 			subtitle: "That's a lotta stuff"
 			description: [
@@ -717,7 +717,7 @@
 					raw_cast: 0b
 				}
 			}
-			x: 6.0d
+			x: 11.0d
 			y: 4.0d
 			subtitle: "The most important part, by far"
 			description: [
@@ -752,7 +752,7 @@
 					raw_cast: 0b
 				}
 			}
-			x: 4.5d
+			x: 9.5d
 			y: 4.0d
 			subtitle: "No shellshock here!"
 			description: [
@@ -781,7 +781,7 @@
 		}
 		{
 			title: "Your First Engine!"
-			x: 7.5d
+			x: 12.5d
 			y: 4.0d
 			subtitle: "That wasn't so bad, right?"
 			description: [
@@ -811,7 +811,7 @@
 		}
 		{
 			title: "Steam!"
-			x: 9.0d
+			x: 14.0d
 			y: 4.0d
 			subtitle: "Not the game platform."
 			description: [
@@ -851,7 +851,7 @@
 		}
 		{
 			title: "Warming Up..."
-			x: 9.0d
+			x: 14.0d
 			y: 6.0d
 			subtitle: "This might take a bit."
 			description: [
@@ -878,7 +878,7 @@
 		}
 		{
 			icon: "moreminecarts:coupler"
-			x: 6.0d
+			x: 11.0d
 			y: 6.0d
 			subtitle: "How sweet."
 			description: [
@@ -900,7 +900,7 @@
 		}
 		{
 			title: "How's This For Horsepower?"
-			x: 4.5d
+			x: 9.5d
 			y: 6.0d
 			subtitle: "Note: do not attempt to pull DeLoreans."
 			description: [
@@ -932,7 +932,7 @@
 		}
 		{
 			title: "Last Train Home"
-			x: 3.5d
+			x: 8.5d
 			y: 8.0d
 			subtitle: "This trip was truly fun, wasn't it?"
 			description: [
@@ -988,7 +988,7 @@
 		}
 		{
 			title: "Bringing Friends Along..."
-			x: 7.5d
+			x: 12.5d
 			y: 6.0d
 			subtitle: "What's the point of trains if you can't bring others with you?"
 			description: [
@@ -1018,7 +1018,7 @@
 		}
 		{
 			title: "Automation Imagination"
-			x: 3.0d
+			x: 8.0d
 			y: 6.0d
 			subtitle: "These things let you do some crazy stuff, man."
 			description: [
@@ -1051,7 +1051,7 @@
 		}
 		{
 			title: "In Control"
-			x: 1.5d
+			x: 6.5d
 			y: 6.0d
 			subtitle: "Stay in the groove"
 			description: [
@@ -1081,7 +1081,7 @@
 		}
 		{
 			title: "Cargo Space?"
-			x: 0.0d
+			x: 5.0d
 			y: 6.0d
 			subtitle: "No, car go land."
 			description: [
@@ -1126,7 +1126,7 @@
 		}
 		{
 			title: "Flash Liquidizing Ultra Dousing Devices"
-			x: 0.0d
+			x: 5.0d
 			y: 8.0d
 			subtitle: "How to move those pesky fluid blocks around"
 			description: [
@@ -1170,7 +1170,7 @@
 		}
 		{
 			title: "Slow Ride..."
-			x: 1.5d
+			x: 6.5d
 			y: 8.0d
 			subtitle: "Take it easy..."
 			description: [
@@ -1200,11 +1200,15 @@
 		}
 		{
 			title: "Welcome to Immersive Railroading!"
-			x: 0.0d
+			x: 5.0d
 			y: 0.0d
 			subtitle: "You're about to get into some serious industry!"
 			description: ["I recommend getting your steel production into a good position, or even automated entirely, before truly digging into this chapter - you will need a lot of it!"]
-			dependencies: ["031023A8EA6FD4D0"]
+			hide_dependency_lines: true
+			dependencies: [
+				"031023A8EA6FD4D0"
+				"2A59998BC2F3B628"
+			]
 			size: 1.5d
 			id: "51A685EBAB18D29D"
 			tasks: [{
@@ -1223,7 +1227,7 @@
 		}
 		{
 			icon: "computercraft:computer_normal"
-			x: 3.0d
+			x: 8.0d
 			y: -1.5d
 			subtitle: "Computers will always be here for you."
 			description: [
@@ -1239,6 +1243,187 @@
 				type: "checkmark"
 				title: "FYI..."
 			}]
+		}
+		{
+			icon: "minecraft:minecart"
+			x: 1.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Trip starts here!"
+			description: [
+				"The following quests are intended as a guide to help you learn all about railway based automation."
+				""
+				"Through mods from Immersive Railroading to Thermal Locomotion, there are a plethora of options for exploring this truly unique method of transporation."
+				""
+				"Please enjoy!"
+			]
+			size: 2.0d
+			id: "2A59998BC2F3B628"
+			tasks: [{
+				id: "288D17D7316A4B00"
+				type: "checkmark"
+				title: "Welcome to The Railroading Guide!"
+			}]
+			rewards: [{
+				id: "7AEE73755CD1B4E3"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			title: "A Guide to Rails"
+			icon: "minecraft:rail"
+			x: -1.5d
+			y: 0.0d
+			description: ["This section of the Railroading guide serves to provide you with an overview of all the various rail types available to you."]
+			hide_dependency_lines: true
+			dependencies: ["2A59998BC2F3B628"]
+			size: 1.5d
+			id: "4849E1DC8BA7A383"
+			tasks: [{
+				id: "418D2E1DFC1C4454"
+				type: "checkmark"
+				title: "Thermal Locomotion"
+			}]
+		}
+		{
+			title: "Rickety Things"
+			x: -3.5d
+			y: 0.0d
+			description: [
+				"Wooden Rails have straight, turn, and crossing pieces, and are cheap rails that can be made out of wood, as their name implies."
+				""
+				"The cost saving of these rails comes with a drawback, however: carts travelling on wooden rails have a notably lower speed than they would otherwise."
+			]
+			dependencies: ["4849E1DC8BA7A383"]
+			id: "6FD2AD59E5021557"
+			tasks: [{
+				id: "78922521C6431D78"
+				type: "item"
+				item: "moreminecarts:wooden_rail"
+				count: 8L
+			}]
+			rewards: [{
+				id: "292D671EED4A463B"
+				type: "item"
+				item: "moreminecarts:wooden_rail"
+				count: 8
+			}]
+		}
+		{
+			icon: "minecraft:chest_minecart"
+			x: 1.0d
+			y: -6.0d
+			description: ["This section will teach you about the wide variety of minecarts available to you."]
+			hide_dependency_lines: true
+			dependencies: ["2A59998BC2F3B628"]
+			size: 1.5d
+			id: "28CB62590D123ADA"
+			tasks: [{
+				id: "6D747FAC60F965D6"
+				type: "checkmark"
+				title: "All About Carts!"
+			}]
+		}
+		{
+			title: "You Remember These, Right?"
+			x: -5.5d
+			y: 0.0d
+			description: ["Powered Rails are quite simple: apply a redstone signal, and they make carts go faster. Remove the signal, and it will grind them to a halt."]
+			dependencies: ["6FD2AD59E5021557"]
+			id: "68ED32C28C60CFE0"
+			tasks: [{
+				id: "427B800833E7530B"
+				type: "item"
+				item: "minecraft:powered_rail"
+			}]
+			rewards: [{
+				id: "7AA17F7BAFF155AC"
+				type: "item"
+				item: "minecraft:powered_rail"
+				count: 6
+			}]
+		}
+		{
+			title: "Detecting!"
+			x: -6.5d
+			y: -2.0d
+			description: [
+				"Detector rails send out a &6redstone signal&r whenever a cart passes over it, and deactivates when there is not a minecart on it."
+				""
+				"Detector rails are primarily used for automation, and keeping track of where Minecarts are going."
+				""
+				"Combine with a &6powered rail&r to get a one-way track!"
+			]
+			dependencies: ["68ED32C28C60CFE0"]
+			id: "2FE658B56B6E3A42"
+			tasks: [{
+				id: "3E01F7F5DDF4D8C6"
+				type: "item"
+				item: "minecraft:detector_rail"
+				count: 6L
+			}]
+			rewards: [{
+				id: "7A84212A8E799AA0"
+				type: "item"
+				item: "minecraft:detector_rail"
+				count: 6
+			}]
+		}
+		{
+			title: "Activating!"
+			x: -4.5d
+			y: -2.0d
+			description: [
+				"Activator Rails, as their name implies, &6activate&r carts passing over them. Depending upon the contents of the cart, this can have a wide variety of effects."
+				""
+				"For example, a TNT Minecart passing over an &6activator rail&r will &6prime&r the TNT, causing it to explode (with a force proportional to the speed of the cart)."
+			]
+			dependencies: ["68ED32C28C60CFE0"]
+			id: "111B137EEE1E859B"
+			tasks: [{
+				id: "5E319CF33C2D691E"
+				type: "item"
+				item: "minecraft:activator_rail"
+				count: 6L
+			}]
+			rewards: [{
+				id: "280C2507A7D77BF9"
+				type: "item"
+				item: "minecraft:activator_rail"
+				count: 6
+			}]
+		}
+		{
+			title: "Fine Tuned"
+			x: -7.5d
+			y: 0.0d
+			description: [
+				"Controller rails adjust the speed of a minecart proportional to the strength of a &6redstone signal&r."
+				""
+				"Due to this, I recommend using it in conjunction with an &6analog lever&r."
+			]
+			dependencies: ["68ED32C28C60CFE0"]
+			id: "02AE2C2629296B1A"
+			tasks: [{
+				id: "64C625EA5606A5B6"
+				type: "item"
+				item: "create:controller_rail"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "6636B021EFC92676"
+					type: "item"
+					item: "create:controller_rail"
+					count: 3
+				}
+				{
+					id: "6A025FE80872C5B2"
+					type: "item"
+					item: "create:analog_lever"
+				}
+			]
 		}
 	]
 }

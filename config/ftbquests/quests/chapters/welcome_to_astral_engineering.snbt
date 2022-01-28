@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "welcome_to_astral_engineering"
-	title: "Welcome!"
+	title: "&bWelcome!&r"
 	icon: "losttrinkets:starfish"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -88,7 +88,7 @@
 			x: -0.75d
 			y: -0.75d
 			shape: "hexagon"
-			description: ["Check out the &2Handy Tools&r chapter - there's lots of useful stuff in there, and even some freebies!"]
+			description: ["Check out the &bHandy Tools&r chapter - there's lots of useful stuff in there, and even some freebies!"]
 			dependencies: ["5C3734DA48D7E479"]
 			size: 1.5d
 			id: "049649C017D3F5EC"
@@ -103,7 +103,7 @@
 			x: 4.5d
 			y: -2.25d
 			shape: "hexagon"
-			description: ["Try out the &3Guides&r section of the quests - they offer some insight for the roads less traveled."]
+			description: ["Try out the &bGuides&r section of the quests - they offer some insight for the roads less traveled."]
 			dependencies: ["76E3C761FAF296CD"]
 			size: 1.5d
 			id: "46CF366B4598F938"

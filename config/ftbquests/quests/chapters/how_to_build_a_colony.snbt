@@ -40,7 +40,7 @@
 			y: 0.0d
 			subtitle: "Trust me, this is a lot..."
 			description: [
-				"Your first step in establishing a colony is the placement of a supply ship or a supply camp. I am providing you with a free ship, as in my experience they are less finnicky to place than the camps."
+				"Your first step in establishing a colony is the placement of a supply ship or a supply camp."
 				""
 				"You can use the provided build tool to move the camp around, and to position it how you like. There are also multiple styles to choose from. Within this camp is the basic building block of your colony: the Town Hall."
 			]
@@ -62,6 +62,11 @@
 					id: "76722C8627D16ED8"
 					type: "item"
 					item: "minecolonies:supplychestdeployer"
+				}
+				{
+					id: "247DF9809CF776FC"
+					type: "item"
+					item: "minecolonies:supplycampdeployer"
 				}
 			]
 		}
@@ -605,7 +610,11 @@
 		}
 		{
 			title: "The Future Is Yours!"
-			icon: "ftbquests:missing_item"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: 17.0d
 			y: 0.0d
 			subtitle: "Where will you lead?"

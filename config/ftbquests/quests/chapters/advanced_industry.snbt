@@ -1051,7 +1051,7 @@
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"Your new Industrial Electrolyzer isn't just for Aluminum refining - it can also &3triple most ores &r."
+				"Your new Industrial Electrolyzer isn't just for Aluminum refining - it can also &6triple most ores&r."
 				""
 				"Simply provide the machine with water, power, and ores as before. You can view these available outputs in JEI as well."
 			]
@@ -1061,6 +1061,12 @@
 				id: "2196B4F903C006D6"
 				type: "checkmark"
 				title: "A Note On Electrolysis"
+			}]
+			rewards: [{
+				id: "772999A0F381F83A"
+				type: "item"
+				item: "xkdeco:factory_electricity"
+				count: 10
 			}]
 		}
 	]

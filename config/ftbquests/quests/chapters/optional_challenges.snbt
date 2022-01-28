@@ -38,6 +38,7 @@
 			x: 3.5d
 			y: 1.5d
 			subtitle: "Create a fully automated farm for your crop of choice, not including Sugarcane, Pumpkins, or Melons. Items should be output automatically with no player input."
+			description: ["No Cloches allowed!"]
 			dependencies: ["60FE564C79D326E1"]
 			id: "4BAC399DB1C4B903"
 			tasks: [{

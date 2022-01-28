@@ -1213,7 +1213,11 @@
 			x: -6.0d
 			y: 2.0d
 			subtitle: "Don't knock 'em till you try 'em"
-			description: ["This pack includes not only Create, but also a lesser known mod called More Minecarts and Rails. With their powers combined, you could make a notably efficient transportation network for items, fluids, or even other players! I encourage you to check it out."]
+			description: [
+				"This pack includes not only Create, but also a lesser known mod called More Minecarts and Rails. With their powers combined, you could make a notably efficient transportation network for items, fluids, or even other players! I encourage you to check it out."
+				""
+				"Check out that shiny Railroading Guide quest chapter for more information!"
+			]
 			id: "2347551683E7AC52"
 			tasks: [{
 				id: "69F77C36EAEA3135"
