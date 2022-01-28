@@ -6,7 +6,7 @@ craftingTable.removeRecipe(<item:pneumaticcraft:thermopneumatic_processing_plant
 craftingTable.removeRecipe(<item:pneumaticcraft:heat_frame>);
 craftingTable.removeRecipe(<item:pneumaticcraft:reinforced_stone>);
 craftingTable.removeRecipe(<item:pneumaticcraft:printed_circuit_board>);
-craftingTable.removeRecipe(<itme:pneumaticcraft:network_io_port>);
+craftingTable.removeRecipe(<item:pneumaticcraft:network_io_port>);
 
 craftingTable.addShaped("compounded_plastic", <item:kubejs:compounded_plastic>, [
 	[<item:minecraft:air>, <item:pneumaticcraft:plastic>, <item:minecraft:air>],

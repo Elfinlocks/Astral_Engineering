@@ -89,11 +89,6 @@ craftingTable.addShaped("configurator", <item:mekanism:configurator>, [
 	[<item:immersiveengineering:plate_steel>, <item:create:cogwheel>, <item:immersiveengineering:plate_steel>],
 	[<item:immersiveengineering:plate_steel>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:plate_steel>]]);
 
-craftingTable.addShaped("basic_universal_cable", <item:mekanism:basic_universal_cable> * 8, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:immersiveengineering:plate_steel>, <item:mekanism:alloy_infused>, <item:immersiveengineering:plate_steel>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
-	
 craftingTable.addShaped("basic_mechanical_pipe", <item:mekanism:basic_mechanical_pipe> * 8, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:immersiveengineering:ingot_steel>, <item:minecraft:bucket>, <item:immersiveengineering:ingot_steel>],

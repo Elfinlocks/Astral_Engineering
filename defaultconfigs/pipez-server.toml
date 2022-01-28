@@ -21,12 +21,12 @@
 		#The speed at which items are transferred
 		#A value of 1 means every tick
 		#Range: > 1
-		ultimate = 1
+		ultimate = 10
 
 	[item_pipe.amount]
 		#The amount of items transferred
 		#Range: > 1
-		no_upgrade = 4
+		no_upgrade = 10
 		#The amount of items transferred
 		#Range: > 1
 		basic = 8
@@ -38,14 +38,14 @@
 		advanced = 32
 		#The amount of items transferred
 		#Range: > 1
-		ultimate = 64
+		ultimate = 20
 
 [fluid_pipe]
 
 	[fluid_pipe.amount]
 		#The amount of mB transferred each tick
 		#Range: > 1
-		no_upgrade = 50
+		no_upgrade = 1000
 		#The amount of mB transferred each tick
 		#Range: > 1
 		basic = 100
@@ -57,14 +57,14 @@
 		advanced = 2000
 		#The amount of mB transferred each tick
 		#Range: > 1
-		ultimate = 10000
+		ultimate = 5000
 
 [energy_pipe]
 
 	[energy_pipe.amount]
 		#The amount of FE transferred each tick
 		#Range: > 1
-		no_upgrade = 10000
+		no_upgrade = 75000
 		#The amount of FE transferred each tick
 		#Range: > 1
 		basic = 1024
@@ -84,7 +84,7 @@
 		#The amount of mB transferred each tick
 		#Only available if Mekanism is installed
 		#Range: > 1
-		no_upgrade = 200
+		no_upgrade = 1000
 		#The amount of mB transferred each tick
 		#Only available if Mekanism is installed
 		#Range: > 1
@@ -100,5 +100,5 @@
 		#The amount of mB transferred each tick
 		#Only available if Mekanism is installed
 		#Range: > 1
-		ultimate = 40000
+		ultimate = 5000
 
