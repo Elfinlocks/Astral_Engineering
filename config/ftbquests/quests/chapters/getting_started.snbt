@@ -1,6 +1,6 @@
 {
 	id: "24F728EF8FBE1617"
-	group: ""
+	group: "24B771619D434A38"
 	order_index: 0
 	filename: "getting_started"
 	title: "First Steps"
@@ -265,40 +265,6 @@
 			}]
 		}
 		{
-			title: "Welcome to Astral Engineering!"
-			icon: "ftbquests:book"
-			x: 7.0d
-			y: -3.0d
-			shape: "octagon"
-			subtitle: "Left click for more information!"
-			description: [
-				"This quest book will show you how to progress through advancements in technology and magic, to reach the endgame of space travel. "
-				""
-				"Although the quests are not required for progression, it is recommended that you follow them for the free items you will obtain along the way."
-				""
-				"The quests begin here, at \"Tier 0\". From here, tech leads into Early Industry and Advanced Inudstry, and magic leads into Arcane Exploits. Both of them are needed to progress through the space chapter, Solar Sightseeing."
-				""
-				"Thanks for reading, and I hope you enjoy!"
-			]
-			size: 1.5d
-			id: "4983D289845799E1"
-			tasks: [{
-				id: "3D3D9A5D27DAD9FC"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "15F1021524CF1B66"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "Old Reliable"
 			x: 12.5d
 			y: 2.0d
@@ -554,18 +520,6 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.0d
-			subtitle: "Don't forget to adjust your keybindings! I took the liberty of clearing most of them, so that you start with a clean slate."
-			dependencies: ["4983D289845799E1"]
-			id: "5C3734DA48D7E479"
-			tasks: [{
-				id: "0C701C6D77A130C1"
-				type: "checkmark"
-				title: "Quick Reminder"
-			}]
-		}
-		{
 			title: "Basic Ore Processing"
 			x: 16.5d
 			y: -2.0d
@@ -623,31 +577,6 @@
 			}]
 		}
 		{
-			icon: "losttrinkets:piggy"
-			x: 7.0d
-			y: -5.0d
-			subtitle: "A Quick How-To"
-			description: [
-				"Lost Trinkets is a mod included within this pack. For the uninitiated, this mod allows you to passively collect trinkets, which give you unique and powerful abilities."
-				""
-				"However, you can't use them all simultaneously - you have a limited number of slots, and must operate within those bounds. You can purchase additional slots for XP levels, up to a maximum of 20."
-				""
-				"Have some bonus experience to help you on the way, and for reading this!"
-			]
-			dependencies: ["4983D289845799E1"]
-			id: "1E6D133D630C94BE"
-			tasks: [{
-				id: "1BE4FEC262687263"
-				type: "checkmark"
-				title: "Trinket Collecting"
-			}]
-			rewards: [{
-				id: "25BE84DE029C40E8"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "All Together Now!"
 			x: 9.5d
 			y: 2.0d
@@ -689,44 +618,6 @@
 					}
 				}
 			]
-		}
-		{
-			x: 5.5d
-			y: -1.5d
-			subtitle: "A quick note to make your crafting easier."
-			description: [
-				"In this pack, I have included universal conversion recipes for the purpose of acting as a universal fix for any potential compatibility issues."
-				""
-				"This is accomplished through universal conversion recipes for cobblestone, stone, and leaves - any blocks with the appropriate tags will convert to their vanilla variant in a 2x2 crafting grid."
-				""
-				"This is to ease the process of crafting fringe recipes, and for Minecolonies. Give it a shot!"
-			]
-			dependencies: ["4983D289845799E1"]
-			id: "155D7663ABCEF788"
-			tasks: [{
-				id: "6DE47AD5E153ED0F"
-				type: "checkmark"
-				title: "Universal Conversions"
-			}]
-			rewards: [{
-				id: "79D028283738D618"
-				type: "item"
-				item: "minecraft:stone"
-				count: 3
-			}]
-		}
-		{
-			x: 5.5d
-			y: -4.5d
-			subtitle: "Read me!"
-			description: ["Check out the Handy Tools chapter - there's lots of useful stuff in there, and even some freebies!"]
-			dependencies: ["4983D289845799E1"]
-			id: "049649C017D3F5EC"
-			tasks: [{
-				id: "437EAEBD9E819B4C"
-				type: "checkmark"
-				title: "Helpful Tools to Help You Later"
-			}]
 		}
 	]
 }

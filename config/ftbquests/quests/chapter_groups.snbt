@@ -1,8 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "64DFD76C777DC386", title: "Getting Started" }
-		{ id: "3DAEDBA3E5F09E07", title: "Technomagical Wonders" }
-		{ id: "0663EB7A978FD08B", title: "The Great Beyond" }
+		{ id: "24B771619D434A38", title: "Exploration" }
+		{ id: "64DFD76C777DC386", title: "Experimentation" }
+		{ id: "3DAEDBA3E5F09E07", title: "Innovation" }
+		{ id: "0663EB7A978FD08B", title: "Ascension" }
 		{ id: "5338BDEB2CDD0EE0", title: "Miscellaneous Miscellany" }
 		{ id: "4E00F236C0BD2C6F", title: "A Collection of Guides" }
 	]

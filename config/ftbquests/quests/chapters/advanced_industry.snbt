@@ -1,7 +1,7 @@
 {
 	id: "28AB4CEFBE88E987"
 	group: "3DAEDBA3E5F09E07"
-	order_index: 0
+	order_index: 1
 	filename: "advanced_industry"
 	title: "Advanced Industry"
 	icon: "kubejs:electrolysis_controller"
