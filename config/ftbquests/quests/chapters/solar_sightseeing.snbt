@@ -326,6 +326,7 @@
 				"This chapter is all about bringing your tech to the next level!"
 			]
 			dependencies: ["3AED57EBD34E6829"]
+			hide: true
 			size: 1.5d
 			id: "14EC3076B2D0C926"
 			tasks: [{
