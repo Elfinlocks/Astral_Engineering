@@ -133,8 +133,8 @@
 		{
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
-			x: 7.5d
-			y: -2.5d
+			x: 6.0d
+			y: -6.0d
 			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk."
 			dependencies: ["7B3BFD67BF675C5D"]
 			optional: true
@@ -198,8 +198,8 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: 6.0d
-			y: -0.5d
+			x: 4.5d
+			y: -4.5d
 			subtitle: "Construct the Diesel Generator, which can produce up to 8192 RF per tick using Diesel or Biodiesel."
 			description: [""]
 			dependencies: ["7D4AA3C434A30047"]
@@ -1038,6 +1038,29 @@
 				id: "73E52AD63E22042B"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			icon: {
+				id: "appliedenergistics2:facade"
+				Count: 1b
+				tag: {
+					item: "xkdeco:factory_electricity"
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Your new Industrial Electrolyzer isn't just for Aluminum refining - it can also &3triple most ores &r."
+				""
+				"Simply provide the machine with water, power, and ores as before. You can view these available outputs in JEI as well."
+			]
+			dependencies: ["3AED57EBD34E6829"]
+			id: "7E669A982589507E"
+			tasks: [{
+				id: "2196B4F903C006D6"
+				type: "checkmark"
+				title: "A Note On Electrolysis"
 			}]
 		}
 	]
