@@ -412,7 +412,7 @@
 			y: 0.0d
 			subtitle: "An essential workbench for Tinker's Construct progression."
 			description: ["Make a Part Table, and use your pattern to make a Stone Pickaxe Head."]
-			dependencies: ["4983D289845799E1"]
+			dependencies: ["6781E8E12F609764"]
 			id: "70003EB0C320E474"
 			tasks: [{
 				id: "32E3C3F9268C9471"
@@ -555,7 +555,7 @@
 			x: 9.5d
 			y: -3.0d
 			subtitle: "Make a wooden or stone shovel, we don't judge"
-			dependencies: ["4983D289845799E1"]
+			dependencies: ["6781E8E12F609764"]
 			id: "0E867AE7C53EF7BE"
 			tasks: [{
 				id: "320DFB1102C4AC08"
@@ -618,6 +618,27 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "minecraft:grass_block"
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "From here on out, we will begin your journey."
+			description: ["Follow the two paths which branch out from here to proceed."]
+			dependencies: ["2BA582476B442C1D"]
+			size: 2.0d
+			id: "6781E8E12F609764"
+			tasks: [{
+				id: "19D9F02E7B69C5E8"
+				type: "checkmark"
+				title: "Welcome To The Progression!"
+			}]
+			rewards: [{
+				id: "13EF133C8C955351"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
 		}
 	]
 }
