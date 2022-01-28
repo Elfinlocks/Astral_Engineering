@@ -261,3 +261,24 @@ craftingTable.addShaped("amplifier_tubes", <item:immersiveengineering:toolupgrad
 	[<item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>, <item:botania:elf_glass>, <item:minecraft:air>],
 	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <item:farmersdelight:rich_soil>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>],
 	[<tag:items:forge:treated_wood>, <item:thermal:machine_frame>, <item:immersiveengineering:logic_unit>, <item:thermal:machine_frame>, <tag:items:forge:treated_wood>]]);
+	
+// Coil Adjustments
+
+craftingTable.removeRecipe(<item:immersiveengineering:coil_lv>);
+craftingTable.removeRecipe(<item:immersiveengineering:coil_mv>);
+craftingTable.removeRecipe(<item:immersiveengineering:coil_hv>);
+
+craftingTable.addShaped("coil_lv", <item:immersiveengineering:coil_lv>, [
+	[<item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>],
+	[<item:immersiveengineering:wirecoil_copper>, <item:thermal:rf_coil>, <item:immersiveengineering:wirecoil_copper>],
+	[<item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>]]);
+	
+craftingTable.addShaped("coil_mv", <item:immersiveengineering:coil_mv>, [
+	[<item:immersiveengineering:wirecoil_electrum>, <item:immersiveengineering:wirecoil_electrum>, <item:immersiveengineering:wirecoil_electrum>],
+	[<item:immersiveengineering:wirecoil_electrum>, <item:thermal:rf_coil>, <item:immersiveengineering:wirecoil_electrum>],
+	[<item:immersiveengineering:wirecoil_electrum>, <item:immersiveengineering:wirecoil_electrum>, <item:immersiveengineering:wirecoil_electrum>]]);
+	
+craftingTable.addShaped("coil_hv", <item:immersiveengineering:coil_hv>, [
+	[<item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:wirecoil_steel>],
+	[<item:immersiveengineering:wirecoil_steel>, <item:thermal:rf_coil>, <item:immersiveengineering:wirecoil_steel>],
+	[<item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:wirecoil_steel>]]);
