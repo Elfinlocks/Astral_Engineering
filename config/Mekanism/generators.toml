@@ -2,9 +2,9 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "300"
+	advancedSolarGeneration = "150"
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	energyPerFusionFuel = "10000000"
+	energyPerFusionFuel = "1000000"
 	#Amount of energy in Joules the Bio Generator produces per tick.
 	bioGeneration = "350"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
@@ -28,11 +28,11 @@
 		#The number of blades on each turbine coil per blade applied.
 		turbineBladesPerCoil = 4
 		#The rate at which steam is vented into the turbine.
-		turbineVentGasFlow = 32000.0
+		turbineVentGasFlow = 3200.0
 		#The rate at which steam is dispersed into the turbine.
-		turbineDisperserGasFlow = 1280.0
+		turbineDisperserGasFlow = 128.0
 		#The rate at which steam is condensed in the turbine.
-		condenserRate = 64000
+		condenserRate = 6400
 
 	#Heat Generator Settings
 	[generators.heat_generator]
@@ -49,7 +49,7 @@
 	#Fission Reactor Settings
 	[generators.fission_reactor]
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
-		casingHeatCapacity = 1000.0
+		casingHeatCapacity = 700.0
 		#The default burn rate of the fission reactor.
 		#Range: 0.001 ~ 1.0
 		defaultBurnRate = 0.1
@@ -70,7 +70,7 @@
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
-		energyPerFissionFuel = "1000000"
+		energyPerFissionFuel = "100000"
 
 	#Fusion Settings
 	[generators.fusion_reactor]
@@ -79,10 +79,10 @@
 		thermocoupleEfficiency = 0.05
 		#The fraction fraction of heat from the casing that can be transferred to all sources that are not water. Will impact max heat, heat transfer to thermodynamic conductors, and power generation.
 		#Range: 0.001 ~ 1.0
-		casingThermalConductivity = 0.1
+		casingThermalConductivity = 0.01
 		#The fraction of the heat from the casing that is dissipated to water when water cooling is in use. Will impact max heat, and steam generation.
 		#Range: 0.0 ~ 1.0
-		waterHeatingRatio = 0.3
+		waterHeatingRatio = 0.1
 
 	#Hohlraum Settings
 	[generators.hohlraum]

@@ -38,7 +38,7 @@
 	#Energy per operation tick (Joules).
 	pigmentMixer = "200"
 	#Energy per operation tick (Joules).
-	antiprotonicNucleosynthesizer = "100000"
+	antiprotonicNucleosynthesizer = "75000"
 	#Energy per operation tick (Joules).
 	combiner = "50"
 	#Energy per operation tick (Joules).
@@ -52,7 +52,7 @@
 	#Energy per operation tick (Joules).
 	fluidicPlenisher = "100"
 	#Energy that can be transferred at once per charge operation (Joules).
-	chargePad = "1024000"
+	chargePad = "102400"
 	#Energy per operation tick (Joules).
 	electricPump = "100"
 	#Energy per operation tick (Joules).
