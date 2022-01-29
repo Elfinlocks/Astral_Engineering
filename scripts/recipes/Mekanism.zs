@@ -4,6 +4,7 @@ mods.jei.JEI.hideItem(<item:mekanism:elite_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:creative_fluid_tank>);
 mods.jei.JEI.hideItem(<item:mekanism:module_jetpack_unit>);
+mods.jei.JEI.hideItem(<item:mekanism:cardboard_box>);
 craftingTable.removeRecipe(<item:mekanismgenerators:solar_generator>);
 craftingTable.removeRecipe(<item:mekanismgenerators:advanced_solar_generator>);
 craftingTable.removeRecipe(<item:mekanism:basic_fluid_tank>);
@@ -42,7 +43,6 @@ craftingTable.removeRecipe(<item:mekanismgenerators:gas_burning_generator>);
 craftingTable.removeRecipe(<item:mekanism:teleportation_core>);
 craftingTable.removeRecipe(<item:mekanism:configurator>);
 craftingTable.removeRecipe(<item:mekanism:electrolytic_separator>);
-craftingTable.removeRecipe(<item:mekanism:cardboard_box>);
 craftingTable.removeRecipe(<item:mekanism:pressurized_reaction_chamber>);
 
 craftingTable.addShaped("chemical_washer", <item:mekanism:chemical_washer>, [
