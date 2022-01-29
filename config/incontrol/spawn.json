@@ -53,7 +53,7 @@
 		"mana-and-artifice:hulking_zombie"
 	],
 	"result": "default",
-	"healthmultiply": 2,
+	"healthmultiply": 3,
 	"maxlight": 5
   },
   {
