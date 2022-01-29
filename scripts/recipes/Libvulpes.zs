@@ -35,3 +35,9 @@ mods.jei.JEI.hideItem(<item:libvulpes:creative_power_battery>);
 mods.jei.JEI.hideItem(<item:libvulpes:forge_power_input>);
 mods.jei.JEI.hideItem(<item:libvulpes:forge_power_output>);
 mods.jei.JEI.hideItem(<item:libvulpes:coal_generator>);
+
+mods.jei.JEI.hideItem(<item:jaopca:mekanism_clumps.iridium>);
+mods.jei.JEI.hideItem(<item:jaopca:mekanism_dirty_dusts.iridium>);
+mods.jei.JEI.hideItem(<item:jaopca:mekanism_crystals.iridium>);
+mods.jei.JEI.hideItem(<item:jaopca:mekanism_shards.iridium>);
+mods.jei.JEI.hideItem(<item:jaopca:molten.iridium>);

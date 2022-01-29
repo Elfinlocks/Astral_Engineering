@@ -16,6 +16,8 @@ event.replaceOutput({}, '#forge:gears/copper', 'thermal:copper_gear')
 
 event.replaceOutput({}, '#forge:dusts/iron', 'thermal:iron_dust')
 
+event.replaceOutput({}, 'chemlib:ingot_iridium', 'libvulpes:ingotiridium')
+
 event.replaceOutput({}, '#forge:dusts/gold', 'thermal:gold_dust')
 event.replaceOutput({}, '#forge:plates/gold', 'immersiveengineering:plate_gold')
 
@@ -60,6 +62,8 @@ event.replaceOutput({}, '#forge:dusts/zinc', 'jaopca:dusts.zinc')
 event.replaceOutput({}, '#forge:nuggets/zinc', 'create:zinc_nugget') 
 event.replaceOutput({}, '#forge:storage_blocks/zinc', 'create:zinc_block') 
 event.replaceOutput({}, '#forge:plates/zinc', 'createaddition:zinc_sheet') 
+event.replaceInput({}, 'create:crushed_zinc_ore', 'jaopca:dusts.zinc')
+event.replaceInput({}, 'create:crushed_copper_ore', 'thermal:copper_dust')
 
 event.replaceOutput({}, '#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
 event.replaceOutput({}, '#forge:dusts/aluminum', 'immersiveengineering:dust_aluminum')  
@@ -76,9 +80,10 @@ event.replaceOutput({}, '#forge:dusts/yellorium', 'immersiveengineering:dust_ura
 event.replaceOutput({}, '#forge:storage_blocks/yellorium', 'immersiveengineering:storage_uranium') 
 
 event.replaceOutput({}, '#forge:ingots/brass', 'create:brass_ingot')
-event.replaceOutput({}, '#forge:dusts/brass', 'create:crushed_brass')  
-event.replaceOutput({}, '#forge:nuggets/brass', 'create:brass_nugget') 
+event.replaceOutput({}, '#forge:dusts/brass', 'jaopca:dusts.brass')
+event.replaceOutput({}, '#forge:nuggets/brass', 'create:brass_nugget')
 event.replaceOutput({}, '#forge:storage_blocks/brass', 'create_brass_block') 
+event.replaceOutput({}, 'create:crushed_brass', 'jaopca:dusts.brass')
 
 event.replaceOutput({}, '#forge:ingots/invar', 'thermal:invar_ingot')
 event.replaceOutput({}, '#forge:dusts/invar', 'thermal:invar_dust')  

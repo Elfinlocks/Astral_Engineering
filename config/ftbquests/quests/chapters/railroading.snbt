@@ -2095,12 +2095,19 @@
 			title: "Going Up!"
 			x: -4.5d
 			y: -8.0d
+			description: ["Elevate your transportation to new heights! Bindings for lifting up and down can be modified in the controls. Can be controlled by piston adjuster rails."]
 			dependencies: ["31E31C4BD7EA325D"]
 			id: "7B6213B1B9CE8220"
 			tasks: [{
 				id: "48A2C88177189764"
 				type: "item"
 				item: "moreminecarts:piston_pushcart"
+			}]
+			rewards: [{
+				id: "66B34025A400ADE3"
+				type: "item"
+				item: "moreminecarts:piston_lifter_rail"
+				count: 2
 			}]
 		}
 	]

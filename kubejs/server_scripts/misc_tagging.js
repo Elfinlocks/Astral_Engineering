@@ -17,9 +17,11 @@ events.listen('block.tags', function (event) {
 	event.get('forge:workbench').add('minecraft:crafting_table')
 	event.get('chisel:marble').add('explorercraft:marble')
     event.get('chisel:basalt').add('explorercraft:basalt')
+	event.get('forge:ores/iridium').remove('libvulpes:oreiridium')
 })
 
 events.listen('item.tags', function (event) {
+	event.get('forge:ores/iridium').remove('libvulpes:oreiridium')
 	event.get('forge:egg').remove('pamhc2trees:bananaitem')
 	event.get('forge:egg').remove('pamhc2trees:avocadoitem')
 	event.get('forge:egg').remove('pamhc2crops:flaxitem')

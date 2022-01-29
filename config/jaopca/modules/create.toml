@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = []
+	materialBlacklist = ["cobalt", "desh", "iridium", "ironwood", "knightmetal", "netherite_scrap", "silicon", "starmetal", "thallasium"]
 
