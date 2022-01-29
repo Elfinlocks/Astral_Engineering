@@ -58,6 +58,14 @@
   },
   {
 	"dimension": "minecraft:overworld",
+	"mob": [
+		"minecraft:skeleton",
+		"minecraft:zombie"
+	],
+	"maxcount": 20
+  },
+  {
+	"dimension": "minecraft:overworld",
 	"onjoin": false,
 	"spawner": false,
 	"hostile": true,
@@ -65,6 +73,38 @@
 	"maxtime": 13000,
 	"minheight": 55,
 	"result": deny 
+  },
+  {
+	  "dimension": "minecraft:overworld",
+	  "mob": "artifacts:mimic",
+	  "result": "default",
+	  "onjoin": true,
+	  "conditions": {
+		  "maxcount": 5
+	  }
+  },
+  {
+	  "dimension": "minecraft:overworld",
+	  "mob": [
+		"minecraft:cow",
+		"minecraft:pig",
+		"minemcraft:sheep",
+		"minecraft:rabbit"
+	  ],
+	  "result": "default",
+	  "onjoin": true,
+	  "conditions": {
+		  "mincount": 1
+	  }
+  },
+  {
+	  "dimension": "minecraft:overworld",
+	  "mod": "alexsmobs",
+	  "result": "allow",
+	  "onjoin": true,
+	  "conditions": {
+		  "mincount": 1
+	  }
   },
   {
     "dimension": "boss_tools:mercury",

@@ -100,8 +100,8 @@
 		}
 		{
 			icon: "minecraft:minecart"
-			x: 4.5d
-			y: -2.25d
+			x: 7.5d
+			y: -3.75d
 			shape: "hexagon"
 			description: ["Try out the &bGuides&r section of the quests - they offer some insight for the roads less traveled."]
 			dependencies: ["76E3C761FAF296CD"]
@@ -127,8 +127,8 @@
 		}
 		{
 			icon: "losttrinkets:starfish"
-			x: 7.0d
-			y: -4.0d
+			x: 10.0d
+			y: -5.0d
 			shape: "hexagon"
 			description: ["You're done with the information dump - please enjoy &2Astral Engineering!&r"]
 			dependencies: ["46CF366B4598F938"]
@@ -142,11 +142,11 @@
 		}
 		{
 			icon: "twilightforest:canopy_sapling"
-			x: 2.25d
-			y: -0.75d
+			x: 5.25d
+			y: -2.25d
 			shape: "hexagon"
 			description: ["This pack is focused upon rewarding &2Exploration&r. Due to this, you will find lot of rewards simply by exploring the world, and I recommend you try this before settling down."]
-			dependencies: ["155D7663ABCEF788"]
+			dependencies: ["17F52D1FC51E69E1"]
 			size: 1.5d
 			id: "76E3C761FAF296CD"
 			tasks: [{
@@ -158,6 +158,27 @@
 				id: "57C0D442C9C2DE11"
 				type: "item"
 				item: "minecraft:compass"
+			}]
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			x: 3.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["Skeletons and Zombies are much tougher than their vanilla counterparts! Tread carefully at night."]
+			dependencies: ["155D7663ABCEF788"]
+			size: 1.5d
+			id: "17F52D1FC51E69E1"
+			tasks: [{
+				id: "54A59C4E3E56B784"
+				type: "checkmark"
+				title: "Watch Out!"
+			}]
+			rewards: [{
+				id: "2BB8E1E80FC54B10"
+				type: "item"
+				item: "minecraft:torch"
+				count: 10
 			}]
 		}
 	]
