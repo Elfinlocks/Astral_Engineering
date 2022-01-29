@@ -638,6 +638,7 @@
 		}
 		{
 			title: "Basic Electrolysis Components - Part 2"
+			icon: "masterfulmachinery:electrolyser_controller"
 			x: -0.5d
 			y: 0.0d
 			subtitle: "Next, we'll need to make the ports for the multiblock."
@@ -1070,6 +1071,7 @@
 		}
 		{
 			title: "Extreme Power!"
+			icon: "immersiveengineering:wirecoil_steel"
 			x: 8.0d
 			y: 0.0d
 			subtitle: "HV Wires will bring your power transfer to the next level!"

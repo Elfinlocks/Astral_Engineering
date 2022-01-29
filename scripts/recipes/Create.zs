@@ -1,3 +1,17 @@
+// Hiding crushed stuff 
+
+mods.jei.JEI.hideItem(<item:create:crushed_iron_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_gold_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_copper_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_zinc_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_osmium_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_silver_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_tin_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_lead_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_aluminum_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_uranium_ore>);
+mods.jei.JEI.hideItem(<item:create:crushed_nickel_ore>);
+
 craftingTable.removeRecipe(<item:create:electron_tube>);
 craftingTable.removeRecipe(<item:createaddition:capacitor>);
 <recipetype:create:pressing>.removeRecipe(<item:create:iron_sheet>);
@@ -222,6 +236,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.removeRecipe(<item:jaopca:create_crushed_ores.iridium>);
 <recipetype:create:milling>.removeRecipe(<item:minecraft:black_dye>);
 <recipetype:create:milling>.removeRecipe(<item:jaopca:create_crushed_ores.starmetal>);
+<recipetype:create:milling>.removeRecipe(<item:jaopca:create_crushed_ores.cobalt>);
 
 // Milling Mill Fixes 
 

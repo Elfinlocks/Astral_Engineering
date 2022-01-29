@@ -1922,8 +1922,8 @@
 		}
 		{
 			title: "Keeping An Eye On 'Em"
-			x: -1.0d
-			y: -6.5d
+			x: -2.0d
+			y: -6.0d
 			description: [
 				"A chunkloader cart continously loads a &63x3 chunk area&r, if fueled by diamonds, quartz, emeralds, or nether stars, with a duration depending on what it is fueled with."
 				""
@@ -2010,8 +2010,8 @@
 		}
 		{
 			title: "Mana Transportation Station"
-			x: -1.0d
-			y: -9.0d
+			x: -2.0d
+			y: -10.0d
 			description: ["A minecart with a mana pool provides a very easy and effective way to transport mana with minimal use of &6spreaders&r and &6tablets&r."]
 			dependencies: ["61B19E278BAFD0E1"]
 			id: "70612AF3CE786728"
@@ -2073,6 +2073,35 @@
 					item: "moreminecarts:rail_signal_green"
 				}
 			]
+		}
+		{
+			title: "Cheap As Can Be"
+			x: -2.0d
+			y: -8.0d
+			description: [
+				"Pushcarts allow more player control than a normal minecart, but obviously lacks the greater functionality of a normal minecart."
+				""
+				"Also comes in an iron version!"
+			]
+			dependencies: ["61B19E278BAFD0E1"]
+			id: "31E31C4BD7EA325D"
+			tasks: [{
+				id: "4659AD470B5212AA"
+				type: "item"
+				item: "moreminecarts:wooden_pushcart"
+			}]
+		}
+		{
+			title: "Going Up!"
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["31E31C4BD7EA325D"]
+			id: "7B6213B1B9CE8220"
+			tasks: [{
+				id: "48A2C88177189764"
+				type: "item"
+				item: "moreminecarts:piston_pushcart"
+			}]
 		}
 	]
 }
