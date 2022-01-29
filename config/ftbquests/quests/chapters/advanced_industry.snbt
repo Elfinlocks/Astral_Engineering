@@ -251,19 +251,18 @@
 		}
 		{
 			title: "Finally! Digital Storage!"
+			icon: "appliedenergistics2:controller"
 			x: 0.5d
-			y: -2.0d
-			shape: "circle"
+			y: -4.5d
+			shape: "gear"
 			subtitle: "These are some of the key components for constructing an ME System. This can serve as a versatile system for managing items."
 			description: [
 				"Note: You may prefer to use Refined Storage instead. There are no quests for Refined Storage, but it is balanced for this pack, if you choose to utilize it."
 				""
 				"Hint: To easily view the items, type \"@Refined\" in JEIs search bar."
 			]
-			dependencies: [
-				"581A8A8E2DFB365A"
-				"3AED57EBD34E6829"
-			]
+			dependencies: ["581A8A8E2DFB365A"]
+			size: 1.5d
 			optional: true
 			id: "1C05494507330E8B"
 			tasks: [
@@ -306,11 +305,11 @@
 		}
 		{
 			title: "On Our Way To The Digital Age..."
-			x: -4.0d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 			subtitle: "Fluix Crystals can be obtained by dropping Charged Certus Quartz, Nether Quartz, and Redstone Dust into a pool of Water."
 			description: ["The production of these crystals can also be automated."]
-			dependencies: ["09812AE1E82D15C5"]
+			dependencies: ["3AED57EBD34E6829"]
 			optional: true
 			id: "631FBD2CC11F4972"
 			tasks: [{
@@ -499,8 +498,8 @@
 		}
 		{
 			title: "First Processors"
-			x: -2.5d
-			y: -2.0d
+			x: -1.5d
+			y: -2.5d
 			subtitle: "Next, we'll need some basic processor prints. These can be made more easily via The Thermal Expansion, if you have delved into it."
 			dependencies: ["631FBD2CC11F4972"]
 			optional: true
@@ -535,8 +534,8 @@
 		}
 		{
 			title: "The Process of Engineering"
-			x: -1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -4.5d
 			subtitle: "Next, create some processors using a Mechanical Crafter Array - you should have several set up by now."
 			description: [""]
 			dependencies: ["4E756DC38491E2A1"]
