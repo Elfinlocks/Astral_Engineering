@@ -640,7 +640,7 @@
 			y: 3.5d
 			subtitle: "Next, gather the remaining materials needed for a Pumpjack. You can consult your Engineer's Manual for the layout of this machine."
 			description: [
-				"Note: a Pumpjack requires 512 RF per tick to operate."
+				"Note: a Pumpjack requires 512 RF per tick to operate. I recommend creating a &6battery bank&r to power one, rather than meeting this demand outright."
 				""
 				"Note 2: The Pumpjack does NOT require pipes connecting to Bedrock - just to a good surface within an oil chunk."
 			]
@@ -1111,11 +1111,11 @@
 		}
 		{
 			title: "Blast Preheating"
-			x: 19.0d
-			y: 0.0d
+			x: 4.0d
+			y: 8.0d
 			subtitle: "Blast Furance Preheaters can be attached to the sides of an improved Blast Furnace, and powered with FE."
 			description: ["Doing this will greatly increase the speed of your steel processing."]
-			dependencies: ["1F1994D8C11FAB3D"]
+			dependencies: ["5C0C42050567B5D6"]
 			optional: true
 			id: "58575B2165C2EA96"
 			tasks: [{
@@ -1700,6 +1700,7 @@
 			subtitle: "A steel steam engine knocks the others out of the park!"
 			description: ["The Steel Flywheel and Engine can generate up to 9216su!"]
 			dependencies: ["555F46F17ADBACE9"]
+			size: 1.5d
 			optional: true
 			id: "639FEBA9F1C5AF29"
 			tasks: [
@@ -1714,11 +1715,19 @@
 					item: "steampowered:steel_steam_engine"
 				}
 			]
-			rewards: [{
-				id: "7ACA65D1E802B604"
-				type: "item"
-				item: "steampowered:alternator"
-			}]
+			rewards: [
+				{
+					id: "7ACA65D1E802B604"
+					type: "item"
+					item: "steampowered:alternator"
+				}
+				{
+					id: "4BBF9639EC5756E7"
+					type: "item"
+					item: "minecraft:coal"
+					count: 64
+				}
+			]
 		}
 		{
 			title: "I Can See...I Can FIGHT!"
@@ -1993,6 +2002,42 @@
 						Material: "tconstruct:steel"
 					}
 				}
+			}]
+		}
+		{
+			title: "Fancy An Upgrade?"
+			icon: "immersiveengineering:wirecoil_electrum_ins"
+			x: 19.0d
+			y: 0.0d
+			subtitle: "MV Wire Coils offer an increased transfer rate."
+			description: ["I recommend insulating these."]
+			dependencies: ["1F1994D8C11FAB3D"]
+			id: "21C466135539E865"
+			tasks: [
+				{
+					id: "067B3731222A3BDA"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+					count: 4L
+				}
+				{
+					id: "0CEE2815822E5AAA"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+					count: 4L
+				}
+				{
+					id: "562BD32BB06CE76D"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "0704757FC422E373"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+				count: 4
 			}]
 		}
 	]

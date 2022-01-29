@@ -8,8 +8,8 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 9.5d
-		y: -1.5d
+		x: 3.5d
+		y: 0.5d
 		width: 1.0d
 		height: 1.0d
 		rotation: 0.0d

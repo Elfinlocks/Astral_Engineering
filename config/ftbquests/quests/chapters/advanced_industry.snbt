@@ -99,7 +99,7 @@
 		}
 		{
 			title: "Advanced Engineering Blocks"
-			x: 4.5d
+			x: 6.0d
 			y: -2.0d
 			subtitle: "These blocks will be used to construct powerful multiblock machines, such as the Excavator or Diesel Generator."
 			dependencies: ["3AED57EBD34E6829"]
@@ -133,8 +133,8 @@
 		{
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
-			x: 6.0d
-			y: -6.0d
+			x: 8.0d
+			y: -4.0d
 			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk."
 			dependencies: ["7B3BFD67BF675C5D"]
 			optional: true
@@ -198,8 +198,8 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: 4.5d
-			y: -4.5d
+			x: 6.0d
+			y: -4.0d
 			subtitle: "Construct the Diesel Generator, which can produce up to 8192 RF per tick using Diesel or Biodiesel."
 			description: [""]
 			dependencies: ["7D4AA3C434A30047"]
@@ -380,8 +380,8 @@
 		}
 		{
 			title: "Essential Induction"
-			x: 8.0d
-			y: 4.0d
+			x: 6.5d
+			y: 4.5d
 			subtitle: "The Induction Smelter offers an easy way to make most alloys, most notably Andesite Alloy."
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -399,7 +399,7 @@
 		}
 		{
 			title: "Phytogenic Insulation!"
-			x: 6.0d
+			x: 4.5d
 			y: 4.5d
 			subtitle: "The Phytogenic Insulator offers a way to automate the production of natural produce, even trees!"
 			dependencies: ["4010B64090D3B97C"]
@@ -419,8 +419,8 @@
 		}
 		{
 			title: "Plate-maker 9000"
-			x: 8.0d
-			y: 0.75d
+			x: 8.5d
+			y: 1.5d
 			subtitle: "The Multiservo Press, when upgraded, is the fastest method of producing plates, amongst other things."
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -439,8 +439,8 @@
 		}
 		{
 			title: "Fabrication Inspiration"
-			x: 4.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.0d
 			subtitle: "The Sequential Fabricator is capable of creating nearly any 3x3 recipe, and can even use liquids!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -459,8 +459,8 @@
 		}
 		{
 			title: "\"And from his lava came this song of hope...\""
-			x: 9.0d
-			y: 2.25d
+			x: 8.0d
+			y: 3.5d
 			subtitle: "The Magmatic Dynamo uses lava to produce some serious power output!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -479,8 +479,8 @@
 		}
 		{
 			title: "Drilling Down..."
-			x: 6.0d
-			y: -4.0d
+			x: 8.0d
+			y: -2.0d
 			subtitle: "To determine what a particular chunk's ore vein has in it, you'll need to use a Core Sample Drill. "
 			dependencies: ["7D4AA3C434A30047"]
 			optional: true
@@ -1067,6 +1067,16 @@
 				type: "item"
 				item: "xkdeco:factory_electricity"
 				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "08B20F2FA0AD380F"
+			tasks: [{
+				id: "3784BC385C656A54"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
 			}]
 		}
 	]
