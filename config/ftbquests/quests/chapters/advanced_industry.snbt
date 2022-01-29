@@ -1070,14 +1070,51 @@
 			}]
 		}
 		{
+			title: "Extreme Power!"
 			x: 8.0d
 			y: 0.0d
+			subtitle: "HV Wires will bring your power transfer to the next level!"
+			description: ["Warning! These aren't called &6high voltage&r for nothing - they can shock you to death!"]
+			dependencies: ["7E669A982589507E"]
+			optional: true
 			id: "08B20F2FA0AD380F"
-			tasks: [{
-				id: "3784BC385C656A54"
-				type: "item"
-				item: "immersiveengineering:wirecoil_steel"
-			}]
+			tasks: [
+				{
+					id: "3784BC385C656A54"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+					count: 4L
+				}
+				{
+					id: "67CB0E7B4998A9C1"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+					count: 4L
+				}
+				{
+					id: "424ECA263E03FA06"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "14F1099E40D4132E"
+					type: "item"
+					item: "engineersdecor:sign_hotwire"
+				}
+				{
+					id: "2325494DB9ABE976"
+					type: "item"
+					item: "immersiveengineering:transformer_hv"
+				}
+				{
+					id: "1453A585F92B63B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 	]
 }

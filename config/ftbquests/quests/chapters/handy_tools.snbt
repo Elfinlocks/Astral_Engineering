@@ -146,7 +146,6 @@
 			x: 2.0d
 			y: 4.0d
 			subtitle: "Upgrade your backpack to the next tier for more room!"
-			dependencies: ["74416A0FA26371A2"]
 			dependency_requirement: "one_completed"
 			id: "0DD49C340174DC36"
 			tasks: [{
@@ -388,28 +387,6 @@
 					xp: 450
 				}
 			]
-		}
-		{
-			title: "The Cure to Inventory Woes"
-			icon: "sophisticatedbackpacks:iron_backpack"
-			x: 0.0d
-			y: 4.0d
-			subtitle: "Backpacks are extremely handy, as both a storage space and for their utility!"
-			description: [
-				"Tip: You can shift-click a backpack to open it up!"
-				""
-				"Bonus Tip: You can wear these in a bauble slot, to avoid taking up your chestpiece slot."
-			]
-			id: "74416A0FA26371A2"
-			tasks: [{
-				id: "045BBD5EF11FE82B"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "56A5547202E95C6A"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
 		}
 		{
 			title: "Ah Yes, Enslaved Bag of Sleep"
@@ -1554,7 +1531,7 @@
 		}
 		{
 			title: "Your Best Building Friend"
-			x: -2.0d
+			x: -6.0d
 			y: -6.0d
 			subtitle: "The iChisel makes converting blocks extremely easy!"
 			id: "0E107FF2A7C10FE1"
@@ -1585,7 +1562,7 @@
 		}
 		{
 			title: "No, The Other One"
-			x: 2.0d
+			x: 6.0d
 			y: -6.0d
 			subtitle: "Your other best building friend, for the detailers!"
 			id: "6B6F5B124E49520F"
@@ -1827,7 +1804,7 @@
 			title: "An Engineer's Best Friend"
 			icon: "create:brown_toolbox"
 			x: 0.0d
-			y: -6.0d
+			y: 4.0d
 			subtitle: "A Toolbox offers a portable and convenient place to store all of your mechanical components!"
 			id: "66EC2CC70F572BCE"
 			tasks: [{
