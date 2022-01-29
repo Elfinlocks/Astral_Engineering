@@ -1771,7 +1771,7 @@
 			description: [
 				"Spectral Rails provide carts with a &6unique buff&r when they pass over - it provides carts with a small amount of &6levitation&r, and allows them to &6pass through walls&r!"
 				""
-				"The more of these rails which are lined up, the more powerful this effect will become. However, a single rail is enough to allow a cart to pass through a wall &four blocks thick&r, if it has enough speed beforehand."
+				"The more of these rails which are lined up, the more powerful this effect will become. However, a single rail is enough to allow a cart to pass through a wall up to &6three blocks thick&r, if it has enough speed beforehand."
 			]
 			dependencies: ["50C59F4A013274AF"]
 			id: "0F861C74AA3FFF7E"
@@ -1785,6 +1785,294 @@
 				type: "item"
 				item: "botania:ghost_rail"
 			}]
+		}
+		{
+			title: "A Quick Refresher"
+			x: 1.0d
+			y: -8.0d
+			description: [
+				"Although some of you may be familiar with vanilla carts, they are included in these quests to provide a basis of information."
+				""
+				"The minecart with chest provides a portable storage interface for minecarts. It stores items like a normal chest, but items may be inserted or removed from the cart by &6hoppers&r, placed above or below the cart, respectively."
+			]
+			dependencies: ["28CB62590D123ADA"]
+			id: "61B19E278BAFD0E1"
+			tasks: [{
+				id: "7E7BCE42307CDBF0"
+				type: "item"
+				item: "minecraft:chest_minecart"
+			}]
+			rewards: [{
+				id: "5529DDA1EA1179B4"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Powered Trolleys"
+			x: 1.0d
+			y: -10.0d
+			description: [
+				"A minecart with furnace will propel itself forwards as long as it has &6fuel&r to burn. They are useful for the purpose of moving other carts."
+				""
+				"Furnace minecarts can pull up to &6four&r other minecarts, even up slopes."
+			]
+			dependencies: ["61B19E278BAFD0E1"]
+			id: "797971D8B01D3676"
+			tasks: [{
+				id: "03406C07FFB30BC9"
+				type: "item"
+				item: "minecraft:furnace_minecart"
+			}]
+			rewards: [{
+				id: "4690BC6116A94001"
+				type: "item"
+				item: "minecraft:coal"
+				count: 15
+			}]
+		}
+		{
+			title: "The Cheap One"
+			x: 1.0d
+			y: -12.0d
+			description: [
+				"A campfire cart operates just like a furnace cart, but is slower and weaker."
+				""
+				"However, it requires &6no fuel&r to run."
+			]
+			dependencies: ["797971D8B01D3676"]
+			id: "5FADA0B1046EAAA6"
+			tasks: [{
+				id: "3DED05B600AA5C34"
+				type: "item"
+				item: "moreminecarts:campfire_cart"
+			}]
+			rewards: [{
+				id: "4A53A11AC733EE91"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "A Couple of Besties"
+			x: 3.5d
+			y: -6.0d
+			description: ["Minecart couplings allow you to &6link minecarts together&r. This is very useful for creating &6trains&r."]
+			dependencies: ["28CB62590D123ADA"]
+			id: "7948D73E36324C4B"
+			tasks: [{
+				id: "4FCE5F647DDE310C"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+			rewards: [{
+				id: "29B3E178C1216162"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			title: "Railway Assembly"
+			x: 5.5d
+			y: -6.0d
+			description: [
+				"The cart assembler allows you to put &6structures&r on top of minecarts, and then &6move them around&r. A cart passing through a cart assembler will pick up a structure placed upon it."
+				""
+				"See the &6ponder&r entry on this mechanic for further information."
+			]
+			dependencies: ["7948D73E36324C4B"]
+			id: "101F8161DD5269BD"
+			tasks: [{
+				id: "6002A95A56D20333"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [
+				{
+					id: "6C2181F06C474DD9"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "4740715BC855A5B2"
+					type: "item"
+					item: "minecraft:rail"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Slightly Better"
+			x: 1.0d
+			y: -14.0d
+			description: ["A soul campfire cart operates just like a campfire cart, but is slightly more powerful."]
+			dependencies: ["5FADA0B1046EAAA6"]
+			id: "469EC9533E996D32"
+			tasks: [{
+				id: "065D3EBBECB22F09"
+				type: "item"
+				item: "moreminecarts:soulfire_cart"
+			}]
+			rewards: [{
+				id: "181CE4A3278E2254"
+				type: "item"
+				item: "minecraft:soul_lantern"
+			}]
+		}
+		{
+			title: "Keeping An Eye On 'Em"
+			x: -1.0d
+			y: -6.5d
+			description: [
+				"A chunkloader cart continously loads a &63x3 chunk area&r, if fueled by diamonds, quartz, emeralds, or nether stars, with a duration depending on what it is fueled with."
+				""
+				"Can be turned &6on&r or &6off&r with &6activator rails&r."
+			]
+			dependencies: ["61B19E278BAFD0E1"]
+			id: "2CA0D3CDD9F502E2"
+			tasks: [{
+				id: "705CEE1533FD0457"
+				type: "item"
+				item: "moreminecarts:minecart_with_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "121683A1A4C3BD91"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+				{
+					id: "310CB7BC95F10CBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Hop To It!"
+			x: 3.5d
+			y: -8.0d
+			description: [
+				"A hopper cart can hold items like a chest cart, but with less capacity. The benefit of a hopper cart is the &6transfer rate&r - it will move up to &620 items per second&r in or out, depending on the placement of other hoppers above or below it."
+				""
+				"A hopper cart may be &6activated or deactivated&r by using an &6activator rail&r."
+			]
+			dependencies: ["61B19E278BAFD0E1"]
+			id: "37A7D57CCEED9CCD"
+			tasks: [{
+				id: "323623EE06AA673D"
+				type: "item"
+				item: "minecraft:hopper_minecart"
+			}]
+			rewards: [{
+				id: "1C33AB421225B4BD"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			title: "Truly Captain Nemo"
+			x: 5.5d
+			y: -8.0d
+			description: [
+				"An underwater minecart allows the transport of entities on &6underwater rails&r without them drowning. It provides passengers with &6four minutes&r of air."
+				""
+				"Can also be enchanted with &6respiration&r, to provide an even greater duration."
+			]
+			dependencies: ["37A7D57CCEED9CCD"]
+			id: "1A699A449EED427B"
+			tasks: [{
+				id: "2A05198641BBA7C1"
+				type: "item"
+				item: "thermal:underwater_minecart"
+			}]
+		}
+		{
+			title: "Special Delivery"
+			x: 3.5d
+			y: -10.0d
+			description: ["A TNT cart will detonate if it passes over an &6activator rail&r, falls too far (minimum of three blocks), or drives into blocks or entities."]
+			dependencies: ["37A7D57CCEED9CCD"]
+			id: "5C76457E30C16059"
+			tasks: [{
+				id: "261A431148E45537"
+				type: "item"
+				item: "minecraft:tnt_minecart"
+			}]
+			rewards: [{
+				id: "3A7E1ED5ED710F0C"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 2
+			}]
+		}
+		{
+			title: "Mana Transportation Station"
+			x: -1.0d
+			y: -9.0d
+			description: ["A minecart with a mana pool provides a very easy and effective way to transport mana with minimal use of &6spreaders&r and &6tablets&r."]
+			dependencies: ["61B19E278BAFD0E1"]
+			id: "70612AF3CE786728"
+			tasks: [{
+				id: "6995262175174D43"
+				type: "item"
+				item: "botania:pool_minecart"
+			}]
+			rewards: [{
+				id: "5B7D4B5AFE57728D"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			title: "Come Here My Pretty"
+			x: 5.5d
+			y: -10.0d
+			description: ["A spider cart &6reels in items&r and &6pull them along as entities&r. Be careful of pulling a lot of items - it could cause some serious lag!"]
+			dependencies: ["5C76457E30C16059"]
+			id: "36FADB79FB6FEB75"
+			tasks: [{
+				id: "3CB31550AD71D50A"
+				type: "item"
+				item: "moreminecarts:minecart_with_net"
+			}]
+			rewards: [{
+				id: "6D53A9EDE3623E52"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			title: "Advanced Logistics"
+			x: 7.5d
+			y: -6.0d
+			description: ["A signal cart is a powerful logistics tool, which can cycle through a list of &6colored signals&r. It can be manipulated by powered signal &6switch rails&r."]
+			dependencies: ["101F8161DD5269BD"]
+			id: "297F4272D20F04E4"
+			tasks: [{
+				id: "7EEC8623866A0348"
+				type: "item"
+				item: "moreminecarts:flag_cart"
+			}]
+			rewards: [
+				{
+					id: "014561F6ED8133B3"
+					type: "item"
+					item: "moreminecarts:rail_signal_red"
+				}
+				{
+					id: "40450E0B460E9D99"
+					type: "item"
+					item: "moreminecarts:rail_signal_blue"
+				}
+				{
+					id: "0F144E0FA29C17AA"
+					type: "item"
+					item: "moreminecarts:rail_signal_green"
+				}
+			]
 		}
 	]
 }
