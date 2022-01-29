@@ -1425,5 +1425,366 @@
 				}
 			]
 		}
+		{
+			title: "Lighting The Way!"
+			x: -5.5d
+			y: 2.0d
+			description: ["Bioluminescent Rails emit a dim glow - they're great for dark mineshafts."]
+			dependencies: ["6FD2AD59E5021557"]
+			id: "48F1E969DAC8942C"
+			tasks: [{
+				id: "71AF8AC83348FDFB"
+				type: "item"
+				item: "moreminecarts:bioluminescent_rail"
+				count: 8L
+			}]
+			rewards: [{
+				id: "20EA8F4B6AA5DB3F"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 4
+			}]
+		}
+		{
+			title: "Like The Sun!"
+			x: -7.5d
+			y: 2.0d
+			description: [
+				"Lumium Rails also provide light, but in an even greater area!"
+				""
+				"Comes in crossing, activator, detector, and powered versions as well."
+			]
+			dependencies: ["48F1E969DAC8942C"]
+			id: "137A891EBB29AA38"
+			tasks: [{
+				id: "381A6FB77E229D94"
+				type: "item"
+				item: "thermal:lumium_rail"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "0101E6F3C01A68F0"
+					type: "item"
+					item: "thermal:lumium_crossover_rail"
+				}
+				{
+					id: "3FBB5E6EBE930445"
+					type: "item"
+					item: "thermal:lumium_powered_rail"
+				}
+				{
+					id: "5B8C034534862750"
+					type: "item"
+					item: "thermal:lumium_activator_rail"
+				}
+				{
+					id: "3DDEE35CAAD0F61E"
+					type: "item"
+					item: "thermal:lumium_detector_rail"
+				}
+			]
+		}
+		{
+			title: "The Colors of the Rainbow!"
+			x: -6.5d
+			y: -4.0d
+			description: [
+				"Colored Detector Rails operate similarly to &6activator rails&r, except they only activate if the player in a cart, or the cart itself, possesses a &6rail signal flag&r of the correct color."
+				""
+				"There is a variant for every color of dye as well! Check out &6Signal Minecarts&r under the carts section for best usage."
+			]
+			dependencies: ["2FE658B56B6E3A42"]
+			id: "69DC4D258E5C1BB9"
+			tasks: [{
+				id: "746A7FD0359E8F23"
+				type: "item"
+				item: "moreminecarts:color_detector_rail_white"
+			}]
+			rewards: [{
+				id: "413840EDA355A9E9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Crossing Over"
+			x: -1.5d
+			y: 2.0d
+			description: ["Rail Crossings provide an X-shaped rail intersection. In addition, they have variants for other &6rail types&r, from wooden to lightspeed."]
+			dependencies: ["4849E1DC8BA7A383"]
+			id: "139D34B6F45E234B"
+			tasks: [{
+				id: "1327EE5CFE8C870E"
+				type: "item"
+				item: "moreminecarts:cross_rail"
+			}]
+			rewards: [{
+				id: "59FDA569AE7CF5C4"
+				type: "item"
+				item: "moreminecarts:cross_rail"
+			}]
+		}
+		{
+			title: "Picking Up Speed"
+			x: -5.5d
+			y: 4.0d
+			description: [
+				"Maglev Rails are sturdy and powerful. They provide an increased &6maximum speed&r from normal minecart rails."
+				""
+				"They also have variants, such as powered, crossing, and turn rails."
+			]
+			dependencies: ["75DDCAEC2F6570D5"]
+			id: "07D7EEACD22DEF23"
+			tasks: [{
+				id: "1D1C5B6A1D35F8B3"
+				type: "item"
+				item: "moreminecarts:maglev_rail"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7652B29ED238D757"
+				type: "item"
+				item: "moreminecarts:maglev_powered_rail"
+				count: 3
+			}]
+		}
+		{
+			title: "Empowered Logistics"
+			x: -1.5d
+			y: 4.0d
+			description: ["A rail turn only operates when a redstone signal is applied. The direction can be toggled via right-click. These have wooden and maglev variants as well."]
+			dependencies: ["139D34B6F45E234B"]
+			id: "2AECC0AB357100F6"
+			tasks: [{
+				id: "3E692FF4C5D00021"
+				type: "item"
+				item: "moreminecarts:rail_turn"
+			}]
+			rewards: [
+				{
+					id: "3BE735994CFA0645"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "4D81C73DC711B11B"
+					type: "item"
+					item: "moreminecarts:rail_turn"
+				}
+			]
+		}
+		{
+			title: "Train Yard Anyone?"
+			x: -1.5d
+			y: 6.0d
+			description: ["The parallel rail does not turn, allowing you to, as the name implies, create tracks parallel to one another."]
+			dependencies: ["2AECC0AB357100F6"]
+			id: "48325909506A0A62"
+			tasks: [{
+				id: "4D56D0113940E248"
+				type: "item"
+				item: "moreminecarts:parallel_rail"
+			}]
+			rewards: [{
+				id: "77EB484A3BB66EC4"
+				type: "item"
+				item: "moreminecarts:parallel_rail"
+				count: 4
+			}]
+		}
+		{
+			title: "Unique Materials"
+			icon: "moreminecarts:glass_cactus"
+			x: -3.5d
+			y: 6.0d
+			description: [
+				"Vitric Cacti spawn in desert biomes, and provide a new resource. They may only be relocated via &6silk touch&r."
+				""
+				"Collect some of their shards to proceed."
+			]
+			dependencies: ["75DDCAEC2F6570D5"]
+			id: "107ED9497FF19BB1"
+			tasks: [{
+				id: "79600A906125E8DE"
+				type: "item"
+				item: "moreminecarts:glass_spines"
+				count: 4L
+			}]
+		}
+		{
+			title: "A New Compound"
+			x: -3.5d
+			y: 2.0d
+			description: ["Silica Steel is created from Iron, Coal, and Quartz. You will need some to proceed."]
+			dependencies: ["6FD2AD59E5021557"]
+			id: "3A710D3F1BE32D97"
+			tasks: [{
+				id: "5E80C831F613F2C8"
+				type: "item"
+				item: "moreminecarts:silica_steel"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3FE044F258C15A1C"
+				type: "item"
+				item: "moreminecarts:silica_steel"
+				count: 2
+			}]
+		}
+		{
+			title: "Additional Materials"
+			x: -3.5d
+			y: 4.0d
+			description: ["You now have a suitable material for the rails themselves, but will need this unique material from &6The End&r to allow carts to move along it properly."]
+			dependencies: ["3A710D3F1BE32D97"]
+			id: "75DDCAEC2F6570D5"
+			tasks: [{
+				id: "5A5F7D034B93F48D"
+				type: "item"
+				item: "moreminecarts:levitation_powder"
+			}]
+			rewards: [{
+				id: "5F197A0C5A5DF831"
+				type: "item"
+				item: "moreminecarts:levitation_powder"
+				count: 3
+			}]
+		}
+		{
+			title: "Condensed Light"
+			x: -5.5d
+			y: 6.0d
+			description: ["By using an emerald as a focus, these vitric shards will serve as a powerful compound for more advanced rails."]
+			dependencies: ["107ED9497FF19BB1"]
+			id: "10BD54CE059AB490"
+			tasks: [{
+				id: "47D5DBC80B3D1AD1"
+				type: "item"
+				item: "moreminecarts:hard_light_lens"
+			}]
+		}
+		{
+			title: "Let's Move"
+			x: -7.5d
+			y: 5.0d
+			subtitle: "Ice boats have nothing on this."
+			description: ["Lightspeed rails provide an extremely high maximum speed. However, they cannot &6slope&r or &6turn&r. Bear this in mind when constructing railways out of them!"]
+			dependencies: [
+				"07D7EEACD22DEF23"
+				"10BD54CE059AB490"
+			]
+			id: "1AED1884245E8EF8"
+			tasks: [{
+				id: "4DF637DA7B847486"
+				type: "item"
+				item: "moreminecarts:lightspeed_rail"
+				count: 8L
+			}]
+			rewards: [{
+				id: "05C789614A0485C6"
+				type: "item"
+				item: "moreminecarts:lightspeed_powered_rail"
+				count: 3
+			}]
+		}
+		{
+			title: "Switching!"
+			x: -1.5d
+			y: 8.0d
+			description: ["A signal switch rail is a powerful logistics tool, which primarily is used to manipulate &6signal minecarts&r. You can learn more about this in the carts section of this chapter."]
+			dependencies: ["48325909506A0A62"]
+			id: "2E78650190586083"
+			tasks: [{
+				id: "3BE84096480E29DB"
+				type: "item"
+				item: "moreminecarts:arithmetic_rail"
+			}]
+			rewards: [{
+				id: "4A82CF5F90BC4DA5"
+				type: "item"
+				item: "moreminecarts:arithmetic_rail"
+			}]
+		}
+		{
+			title: "Hardlight Rails"
+			x: -5.5d
+			y: 8.0d
+			description: [
+				"Holographic rails project rails outwards, either directly ahead, or upwards. They will attempt to connect to elevated rails that are placed within their maximum reach."
+				""
+				"Applying a redstone signal will &6toggle&r the rails, switching them between elevated or not."
+				""
+				"Holographic rails also come in &6wooden&r and &6maglev&r variants."
+			]
+			dependencies: [
+				"10BD54CE059AB490"
+				"2E78650190586083"
+			]
+			id: "1D9827EE4BD5FEEC"
+			tasks: [{
+				id: "3440EDBF5F02A6A1"
+				type: "item"
+				item: "moreminecarts:projector_rail"
+			}]
+			rewards: [
+				{
+					id: "6A06393760A7A271"
+					type: "item"
+					item: "moreminecarts:projector_rail"
+				}
+				{
+					id: "3E2A2E7878A61137"
+					type: "item"
+					item: "minecraft:lever"
+				}
+			]
+		}
+		{
+			title: "Underwater Expeditions"
+			x: -9.5d
+			y: 0.0d
+			description: [
+				"Prismarine rails are waterloggable, and therefore allow carts to move along &6underwater&r. However, you may want a &6covered minecart&r if doing this yourself!"
+				""
+				"Comes in crossover, powered, activator, and detector variants!"
+			]
+			dependencies: ["02AE2C2629296B1A"]
+			id: "50C59F4A013274AF"
+			tasks: [{
+				id: "2B8FF963B5A2F4B5"
+				type: "item"
+				item: "thermal:prismarine_rail"
+				count: 6L
+			}]
+			rewards: [{
+				id: "08D26C8B9AB73FF4"
+				type: "item"
+				item: "thermal:prismarine_powered_rail"
+				count: 3
+			}]
+		}
+		{
+			title: "Now This Is a Magic Railway!"
+			x: -11.5d
+			y: 0.0d
+			description: [
+				"Spectral Rails provide carts with a &6unique buff&r when they pass over - it provides carts with a small amount of &6levitation&r, and allows them to &6pass through walls&r!"
+				""
+				"The more of these rails which are lined up, the more powerful this effect will become. However, a single rail is enough to allow a cart to pass through a wall &four blocks thick&r, if it has enough speed beforehand."
+			]
+			dependencies: ["50C59F4A013274AF"]
+			id: "0F861C74AA3FFF7E"
+			tasks: [{
+				id: "4A2C7D8152D058AC"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+			rewards: [{
+				id: "370FE274B0E46582"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+		}
 	]
 }
