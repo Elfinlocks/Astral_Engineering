@@ -11,6 +11,8 @@ craftingTable.removeRecipe(<item:immersiveengineering:floodlight>);
 craftingTable.removeRecipe(<item:immersiveengineering:logic_unit>);
 craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_electro>);
 
+// Misc Removals 
+
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:immersiveengineering:generator>);
@@ -43,6 +45,10 @@ craftingTable.removeByName("createaddition:compat/immersiveengineering/blastfurn
 craftingTable.removeByName("immersiveengineering:crafting/furnace_heater");
 craftingTable.removeByName("createaddition:crafting/heater_exchange");
 craftingTable.removeByName("mekanism:storage_blocks/steel");
+craftingTable.removeRecipe(<item:immersiveengineering:minecart_woodencrate>);
+craftingTable.removeRecipe(<item:immersiveengineering:minecart_reinforcedcrate>);
+craftingTable.removeRecipe(<item:immersiveengineering:minecart_woodenbarrel>);
+craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 // Crusher Removals
 
