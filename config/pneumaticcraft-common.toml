@@ -2,10 +2,10 @@
 [General]
 	#Chance per chunk as a percentage to generate an Oil Lake. Set to 0 for no oil lakes. See also 'surface_oil_generation_chance'.
 	#Range: 0 ~ 100
-	oil_generation_chance = 15
+	oil_generation_chance = 0
 	#When an Oil Lake would be generated at the surface (see 'oil_generation_chance'), percentage chance that this will actually generate a lake. Set to 0 for no surface oil lakes, and fewer lakes overall. Higher values don't guarantee surface oil lakes, but make them more likely, as well as making oil lakes more likely overall. It is recommended to adjust this value in conjunction with 'oil_generation_chance'.
 	#Range: 0 ~ 100
-	surface_oil_generation_chance = 25
+	surface_oil_generation_chance = 0
 	#Enable mod dungeon loot generation
 	enable_dungeon_loot = true
 	#Enable Drone Suffocation Damage
@@ -46,7 +46,7 @@
 	crop_sticks_growth_boost_chance = 0.002
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	#Range: > 0
-	electric_compressor_efficiency = 40
+	electric_compressor_efficiency = 60
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	#Range: > 0
 	electrostatic_lightning_chance = 100000
@@ -169,7 +169,7 @@
 	armor_piercing_ammo_cartridge_size = 250
 	#Base bullet damage of the Sentry Gun, Handheld Minigun, and Drone Minigun, before ammo bonuses are considered
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_damage = 4.0
+	base_damage = 10.0
 	#Base range of Minigun, before Range Upgrades are considered
 	#Range: 5 ~ 100
 	base_range = 50
