@@ -323,7 +323,7 @@
 	[machines.excavator]
 		#The Flux per tick the Excavator will consume to dig
 		#Range: > 1
-		consumption = 4096
+		consumption = 6144
 		#The speed of the Excavator. Basically translates to how many degrees per tick it will turn.
 		#Range: 0.001 ~ 1000.0
 		speed = 1.0

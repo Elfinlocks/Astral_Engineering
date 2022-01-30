@@ -135,7 +135,7 @@
 			icon: "immersiveengineering:excavator"
 			x: 8.0d
 			y: -4.0d
-			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk."
+			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk. Requires 6,144 RF per tick."
 			dependencies: ["7B3BFD67BF675C5D"]
 			optional: true
 			id: "751DB16191F3159E"
@@ -200,7 +200,7 @@
 			icon: "immersiveengineering:diesel_generator"
 			x: 6.0d
 			y: -4.0d
-			subtitle: "Construct the Diesel Generator, which can produce up to 8192 RF per tick using Diesel or Biodiesel."
+			subtitle: "Construct the Diesel Generator, which can produce up to 8,192 RF per tick using Diesel or Biodiesel."
 			description: [""]
 			dependencies: ["7D4AA3C434A30047"]
 			optional: true
