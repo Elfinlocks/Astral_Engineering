@@ -1,0 +1,118 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "alchemistry_machine",
+  "controllerId": "alchsyn",
+  "name": "Alchemical Synthesizer",
+  "layout": [
+    [
+      "))))",
+      "))))",
+      "))))",
+      "))))",
+      "))))",
+      "))))",
+      "))))",
+      "))))",
+      "))))"
+    ],
+    [
+      "    ",
+      " )))",
+      " *+*",
+      " ,-,",
+      " ,-,",
+      " *+*",
+      " ).)",
+      " )/)",
+      " )0)"
+    ],
+    [
+      "    ",
+      " )1)",
+      " *2*",
+      " 323",
+      " 323",
+      " *2*",
+      " ).)",
+      " C 4",
+      " )5)"
+    ],
+    [
+      "    ",
+      " )))",
+      " )))",
+      " )))",
+      " )))",
+      " )6)",
+      " )))",
+      " ) )",
+      " )))"
+    ],
+    [
+      "    ",
+      "  ) ",
+      "  ) ",
+      "  ) ",
+      "  ) ",
+      "  ) ",
+      "  ) ",
+      " ) )",
+      "  ) "
+    ],
+    [
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      "  ) ",
+      " ) )",
+      "  ) "
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "create:brass_casing"
+    },
+    "*": {
+      "block": "astralsorcery:infused_wood_enriched"
+    },
+    "+": {
+      "block": "botania:alchemy_catalyst"
+    },
+    ",": {
+      "block": "astralsorcery:infused_wood_arch"
+    },
+    "-": {
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    ".": {
+      "block": "immersiveengineering:blastbrick_reinforced"
+    },
+    "/": {
+      "block": "minecraft:soul_campfire"
+    },
+    "0": {
+      "block": "masterfulmachinery:alchsyn_energy_port_energy_input"
+    },
+    "1": {
+      "block": "masterfulmachinery:alchsyn_item_port_items_output"
+    },
+    "2": {
+      "block": "steampowered:steel_cogwheel"
+    },
+    "3": {
+      "block": "thermal:lumium_glass"
+    },
+    "4": {
+      "block": "masterfulmachinery:alchsyn_fluid_port_fluids_input"
+    },
+    "5": {
+      "block": "masterfulmachinery:alchsyn_item_port_items_input"
+    },
+    "6": {
+      "block": "masterfulmachinery:alchsyn_rotation_port_create_rotation_output"
+    }
+  }
+}

@@ -76,26 +76,4 @@ craftingTable.addShaped("noc_pressure_in", <item:masterfulmachinery:noc_air_port
 	[<item:immersiveengineering:plate_aluminum>, <item:kubejs:compounded_plastic>, <item:mekanism:basic_control_circuit>, <item:kubejs:compounded_plastic>, <item:immersiveengineering:plate_aluminum>],
 	[<item:thermal:machine_frame>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:thermal:machine_frame>]]);
 
-// Fluid Encapsulator 
-
-mods.jei.JEI.hideItem(<item:masterfulmachinery:fuel_encap_fluid_port_fluids_output>);
-
-craftingTable.addShaped("fuel_encap_item_in", <item:masterfulmachinery:fuel_encap_item_port_items_input>, [
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_logistical_transporter>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:immersiveengineering:reinforced_crate>, <item:mekanism:basic_control_circuit>],
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_logistical_transporter>, <item:immersiveengineering:plate_aluminum>]]);
-	
-craftingTable.addShaped("fuel_encap_item_out", <item:masterfulmachinery:fuel_encap_item_port_items_output>, [
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:basic_control_circuit>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:elite_logistical_transporter>, <item:immersiveengineering:reinforced_crate>, <item:mekanism:elite_logistical_transporter>],
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:basic_control_circuit>, <item:immersiveengineering:plate_aluminum>]]);
-	
-craftingTable.addShaped("fuel_encap_fuel_in", <item:masterfulmachinery:fuel_encap_fluid_port_fluids_input>, [
-	[<item:immersiveengineering:plate_aluminum>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:pneumaticcraft:medium_tank>.transformReplace(<item:minecraft:air>), <item:mekanism:basic_control_circuit>],
-	[<item:immersiveengineering:plate_aluminum>, <item:create:mechanical_pump>, <item:immersiveengineering:plate_aluminum>]]);
-	
-craftingTable.addShaped("fuel_encap_controller", <item:masterfulmachinery:fuel_encap_controller>, [
-	[<item:immersiveengineering:plate_aluminum>,<item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:thermal:machine_press>, <item:mekanism:basic_control_circuit>],
-	[<item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>]]); 
+// Alchemical Synthesizer
