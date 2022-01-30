@@ -7,6 +7,18 @@ craftingTable.removeRecipe(<item:pneumaticcraft:heat_frame>);
 craftingTable.removeRecipe(<item:pneumaticcraft:reinforced_stone>);
 craftingTable.removeRecipe(<item:pneumaticcraft:printed_circuit_board>);
 craftingTable.removeRecipe(<item:pneumaticcraft:network_io_port>);
+craftingTable.removeRecipe(<item:pneumaticcraft:spawner_agitator>);
+craftingTable.removeRecipe(<item:pneumaticcraft:drill_pipe>);
+
+craftingTable.addShaped("drill_pipe", <item:pneumaticcraft:drill_pipe> * 5, [
+	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("spawner_agitator", <item:pneumaticcraft:spawner_agitator>, [
+	[<tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>],
+	[<tag:items:forge:ingots/aluminum>, <item:eidolon:shadow_gem>, <tag:items:forge:ingots/aluminum>],
+	[<tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>]]);
 
 craftingTable.addShaped("compounded_plastic", <item:kubejs:compounded_plastic>, [
 	[<item:minecraft:air>, <item:pneumaticcraft:plastic>, <item:minecraft:air>],

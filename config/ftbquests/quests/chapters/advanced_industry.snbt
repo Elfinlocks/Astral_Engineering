@@ -927,8 +927,8 @@
 		{
 			title: "Etch-A-Sketch"
 			icon: "pneumaticcraft:etching_tank"
-			x: -1.5d
-			y: 2.0d
+			x: -3.5d
+			y: 4.0d
 			subtitle: "Next, some small machines are needed."
 			description: [
 				"First, place the PCBs in a UV Light Box. The greater their exposure, the more likely it is that the etching process will succeed."
@@ -968,8 +968,8 @@
 		}
 		{
 			title: "Assembling!"
-			x: 0.5d
-			y: 2.0d
+			x: -1.0d
+			y: 4.0d
 			subtitle: "Make six assembled PCBs to continue!"
 			description: [""]
 			dependencies: ["7C2E4134FD7C4633"]
@@ -991,7 +991,7 @@
 		{
 			title: "Assembly Line Go!"
 			icon: "pneumaticcraft:assembly_controller"
-			x: 2.5d
+			x: -1.0d
 			y: 2.0d
 			subtitle: "Make all of these assembly line pieces to get rolling!"
 			description: [
@@ -1114,6 +1114,140 @@
 					id: "1453A585F92B63B4"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "Build-A-Spawner"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "The following quests will teach you how to get your very own mob spawners!"
+			description: ["First, we'll need a spawner agitator."]
+			dependencies: [
+				"4CC12FC67445BF4C"
+				"3AED57EBD34E6829"
+			]
+			optional: true
+			id: "4D35A03AA7BB2052"
+			tasks: [{
+				id: "33540E76BC9F5FCF"
+				type: "item"
+				item: "pneumaticcraft:spawner_agitator"
+			}]
+			rewards: [
+				{
+					id: "72A60F6BDF4D414D"
+					type: "item"
+					item: "immersiveengineering:ingot_aluminum"
+					count: 3
+				}
+				{
+					id: "1DD9CD39CEF05C0D"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Spawner Assault Essentials"
+			icon: "pneumaticcraft:spawner_extractor"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "Next, we'll need a Spawner Extractor and Vacuum Pump."
+			description: [
+				"To set this up, you will need to bring suitable equipment to apply pressure on the &6+&r side of the vacuum pump, and then connect pressure tubes on the &6-&r side to the spawner extractor."
+				""
+				"Be ready to fight! The extractor will agitate the spawner, causing mobs to appear! The spawner must continue creating mobs in order to finish extracting, so find a good way to kill them off."
+			]
+			dependencies: ["4D35A03AA7BB2052"]
+			optional: true
+			id: "38A4FF4DDDDBD9A0"
+			tasks: [
+				{
+					id: "4489711C6ACD0DD1"
+					type: "item"
+					item: "pneumaticcraft:spawner_extractor"
+				}
+				{
+					id: "2BC5448AF9CADFF2"
+					type: "item"
+					item: "pneumaticcraft:vacuum_pump"
+				}
+			]
+			rewards: [
+				{
+					id: "18B18D47408E44BC"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 5
+				}
+				{
+					id: "68EE9D2094FE4E6A"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Claim Your Prize!"
+			x: 1.0d
+			y: 6.0d
+			subtitle: "That wasn't so bad, was it?"
+			description: ["When finished, the spawner extractor should drop out the spawner's core. You are now free to mine the empty spawner - silk touch not required!"]
+			dependencies: ["38A4FF4DDDDBD9A0"]
+			optional: true
+			id: "190F88CF926A68A7"
+			tasks: [{
+				id: "26E967A62257A499"
+				type: "item"
+				item: "pneumaticcraft:empty_spawner"
+			}]
+			rewards: [
+				{
+					id: "18C9CD88BF778217"
+					type: "item"
+					item: "pamhc2foodextended:friedfeastitem"
+				}
+				{
+					id: "1FE66831C5E0427A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "Your Own Mob Farm"
+			x: -1.0d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "Time to set things up."
+			description: ["A Pressurized Spawner offers a highly configurable way to set up mob farms. You can even customize spawners to output mobs of your choosing!"]
+			dependencies: ["190F88CF926A68A7"]
+			size: 1.5d
+			optional: true
+			id: "1DBD2A5B1B97C514"
+			tasks: [{
+				id: "75126808225B1C25"
+				type: "item"
+				item: "pneumaticcraft:pressurized_spawner"
+			}]
+			rewards: [
+				{
+					id: "2F567DAAD84F1503"
+					type: "item"
+					item: "pneumaticcraft:advanced_pressure_tube"
+					count: 4
+				}
+				{
+					id: "5BF961A89ED61C8D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "481879F4E2032436"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+					count: 2
 				}
 			]
 		}
