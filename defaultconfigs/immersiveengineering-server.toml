@@ -92,7 +92,7 @@
 	dieselGen_output = 8192
 	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
 	#Range: > 1
-	preheater_consumption = 64
+	preheater_consumption = 128
 	#The Flux per tick the Charging Station can insert into an item
 	#Range: > 1
 	charger_consumption = 256
