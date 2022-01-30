@@ -642,7 +642,7 @@
 			description: [
 				"Note: a Pumpjack requires 512 RF per tick to operate. I recommend creating a &6battery bank&r to power one, rather than meeting this demand outright."
 				""
-				"Note 2: The Pumpjack does NOT require pipes connecting to Bedrock - just to a good surface within an oil chunk."
+				"Note 2: The Pumpjack requires pipes connecting to &6Bedrock&r."
 			]
 			dependencies: ["357C8ABBFAD44DC9"]
 			id: "48BBC2E819A1B6A5"
@@ -697,7 +697,7 @@
 			title: "Putting Straw Golems Out of a Job"
 			x: 0.5d
 			y: -5.5d
-			subtitle: "A Harvester can be attached to a contraption to automatically harvest crops as it runs over them. A good start would be attaching these to blocks rotated around a Radial Chassis."
+			subtitle: "A Harvester can be attached to a contraption to &6automatically harvest&r crops as it runs over them. A good start would be attaching these to blocks rotated around by a &6Radial Chassis&r."
 			dependencies: ["2807E15C7B1E4D22"]
 			optional: true
 			id: "2AE34BAFE2B23647"
