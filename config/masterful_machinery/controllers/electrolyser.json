@@ -5,7 +5,7 @@
     {
       "type": "masterfulmachinery:items",
 	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
-      "name": "Electrolyser Item",
+      "name": "Item",
       "id": "item",
       "data": {
         "rows": 3,
@@ -14,7 +14,7 @@
     },
     {
       "type": "masterfulmachinery:energy",
-      "name": "Electrolyser Energy",
+      "name": "Energy",
 	  "textureOverride": "immersiveengineering:block/metal_device/furnace_heater_socket",
       "id": "energy",
       "data": {
@@ -23,7 +23,7 @@
     },
     {
       "type": "masterfulmachinery:fluids",
-      "name": "Electrolyser Water",
+      "name": "Water",
 	  "textureOverride": "immersiveengineering:block/metal/storage_aluminum",
       "id": "fluid",
       "data": {
@@ -32,7 +32,7 @@
     },
     {
       "type": "masterfulmachinery:mekanism_gas",
-      "name": "Electrolyser Gas",
+      "name": "Gas",
 	  "textureOverride": "immersiveengineering:block/metal/storage_steel",
       "id": "gas",
       "data": {
