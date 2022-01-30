@@ -10,6 +10,7 @@ craftingTable.removeRecipe(<item:simplyjetpacks:thruster_ie2>);
 craftingTable.removeRecipe(<item:immersiveengineering:floodlight>);
 craftingTable.removeRecipe(<item:immersiveengineering:logic_unit>);
 craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_electro>);
+craftingTable.removeRecipe(<item:immersiveengineering:conveyor_basic>);
 
 // Misc Removals 
 
@@ -112,6 +113,10 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_charcoal", <tag:items:forge:charcoal>, 500, <item:mekanism:dust_charcoal>);
 
+craftingTable.addShaped("conveyor_belt", <item:immersiveengineering:conveyor_basic> * 3, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:thermal:cured_rubber>, <tag:items:forge:leather>, <item:thermal:cured_rubber>],
+	[<tag:items:forge:ingots/steel>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.addShaped("radiator_block", <item:immersiveengineering:radiator> * 1, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:create:brass_sheet>, <item:immersiveengineering:sheetmetal_steel>],
