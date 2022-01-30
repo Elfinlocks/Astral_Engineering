@@ -506,7 +506,7 @@
 
 	[tools.powerpack]
 		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]
-		whitelist = []
+		whitelist = ["mekanism:mekasuit_bodyarmor"]
 		#A blacklist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]. Whitelist has priority over this
 		blacklist = ["embers:ashen_cloak_chest", "ic2:batpack", "ic2:cf_pack", "ic2:energy_pack", "ic2:jetpack", "ic2:jetpack_electric", "ic2:lappack"]
 
