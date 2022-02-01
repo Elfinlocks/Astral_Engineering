@@ -15,6 +15,12 @@ craftingTable.removeRecipe(<item:quark:chute>);
 craftingTable.removeRecipe(<item:quark:pickarang>);
 craftingTable.removeRecipe(<item:quark:flamerang>);
 craftingTable.removeRecipe(<item:quark:seed_pouch>);
+craftingTable.removeRecipe(<item:quark:sandy_bricks>);
+
+craftingTable.addShaped("sandy_bricks", <item:quark:sandy_bricks>, [
+	[<item:minecraft:brick>, <tag:items:forge:sand>, <item:minecraft:brick>],
+	[<tag:items:forge:sand>, <item:minecraft:clay>, <tag:items:forge:sand>],
+	[<item:minecraft:brick>, <tag:items:forge:sand>, <item:minecraft:brick>]]);
 
 craftingTable.addShaped("seed_pouch", <item:quark:seed_pouch>, [
 	[<item:minecraft:air>, <tag:items:forge:string>, <item:minecraft:air>],

@@ -14,7 +14,7 @@
 			y: -3.0d
 			shape: "hexagon"
 			description: ["Don't forget to adjust your keybindings!"]
-			dependencies: ["4983D289845799E1"]
+			dependencies: ["7FA5F864A358783F"]
 			size: 1.5d
 			id: "5C3734DA48D7E479"
 			tasks: [{
@@ -26,8 +26,8 @@
 		{
 			title: "Welcome to Astral Engineering!"
 			icon: "ftbquests:book"
-			x: -4.0d
-			y: -6.0d
+			x: -5.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "Left click for more information!"
 			description: [
@@ -179,6 +179,26 @@
 				type: "item"
 				item: "minecraft:torch"
 				count: 10
+			}]
+		}
+		{
+			icon: "akashictome:tome"
+			x: -3.75d
+			y: -5.25d
+			shape: "hexagon"
+			description: ["Your &6Akashic Tome&r contains many useful guides for the mods in this pack. Although not all of the information is accurate due to recipe changes, it will still serve you well as a general reference and guide."]
+			dependencies: ["4983D289845799E1"]
+			size: 1.5d
+			id: "7FA5F864A358783F"
+			tasks: [{
+				id: "7A708931968ABEAB"
+				type: "checkmark"
+				title: "A Bit of Light Reading"
+			}]
+			rewards: [{
+				id: "1ADF5925FC1CBE94"
+				type: "item"
+				item: "dads_sewing:nerd_glasses_hat"
 			}]
 		}
 	]

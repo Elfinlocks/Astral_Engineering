@@ -67,9 +67,10 @@
 		}
 		{
 			title: "HAMMAH!"
-			x: 22.5d
-			y: -3.5d
+			x: 18.0d
+			y: 0.0d
 			subtitle: "Craft an Engineer's Hammer."
+			dependencies: ["4EB25C20BB94A8BB"]
 			id: "3E2E706C04B33A45"
 			tasks: [{
 				id: "7702DDC68BD72434"
@@ -104,15 +105,15 @@
 					spell: { }
 				}
 			}
-			x: 18.0d
+			x: 19.5d
 			y: 0.0d
-			subtitle: "Craft Coke Bricks. Left click for information on creating a Coke Oven."
+			subtitle: "Cast some Coke Bricks. Left click for information on creating a Coke Oven."
 			description: [
 				"Right click a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven."
 				""
-				"The Coke Oven will fill up with Creosote Oil and eventually stop working, so try to automate draining this as soon as possible."
+				"The Coke Oven will fill up with Creosote Oil and eventually stop working - for now you'll need to bucket it out."
 			]
-			dependencies: ["4EB25C20BB94A8BB"]
+			dependencies: ["3E2E706C04B33A45"]
 			id: "75ACC6EA81DF8C4D"
 			tasks: [{
 				id: "67EDF398D500CD42"
@@ -136,9 +137,9 @@
 					spell: { }
 				}
 			}
-			x: 20.5d
-			y: 1.5d
-			subtitle: "Craft Blast Bricks. Left click for information on creating a Blast Furnace."
+			x: 23.0d
+			y: 0.0d
+			subtitle: "Cast some Blast Bricks. Left click for information on creating a Blast Furnace."
 			description: [
 				"Right click a 3x3x3 cube of Blast Bricks with an Engineer's Hammer to make a Blast Furnace."
 				""
@@ -161,8 +162,8 @@
 		}
 		{
 			title: "Blazing Through"
-			x: 27.75d
-			y: 0.75d
+			x: 24.75d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
 			dependencies: ["0E1C4AEDB8594945"]
@@ -225,6 +226,7 @@
 			x: 17.0d
 			y: -5.0d
 			subtitle: "Consult your Ars Ecclesia for information on the Crystallization Ritual, used to obtain Soul Shards."
+			description: ["Your Ars Ecclesia is located in your Akashic Tome."]
 			dependencies: ["632ED810D5453781"]
 			id: "2D3D6EDBFDA95965"
 			tasks: [{
@@ -427,29 +429,21 @@
 		}
 		{
 			title: "Dumping Excess..."
-			x: 28.0d
-			y: -2.0d
+			x: 20.25d
+			y: 1.75d
 			subtitle: "Once you get ahold of some piping, a fluid trash can will serve you well for disposing of unwanted Creosote Oil."
-			dependencies: ["031023A8EA6FD4D0"]
+			dependencies: ["75ACC6EA81DF8C4D"]
 			optional: true
 			id: "162DFFD5D4CE1757"
-			tasks: [
-				{
-					id: "0B49B5D4E8A589D7"
-					type: "item"
-					item: "trashcans:liquid_trash_can"
-				}
-				{
-					id: "64CA781452668D4E"
-					type: "item"
-					item: "mekanism:basic_mechanical_pipe"
-					count: 8L
-				}
-			]
-			rewards: [{
-				id: "6478E23D50BF08DF"
+			tasks: [{
+				id: "0B49B5D4E8A589D7"
 				type: "item"
-				item: "mekanism:configurator"
+				item: "trashcans:liquid_trash_can"
+			}]
+			rewards: [{
+				id: "73B794A996427B83"
+				type: "item"
+				item: "minecraft:bucket"
 			}]
 		}
 		{
@@ -480,7 +474,8 @@
 		{
 			title: "Down, Down, to Ghast Town"
 			icon: "dads_sewing:ghast_plush"
-			x: 20.5d
+			disable_toast: true
+			x: 21.25d
 			y: 0.0d
 			subtitle: "Construct a Nether Portal and travel to your first of many dimensions."
 			description: ["You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."]
@@ -528,7 +523,7 @@
 			description: [
 				"A simple ore grinder will help you with this. Don't worry, there's easier ways to accomplish this later on."
 				""
-				"To use, simply place the grinder, and then place the crank on top. Right click twice to grind the ore down into dust. Please note that this only works with some ores."
+				"To use, simply place the grinder, and then place the crank on top. Right click the crank to grind the ore down into dust. Please note that this only works with some ores."
 			]
 			dependencies: ["1AF3E867A00953D7"]
 			id: "35D0D95034259B1D"
@@ -652,7 +647,7 @@
 			title: "Building Blocks of Industry"
 			icon: "tconstruct:grout"
 			x: 15.5d
-			y: 1.5d
+			y: 1.75d
 			subtitle: "This way for tech!"
 			description: [
 				"Although you can grind your ores manually, it will be much easier to smelt them in a Tinker's Forge."
@@ -733,7 +728,7 @@
 			title: "Controlled Smelting"
 			icon: "tconstruct:smeltery_controller"
 			x: 18.0d
-			y: 1.5d
+			y: 1.75d
 			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
 			description: [
 				"The controller, fuel tank, and drain must all be placed on a specific side of the Tinker's Smeltery, meaning that they cannot occupy a \"corner\" block."

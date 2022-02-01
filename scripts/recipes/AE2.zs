@@ -32,6 +32,13 @@ craftingTable.addShapeless("crafting_terminal", <item:appliedenergistics2:crafti
 
 <recipetype:create:milling>.addRecipe("milling_fluix_pure", [<item:appliedenergistics2:fluix_dust> % 100], <item:appliedenergistics2:purified_fluix_crystal>);
 
+craftingTable.removeRecipe(<item:appliedenergistics2:grindstone>);
+
+craftingTable.addShaped("grindstone", <item:appliedenergistics2:grindstone>, [
+	[<tag:items:forge:stone>, <tag:items:minecraft:logs>, <tag:items:forge:stone>],
+	[<tag:items:minecraft:logs>, <item:minecraft:grindstone>, <tag:items:minecraft:logs>],
+	[<tag:items:forge:stone>, <tag:items:minecraft:logs>, <tag:items:forge:stone>]]);
+
 // Grindstone recipes 
 
 <recipetype:appliedenergistics2:grinder>.removeAll();

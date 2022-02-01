@@ -11,6 +11,14 @@ craftingTable.removeRecipe(<item:immersiveengineering:floodlight>);
 craftingTable.removeRecipe(<item:immersiveengineering:logic_unit>);
 craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_electro>);
 craftingTable.removeRecipe(<item:immersiveengineering:conveyor_basic>);
+craftingTable.removeRecipe(<item:immersiveengineering:cokebrick>);
+craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
+
+// Coke Bricks and Blast Bricks 
+
+<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("cokebrick_casting", <item:quark:sandy_bricks>, <fluid:minecraft:lava> * 250, <item:immersiveengineering:cokebrick>, 200, true, true);
+
+<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("blastbrick_casting", <item:quark:sandy_bricks>, <fluid:tconstruct:magma> * 1000, <item:immersiveengineering:blastbrick>, 200, true, true);
 
 // Misc Removals 
 
@@ -204,15 +212,6 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_steel", <item:minecraft:iron_ingot>, [<item:immersiveengineering:dust_coke>], 40, 12000, [<item:immersiveengineering:ingot_steel>], <item:immersiveengineering:slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_titanium", <item:libvulpes:dusttitanium>, [<item:immersiveengineering:dust_coke>], 1200, 1200000, [<item:libvulpes:ingottitanium>], <item:thermal:rich_slag>);
-
-// Blast bricks 
-
-craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
-
-craftingTable.addShaped("blast_bricks", <item:immersiveengineering:blastbrick> * 3, [
-    [<item:minecraft:iron_ingot>, <item:minecraft:brick>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:brick>, <item:minecraft:magma_block>, <item:minecraft:brick>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:brick>, <item:minecraft:iron_ingot>]]);
 
 // Kiln bricks 
 

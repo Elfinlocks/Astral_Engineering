@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 0.5d
-			y: 8.5d
+			x: 3.5d
+			y: 4.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -60,10 +60,10 @@
 		{
 			title: "Windmill, Windmill, For The Land..."
 			icon: "create:windmill_bearing"
-			x: -1.5d
-			y: 6.5d
+			x: 7.0d
+			y: 3.0d
 			subtitle: "A Windmill can provide you with large amounts of Rotational Force, used to power later machines."
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["37A1141824C64B5A"]
 			optional: true
 			id: "0376B5865C55A6A1"
 			tasks: [
@@ -94,10 +94,10 @@
 		}
 		{
 			title: "Waterwheel, turning in my life so sweet..."
-			x: -0.5d
-			y: 5.0d
+			x: 6.0d
+			y: 1.5d
 			subtitle: "A Water Wheel can supply you with medium amounts of Rotational Force, used to power later machines."
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["37A1141824C64B5A"]
 			optional: true
 			id: "29AEE691E6EC0A34"
 			tasks: [{
@@ -113,10 +113,10 @@
 		}
 		{
 			title: "Baby's First Rotational Force"
-			x: -1.0d
-			y: 8.0d
+			x: 6.0d
+			y: 4.5d
 			subtitle: "An Encased Fan placed above a heat source can provide very small amounts of Rotational Force, used to power later machines."
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["37A1141824C64B5A"]
 			optional: true
 			id: "4BAB2F240B771EDB"
 			tasks: [{
@@ -1166,6 +1166,7 @@
 			]
 		}
 		{
+			title: "New Challenges Ahead!"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -1173,8 +1174,8 @@
 			}
 			x: 2.0d
 			y: 4.5d
-			subtitle: "In the following chapters, you will learn how to make alloys through two routes"
-			description: ["From here, you can choose to get the brass that you need to advance through Tinkers, or through a combination of Create and Immersive Engineering."]
+			subtitle: "In the following chapters, you will learn how to make plates through Create."
+			description: [""]
 			dependencies: ["4B00B60DE355C08C"]
 			id: "3BD6D4ED98074251"
 			tasks: [{
@@ -1182,12 +1183,17 @@
 				type: "checkmark"
 				title: "Choose Your Path"
 			}]
+			rewards: [{
+				id: "57F7D43D73412C7D"
+				type: "item"
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: -4.0d
+			y: 6.5d
 			subtitle: "Materials and You is a comprehensive guide to all of the neat modifiers available from Tinkers Construct for your tools."
-			dependencies: ["4EB25C20BB94A8BB"]
+			dependencies: ["4AFDEA24E595D3A3"]
 			optional: true
 			id: "061857003E840821"
 			tasks: [{
@@ -1203,11 +1209,11 @@
 		}
 		{
 			title: "ACME Anvils"
-			x: 4.5d
-			y: 5.0d
+			x: -1.5d
+			y: 6.5d
 			subtitle: "The creator of this modpack is not responsible for any harm done by such anvils to cartoon critters."
 			description: ["A Tinker's Anvil can be used to create much more powerful tools, such as the broadaxe, excavator, and more."]
-			dependencies: ["4EB25C20BB94A8BB"]
+			dependencies: ["4B00B60DE355C08C"]
 			optional: true
 			id: "4AFDEA24E595D3A3"
 			tasks: [{
@@ -1641,7 +1647,7 @@
 		{
 			title: "I Can See...I Can FIGHT!"
 			x: 4.0d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "Engineer Goggles make tweaking your creations much easier."
 			description: ["They allow you see stress capacity, interconnected devices, and more!"]
 			dependencies: ["696CC33BB96232F5"]
@@ -1703,6 +1709,8 @@
 				"Plate: A Copper Plate"
 				""
 			]
+			dependencies: ["5F68C4D92EF20E09"]
+			optional: true
 			id: "0CDEC483A2ED93A5"
 			tasks: [
 				{
@@ -1804,8 +1812,8 @@
 		}
 		{
 			title: "Vein Mining!"
-			x: 6.5d
-			y: 3.5d
+			x: -3.0d
+			y: 8.0d
 			subtitle: "A Vein Hammer does what it says on the tin - it's vein mining!"
 			description: ["Make one out of any materials to complete this quest."]
 			dependencies: ["4AFDEA24E595D3A3"]
@@ -1859,8 +1867,8 @@
 		}
 		{
 			title: "Vein Chopping!"
-			x: 6.5d
-			y: 0.5d
+			x: -3.0d
+			y: 5.0d
 			subtitle: "A Broad Axe lets you fell trees with ease!"
 			description: ["Make one out of any materials to complete this quest."]
 			dependencies: ["4AFDEA24E595D3A3"]
@@ -1946,6 +1954,19 @@
 				type: "item"
 				item: "immersiveengineering:hemp_fabric"
 				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "To power your contraptions, you'll need a source of rotational force."
+			dependencies: ["696CC33BB96232F5"]
+			optional: true
+			id: "37A1141824C64B5A"
+			tasks: [{
+				id: "62D588F7A39674A8"
+				type: "checkmark"
+				title: "Sources of Rotational Force"
 			}]
 		}
 	]
