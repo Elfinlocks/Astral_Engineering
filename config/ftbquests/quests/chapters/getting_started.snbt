@@ -33,6 +33,7 @@
 			title: "Stone Age Livin'"
 			x: 12.5d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "Craft your first Furnace."
 			description: [
 				"That's right! You get a whole iron pickaxe head, just like that, because the modpack author loves you very much."
@@ -66,10 +67,9 @@
 		}
 		{
 			title: "HAMMAH!"
-			x: 14.5d
-			y: 0.0d
+			x: 22.5d
+			y: -3.5d
 			subtitle: "Craft an Engineer's Hammer."
-			dependencies: ["1AF3E867A00953D7"]
 			id: "3E2E706C04B33A45"
 			tasks: [{
 				id: "7702DDC68BD72434"
@@ -104,7 +104,7 @@
 					spell: { }
 				}
 			}
-			x: 16.5d
+			x: 18.0d
 			y: 0.0d
 			subtitle: "Craft Coke Bricks. Left click for information on creating a Coke Oven."
 			description: [
@@ -112,7 +112,7 @@
 				""
 				"The Coke Oven will fill up with Creosote Oil and eventually stop working, so try to automate draining this as soon as possible."
 			]
-			dependencies: ["3E2E706C04B33A45"]
+			dependencies: ["4EB25C20BB94A8BB"]
 			id: "75ACC6EA81DF8C4D"
 			tasks: [{
 				id: "67EDF398D500CD42"
@@ -137,7 +137,7 @@
 				}
 			}
 			x: 20.5d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "Craft Blast Bricks. Left click for information on creating a Blast Furnace."
 			description: [
 				"Right click a 3x3x3 cube of Blast Bricks with an Engineer's Hammer to make a Blast Furnace."
@@ -161,9 +161,9 @@
 		}
 		{
 			title: "Blazing Through"
-			x: 22.5d
-			y: 0.0d
-			shape: "diamond"
+			x: 27.75d
+			y: 0.75d
+			shape: "gear"
 			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
 			dependencies: ["0E1C4AEDB8594945"]
 			size: 1.5d
@@ -183,9 +183,9 @@
 		}
 		{
 			title: "Early Alloys"
-			x: 16.5d
-			y: -4.0d
-			subtitle: "Pewter Blend can be crafted using Tin and Lead. Smelt this for a Pewter Ingot."
+			x: 15.5d
+			y: -3.0d
+			subtitle: "This way for magic!"
 			dependencies: ["35D0D95034259B1D"]
 			id: "632ED810D5453781"
 			tasks: [{
@@ -203,8 +203,8 @@
 		}
 		{
 			title: "Bubble, Bubble.."
-			x: 15.0d
-			y: -5.5d
+			x: 14.0d
+			y: -5.0d
 			subtitle: "A Crucible can, when given heat and water, be used to combine certain items."
 			dependencies: ["632ED810D5453781"]
 			id: "331536656893BD82"
@@ -222,8 +222,8 @@
 		}
 		{
 			title: "Not Necromancy, We Swear"
-			x: 18.0d
-			y: -5.5d
+			x: 17.0d
+			y: -5.0d
 			subtitle: "Consult your Ars Ecclesia for information on the Crystallization Ritual, used to obtain Soul Shards."
 			dependencies: ["632ED810D5453781"]
 			id: "2D3D6EDBFDA95965"
@@ -242,9 +242,9 @@
 		}
 		{
 			title: "Intro to the Arcane"
-			x: 16.5d
+			x: 15.5d
 			y: -6.75d
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "Mix up a Lesser Soul Gem in your Crucible. Required to begin Arcane Exploits."
 			dependencies: [
 				"2D3D6EDBFDA95965"
@@ -427,8 +427,8 @@
 		}
 		{
 			title: "Dumping Excess..."
-			x: 22.5d
-			y: 2.0d
+			x: 28.0d
+			y: -2.0d
 			subtitle: "Once you get ahold of some piping, a fluid trash can will serve you well for disposing of unwanted Creosote Oil."
 			dependencies: ["031023A8EA6FD4D0"]
 			optional: true
@@ -480,7 +480,7 @@
 		{
 			title: "Down, Down, to Ghast Town"
 			icon: "dads_sewing:ghast_plush"
-			x: 18.5d
+			x: 20.5d
 			y: 0.0d
 			subtitle: "Construct a Nether Portal and travel to your first of many dimensions."
 			description: ["You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."]
@@ -521,15 +521,16 @@
 		}
 		{
 			title: "Basic Ore Processing"
-			x: 16.5d
-			y: -2.0d
+			icon: "appliedenergistics2:grindstone"
+			x: 15.5d
+			y: 0.0d
 			subtitle: "You'll need some ore dusts to proceed from here."
 			description: [
 				"A simple ore grinder will help you with this. Don't worry, there's easier ways to accomplish this later on."
 				""
 				"To use, simply place the grinder, and then place the crank on top. Right click twice to grind the ore down into dust. Please note that this only works with some ores."
 			]
-			dependencies: ["75ACC6EA81DF8C4D"]
+			dependencies: ["1AF3E867A00953D7"]
 			id: "35D0D95034259B1D"
 			tasks: [
 				{
@@ -552,6 +553,13 @@
 		}
 		{
 			title: "Diggy Diggy Hole"
+			icon: {
+				id: "minecraft:wooden_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 9.5d
 			y: -3.0d
 			subtitle: "Make a wooden or stone shovel, we don't judge"
@@ -623,7 +631,7 @@
 			icon: "minecraft:grass_block"
 			x: 7.0d
 			y: -3.0d
-			shape: "diamond"
+			shape: "gear"
 			subtitle: "From here on out, we will begin your journey."
 			description: ["Follow the two paths which branch out from here to proceed."]
 			dependencies: ["2BA582476B442C1D"]
@@ -638,6 +646,154 @@
 				id: "13EF133C8C955351"
 				type: "item"
 				item: "farmersdelight:sweet_berry_cookie"
+			}]
+		}
+		{
+			title: "Building Blocks of Industry"
+			icon: "tconstruct:grout"
+			x: 15.5d
+			y: 1.5d
+			subtitle: "This way for tech!"
+			description: [
+				"Although you can grind your ores manually, it will be much easier to smelt them in a Tinker's Forge."
+				""
+				"First, we'll need sand, gravel, and clay. Craft these into Grout."
+			]
+			dependencies: ["35D0D95034259B1D"]
+			id: "70C734FADA46E9D1"
+			tasks: [
+				{
+					id: "2F05302107E9EBCE"
+					type: "item"
+					title: "Any #forge:storage_blocks/clay"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/clay"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "1A0699C912C4C470"
+					type: "item"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "151AD3B9BF9BC2DE"
+					type: "item"
+					title: "Any #forge:gravel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gravel"
+						}
+					}
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "173B4F4598DFD912"
+				type: "item"
+				item: "pamhc2foodextended:greenteaitem"
+			}]
+		}
+		{
+			title: "Black Bricks"
+			x: 15.5d
+			y: 3.5d
+			subtitle: "Seared Bricks are the fundamental building block of Tinkers Construct."
+			description: ["You'll need several to complete your smeltery, but getting these does become easier. You'll need a good bit of clay, sand, and gravel."]
+			dependencies: ["70C734FADA46E9D1"]
+			id: "4E810B1014C143CA"
+			tasks: [{
+				id: "27AB6CDC77F20E7E"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 31L
+			}]
+			rewards: [{
+				id: "4EC6B92F45FBA0E3"
+				type: "item"
+				item: "minecraft:glass"
+				count: 5
+			}]
+		}
+		{
+			title: "Controlled Smelting"
+			icon: "tconstruct:smeltery_controller"
+			x: 18.0d
+			y: 1.5d
+			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
+			description: [
+				"The controller, fuel tank, and drain must all be placed on a specific side of the Tinker's Smeltery, meaning that they cannot occupy a \"corner\" block."
+				""
+				"You're best off filling the fuel tank with lava for now."
+			]
+			dependencies: ["4E613C4D92609F06"]
+			id: "4EB25C20BB94A8BB"
+			tasks: [
+				{
+					id: "56A2F679ACFB1637"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "441576CC10EB421B"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "018B5F8E5C7AAFE4"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [{
+				id: "4149A17625F40919"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 5
+			}]
+		}
+		{
+			title: "Casting Your Metal"
+			icon: "tconstruct:seared_basin"
+			x: 18.0d
+			y: 3.5d
+			subtitle: "Next, we need casting materials."
+			description: ["These will be useful once the completed smeltery is assembled."]
+			dependencies: ["4E810B1014C143CA"]
+			dependency_requirement: "one_completed"
+			id: "4E613C4D92609F06"
+			tasks: [
+				{
+					id: "3A1FAE29177C0C2D"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "1BC2B2D22992B894"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "0B64A4ED9E7056C0"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 4
 			}]
 		}
 	]

@@ -300,10 +300,7 @@
 			y: -4.5d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
-			dependencies: [
-				"2E3880C1F6D082FA"
-				"0CDEC483A2ED93A5"
-			]
+			dependencies: ["2E3880C1F6D082FA"]
 			dependency_requirement: "one_completed"
 			id: "2BA7183800B331E0"
 			tasks: [
@@ -1187,94 +1184,6 @@
 			}]
 		}
 		{
-			title: "Black Bricks"
-			x: 5.5d
-			y: 4.5d
-			subtitle: "Seared Bricks are the fundamental building block of Tinkers Construct."
-			description: ["You'll need several to complete your smeltery, but getting these does become easier. You'll need a good bit of clay, sand, and gravel."]
-			dependencies: ["3BD6D4ED98074251"]
-			id: "4E810B1014C143CA"
-			tasks: [{
-				id: "27AB6CDC77F20E7E"
-				type: "item"
-				item: "tconstruct:seared_brick"
-				count: 31L
-			}]
-			rewards: [{
-				id: "4EC6B92F45FBA0E3"
-				type: "item"
-				item: "minecraft:glass"
-				count: 5
-			}]
-		}
-		{
-			title: "Controlled Smelting"
-			icon: "tconstruct:smeltery_controller"
-			x: 8.0d
-			y: 3.0d
-			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
-			description: [
-				"The controller, fuel tank, and drain must all be placed on a specific side of the Tinker's Smeltery, meaning that they cannot occupy a \"corner\" block."
-				""
-				"You're best off filling the fuel tank with lava for now."
-			]
-			dependencies: ["4E613C4D92609F06"]
-			id: "4EB25C20BB94A8BB"
-			tasks: [
-				{
-					id: "56A2F679ACFB1637"
-					type: "item"
-					item: "tconstruct:smeltery_controller"
-				}
-				{
-					id: "441576CC10EB421B"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "018B5F8E5C7AAFE4"
-					type: "item"
-					item: "tconstruct:seared_drain"
-				}
-			]
-			rewards: [{
-				id: "4149A17625F40919"
-				type: "item"
-				item: "tconstruct:seared_bricks"
-				count: 5
-			}]
-		}
-		{
-			title: "Casting Your Metal"
-			icon: "tconstruct:seared_basin"
-			x: 8.0d
-			y: 4.5d
-			subtitle: "Next, we need casting materials."
-			description: ["These will be useful once the completed smeltery is assembled."]
-			dependencies: ["4E810B1014C143CA"]
-			dependency_requirement: "one_completed"
-			id: "4E613C4D92609F06"
-			tasks: [
-				{
-					id: "3A1FAE29177C0C2D"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "1BC2B2D22992B894"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "0B64A4ED9E7056C0"
-				type: "item"
-				item: "thermal:copper_ingot"
-				count: 4
-			}]
-		}
-		{
 			x: 9.5d
 			y: 3.0d
 			subtitle: "Materials and You is a comprehensive guide to all of the neat modifiers available from Tinkers Construct for your tools."
@@ -1294,8 +1203,8 @@
 		}
 		{
 			title: "ACME Anvils"
-			x: 6.5d
-			y: 3.0d
+			x: 4.5d
+			y: 5.0d
 			subtitle: "The creator of this modpack is not responsible for any harm done by such anvils to cartoon critters."
 			description: ["A Tinker's Anvil can be used to create much more powerful tools, such as the broadaxe, excavator, and more."]
 			dependencies: ["4EB25C20BB94A8BB"]
@@ -1784,8 +1693,8 @@
 		{
 			title: "Castaway"
 			icon: "tconstruct:seared_table"
-			x: 8.0d
-			y: 1.5d
+			x: 4.0d
+			y: -2.5d
 			subtitle: "These essentials will make the creation of specific parts a bit easier."
 			description: [
 				"Hint: You can use the following items to make the casts:"
@@ -1794,7 +1703,6 @@
 				"Plate: A Copper Plate"
 				""
 			]
-			dependencies: ["4EB25C20BB94A8BB"]
 			id: "0CDEC483A2ED93A5"
 			tasks: [
 				{
@@ -1896,8 +1804,8 @@
 		}
 		{
 			title: "Vein Mining!"
-			x: 4.5d
-			y: 1.5d
+			x: 6.5d
+			y: 3.5d
 			subtitle: "A Vein Hammer does what it says on the tin - it's vein mining!"
 			description: ["Make one out of any materials to complete this quest."]
 			dependencies: ["4AFDEA24E595D3A3"]
