@@ -36,8 +36,8 @@
 		}
 		{
 			title: "Logistical Solutions"
-			x: -8.25d
-			y: 1.25d
+			x: -8.5d
+			y: 0.0d
 			subtitle: "Mekanism offers several different solutions for transferring energy, gases, items, and fluids."
 			description: [""]
 			dependencies: ["09812AE1E82D15C5"]
@@ -818,44 +818,6 @@
 					xp: 200
 				}
 			]
-		}
-		{
-			title: "Dynamic Integration"
-			icon: "integrateddynamics:on_the_dynamics_of_integration"
-			x: -8.25d
-			y: -1.25d
-			subtitle: "A surprise tool that will help you later."
-			description: [
-				"Keen-eyed players may have noticed that Integrated Dynamics lacks modified recipes in this pack almost entirely. This is by design: here in Astral Engineering, we believe in rewarding players who possess enough game knowledge to make use of it."
-				""
-				"If you're unfamiliar with this very useful mod, you may want to begin by referencing the guide book, found in your Akashic Tome."
-			]
-			dependencies: ["09812AE1E82D15C5"]
-			optional: true
-			id: "03F0CDD45D1C4257"
-			tasks: [{
-				id: "71BB407FB1BDBFBB"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "2FA7B5EF923113A3"
-				type: "item"
-				item: "integrateddynamics:menril_sapling"
-			}]
-		}
-		{
-			title: "Surfin' The 'Net"
-			x: -9.0d
-			y: 0.0d
-			subtitle: "Like Integrated Dynamics, XNet is largely unchanged in this pack."
-			dependencies: ["09812AE1E82D15C5"]
-			optional: true
-			id: "09503847E11443B2"
-			tasks: [{
-				id: "7750E340E8AE2B0F"
-				type: "item"
-				item: "xnet:controller"
-			}]
 		}
 		{
 			title: "The Power of The Sun"

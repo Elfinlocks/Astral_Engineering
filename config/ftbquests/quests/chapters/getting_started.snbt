@@ -499,27 +499,6 @@
 			}]
 		}
 		{
-			title: "A Source of Leather"
-			x: 11.0d
-			y: -1.5d
-			subtitle: "If you're not the farming type, a Drying Basin can help you get ahold of Leather a bit easier."
-			description: ["In later tech, you can smelt flesh directly into leather, but a normal furnace won't accomplish this."]
-			dependencies: ["1AF3E867A00953D7"]
-			optional: true
-			id: "34D16AA94D6174C5"
-			tasks: [{
-				id: "2C90FD4C388EE198"
-				type: "item"
-				item: "integrateddynamics:drying_basin"
-			}]
-			rewards: [{
-				id: "41E2FC9208A5C1F2"
-				type: "item"
-				item: "minecraft:rotten_flesh"
-				count: 5
-			}]
-		}
-		{
 			title: "Basic Ore Processing"
 			icon: "appliedenergistics2:grindstone"
 			x: 15.5d

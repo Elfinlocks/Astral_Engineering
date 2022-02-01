@@ -7357,20 +7357,6 @@
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
 		removeAggressively = false
 
-#Options for the integrateddynamics mod.
-[integrateddynamics]
-
-	#Spawning options for integrateddynamics:entityitemtargetted
-	[integrateddynamics.entityitemtargetted]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
-
 #Options for the mowziesmobs mod.
 [mowziesmobs]
 
