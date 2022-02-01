@@ -54,7 +54,7 @@ craftingTable.addShapeless("crafting_terminal", <item:appliedenergistics2:crafti
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_sulfur", <item:thermal:sulfur_dust>, <tag:items:forge:gems/sulfur>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_niter", <item:thermal:niter_dust>, <tag:items:forge:gems/niter>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_apatite", <item:thermal:apatite_dust>, <tag:items:forge:gems/apatite>, 2);
-<recipetype:appliedenergistics2:grinder>.addRecipe("crushed_lead", <item:jaopca:dusts.starmetal>, <tag:items:forge:ores/starmetal>, 2);
+<recipetype:appliedenergistics2:grinder>.addRecipe("crushed_starmetal", <item:jaopca:dusts.starmetal>, <tag:items:forge:ores/starmetal>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_fluix", <item:appliedenergistics2:fluix_dust>, <tag:items:appliedenergistics2:crystals/fluix>, 2); 
 
 // Ingots

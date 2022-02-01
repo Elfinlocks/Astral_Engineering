@@ -87,8 +87,8 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 12
+				y = 16
 
 			[client.gui.window.confirmation]
 				x = 2147483647
@@ -99,8 +99,8 @@
 				y = 2147483647
 
 			[client.gui.window.transporterConfig]
-				x = 2147483647
-				y = 2147483647
+				x = 10
+				y = 15
 
 			[client.gui.window.skinSelect]
 				x = 2147483647
