@@ -166,6 +166,7 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
+			description: ["To proceed, insert iron ingots or blocks, alongside coal coke pieces or blocks, and wait for the steel to smelt."]
 			dependencies: ["0E1C4AEDB8594945"]
 			size: 1.5d
 			id: "031023A8EA6FD4D0"
@@ -478,7 +479,11 @@
 			x: 21.25d
 			y: 0.0d
 			subtitle: "Construct a Nether Portal and travel to your first of many dimensions."
-			description: ["You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."]
+			description: [
+				"You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."
+				""
+				"Collect some &6Magma Blocks&r while you're here for the next quest."
+			]
 			dependencies: ["75ACC6EA81DF8C4D"]
 			dependency_requirement: "one_completed"
 			id: "73CC3630DABFEB89"
