@@ -775,5 +775,19 @@
 				count: 4
 			}]
 		}
+		{
+			title: "Ssssssmokin'!"
+			x: 11.0d
+			y: -1.5d
+			subtitle: "A Smoker will let you dry out Zombie flesh into Leather."
+			dependencies: ["1AF3E867A00953D7"]
+			optional: true
+			id: "1AAF7EBA3D1EA20C"
+			tasks: [{
+				id: "3EA25EEEDC07C527"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
 	]
 }
