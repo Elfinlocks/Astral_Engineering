@@ -159,4 +159,6 @@ events.listen('item.tags', function (event) {
 		.add('create:goggles')
 	event.get('curios:head')
 		.add('create:goggles')
+	event.get('thermal:crafting/dies').add('kubejs:press_circuit_die')
+	event.get('forge:ores/aluminum').remove('immersiveengineering:ore_aluminum')
 })
