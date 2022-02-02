@@ -3,7 +3,8 @@ events.listen("recipes", function (event) {
 // Basic Tag Unification ==================================================================================================================
 
 event.replaceOutput({}, '#forge:nuggets/osmium', 'mekanism:nugget_osmium')
-event.replaceOutput({}, '#forge:ingots/osmium', 'mekanism:ingot_osmium')  
+event.replaceOutput({}, '#forge:ingots/osmium', 'mekanism:ingot_osmium')
+event.replaceOutput({}, 'chemlib:ingot_osmium', 'mekanism:ingot_osmium')  
 event.replaceOutput({}, '#forge:storage_blocks/osmium', 'mekanism:block_osmium') 
 event.replaceOutput({}, '#forge:dusts/osmium', 'mekanism:dust_osmium') 
 
@@ -16,12 +17,15 @@ event.replaceOutput({}, '#forge:gears/copper', 'thermal:copper_gear')
 
 event.replaceOutput({}, '#forge:dusts/iron', 'thermal:iron_dust')
 
+event.replaceOutput({}, 'chemlib:ingot_neptunium', 'aquaculture:neptunium_ingot')
+
 event.replaceOutput({}, 'chemlib:ingot_iridium', 'libvulpes:ingotiridium')
 
 event.replaceOutput({}, '#forge:dusts/gold', 'thermal:gold_dust')
 event.replaceOutput({}, '#forge:plates/gold', 'immersiveengineering:plate_gold')
 
 event.replaceOutput({}, '#forge:ingots/tin', 'thermal:tin_ingot')
+event.replaceOutput({}, 'chemlib:ingot_tin', 'thermal:tin_ingot')
 event.replaceOutput({}, '#forge:dusts/tin', 'thermal:tin_dust')  
 event.replaceOutput({}, '#forge:nuggets/tin', 'thermal:tin_nugget') 
 event.replaceOutput({}, '#forge:storage_blocks/tin', 'thermal:tin_block') 
