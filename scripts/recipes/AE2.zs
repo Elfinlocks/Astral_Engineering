@@ -77,7 +77,6 @@ craftingTable.addShaped("grindstone", <item:appliedenergistics2:grindstone>, [
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_uranium1", <item:immersiveengineering:dust_uranium>, <tag:items:forge:ingots/uranium>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_zinc1", <item:jaopca:dusts.zinc>, <tag:items:forge:ingots/zinc>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_steel", <item:immersiveengineering:dust_steel>, <tag:items:forge:ingots/steel>, 2);
-<recipetype:appliedenergistics2:grinder>.addRecipe("crushed_netherite", <item:mekanism:dust_netherite>, <tag:items:forge:ingots/netherite>, 2);
 
 craftingTable.addShaped("wooden_gear", <item:appliedenergistics2:wooden_gear>, [
 	[<item:minecraft:air>, <item:immersiveengineering:stick_treated>, <item:minecraft:air>],

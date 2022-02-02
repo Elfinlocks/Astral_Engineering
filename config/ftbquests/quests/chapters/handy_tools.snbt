@@ -327,30 +327,6 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			subtitle: "A Mining Helmet can help you see in even the darkest caverns."
-			dependencies: ["1AF3E867A00953D7"]
-			id: "2CEDC3AA9FCD6CA3"
-			tasks: [{
-				id: "0DF63BF438301687"
-				type: "item"
-				item: {
-					id: "mining_helmet:mining_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "508E69463D5ECB31"
-				type: "item"
-				item: "minecraft:torch"
-				count: 16
-			}]
-		}
-		{
 			title: "The Ultimate Tool"
 			icon: {
 				id: "mekanism:atomic_disassembler"
@@ -1823,6 +1799,25 @@
 				id: "3E5A7E8CBCC5922D"
 				type: "item"
 				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Your Favorite Garbage Can"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "A \"Dank\" refers to an oddity of storage magic compressed into a single container. May be useful."
+			description: ["Can be both upgraded, as well as stored in the Dock, for access by storage systems."]
+			id: "2CE6B6A57FF25C92"
+			tasks: [{
+				id: "52F65A8847877200"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "2D11CECB8283270B"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
 			}]
 		}
 	]

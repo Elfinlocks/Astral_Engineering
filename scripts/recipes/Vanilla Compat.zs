@@ -19,7 +19,7 @@ furnace.addRecipe("glass_convert", <item:minecraft:glass>, <tag:items:forge:glas
 
 furnace.addRecipe("membrane", <item:minecraft:phantom_membrane> * 4, <item:minecraft:shulker_shell>, 1.0, 50); 
 
-smoker.addRecipe("flesh2leather", <item:minecraft:leather>, <tag:items:minecraft:rotten_flesh>, .35, 100);
+smoker.addRecipe("flesh2leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 100);
 
 craftingTable.removeRecipe(<item:minecraft:stone_button>);
 craftingTable.addShaped("stone_button_fix", <item:minecraft:stone_button>, [
