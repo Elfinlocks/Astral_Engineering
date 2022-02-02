@@ -807,7 +807,23 @@ result: {item: 'create:zinc_block'},
 cooling_time: 150
 })
 
+// Iridium replaceInput 
 
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/ingot'},
+fluid: {name: 'jaopca:molten.iridium',amount: 144},
+result: {item: 'libvulpes:ingotiridium'},
+cooling_time: 50
+})
 
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/ingot'},
+cast_consumed: true,
+fluid: {name: 'jaopca:molten.iridium', amount: 144},
+result: {item: 'libvulpes:ingotiridium'},
+cooling_time: 50
+})
 
 })
