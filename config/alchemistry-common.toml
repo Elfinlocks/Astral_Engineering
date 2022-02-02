@@ -6,7 +6,7 @@
 	energyCapacity = 100000
 	#Default: 50
 	#Range: > 0
-	energyPerTick = 50
+	energyPerTick = 10000
 	#Default: 100
 	#Range: > 1
 	ticksPerOperation = 100
@@ -18,7 +18,7 @@
 	energyCapacity = 100000
 	#Default: 200
 	#Range: > 0
-	energyPerTick = 200
+	energyPerTick = 10000
 	#Default: 5
 	#Range: > 1
 	ticksPerOperation = 5
@@ -30,7 +30,7 @@
 	energyCapacity = 100000
 	#Default: 200
 	#Range: > 0
-	energyPerTick = 100
+	energyPerTick = 5000
 	#Default: 8
 	#Range: 1 ~ 64
 	maxOutputPerTick = 8
@@ -48,7 +48,7 @@
 	energyCapacity = 100000
 	#Default: 50
 	#Range: > 0
-	energyPerTick = 50
+	energyPerTick = 5000
 	#Default: 100
 	#Range: > 1
 	ticksPerOperation = 100
@@ -60,7 +60,7 @@
 	energyCapacity = 100000
 	#Default: 300
 	#Range: > 0
-	energyPerTick = 300
+	energyPerTick = 15000
 	#Default: 40
 	#Range: > 1
 	ticksPerOperation = 40
@@ -72,7 +72,7 @@
 	energyCapacity = 100000
 	#Default: 300
 	#Range: > 0
-	energyPerTick = 300
+	energyPerTick = 15000
 	#Default: 40
 	#Range: > 1
 	ticksPerOperation = 40
