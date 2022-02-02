@@ -62,6 +62,7 @@ event.replaceOutput({}, '#forge:plates/nickel', 'immersiveengineering:plate_nick
 event.replaceOutput({}, '#forge:gears/nickel', 'thermal:nickel_gear')
 
 event.replaceOutput({}, '#forge:ingots/zinc', 'create:zinc_ingot')
+event.replaceOutput({}, 'chemlib:ingot_zinc', 'create:zinc_ingot')
 event.replaceOutput({}, '#forge:dusts/zinc', 'jaopca:dusts.zinc')  
 event.replaceOutput({}, '#forge:nuggets/zinc', 'create:zinc_nugget') 
 event.replaceOutput({}, '#forge:storage_blocks/zinc', 'create:zinc_block') 
