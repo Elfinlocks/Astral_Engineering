@@ -567,7 +567,15 @@ val items as IIngredient[] = [
 <item:chemlib:ingot_copper>,
 <item:chemlib:ingot_silver>,
 <item:chemlib:ingot_lead>,
-<item:chemlib:ingot_uranium>
+<item:chemlib:ingot_uranium>,
+<item:chemlib:ingot_silicon>,
+<item:chemlib:ingot_titanium>,
+<item:chemlib:ingot_cobalt>,
+<item:chemlib:ingot_zinc>,
+<item:chemlib:ingot_tin>,
+<item:chemlib:ingot_osmium>,
+<item:chemlib:ingot_iridium>,
+<item:chemlib:ingot_neptunium>
 ];
 
 for item in items {
