@@ -19,7 +19,11 @@ event.replaceOutput({}, '#forge:dusts/iron', 'thermal:iron_dust')
 
 event.replaceOutput({}, 'chemlib:ingot_neptunium', 'aquaculture:neptunium_ingot')
 
+event.replaceOutput({}, 'chemlib:ingot_cobalt', 'tconstruct:cobalt_ingot')
+
 event.replaceOutput({}, 'chemlib:ingot_iridium', 'libvulpes:ingotiridium')
+
+event.replaceOutput({}, 'chemlib:ingot_titanium', 'libvulpes:ingottitanium')
 
 event.replaceOutput({}, '#forge:dusts/gold', 'thermal:gold_dust')
 event.replaceOutput({}, '#forge:plates/gold', 'immersiveengineering:plate_gold')
