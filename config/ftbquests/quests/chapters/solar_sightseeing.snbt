@@ -636,9 +636,9 @@
 		}
 		{
 			title: "New Resources!"
-			icon: "jaopca:create_crushed_ores.desh"
-			x: 8.0d
-			y: -4.3d
+			icon: "boss_tools:moon_desh_ore"
+			x: 9.0d
+			y: -5.5d
 			subtitle: "The Moon is host to materials not found on Earth."
 			description: [
 				"You'll need Desh to make the next tier of rocket components, and dilithium is a valuable material for the production of advanced electronics."
@@ -693,7 +693,7 @@
 			x: 13.0d
 			y: -5.5d
 			subtitle: "Did I mention that the next tier of rocket would be harder?"
-			dependencies: ["3664DE482F3B8868"]
+			dependencies: ["656C09A346706F3A"]
 			id: "035529DD540CECE8"
 			tasks: [{
 				id: "2CDEC46647A1263E"
@@ -760,8 +760,8 @@
 		{
 			title: "Home Above Home"
 			icon: "losttrinkets:starfish"
-			x: 8.0d
-			y: -6.0d
+			x: 9.0d
+			y: -7.0d
 			subtitle: "A Space Station is a fun extraterrestrial base to set up."
 			description: ["You can configure one from the rocket travel menu. It will cost various resources to set up, but will provide you with a stylish starter station to build on."]
 			dependencies: ["5F079DAC35170B45"]
@@ -965,7 +965,7 @@
 		}
 		{
 			title: "Advanced Circuitry"
-			x: 9.5d
+			x: 11.0d
 			y: -5.5d
 			subtitle: "With access to the Moon, you may now make Advanced Control Circuits!"
 			dependencies: ["5F079DAC35170B45"]
@@ -1263,7 +1263,7 @@
 		}
 		{
 			title: "HARDER!"
-			x: 9.5d
+			x: 11.0d
 			y: -7.0d
 			subtitle: "Let's upgrade those Thermal machines!"
 			dependencies: ["656C09A346706F3A"]
@@ -1282,7 +1282,7 @@
 		}
 		{
 			title: "Advanced Mekanism Factories!"
-			x: 9.5d
+			x: 11.0d
 			y: -4.0d
 			subtitle: "This upgrade item allows you to easily improve your Mekanism machines."
 			dependencies: ["656C09A346706F3A"]
@@ -1430,63 +1430,6 @@
 			}]
 		}
 		{
-			title: "Another Machine?!"
-			icon: "masterfulmachinery:fuel_encap_controller"
-			x: 11.3d
-			y: -5.5d
-			subtitle: "Yea, sorry about that. It's for a good cause though!"
-			description: ["Essentially, this thing barrels your fuel. Currently, Tier 2 and Tier 3 rockets only take these barrels, and not the buckets. Vice versa for the Tier 1 rocket. All this machine does is barrel the fuel."]
-			dependencies: ["656C09A346706F3A"]
-			id: "3664DE482F3B8868"
-			tasks: [
-				{
-					id: "051B0E7F2AC162E3"
-					type: "item"
-					item: "masterfulmachinery:fuel_encap_controller"
-				}
-				{
-					id: "6F028C940D1F62EE"
-					type: "item"
-					item: "masterfulmachinery:fuel_encap_item_port_items_input"
-				}
-				{
-					id: "4563807CC17129C8"
-					type: "item"
-					item: "masterfulmachinery:fuel_encap_item_port_items_output"
-				}
-				{
-					id: "12C03F490B7B8062"
-					type: "item"
-					item: "masterfulmachinery:fuel_encap_fluid_port_fluids_input"
-				}
-				{
-					id: "301EEDF6A1662241"
-					type: "item"
-					item: "minecraft:yellow_concrete"
-					count: 13L
-				}
-				{
-					id: "30D38BDA400F6E50"
-					type: "item"
-					item: "immersiveengineering:storage_steel"
-					count: 10L
-				}
-			]
-			rewards: [
-				{
-					id: "087BC5E16AB1C3A1"
-					type: "item"
-					item: "boss_tools:barrel"
-				}
-				{
-					id: "5F03CFC18C742728"
-					type: "item"
-					item: "immersiveengineering:plate_aluminum"
-					count: 5
-				}
-			]
-		}
-		{
 			title: "A Little More Refining"
 			x: 3.5d
 			y: -3.0d
@@ -1507,8 +1450,8 @@
 		}
 		{
 			title: "This Is Heavy, Doc!"
-			x: 8.0d
-			y: -7.5d
+			x: 9.0d
+			y: -8.5d
 			subtitle: "A Gravity Normalizer makes the gravity within its area of effect act like overworld gravity. Useful for more permanent space residences."
 			description: ["Works in up to a 31x31! Very cheap energy consumption, too."]
 			dependencies: ["5546DF5DEB644C6B"]
@@ -1532,6 +1475,7 @@
 			subtitle: "Oxygen Cans allow you to bring extra air along."
 			description: ["You can even store them in your bauble slots!"]
 			dependencies: ["0E3216152E5B2B3A"]
+			optional: true
 			id: "3CCC76C0481CC1AF"
 			tasks: [{
 				id: "21A002AA77C3DAF1"
@@ -1546,8 +1490,8 @@
 		}
 		{
 			title: "Something Extra"
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
 			subtitle: "Rocket fuel also works great as a high-output fuel!"
 			dependencies: ["7BA8EE4BE7271B3C"]
 			optional: true

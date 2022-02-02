@@ -256,11 +256,7 @@
 			y: -4.5d
 			shape: "gear"
 			subtitle: "These are some of the key components for constructing an ME System. This can serve as a versatile system for managing items."
-			description: [
-				"Note: You may prefer to use Refined Storage instead. There are no quests for Refined Storage, but it is balanced for this pack, if you choose to utilize it."
-				""
-				"Hint: To easily view the items, type \"@Refined\" in JEIs search bar."
-			]
+			description: [""]
 			dependencies: ["581A8A8E2DFB365A"]
 			size: 1.5d
 			optional: true
@@ -537,7 +533,7 @@
 			title: "The Process of Engineering"
 			x: -1.5d
 			y: -4.5d
-			subtitle: "Next, create some processors using a Mechanical Crafter Array - you should have several set up by now."
+			subtitle: "Next, create some processors using a Sequenced Assembly Line."
 			description: [""]
 			dependencies: ["4E756DC38491E2A1"]
 			optional: true
@@ -568,6 +564,7 @@
 		}
 		{
 			title: "Basic Electrolysis Components - Part 1"
+			icon: "immersiveengineering:storage_steel"
 			x: -4.0d
 			y: 0.0d
 			subtitle: "We're finally going to develop a process for purifying Bauxite! Aluminum is required for lots of machines going forward."
