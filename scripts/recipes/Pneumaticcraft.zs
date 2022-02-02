@@ -9,8 +9,6 @@ craftingTable.removeRecipe(<item:pneumaticcraft:printed_circuit_board>);
 craftingTable.removeRecipe(<item:pneumaticcraft:network_io_port>);
 craftingTable.removeRecipe(<item:pneumaticcraft:spawner_agitator>);
 craftingTable.removeRecipe(<item:pneumaticcraft:drill_pipe>);
-mods.jei.JEI.hideItem(<item:kubejs:unfinished_circuit>);
-mods.jei.JEI.hideItem(<item:kubejs:drilled_circuit>);
 
 craftingTable.addShaped("drill_pipe", <item:pneumaticcraft:drill_pipe> * 5, [
 	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],

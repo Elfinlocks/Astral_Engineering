@@ -1,9 +1,5 @@
 craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_potato>);
 
-mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_potato>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_creative>);
-mods.jei.JEI.hideItem(<item:simplyjetpacks:jetpack_creative_armored>);
-
 craftingTable.removeRecipe(<item:simplyjetpacks:jetpack_mek1>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("basic_jetpack", <item:simplyjetpacks:jetpack_mek1>, [

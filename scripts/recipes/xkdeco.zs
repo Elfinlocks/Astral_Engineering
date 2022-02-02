@@ -1,19 +1,3 @@
-// Hiding Items 
-
-mods.jei.JEI.hideItem(<item:xkdeco:small_cushion_spawn_egg>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_pickaxe>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_axe>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_shovel>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_hoe>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_sword>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_armor_helmet>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_armor_chestplate>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_armor_leggings>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_armor_boots>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_ingot>);
-mods.jei.JEI.hideItem(<item:xkdeco:steel_block>);
-
-
 // Removing Recipes
 
 craftingTable.removeRecipe(<item:xkdeco:steel_windmill>);

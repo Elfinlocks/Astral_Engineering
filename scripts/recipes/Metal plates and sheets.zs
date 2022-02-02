@@ -1,7 +1,3 @@
-mods.jei.JEI.hideItem(<item:thermal:constantan_plate>);
-mods.jei.JEI.hideItem(<item:immersiveengineering:stick_iron>);
-
-
 craftingTable.removeByName("immersiveengineering:crafting/plate_aluminum_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_lead_hammering");
 craftingTable.removeByName("immersiveengineering:crafting/plate_silver_hammering");

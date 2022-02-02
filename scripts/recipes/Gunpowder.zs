@@ -1,5 +1,3 @@
-mods.jei.JEI.hideItem(<item:quark:gunpowder_sack>);
-
 craftingTable.removeRecipe(<item:quark:gunpowder_sack>);
 craftingTable.removeRecipe(<item:minecraft:gunpowder>);
 

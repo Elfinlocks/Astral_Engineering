@@ -1,5 +1,3 @@
-mods.jei.JEI.hideItem(<item:thermal:energy_cell>);
-mods.jei.JEI.hideItem(<item:thermal:fluid_cell>);
 craftingTable.removeRecipe(<item:thermal:redstone_servo>);
 craftingTable.removeRecipe(<item:thermal:device_tree_extractor>);
 craftingTable.removeRecipe(<item:thermal:energy_cell>);

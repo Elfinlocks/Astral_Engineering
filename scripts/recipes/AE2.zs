@@ -1,9 +1,3 @@
-mods.jei.JEI.hideItem(<item:appliedenergistics2:inscriber>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:calculation_processor_press>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:engineering_processor_press>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:logic_processor_press>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:silicon_press>);
-mods.jei.JEI.hideItem(<item:appliedenergistics2:name_press>);
 craftingTable.removeRecipe(<item:appliedenergistics2:inscriber>);
 craftingTable.removeRecipe(<item:appliedenergistics2:controller>);
 craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);

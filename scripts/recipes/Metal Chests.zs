@@ -1,10 +1,3 @@
-mods.jei.JEI.hideItem(<item:ironchest:copper_chest>);
-mods.jei.JEI.hideItem(<item:ironchest:silver_chest>);
-mods.jei.JEI.hideItem(<item:ironchest:wood_to_copper_chest_upgrade>);
-mods.jei.JEI.hideItem(<item:ironchest:copper_to_iron_chest_upgrade>);
-mods.jei.JEI.hideItem(<item:ironchest:copper_to_silver_chest_upgrade>);
-mods.jei.JEI.hideItem(<item:ironchest:silver_to_gold_chest_upgrade>);
-
 craftingTable.removeRecipe(<item:ironchest:iron_chest>);
 craftingTable.removeRecipe(<item:ironchest:gold_chest>);
 craftingTable.removeRecipe(<item:ironchest:diamond_chest>);

@@ -39,13 +39,10 @@ craftingTable.removeRecipe(<item:boss_tools_giselle_addon:electric_blast_furnace
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:advanced_compressor>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:fuel_loader>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:gravity_normalizer>);
-mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:electric_blast_furnace>);
-mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:advanced_compressor>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_space_fire_proof_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_venus_acid_proof_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:module_gravity_normalizing_unit>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:press_compressing_die>);
-mods.jei.JEI.hideItem(<item:boss_tools_giselle_addon:press_compressing_die>);
 craftingTable.removeRecipe(<item:boss_tools_giselle_addon:oxygen_can>);
 
 // Recipe Changes
@@ -84,31 +81,6 @@ craftingTable.addShaped("fuel_loader", <item:boss_tools_giselle_addon:fuel_loade
 	[<tag:items:forge:plates/aluminum>, <item:pneumaticcraft:vacuum_pump>, <tag:items:forge:plates/aluminum>],
 	[<item:mekanism:basic_control_circuit>, <item:rftoolsbase:machine_frame>, <item:mekanism:basic_control_circuit>],
 	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
-
-// Hiding items zzz 
-
-mods.jei.JEI.hideItem(<item:boss_tools:chesse>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_sword>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_shovel>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_pickaxe>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_axe>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_hoe>);
-mods.jei.JEI.hideItem(<item:boss_tools:iron_stick>);
-mods.jei.JEI.hideItem(<item:boss_tools:hammer>);
-mods.jei.JEI.hideItem(<item:boss_tools:coal_generator>);
-mods.jei.JEI.hideItem(<item:boss_tools:fuel_refinery>);
-mods.jei.JEI.hideItem(<item:boss_tools:compressor>);
-mods.jei.JEI.hideItem(<item:boss_tools:nasa_workbench>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_ingot>);
-mods.jei.JEI.hideItem(<item:boss_tools:iron_plate>);
-mods.jei.JEI.hideItem(<item:boss_tools:compressed_steel>);
-mods.jei.JEI.hideItem(<item:boss_tools:compressed_desh>);
-mods.jei.JEI.hideItem(<item:boss_tools:compressed_silicon>);
-mods.jei.JEI.hideItem(<item:boss_tools:solar_panel>);
-mods.jei.JEI.hideItem(<item:boss_tools:blast_furnace>);
-mods.jei.JEI.hideItem(<item:boss_tools:nasa_workbench>);
-mods.jei.JEI.hideItem(<item:boss_tools:steel_block>);
-mods.jei.JEI.hideItem(<item:boss_tools:water_pump>);
 
 // Adjusted Recipes - Space Suit
 

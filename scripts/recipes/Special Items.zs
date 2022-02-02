@@ -4,10 +4,6 @@ craftingTable.removeRecipe(<item:extendedcrafting:basic_table>);
 
 <item:atmadditions:dimensional_seed>.addTooltip("An unstable interdimensional seed. Valuable to extraplanar denizens, may hatch under pressure.");
 
-mods.jei.JEI.hideItem(<item:tardis:broken_exterior>);
-mods.jei.JEI.hideItem(<item:kubejs:red_herring>);
-mods.jei.JEI.hideItem(<item:atmadditions:dimensional_seed>);
-
 craftingTable.addShapeless("red_herring", <item:kubejs:red_herring>, [<item:minecraft:red_dye>, <item:aquaculture:atlantic_herring>]);
 
 <item:kubejs:red_herring>.addTooltip("This might do something, or not.");

@@ -1,8 +1,5 @@
 import crafttweaker.api.StoneCutterManager;
 
-mods.jei.JEI.hideItem(<item:dads_sewing:sewing_machine>);
-mods.jei.JEI.hideItem(<item:dads_sewing:sewing_machine_white>);
-
 craftingTable.removeRecipe(<item:dads_sewing:sewing_machine>);
 craftingTable.removeRecipe(<item:dads_sewing:sewing_machine_white>);
 craftingTable.removeRecipe(<item:dads_sewing:eye_inator>);

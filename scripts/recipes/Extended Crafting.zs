@@ -1,5 +1,4 @@
 craftingTable.removeRecipe(<item:extendedcrafting:redstone_ingot>);
-mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_ingot>);
 craftingTable.removeRecipe(<item:extendedcrafting:black_iron_ingot>);
 
 craftingTable.addShaped("black_iron", <item:extendedcrafting:black_iron_ingot>, [

@@ -1,18 +1,5 @@
 // Hiding crushed stuff 
 
-mods.jei.JEI.hideItem(<item:create:crushed_iron_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_gold_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_copper_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_zinc_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_osmium_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_silver_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_tin_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_lead_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_aluminum_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_uranium_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_nickel_ore>);
-mods.jei.JEI.hideItem(<item:create:crushed_brass>);
-
 craftingTable.removeRecipe(<item:create:electron_tube>);
 craftingTable.removeRecipe(<item:createaddition:capacitor>);
 <recipetype:create:pressing>.removeRecipe(<item:create:iron_sheet>);
@@ -52,12 +39,6 @@ craftingTable.addShaped("crafting_table/andesite_alloy", <item:create:andesite_a
 <recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:steel_steam_engine>);
 <recipetype:create:mechanical_crafting>.removeRecipe(<item:steampowered:alternator>);
 <recipetype:create:mechanical_crafting>.removeRecipe(<item:createaddition:alternator>);
-mods.jei.JEI.hideItem(<item:create:flywheel>);
-mods.jei.JEI.hideItem(<item:create:furnace_engine>);
-mods.jei.JEI.hideItem(<item:createaddition:furnace_burner>);
-mods.jei.JEI.hideItem(<item:createaddition:crude_burner>);
-mods.jei.JEI.hideItem(<item:createaddition:alternator>);
-mods.jei.JEI.hideItem(<item:steampowered:bronze_sheet>);
 craftingTable.removeRecipe(<item:createaddition:crude_burner>);
 craftingTable.removeRecipe(<item:createaddition:furnace_burner>);
 craftingTable.removeRecipe(<item:steampowered:cast_iron_burner>);

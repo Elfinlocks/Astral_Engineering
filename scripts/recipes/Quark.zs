@@ -1,14 +1,3 @@
-// Hiding stuff
-
-mods.jei.JEI.hideItem(<item:quark:pipe>);
-mods.jei.JEI.hideItem(<item:quark:crate>);
-mods.jei.JEI.hideItem(<item:quark:soul_compass>);
-mods.jei.JEI.hideItem(<item:quark:pickarang>);
-mods.jei.JEI.hideItem(<item:quark:flamerang>);
-mods.jei.JEI.hideItem(<item:quark:magnet>);
-mods.jei.JEI.hideItem(<item:quark:chute>);
-mods.jei.JEI.hideItem(<item:quark:matrix_enchanter>);
-
 // Recipes
 
 craftingTable.removeRecipe(<item:quark:chute>);
