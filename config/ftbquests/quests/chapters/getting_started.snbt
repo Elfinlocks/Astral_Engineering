@@ -788,6 +788,12 @@
 				type: "item"
 				item: "minecraft:smoker"
 			}]
+			rewards: [{
+				id: "40E887E7E7EEC514"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 3
+			}]
 		}
 	]
 }
