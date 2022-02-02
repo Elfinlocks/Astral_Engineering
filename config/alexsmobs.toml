@@ -323,7 +323,7 @@
 		kangarooSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crowSpawnWeight = 10
+		crowSpawnWeight = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		komodoDragonSpawnWeight = 4
