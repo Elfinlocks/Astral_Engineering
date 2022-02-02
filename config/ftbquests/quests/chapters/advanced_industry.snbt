@@ -359,6 +359,7 @@
 			description: ["Like Mekanism, the Thermal Expansion offers basic processing machines as well, such as the Redstone Furnace and Sawmill."]
 			dependencies: ["3AED57EBD34E6829"]
 			size: 1.5d
+			optional: true
 			id: "4010B64090D3B97C"
 			tasks: [{
 				id: "2244794474B4DCD1"
@@ -1212,6 +1213,20 @@
 					count: 2
 				}
 			]
+		}
+		{
+			title: "Now This Is Farming!"
+			x: -8.0d
+			y: 1.5d
+			subtitle: "By combining what you know of magic and science, you can create a very powerful automated farming device."
+			dependencies: ["09812AE1E82D15C5"]
+			optional: true
+			id: "2AC8523E35A17D76"
+			tasks: [{
+				id: "030A8BD8C69F1C2A"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
 		}
 	]
 }
