@@ -1,6 +1,7 @@
 events.listen('block.tags', function (event) {
 	event.get('dimensional_beacon').add('minecraft:dragon_egg')
-	event.get('chisel:marble').add('astralsorcery:marble_arch')
+	event.get('chisel:marble')
+		.add('astralsorcery:marble_arch')
 		.add('astralsorcery:marble_bricks')
 		.add('astralsorcery:marble_chiseled')
 		.add('astralsorcery:marble_engraved')
