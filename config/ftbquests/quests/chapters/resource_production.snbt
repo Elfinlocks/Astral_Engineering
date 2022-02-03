@@ -27,52 +27,83 @@
 			}]
 		}
 		{
-			x: -2.0d
+			title: "Tree Farms!"
+			icon: "minecraft:oak_log"
+			x: -3.0d
 			y: -2.0d
+			subtitle: "A brief overview."
+			description: [
+				"There are several methods of farming trees in this pack. I recommend trying a &6Create&r contraption with &6Mechanical Saws&r."
+				""
+				"If you're more magically inclined, try a &6Tree Beacon&r."
+			]
 			dependencies: ["4CD4BF97E68271B1"]
 			id: "20D75CE5580B63B7"
 			tasks: [{
-				id: "13017BB7B5FDA18A"
-				type: "item"
-				item: "minecraft:oak_log"
+				id: "62261692EF8C9B6A"
+				type: "checkmark"
+				title: "Tree Farm Get!"
 			}]
 		}
 		{
-			x: -2.0d
+			title: "Shaving Down"
+			icon: "minecraft:stripped_oak_log"
+			x: -3.0d
 			y: 0.0d
+			subtitle: "Next, you'll need to strip the bark off to allow processing."
+			description: [
+				"A &6Sawmill&r from &6Create&r or &6Immersive Engineering&r will do this job."
+				""
+				"If you're more advanced, try the one from the &6Thermal Expansion&r!"
+			]
 			dependencies: ["20D75CE5580B63B7"]
 			id: "1AD54946E35487CD"
 			tasks: [{
-				id: "2374CD4ECF9A0466"
-				type: "item"
-				item: "minecraft:stripped_oak_log"
+				id: "4E47837986AAC407"
+				type: "checkmark"
+				title: "Logs: Stripped!"
 			}]
 		}
 		{
-			x: -2.0d
+			title: "Ready For Building!"
+			icon: "minecraft:oak_planks"
+			x: -3.0d
 			y: 2.0d
+			subtitle: "Process the stripped logs once more to get planks!"
 			dependencies: ["1AD54946E35487CD"]
 			id: "2232C77AF08783EA"
 			tasks: [{
-				id: "72F0D96573315075"
-				type: "item"
-				item: "minecraft:oak_planks"
+				id: "4CA161DB4FEA4F39"
+				type: "checkmark"
+				title: "Planks: Made!"
 			}]
 		}
 		{
-			x: 1.0d
+			title: "Basic Blocks"
+			icon: "minecraft:cobblestone"
+			x: 2.0d
 			y: -2.0d
+			subtitle: "How to get 'em."
+			description: [
+				"Cobblestone is most easily obtained by using a &6Mechanical Drill&r from &6Create&r to dig up cobblestone as it forms from water and lava."
+				""
+				"Additionally, there are some basic &6block breakers&r which can do this job."
+			]
 			dependencies: ["4CD4BF97E68271B1"]
 			id: "4FE7AC80B0EE9611"
 			tasks: [{
-				id: "46485B5677623C8B"
-				type: "item"
-				item: "minecraft:cobblestone"
+				id: "3FA8A07DA01A112C"
+				type: "checkmark"
+				title: "Cobble: Mined!"
 			}]
 		}
 		{
-			x: 1.0d
+			title: "Grind 'Em Up!"
+			icon: "minecraft:gravel"
+			x: 2.0d
 			y: 0.0d
+			subtitle: "Process Cobblestone to get Gravel!"
+			description: ["Cobblestone can be &6crushed&r into Gravel via a pair of &6Crushing Wheels&r or &6Millstone&r, or Immersive Engineering's &6Crusher&r multiblock."]
 			dependencies: ["4FE7AC80B0EE9611"]
 			id: "2063177D66566E40"
 			tasks: [{
@@ -82,30 +113,38 @@
 			}]
 		}
 		{
-			x: 1.0d
+			title: "Wee Firestarter"
+			icon: "minecraft:flint"
+			x: 2.0d
 			y: 2.0d
+			description: ["Process your Gravel through a &6Millstone&r to obtain flint!"]
 			dependencies: ["2063177D66566E40"]
 			id: "6CF4B3227E3DB10C"
 			tasks: [{
-				id: "3812F0C1E6BDEB1B"
-				type: "item"
-				item: "minecraft:flint"
+				id: "2AA860CE4454C2E8"
+				type: "checkmark"
+				title: "Flint: Milled!"
 			}]
 		}
 		{
-			x: 3.0d
+			title: "Coarse and Rough"
+			icon: "minecraft:sand"
+			x: 4.5d
 			y: 0.0d
+			description: ["Process your Gravel again in a pain of &6Crushing Wheels&r or an Immersive Engineering &6Crusher&r multiblock to get Sand!"]
 			dependencies: ["2063177D66566E40"]
 			id: "27F13C4C2D8727BB"
 			tasks: [{
-				id: "19347092802C1045"
-				type: "item"
-				item: "minecraft:sand"
+				id: "5D7B468D97BBC9EF"
+				type: "checkmark"
+				title: "Sand: Slipping!"
 			}]
 		}
 		{
-			x: 3.0d
+			title: "Again?"
+			x: 4.5d
 			y: 2.0d
+			description: ["Crush your Sand again to get Limesand!"]
 			dependencies: ["27F13C4C2D8727BB"]
 			id: "0D5A81EC2D7FBFC4"
 			tasks: [{
@@ -115,8 +154,14 @@
 			}]
 		}
 		{
-			x: 3.0d
+			title: "It Was Me, DIO-rite!"
+			x: 4.5d
 			y: 4.0d
+			description: [
+				"Diorite can be made by combining &6Limesand&r and &6Flint&r with &6Lava&r, in a Mechanical Press Basin."
+				""
+				"You can also synthesize it directly with &6Astral Sorcery&r!"
+			]
 			dependencies: ["0D5A81EC2D7FBFC4"]
 			id: "668FF7BA10638608"
 			tasks: [{
@@ -126,14 +171,61 @@
 			}]
 		}
 		{
-			x: 1.0d
+			title: "Essential Alloy Materials"
+			icon: "minecraft:andesite"
+			x: 2.0d
 			y: 4.0d
+			description: [
+				"Andesite can be made by combining &6Gravel&r and &6Flint&r with &6Lava&r, in a Mechanical Press Basin."
+				""
+				"You can also synthesize it directly with &6Astral Sorcery&r!"
+			]
 			dependencies: ["6CF4B3227E3DB10C"]
 			id: "46F9B866B642662D"
 			tasks: [{
-				id: "6E4D47B504A11AD5"
+				id: "7E684770CFCFFDA9"
+				type: "checkmark"
+				title: "Andesite Automated!"
+			}]
+		}
+		{
+			icon: "minecraft:charcoal"
+			x: -5.0d
+			y: -2.0d
+			subtitle: "Sorta."
+			description: ["You can burn all of that tree farm wood to get &6charcoal&r. It will surely come in handy."]
+			dependencies: ["20D75CE5580B63B7"]
+			id: "3FA02279BC46CF47"
+			tasks: [{
+				id: "2FFD93D179CB148A"
+				type: "checkmark"
+				title: "Renewable Energy!"
+			}]
+		}
+		{
+			title: "Automated Clay?!"
+			icon: "minecraft:clay_ball"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Way too OP."
+			description: ["Send that sand through a &6bulk washing&r setup to get clay out of it!"]
+			dependencies: ["27F13C4C2D8727BB"]
+			id: "5BEE5AC00F9B720B"
+			tasks: [{
+				id: "7955ED6D9106AFE7"
+				type: "checkmark"
+				title: "Clay: OverPowered!"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["2063177D66566E40"]
+			id: "6893D137F48DDA9C"
+			tasks: [{
+				id: "2590FDBAA4E46EFB"
 				type: "item"
-				item: "minecraft:andesite"
+				item: "minecraft:iron_nugget"
 			}]
 		}
 	]

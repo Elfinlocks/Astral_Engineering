@@ -60,6 +60,8 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 
 <recipetype:thermal:pulverizer>.addRecipe("kelp", [<item:mekanism:salt> % 100] , <item:minecraft:dried_kelp>, 2, 500);
 
+<recipetype:thermal:pulverizer>.addRecipe("kelp", [<item:create:limesand> % 100] , <tag:items:forge:sand>, 2, 500);
+
 <recipetype:thermal:furnace>.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 4000);
 
 <recipetype:thermal:pulverizer>.addRecipe("coke", [<item:immersiveengineering:dust_coke> % 100] , <item:immersiveengineering:coal_coke>, 2, 500);

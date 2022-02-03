@@ -118,6 +118,12 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_charcoal", <tag:items:forge:charcoal>, 500, <item:mekanism:dust_charcoal>);
 
+// Limesand
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_limesand", <tag:items:forge:sand>, 500, <item:create:limesand>);
+
+// Misc 
+
 craftingTable.addShaped("conveyor_belt", <item:immersiveengineering:conveyor_basic> * 3, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:thermal:cured_rubber>, <tag:items:forge:leather>, <item:thermal:cured_rubber>],
