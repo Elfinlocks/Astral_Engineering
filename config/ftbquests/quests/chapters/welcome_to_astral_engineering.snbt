@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "welcome_to_astral_engineering"
 	title: "&bWelcome!&r"
-	icon: "losttrinkets:starfish"
+	icon: "atmadditions:atm_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -126,7 +126,7 @@
 			]
 		}
 		{
-			icon: "losttrinkets:starfish"
+			icon: "atmadditions:atm_star"
 			x: 10.0d
 			y: -5.0d
 			shape: "hexagon"
