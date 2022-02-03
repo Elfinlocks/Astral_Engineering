@@ -1,7 +1,7 @@
 {
 	id: "5F0592A4A12A0D70"
 	group: "4E00F236C0BD2C6F"
-	order_index: 0
+	order_index: 1
 	filename: "resource_production"
 	title: "Basic Resource Production"
 	icon: "create:chute"
@@ -218,14 +218,21 @@
 			}]
 		}
 		{
+			title: "No Golems Needed"
+			icon: "minecraft:iron_nugget"
 			x: 0.0d
 			y: 0.0d
+			description: [
+				"As you may have noticed, traditional iron golem farms don't work in this pack."
+				""
+				"To automate iron, send the gravel through &6bulk washing&r to get flint and iron nuggets!"
+			]
 			dependencies: ["2063177D66566E40"]
 			id: "6893D137F48DDA9C"
 			tasks: [{
-				id: "2590FDBAA4E46EFB"
-				type: "item"
-				item: "minecraft:iron_nugget"
+				id: "3401B55C4B812B49"
+				type: "checkmark"
+				title: "Iron: Farmed!"
 			}]
 		}
 	]

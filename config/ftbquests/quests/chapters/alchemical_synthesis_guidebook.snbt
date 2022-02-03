@@ -1,0 +1,29 @@
+{
+	id: "6C52DB629526CB4C"
+	group: "4E00F236C0BD2C6F"
+	order_index: 0
+	filename: "alchemical_synthesis_guidebook"
+	title: "Alchemical Synthesis Guidebook"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "alchemistry:alchemistry_book"
+			}
+		}
+		x: 0.0d
+		y: 0.0d
+		subtitle: "The following quests will teach you all the how-to's!"
+		dependencies: ["4BA5452F2C0A2536"]
+		hide: true
+		id: "1D2E018F498EA928"
+		tasks: [{
+			id: "25153E85326D09B7"
+			type: "checkmark"
+			title: "Welcome To Alchemical Synthesis!"
+		}]
+	}]
+}

@@ -172,7 +172,7 @@ events.listen('item.tags', function (event) {
 	event.get('forge:tools/wrench')
 		.add('tardis:sonic')
 	event.get('mekanism:configurators')
-		.add('tardis:wrench')
+		.add('tardis:sonic')
 	event.get('forge:wrenches')
 		.add('tardis:sonic')
 })
