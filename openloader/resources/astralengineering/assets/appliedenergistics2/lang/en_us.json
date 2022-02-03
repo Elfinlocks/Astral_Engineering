@@ -1,3 +1,5 @@
 {
-	"block.appliedenergistics2.grindstone": "Crude Grindstone"
+	"block.appliedenergistics2.grindstone": "Crude Grindstone",
+	"item.appliedenergistics2.silicon": "Impure Silicon",
+	"item.appliedenergistics2.printed_silicon": "Silicon Processor Mould"
 }
