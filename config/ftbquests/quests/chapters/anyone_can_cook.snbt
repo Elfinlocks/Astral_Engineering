@@ -807,9 +807,9 @@
 				}
 			]
 			rewards: [{
-				id: "261AC46992388BE1"
+				id: "66BE77C3252CFE97"
 				type: "item"
-				item: "losttrinkets:rock_candy"
+				item: "paraglider:heart_container"
 			}]
 		}
 		{

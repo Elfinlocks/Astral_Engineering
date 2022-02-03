@@ -231,24 +231,19 @@ onEvent('chest.loot_tables', event => {
   
   event.addChest('minecraft:village/village_butcher', table => {
 
-// The Nice Shit =====================================
-    table.addPool(pool => {
-      pool.rolls = [0, 1]
-      pool.addItem('losttrinkets:butchers_cleaver', 2, [0, 1])
-	})
-	
+// Stuff =====================================	
 	table.addPool(pool => {
       pool.rolls = [3, 4]
-      pool.addItem('minecraft:porkchop', 6)
-      pool.addItem('minecraft:beef', 6)
-      pool.addItem('minecraft:mutton', 6)
+      pool.addItem('minecraft:porkchop', 6 [1, 3])
+      pool.addItem('minecraft:beef', 6, [1, 3])
+      pool.addItem('minecraft:mutton', 6, [1, 3])
 	  
 	})
 	
 	table.addPool(pool => {
       pool.rolls = [2, 3]
-      pool.addItem('minecraft:wheat', 6)
-      pool.addItem('pamhc2crops:barleyitem', 6)
+      pool.addItem('minecraft:wheat', 6, [1, 3])
+      pool.addItem('pamhc2crops:barleyitem', 6, [1, 3])
       pool.addItem('minecraft:coal', 10, [1, 3])
 	  
 	})
