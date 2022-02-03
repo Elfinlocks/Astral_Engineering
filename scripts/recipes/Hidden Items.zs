@@ -578,7 +578,9 @@ val items as IIngredient[] = [
 <item:chemlib:ingot_neptunium>,
 <item:alchemistry:mineral_salt>,
 <item:alchemistry:condensed_milk>,
-<item:alchemistry:evaporator>
+<item:alchemistry:evaporator>,
+<item:xreliquary:phoenix_down>,
+<item:xreliquary:glowing_bread>
 ];
 
 for item in items {

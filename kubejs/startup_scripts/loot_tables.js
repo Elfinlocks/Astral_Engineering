@@ -206,7 +206,7 @@ onEvent('chest.loot_tables', event => {
 	  pool.addItem('minecraft:clock', 3, [0, 1])
 	  pool.addItem('minecraft:light_weighted_pressure_plate', 3, [0, 1])
 	  pool.addItem('minecraft:gold_block', 2, [1, 2])
-	  
+	  pool.addItem('xreliquary:emperor_chalice', 1, [0, 1])
 	})
 	
 // Obsidian Stuff ===================================
