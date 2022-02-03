@@ -21,6 +21,7 @@ craftingTable.removeRecipe(<item:alchemistry:liquifier>);
 <recipetype:create:mechanical_crafting>.addRecipe("liquifier", <item:alchemistry:liquifier>, [
 	[<item:thermal:constantan_gear>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:thermal:constantan_gear>],
 	[<item:immersiveengineering:plate_electrum>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:immersiveengineering:plate_electrum>],
-	[<item:immersiveengineering:plate_electrum>, <item:mekanism:alloy_atomic>, <item:immersiveengineering:fluid_place>, <item:mekanism:alloy_atomic>, <item:immersiveengineering:plate_electrum>],
+	[<item:immersiveengineering:plate_electrum>, <item:mekanism:alloy_atomic>, <item:immersiveengineering:fluid_placer>, <item:mekanism:alloy_atomic>, <item:immersiveengineering:plate_electrum>],
 	[<item:immersiveengineering:plate_electrum>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:immersiveengineering:plate_electrum>],
 	[<item:thermal:constantan_gear>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:thermal:constantan_gear>]]);
+	
