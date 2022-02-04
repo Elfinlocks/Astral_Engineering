@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "professions"
 	title: "&e One Small Fetch Quest"
-	icon: "minecraft:item_frame"
+	icon: "supplementaries:notice_board"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
