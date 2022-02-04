@@ -17,11 +17,16 @@ craftingTable.addShaped("organic_compost", <item:farmersdelight:organic_compost>
 <recipetype:create:crushing>.addRecipe("log_crushing", [<item:farmersdelight:tree_bark> * 3, <item:farmersdelight:tree_bark> % 80, <item:farmersdelight:tree_bark> * 3 % 10], <tag:items:minecraft:logs>);
 
 craftingTable.addShaped("onion_crate", <item:farmersdelight:onion_crate>, [
-    [<item:crockpot:onion>, <item:crockpot:onion>, <item:crockpot:onion>],
-    [<item:crockpot:onion>, <item:crockpot:onion>, <item:crockpot:onion>],
-    [<item:crockpot:onion>, <item:crockpot:onion>, <item:crockpot:onion>]]);
+    [<tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>],
+    [<tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>],
+    [<tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>, <tag:items:forge:crops/onion>]]);
 
 craftingTable.addShaped("tomato_crate", <item:farmersdelight:tomato_crate>, [
-    [<item:crockpot:tomato>, <item:crockpot:tomato>, <item:crockpot:tomato>],
-    [<item:crockpot:tomato>, <item:crockpot:tomato>, <item:crockpot:tomato>],
-    [<item:crockpot:tomato>, <item:crockpot:tomato>, <item:crockpot:tomato>]]);
+    [<tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>],
+    [<tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>],
+    [<tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>]]);
+
+craftingTable.addShaped("cabbage_crate", <item:farmersdelight:cabbage_crate>, [
+    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>],
+    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>],
+    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>]]);

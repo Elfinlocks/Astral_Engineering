@@ -3,7 +3,7 @@
 	group: "5338BDEB2CDD0EE0"
 	order_index: 1
 	filename: "optional_challenges"
-	title: "Optional Challenges"
+	title: "&dOptional Challenges"
 	icon: "atmadditions:atm_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

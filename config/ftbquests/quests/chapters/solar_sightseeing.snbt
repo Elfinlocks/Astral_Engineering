@@ -3,7 +3,7 @@
 	group: "0663EB7A978FD08B"
 	order_index: 0
 	filename: "solar_sightseeing"
-	title: "Solar Sightseeing"
+	title: "&dSolar Sightseeing"
 	icon: "astralsorcery:shifting_star_vicio"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

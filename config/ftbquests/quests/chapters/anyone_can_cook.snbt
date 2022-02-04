@@ -3,7 +3,7 @@
 	group: "64DFD76C777DC386"
 	order_index: 1
 	filename: "anyone_can_cook"
-	title: "Anyone Can Cook"
+	title: "&eAnyone Can Cook"
 	icon: "crockpot:bone_stew"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
