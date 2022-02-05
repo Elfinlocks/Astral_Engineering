@@ -43,6 +43,6 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = Astral Engineering v1.4.3
+  value = Astral Engineering v2.0
 }
 
