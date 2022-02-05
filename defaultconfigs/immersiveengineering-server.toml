@@ -163,7 +163,7 @@
 		consumption = 250
 		#The Flux the Fluid Pump will consume pressurize and accelerate fluids, increasing the transferrate
 		#Range: > 1
-		consumption_accelerate = 5
+		consumption_accelerate = 15
 		#Set this to false to disable the fluid pump being able to draw infinite water from sources
 		infiniteWater = true
 		#If this is set to true (default) the pump will replace fluids it picks up with cobblestone in order to reduce lag caused by flowing fluids.

@@ -14,9 +14,9 @@
 			y: 12.25d
 			shape: "hexagon"
 			description: [
-				"&6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Cards for use in the Trading Machine."
+				"&6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Data Cards for use in the Trading Computer."
 				""
-				"Each import card comes with a cost up front. Once that is paid you can limitlessly buy the respective goods priced at what's stated in the subtitle."
+				"Each Data Card comes with a cost up front. Once that is paid, you can limitlessly buy the respective goods priced at what's stated in the subtitle."
 			]
 			size: 2.0d
 			id: "6AC1CED0D341150E"
@@ -3902,16 +3902,16 @@
 			]
 		}
 		{
-			title: "Early Shipping"
+			title: "Ahead of The Curve"
 			icon: "thermal:machine_press"
 			x: -2.0d
 			y: 12.25d
 			shape: "circle"
 			subtitle: "30 Silver"
 			description: [
-				"Getting to the Brass Age is hard work!"
+				"Getting through Early Industry is hard work!"
 				""
-				"The avid salesman can come here for purchasing Trading Machines from the get go. This should help you take off!"
+				"The avid trader can come here to purchase Trading Computers from the get go."
 			]
 			dependencies: ["6AC1CED0D341150E"]
 			id: "4DFE4FD3B504AF4B"

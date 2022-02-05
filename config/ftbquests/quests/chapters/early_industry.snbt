@@ -1571,7 +1571,7 @@
 			title: "Upgrades, People - Upgrades!"
 			icon: "steampowered:cast_iron_flywheel"
 			x: 14.0d
-			y: -3.5d
+			y: -4.5d
 			subtitle: "If you can spare the resources, you can really turn things up a notch."
 			description: ["The Cast Iron flywheel and engine setup has a stress capacity of 4096."]
 			dependencies: ["4B9454AF18012B10"]
@@ -1609,8 +1609,8 @@
 		{
 			title: "Industrially Revolutionizing"
 			icon: "steampowered:steel_flywheel"
-			x: 16.0d
-			y: -3.5d
+			x: 17.0d
+			y: -4.5d
 			shape: "gear"
 			subtitle: "A steel steam engine knocks the others out of the park!"
 			description: ["The Steel Flywheel and Engine can generate up to 9216su!"]
@@ -1928,6 +1928,7 @@
 			subtitle: "MV Wire Coils offer an increased transfer rate."
 			description: ["I recommend insulating these."]
 			dependencies: ["1F1994D8C11FAB3D"]
+			optional: true
 			id: "21C466135539E865"
 			tasks: [
 				{
@@ -1968,6 +1969,41 @@
 				type: "checkmark"
 				title: "Sources of Rotational Force"
 			}]
+		}
+		{
+			title: "Electrical Alternatives"
+			icon: "immersiveengineering:fluid_pump"
+			x: 10.0d
+			y: 0.0d
+			description: ["If you'd prefer to use electricity, an &6Electric Pump&r will move water at a rate comparable to a maximum speed &6Mechanical Pump&r, for a relatively low about of energy."]
+			dependencies: ["0EF94371D99AC9BA"]
+			optional: true
+			id: "363CAD2FF1A13F84"
+			tasks: [
+				{
+					id: "6F52A6FB9F753A09"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+				{
+					id: "6E387677F2AF08E6"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "12113DF962CD6EDC"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "41BBDE187212A9EA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }

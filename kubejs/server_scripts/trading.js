@@ -53,7 +53,14 @@ onEvent('item.tags', event => {
 	});
 
 	global.professions.forEach(element => {
-		event.get('forge:profession_cards').add(`kubejs:profession_card_${element}`)
+		event.get('forge:profession_cards')
+			.add('kubejs:profession_card_construction')
+			.add('kubejs:profession_card_cooking')
+			.add('kubejs:profession_card_farming')
+			.add('kubejs:profession_card_fishing')
+			.add('kubejs:profession_card_mining')
+			.add('kubejs:profession_card_slayer')
+			.add('kubejs:profession_card_smithing')
 	});
 	
 	event.get('thermal:crafting/dies').add('#forge:trade_cards')

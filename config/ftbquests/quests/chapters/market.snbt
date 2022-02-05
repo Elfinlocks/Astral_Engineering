@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sleepless"
+			title: "Tucked In"
 			icon: "minecraft:cyan_bed"
 			x: -9.5d
 			y: -1.5d
 			subtitle: "10 Silver"
-			description: ["Your last resort in case the sundown beat you to it."]
+			description: ["Can't find sheep? Here's a bed just in case."]
 			id: "5D17CB247942013A"
 			tasks: [{
 				id: "0783860FB502A201"
@@ -31,15 +31,15 @@
 			}]
 		}
 		{
-			title: "The Market"
+			title: "Welcome to the General Store!"
 			icon: "minecraft:chest"
 			x: -6.0d
-			y: -4.0d
+			y: -3.5d
 			shape: "hexagon"
 			description: [
-				"&6The Market&r gives you options to spend your money on a variety of fun and useful items and gadgets."
+				"&6The General Store&r gives you options to spend your money on a variety of fun and useful items and gadgets."
 				""
-				"Have a look around. I'm sure you'll find something of use."
+				"Most stuff in here is a one time purchase, with some exceptions. Look for the &6\"Repeatable\"&r quest reward to determine this."
 			]
 			size: 2.0d
 			id: "0F870BEA235D662D"
@@ -52,7 +52,7 @@
 			title: "Manual Exchange"
 			icon: { id: "thermal:silver_coin", Count: 16b }
 			x: -4.0d
-			y: -4.0d
+			y: -3.5d
 			shape: "circle"
 			subtitle: "Gold -> Silver"
 			description: ["Here you can exchange a Gold Coin back to a Stack of Silver."]
@@ -86,7 +86,7 @@
 			title: "Manual Exchange"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: -8.0d
-			y: -4.0d
+			y: -3.5d
 			shape: "circle"
 			subtitle: "Silver -> Gold"
 			description: ["Some trades require you to hand in Gold Coins. These are worth a stack of Silver each."]
@@ -117,12 +117,12 @@
 			]
 		}
 		{
-			title: "Corporate Dinner"
+			title: "A Hearty Meal"
 			icon: "farmersdelight:steak_and_potatoes"
 			x: -9.0d
 			y: 0.0d
 			subtitle: "10 Silver"
-			description: ["Sometimes you have to treat yourself and the co-workers to a nice meal."]
+			description: ["Treat yourself, and maybe some friends!"]
 			id: "09DC2E2BE2BE32F4"
 			tasks: [{
 				id: "6235F365D702DF2B"
@@ -208,7 +208,7 @@
 			x: -3.5d
 			y: 0.0d
 			subtitle: "55 Silver"
-			description: ["It's like a backpack but classy."]
+			description: ["It's like a backpack but not. Be careful with nesting!"]
 			id: "4FD46F841CCD59F8"
 			tasks: [{
 				id: "709557A517B0143F"
@@ -230,6 +230,7 @@
 			x: 0.5d
 			y: 0.0d
 			subtitle: "60 Silver"
+			description: ["Just in case you're in over your head."]
 			id: "6D9F2FBEB7CC5195"
 			tasks: [{
 				id: "165B9A886A26BCC8"
@@ -275,46 +276,7 @@
 			]
 		}
 		{
-			title: "Adopt a Duck"
-			icon: "minecraft:egg"
-			x: -11.0d
-			y: -2.0d
-			subtitle: "5 Silver"
-			description: ["Quack"]
-			id: "6C00F2935F27C2AD"
-			tasks: [
-				{
-					id: "491FF95EFE8DCB67"
-					type: "item"
-					icon: { id: "thermal:silver_coin", Count: 5b }
-					item: "thermal:silver_coin"
-					count: 5L
-				}
-				{
-					id: "5F58BA2473FD6DDA"
-					type: "item"
-					item: "rubber_duck:rubber_duck_item"
-				}
-			]
-			rewards: [
-				{
-					id: "500098FD4762A38F"
-					type: "item"
-					auto: "enabled"
-					item: "exoticbirds:duck_spawn_egg"
-				}
-				{
-					id: "79C8307ED8450347"
-					type: "custom"
-					title: "Repeatable"
-					icon: "thermal:machine_cycle_augment"
-					tags: ["reset"]
-					auto: "no_toast"
-				}
-			]
-		}
-		{
-			title: "Playing with Fire"
+			title: "What Makes Me a Good Demoman?"
 			icon: "thermal:explosive_grenade"
 			x: -12.5d
 			y: -1.5d
@@ -529,6 +491,7 @@
 			x: -13.0d
 			y: 0.0d
 			subtitle: "24 Silver"
+			description: ["Pet owner essentials."]
 			id: "2D75D1864FB1EF75"
 			tasks: [{
 				id: "3AA788B63B6A73EF"
@@ -571,12 +534,12 @@
 			]
 		}
 		{
-			title: "Instant Aesthetics"
+			title: "A Little Greenery"
 			icon: "minecraft:oak_leaves"
 			x: 0.0d
 			y: -1.5d
 			subtitle: "24 Silver"
-			description: ["Not too stoked with your facade? Not a problem! Foliage solves everything."]
+			description: ["Goes a long way."]
 			id: "7D93DAB3E8ACF953"
 			tasks: [{
 				id: "06028A67C6DCCD00"
@@ -626,11 +589,16 @@
 			]
 		}
 		{
-			title: "No, not the bees!"
+			title: "NOT THE BEES!"
 			icon: "minecraft:bee_nest"
 			x: -1.5d
 			y: -2.0d
 			subtitle: "48 Silver"
+			description: [
+				"Bet you haven't heard that one before."
+				""
+				"This pack should help any budding apiarists."
+			]
 			id: "003E0D1CE60B166A"
 			tasks: [
 				{
@@ -731,6 +699,7 @@
 				icon: { id: "thermal:silver_coin", Count: 15b }
 				item: "thermal:silver_coin"
 				count: 15L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -744,6 +713,627 @@
 					type: "item"
 					item: "minecraft:stone_bricks"
 					count: 64
+				}
+			]
+		}
+		{
+			icon: "minecraft:cat_spawn_egg"
+			x: -6.0d
+			y: -8.0d
+			description: ["These quests give you a repeatable source of spawn eggs, for any common animals you may need."]
+			id: "608EA67ED108C8E3"
+			tasks: [{
+				id: "0428794825EF6303"
+				type: "checkmark"
+				title: "Pet Adoption Centre"
+			}]
+		}
+		{
+			title: "Adopt a Cat"
+			icon: "minecraft:ocelot_spawn_egg"
+			x: -4.5d
+			y: -9.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "7CC84780B0DBE09C"
+			tasks: [{
+				id: "57C07261D9F55912"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B329F5409B6D7A6"
+					type: "item"
+					item: "minecraft:ocelot_spawn_egg"
+				}
+				{
+					id: "61069CD1562C6941"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Cow"
+			icon: "minecraft:cow_spawn_egg"
+			x: -4.0d
+			y: -8.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "11F70E0976A3A95D"
+			tasks: [{
+				id: "4C093E54D73848BF"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "165E93A2B5C966FE"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+				}
+				{
+					id: "3F56CF7AC930C3C7"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Pig"
+			icon: "minecraft:pig_spawn_egg"
+			x: -4.5d
+			y: -6.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "4CFDF7C521F4A2FE"
+			tasks: [{
+				id: "47B680E5C493A3FA"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "109C1E7DFA9EECCC"
+					type: "item"
+					item: "minecraft:pig_spawn_egg"
+				}
+				{
+					id: "4BD5901D755E0CCB"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Sheep"
+			icon: "minecraft:sheep_spawn_egg"
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "4EB857273C9EBD32"
+			tasks: [{
+				id: "7BD222AA66F60D22"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "787B0F5839F003A2"
+					type: "item"
+					item: "minecraft:sheep_spawn_egg"
+				}
+				{
+					id: "35C1531DD8E3A7C8"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Wolf"
+			icon: "minecraft:wolf_spawn_egg"
+			x: -7.5d
+			y: -6.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "15885ED2D1EB6306"
+			tasks: [{
+				id: "461C8CA041E2B0AD"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4F86E64C069E8C5C"
+					type: "item"
+					item: "minecraft:wolf_spawn_egg"
+				}
+				{
+					id: "4A6901FCF709B6DD"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Chicken"
+			icon: "minecraft:chicken_spawn_egg"
+			x: -7.5d
+			y: -9.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "4A48C4F47E4C96BE"
+			tasks: [{
+				id: "6BBF1F1EF08C9B08"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3B9123CDCE0E3CFA"
+					type: "item"
+					item: "minecraft:chicken_spawn_egg"
+				}
+				{
+					id: "3A2C6EEC25D8A7B0"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Horse"
+			icon: "minecraft:horse_spawn_egg"
+			x: -8.0d
+			y: -8.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "67202FB5F0DD2450"
+			tasks: [{
+				id: "165EC5DCC4AD5A29"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "12399EB108DC8289"
+					type: "item"
+					item: "minecraft:horse_spawn_egg"
+				}
+				{
+					id: "373B8BEB224721D3"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Fox"
+			icon: "minecraft:fox_spawn_egg"
+			x: -7.0d
+			y: -10.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "37A5B1C908C4A3E7"
+			tasks: [{
+				id: "3EEC2E8682C45C06"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1B22D9D4D8EE1E61"
+					type: "item"
+					item: "minecraft:fox_spawn_egg"
+				}
+				{
+					id: "7425CCAB9DB7833C"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Parrot"
+			icon: "minecraft:parrot_spawn_egg"
+			x: -5.0d
+			y: -10.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "7A97A91B66D6B39F"
+			tasks: [{
+				id: "6B131BC092148A04"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "13FBF47C5F4FA748"
+					type: "item"
+					item: "minecraft:parrot_spawn_egg"
+				}
+				{
+					id: "0622019E8BB54A8B"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Llama"
+			icon: "minecraft:llama_spawn_egg"
+			x: -8.5d
+			y: -9.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "542BC03FC99995D2"
+			tasks: [{
+				id: "615F59DC8058CA12"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "01609B6A0ABB942A"
+					type: "item"
+					item: "minecraft:llama_spawn_egg"
+				}
+				{
+					id: "2F02557AAD9748FB"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Bunny"
+			icon: "minecraft:rabbit_spawn_egg"
+			x: -3.5d
+			y: -9.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "696BD1191C17ABFF"
+			tasks: [{
+				id: "2E87C9A6301956F3"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A27CF7541F6EE47"
+					type: "item"
+					item: "minecraft:rabbit_spawn_egg"
+				}
+				{
+					id: "376227B24FB3FBA0"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Turtle"
+			icon: "minecraft:turtle_spawn_egg"
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "050694CEA2CF4F1C"
+			tasks: [{
+				id: "552FA8F123202955"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2FEF2FA68D2ED5EB"
+					type: "item"
+					item: "minecraft:turtle_spawn_egg"
+				}
+				{
+					id: "201337926BB112CA"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Squid"
+			icon: "minecraft:squid_spawn_egg"
+			x: -8.5d
+			y: -7.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "48C23B4D25C9CF2F"
+			tasks: [{
+				id: "441F6DCD05AE62E6"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "473D41F3CE439575"
+					type: "item"
+					item: "minecraft:squid_spawn_egg"
+				}
+				{
+					id: "12A5C91BDA4F7D8F"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Shiba"
+			icon: "quark:shiba_spawn_egg"
+			x: -7.0d
+			y: -5.5d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "69EA6A4ADE72E33E"
+			tasks: [{
+				id: "1C78E85023887E73"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "38C52BB5018942E9"
+					type: "item"
+					item: "quark:shiba_spawn_egg"
+				}
+				{
+					id: "0751A54319001324"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Raccoon"
+			icon: "alexsmobs:spawn_egg_raccoon"
+			x: -5.0d
+			y: -5.5d
+			subtitle: "The Frenchiest Fry"
+			dependencies: ["608EA67ED108C8E3"]
+			id: "6EF862B800204D34"
+			tasks: [{
+				id: "3CE45BB7E284FA41"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "41229F13C2E97419"
+					type: "item"
+					item: "alexsmobs:spawn_egg_raccoon"
+				}
+				{
+					id: "7DD81A6CD7B9AB3B"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Adopt a Duck"
+			icon: "exoticbirds:duck_spawn_egg"
+			x: -6.0d
+			y: -10.0d
+			dependencies: ["608EA67ED108C8E3"]
+			id: "665A1B25D28F3451"
+			tasks: [{
+				id: "585A80DEBF3B04A8"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "20083F2A7BA95166"
+					type: "item"
+					item: "exoticbirds:duck_spawn_egg"
+				}
+				{
+					id: "3DE3F8E313AAEA37"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Vortex Manipulation"
+			icon: {
+				id: "tardis:vm"
+				Count: 1b
+				tag: {
+					cap_sync: {
+						battery_inv: {
+							Size: 3
+							Items: [ ]
+						}
+						has_teleported: 0b
+						discharge_amount: 0.0f
+						used: 0b
+						total_charge: 0.0f
+					}
+				}
+				ForgeCaps: {
+					"tardis:vortex": {
+						battery_inv: {
+							Size: 3
+							Items: [ ]
+						}
+						discharge_amount: 0.0f
+						has_teleported: 0b
+						used: 0b
+						total_charge: 0.0f
+					}
+				}
+			}
+			x: -11.0d
+			y: -2.0d
+			subtitle: "1 Gold"
+			description: [
+				"This is a handy device which provides &6unstable teleportation&r to the wearer. You'll need &6batteries&r to operate it."
+				""
+				"Note: Does NOT allow interdimensional teleportation. Maximum range of 10,000 blocks."
+			]
+			id: "7DC32B2C666BE76A"
+			tasks: [
+				{
+					id: "3D55416AD09E7F3A"
+					type: "item"
+					item: "thermal:gold_coin"
+					consume_items: true
+				}
+				{
+					id: "73AF90A5CAFC30E9"
+					type: "item"
+					item: {
+						id: "minecraft:dragon_egg"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "20E691F2B32CDE47"
+				type: "item"
+				item: {
+					id: "tardis:vm"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							has_teleported: 0b
+							discharge_amount: 0.0f
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+					ForgeCaps: {
+						"tardis:vortex": {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							discharge_amount: 0.0f
+							has_teleported: 0b
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Fueling Up"
+			icon: "tardis:artron_battery"
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["7DC32B2C666BE76A"]
+			id: "5B225F1BF4A7D5B6"
+			tasks: [{
+				id: "07EA10BCBE92237B"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "19338AE1064C9D8B"
+					type: "item"
+					item: {
+						id: "tardis:artron_battery"
+						Count: 1b
+						tag: {
+							artron: 250.0f
+						}
+					}
+				}
+				{
+					id: "03F00BF2A3EF4FB3"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
 				}
 			]
 		}

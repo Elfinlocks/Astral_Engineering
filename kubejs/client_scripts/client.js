@@ -15,4 +15,5 @@ onEvent('jei.add.items', event => {
 	event.add('thermal:sapphire')
 	event.add('thermal:sapphire_dust')
 	event.add('thermal:sapphire_ore')
+	event.add('minecraft:dragon_egg')
 })

@@ -23,7 +23,7 @@
 
 	["Vortex Manipulator (VM) Configurations"."Travel Configurations"]
 		#Toggle whether to use the Whitelist. By default, uses the Blacklist
-		toggleVMWhitelistDims = true
+		toggleVMWhitelistDims = false
 		#List of dimensions the VM can travel to, anything else is not allowed
 		#Seperate every entry except the last one with commas
 		whitelistedVMDims = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
@@ -31,7 +31,7 @@
 		#Seperate every entry except the last one with commas
 		blacklistedVMDims = ["modID:dimensionName"]
 		#Sets the maximum Teleport Range the Vortex Manipulator can teleport to
-		vmTeleportRange = 1000
+		vmTeleportRange = 10000
 
 	["Vortex Manipulator (VM) Configurations".Limitations]
 		#Sets the seconds of cooldown time needed between uses of the Vortex Manipulator
@@ -50,7 +50,7 @@
 		#Sets the figure that scales how much fuel is used by the VM per amount of seconds set by user
 		#Fuel Usage = YourBaseInputValue + (YourMultiplier * TeleportDistance)
 		#E.g. If you want the fuel usage to be 20 charge per 100 blocks, you would set the base value to 20 - (0.005 * 100)
-		vmFuelUsageMultiplier = 0.1
+		vmFuelUsageMultiplier = 0.024
 		#Sets the seconds of time that must elapse before the VM uses up fuel
 		vmFuelUsageTime = 1
 

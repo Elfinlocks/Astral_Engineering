@@ -12,13 +12,6 @@ onEvent('item.registry', event => {
 	event.create('drilled_circuit').displayName('Drilled Circuit')
 	event.create('rocket_salvage_1').displayName('Tier 1 Rocket Salvage')
 	event.create('rocket_salvage_2').displayName('Tier 2 Rocket Salvage')
-	event.create('construction_token').displayName('Construction License')
-	event.create('cooking_token').displayName('Cooking License')
-	event.create('farming_token').displayName('Farming License')
-	event.create('fishing_token').displayName('Fishing License')
-	event.create('mining_token').displayName('Mining License')
-	event.create('slayer_token').displayName('Slayer License')
-	event.create('smithing_token').displayName('Smithing License')
 })
 
 onEvent('block.registry', event => {

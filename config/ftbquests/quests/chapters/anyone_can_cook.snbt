@@ -186,6 +186,12 @@
 				type: "item"
 				item: "farmersdelight:organic_compost"
 			}]
+			rewards: [{
+				id: "53D05EF4A65C0A14"
+				type: "item"
+				item: "minecraft:bone"
+				count: 3
+			}]
 		}
 		{
 			title: "It's a pot, that cooks.......cooking pot."
@@ -665,7 +671,6 @@
 				id: "20D2178436277660"
 				type: "item"
 				item: "minecraft:sheep_spawn_egg"
-				count: 2
 			}]
 		}
 		{
@@ -684,7 +689,6 @@
 				id: "619B841E5134B395"
 				type: "item"
 				item: "minecraft:chicken_spawn_egg"
-				count: 2
 			}]
 		}
 		{
@@ -703,7 +707,6 @@
 				id: "4C824C9699319330"
 				type: "item"
 				item: "minecraft:cow_spawn_egg"
-				count: 2
 			}]
 		}
 		{

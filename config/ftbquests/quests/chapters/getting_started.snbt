@@ -168,7 +168,7 @@
 			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
 			description: ["To proceed, insert iron ingots or blocks, alongside coal coke pieces or blocks, and wait for the steel to smelt."]
 			dependencies: ["0E1C4AEDB8594945"]
-			size: 1.5d
+			size: 2.0d
 			id: "031023A8EA6FD4D0"
 			tasks: [{
 				id: "5CFC34FC014226DE"

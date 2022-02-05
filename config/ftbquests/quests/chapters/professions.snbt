@@ -10,11 +10,11 @@
 	quests: [
 		{
 			title: "Skill License: Mining"
-			icon: "kubejs:mining_token"
+			icon: "kubejs:profession_card_mining"
 			x: -4.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining permit."]
+			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "1E26046FA8177616"
@@ -24,6 +24,7 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -44,11 +45,11 @@
 		}
 		{
 			title: "Skill License: Farming"
-			icon: "kubejs:farming_token"
+			icon: "kubejs:profession_card_farming"
 			x: -6.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming permit."]
+			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "12B37E99B1D3837E"
@@ -58,6 +59,7 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -78,11 +80,11 @@
 		}
 		{
 			title: "Skill License: Construction"
-			icon: "kubejs:construction_token"
+			icon: "kubejs:profession_card_construction"
 			x: -5.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Wood Logs&f with the Carpentry permit."]
+			description: ["Sell all manner of &6Building Blocks&f with the Construction License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "3A48FDC224D029BF"
@@ -92,16 +94,16 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
-					id: "570B46650865045E"
+					id: "63A13A9463AFEEC8"
 					type: "item"
-					auto: "enabled"
-					item: "kubejs:profession_card_carpentry"
+					item: "kubejs:profession_card_construction"
 				}
 				{
-					id: "168DD43A1A6C846C"
+					id: "17A1ED120CC41AF1"
 					type: "custom"
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
@@ -112,11 +114,11 @@
 		}
 		{
 			title: "Skill License: Cooking"
-			icon: "kubejs:cooking_token"
+			icon: "kubejs:profession_card_cooking"
 			x: -2.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Prepared Food&f with the Cooking permit."]
+			description: ["Sell &6Prepared Food&f with the Cooking License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DA9BE9277FABF1"
@@ -126,6 +128,7 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -146,11 +149,11 @@
 		}
 		{
 			title: "Skill License: Slayer"
-			icon: "kubejs:slayer_token"
+			icon: "kubejs:profession_card_slayer"
 			x: -3.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell all manner of &6Monster Loot&f with the Hunting permit."]
+			description: ["Sell all manner of &6Monster Loot&f with the Slayer License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DDDE912A191E57"
@@ -160,16 +163,16 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
-					id: "242009705F048500"
+					id: "63F5E4415DD98E69"
 					type: "item"
-					auto: "enabled"
-					item: "kubejs:profession_card_hunting"
+					item: "kubejs:profession_card_slayer"
 				}
 				{
-					id: "3EB7FB58B5D3D097"
+					id: "64BD7C55AE4E171E"
 					type: "custom"
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
@@ -185,7 +188,7 @@
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"Buying a &6Skill Token&r gives you access to a more consistent source of income."
+				"Buying a &6Skill License&r gives you access to a more consistent source of income."
 				""
 				"The Skill Licenses bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Machine. You can absolutely have multiple of these."
 			]
@@ -269,11 +272,11 @@
 		}
 		{
 			title: "Skill License: Fishing"
-			icon: "kubejs:fishing_token"
+			icon: "kubejs:profession_card_fishing"
 			x: -1.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing permit."]
+			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "6C0EC278451434AC"
@@ -283,6 +286,7 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -329,11 +333,11 @@
 		}
 		{
 			title: "Skill License: Smithing"
-			icon: "kubejs:smithing_token"
+			icon: "kubejs:profession_card_smithing"
 			x: -0.5d
 			y: -10.0d
 			shape: "hexagon"
-			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing permit."]
+			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing License."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "32C46B11BDAD7632"
@@ -343,6 +347,7 @@
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [
 				{
