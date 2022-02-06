@@ -576,6 +576,7 @@ val items as IIngredient[] = [
 <item:chemlib:ingot_osmium>,
 <item:chemlib:ingot_iridium>,
 <item:chemlib:ingot_neptunium>,
+<item:chemlib:ingot_plutonium>,
 <item:alchemistry:mineral_salt>,
 <item:alchemistry:condensed_milk>,
 <item:alchemistry:evaporator>,

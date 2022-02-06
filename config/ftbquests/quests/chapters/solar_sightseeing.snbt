@@ -1214,6 +1214,8 @@
 				"Convert nuclear waste in your Isotopic Centrifuge to obtain Plutonium gas!"
 				""
 				"Next, you will need to process it with Fluorite and water in your Pressurized Reaction Chamber to obtain a pellet of Plutonium."
+				""
+				"Alternatively, if you have some &6Chemical Fusion and Fission&r reactors set up, you may bypass this method."
 			]
 			dependencies: ["375AE1646F859207"]
 			id: "5ED4D955C3E37769"
@@ -1539,6 +1541,70 @@
 				type: "item"
 				item: "pipez:energy_pipe"
 				count: 5
+			}]
+		}
+		{
+			title: "Improved Logistics"
+			x: 11.0d
+			y: -8.5d
+			subtitle: "Upgrade your pipes with this module!"
+			description: ["The &6Improved Upgrade&r not only increases the efficiency of your logistical pipes, but also provides additional features, such as &6redstone control&r."]
+			dependencies: ["5FB354608483857B"]
+			optional: true
+			id: "7D9F91338ABCBBCF"
+			tasks: [{
+				id: "0A5FE0B15DBCB34F"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "1CDD62A7310BAA65"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			title: "Advanced Logistics"
+			x: 16.5d
+			y: 0.5d
+			subtitle: "The second tier of pipe improvements."
+			description: [
+				"The Advanced Pipe Upgrade provides even greater efficiency!"
+				""
+				"As before, this upgrade can apply to any pipe type."
+			]
+			dependencies: ["22C25A1DFD469114"]
+			optional: true
+			id: "7CFB755D6AA2A05B"
+			tasks: [{
+				id: "574293AC5DBC6FE5"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [{
+				id: "4E3CD03A17CD4E2F"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			title: "Ultimate Pipe Network!"
+			x: 16.5d
+			y: 6.5d
+			subtitle: "The final and most potent pipe upgrade module!"
+			description: ["This is the final tier of pipe upgrades, which provides you with the maximum transfer speed available!"]
+			dependencies: ["20E965436974ED8C"]
+			optional: true
+			id: "2C1619E9B8ECBEB8"
+			tasks: [{
+				id: "7BF7BC98322D3A3F"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "78E3FC5CB6D8E43F"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
 			}]
 		}
 	]

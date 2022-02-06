@@ -18,7 +18,7 @@ craftingTable.removeRecipe(<item:pneumaticcraft:minigun>);
 	[<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>],
 	[<tag:items:forge:rods/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>, <item:minecraft:air>],
 	[<item:minecraft:lever>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>],
-	[<tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_air_compressed>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_air_compressor>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:pneumaticcraft:reinforced_air_canister>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 // General Changes
