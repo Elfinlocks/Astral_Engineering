@@ -72,7 +72,7 @@ onEvent('item.registry', event => {
 			.color(2, c2)
 			.parentModel("kubejs:item/trade_card")
 			.texture("kubejs:item/trade_card_0")
-			.displayName((custom ? "" : "Import: ") + name)
+			.displayName((custom ? "" : "Import Data Card: ") + name)
 			.unstackable()
 	}
 

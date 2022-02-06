@@ -8,10 +8,16 @@ craftingTable.removeRecipe(<item:thermal:dynamo_compression>);
 craftingTable.removeRecipe(<item:thermal:dynamo_magmatic>);
 craftingTable.removeRecipe(<item:thermal:dynamo_numismatic>);
 craftingTable.removeRecipe(<item:thermal:dynamo_lapidary>);
+craftingTable.removeRecipe(<item:thermal:machine_press>);
 <recipetype:thermal:smelter>.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:thermal:smelter>.removeRecipe(<item:libvulpes:ingottitanium>);
 <recipetype:thermal:refinery>.removeByName("boss_tools_giselle_addon:compat/thermal/refinery/refinery_oil");
 craftingTable.removeRecipe(<item:thermal:rf_coil>);
+
+craftingTable.addShaped("trading_computer", <item:thermal:machine_press>, [
+	[<tag:items:forge:plates/steel>, <tag:items:forge:treated_wood>, <tag:items:forge:plates/steel>],
+	[<item:mekanism:alloy_atomic>, <item:computercraft:computer_advanced>, <item:mekanism:alloy_atomic>],
+	[<tag:items:forge:plates/steel>, <tag:items:forge:treated_wood>, <tag:items:forge:plates/steel>]]);
 
 craftingTable.addShaped("rf_coil", <item:thermal:rf_coil>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:wirecoil_redstone>],
@@ -50,14 +56,6 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 	[<item:thermal:invar_plate>, <item:appliedenergistics2:printed_silicon>, <item:thermal:invar_plate>],
 	[<item:minecraft:air>, <item:thermal:invar_plate>, <item:minecraft:air>]]);
 
-<recipetype:thermal:press>.addRecipe("pressed_silicon", [<item:appliedenergistics2:printed_silicon> % 100], <fluid:minecraft:empty>, [<item:appliedenergistics2:silicon>, <item:kubejs:press_circuit_die>], 2400);
-
-<recipetype:thermal:press>.addRecipe("printed_logic", [<item:appliedenergistics2:printed_logic_processor> % 100], <fluid:minecraft:empty>, [<tag:items:forge:ingots/electrum>, <item:kubejs:press_circuit_die>], 2400);
-
-<recipetype:thermal:press>.addRecipe("printed_calculation", [<item:appliedenergistics2:printed_calculation_processor> % 100], <fluid:minecraft:empty>, [<item:appliedenergistics2:purified_certus_quartz_crystal>, <item:kubejs:press_circuit_die>], 2400);
-
-<recipetype:thermal:press>.addRecipe("printed_engineering", [<item:appliedenergistics2:printed_engineering_processor> % 100], <fluid:minecraft:empty>, [<item:botania:mana_diamond>, <item:kubejs:press_circuit_die>], 2400);
-
 <recipetype:thermal:pulverizer>.addRecipe("kelp", [<item:mekanism:salt> % 100] , <item:minecraft:dried_kelp>, 2, 500);
 
 <recipetype:thermal:pulverizer>.addRecipe("thermal_limesand", [<item:create:limesand> % 100] , <tag:items:forge:sand>, 2, 500);
@@ -71,10 +69,6 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 <recipetype:thermal:pulverizer>.addRecipe("pulv_coal", [<item:mekanism:dust_coal> % 100] , <item:minecraft:coal>, 2, 500);
 
 <recipetype:thermal:pulverizer>.addRecipe("pulv_charcoal", [<item:mekanism:dust_charcoal> % 100] , <tag:items:forge:charcoal>, 2, 500);
-
-<recipetype:thermal:press>.addRecipe("hop_graphite", [<item:immersiveengineering:dust_hop_graphite> % 100], <fluid:minecraft:empty>, [<item:immersiveengineering:dust_coke> * 4], 1500);
-
-<recipetype:thermal:press>.addRecipe("hop_graphite2", [<item:immersiveengineering:dust_hop_graphite> % 100], <fluid:minecraft:empty>, [<item:immersivepetroleum:petcoke_dust> * 4], 1500);
 
 <recipetype:thermal:pulverizer>.removeRecipe(<item:mekanism:dust_steel>);
 <recipetype:thermal:pulverizer>.addRecipe("pulv_steel", [<item:immersiveengineering:dust_steel> % 100] , <tag:items:forge:ingots/steel>, 2, 500);

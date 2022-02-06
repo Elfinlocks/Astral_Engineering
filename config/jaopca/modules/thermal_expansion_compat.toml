@@ -7,17 +7,17 @@
 	#The materials that should not have pulverizer recipes added.
 	toDustMaterialBlacklist = []
 	#The materials that should not have press to gear recipes added.
-	toGearMaterialBlacklist = []
+	toGearMaterialBlacklist = ["*"]
 	#The materials that should not have smelter recipes added.
 	toIngotMaterialBlacklist = []
 	#The materials that should not have chiller recipes added.
 	chillerToIngotMaterialBlacklist = []
 	#The materials that should not have press to coin recipes added.
-	toCoinMaterialBlacklist = []
+	toCoinMaterialBlacklist = ["*"]
 	#The materials that should not have press nugget to coin recipes added.
-	nuggetToCoinMaterialBlacklist = []
+	nuggetToCoinMaterialBlacklist = ["*"]
 	#The materials that should not have press material to coin recipes added.
-	materialToCoinMaterialBlacklist = []
+	materialToCoinMaterialBlacklist = ["*"]
 	#The materials that should not have press to plate recipes added.
-	toPlateMaterialBlacklist = []
+	toPlateMaterialBlacklist = ["*"]
 
