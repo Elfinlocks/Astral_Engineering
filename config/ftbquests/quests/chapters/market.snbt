@@ -746,6 +746,7 @@
 				{
 					id: "2B329F5409B6D7A6"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:ocelot_spawn_egg"
 				}
 				{
@@ -776,6 +777,7 @@
 				{
 					id: "165E93A2B5C966FE"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:cow_spawn_egg"
 				}
 				{
@@ -806,6 +808,7 @@
 				{
 					id: "109C1E7DFA9EECCC"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:pig_spawn_egg"
 				}
 				{
@@ -836,6 +839,7 @@
 				{
 					id: "787B0F5839F003A2"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:sheep_spawn_egg"
 				}
 				{
@@ -866,6 +870,7 @@
 				{
 					id: "4F86E64C069E8C5C"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:wolf_spawn_egg"
 				}
 				{
@@ -896,6 +901,7 @@
 				{
 					id: "3B9123CDCE0E3CFA"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:chicken_spawn_egg"
 				}
 				{
@@ -926,6 +932,7 @@
 				{
 					id: "12399EB108DC8289"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:horse_spawn_egg"
 				}
 				{
@@ -956,6 +963,7 @@
 				{
 					id: "1B22D9D4D8EE1E61"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:fox_spawn_egg"
 				}
 				{
@@ -986,6 +994,7 @@
 				{
 					id: "13FBF47C5F4FA748"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:parrot_spawn_egg"
 				}
 				{
@@ -1016,6 +1025,7 @@
 				{
 					id: "01609B6A0ABB942A"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:llama_spawn_egg"
 				}
 				{
@@ -1046,6 +1056,7 @@
 				{
 					id: "4A27CF7541F6EE47"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:rabbit_spawn_egg"
 				}
 				{
@@ -1076,6 +1087,7 @@
 				{
 					id: "2FEF2FA68D2ED5EB"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:turtle_spawn_egg"
 				}
 				{
@@ -1106,6 +1118,7 @@
 				{
 					id: "473D41F3CE439575"
 					type: "item"
+					auto: "enabled"
 					item: "minecraft:squid_spawn_egg"
 				}
 				{
@@ -1136,6 +1149,7 @@
 				{
 					id: "38C52BB5018942E9"
 					type: "item"
+					auto: "enabled"
 					item: "quark:shiba_spawn_egg"
 				}
 				{
@@ -1167,6 +1181,7 @@
 				{
 					id: "41229F13C2E97419"
 					type: "item"
+					auto: "enabled"
 					item: "alexsmobs:spawn_egg_raccoon"
 				}
 				{
@@ -1197,6 +1212,7 @@
 				{
 					id: "20083F2A7BA95166"
 					type: "item"
+					auto: "enabled"
 					item: "exoticbirds:duck_spawn_egg"
 				}
 				{
@@ -1319,6 +1335,7 @@
 				{
 					id: "19338AE1064C9D8B"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "tardis:artron_battery"
 						Count: 1b

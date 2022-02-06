@@ -3962,6 +3962,7 @@
 				{
 					id: "280DB52D4635EF3A"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_zelkova_log"
 				}
 				{
@@ -3992,6 +3993,7 @@
 				{
 					id: "1CDB6105162C23D7"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_lantern"
 				}
 				{
@@ -4022,6 +4024,7 @@
 				{
 					id: "534A7AB0105C68B6"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_powered_lantern"
 				}
 				{
@@ -4052,6 +4055,7 @@
 				{
 					id: "6456B24C70CC4593"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_spruce_timber_frames"
 				}
 				{
@@ -4082,6 +4086,7 @@
 				{
 					id: "4A601FFAFBDD6C36"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_marble"
 				}
 				{
@@ -4106,11 +4111,13 @@
 				type: "item"
 				item: "thermal:silver_coin"
 				count: 10L
+				consume_items: true
 			}]
 			rewards: [
 				{
 					id: "70321E030CC0D3DD"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_livingrock"
 				}
 				{
@@ -4141,6 +4148,7 @@
 				{
 					id: "0343299BD6DF5436"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_floral_fertilizer"
 				}
 				{
@@ -4171,6 +4179,7 @@
 				{
 					id: "7825AC0AB6820507"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_vinteum_ingot"
 				}
 				{
@@ -4201,6 +4210,7 @@
 				{
 					id: "281AB0E066A37904"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_osmium_ingot"
 				}
 				{
@@ -4231,6 +4241,7 @@
 				{
 					id: "787A618CC395E186"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_tin_ingot"
 				}
 				{
@@ -4261,6 +4272,7 @@
 				{
 					id: "5CA46B827E46E776"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_silver_ingot"
 				}
 				{
@@ -4291,6 +4303,7 @@
 				{
 					id: "37A7200F53E686F0"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:trade_card_electrum_ingot"
 				}
 				{

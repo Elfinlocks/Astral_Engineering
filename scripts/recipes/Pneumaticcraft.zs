@@ -9,6 +9,19 @@ craftingTable.removeRecipe(<item:pneumaticcraft:printed_circuit_board>);
 craftingTable.removeRecipe(<item:pneumaticcraft:network_io_port>);
 craftingTable.removeRecipe(<item:pneumaticcraft:spawner_agitator>);
 craftingTable.removeRecipe(<item:pneumaticcraft:drill_pipe>);
+craftingTable.removeRecipe(<item:pneumaticcraft:minigun>);
+
+// Minigun
+
+<recipetype:create:mechanical_crafting>.addRecipe("pnc_minigun", <item:pneumaticcraft:minigun>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:cannon_barrel>],
+	[<item:minecraft:air>, <tag:items:forge:rods/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>],
+	[<tag:items:forge:rods/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>, <item:minecraft:air>],
+	[<item:minecraft:lever>, <tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_pressure_tube>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>],
+	[<tag:items:forge:plates/steel>, <item:pneumaticcraft:advanced_air_compressed>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:pneumaticcraft:reinforced_air_canister>, <tag:items:forge:plates/steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+// General Changes
 
 craftingTable.addShaped("drill_pipe", <item:pneumaticcraft:drill_pipe> * 5, [
 	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],

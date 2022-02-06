@@ -100,6 +100,7 @@
 				{
 					id: "63A13A9463AFEEC8"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:profession_card_construction"
 				}
 				{
@@ -169,6 +170,7 @@
 				{
 					id: "63F5E4415DD98E69"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:profession_card_slayer"
 				}
 				{
@@ -1203,6 +1205,7 @@
 				{
 					id: "6D0E6FFC529908F4"
 					type: "item"
+					auto: "enabled"
 					item: "kubejs:profession_card_runecrafting"
 				}
 				{
