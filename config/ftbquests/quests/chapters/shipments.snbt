@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "A Brief Overview"
 			icon: "thermal:machine_press"
 			x: 0.0d
 			y: 12.25d
@@ -27,12 +28,12 @@
 			}]
 		}
 		{
-			title: "Automatic Exchange"
+			title: "Automated Equivalent Exchange"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: 2.0d
 			y: 12.25d
 			shape: "circle"
-			subtitle: "Silver <> Gold"
+			subtitle: "Silver and Gold..."
 			description: ["This Trading card can convert the currency of coins inserted into the Trading Machine."]
 			dependencies: ["6AC1CED0D341150E"]
 			id: "3B548F2C060C2229"
