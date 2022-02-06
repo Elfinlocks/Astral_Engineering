@@ -20,6 +20,13 @@ let SD = (id, x) => MOD("storagedrawers", id, x)
 let SP = (id, x) => MOD("supplementaries", id, x)
 let F = (id, x) => MOD("forge", id, x)
 let AC = (id, x) => MOD("aquaculture", id, x)
+let PC = (id, x) => MOD("pneumaticcraft", id, x)
+let BYG = (id, x) => MOD("byg", id, x)
+let PVJ = (id, x) => MOD("projectvibrantjourneys", id, x)
+let EC = (id, x) => MOD("explorercraft", id, x)
+let Q = (id, x) => MOD("quark", id, x)
+let AM = (id, x) => MOD("alexsmobs", id, x)
+let CP = (id, x) => MOD("crockpot", id, x)
 //
 
 
@@ -115,8 +122,8 @@ onEvent('item.registry', event => {
 		{ in: BOP('fir_log', 64), out: S(1) },
 		{ in: BOP('umbran_log', 64), out: S(1) },
 		{ in: BOP('dead_log', 64), out: S(1) },
-		{ in: MC('acacia_log', 64), out: S(2) },
-		{ in: MC('birch_log', 64), out: S(2) },
+		{ in: MC('acacia_log', 64), out: S(1) },
+		{ in: MC('birch_log', 64), out: S(1) },
 		{ in: BOP('cherry_log', 64), out: S(2) },
 		{ in: BOP('willow_log', 64), out: S(3) },
 		{ in: BOP('palm_log', 64), out: S(3) },
@@ -124,7 +131,7 @@ onEvent('item.registry', event => {
 		{ in: BOP('magic_log', 64), out: S(3) },
 		{ in: MC('crimson_stem', 64), out: S(4) },
 		{ in: MC('warped_stem', 64), out: S(4) },
-		{ in: BOP('hellbark_log', 64), out: S(8) },
+		{ in: BOP('hellbark_log', 64), out: S(4) },
 		{ in: SP('checker_block', 64), out: S(4) },
 		{ in: TC('seared_bricks', 64), out: S(10) },
 		{ in: MC('bricks', 64), out: S(6) },
@@ -133,8 +140,56 @@ onEvent('item.registry', event => {
 		{ in: TC('lavawood', 64), out: S(6) },
 		{ in: CR('ornate_iron_window', 64), out: S(10) },
 		{ in: MC('mossy_cobblestone', 64), out: S(6) },
+		{ in: Q('sandy_bricks', 64), out: S(8) },
 		{ in: F('#glazed_terracotta', 64), out: S(6) },
-		{ in: SP('daub_brace', 64), out: S(8) }
+		{ in: SP('daub_brace', 64), out: S(8) },
+		{ in: PC('#plastic_bricks', 64), out: S(8) },
+		{ in: BYG('aspen_log', 64), out: S(1) },
+		{ in: BYG('baobab_log', 64), out: S(1) },
+		{ in: BYG('blue_enchanted_log', 64), out: S(1) },
+		{ in: BYG('cherry_log', 64), out: S(1) },
+		{ in: BYG('cika_log', 64), out: S(1) },
+		{ in: BYG('cypress_log', 64), out: S(1) },
+		{ in: BYG('ebony_log', 64), out: S(1) },
+		{ in: BYG('ether_log', 64), out: S(1) },
+		{ in: BYG('fir_log', 64), out: S(1) },
+		{ in: BYG('green_enchanted_log', 64), out: S(1) },
+		{ in: BYG('holly_log', 64), out: S(1) },
+		{ in: BYG('jacaranda_log', 64), out: S(1) },
+		{ in: BYG('lament_log', 64), out: S(1) },
+		{ in: BYG('mahogany_log', 64), out: S(1) },
+		{ in: BYG('mangrove_log', 64), out: S(1) },
+		{ in: BYG('maple_log', 64), out: S(1) },
+		{ in: BYG('imbued_nightshade_log', 64), out: S(3) },
+		{ in: BYG('nightshade_log', 64), out: S(1) },
+		{ in: BYG('palm_log', 64), out: S(1) },
+		{ in: BYG('palo_verde_log', 64), out: S(1) },
+		{ in: BYG('pine_log', 64), out: S(1) },
+		{ in: BYG('rainbow_eucalyptus_log', 64), out: S(1) },
+		{ in: BYG('redwood_log', 64), out: S(1) },
+		{ in: BYG('skyris_log', 64), out: S(1) },
+		{ in: BYG('willow_log', 64), out: S(1) },
+		{ in: BYG('witch_hazel_log', 64), out: S(1) },
+		{ in: BYG('zelkova_log', 64), out: S(1) },
+		{ in: BYG('withering_oak_log', 64), out: S(1) },
+		{ in: PVJ('fir_log', 64), out: S(1) },
+		{ in: PVJ('pine_log', 64), out: S(1) },
+		{ in: PVJ('redwood_log', 64), out: S(1) },
+		{ in: PVJ('willow_log', 64), out: S(1) },
+		{ in: PVJ('mangrove_log', 64), out: S(1) },
+		{ in: PVJ('palm_log', 64), out: S(1) },
+		{ in: PVJ('cottonwood_log', 64), out: S(1) },
+		{ in: PVJ('aspen_log', 64), out: S(1) },
+		{ in: PVJ('juniper_log', 64), out: S(1) },
+		{ in: PVJ('baobab_log', 64), out: S(1) },
+		{ in: PVJ('maple_log', 64), out: S(1) },
+		{ in: PVJ('sakura_log', 64), out: S(1) },
+		{ in: PVJ('tamarack_log', 64), out: S(1) },
+		{ in: PVJ('joshua_log', 64), out: S(1) },
+		{ in: EC('cherry_log', 64), out: S(1) },
+		{ in: EC('maple_log', 64), out: S(1) },
+		{ in: EC('ash_log', 64), out: S(1) },
+		{ in: EC('bamboo_log', 64), out: S(1) }
 	])
 
 	profession("Mining", 0x1C1124, 0x88FFF7, [
@@ -142,7 +197,10 @@ onEvent('item.registry', event => {
 		{ in: TE('copper_dust', 16), out: S(8) },
 		{ in: MA('vinteum_dust', 16), out: S(8) },
 		{ in:  J('dusts.zinc', 16), out: S(8) },
+		{ in:  J('dusts.cobalt', 16), out: S(10) },
 		{ in: TE('gold_dust', 16), out: S(10) },
+		{ in: IE('dust_silver', 16), out: S(10) },
+		{ in: TE('tin_dust', 16), out: S(10) },
 		{ in: MK('dust_osmium', 16), out: S(10) },
 		{ in: IE('dust_nickel', 16), out: S(12) },
 		{ in: IE('dust_uranium', 16), out: S(12) },
@@ -162,8 +220,10 @@ onEvent('item.registry', event => {
 		{ in: TE('apatite', 16), out: S(4) },
 		{ in: TE('sapphire', 1), out: S(10) },
 		{ in: TE('ruby', 1), out: S(10) },
+		{ in: EC('jade', 3), out: S(10) },
 		{ in: MC('diamond', 1), out: S(14) },
 		{ in: MC('coal', 16), out: S(2) },
+		{ in: AE2('certus_quartz_crystal', 16), out: S(6) }
 	])
 
 	profession("Slayer", 0x393E46, 0xCF0000, [
@@ -185,6 +245,7 @@ onEvent('item.registry', event => {
 		{ in: MC('nether_star'), out: G(1) },
 		{ in: MC('dragon_breath'), out: S(1) },
 		{ in: MC('ghast_tear'), out: S(10) },
+		{ in: AM('bone_serpent_tooth'), out: S(10) },
 		{ in: MC('dragon_egg'), out: G(2) },
 		{ in: RQ('guardian_spike'), out: S(6) }
 	])
@@ -239,7 +300,51 @@ onEvent('item.registry', event => {
 		{ in: FD('honey_glazed_ham', 16), out: S(7) },
 		{ in: FD('shepherds_pie', 16), out: S(7) },
 		{ in: AC('sushi', 16), out: S(3) },
-		{ in: CR('sweet_roll', 16), out: S(4) }
+		{ in: CR('sweet_roll', 16), out: S(4) },
+		{ in: CP('bacon_eggs', 16), out: S(6) },
+		{ in: CP('bone_soup', 16), out: S(4) },
+		{ in: CP('bone_stew', 16), out: S(6) },
+		{ in: CP('bunny_stew', 16), out: S(6) },
+		{ in: CP('california_roll', 16), out: S(4) },
+		{ in: CP('candy', 16), out: S(6) },
+		{ in: CP('ceviche', 16), out: S(4) },
+		{ in: CP('fish_sticks', 16), out: S(2) },
+		{ in: CP('fish_tacos', 16), out: S(3) },
+		{ in: CP('flower_salad', 16), out: S(4) },
+		{ in: CP('froggle_bunwich', 16), out: S(5) },
+		{ in: CP('fruit_medley', 16), out: S(2) },
+		{ in: CP('gazpacho', 16), out: S(3) },
+		{ in: CP('honey_ham', 16), out: S(4) },
+		{ in: CP('honey_nuggets', 16), out: S(4) },
+		{ in: CP('hot_chili', 16), out: S(4) },
+		{ in: CP('hot_cocoa', 16), out: S(2) },
+		{ in: CP('ice_cream', 16), out: S(3) },
+		{ in: CP('iced_tea', 16), out: S(3) },
+		{ in: CP('kabobs', 16), out: S(2) },
+		{ in: CP('meat_balls', 16), out: S(1) },
+		{ in: CP('monster_lasagna', 16), out: S(3) },
+		{ in: CP('monster_tartare', 16), out: S(4) },
+		{ in: CP('moqueca', 16), out: S(4) },
+		{ in: CP('mushy_cake', 16), out: S(8) },
+		{ in: CP('pepper_popper', 16), out: S(4) },
+		{ in: CP('perogies', 16), out: S(4) },
+		{ in: CP('potato_souffle', 16), out: S(3) },
+		{ in: CP('sweet_roll', 16), out: S(4) },
+		{ in: CP('potato_tornado', 16), out: S(8) },
+		{ in: CP('pow_cake', 16), out: S(2) },
+		{ in: CP('pumpkin_cookie', 16), out: S(3) },
+		{ in: CP('ratatouille', 16), out: S(1) },
+		{ in: CP('salmon_sushi', 16), out: S(2) },
+		{ in: CP('salsa', 16), out: S(3) },
+		{ in: CP('seafood_gumbo', 16), out: S(4) },
+		{ in: CP('stuffed_eggplant', 16), out: S(3) },
+		{ in: CP('surf_n_turf', 16), out: S(8) },
+		{ in: CP('taffy', 16), out: S(2) },
+		{ in: CP('tea', 16), out: S(3) },
+		{ in: CP('tropical_bouillabaisse', 16), out: S(12) },
+		{ in: CP('turkey_dinner', 16), out: S(8) },
+		{ in: CP('veg_stinger', 16), out: S(3) },
+		{ in: CP('watermelon_icle', 16), out: S(1) }
 	])
 
 	let quota = 8
@@ -297,6 +402,10 @@ onEvent('item.registry', event => {
 		{ in: MC('golden_leggings'), out: S(7) },
 		{ in: MC('golden_chestplate'), out: S(8) },
 		{ in: MC('golden_helmet'), out: S(5) },
+		{ in: PC('compressed_iron_boots'), out: S(4) },
+		{ in: PC('compressed_iron_leggings'), out: S(7) },
+		{ in: PC('compressed_iron_chestplate'), out: S(8) },
+		{ in: PC('compressed_iron_helmet'), out: S(5) },
 		{ in: MC('golden_apple'), out: S(10) },
 		{ in: MC('arrow', 32), out: S(3) },
 		{ in: MC('iron_sword'), out: S(1) },
@@ -414,6 +523,7 @@ onEvent('item.registry', event => {
 		
 		next_group()
 		entry_cost = 10
+		simple("Zelkova Log", BYG('zelkova_log', 16), 4, S, 0x5A501D, 0x9B6E4C)
 		simple("Dead Log", BOP('dead_log', 16), 2, S, 0x3D362D, 0x7A756D)
 		simple("Oak Log", MC('oak_log', 16), 4, S, 0x735932, 0xA88756)
 		simple("Birch Log", MC('birch_log', 16), 4, S, 0xD6D6D2, 0xC4B079)

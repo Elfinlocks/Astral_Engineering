@@ -194,6 +194,13 @@
 		}
 		{
 			title: "When you haven't finished Dragon Slayer..."
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: -2.0d
 			subtitle: "Traditional armor is harder to obtain than usual. Luckily, a set of chainmail can serve you well early on."
@@ -261,6 +268,13 @@
 		}
 		{
 			title: "Scoobin'"
+			icon: {
+				id: "scuba_gear:scuba_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 2.0d
 			y: -2.0d
 			subtitle: "There are tons of untapped resources underwater. A Scuba Set will allow you to access them with greater ease."
@@ -390,6 +404,7 @@
 		}
 		{
 			title: "Easy Livin'"
+			icon: "comforts:hammock_white"
 			x: -4.0d
 			y: -2.0d
 			subtitle: "A Hammock can be used to sleep until sunset. Find an area with a four block gap between where you would like to place your Hammock, place two Rope and Nail (one on each side) and then right click one of them with the Hammock Cloth."
@@ -742,6 +757,13 @@
 		}
 		{
 			title: "Suiting Up"
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+				Count: 1b
+				tag: {
+					HideFlags: 2
+				}
+			}
 			x: 10.5d
 			y: 3.0d
 			subtitle: "I am Iron Man."
@@ -1015,6 +1037,7 @@
 		}
 		{
 			title: "Mob Farming Essentials"
+			icon: "cyclic:spikes_diamond"
 			x: -2.0d
 			y: 2.0d
 			subtitle: "These handy items can help with automating mob farming."
@@ -1047,6 +1070,13 @@
 		}
 		{
 			title: "After Me Charms"
+			icon: {
+				id: "cyclic:charm_void"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -2.0d
 			y: 4.0d
 			subtitle: "Cyclic adds several handy charms, which can be worn as baubles."
@@ -1538,6 +1568,13 @@
 		}
 		{
 			title: "No, The Other One"
+			icon: {
+				id: "chiselsandbits:bit_bag"
+				Count: 1b
+				tag: {
+					Inventory: { }
+				}
+			}
 			x: 6.0d
 			y: -6.0d
 			subtitle: "Your other best building friend, for the detailers!"

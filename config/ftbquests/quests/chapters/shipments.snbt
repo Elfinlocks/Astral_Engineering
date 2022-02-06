@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "A Brief Overview"
-			icon: "thermal:machine_press"
+			icon: "farmingforblockheads:market"
 			x: 0.0d
 			y: 12.25d
 			shape: "hexagon"
@@ -32,10 +32,11 @@
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: 2.0d
 			y: 12.25d
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "Silver and Gold..."
 			description: ["This Trading card can convert the currency of coins inserted into the Trading Machine."]
 			dependencies: ["6AC1CED0D341150E"]
+			size: 1.5d
 			id: "3B548F2C060C2229"
 			tasks: [{
 				id: "601161A1565C5161"
@@ -3907,7 +3908,7 @@
 			icon: "thermal:machine_press"
 			x: -2.0d
 			y: 12.25d
-			shape: "circle"
+			shape: "hexagon"
 			subtitle: "30 Silver"
 			description: [
 				"Getting through Early Industry is hard work!"
@@ -3915,6 +3916,7 @@
 				"The avid trader can come here to purchase Trading Computers from the get go."
 			]
 			dependencies: ["6AC1CED0D341150E"]
+			size: 1.5d
 			id: "4DFE4FD3B504AF4B"
 			tasks: [{
 				id: "3E2EAC7B2D274669"
