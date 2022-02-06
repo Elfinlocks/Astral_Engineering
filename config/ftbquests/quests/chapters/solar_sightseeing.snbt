@@ -69,6 +69,7 @@
 		}
 		{
 			title: "The Power of Nuclear Fission!"
+			icon: "mekanismgenerators:fission_fuel_assembly"
 			x: 2.0d
 			y: 7.0d
 			subtitle: "A Fission Reactor produces nuclear waste from fissile fuel."
@@ -129,6 +130,7 @@
 		}
 		{
 			title: "Supercritical Phase Shifting"
+			icon: "mekanism:supercharged_coil"
 			x: -3.75d
 			y: 6.75d
 			subtitle: "Now this is just ridiculous."
@@ -217,6 +219,7 @@
 			]
 		}
 		{
+			icon: "mekanism:basic_induction_cell"
 			x: 15.0d
 			y: 8.0d
 			subtitle: "An Induction Matrix is essentially a massive battery, capable of storing trillions of FE."
@@ -254,6 +257,7 @@
 		}
 		{
 			title: "Fusion Reactor"
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			x: -3.0d
 			y: 9.0d
 			subtitle: "A Fusion Reactor can be used to produce immense quantities of FE."
@@ -454,6 +458,13 @@
 		}
 		{
 			title: "This way for a suit!"
+			icon: {
+				id: "boss_tools:oxygen_mask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 2.5d
 			y: -4.5d
 			subtitle: "You'll need one, unless you enjoy suffocating to death."
@@ -759,7 +770,7 @@
 		}
 		{
 			title: "Home Above Home"
-			icon: "losttrinkets:starfish"
+			icon: "extendedcrafting:ender_star"
 			x: 9.0d
 			y: -7.0d
 			subtitle: "A Space Station is a fun extraterrestrial base to set up."
@@ -1002,6 +1013,7 @@
 		}
 		{
 			title: "Digital Storage, But Bigger"
+			icon: "mekanism:qio_drive_array"
 			x: 9.0d
 			y: 12.0d
 			subtitle: "QIO is a mass storage system."
@@ -1194,6 +1206,7 @@
 			}]
 		}
 		{
+			icon: "chemlib:element_plutonium"
 			x: 2.0d
 			y: 5.5d
 			subtitle: "A brief guide"
@@ -1505,6 +1518,27 @@
 				id: "43F299384F49D487"
 				type: "item"
 				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			title: "Expanding Energy Logistics"
+			x: 9.0d
+			y: -4.0d
+			subtitle: "Desh is a versatile material, one that will let you upgrade your energy transport."
+			dependencies: ["5F079DAC35170B45"]
+			optional: true
+			id: "71B16BE93F39BA9E"
+			tasks: [{
+				id: "1D6052715A26F7E6"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 5L
+			}]
+			rewards: [{
+				id: "48BDC16CAD30AF05"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 5
 			}]
 		}
 	]

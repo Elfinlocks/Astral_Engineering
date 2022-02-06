@@ -37,7 +37,7 @@
 		{
 			title: "Gas, Gas, Gas!"
 			x: 4.5d
-			y: -2.5d
+			y: -4.0d
 			subtitle: "By inputting burnable gases such as Hydrogen or Ethylene, the Gas Generator can produce a healthy amount of FE."
 			description: [""]
 			dependencies: ["62D2D5FA1059D613"]
@@ -210,7 +210,7 @@
 		{
 			title: "Finally! Digital Storage!"
 			icon: "appliedenergistics2:controller"
-			x: 0.5d
+			x: 0.75d
 			y: -4.5d
 			shape: "gear"
 			subtitle: "These are some of the key components for constructing an ME System. This can serve as a versatile system for managing items."
@@ -259,7 +259,7 @@
 		}
 		{
 			title: "On Our Way To The Digital Age..."
-			x: 0.5d
+			x: -0.5d
 			y: -2.5d
 			subtitle: "Fluix Crystals can be obtained by dropping Charged Certus Quartz, Nether Quartz, and Redstone Dust into a pool of Water."
 			description: ["Alternatively, I recommend investing some aluminum in making them via the Enrichment Chamber."]
@@ -281,10 +281,10 @@
 		{
 			title: "Advanced Electrolysis Incorporation"
 			x: 3.0d
-			y: -2.5d
+			y: -4.0d
 			subtitle: "The Electroyltic Separator can break down liquids into their component gases."
 			description: ["Tip: If you plan to use this for ore quadrupling, I high recommend that you set it up to Electrolyse water."]
-			dependencies: ["3AED57EBD34E6829"]
+			dependencies: ["79DF7AE36FF75085"]
 			id: "62D2D5FA1059D613"
 			tasks: [{
 				id: "0E658C23824A1BD5"
@@ -306,7 +306,7 @@
 					"patchouli:book": "thermal:guidebook"
 				}
 			}
-			x: 6.0d
+			x: 5.25d
 			y: 2.25d
 			shape: "gear"
 			subtitle: "Thermal Expansion offers powerful and versatile machines to improve your automation efforts."
@@ -334,7 +334,7 @@
 		}
 		{
 			title: "Essential Induction"
-			x: 8.0d
+			x: 6.5d
 			y: 3.5d
 			subtitle: "The Induction Smelter offers an easy way to make most alloys, most notably Andesite Alloy."
 			dependencies: ["4010B64090D3B97C"]
@@ -373,8 +373,8 @@
 		}
 		{
 			title: "Fabrication Inspiration"
-			x: 3.5d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 			subtitle: "The Sequential Fabricator is capable of creating nearly any 3x3 recipe, and can even use liquids!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -393,8 +393,8 @@
 		}
 		{
 			title: "\"And from his lava came this song of hope...\""
-			x: 8.0d
-			y: 1.5d
+			x: 7.5d
+			y: 2.5d
 			subtitle: "The Magmatic Dynamo uses lava to produce some serious power output!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -433,7 +433,7 @@
 		}
 		{
 			title: "First Processors"
-			x: -1.5d
+			x: -3.0d
 			y: -2.5d
 			subtitle: "Next, we'll need some basic processor prints. These can be made more easily via The Thermal Expansion, if you have delved into it."
 			dependencies: ["631FBD2CC11F4972"]
@@ -469,7 +469,7 @@
 		}
 		{
 			title: "The Process of Engineering"
-			x: -1.5d
+			x: -3.0d
 			y: -4.5d
 			subtitle: "Next, create some processors using a Sequenced Assembly Line."
 			description: [""]
@@ -757,10 +757,10 @@
 		}
 		{
 			title: "The Power of The Sun"
-			x: -8.5d
-			y: -1.5d
+			x: 3.0d
+			y: 2.5d
 			subtitle: "In the palm of your hand."
-			dependencies: ["09812AE1E82D15C5"]
+			dependencies: ["3AED57EBD34E6829"]
 			optional: true
 			id: "25325B771BD18195"
 			tasks: [{
@@ -948,7 +948,7 @@
 				}
 			}
 			x: 6.0d
-			y: 0.0d
+			y: 1.0d
 			description: [
 				"Your new Industrial Electrolyzer isn't just for Aluminum refining - it can also &6triple most ores&r."
 				""
@@ -972,7 +972,7 @@
 			title: "Extreme Power!"
 			icon: "immersiveengineering:wirecoil_steel"
 			x: 8.0d
-			y: 0.0d
+			y: 1.0d
 			subtitle: "HV Wires will bring your power transfer to the next level!"
 			description: ["Warning! These aren't called &6high voltage&r for nothing - they can shock you to death!"]
 			dependencies: ["7E669A982589507E"]
@@ -1152,8 +1152,8 @@
 		}
 		{
 			title: "Now This Is Farming!"
-			x: -9.0d
-			y: 0.0d
+			x: -8.5d
+			y: -1.5d
 			subtitle: "By combining what you know of magic and science, you can create a very powerful automated farming device."
 			dependencies: ["09812AE1E82D15C5"]
 			optional: true
@@ -1228,7 +1228,7 @@
 		}
 		{
 			title: "...And Combining!"
-			x: -3.5d
+			x: -6.5d
 			y: -4.5d
 			subtitle: "...And an Atomizer puts them back together!"
 			dependencies: ["3CAD4BCE2729EDEA"]
@@ -1244,7 +1244,7 @@
 		{
 			title: "Melting..."
 			x: -6.5d
-			y: -4.5d
+			y: -6.5d
 			subtitle: "A Liquifier dissolves elements into fluids..."
 			dependencies: ["3CAD4BCE2729EDEA"]
 			hide: true
@@ -1435,16 +1435,19 @@
 			}]
 		}
 		{
+			title: "And All The Little Pieces..."
 			icon: "alchemistry:fission_controller"
 			x: 3.0d
 			y: -5.5d
 			shape: "gear"
+			description: ["The Fission Multiblock allows you to split apart the very fabric that binds elements together, to form entirely new ones, based upon Atomic Number."]
 			dependencies: [
 				"62D2D5FA1059D613"
 				"3CAD4BCE2729EDEA"
 			]
 			hide: true
 			size: 1.25d
+			optional: true
 			id: "7D63EF937637FE9B"
 			tasks: [
 				{
@@ -1456,30 +1459,120 @@
 					id: "2E38A05B513ABB19"
 					type: "item"
 					item: "alchemistry:fission_core"
+					count: 3L
 				}
 				{
 					id: "734A38313F813455"
 					type: "item"
 					item: "alchemistry:fission_casing"
+					count: 98L
 				}
 			]
 		}
 		{
+			title: "...Come Together In A New Whole."
 			x: 3.0d
 			y: -7.5d
 			shape: "gear"
+			description: [
+				"The Chemical Fusion multiblock allows the &6Fusion&r of chemicals - the sum of the chemicals' &6Atomic Numbers&r determines what &6Element&r it will output."
+				""
+				"This is the pinnacle of chemical engineering!"
+			]
 			dependencies: [
 				"7D63EF937637FE9B"
 				"4BA5452F2C0A2536"
 			]
 			hide: true
 			size: 1.5d
+			optional: true
 			id: "41AA38A3D9917E5F"
+			tasks: [
+				{
+					id: "15C33776C5707C52"
+					type: "item"
+					item: "alchemistry:fusion_controller"
+				}
+				{
+					id: "33B2670C90E23D2F"
+					type: "item"
+					item: "alchemistry:fusion_core"
+					count: 3L
+				}
+				{
+					id: "55DB0066F1947671"
+					type: "item"
+					item: "alchemistry:fusion_casing"
+					count: 98L
+				}
+			]
+		}
+		{
+			title: "Gas Logistics"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "First, a way to move that spare Oxygen around."
+			description: [
+				"Some specialized tubes, based off of your experience with pneumatics, should do the trick."
+				""
+				"Tip: You can modify the connections of the pipe with most wrenches. I recommend a &6Crescent Hammer&r."
+			]
+			dependencies: ["3AED57EBD34E6829"]
+			id: "79DF7AE36FF75085"
 			tasks: [{
-				id: "15C33776C5707C52"
+				id: "09AB7F3BAFA159A3"
 				type: "item"
-				item: "alchemistry:fusion_controller"
+				item: "pipez:gas_pipe"
+				count: 5L
 			}]
+			rewards: [{
+				id: "108711CE1BBC5774"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			title: "Advanced Infrastructure"
+			icon: "thermal:lapis_gear"
+			x: 6.0d
+			y: -0.5d
+			subtitle: "Let's put that Aluminum to use!"
+			description: [
+				"These pipes require &6no power or rotational force&r - truly a marvel of engineering!"
+				""
+				"They can be upgraded even further later on."
+			]
+			dependencies: ["3AED57EBD34E6829"]
+			optional: true
+			id: "52309446BE81DACF"
+			tasks: [
+				{
+					id: "3F9002A264DAB164"
+					type: "item"
+					item: "pipez:item_pipe"
+					count: 5L
+				}
+				{
+					id: "318B670AF43E3567"
+					type: "item"
+					item: "pipez:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "09D7EC0C67B038AC"
+					type: "item"
+					item: "pipez:item_pipe"
+					count: 5
+				}
+				{
+					id: "6E3832380071E522"
+					type: "item"
+					item: "pipez:fluid_pipe"
+					count: 5
+				}
+			]
 		}
 	]
 }

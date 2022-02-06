@@ -17,6 +17,7 @@
 		x: 0.0d
 		y: 0.0d
 		subtitle: "The following quests will teach you all the how-to's!"
+		description: ["Welcome to the &6Alchemical Synthesis&r chapter. This optional quest chain will teach you all of the custom recipes available through the multiblock."]
 		dependencies: ["4BA5452F2C0A2536"]
 		hide: true
 		id: "1D2E018F498EA928"

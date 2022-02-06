@@ -346,8 +346,8 @@
 		}
 		{
 			title: "Early Doubling!"
-			x: 6.0d
-			y: -6.0d
+			x: 8.0d
+			y: -2.5d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
 				"Tip: Crushers can be vertically or horizontally aligned. Keep this in mind when creating assembly lines!"
