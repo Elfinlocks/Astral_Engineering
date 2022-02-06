@@ -11,39 +11,43 @@ craftingTable.removeByName("immersiveengineering:crafting/plate_iron_hammering")
 
 // Reimplements as create press recipes
 
-// Aluminum
-
-<recipetype:create:pressing>.addRecipe("pressing/aluminum", [<item:immersiveengineering:plate_aluminum>], <tag:items:forge:ingots/aluminum>);
-
-// Lead
-
-<recipetype:create:pressing>.addRecipe("pressing/lead", [<item:immersiveengineering:plate_lead>], <tag:items:forge:ingots/lead>);
-
-// Silver
-
-<recipetype:create:pressing>.addRecipe("pressing/silver", [<item:immersiveengineering:plate_silver>], <tag:items:forge:ingots/silver>);
-
-// Nickel
-
-<recipetype:create:pressing>.addRecipe("pressing/nickel", [<item:immersiveengineering:plate_nickel>], <tag:items:forge:ingots/nickel>);
-
-// Constantan
-
-<recipetype:create:pressing>.addRecipe("pressing/constantan", [<item:immersiveengineering:plate_constantan>], <tag:items:forge:ingots/constantan>);
-
-// Electrum
-
-<recipetype:create:pressing>.addRecipe("pressing/electrum", [<item:immersiveengineering:plate_electrum>], <tag:items:forge:ingots/electrum>);
-
-// Steel
-
-<recipetype:create:pressing>.addRecipe("pressing/steel", [<item:immersiveengineering:plate_steel>], <tag:items:forge:ingots/steel>);
-
 // Iron
 
 <recipetype:create:pressing>.addRecipe("pressing/iron", [<item:immersiveengineering:plate_iron>], <tag:items:forge:ingots/iron>);
+<recipetype:immersiveengineering:metal_press>.addRecipe("iron_ie_plates", <tag:items:forge:ingots/iron>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_iron>);
 
 // Tin
 
 <recipetype:create:pressing>.addRecipe("pressing/tin", [<item:thermal:tin_plate>], <tag:items:forge:ingots/tin>);
-<recipetype:immersiveengineering:metal_press>.addRecipe("tin_plate", <tag:items:forge:ingots/tin>, <item:immersiveengineering:mold_plate>, 1500, <item:thermal:tin_plate>);
+
+// Desh
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("desh_ie_plates", <tag:items:forge:ingots/desh>, <item:immersiveengineering:mold_plate>, 1000, <item:boss_tools:desh_plate>);
+
+// Copper
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("copper_ie_plates", <tag:items:forge:ingots/copper>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_copper>);
+
+// Lead 
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("lead_ie_plates", <tag:items:forge:ingots/lead>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_lead>);
+
+// Silver
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("silver_ie_plates", <tag:items:forge:ingots/silver>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_silver>);
+
+// Nickel
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("nickel_ie_plates", <tag:items:forge:ingots/nickel>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_nickel>);
+
+// Constantan
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("constantan_ie_plates", <tag:items:forge:ingots/constantan>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_constantan>);
+
+// Electrum
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("electrum_ie_plates", <tag:items:forge:ingots/electrum>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_electrum>);
+
+// Gold 
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("gold_ie_plates", <tag:items:forge:ingots/gold>, <item:immersiveengineering:mold_plate>, 1000, <item:immersiveengineering:plate_gold>);

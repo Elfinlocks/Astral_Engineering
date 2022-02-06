@@ -27,6 +27,9 @@ let EC = (id, x) => MOD("explorercraft", id, x)
 let Q = (id, x) => MOD("quark", id, x)
 let AM = (id, x) => MOD("alexsmobs", id, x)
 let CP = (id, x) => MOD("crockpot", id, x)
+let AS = (id, x) => MOD("astralsorcery", id, x)
+let BT = (id, x) => MOD("botania", id, x)
+let EI = (id, x) => MOD("eidolon", id, x)
 //
 
 
@@ -65,6 +68,9 @@ onEvent('item.registry', event => {
 		event.create('profession_card_slayer').displayName('Slayer License')
 			.unstackable()
 			.texture("kubejs:item/slayer_token")
+		event.create('profession_card_runecrafting').displayName('Runecrafting License')
+			.unstackable()
+			.texture("kubejs:item/runecrafting_token")
 		event.create('profession_card_smithing').displayName('Smithing License')
 			.unstackable()
 			.texture("kubejs:item/smithing_token")
@@ -249,6 +255,37 @@ onEvent('item.registry', event => {
 		{ in: MC('dragon_egg'), out: G(2) },
 		{ in: RQ('guardian_spike'), out: S(6) }
 	])
+	
+	profession("Runecrafting", 0xB7B7AB, 0xD48735, [
+		{ in: MA('#stone_runes', 16), out: S(5) },
+		{ in: BT('rune_water'), out: S(4) },
+		{ in: BT('rune_fire'), out: S(4) },
+		{ in: BT('rune_earth'), out: S(4) },
+		{ in: BT('rune_air'), out: S(4) },
+		{ in: BT('rune_spring'), out: S(10) },
+		{ in: BT('rune_summer'), out: S(10) },
+		{ in: BT('rune_autumn'), out: S(10) },
+		{ in: BT('rune_winter'), out: S(10) },
+		{ in: BT('rune_mana'), out: S(15) },
+		{ in: BT('rune_lust'), out: S(45) },
+		{ in: BT('rune_gluttony'), out: S(45) },
+		{ in: BT('rune_greed'), out: S(45) },
+		{ in: BT('rune_wrath'), out: S(45) },
+		{ in: BT('rune_envy'), out: S(45) },
+		{ in: BT('rune_pride'), out: S(45) },
+		{ in: MA('mote_air'), out: S(10) },
+		{ in: MA('mote_earth'), out: S(10) },
+		{ in: MA('mote_fire'), out: S(10) },
+		{ in: MA('mote_water'), out: S(10) },
+		{ in: MA('mote_arcane'), out: S(10) },
+		{ in: MA('mote_ender'), out: S(20) },
+		{ in: AS('glass_lens'), out: S(4) },
+		{ in: AS('illumination_powder', 4), out: S(4) },
+		{ in: AS('nocturnal_powder', 4), out: S(6) },
+		{ in: EI('gold_inlay', 2), out: S(2) },
+		{ in: EI('ender_calx', 2), out: S(10) },
+		{ in: EI('lesser_soul_gem'), out: S(10) }
+	])
 
 	profession("Cooking", 0xD8B384, 0xF7DAD9, [
 		{ in: CR('bar_of_chocolate', 16), out: S(4) },
@@ -329,7 +366,6 @@ onEvent('item.registry', event => {
 		{ in: CP('pepper_popper', 16), out: S(4) },
 		{ in: CP('perogies', 16), out: S(4) },
 		{ in: CP('potato_souffle', 16), out: S(3) },
-		{ in: CP('sweet_roll', 16), out: S(4) },
 		{ in: CP('potato_tornado', 16), out: S(8) },
 		{ in: CP('pow_cake', 16), out: S(2) },
 		{ in: CP('pumpkin_cookie', 16), out: S(3) },
@@ -538,15 +574,20 @@ onEvent('item.registry', event => {
 		entry_cost = 10
 		simple("Iron Ingot", MC('iron_ingot', 8), 16, S, 0xA6A6A6, 0xD5D5D5)
 		simple("Zinc Ingot", CR('zinc_ingot', 8), 16, S, 0x616A60, 0xD0D2C5)
-		simple("Copper Ingot", CR('copper_ingot', 8), 16, S, 0xDD7E5D, 0xFCEFBA)
+		simple("Copper Ingot", TE('copper_ingot', 8), 16, S, 0xDD7E5D, 0xFCEFBA)
+		simple("Tin Ingot", TE('tin_ingot', 8), 16, S, 0xDD7E5D, 0xFCEFBA)
 		simple("Nickel Ingot", TE('nickel_ingot', 8), 32, S, 0x977756, 0xE4D196)
 		simple("Lead Ingot", TE('lead_ingot', 8), 32, S, 0x232456, 0x7C95A4)
+		simple("Silver Ingot", TE('silver_ingot', 8), 32, S, 0xD99413, 0xFAF25E)
 		simple("Gold Ingot", MC('gold_ingot', 8), 48, S, 0xD99413, 0xFAF25E)
-		
+		simple("Vinteum Ingot", MA('vinteum_ingot', 8), 48, S, 0x3E4644, 0xB8DAC8)
+		simple("Osmium Ingot", MK('ingot_osmium', 8), 32, S, 0x3E4644, 0xB8DAC8)
 		simple("Andesite Alloy", CR('andesite_alloy', 16), 8, S, 0x505050, 0x878787)
 		simple("Silica Steel", "8x moreminecarts:silica_steel", 16, S, 0x3E4644, 0xB8DAC8)
 		simple("Brass Ingot", CR('brass_ingot', 8), 48, S, 0x6F3C2D, 0xFCF085)
+		simple("Bronze Ingot", TE('bronze_ingot', 8), 32, S, 0x6F3C2D, 0xFCF085)
 		simple("Invar Ingot", TE('invar_ingot', 4), 64, S, 0x406D6C, 0xC3CAC1)
+		simple("Electrum Ingot", TE('electrum_ingot', 4), 64, S, 0x406D6C, 0xC3CAC1)
 		
 		entry_cost = 10
 		simple("Coal", MC('coal', 16), 4, S, 0x1C1C1E, 0x383D45)
@@ -591,21 +632,26 @@ onEvent('item.registry', event => {
 		simple("Sweet Berries", MC('sweet_berries', 8), 11, S, 0x27613F, 0xA30700)
 		simple("Vines", MC('vine', 4), 7, S, 0x183D08, 0x317B10)
 		simple("Tree Fertilizer", CR('tree_fertilizer', 1), 8, S, 0xCF8469, 0x71933A)
+		simple("Floral Fertilizer", BT('fertilizer', 1), 8, S, 0xCF8469, 0x71933A)
 		
 		next_group()
 		entry_cost = 10
 		simple("Daub", SP('daub', 16), 5, S, 0xBFBAAA, 0xCBC8B6)
+		simple("Marble", AS('marble_raw', 16), 5, S, 0xBFBAAA, 0xCBC8B6)
+		simple("Livingrock", BT('livingrock', 16), 6, S, 0xBFBAAA, 0xCBC8B6)
 		simple("Clear Glass", TC('clear_glass', 16), 4, S, 0xA9C3CF, 0xE8E8E8)
 		simple("Factory Block", "16x chisel:factory/dots", 2, S, 0x211C10, 0x604B43)
 		simple("Laboratory Block", "16x chisel:laboratory/wallpanel", 4, S, 0x71706E, 0x9D9A98)
 		simple("Copper Shingles", CR('copper_shingles', 16), 3, S, 0xB5654B, 0xE4BB79)
 		simple("Seared Stone", TC('seared_stone', 16), 32, S, 0x393734, 0x59534F)
 		simple("Scorched Stone", TC('scorched_stone', 16), 32, S, 0x382C25, 0x4C3F37)
-		
+		simple("Spruce Timber Frames", "16x structurize:plain_spruce_paper_timber_frame", 16, S, 0x71706E, 0x9D9A98)
 		simple("Lantern", MC('lantern', 1), 1, S, 0x484F64, 0xF6C765)
 		simple("Copper Lantern", SP('copper_lantern', 1), 1, S, 0xB36535, 0xF3B154)
 		simple("Brass Lantern", SP('brass_lantern', 1), 1, S, 0xA47C37, 0xFAEACF)
 		simple("Crimson Lantern", SP('crimson_lantern', 1), 1, S, 0x9C0E2C, 0xE7EB56)
+		simple("Lantern", IE('lantern', 1), 1, S, 0xA47C37, 0xFAEACF)
+		simple("Powered Lantern", IE('electric_lantern', 1), 3, S, 0xA47C37, 0xFAEACF)
 		
 		next_group()
 		entry_cost = 10

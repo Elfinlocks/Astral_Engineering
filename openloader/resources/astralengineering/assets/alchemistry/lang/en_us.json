@@ -1,0 +1,11 @@
+{
+  "block.alchemistry.fission_controller": "Chemical Fission Chamber Controller",
+  "block.alchemistry.fission_core": "Chemical Fission Chamber Core",
+  "block.alchemistry.fission_casing": "Chemical Fission Chamber Casing",
+  "alchemistry.jei.fission": "Chemical Fission Chamber Multiblock",
+  "block.alchemistry.fusion_controller": "Chemical Fusion Chamber Controller",
+  "block.alchemistry.fusion_core": "Chemical Fusion Chamber Core",
+  "block.alchemistry.fusion_casing": "Chemical Fusion Chamber Casing",
+  "alchemistry.jei.fusion": "Chemical Fusion Chamber Multiblock",
+  "alchemistry.jei.elements.description": "All elements (except Hydrogen) can be created with the Chemical Fusion Chamber multiblock.\\nThe multiblock accepts 2 elements as input and fuses them together to create a new element equal to the sum of their atomic numbers.\""
+}

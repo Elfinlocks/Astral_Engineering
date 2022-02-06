@@ -1,5 +1,6 @@
 craftingTable.removeRecipe(<item:botania:terra_plate>);
 craftingTable.removeRecipe(<item:botania:elven_spreader>);
+craftingTable.removeRecipe(<item:botania:flight_tiara>);
 mods.botania.Orechid.main.removeOreWeight(<blockstate:libvulpes:orealuminum>);
 
 craftingTable.addShaped("elven_spreader", <item:botania:elven_spreader>, [
@@ -14,10 +15,17 @@ craftingTable.addShaped("terra_plate", <item:botania:terra_plate>, [
 	
 craftingTable.removeRecipe(<item:mythicbotany:mana_infuser>);
 
+<recipetype:astralsorcery:altar>.addRecipe("flugel_tiara", "RADIANCE", <item:botania:flight_tiara>, [
+	[<item:minecraft:air>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:minecraft:air>],
+	[<item:botania:elementium_ingot>, <item:mana-and-artifice:greater_mote_air>, <item:mythicbotany:vanaheim_rune>, <item:mana-and-artifice:greater_mote_air>, <item:botania:elementium_ingot>],
+	[<item:botania:life_essence>, <item:botania:rune_autumn>, <item:magicfeather:magicfeather>, <item:botania:rune_summer>, <item:botania:life_essence>],
+	[<item:botania:terrasteel_ingot>, <item:mana-and-artifice:greater_mote_air>, <item:mythicbotany:asgard_rune>, <item:mana-and-artifice:greater_mote_air>, <item:botania:terrasteel_ingot>],
+	[<item:minecraft:air>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:minecraft:air>]], 140, 75);
+
 <recipetype:astralsorcery:altar>.addRecipe("mana_infuser", "RADIANCE", <item:mythicbotany:mana_infuser>, [
 	[<item:minecraft:air>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:minecraft:air>],
-	[<item:botania:elementium_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:asgard_rune>, <item:astralsorcery:resonating_gem>, <item:botania:elementium_ingot>],
-	[<item:botania:glimmering_dreamwood>, <item:botania:rune_winter>, <item:botania:terra_plate>, <item:botania:rune_spring>, <item:botania:glimmering_dreamwood>],
+	[<item:botania:elementium_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:asgard_rune>, <item:twilightforest:fiery_ingot>, <item:botania:elementium_ingot>],
+	[<item:botania:glimmering_dreamwood>, <item:botania:rune_winter>, <item:botania:terra_plate>, <item:botania:rune_spring>, <item:twilightforest:fiery_ingot>],
 	[<item:botania:terrasteel_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:midgard_rune>, <item:astralsorcery:resonating_gem>, <item:botania:terrasteel_ingot>],
 	[<item:minecraft:air>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:minecraft:air>]], 140, 75);
 	

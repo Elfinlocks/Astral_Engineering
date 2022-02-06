@@ -11,8 +11,8 @@
 		{
 			title: "Skill License: Mining"
 			icon: "kubejs:profession_card_mining"
-			x: -4.5d
-			y: -10.0d
+			x: -5.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining License."]
 			hide_dependency_lines: true
@@ -46,8 +46,8 @@
 		{
 			title: "Skill License: Farming"
 			icon: "kubejs:profession_card_farming"
-			x: -6.5d
-			y: -10.0d
+			x: -7.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming License."]
 			hide_dependency_lines: true
@@ -81,8 +81,8 @@
 		{
 			title: "Skill License: Construction"
 			icon: "kubejs:profession_card_construction"
-			x: -5.5d
-			y: -10.0d
+			x: -6.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell all manner of &6Building Blocks&f with the Construction License."]
 			hide_dependency_lines: true
@@ -115,8 +115,8 @@
 		{
 			title: "Skill License: Cooking"
 			icon: "kubejs:profession_card_cooking"
-			x: -2.5d
-			y: -10.0d
+			x: -3.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell &6Prepared Food&f with the Cooking License."]
 			hide_dependency_lines: true
@@ -150,8 +150,8 @@
 		{
 			title: "Skill License: Slayer"
 			icon: "kubejs:profession_card_slayer"
-			x: -3.5d
-			y: -10.0d
+			x: -4.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell all manner of &6Monster Loot&f with the Slayer License."]
 			hide_dependency_lines: true
@@ -185,12 +185,12 @@
 			title: "L33t Sk1lls"
 			icon: "minecraft:writable_book"
 			x: -3.5d
-			y: -8.5d
-			shape: "circle"
+			y: -9.5d
+			shape: "hexagon"
 			description: [
 				"Buying a &6Skill License&r gives you access to a more consistent source of income."
 				""
-				"The Skill Licenses bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Machine. You can absolutely have multiple of these."
+				"The Skill Licenses bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Computer. You can absolutely have multiple of these."
 			]
 			dependencies: ["36E02479368EAF04"]
 			id: "59B17CA4AA6D0DD4"
@@ -203,7 +203,7 @@
 			title: "So Many Errands"
 			icon: "minecraft:oak_sign"
 			x: -3.5d
-			y: -6.5d
+			y: -6.75d
 			shape: "hexagon"
 			subtitle: "So little resources."
 			description: [
@@ -275,8 +275,8 @@
 		{
 			title: "Skill License: Fishing"
 			icon: "kubejs:profession_card_fishing"
-			x: -1.5d
-			y: -10.0d
+			x: -2.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing License."]
 			hide_dependency_lines: true
@@ -310,8 +310,8 @@
 		{
 			title: "Skill License: Smithing"
 			icon: "kubejs:profession_card_smithing"
-			x: -0.5d
-			y: -10.0d
+			x: -1.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing License."]
 			hide_dependency_lines: true
@@ -1181,6 +1181,39 @@
 				item: "thermal:silver_coin"
 				count: 60
 			}]
+		}
+		{
+			title: "Skill License: Runecrafting"
+			icon: "kubejs:profession_card_runecrafting"
+			x: 0.0d
+			y: -11.0d
+			shape: "hexagon"
+			description: ["Sell &6Runes&r and other &6Magic Components&r with the Runecrafting license!"]
+			hide_dependency_lines: true
+			dependencies: ["59B17CA4AA6D0DD4"]
+			id: "4D4DAD6D65BBA168"
+			tasks: [{
+				id: "628AF7160B8C5561"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6D0E6FFC529908F4"
+					type: "item"
+					item: "kubejs:profession_card_runecrafting"
+				}
+				{
+					id: "7F53EF323634F7DB"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
 		}
 	]
 }

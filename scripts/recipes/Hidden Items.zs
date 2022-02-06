@@ -580,7 +580,23 @@ val items as IIngredient[] = [
 <item:alchemistry:condensed_milk>,
 <item:alchemistry:evaporator>,
 <item:xreliquary:phoenix_down>,
-<item:xreliquary:glowing_bread>
+<item:xreliquary:glowing_bread>,
+<item:tconstruct:coin_cast>,
+<item:tconstruct:coin_sand_cast>,
+<item:tconstruct:coin_red_sand_cast>,
+<item:thermal:iron_coin>,
+<item:thermal:netherite_coin>,
+<item:thermal:copper_coin>,
+<item:thermal:tin_coin>,
+<item:thermal:lead_coin>,
+<item:thermal:nickel_coin>,
+<item:thermal:bronze_coin>,
+<item:thermal:electrum_coin>,
+<item:thermal:invar_coin>,
+<item:thermal:constantan_coin>,
+<item:thermal:signalum_coin>,
+<item:thermal:lumium_coin>,
+<item:thermal:enderium_coin>
 ];
 
 for item in items {

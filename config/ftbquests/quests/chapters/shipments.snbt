@@ -5,14 +5,14 @@
 	filename: "shipments"
 	title: "&e For Fun And Profit"
 	icon: "thermal:machine_press"
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "A Brief Overview"
 			icon: "farmingforblockheads:market"
 			x: 0.0d
-			y: 12.25d
+			y: 0.25d
 			shape: "hexagon"
 			description: [
 				"&6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Data Cards for use in the Trading Computer."
@@ -31,7 +31,7 @@
 			title: "Automated Equivalent Exchange"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: 2.0d
-			y: 12.25d
+			y: 0.25d
 			shape: "hexagon"
 			subtitle: "Silver and Gold..."
 			description: ["This Trading card can convert the currency of coins inserted into the Trading Machine."]
@@ -66,7 +66,7 @@
 			icon: "minecraft:dirt"
 			disable_toast: true
 			x: -9.5d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "2 Silver"
 			id: "1A27F6CC5196D116"
@@ -100,7 +100,7 @@
 			icon: "minecraft:sand"
 			disable_toast: true
 			x: -11.0d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "4C0F811C1D2495CC"
@@ -134,7 +134,7 @@
 			icon: "minecraft:gravel"
 			disable_toast: true
 			x: -10.5d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "2 Silver"
 			id: "6AE7090EB52A51B3"
@@ -168,7 +168,7 @@
 			icon: "minecraft:clay"
 			disable_toast: true
 			x: -10.0d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "6 Silver"
 			id: "0315668E30F2F6E5"
@@ -202,7 +202,7 @@
 			icon: "minecraft:ice"
 			disable_toast: true
 			x: -9.0d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "36B5C3ECFD38670E"
@@ -236,7 +236,7 @@
 			icon: "minecraft:blackstone"
 			disable_toast: true
 			x: -8.0d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "12 Silver"
 			id: "1509D36A982217C6"
@@ -270,7 +270,7 @@
 			icon: "tconstruct:grout"
 			disable_toast: true
 			x: -7.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "12 Silver"
 			id: "1BA3EF0818CA7F64"
@@ -304,7 +304,7 @@
 			icon: "minecraft:cobblestone"
 			disable_toast: true
 			x: -9.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "1 Silver"
 			id: "0DEFAE2746209F1A"
@@ -338,7 +338,7 @@
 			icon: "minecraft:granite"
 			disable_toast: true
 			x: -10.5d
-			y: 4.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "2C10D18D55335B7E"
@@ -372,7 +372,7 @@
 			icon: "minecraft:diorite"
 			disable_toast: true
 			x: -11.5d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "5F0B4CBE299954C4"
@@ -406,7 +406,7 @@
 			icon: "minecraft:andesite"
 			disable_toast: true
 			x: -8.5d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "262F369CE9CA7C87"
@@ -440,7 +440,7 @@
 			icon: "create:limestone"
 			disable_toast: true
 			x: -10.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "47FB0491BAB19B90"
@@ -474,7 +474,7 @@
 			icon: "create:weathered_limestone"
 			disable_toast: true
 			x: -11.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "3DDAE38C0982006F"
@@ -508,7 +508,7 @@
 			icon: "create:dolomite"
 			disable_toast: true
 			x: -8.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "7004EC32689972BD"
@@ -542,7 +542,7 @@
 			icon: "create:gabbro"
 			disable_toast: true
 			x: -7.5d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "650421069ADD5DF4"
@@ -576,7 +576,7 @@
 			icon: "create:scoria"
 			disable_toast: true
 			x: -8.5d
-			y: 4.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "41709386017FD959"
@@ -610,7 +610,7 @@
 			icon: "create:dark_scoria"
 			disable_toast: true
 			x: -9.5d
-			y: 4.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "043B5A961669A792"
@@ -644,7 +644,7 @@
 			icon: "minecraft:obsidian"
 			disable_toast: true
 			x: -12.0d
-			y: 7.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "5D4F2FFCBD0B0F8E"
@@ -678,7 +678,7 @@
 			icon: "biomesoplenty:dead_log"
 			disable_toast: true
 			x: 11.0d
-			y: 6.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "2 Silver"
 			id: "222EEB7DB1D98484"
@@ -712,7 +712,7 @@
 			icon: "minecraft:oak_log"
 			disable_toast: true
 			x: 8.0d
-			y: 6.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "5504C6597C74637B"
@@ -746,7 +746,7 @@
 			icon: "minecraft:birch_log"
 			disable_toast: true
 			x: 8.5d
-			y: 5.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "35F97137A46C1F3C"
@@ -780,7 +780,7 @@
 			icon: "minecraft:spruce_log"
 			disable_toast: true
 			x: 9.0d
-			y: 6.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "5923347D1827DA83"
@@ -814,7 +814,7 @@
 			icon: "minecraft:jungle_log"
 			disable_toast: true
 			x: 10.0d
-			y: 6.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "7F7ACF3B774E9D0E"
@@ -848,7 +848,7 @@
 			icon: "minecraft:acacia_log"
 			disable_toast: true
 			x: 10.5d
-			y: 5.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "6C6A43E08FBC8D53"
@@ -882,7 +882,7 @@
 			icon: "minecraft:dark_oak_log"
 			disable_toast: true
 			x: 10.0d
-			y: 4.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "585788A4494AC124"
@@ -916,7 +916,7 @@
 			icon: "minecraft:crimson_stem"
 			disable_toast: true
 			x: 9.0d
-			y: 4.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "24328C973480E4E8"
@@ -950,7 +950,7 @@
 			icon: "minecraft:warped_stem"
 			disable_toast: true
 			x: 9.5d
-			y: 5.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "725FFE8BD6E45F96"
@@ -984,7 +984,7 @@
 			icon: "minecraft:iron_ingot"
 			disable_toast: true
 			x: -2.5d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "07081911727142C8"
@@ -1018,7 +1018,7 @@
 			icon: "create:zinc_ingot"
 			disable_toast: true
 			x: -2.0d
-			y: 4.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "69B107895D3CA0B2"
@@ -1052,7 +1052,7 @@
 			icon: "create:copper_ingot"
 			disable_toast: true
 			x: -1.5d
-			y: 5.0d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "74F96A8D400FD059"
@@ -1085,8 +1085,8 @@
 			title: "8x Nickel Ingot"
 			icon: "thermal:nickel_ingot"
 			disable_toast: true
-			x: -0.5d
-			y: 5.0d
+			x: 0.5d
+			y: -9.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "6D8E4C9DCFFB2C90"
@@ -1119,8 +1119,8 @@
 			title: "8x Lead Ingot"
 			icon: "thermal:lead_ingot"
 			disable_toast: true
-			x: 0.5d
-			y: 5.0d
+			x: -1.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "3FC1029AF9BB245E"
@@ -1153,8 +1153,8 @@
 			title: "8x Gold Ingot"
 			icon: "minecraft:gold_ingot"
 			disable_toast: true
-			x: 1.5d
-			y: 5.0d
+			x: 0.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "417DD17A5C96CEE2"
@@ -1187,8 +1187,8 @@
 			title: "16x Andesite Alloy"
 			icon: "create:andesite_alloy"
 			disable_toast: true
-			x: 2.5d
-			y: 5.0d
+			x: 1.5d
+			y: -9.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "7B5B7BB304E14C6D"
@@ -1222,7 +1222,7 @@
 			icon: "moreminecarts:silica_steel"
 			disable_toast: true
 			x: 2.0d
-			y: 4.0d
+			y: -8.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "01F3EDC327B63908"
@@ -1255,8 +1255,8 @@
 			title: "8x Brass Ingot"
 			icon: "create:brass_ingot"
 			disable_toast: true
-			x: -2.5d
-			y: 7.0d
+			x: 0.5d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "040A0552921E1115"
@@ -1289,8 +1289,8 @@
 			title: "4x Invar Ingot"
 			icon: "thermal:invar_ingot"
 			disable_toast: true
-			x: -2.0d
-			y: 6.0d
+			x: 1.5d
+			y: -7.0d
 			shape: "hexagon"
 			subtitle: "64 Silver"
 			id: "2D022872F99F9907"
@@ -1324,7 +1324,7 @@
 			icon: "minecraft:coal"
 			disable_toast: true
 			x: 0.0d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "0DA48CA15E17157D"
@@ -1358,7 +1358,7 @@
 			icon: "minecraft:flint"
 			disable_toast: true
 			x: -1.0d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "70FDB8C2F2C4A825"
@@ -1392,7 +1392,7 @@
 			icon: "thermal:cinnabar"
 			disable_toast: true
 			x: 1.0d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "78ECB6EB48347D08"
@@ -1425,8 +1425,8 @@
 			title: "16x Redstone Dust"
 			icon: "minecraft:redstone"
 			disable_toast: true
-			x: -1.0d
-			y: 4.0d
+			x: -3.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "21CC162C06BBFAE6"
@@ -1460,7 +1460,7 @@
 			icon: "minecraft:diamond"
 			disable_toast: true
 			x: 2.0d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "1 Gold"
 			id: "00EBF8DED4E51A4F"
@@ -1494,7 +1494,7 @@
 			icon: "minecraft:lapis_lazuli"
 			disable_toast: true
 			x: 3.0d
-			y: 6.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "258C779897D1AEF0"
@@ -1527,8 +1527,8 @@
 			title: "1x Emerald"
 			icon: "minecraft:emerald"
 			disable_toast: true
-			x: -3.0d
-			y: 6.0d
+			x: -2.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "1 Gold"
 			id: "38CD5CE18FE09D23"
@@ -1561,8 +1561,8 @@
 			title: "4x Sulfur"
 			icon: "thermal:sulfur"
 			disable_toast: true
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "1C104893F5481A58"
@@ -1595,8 +1595,8 @@
 			title: "4x Apatite"
 			icon: "thermal:apatite"
 			disable_toast: true
-			x: -1.5d
-			y: 7.0d
+			x: -1.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "7509D8FA29C6AB31"
@@ -1629,8 +1629,8 @@
 			title: "4x Niter"
 			icon: "thermal:niter"
 			disable_toast: true
-			x: -0.5d
-			y: 7.0d
+			x: 0.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "3A4A3B749FBDBEF1"
@@ -1663,8 +1663,8 @@
 			title: "8x Nether Quartz"
 			icon: "minecraft:quartz"
 			disable_toast: true
-			x: 0.5d
-			y: 7.0d
+			x: 1.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "24 Silver"
 			id: "1D6150F2480B976E"
@@ -1697,8 +1697,8 @@
 			title: "8x Certus Quartz"
 			icon: "appliedenergistics2:certus_quartz_crystal"
 			disable_toast: true
-			x: 1.5d
-			y: 7.0d
+			x: 2.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "24 Silver"
 			id: "48F72CFAB336FE73"
@@ -1731,8 +1731,8 @@
 			title: "8x Fluix Quartz"
 			icon: "appliedenergistics2:fluix_crystal"
 			disable_toast: true
-			x: 2.5d
-			y: 7.0d
+			x: 3.0d
+			y: -5.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "4A678C0BE97177DB"
@@ -1765,8 +1765,8 @@
 			title: "6x Cured Rubber"
 			icon: "thermal:cured_rubber"
 			disable_toast: true
-			x: 1.0d
-			y: 4.0d
+			x: -3.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "488A4B4A3295CF10"
@@ -1800,7 +1800,7 @@
 			icon: "minecraft:scaffolding"
 			disable_toast: true
 			x: 0.0d
-			y: 10.5d
+			y: -1.5d
 			shape: "hexagon"
 			subtitle: "2 Silver"
 			id: "49634E835B948A4F"
@@ -1834,7 +1834,7 @@
 			icon: "minecraft:white_wool"
 			disable_toast: true
 			x: -0.5d
-			y: 9.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "20CB646041616191"
@@ -1868,7 +1868,7 @@
 			icon: "minecraft:sponge"
 			disable_toast: true
 			x: 0.5d
-			y: 9.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "58E93229D6552D4B"
@@ -1902,7 +1902,7 @@
 			icon: "minecraft:cobweb"
 			disable_toast: true
 			x: 0.0d
-			y: 8.5d
+			y: -3.5d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "3C45250D863E65CB"
@@ -1935,8 +1935,8 @@
 			title: "1x Rice"
 			icon: "farmersdelight:rice_bag"
 			disable_toast: true
-			x: 1.5d
-			y: 16.0d
+			x: 0.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "7BDF86B9E3E607C5"
@@ -1970,7 +1970,7 @@
 			icon: "farmersdelight:straw"
 			disable_toast: true
 			x: 1.5d
-			y: 18.0d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "59EBD3DADD002D3A"
@@ -2003,8 +2003,8 @@
 			title: "4x Glowshroom"
 			icon: "biomesoplenty:glowshroom"
 			disable_toast: true
-			x: 0.0d
-			y: 15.0d
+			x: -2.0d
+			y: 7.0d
 			shape: "hexagon"
 			subtitle: "9 Silver"
 			id: "7F4D9F958EBDEAF8"
@@ -2038,7 +2038,7 @@
 			icon: "biomesoplenty:bramble"
 			disable_toast: true
 			x: 1.0d
-			y: 17.0d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "9 Silver"
 			id: "737E670DC8AD5E19"
@@ -2072,7 +2072,7 @@
 			icon: "biomesoplenty:barley"
 			disable_toast: true
 			x: 0.5d
-			y: 16.0d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "1EF5AB1D7882167F"
@@ -2105,8 +2105,8 @@
 			title: "4x Watergrass"
 			icon: "biomesoplenty:watergrass"
 			disable_toast: true
-			x: 2.0d
-			y: 17.0d
+			x: 2.5d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "576E0B50F2015C9E"
@@ -2139,8 +2139,8 @@
 			title: "4x Mangrove Root"
 			icon: "biomesoplenty:mangrove_root"
 			disable_toast: true
-			x: -2.0d
-			y: 17.0d
+			x: -2.5d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "9 Silver"
 			id: "2C01297688930D47"
@@ -2173,8 +2173,8 @@
 			title: "4x Reed"
 			icon: "biomesoplenty:reed"
 			disable_toast: true
-			x: -1.0d
-			y: 19.0d
+			x: 2.0d
+			y: 7.0d
 			shape: "hexagon"
 			subtitle: "5 Silver"
 			id: "3CA6DD7C5516A330"
@@ -2208,7 +2208,7 @@
 			icon: "biomesoplenty:willow_vine"
 			disable_toast: true
 			x: -1.0d
-			y: 17.0d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "7 Silver"
 			id: "286C553AD3E15266"
@@ -2242,7 +2242,7 @@
 			icon: "biomesoplenty:cattail"
 			disable_toast: true
 			x: 0.0d
-			y: 17.0d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "70B164A5F22452CA"
@@ -2276,7 +2276,7 @@
 			icon: "minecraft:sugar_cane"
 			disable_toast: true
 			x: -0.5d
-			y: 16.0d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "5BB058D52AA40751"
@@ -2310,7 +2310,7 @@
 			icon: "minecraft:kelp"
 			disable_toast: true
 			x: 0.5d
-			y: 18.0d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "4C068341DD17068B"
@@ -2344,7 +2344,7 @@
 			icon: "minecraft:bamboo"
 			disable_toast: true
 			x: -0.5d
-			y: 18.0d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "5 Silver"
 			id: "3A86EA1C2AD21C29"
@@ -2377,8 +2377,8 @@
 			title: "8x Sweet Berries"
 			icon: "minecraft:sweet_berries"
 			disable_toast: true
-			x: 1.0d
-			y: 19.0d
+			x: -1.0d
+			y: 7.0d
 			shape: "hexagon"
 			subtitle: "11 Silver"
 			id: "33B5C951B4AE8322"
@@ -2411,8 +2411,8 @@
 			title: "4x Vines"
 			icon: "minecraft:vine"
 			disable_toast: true
-			x: -1.5d
-			y: 16.0d
+			x: 1.0d
+			y: 7.0d
 			shape: "hexagon"
 			subtitle: "7 Silver"
 			id: "57CD030DE2CD7715"
@@ -2446,7 +2446,7 @@
 			icon: "create:tree_fertilizer"
 			disable_toast: true
 			x: -1.5d
-			y: 18.0d
+			y: 6.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "0726837174BCED3D"
@@ -2480,7 +2480,7 @@
 			icon: "supplementaries:daub"
 			disable_toast: true
 			x: -9.0d
-			y: 11.5d
+			y: -0.5d
 			shape: "hexagon"
 			subtitle: "5 Silver"
 			id: "091671443430B31B"
@@ -2514,7 +2514,7 @@
 			icon: "tconstruct:clear_glass"
 			disable_toast: true
 			x: -10.0d
-			y: 11.5d
+			y: -0.5d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "7DFB9DD1A1BB63E4"
@@ -2548,7 +2548,7 @@
 			icon: "chisel:factory/dots"
 			disable_toast: true
 			x: -10.5d
-			y: 12.5d
+			y: 0.5d
 			shape: "hexagon"
 			subtitle: "2 Silver"
 			id: "480F70ECCC09621E"
@@ -2582,7 +2582,7 @@
 			icon: "chisel:laboratory/wallpanel"
 			disable_toast: true
 			x: -10.0d
-			y: 13.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "4 Silver"
 			id: "1ACB59D7A20671CE"
@@ -2616,7 +2616,7 @@
 			icon: "create:copper_shingles"
 			disable_toast: true
 			x: -9.5d
-			y: 12.5d
+			y: 0.5d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "1A2E4E06037E009A"
@@ -2650,7 +2650,7 @@
 			icon: "tconstruct:seared_stone"
 			disable_toast: true
 			x: -9.0d
-			y: 13.5d
+			y: 1.5d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "3A7A2C8D56500426"
@@ -2684,7 +2684,7 @@
 			icon: "tconstruct:scorched_stone"
 			disable_toast: true
 			x: -8.5d
-			y: 12.5d
+			y: 0.5d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "70EBB5E32545ACEC"
@@ -2718,7 +2718,7 @@
 			icon: "minecraft:lantern"
 			disable_toast: true
 			x: -10.5d
-			y: 14.5d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "1 Silver"
 			id: "10D5B3EF6A77B918"
@@ -2752,7 +2752,7 @@
 			icon: "supplementaries:copper_lantern"
 			disable_toast: true
 			x: -9.0d
-			y: 15.5d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "1 Silver"
 			id: "6BC9B96B2C6684DC"
@@ -2786,7 +2786,7 @@
 			icon: "supplementaries:brass_lantern"
 			disable_toast: true
 			x: -9.5d
-			y: 14.5d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "1 Silver"
 			id: "44CDD45033A93614"
@@ -2820,7 +2820,7 @@
 			icon: "supplementaries:crimson_lantern"
 			disable_toast: true
 			x: -8.5d
-			y: 14.5d
+			y: 2.5d
 			shape: "hexagon"
 			subtitle: "1 Silver"
 			id: "7B7A161B4BAB89AD"
@@ -2854,7 +2854,7 @@
 			icon: "minecraft:slime_ball"
 			disable_toast: true
 			x: 8.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "24 Silver"
 			id: "522D9970B8C43046"
@@ -2888,7 +2888,7 @@
 			icon: "minecraft:string"
 			disable_toast: true
 			x: 8.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "5 Silver"
 			id: "11B239EF3DAE4463"
@@ -2922,7 +2922,7 @@
 			icon: "minecraft:feather"
 			disable_toast: true
 			x: 8.5d
-			y: 12.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "6 Silver"
 			id: "339BC75AD23B70D7"
@@ -2956,7 +2956,7 @@
 			icon: "minecraft:gunpowder"
 			disable_toast: true
 			x: 10.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "7 Silver"
 			id: "52CCFCE2733F76BC"
@@ -2990,7 +2990,7 @@
 			icon: "minecraft:leather"
 			disable_toast: true
 			x: 10.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "42F951B44FB2BFE3"
@@ -3024,7 +3024,7 @@
 			icon: "minecraft:ink_sac"
 			disable_toast: true
 			x: 10.5d
-			y: 12.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "108550230A95C7D4"
@@ -3058,7 +3058,7 @@
 			icon: "minecraft:experience_bottle"
 			disable_toast: true
 			x: 7.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "1BF763E3FD8C2245"
@@ -3092,7 +3092,7 @@
 			icon: "minecraft:shulker_shell"
 			disable_toast: true
 			x: 6.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "2 Gold"
 			id: "1F05704C3B1FA528"
@@ -3126,7 +3126,7 @@
 			icon: "minecraft:spider_eye"
 			disable_toast: true
 			x: 7.5d
-			y: 12.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "10 Silver"
 			id: "0C6B2EEE280F7667"
@@ -3160,7 +3160,7 @@
 			icon: "minecraft:ender_pearl"
 			disable_toast: true
 			x: 9.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "46F150CC9BE2D856"
@@ -3194,7 +3194,7 @@
 			icon: "minecraft:rotten_flesh"
 			disable_toast: true
 			x: 9.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "3 Silver"
 			id: "76287BDB2E9B7BC8"
@@ -3228,7 +3228,7 @@
 			icon: "minecraft:blaze_rod"
 			disable_toast: true
 			x: 9.5d
-			y: 12.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "20 Silver"
 			id: "685DD2A4DFF56193"
@@ -3262,7 +3262,7 @@
 			icon: "minecraft:bone"
 			disable_toast: true
 			x: 10.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "8 Silver"
 			id: "433E103CD81712C1"
@@ -3296,7 +3296,7 @@
 			icon: "minecraft:prismarine_shard"
 			disable_toast: true
 			x: 11.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "29696B4965010CED"
@@ -3330,7 +3330,7 @@
 			icon: "minecraft:prismarine_crystals"
 			disable_toast: true
 			x: 12.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "24 Silver"
 			id: "7C7B81ABFC586379"
@@ -3364,7 +3364,7 @@
 			icon: "xreliquary:witch_hat"
 			disable_toast: true
 			x: 12.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "1 Gold"
 			id: "4864E6BA6AE2B49B"
@@ -3398,7 +3398,7 @@
 			icon: "xreliquary:zombie_heart"
 			disable_toast: true
 			x: 11.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "2714FE0125D3E953"
@@ -3432,7 +3432,7 @@
 			icon: "xreliquary:squid_beak"
 			disable_toast: true
 			x: 7.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "395978A711E14931"
@@ -3466,7 +3466,7 @@
 			icon: "xreliquary:rib_bone"
 			disable_toast: true
 			x: 8.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "23F9DB562ED7C2F6"
@@ -3500,7 +3500,7 @@
 			icon: "xreliquary:catalyzing_gland"
 			disable_toast: true
 			x: 9.5d
-			y: 14.0d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "4764EAB921EE1F19"
@@ -3534,7 +3534,7 @@
 			icon: "xreliquary:chelicerae"
 			disable_toast: true
 			x: 11.0d
-			y: 13.0d
+			y: 1.0d
 			shape: "hexagon"
 			subtitle: "32 Silver"
 			id: "2E10D7FE1BC4FDBB"
@@ -3568,7 +3568,7 @@
 			icon: "xreliquary:slime_pearl"
 			disable_toast: true
 			x: 8.0d
-			y: 15.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "67B45D6767F8BFD9"
@@ -3602,7 +3602,7 @@
 			icon: "xreliquary:bat_wing"
 			disable_toast: true
 			x: 12.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "2 Gold"
 			id: "5491C5600D7F039A"
@@ -3636,7 +3636,7 @@
 			icon: "xreliquary:withered_rib"
 			disable_toast: true
 			x: 7.0d
-			y: 11.0d
+			y: -1.0d
 			shape: "hexagon"
 			subtitle: "2 Gold"
 			id: "4BD2016AFC2A2035"
@@ -3670,7 +3670,7 @@
 			icon: "xreliquary:molten_core"
 			disable_toast: true
 			x: 8.5d
-			y: 10.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "59474208A27099BF"
@@ -3704,7 +3704,7 @@
 			icon: "xreliquary:eye_of_the_storm"
 			disable_toast: true
 			x: 9.5d
-			y: 10.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "2 Gold"
 			id: "6FF65841E3EA0FCD"
@@ -3738,7 +3738,7 @@
 			icon: "xreliquary:frozen_core"
 			disable_toast: true
 			x: 10.5d
-			y: 10.0d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "0CF82AABD5E05A0D"
@@ -3772,7 +3772,7 @@
 			icon: "xreliquary:nebulous_heart"
 			disable_toast: true
 			x: 9.0d
-			y: 15.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "1 Gold"
 			id: "73EEAE66CC2014E9"
@@ -3806,7 +3806,7 @@
 			icon: "xreliquary:guardian_spike"
 			disable_toast: true
 			x: 10.0d
-			y: 15.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "1 Gold"
 			id: "662583DB97721FE8"
@@ -3840,7 +3840,7 @@
 			icon: "minecraft:phantom_membrane"
 			disable_toast: true
 			x: 11.0d
-			y: 15.0d
+			y: 3.0d
 			shape: "hexagon"
 			subtitle: "48 Silver"
 			id: "210A3F8C44AAD89A"
@@ -3874,7 +3874,7 @@
 			icon: "create:blaze_cake"
 			disable_toast: true
 			x: 11.5d
-			y: 12.0d
+			y: 0.0d
 			shape: "hexagon"
 			subtitle: "16 Silver"
 			id: "3CEC6538990D89C3"
@@ -3907,7 +3907,7 @@
 			title: "Ahead of The Curve"
 			icon: "thermal:machine_press"
 			x: -2.0d
-			y: 12.25d
+			y: 0.25d
 			shape: "hexagon"
 			subtitle: "30 Silver"
 			description: [
@@ -3923,7 +3923,7 @@
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
-				count: 30L
+				count: 45L
 				consume_items: true
 			}]
 			rewards: [
@@ -3935,6 +3935,366 @@
 				}
 				{
 					id: "61448EF131387AEF"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "16x Zelkova Log"
+			icon: "byg:zelkova_log"
+			x: 9.5d
+			y: -8.0d
+			shape: "hexagon"
+			subtitle: "4 Silver"
+			id: "276DF6DDEBCD2936"
+			tasks: [{
+				id: "78989477B1B0D60C"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "280DB52D4635EF3A"
+					type: "item"
+					item: "kubejs:trade_card_zelkova_log"
+				}
+				{
+					id: "631AE9567862C91F"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "1x Lantern"
+			icon: "immersiveengineering:lantern"
+			x: -10.0d
+			y: 3.5d
+			subtitle: "1 Silver"
+			id: "6F44B1CBA5163DB8"
+			tasks: [{
+				id: "0154E907D8D54E1A"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1CDB6105162C23D7"
+					type: "item"
+					item: "kubejs:trade_card_lantern"
+				}
+				{
+					id: "769D0A0804EA5833"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "1x Powered Lantern"
+			icon: "immersiveengineering:electric_lantern"
+			x: -9.5d
+			y: 4.5d
+			subtitle: "3 Silver"
+			id: "499ABCAAAF874A37"
+			tasks: [{
+				id: "25370E1F92FDE287"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "534A7AB0105C68B6"
+					type: "item"
+					item: "kubejs:trade_card_powered_lantern"
+				}
+				{
+					id: "034F6B1DC98FA6DF"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "16x Plain Spruce Timber Frame"
+			icon: "structurize:plain_spruce_paper_timber_frame"
+			x: -11.0d
+			y: 1.5d
+			subtitle: "16 Silver"
+			id: "1FE0ADF4A8BA07C1"
+			tasks: [{
+				id: "3A314D212E49728A"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6456B24C70CC4593"
+					type: "item"
+					item: "kubejs:trade_card_spruce_timber_frames"
+				}
+				{
+					id: "4C463A55543F37D3"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "16x Marble"
+			icon: "astralsorcery:marble_raw"
+			x: -8.0d
+			y: 1.5d
+			subtitle: "5 Silver"
+			id: "6CCF8D465F7B1806"
+			tasks: [{
+				id: "51C64248563560DE"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A601FFAFBDD6C36"
+					type: "item"
+					item: "kubejs:trade_card_marble"
+				}
+				{
+					id: "27F9B86E8257D9DF"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "16x Livingrock"
+			icon: "botania:livingrock"
+			x: -9.5d
+			y: -1.5d
+			subtitle: "6 Silver"
+			id: "0C4E3AF312F50AF7"
+			tasks: [{
+				id: "5DB0157AC304762D"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "70321E030CC0D3DD"
+					type: "item"
+					item: "kubejs:trade_card_livingrock"
+				}
+				{
+					id: "177BEA7880F216C2"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "1x Floral Fertilizer"
+			icon: "botania:fertilizer"
+			x: 0.0d
+			y: 7.0d
+			subtitle: "8 Silver"
+			id: "17618648DFA853FF"
+			tasks: [{
+				id: "6E1D9F875EB8A4F4"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0343299BD6DF5436"
+					type: "item"
+					item: "kubejs:trade_card_floral_fertilizer"
+				}
+				{
+					id: "6CEF718C3ED4F4FF"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "8x Vinteum Ingot"
+			icon: "mana-and-artifice:vinteum_ingot"
+			x: -1.5d
+			y: -9.0d
+			subtitle: "48 Silver"
+			id: "6CD6C436568AFE57"
+			tasks: [{
+				id: "01F5C96A49288E75"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7825AC0AB6820507"
+					type: "item"
+					item: "kubejs:trade_card_vinteum_ingot"
+				}
+				{
+					id: "34F052CA8D9405AF"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "8x Osmium Ingot"
+			icon: "mekanism:ingot_osmium"
+			x: -0.5d
+			y: -9.0d
+			subtitle: "32 Silver"
+			id: "6A09C183510ECBD5"
+			tasks: [{
+				id: "4AD3F6E8E04128C7"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "281AB0E066A37904"
+					type: "item"
+					item: "kubejs:trade_card_osmium_ingot"
+				}
+				{
+					id: "0C5701386079390A"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "8x Tin Ingot"
+			icon: "thermal:tin_ingot"
+			x: -0.5d
+			y: -7.0d
+			subtitle: "16 Silver"
+			id: "50F8A00704F7BECF"
+			tasks: [{
+				id: "5425E490FD291586"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "787A618CC395E186"
+					type: "item"
+					item: "kubejs:trade_card_tin_ingot"
+				}
+				{
+					id: "43D5D4E3C5ACF16B"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "8x Silver Ingot"
+			icon: "thermal:silver_ingot"
+			x: 1.0d
+			y: -8.0d
+			subtitle: "32 Silver"
+			id: "40A66A514D6DAB49"
+			tasks: [{
+				id: "08B80001FCDB6231"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5CA46B827E46E776"
+					type: "item"
+					item: "kubejs:trade_card_silver_ingot"
+				}
+				{
+					id: "5E808A5B101F7A5D"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "8x Electrum Ingot"
+			icon: "thermal:electrum_ingot"
+			x: 2.5d
+			y: -7.0d
+			subtitle: "64 Silver"
+			id: "573AA55BAF6FE4D5"
+			tasks: [{
+				id: "3F380A88A85503A9"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "37A7200F53E686F0"
+					type: "item"
+					item: "kubejs:trade_card_electrum_ingot"
+				}
+				{
+					id: "5E81C17D1597B4B3"
 					type: "custom"
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"

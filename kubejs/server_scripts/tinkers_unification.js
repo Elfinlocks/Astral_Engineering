@@ -706,22 +706,6 @@ result: {item: 'thermal:tin_block'},
 cooling_time: 150
 })
 
-event.custom({
-type: 'tconstruct:casting_table',
-cast: {tag: 'tconstruct:casts/single_use/plate'},
-fluid: {name: 'tconstruct:molten_tin',amount: 144},
-result: {item: 'thermal:tin_plate'},
-cooling_time: 50
-})
-
-event.custom({
-type: 'tconstruct:casting_table',
-cast: {tag: 'tconstruct:casts/multi_use/plate'},
-fluid: {name: 'tconstruct:molten_tin',amount: 144},
-result: {item: 'thermal:tin_plate'},
-cooling_time: 50
-})
-
 // uranium replaceInput =============================================================
 
 event.custom({

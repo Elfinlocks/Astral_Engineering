@@ -1,0 +1,33 @@
+{
+  "type": "eidolon:worktable",
+  "core": [
+    " B ",
+    "GOG",
+    "OOO"
+  ],
+  "extras": [
+    "D",
+    "II",
+    "D"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "item": "eidolon:gold_inlay"
+    },
+    "G": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:air"
+  }
+}

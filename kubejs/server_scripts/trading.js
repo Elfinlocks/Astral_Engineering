@@ -48,6 +48,10 @@ function unwantedRecipes(event) {
 
 onEvent('item.tags', event => {
 
+	colours.forEach(element => {
+		event.get(F('glazed_terracotta')).add(MC(`${element}_glazed_terracotta`))
+	});
+
 	global.trades.forEach(element => {
 		event.get('forge:trade_cards').add(`kubejs:trade_card_${element}`)
 	});
@@ -61,6 +65,7 @@ onEvent('item.tags', event => {
 			.add('kubejs:profession_card_mining')
 			.add('kubejs:profession_card_slayer')
 			.add('kubejs:profession_card_smithing')
+			.add('kubejs:profession_card_runecrafting')
 	});
 	
 	event.get('thermal:crafting/dies').add('#forge:trade_cards')
