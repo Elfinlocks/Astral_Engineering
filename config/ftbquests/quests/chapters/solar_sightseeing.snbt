@@ -778,10 +778,32 @@
 			dependencies: ["5F079DAC35170B45"]
 			optional: true
 			id: "5546DF5DEB644C6B"
-			tasks: [{
-				id: "46C00AF372549B19"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "03BAD09B22E90069"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 6L
+				}
+				{
+					id: "11A02ED2C21EFBA2"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 16L
+				}
+				{
+					id: "0DB7F9C91A8AF10F"
+					type: "item"
+					item: "immersiveengineering:plate_iron"
+					count: 12L
+				}
+				{
+					id: "0AC51D9039B08665"
+					type: "item"
+					item: "boss_tools:desh_plate"
+					count: 4L
+				}
+			]
 		}
 		{
 			title: "More New Things!"

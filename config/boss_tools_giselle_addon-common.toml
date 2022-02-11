@@ -22,20 +22,13 @@
 
 	[compats.mekanism]
 
-		[compats.mekanism.mekasuit_helmet]
-			oxygenCapacity = 48000
-			oxygenTransfer = 256
-
 		[compats.mekanism.module_space_breathing_unit]
-			#Fill amount of oxygen to helmet when player in water or rain
-			#in rain, produce efficiency is half
-			maxProduceRate = 4
-			#Oxygen gas usage when provide Space-BossTools oxygen to player in space
-			oxygenUsing = 1
 			#Duration of provided oxygen (oxygen provide interval)
 			oxygenDuration = 4
 			#Energy usage when provide Space-BossTools oxygen to player in space
 			energyUsing = 10
+			#Energy usage per mb when produce Mekanism oxygen to player in water, rain
+			energyUsingProduce = 200
 
 		[compats.mekanism.module_space_fire_proof_unit]
 			#Energy usage when prevent fire every tick in Space-BossTools hot planets (e.g. Venus, Mercury)
@@ -54,4 +47,19 @@
 			normalizable = true
 			#Energy usage when normalizing gravity every tick in Space-BossTools dimensions
 			energyUsing = 10
+
+[enchantments]
+
+	[enchantments.space_breathing]
+		energyUsing = 10
+		oxygenDuration = 4
+
+	[enchantments.gravity_normalizing]
+		energyUsing = 10
+
+	[enchantments.space_fire_proof]
+		energyUsing = 10
+
+	[enchantments.venus_acid_proof]
+		energyUsing = 10
 

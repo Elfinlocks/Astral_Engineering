@@ -13,7 +13,7 @@
 	#Range: 0 ~ 256
 	"Overworld Sealevel Override" = 0
 	#Dimension IDs where biome sounds will not be played
-	"Dimension Blacklist" = ["minecraft:the_end", "tardis:vortex", "boss_tools:mars", "boss_tools:moon", "boss_tools:mercury", "boss_tools:venus", "boss_tools:orbit_mars", "boss_tools:orbit_mercury", "boss_tools:orbit_moon", "boss_tools:orbit_overworld"]
+	"Dimension Blacklist" = ["minecraft:the_end", "tardis:vortex", "boss_tools:mars", "boss_tools:moon", "boss_tools:mercury", "boss_tools:venus", "boss_tools:mars_orbit", "boss_tools:mercury_orbit", "boss_tools:moon_orbit", "boss_tools:overworld_orbit"]
 
 #Options for controlling various effects
 ["Effect Options"]
