@@ -190,4 +190,7 @@ events.listen('item.tags', function (event) {
 		.add('pipez:fluid_pipe')
 		.add('pipez:gas_pipe')
 		.add('pipez:energy_pipe')
+	event.get('create:upright_on_belt')
+		.add(/chemlib:element.*/)
+		.add(/chemlib:compound.*/)
 })

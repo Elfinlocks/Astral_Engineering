@@ -41,8 +41,16 @@ let wood_types = [MC('oak'), MC('spruce'), MC('birch'), MC('jungle'), MC('acacia
 onEvent('recipes', event => {
 	log.push('Registering Recipes')
 	rubberMatters(event)
+	alchemistry(event)
 	log.push('Recipes Updated')
 })
+
+function alchemistry(event) {
+	
+	event.recipes.createMilling([AE2('certus_quartz_dust')], '#appliedenergistics2:crystals/certus').processingTime(200)
+	event.recipes.createMilling([TE('quartz_dust')], '#appliedenergistics2:crystals/nether').processingTime(200)
+	
+}
 
 function rubberMatters(event) {
 	let overrideTreeOutput = (id, trunk, leaf) => {
