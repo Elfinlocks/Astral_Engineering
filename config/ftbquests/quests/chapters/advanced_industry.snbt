@@ -1213,11 +1213,7 @@
 			x: -5.0d
 			y: -1.5d
 			subtitle: "How to create unique items!"
-			description: [
-				"What good are all of these rare and unique materials without using them?"
-				""
-				"These quests will teach you how to create and use the &6Alchemical Synthesizer&r, a multiblock which combines magic and science for truly unique crafting!"
-			]
+			description: ["What good are all of these rare and unique materials without using them?"]
 			dependencies: ["09812AE1E82D15C5"]
 			hide: true
 			optional: true

@@ -4316,5 +4316,35 @@
 				}
 			]
 		}
+		{
+			title: "Warped Wart Block"
+			icon: "minecraft:warped_wart_block"
+			x: -9.5d
+			y: -9.0d
+			id: "2D8F38E7A2F20F58"
+			tasks: [{
+				id: "7DD85E8DE2A39DBE"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "310E3DCF900B80DF"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:trade_card_warped_wart"
+				}
+				{
+					id: "3C808175EA04F4B9"
+					type: "custom"
+					title: "Repeatable"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
 	]
 }

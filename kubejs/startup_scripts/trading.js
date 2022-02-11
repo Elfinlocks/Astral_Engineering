@@ -556,6 +556,7 @@ onEvent('item.registry', event => {
 		simple("Scoria", CR('scoria', 16), 3, S, 0x2A130C, 0x553427)
 		simple("Dark Scoria", CR('dark_scoria', 16), 3, S, 0x0D0706, 0x23201A)
 		simple("Obsidian", MC('obsidian', 1), 8, S, 0x05030A, 0x36234C)
+		simple("Warped Wart", MC('warped_wart_block', 1), 4, S, 0x05030A, 0x36234C)
 		
 		next_group()
 		entry_cost = 10
