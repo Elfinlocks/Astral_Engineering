@@ -800,6 +800,8 @@
 				"Before you can really kick off producing massive assembly lines, you need to make some basic components."
 				""
 				"Start with some unassembled PCBs, as well as a bucket or two of etching acid."
+				""
+				"Hint: You can also make etching acid via a &6Mixer&r!"
 			]
 			dependencies: ["494397B38532DCE7"]
 			optional: true
@@ -1261,8 +1263,7 @@
 			x: -5.0d
 			y: -7.5d
 			shape: "gear"
-			subtitle: "Refer to the Controller in JEI for assembly."
-			description: ["You can now assemble the &6Alchemical Synthesizer!&r This grants you access to the hidden &6Alchemical Synthesis&r chapter, which will teach you how to use all of the unique recipes!"]
+			description: ["You now have all the necessities for &6Alchemical Synthesis!&r This grants you access to the hidden &6Alchemical Synthesis&r chapter, which will teach you how to use all of the unique recipes!"]
 			dependencies: ["3CAD4BCE2729EDEA"]
 			hide: true
 			size: 1.25d

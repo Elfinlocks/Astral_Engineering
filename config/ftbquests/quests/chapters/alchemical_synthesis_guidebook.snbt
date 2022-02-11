@@ -4,27 +4,563 @@
 	order_index: 0
 	filename: "alchemical_synthesis_guidebook"
 	title: "Alchemical Synthesis Guidebook"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "alchemistry:alchemistry_book"
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		icon: {
-			id: "patchouli:guide_book"
-			Count: 1b
-			tag: {
-				"patchouli:book": "alchemistry:alchemistry_book"
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book"
+				}
 			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "The following quests will teach you all the how-to's!"
+			description: [
+				"Welcome to the &6Alchemical Synthesis&r chapter. This optional quest chain will teach you all of the custom recipes available to you."
+				""
+				"I recommend starting off simple, with something like &6Andesite&r."
+			]
+			dependencies: ["4BA5452F2C0A2536"]
+			hide: true
+			id: "1D2E018F498EA928"
+			tasks: [{
+				id: "25153E85326D09B7"
+				type: "checkmark"
+				title: "Welcome To Alchemical Synthesis!"
+			}]
 		}
-		x: 0.0d
-		y: 0.0d
-		subtitle: "The following quests will teach you all the how-to's!"
-		description: ["Welcome to the &6Alchemical Synthesis&r chapter. This optional quest chain will teach you all of the custom recipes available through the multiblock."]
-		dependencies: ["4BA5452F2C0A2536"]
-		hide: true
-		id: "1D2E018F498EA928"
-		tasks: [{
-			id: "25153E85326D09B7"
-			type: "checkmark"
-			title: "Welcome To Alchemical Synthesis!"
-		}]
-	}]
+		{
+			title: "Ender Pearls: COMPLETE!"
+			x: -3.75d
+			y: -6.0d
+			shape: "diamond"
+			description: ["Combine Neodynium, Mercury, and Impure Silicon in a &6Heated&r basin to obtain &6Ender Pearls&r."]
+			dependencies: ["002C3D296FFD07A3"]
+			size: 1.5d
+			id: "66B6EC1ABD45676C"
+			tasks: [{
+				id: "739A2EEF74D2CF3B"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			title: "Blaze Rods: COMPLETE!"
+			x: 4.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["Combine 16 &6Germanium&r, 1 &6Coal Coke&r, and 1 &6Sulfur Dust&r in a &6Superheated&r basin to get &6Blaze Rods!&r"]
+			dependencies: ["7A335971B97671E8"]
+			size: 1.5d
+			id: "62BED21C69554372"
+			tasks: [{
+				id: "7B2E87BF8D1E3EE9"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Netherite Scrap: COMPLETE!"
+			x: -2.0d
+			y: 6.0d
+			shape: "diamond"
+			description: ["Although you can't synthesize a perfect form, you can combine &6Carbonate&r with &6HOP GRaphite Dust&r to obtain &6Netherite Scrap!&r"]
+			dependencies: ["60DE23654EAF3136"]
+			size: 1.5d
+			id: "76A26D33C03F3034"
+			tasks: [{
+				id: "3E80A335E2C5A637"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			title: "Andesite: COMPLETE!"
+			icon: "minecraft:andesite"
+			x: 0.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["Combine your liquid Oxygen and Impure Silicon in a &6Heated&r basin to create Andesite!"]
+			dependencies: ["4BB881F6804037B5"]
+			size: 1.5d
+			id: "120DD8D83217950E"
+			tasks: [{
+				id: "4560B161C95CD8B6"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			title: "Slimeballs: COMPLETE!"
+			x: -4.5d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Combine &6Carbonate&6, any &6raw meat&r, and &6Liquid Hydrogen&r to make Slimeballs!"]
+			dependencies: [
+				"60DE23654EAF3136"
+				"15E6304E446DA0C9"
+			]
+			size: 1.5d
+			id: "7211058428CF12AA"
+			tasks: [{
+				id: "41AF8676B90B6386"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			title: "Glowstone: COMPLETE!"
+			x: -4.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Combine 2 &6Apatite&r with &6Liquid Hydrogen&r to get &6Glowstone!&r"]
+			dependencies: ["15E6304E446DA0C9"]
+			size: 1.5d
+			id: "3BE1779126E3F7F5"
+			tasks: [{
+				id: "3AA4942F27406AFF"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			title: "Shiny..."
+			x: 5.5d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"Use a &6Mixer&r to combine charged quartz with Liquid Starlight to produce &6Blank Runes&r."
+				""
+				"Not at useful as Botania Runes, but they look pretty."
+			]
+			dependencies: ["0C89113628B98830"]
+			size: 1.5d
+			id: "0C8338AC2A3A4DF6"
+			tasks: [{
+				id: "5CD9EA474BB02EE5"
+				type: "item"
+				item: "quark:blank_rune"
+			}]
+		}
+		{
+			title: "Xion Crystals: COMPLETE!"
+			x: 5.5d
+			y: 5.0d
+			shape: "diamond"
+			description: ["Fill a &6Charged Quartz&r with &6Liquid Starlight&r to get &6Xion Crystals!&r"]
+			dependencies: ["0C89113628B98830"]
+			size: 1.5d
+			id: "7E18AC2E8E2501DB"
+			tasks: [{
+				id: "1C64F1A121D6ED00"
+				type: "item"
+				item: "tardis:xion_crystal"
+			}]
+		}
+		{
+			title: "Synthetic Quartz?!"
+			x: 4.0d
+			y: 4.0d
+			description: ["Use a &6Spout&r to fill Certus Quartz with Destabilized Redstone. The energy will charge it right up!"]
+			dependencies: ["6CC53E02D85DB028"]
+			id: "0C89113628B98830"
+			tasks: [{
+				id: "412ECB91894C8E1D"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			title: "Purified Silicon: COMPLETE!"
+			icon: "boss_tools:silicon_ingot"
+			x: 13.5d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"Finally, process the dirty Silicon dust in an &6Enrichment Chamber&r to get purified Silicon dust!"
+				""
+				"Did you beat any space travelers to it?"
+			]
+			dependencies: ["0CC8BEB7AF727B40"]
+			size: 1.5d
+			id: "4EB687BBF17AF2DC"
+			tasks: [{
+				id: "4377B637F9AC0C71"
+				type: "item"
+				item: "libvulpes:dustsilicon"
+			}]
+		}
+		{
+			title: "Dilithium: COMPLETE!"
+			icon: "libvulpes:gemdilithium"
+			x: 13.5d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"Finally, combine the liquid Uranium Oxide and Lithium with the Ender Dust to obtain &6Dilithium Dust!&r"
+				""
+				"Did you manage to beat any space farers to it?"
+			]
+			dependencies: ["6725959692D9E75C"]
+			size: 1.5d
+			id: "587F507B56DC42F4"
+			tasks: [{
+				id: "57F8F9F5C9B995B3"
+				type: "item"
+				item: "libvulpes:dustdilithium"
+			}]
+		}
+		{
+			title: "The Essentials: Fluid Convertatron"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "This machine may come in handy."
+			description: ["Some recipes will require fluid forms of gases. The rotary condensentrator offers an easy way to accomplish this."]
+			dependencies: ["2BDF9AF134CA5E74"]
+			optional: true
+			id: "7917EF577DF69FD8"
+			tasks: [{
+				id: "3FDF60CB33915816"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "2EFE6EBA7512D874"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 5
+			}]
+		}
+		{
+			title: "Andesite: Step 1"
+			icon: "appliedenergistics2:silicon"
+			x: 0.0d
+			y: -2.0d
+			description: ["First, you'll need some impure silicon."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "6736CB17BDF4415D"
+			tasks: [{
+				id: "07D7BA91B8B401E4"
+				type: "checkmark"
+				title: "Impure Silicon Obtained!"
+			}]
+		}
+		{
+			title: "Andesite: Step 2"
+			icon: "mekanism:oxygen_bucket"
+			x: 0.0d
+			y: -4.0d
+			description: ["Next, you will need &6Liquid Oxygen&r. You can obtain this by sending Oxygen gas through a &6Rotary Condensentrator&r, or via a &6Liquifier&r."]
+			dependencies: ["6736CB17BDF4415D"]
+			id: "4BB881F6804037B5"
+			tasks: [{
+				id: "4B290435BB63D39B"
+				type: "checkmark"
+				title: "Liquid Oxygen Obtained!"
+			}]
+		}
+		{
+			title: "Heating The Cauldron"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "If you haven't made a Blaze Burner yet, you'll need one."
+			dependencies: ["1D2E018F498EA928"]
+			optional: true
+			id: "3490833DE36263D4"
+			tasks: [{
+				id: "40071D47B48B54EA"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "484AA392833926E0"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			title: "The Essentials, Part 1"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "If you haven't made one already, an Electrolytic Separator will come in handy here."
+			dependencies: ["1D2E018F498EA928"]
+			optional: true
+			id: "2BDF9AF134CA5E74"
+			tasks: [{
+				id: "306150006EC2B9C3"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "5888AF2E5E4317B3"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 5
+			}]
+		}
+		{
+			title: "Blaze Rods: Step 1"
+			icon: "chemlib:element_germanium"
+			x: 1.5d
+			y: -1.5d
+			description: ["First, you will need pure &6Germanium&r. You can obtain this by putting &6Nether Wart&r into your &6Chemical Dissolver&r."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "2279D3DD9E436A17"
+			tasks: [{
+				id: "6DB0B3964341B926"
+				type: "checkmark"
+				title: "Germanium Obtained!"
+			}]
+		}
+		{
+			title: "Blaze Rods: Step 2"
+			icon: "thermal:sulfur_dust"
+			x: 3.0d
+			y: -3.0d
+			description: ["Next, you will need &6Sulfur Dust&r and &6Coal Coke&r."]
+			dependencies: ["2279D3DD9E436A17"]
+			id: "7A335971B97671E8"
+			tasks: [{
+				id: "13D677CA8C4BE3DC"
+				type: "checkmark"
+				title: "Blazing Essentials!"
+			}]
+		}
+		{
+			title: "Magmatic Melting!"
+			x: 0.0d
+			y: 2.0d
+			description: ["A &6Magma Crucible&r allows you to melt down items into liquid form. You'll need one for the next recipes."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "42F408959060B74B"
+			tasks: [{
+				id: "1F2DE43D2735356F"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "75E638675FA1AFF8"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Destabilization"
+			icon: "thermal:redstone_bucket"
+			x: 0.0d
+			y: 4.0d
+			description: ["Melt down some &6Redstone&r in your Magma Crucible to obtain &6Destabilized Redstone&r."]
+			dependencies: ["42F408959060B74B"]
+			id: "6CC53E02D85DB028"
+			tasks: [{
+				id: "15A0827BF59C0AF6"
+				type: "checkmark"
+				title: "Redstone: Destabilized!"
+			}]
+		}
+		{
+			title: "Warped Warts"
+			x: -2.0d
+			y: -4.0d
+			description: ["Dissolve &6Warped Wart&r blocks to obtain &6Neodymium&r and &6Mercury&r."]
+			dependencies: ["6736CB17BDF4415D"]
+			id: "002C3D296FFD07A3"
+			tasks: [{
+				id: "5AB0489948098BF0"
+				type: "item"
+				item: "minecraft:warped_wart_block"
+			}]
+		}
+		{
+			title: "Building Blocks of Life"
+			x: -2.0d
+			y: 2.0d
+			description: ["Put Coal or Diamonds in a Chemical Dissolver to obtain pure &6Carbon&r."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "5D1D50DA01AFFD0C"
+			tasks: [{
+				id: "29D82B3777343D37"
+				type: "item"
+				item: "chemlib:element_carbon"
+			}]
+		}
+		{
+			title: "Oxygenating"
+			x: -2.0d
+			y: 4.0d
+			description: ["Fill the Carbon with &6Liquid Oxygen&r to obtain basic &6Carbonate&r."]
+			dependencies: ["5D1D50DA01AFFD0C"]
+			id: "60DE23654EAF3136"
+			tasks: [{
+				id: "0F0CEA9D13559336"
+				type: "item"
+				item: "chemlib:compound_carbonate"
+			}]
+		}
+		{
+			title: "Liquified Elements"
+			icon: "mekanism:hydrogen_bucket"
+			x: -2.0d
+			y: 0.0d
+			description: ["Liquid Hydrogen is used in a variety of recipes. Create some via a &6Liquifier&r or a &6Rotary Condensentrator&r."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "15E6304E446DA0C9"
+			tasks: [{
+				id: "4409CA2C6FFBBC01"
+				type: "checkmark"
+				title: "Liquid Hydrogen Obtained!"
+			}]
+		}
+		{
+			title: "Chemical Compounds"
+			x: 1.5d
+			y: 1.5d
+			description: ["Put &6Soul Sand&r in a Chemical Dissolver to obtain &6Silicon Dioxide&r."]
+			dependencies: ["1D2E018F498EA928"]
+			id: "0729CABE18E4084D"
+			tasks: [{
+				id: "30873B4E06D17B3F"
+				type: "item"
+				item: "chemlib:compound_silicon_dioxide"
+			}]
+		}
+		{
+			title: "Rose Quarts: COMPLETE!"
+			x: 4.0d
+			y: 1.5d
+			shape: "diamond"
+			description: ["Combine &6Silicon Dioxide&r with &6Destabilized Redstone&r to get &6Rose Quartz&r."]
+			dependencies: [
+				"0729CABE18E4084D"
+				"6CC53E02D85DB028"
+			]
+			size: 1.5d
+			id: "1F7BF7294B92A507"
+			tasks: [{
+				id: "69D436FD0B992AAD"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			title: "Silicon Purification: Part 1"
+			icon: "pneumaticcraft:etching_acid_bucket"
+			x: 5.5d
+			y: -1.0d
+			description: ["To purify &6Silicon&r, you'll first need &6Etching Acid&r. You can make it in a Mixer or a Pressure Chamber."]
+			dependencies: ["7917EF577DF69FD8"]
+			id: "32BDBEBB2BCA3457"
+			tasks: [{
+				id: "1299765A0A08007F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Silicon Purification: Part 2"
+			x: 7.5d
+			y: -1.0d
+			description: ["Next, &6Superheat&r a container of Etching Acid with 5 &6Impure Silicon&r inside to get a shard of &6Crystallized Silicon&r."]
+			dependencies: ["32BDBEBB2BCA3457"]
+			id: "7613018C9251A9F7"
+			tasks: [{
+				id: "2F26C2347053763C"
+				type: "item"
+				item: "jaopca:mekanism_shards.silicon"
+			}]
+		}
+		{
+			title: "Silicon Purification: Part 3"
+			x: 9.5d
+			y: -1.0d
+			description: ["Next, send it through a &6Purification Chamber&r to get a Silicon Clump."]
+			dependencies: ["7613018C9251A9F7"]
+			id: "7ACBBFF5E75FA0A2"
+			tasks: [{
+				id: "13381EE1E41ABB30"
+				type: "item"
+				item: "jaopca:mekanism_clumps.silicon"
+			}]
+		}
+		{
+			title: "Dilithium Synthesis: Part 1"
+			icon: "mekanism:lithium_bucket"
+			x: 5.5d
+			y: 1.0d
+			description: ["To synthesize &6Dilithium&r, you'll first need Lithium in its &6liquid form&r. In order to do this, you'll need to liquify pure, elemental Lithium. I recommend obtaining this by dissolving &6End Stone&r."]
+			dependencies: ["7917EF577DF69FD8"]
+			id: "7A6DF5611DDC9295"
+			tasks: [{
+				id: "30877E35CF901933"
+				type: "checkmark"
+				title: "Dilithium Synthesis: Part 1"
+			}]
+		}
+		{
+			title: "Dilithium Synthesis: Part 3"
+			icon: "mekanism:uranium_oxide_bucket"
+			x: 9.5d
+			y: 1.0d
+			description: ["Turn the gaseous Uranium Oxide into its &6liquid form&r with your Rotary Condensentrator."]
+			dependencies: ["11EBAA3A57A574BD"]
+			id: "67D5AB6D472D779E"
+			tasks: [{
+				id: "6BCB0519C68FA014"
+				type: "checkmark"
+				title: "Uranium Oxide Obtained!"
+			}]
+		}
+		{
+			title: "Dilithium Synthesis: Part 4"
+			x: 11.5d
+			y: 1.0d
+			description: ["Next, create some &6Purified Ender Pearl Dust&r."]
+			dependencies: ["67D5AB6D472D779E"]
+			id: "6725959692D9E75C"
+			tasks: [{
+				id: "2A89D080690C978D"
+				type: "item"
+				item: "betterendforge:ender_dust"
+			}]
+		}
+		{
+			title: "Dilithium Synthesis: Part 2"
+			x: 7.5d
+			y: 1.0d
+			description: [
+				"Next, you will need to send Uranium Ingots through an &6Enrichment Chamber&r. This will provide you with &6Yellow Cake Uranium&r. "
+				""
+				"Process this Yellow Uranium through a &6Chemical Oxidizer&r to get Uranium Oxide."
+			]
+			dependencies: ["7A6DF5611DDC9295"]
+			id: "11EBAA3A57A574BD"
+			tasks: [{
+				id: "4A25865258204735"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			title: "Silicon Purification: Part 4"
+			x: 11.5d
+			y: -1.0d
+			description: ["Process the clump in a &6Crusher&r to obtain dirty Silicon dust."]
+			dependencies: ["7ACBBFF5E75FA0A2"]
+			id: "0CC8BEB7AF727B40"
+			tasks: [{
+				id: "4AD81FDE2BDB57B8"
+				type: "item"
+				item: "jaopca:mekanism_dirty_dusts.silicon"
+			}]
+		}
+	]
 }
