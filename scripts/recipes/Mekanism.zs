@@ -37,6 +37,7 @@ craftingTable.removeRecipe(<item:mekanism:teleportation_core>);
 craftingTable.removeRecipe(<item:mekanism:configurator>);
 craftingTable.removeRecipe(<item:mekanism:electrolytic_separator>);
 craftingTable.removeRecipe(<item:mekanism:pressurized_reaction_chamber>);
+craftingTable.removeRecipe(<item:mekanism:cardboard_box>);
 
 craftingTable.addShaped("chemical_washer", <item:mekanism:chemical_washer>, [
 	[<tag:items:forge:ingots/refined_obsidian>, <item:pneumaticcraft:small_tank>, <tag:items:forge:ingots/refined_obsidian>],
@@ -52,11 +53,6 @@ craftingTable.addShaped("pressurized_reaction_chamber", <item:mekanism:pressuriz
 	[<tag:items:forge:ingots/steel>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/steel>],
 	[<item:mekanism:ultimate_control_circuit>, <item:mekanism:enrichment_chamber>, <item:mekanism:ultimate_control_circuit>],
 	[<item:mekanism:basic_chemical_tank>, <item:mekanism:dynamic_tank>, <item:mekanism:basic_chemical_tank>]]);
-
-craftingTable.addShaped("cardboard_box", <item:mekanism:cardboard_box>, [
-	[<tag:items:forge:sawdust>, <tag:items:forge:sawdust>, <tag:items:forge:sawdust>],
-	[<tag:items:forge:sawdust>, <item:cyclic:ender_eye_reuse>, <tag:items:forge:sawdust>],
-	[<tag:items:forge:sawdust>, <tag:items:forge:sawdust>, <tag:items:forge:sawdust>]]);
 
 craftingTable.addShaped("electrolytic_separator", <item:mekanism:electrolytic_separator>, [
 	[<item:pneumaticcraft:compressed_iron_gear>, <item:mekanism:enriched_redstone>, <item:pneumaticcraft:compressed_iron_gear>],
