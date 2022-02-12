@@ -1,7 +1,7 @@
 {
   "controllerId": "noc",
   "textureOverride": "immersiveengineering:block/metal/storage_steel",
-  "name": "Nitrogen Oxygen Compressor",
+  "name": "NOC",
   "ports": [
     {
       "type": "masterfulmachinery:items",
