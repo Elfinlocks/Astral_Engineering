@@ -47,8 +47,8 @@
       "id": "air",
       "data": {
         "volume": 10000,
-		"dangerPressure": 4,
-		"criticalPressure": 5
+		"dangerPressure": 9,
+		"criticalPressure": 10
 		}
 	}
   ]
