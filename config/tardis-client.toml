@@ -3,7 +3,7 @@
 	#Toggle whether to render the Bigger On the Inside effect on the Tardis Interior Door and Exterior block
 	#Server Owners: BOTI Packets cannot be disabled on server side because they need to be sent to allow BOTI to update
 	#BOTI packets will only be processed on the server if the portal needs to update.
-	enableBoti = true
+	enableBoti = false
 	#List entity ids that will be blacklisted from rendering in the Bigger On the Inside Effect
 	#Example: minecraft:ender_dragon
 	#Seperate every entry except the last one with commas
