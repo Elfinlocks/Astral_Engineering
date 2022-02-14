@@ -39,7 +39,7 @@ craftingTable.removeRecipe(<item:alchemistry:liquifier>);
 
 <recipetype:create:mixing>.addRecipe("chem_andesite", "heated", <item:minecraft:andesite>, [<item:appliedenergistics2:silicon>], [<fluid:mekanism:oxygen> * 150]);
 
-<recipetype:create:mixing>.addRecipe("chem_slime_balls", "heated", <item:minecraft:slime_ball>, [<item:chemlib:compound_carbonate> * 16, <tag:items:forge:rawmeats>], [<fluid:mekanism:hydrogen> * 150]);
+<recipetype:create:mixing>.addRecipe("chem_slime_balls", "heated", <item:minecraft:slime_ball>, [<item:chemlib:compound_carbonate> * 16, <tag:items:forge:foods/meat/raw>], [<fluid:mekanism:hydrogen> * 150]);
 
 <recipetype:create:mixing>.addRecipe("chem_glowstone", "heated", <item:minecraft:glowstone_dust>, [<item:thermal:apatite> * 2], [<fluid:mekanism:hydrogen> * 50]);
 

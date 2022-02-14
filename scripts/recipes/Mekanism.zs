@@ -69,8 +69,6 @@ craftingTable.addShaped("gas_generator", <item:mekanismgenerators:gas_burning_ge
 	[<item:mekanism:steel_casing>, <item:mekanism:electrolytic_core>, <item:mekanism:steel_casing>],
 	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:alloy_reinforced>, <item:immersiveengineering:plate_aluminum>]]);
 
-craftingTable.addShapeless("salt", <item:mekanism:salt>, [<tag:items:forge:water>, <tag:items:forge:tool_pot/pot>]);
-
 craftingTable.addShapeless("salt2", <item:mekanism:salt> * 4, [<item:mekanism:block_salt>]);
 
 craftingTable.addShaped("configurator", <item:mekanism:configurator>, [

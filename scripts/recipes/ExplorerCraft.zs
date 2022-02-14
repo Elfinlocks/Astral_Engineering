@@ -51,4 +51,4 @@ craftingTable.removeRecipe(<item:explorercraft:welsh_rarebit>);
 
 // Fixing Recipe 
 
-craftingTable.addShapeless("rarebit", <item:explorercraft:welsh_rarebit>, [<tag:items:forge:crops/leek>, <item:explorercraft:cheese>, <tag:items:forge:eggs>, <tag:items:forge:bread>]);
+craftingTable.addShapeless("rarebit", <item:explorercraft:welsh_rarebit>, [<tag:items:forge:crops/onion>, <item:explorercraft:cheese>, <tag:items:forge:eggs>, <tag:items:forge:bread>]);
