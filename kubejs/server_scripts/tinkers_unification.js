@@ -88,8 +88,8 @@ event.remove({id: 'tconstruct:smeltery/casting/metal/zinc/nugget_gold_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/zinc/block'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/iron/rod_gold_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/iron/rod_sand_cast'})
-event.remove({id: 'tconstruct:compat/create/andesite_alloy_iron')}
-event.remove({id: 'tconstruct:compat/create/andesite_alloy_zinc')}
+event.remove({id: 'tconstruct:compat/create/andesite_alloy_iron'})
+event.remove({id: 'tconstruct:compat/create/andesite_alloy_zinc'})
 
 // ============================================================= New Recipes =============================================================
 

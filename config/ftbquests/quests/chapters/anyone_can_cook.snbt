@@ -69,6 +69,7 @@
 				id: "09D6C85F39EDEF24"
 				type: "item"
 				item: "farmersdelight:ham"
+				consume_items: true
 			}]
 			rewards: [{
 				id: "17EDEFE324CBA6E2"
@@ -213,7 +214,7 @@
 		}
 		{
 			title: "Fine Dining"
-			x: 0.5d
+			x: 1.0d
 			y: 3.0d
 			subtitle: "Create some of the finest meals known to man."
 			dependencies: ["484335796DA3D55B"]
@@ -223,31 +224,37 @@
 					id: "4E72DE008FAAC3A3"
 					type: "item"
 					item: "farmersdelight:stuffed_pumpkin_block"
+					consume_items: true
 				}
 				{
 					id: "33B7019E1DFCCCF2"
 					type: "item"
 					item: "farmersdelight:honey_glazed_ham_block"
+					consume_items: true
 				}
 				{
 					id: "4B05D4A74B5D6174"
 					type: "item"
 					item: "farmersdelight:roast_chicken_block"
+					consume_items: true
 				}
 				{
 					id: "7448A3B0A2B0680F"
 					type: "item"
 					item: "crockpot:surf_n_turf"
+					consume_items: true
 				}
 				{
 					id: "590E54B1C7D76DEE"
 					type: "item"
 					item: "crockpot:tropical_bouillabaisse"
+					consume_items: true
 				}
 				{
 					id: "7C7ABC39B10E3AA6"
 					type: "item"
 					item: "crockpot:tea"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -353,13 +360,14 @@
 			x: 3.0d
 			y: 3.0d
 			subtitle: "Honey is a valuable ingredient in the kitchen. Make sure you have an ample supply of it."
-			description: ["Tip: Using mana, you may be able to create honey from alternative ingredients."]
+			description: [""]
 			dependencies: ["484335796DA3D55B"]
 			id: "294428D258FCD574"
 			tasks: [{
 				id: "2BDEB2F9AEDD563E"
 				type: "item"
 				item: "minecraft:honey_bottle"
+				consume_items: true
 			}]
 			rewards: [{
 				id: "27C94193BA71C392"
@@ -393,7 +401,7 @@
 		}
 		{
 			title: "Pie"
-			x: -0.5d
+			x: 0.0d
 			y: 3.0d
 			subtitle: "Pie."
 			dependencies: ["484335796DA3D55B"]
@@ -403,36 +411,37 @@
 					id: "4BCB677B79133BD7"
 					type: "item"
 					item: "farmersdelight:apple_pie"
+					consume_items: true
 				}
 				{
 					id: "75989A9A2E3DB997"
 					type: "item"
 					item: "farmersdelight:chocolate_pie"
+					consume_items: true
 				}
 				{
 					id: "69D3ECF8F8F851B2"
 					type: "item"
 					item: "minecraft:pumpkin_pie"
+					consume_items: true
 				}
 				{
 					id: "5A60F17DA1E19B19"
 					type: "item"
 					item: "farmersdelight:shepherds_pie_block"
+					consume_items: true
 				}
 				{
-					id: "3194332E2B5D9A0F"
+					id: "320AC232E9A0AAE3"
 					type: "item"
-					item: "pamhc2foodextended:blueberrypieitem"
+					item: "byg:green_apple_pie"
+					consume_items: true
 				}
 				{
-					id: "00B8C0E064D00A36"
+					id: "3851FD1712B47BF4"
 					type: "item"
-					item: "pamhc2foodextended:cherrypieitem"
-				}
-				{
-					id: "164BB6C837B0F411"
-					type: "item"
-					item: "pamhc2foodextended:peachpieitem"
+					item: "byg:blueberry_pie"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -443,7 +452,7 @@
 		}
 		{
 			title: "Not a lie"
-			x: -1.5d
+			x: -1.0d
 			y: 3.0d
 			subtitle: "Craft one of every available cake."
 			dependencies: ["484335796DA3D55B"]
@@ -453,31 +462,37 @@
 					id: "3F28C7259103F2AA"
 					type: "item"
 					item: "minecraft:cake"
+					consume_items: true
 				}
 				{
 					id: "76555301E6027A61"
 					type: "item"
 					item: "farmersdelight:sweet_berry_cheesecake"
+					consume_items: true
 				}
 				{
-					id: "64A06D2A757C8FB9"
+					id: "36FECEA6FCE629AD"
 					type: "item"
-					item: "pamhc2foodcore:chocolatecakeitem"
+					item: "crockpot:pow_cake"
+					consume_items: true
 				}
 				{
-					id: "62EC5B756EC1D4F2"
+					id: "01D42A0D3331A540"
 					type: "item"
-					item: "pamhc2foodcore:cheesecakeitem"
+					item: "create:blaze_cake"
+					consume_items: true
 				}
 				{
-					id: "2C43002CD9815F0E"
+					id: "6BB200FC1E58CCFD"
 					type: "item"
-					item: "pamhc2foodcore:pumpkincheesecakeitem"
+					item: "createaddition:chocolate_cake"
+					consume_items: true
 				}
 				{
-					id: "2B9068F76132D67F"
+					id: "0C2BC7E7DB88EA92"
 					type: "item"
-					item: "pamhc2foodcore:carrotcakeitem"
+					item: "createaddition:honey_cake"
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -578,11 +593,19 @@
 			description: ["Make yourself a saucepan, and you can start cooking up Chocolate! This stuff is very useful for making Stamina Vessels (see Handy Tools quest chapter)."]
 			dependencies: ["484335796DA3D55B"]
 			id: "7240F78BAAF1E2AD"
-			tasks: [{
-				id: "7A40DAD4F90D67B5"
-				type: "item"
-				item: "pamhc2foodcore:saucepanitem"
-			}]
+			tasks: [
+				{
+					id: "27CEB6A3607A7CCE"
+					type: "item"
+					item: "minecraft:sugar"
+					count: 5L
+				}
+				{
+					id: "65B1EB6834848DA4"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
 			rewards: [
 				{
 					id: "5EDEE9C12EB27F6A"
@@ -722,95 +745,47 @@
 					id: "668D819E5674C4CC"
 					type: "item"
 					item: "crockpot:bone_stew"
-				}
-				{
-					id: "4C777DED47747A26"
-					type: "item"
-					item: "pamhc2foodextended:chickennoodlesoupitem"
+					consume_items: true
 				}
 				{
 					id: "41F6E8F8EFE518CC"
 					type: "item"
 					item: "farmersdelight:baked_cod_stew"
+					consume_items: true
 				}
 				{
 					id: "004A58227FBF133E"
 					type: "item"
 					item: "farmersdelight:beef_stew"
+					consume_items: true
 				}
 				{
 					id: "4A1F51350849D81D"
 					type: "item"
 					item: "farmersdelight:noodle_soup"
+					consume_items: true
 				}
 				{
-					id: "41889653EEE57D54"
+					id: "466782381BF3AF3E"
 					type: "item"
-					item: "minecraft:mushroom_stew"
+					item: "farmersdelight:chicken_soup"
+					consume_items: true
+				}
+				{
+					id: "336051E2F06FE524"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+					consume_items: true
+				}
+				{
+					id: "0ED4D11BDE22B354"
+					type: "item"
+					item: "farmersdelight:pumpkin_soup"
+					consume_items: true
 				}
 			]
 			rewards: [{
 				id: "78E6DDD6B4D1504E"
-				type: "item"
-				item: "paraglider:heart_container"
-			}]
-		}
-		{
-			title: "Permanent Sugar High"
-			x: 1.5d
-			y: 3.0d
-			subtitle: "Care for some water with that glass of sugar?"
-			dependencies: ["484335796DA3D55B"]
-			id: "7C2DF040E5FFA06C"
-			tasks: [
-				{
-					id: "294FC98F3B2204A1"
-					type: "item"
-					item: "pamhc2foodextended:cherrysodaitem"
-				}
-				{
-					id: "1220D22552B21DBE"
-					type: "item"
-					item: "pamhc2foodextended:colasodaitem"
-				}
-				{
-					id: "7EA3C3D6602FF341"
-					type: "item"
-					item: "pamhc2foodextended:gingersodaitem"
-				}
-				{
-					id: "252A4226DEF16E2C"
-					type: "item"
-					item: "pamhc2foodextended:grapefruitsodaitem"
-				}
-				{
-					id: "1AFC9A6EBCC86CDF"
-					type: "item"
-					item: "pamhc2foodextended:grapesodaitem"
-				}
-				{
-					id: "3D0C55829CEC5A5D"
-					type: "item"
-					item: "pamhc2foodextended:lemonlimesodaitem"
-				}
-				{
-					id: "0FDA6489A6407898"
-					type: "item"
-					item: "pamhc2foodextended:orangesodaitem"
-				}
-				{
-					id: "367A91549DD6D797"
-					type: "item"
-					item: "pamhc2foodextended:rootbeersodaitem"
-				}
-				{
-					id: "6B555DABEAC53BFD"
-					type: "item"
-					item: "pamhc2foodextended:strawberrysodaitem"
-				}
-			]
-			rewards: [{
-				id: "66BE77C3252CFE97"
 				type: "item"
 				item: "paraglider:heart_container"
 			}]
@@ -827,6 +802,7 @@
 				id: "5DA0CB7A1DD7AA4A"
 				type: "item"
 				item: "explorercraft:welsh_rarebit"
+				consume_items: true
 			}]
 			rewards: [{
 				id: "6196A05E18BC6E76"

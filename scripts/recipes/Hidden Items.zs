@@ -9,7 +9,6 @@ val items as IIngredient[] = [
 <item:paraglider:heart_container>,
 <item:bountifulbaubles:broken_heart>,
 <item:immersiveengineering:wire_copper>,
-<item:pamhc2foodcore:saltitem>,
 <item:kubejs:electrolysis_controller>,
 <item:thermal:dynamo_stirling>,
 <item:thermal:dynamo_numismatic>,

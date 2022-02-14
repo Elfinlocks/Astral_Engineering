@@ -177,6 +177,6 @@ s('minecraft:gold_ingot', '#forge:dusts/gold')
 s('minecraft:gold_ingot', 'create:crushed_gold_ore')
 s('thermal:cinnabar', '#forge:ores/cinnabar')
 s('thermal:apatite', '#forge:ores/apatite').xp(0.1)
-s('pamhc2foodcore:cheeseitem', 'boss_tools:moon_cheese_ore').xp(0.1)
+s('explorercraft:cheese', 'boss_tools:moon_cheese_ore').xp(0.1)
 
 })

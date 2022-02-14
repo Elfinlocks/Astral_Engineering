@@ -23,9 +23,6 @@ events.listen('block.tags', function (event) {
 
 events.listen('item.tags', function (event) {
 	event.get('forge:ores/iridium').remove('libvulpes:oreiridium')
-	event.get('forge:egg').remove('pamhc2trees:bananaitem')
-	event.get('forge:egg').remove('pamhc2trees:avocadoitem')
-	event.get('forge:egg').remove('pamhc2crops:flaxitem')
 	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_council')
 	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_demons')
 	event.get('tier_5_horns').add('mana-and-artifice:faction_horn_fey')

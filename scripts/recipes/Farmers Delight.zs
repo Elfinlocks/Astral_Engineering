@@ -5,9 +5,6 @@ craftingTable.addShaped("cooking_pot", <item:farmersdelight:cooking_pot>, [
 	[<item:minecraft:iron_ingot>, <item:minecraft:water_bucket>, <item:minecraft:iron_ingot>],
 	[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
 	
-craftingTable.addShapeless("straw", <item:farmersdelight:straw>, [<tag:items:forge:crops/wheat>, <item:pamhc2foodcore:rolleritem>]);
-
-craftingTable.addShapeless("straw2", <item:farmersdelight:straw>, [<tag:items:minecraft:straw_foragables>, <item:pamhc2foodcore:rolleritem>]);
 
 craftingTable.addShaped("organic_compost", <item:farmersdelight:organic_compost>, [
 	[<tag:items:forge:dirt>, <item:farmersdelight:straw>, <item:farmersdelight:straw>],

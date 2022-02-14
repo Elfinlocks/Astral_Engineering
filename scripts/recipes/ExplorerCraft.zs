@@ -45,11 +45,10 @@ craftingTable.removeRecipe(<item:explorercraft:ruby_sword>);
 craftingTable.removeRecipe(<item:explorercraft:leek>);
 craftingTable.removeRecipe(<item:explorercraft:leek_bowl>);
 craftingTable.removeRecipe(<item:explorercraft:cawl_bowl>);
-craftingTable.removeRecipe(<item:explorercraft:cheese>);
 craftingTable.removeRecipe(<item:explorercraft:lamb_shank_raw>);
 craftingTable.removeRecipe(<item:explorercraft:lamb_shank_cooked>);
 craftingTable.removeRecipe(<item:explorercraft:welsh_rarebit>);
 
 // Fixing Recipe 
 
-craftingTable.addShapeless("rarebit", <item:explorercraft:welsh_rarebit>, [<tag:items:forge:crops/leek>, <item:pamhc2foodcore:cheeseitem>, <item:pamhc2foodcore:butteritem>, <tag:items:forge:toast>]);
+craftingTable.addShapeless("rarebit", <item:explorercraft:welsh_rarebit>, [<tag:items:forge:crops/leek>, <item:explorercraft:cheese>, <tag:items:forge:eggs>, <tag:items:forge:bread>]);
