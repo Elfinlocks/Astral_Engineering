@@ -597,7 +597,11 @@ val items as IIngredient[] = [
 <item:thermal:signalum_coin>,
 <item:thermal:lumium_coin>,
 <item:thermal:enderium_coin>,
-<item:mekanism:cardboard_box>
+<item:mekanism:cardboard_box>,
+<item:crockpot:tomato_seeds>,
+<item:crockpot:tomato>,
+<item:crockpot:onion>,
+<item:crockpot:onion_seeds>
 ];
 
 for item in items {
