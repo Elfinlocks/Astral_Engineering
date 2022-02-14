@@ -1,7 +1,7 @@
 
 [world_gen]
 	#Config to toggle the generation of arms in snow biomes
-	arms = true
+	arms = false
 	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
 	genCatacombs = false
 	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
@@ -68,7 +68,7 @@
 	#Range: > 1
 	teleportRange = 450
 	#If this is enabled, angel teleporting can also tp the player to other dimensions
-	angelDimTeleport = false
+	angelDimTeleport = true
 	#Teleport Type - STRUCTURES: Teleports you to Structures Only - DONT: No Teleporting, only damage - RANDOM: Anywhere
 	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
 	teleportType = "RANDOM_PLACE"
@@ -77,7 +77,7 @@
 
 [block]
 	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
-	spawnFromBlocks = true
+	spawnFromBlocks = false
 
 [misc]
 	#Toggle whether santa hats are shown at Xmas
