@@ -51,3 +51,4 @@
 	#Set this value to change the chance of pepper world generation. The higher value, the less generation.
 	#Range: > 1
 	pepperGenerationChance = 16
+
