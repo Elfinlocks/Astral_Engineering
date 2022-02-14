@@ -723,11 +723,23 @@
 				type: "item"
 				item: "extendedcrafting:the_ultimate_ingot"
 			}]
+			rewards: [
+				{
+					id: "2F35E48F34A8295E"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "6AFBAF1668D870B2"
+					type: "item"
+					item: "createaddition:chocolate_cake"
+				}
+			]
 		}
 		{
 			title: "The Force of Giants, In Your Hand"
-			x: 9.0d
-			y: 0.0d
+			x: 8.5d
+			y: 3.5d
 			subtitle: "The Creative Motor offers the pinnacle of creative might!"
 			dependencies: ["294690BBCB747B25"]
 			id: "349999C2CD8A2571"
@@ -744,8 +756,8 @@
 		}
 		{
 			title: "All The Room In The World"
-			x: 10.0d
-			y: 1.5d
+			x: 7.5d
+			y: 3.5d
 			subtitle: "And still not enough space."
 			dependencies: ["294690BBCB747B25"]
 			id: "43E6347B9B0AB0C0"
@@ -762,7 +774,7 @@
 		}
 		{
 			title: "Pool of Everlasting Guilt"
-			x: 9.0d
+			x: 6.5d
 			y: 3.0d
 			subtitle: "Now you've done it, you've ruined the imbalance of the universe for some mana. Happy?"
 			dependencies: ["294690BBCB747B25"]
@@ -780,8 +792,8 @@
 		}
 		{
 			title: "Atomic Exchange"
-			x: 7.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 			subtitle: "It's like that one overpowered mod, but with science, and antimatter."
 			dependencies: ["294690BBCB747B25"]
 			id: "2F7E0DF693F3C978"
@@ -819,6 +831,24 @@
 				id: "5792E671FDF388C1"
 				type: "item"
 				item: "paraglider:heart_container"
+			}]
+		}
+		{
+			title: "High Pressure Scenario"
+			x: 9.5d
+			y: 3.0d
+			subtitle: "Yet finely tuned."
+			dependencies: ["294690BBCB747B25"]
+			id: "4301E7C43DFE7DB1"
+			tasks: [{
+				id: "09D40DC3FE2D815B"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+			rewards: [{
+				id: "1C1C34C23CED2369"
+				type: "xp"
+				xp: 2000
 			}]
 		}
 	]
