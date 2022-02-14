@@ -38,8 +38,8 @@
 	"mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"],
 	"result": "allow",
 	"customname": "Undead Astronaut",
-    "healthmultiply": 3,
-    "damagemultiply": 2,
+    "healthmultiply": 7,
+    "damagemultiply": 4,
     "armorhelmet": "boss_tools:oxygen_mask",
 	"armorboots": "boss_tools:space_boots",
 	"armorlegs": "boss_tools:space_suit",
@@ -54,6 +54,7 @@
 		"mana-and-artifice:hulking_zombie"
 	],
 	"result": "default",
+	"onjoin": true,
 	"healthmultiply": 3,
 	"maxlight": 5
   },
@@ -63,17 +64,9 @@
 		"minecraft:skeleton",
 		"minecraft:zombie"
 	],
-	"maxcount": 20
-  },
-  {
-	"dimension": "minecraft:overworld",
-	"onjoin": false,
-	"spawner": false,
-	"hostile": true,
-	"mintime": 0,
-	"maxtime": 13000,
-	"minheight": 55,
-	"result": deny 
+	"conditions": {
+		"maxcount": 20
+	}
   },
   {
 	  "dimension": "minecraft:overworld",
@@ -81,7 +74,7 @@
 	  "result": "default",
 	  "onjoin": true,
 	  "conditions": {
-		  "maxcount": 5
+		  "maxcount": 2
 	  }
   },
   {
@@ -93,7 +86,6 @@
 		"minecraft:rabbit"
 	  ],
 	  "result": "default",
-	  "onjoin": true,
 	  "conditions": {
 		  "mincount": 1
 	  }
