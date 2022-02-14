@@ -1,5 +1,4 @@
 {
-  "type": "eidolon:worktable",
   "conditions": [
     {
       "type": "forge:false"

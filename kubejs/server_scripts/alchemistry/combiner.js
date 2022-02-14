@@ -18,6 +18,8 @@ events.listen("recipes", function (event) {
 	event.remove({id: ('alchemistry:combiner/ingot_silicon')})
 	event.remove({id: ('alchemistry:combiner/ingot_neptunium')})
 	event.remove({id: ('alchemistry:combiner/ingot_plutonium')})
+	event.remove({id: ('alchemistry:dissolver/ink_sac')})
+	event.remove({id: ('alchemistry:dissolver/forge.dyes/black')})
 	
 function combiner_1input(item1, count1, result){
 	event.custom({type: 'alchemistry:combiner', group: 'minecraft:misc',
