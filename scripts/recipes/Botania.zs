@@ -24,8 +24,8 @@ craftingTable.removeRecipe(<item:mythicbotany:mana_infuser>);
 
 <recipetype:astralsorcery:altar>.addRecipe("mana_infuser", "RADIANCE", <item:mythicbotany:mana_infuser>, [
 	[<item:minecraft:air>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:botania:elementium_ingot>, <item:minecraft:air>],
-	[<item:botania:elementium_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:asgard_rune>, <item:twilightforest:fiery_ingot>, <item:botania:elementium_ingot>],
-	[<item:botania:glimmering_dreamwood>, <item:botania:rune_winter>, <item:botania:terra_plate>, <item:botania:rune_spring>, <item:twilightforest:fiery_ingot>],
+	[<item:botania:elementium_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:asgard_rune>, <item:astralsorcery:resonating_gem>, <item:botania:elementium_ingot>],
+	[<item:twilightforest:fiery_ingot>, <item:botania:rune_winter>, <item:botania:terra_plate>, <item:botania:rune_spring>, <item:twilightforest:fiery_ingot>],
 	[<item:botania:terrasteel_ingot>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:midgard_rune>, <item:astralsorcery:resonating_gem>, <item:botania:terrasteel_ingot>],
 	[<item:minecraft:air>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:botania:terrasteel_ingot>, <item:minecraft:air>]], 140, 75);
 	
