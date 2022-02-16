@@ -184,6 +184,12 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("iridium_plates", <tag:items:forge:ingots/iridium>, <item:immersiveengineering:mold_plate>, 1000, <item:libvulpes:plateiridium>);
 
+<recipetype:immersiveengineering:metal_press>.addRecipe("ie_calculation_circuit", <item:appliedenergistics2:purified_certus_quartz_crystal>, <item:immersiveengineering:mold_packing_4>, 1000, <item:appliedenergistics2:printed_calculation_processor>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("ie_engineering_circuit", <item:botania:mana_diamond>, <item:immersiveengineering:mold_packing_4>, 1000, <item:appliedenergistics2:printed_engineering_processor>);
+
+<recipetype:immersiveengineering:metal_press>.addRecipe("ie_logic_circuit", <tag:items:forge:ingots/electrum>, <item:immersiveengineering:mold_packing_4>, 1000, <item:appliedenergistics2:printed_logic_processor>);
+
 // Blueprints
 
 craftingTable.addShaped("blueprint_crafting", <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), [
