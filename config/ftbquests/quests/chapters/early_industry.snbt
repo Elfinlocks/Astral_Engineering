@@ -1312,11 +1312,11 @@
 			}]
 		}
 		{
-			title: "Step 1: Ethanol"
+			title: "Step 1: Industrial Fermenter"
 			icon: "immersiveengineering:fermenter"
 			x: 20.0d
 			y: 2.0d
-			subtitle: "This simple organic alcohol will form part of biodiesel production."
+			subtitle: "Ethanol will form part of biodiesel production."
 			description: ["Various crops can create ethanol - I recommend potatoes or sugarcane for ease of production."]
 			dependencies: ["357C8ABBFAD44DC9"]
 			id: "5CB28DA20679E52D"
@@ -1373,7 +1373,7 @@
 			]
 		}
 		{
-			title: "Step 2: Plant Oil"
+			title: "Step 2: Industrial Squeezer"
 			icon: "immersiveengineering:squeezer"
 			x: 22.0d
 			y: 2.0d
@@ -2004,6 +2004,37 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "Multiblock Madness!"
+			icon: "create:schematicannon"
+			x: 14.5d
+			y: 4.0d
+			subtitle: "This handy tool just might save your life."
+			description: [
+				"A Schematiccannon offers an easy way to build all of these multiblocks. As a courtesy, I have created some premade schematics for popular multiblocks for you - you will find them in the schematics table."
+				""
+				"Simply provide the materials, fuel with gunpowder, and let it run!"
+			]
+			dependencies: ["4AADFD307A5BCF37"]
+			id: "6E63915B00124875"
+			tasks: [
+				{
+					id: "6CF6A963D4DF92DF"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "3A2EA0F373D08948"
+					type: "item"
+					item: "create:schematic_table"
+				}
+			]
+			rewards: [{
+				id: "77C8121AFBACDCDB"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
 		}
 	]
 }
