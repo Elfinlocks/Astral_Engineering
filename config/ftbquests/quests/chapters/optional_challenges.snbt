@@ -922,5 +922,23 @@
 				xp: 2000
 			}]
 		}
+		{
+			title: "Matter Fabrication..."
+			x: 15.0d
+			y: 0.0d
+			subtitle: "...And reality alteration."
+			dependencies: ["1376D95AE1754AB5"]
+			id: "71854C52BA1756DA"
+			tasks: [{
+				id: "1630034561AAAE97"
+				type: "item"
+				item: "create:handheld_worldshaper"
+			}]
+			rewards: [{
+				id: "3B1EBF419A9C817B"
+				type: "xp"
+				xp: 2000
+			}]
+		}
 	]
 }

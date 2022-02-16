@@ -1,3 +1,7 @@
+craftingTable.removeRecipe(<item:extendedcrafting:basic_table>);
+craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
+craftingTable.removeRecipe(<item:extendedcrafting:elite_table>);
+craftingTable.removeRecipe(<item:extendedcrafting:ultimate_table>);
 craftingTable.removeRecipe(<item:extendedcrafting:redstone_ingot>);
 craftingTable.removeRecipe(<item:extendedcrafting:black_iron_ingot>);
 
