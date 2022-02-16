@@ -3,6 +3,10 @@ events.listen('fluid.tags', function (event) {
 		.add('minecraft:water')
 	event.get('minecraft:water')
 		.remove('boss_tools:oil')
+		.remove('create:chocolate')
+		.remove('create:honey')
+		.remove('boss_tools:fuel')
+		.remove('createaddition:seed_oil')
 })
 
 events.listen('block.tags', function (event) {
