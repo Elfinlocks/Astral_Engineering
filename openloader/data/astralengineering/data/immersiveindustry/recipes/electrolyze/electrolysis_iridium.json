@@ -1,0 +1,20 @@
+{
+	"type":"immersiveindustry:electrolyzer",
+	"input":{
+		"item":"libvulpes:oreiridium"
+	},
+	"fluid":{
+		"tag": "minecraft:electrolysis",
+		"amount":1000
+	},
+	"result_fluid":{
+		"fluid": "mekanism:oxygen",
+		"amount": 100
+	},
+	"result":{
+		"item":"libvulpes:dustiridium",
+		"count":1
+	},
+	"large_only":true,
+	"time": 3000
+}

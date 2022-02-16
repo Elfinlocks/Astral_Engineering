@@ -214,7 +214,7 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 	
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_steel", <item:minecraft:iron_ingot>, [<item:immersiveengineering:dust_coke>], 40, 12000, [<item:immersiveengineering:ingot_steel>], <item:immersiveengineering:slag>);
 
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_iridium", <item:libvulpes:dustiridium>, [<item:immersiveengineering:dust_coke>], 1200, 12000000, [<item:libvulpes:ingottitanium>], <item:thermal:rich_slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_iridium", <item:libvulpes:dustiridium>, [<item:immersiveengineering:dust_coke>], 1200, 12000000, [<item:libvulpes:ingotiridium>], <item:thermal:rich_slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_titanium", <item:libvulpes:dusttitanium>, [<item:immersiveengineering:dust_coke>], 1200, 12000000, [<item:libvulpes:ingottitanium>], <item:thermal:rich_slag>);
 

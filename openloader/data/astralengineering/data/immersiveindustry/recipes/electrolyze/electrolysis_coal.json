@@ -1,0 +1,20 @@
+{
+	"type":"immersiveindustry:electrolyzer",
+	"input":{
+		"tag":"forge:ores/coal"
+	},
+	"fluid":{
+		"tag": "minecraft:electrolysis",
+		"amount":1000
+	},
+	"result_fluid":{
+		"fluid": "mekanism:oxygen",
+		"amount": 100
+	},
+	"result":{
+		"item":"minecraft:coal",
+		"count":3
+	},
+	"large_only":true,
+	"time": 750
+}

@@ -1,6 +1,8 @@
 events.listen('fluid.tags', function (event) {
 	event.get('electrolysis')
 		.add('minecraft:water')
+	event.get('minecraft:water')
+		.remove('boss_tools:oil')
 })
 
 events.listen('block.tags', function (event) {
