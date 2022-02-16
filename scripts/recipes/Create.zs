@@ -256,4 +256,34 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_blackdye4", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:byg:black_rose>);
 <recipetype:create:milling>.addRecipe("mill_blackdye5", [<item:minecraft:bone_meal> * 3 %100, <item:minecraft:black_dye> * 1 %25, <item:minecraft:bone_meal> * 3 % 25], <item:tconstruct:necrotic_bone>);
 
-// Shapeless Mixing Fixing 
+// Alloys
+
+<recipetype:create:mixing>.addRecipe("create_bronze_ingots", "heated", <item:thermal:bronze_ingot> * 4, [<tag:items:forge:ingots/copper> * 3, <tag:items:forge:ingots/tin>]);
+
+<recipetype:create:mixing>.addRecipe("create_bronze_ingots_2", "heated", <item:thermal:bronze_ingot> * 4, [<tag:items:forge:dusts/copper> * 3, <tag:items:forge:dusts/tin>]);
+
+<recipetype:create:mixing>.addRecipe("create_vinteum_normal", "heated", <item:mana-and-artifice:vinteum_ingot>, [<tag:items:forge:ingots/iron>, <item:mana-and-artifice:vinteum_dust>]);
+
+<recipetype:create:mixing>.addRecipe("create_vinteum_superheated", "superheated", <item:mana-and-artifice:superheated_vinteum_ingot>, [<item:mana-and-artifice:vinteum_ingot>]);
+
+<recipetype:create:mixing>.addRecipe("create_pure_vinteum_normal", "heated", <item:mana-and-artifice:purified_vinteum_ingot>, [<tag:items:forge:ingots/iron>, <item:mana-and-artifice:purified_vinteum_dust>]);
+
+<recipetype:create:mixing>.addRecipe("create_pure_vinteum_superheated", "superheated", <item:mana-and-artifice:superheated_purified_vinteum_ingot>, [<item:mana-and-artifice:purified_vinteum_ingot>]);
+
+<recipetype:create:mixing>.addRecipe("create_signalum_ingots_1", "heated", <item:thermal:signalum_ingot> * 4, [<tag:items:forge:ingots/copper> * 3, <tag:items:forge:ingots/tin>], [<fluid:thermal:redstone> * 400]);
+
+<recipetype:create:mixing>.addRecipe("create_signalum_ingots_2", "heated", <item:thermal:signalum_ingot> * 4, [<tag:items:forge:dusts/copper> * 3, <tag:items:forge:dusts/tin>], [<fluid:thermal:redstone> * 400]);
+
+<recipetype:create:mixing>.addRecipe("create_redstone_1", "superheated", <fluid:thermal:redstone> * 100, [<item:minecraft:redstone>]);
+
+<recipetype:create:mixing>.addRecipe("create_redstone_2", "superheated", <fluid:thermal:redstone> * 900, [<item:minecraft:redstone_block>]);
+
+<recipetype:create:mixing>.addRecipe("create_lumium_ingots_1", "heated", <item:thermal:lumium_ingot> * 4, [<tag:items:forge:ingots/tin> * 3, <tag:items:forge:ingots/silver>, <item:minecraft:glowstone_dust> * 2]);
+
+<recipetype:create:mixing>.addRecipe("create_lumium_ingots_2", "heated", <item:thermal:lumium_ingot> * 4, [<tag:items:forge:dusts/tin> * 3, <tag:items:forge:dusts/silver>, <item:minecraft:glowstone_dust> * 2]);
+
+<recipetype:create:mixing>.addRecipe("create_enderium_ingots_1", "heated", <item:thermal:enderium_ingot> * 2, [<tag:items:minecraft:thermal_enderium_lead> * 3, <tag:items:minecraft:thermal_enderium_ender> * 2, <tag:items:forge:dusts/diamond> * 1]);
+
+<recipetype:create:mixing>.addRecipe("create_enderium_ingots_2", "heated", <item:thermal:enderium_ingot> * 2, [<tag:items:minecraft:thermal_enderium_lead> * 3, <item:betterendforge:ender_dust>, <tag:items:forge:dusts/diamond>]);
+
+<recipetype:create:mixing>.addRecipe("create_hardened_glass", "heated", <item:thermal:obsidian_glass> * 2, [<tag:items:chipped:obsidian>, <item:minecraft:quartz>, <tag:items:forge:sand>]);

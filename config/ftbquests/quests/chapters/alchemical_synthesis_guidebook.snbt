@@ -359,7 +359,7 @@
 			icon: "thermal:redstone_bucket"
 			x: 0.0d
 			y: 4.0d
-			description: ["Melt down some &6Redstone&r in your Magma Crucible to obtain &6Destabilized Redstone&r."]
+			description: ["Melt down some &6Redstone&r to obtain &6Destabilized Redstone&r."]
 			dependencies: ["42F408959060B74B"]
 			id: "6CC53E02D85DB028"
 			tasks: [{
