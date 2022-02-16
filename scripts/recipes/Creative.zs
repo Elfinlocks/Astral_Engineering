@@ -52,7 +52,7 @@
 <recipetype:create:mechanical_crafting>.addRecipe("creative_exchanger", <item:exchangers:creative_exchanger>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:exchangers:exchanger_core_tier3>, <item:exchangers:end_exchanger>, <item:exchangers:exchanger_core_tier3>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:storagedrawers:creative_vending_upgrade>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
@@ -80,7 +80,7 @@
 	
 craftingTable.addShapeless("capacitor_to_cell", <item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}}), [<item:immersiveengineering:capacitor_creative>]);
 
-craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capacitor_creative>, [<<item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}})]);
+craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capacitor_creative>, [<item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}})]);
 
 // Creative WorldShaper 
 
