@@ -851,5 +851,38 @@
 				xp: 2000
 			}]
 		}
+		{
+			title: "Ultimate Exchanging"
+			x: 13.0d
+			y: 0.0d
+			subtitle: "This is not the law of equivalent exchange..."
+			id: "1376D95AE1754AB5"
+			tasks: [{
+				id: "1CFF504AE31429C1"
+				type: "item"
+				item: {
+					id: "exchangers:creative_exchanger"
+					Count: 1b
+					tag: {
+						mode: 0
+						fuzzyPlacementChance: 100
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						voidItems: 0b
+						range: 0
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3717BB6A750DA680"
+				type: "xp"
+				xp: 2000
+			}]
+		}
 	]
 }

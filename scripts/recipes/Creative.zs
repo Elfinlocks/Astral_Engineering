@@ -57,3 +57,13 @@
 	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:storagedrawers:creative_vending_upgrade>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>]]);
+	
+// Creative Artron Battery
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_artron_battery", <item:tardis:artron_battery_creative>, [
+	[<item:minecraft:air>, <item:create:refined_radiance_casing>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:refined_radiance_casing>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:mekanism:ultimate_control_circuit>, <item:tardis:artron_battery_high>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:tardis:artron_battery_high>, <item:mekanism:ultimate_energy_cube>, <item:tardis:artron_battery_high>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:mekanism:ultimate_control_circuit>, <item:tardis:artron_battery_high>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:refined_radiance_casing>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:refined_radiance_casing>, <item:minecraft:air>]]);
+	
