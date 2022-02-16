@@ -57,11 +57,10 @@
 		}
 		{
 			title: "Advanced Engineering Blocks"
-			x: 6.0d
-			y: -2.0d
+			x: -2.5d
+			y: 0.0d
 			subtitle: "These blocks will be used to construct powerful multiblock machines, such as the Excavator or Diesel Generator."
-			dependencies: ["3AED57EBD34E6829"]
-			optional: true
+			dependencies: ["350AD703B0E966AB"]
 			id: "7D4AA3C434A30047"
 			tasks: [
 				{
@@ -91,8 +90,8 @@
 		{
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
-			x: 8.0d
-			y: -4.0d
+			x: -3.5d
+			y: 2.5d
 			subtitle: "Construct the powerful Excavator, capable of generating an unlimited amount of particular ores, depending on the chunk. Requires 6,144 RF per tick."
 			dependencies: ["7B3BFD67BF675C5D"]
 			optional: true
@@ -154,14 +153,13 @@
 			]
 		}
 		{
-			title: "Diesel Generator"
+			title: "Dieselpunk"
 			icon: "immersiveengineering:diesel_generator"
-			x: 6.0d
-			y: -4.0d
+			x: -1.0d
+			y: -1.5d
 			subtitle: "Construct the Diesel Generator, which can produce up to 8,192 RF per tick using Diesel or Biodiesel."
 			description: [""]
 			dependencies: ["7D4AA3C434A30047"]
-			optional: true
 			id: "26C28AE460BABB1A"
 			tasks: [
 				{
@@ -200,18 +198,30 @@
 					count: 5L
 				}
 			]
-			rewards: [{
-				id: "1735A8C7B3EAEB34"
-				type: "item"
-				item: "immersiveengineering:ingot_steel"
-				count: 24
-			}]
+			rewards: [
+				{
+					id: "1C1F86B22FDF71C2"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+				}
+				{
+					id: "53DE7EA92E58A8BE"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					count: 8
+				}
+				{
+					id: "41FD3AC737783B5E"
+					type: "xp"
+					xp: 250
+				}
+			]
 		}
 		{
 			title: "Finally! Digital Storage!"
 			icon: "appliedenergistics2:controller"
-			x: 0.75d
-			y: -4.5d
+			x: -4.5d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "These are some of the key components for constructing an ME System. This can serve as a versatile system for managing items."
 			description: [""]
@@ -259,8 +269,8 @@
 		}
 		{
 			title: "On Our Way To The Digital Age..."
-			x: -0.5d
-			y: -2.5d
+			x: 1.0d
+			y: -2.0d
 			subtitle: "Fluix Crystals can be obtained by dropping Charged Certus Quartz, Nether Quartz, and Redstone Dust into a pool of Water."
 			description: ["Alternatively, I recommend investing some aluminum in making them via the Enrichment Chamber."]
 			dependencies: ["3AED57EBD34E6829"]
@@ -413,10 +423,16 @@
 		}
 		{
 			title: "Drilling Down..."
-			x: 8.0d
-			y: -2.0d
+			x: -5.0d
+			y: 1.5d
 			subtitle: "To determine what a particular chunk's ore vein has in it, you'll need to use a Core Sample Drill. "
-			dependencies: ["7D4AA3C434A30047"]
+			description: ["Requires completion of \"Steampunk\" or \"Dieselpunk\" quests."]
+			hide_dependency_lines: true
+			dependencies: [
+				"77755F85489AAC69"
+				"26C28AE460BABB1A"
+			]
+			dependency_requirement: "one_completed"
 			optional: true
 			id: "7B3BFD67BF675C5D"
 			tasks: [{
@@ -433,8 +449,8 @@
 		}
 		{
 			title: "First Processors"
-			x: -3.0d
-			y: -2.5d
+			x: 1.0d
+			y: -4.0d
 			subtitle: "Next, we'll need some basic processor prints. These can be made more easily via The Thermal Expansion, if you have delved into it."
 			dependencies: ["631FBD2CC11F4972"]
 			optional: true
@@ -469,8 +485,8 @@
 		}
 		{
 			title: "The Process of Engineering"
-			x: -3.0d
-			y: -4.5d
+			x: -1.5d
+			y: -4.0d
 			subtitle: "Next, create some processors using a Sequenced Assembly Line."
 			description: [""]
 			dependencies: ["4E756DC38491E2A1"]
@@ -501,152 +517,13 @@
 			}]
 		}
 		{
-			title: "Basic Electrolysis Components - Part 1"
-			icon: "immersiveengineering:storage_steel"
-			x: -4.0d
-			y: 0.0d
-			subtitle: "We're finally going to develop a process for purifying Bauxite! Aluminum is required for lots of machines going forward."
-			dependencies: ["09812AE1E82D15C5"]
-			id: "4D9E038AE2B58ACE"
-			tasks: [
-				{
-					id: "11A3A1236B4C50B0"
-					type: "item"
-					item: "immersiveengineering:storage_steel"
-					count: 29L
-				}
-				{
-					id: "35B4C3256398DDD0"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
-					count: 42L
-				}
-				{
-					id: "305EBBDE986CA7C5"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 9L
-				}
-				{
-					id: "20F5B70CED9D88C9"
-					type: "item"
-					item: "immersiveengineering:radiator"
-					count: 4L
-				}
-				{
-					id: "3FCA46857CEAA993"
-					type: "item"
-					item: "engineersdecor:halfslab_sheetmetal_steel"
-					count: 14L
-				}
-				{
-					id: "126B9D4118B759E3"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 6L
-				}
-				{
-					id: "7A414DED9B95BE91"
-					type: "item"
-					item: "immersiveengineering:stairs_steel_scaffolding_standard"
-					count: 11L
-				}
-				{
-					id: "78DA97C03A766624"
-					type: "item"
-					item: "engineersdecor:steel_floor_grating"
-					count: 6L
-				}
-			]
-			rewards: [
-				{
-					id: "374BD373457116A7"
-					type: "item"
-					item: "immersiveengineering:ingot_steel"
-					count: 32
-				}
-				{
-					id: "764280FE3132AE10"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			title: "Basic Electrolysis Components - Part 2"
-			icon: "masterfulmachinery:electrolyser_controller"
-			x: -0.5d
-			y: 0.0d
-			subtitle: "Next, we'll need to make the ports for the multiblock."
-			description: [
-				"Tip: Right-click the controller block in JEI to see how the machine is put together."
-				""
-				"Bonus Tip: Left click the square in the bottom right to view the machine's individual layers."
-				""
-				"Tip 3 - Revenge of the Tip: Hold down right click and move your mouse forwards or backwards to zoom in and out, respectively. Hold down left click and drag to rotate."
-			]
-			dependencies: ["4D9E038AE2B58ACE"]
-			id: "38A5DA68F7F259EE"
-			tasks: [
-				{
-					id: "6055D87B43C0024A"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_gas_port_mekanism_gas_output"
-				}
-				{
-					id: "4A9374BEF77FB2A5"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_item_port_items_output"
-				}
-				{
-					id: "7C8C6011BF03AEA7"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_item_port_items_input"
-				}
-				{
-					id: "2AEEA3DD1A6CB8E4"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_fluid_port_fluids_input"
-				}
-				{
-					id: "140169F3C35EF09D"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_energy_port_energy_input"
-				}
-				{
-					id: "112058010CA6585B"
-					type: "item"
-					item: "masterfulmachinery:electrolyser_controller"
-				}
-			]
-			rewards: [
-				{
-					id: "3F387EF1FB0712AC"
-					type: "xp"
-					xp: 300
-				}
-				{
-					id: "4A7D5BDA0C889EC9"
-					type: "item"
-					item: "kubejs:compounded_plastic"
-					count: 5
-				}
-				{
-					id: "08D0DAF61F50C25A"
-					type: "item"
-					item: "immersiveengineering:ingot_steel"
-					count: 24
-				}
-			]
-		}
-		{
 			title: "Finally! Aluminum Ingots!"
 			x: 3.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "The electrolysis process isolates the Aluminum from the Bauxite ore, allowing it to be smelted into ingots."
-			description: ["Tip: This process produces a small amount of excess Oxygen gas - you may find a use for it in ore processing."]
-			dependencies: ["38A5DA68F7F259EE"]
+			description: ["Tip: This process produces a small amount of excess Oxygen - you may find a use for it in ore processing."]
+			dependencies: ["6FCF434196E65C8A"]
 			size: 1.5d
 			id: "3AED57EBD34E6829"
 			tasks: [{
@@ -737,21 +614,15 @@
 			]
 			rewards: [
 				{
-					id: "71BD6CECE26A07B1"
-					type: "item"
-					item: {
-						id: "immersiveengineering:graphite_electrode"
-						Count: 1b
-						tag: {
-							graphDmg: 0
-						}
-					}
-					count: 3
-				}
-				{
 					id: "635EDBF63FDA2E9C"
 					type: "xp"
 					xp: 200
+				}
+				{
+					id: "3BA608D8E8E89506"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4
 				}
 			]
 		}
@@ -777,8 +648,8 @@
 		}
 		{
 			icon: "pneumaticcraft:assembly_platform"
-			x: -5.0d
-			y: 1.5d
+			x: -6.75d
+			y: 2.0d
 			subtitle: "This optional quest chain will teach you some tricks for advanced automation!"
 			description: ["Feel free to consult your PneumaticCraft manual during this process for additional information."]
 			dependencies: ["09812AE1E82D15C5"]
@@ -793,8 +664,8 @@
 		{
 			title: "Beginning With Basics"
 			icon: "pneumaticcraft:unassembled_pcb"
-			x: -3.5d
-			y: 2.5d
+			x: -6.75d
+			y: 4.5d
 			subtitle: "Some first-step crafting to get things started."
 			description: [
 				"Before you can really kick off producing massive assembly lines, you need to make some basic components."
@@ -828,7 +699,7 @@
 		{
 			title: "Etch-A-Sketch"
 			icon: "pneumaticcraft:etching_tank"
-			x: -3.5d
+			x: -4.5d
 			y: 4.5d
 			subtitle: "Next, some small machines are needed."
 			description: [
@@ -869,7 +740,7 @@
 		}
 		{
 			title: "Assembling!"
-			x: -1.0d
+			x: -2.5d
 			y: 4.5d
 			subtitle: "Make six assembled PCBs to continue!"
 			description: [""]
@@ -892,8 +763,8 @@
 		{
 			title: "Assembly Line Go!"
 			icon: "pneumaticcraft:assembly_controller"
-			x: -1.0d
-			y: 2.5d
+			x: -0.5d
+			y: 4.5d
 			subtitle: "Make all of these assembly line pieces to get rolling!"
 			description: [
 				"Congratulations! You now have access to streamlined methods of crafting advanced components like circuitry and electrodes!"
@@ -949,8 +820,8 @@
 					item: "xkdeco:factory_electricity"
 				}
 			}
-			x: 6.0d
-			y: 1.0d
+			x: 5.0d
+			y: 0.0d
 			description: [
 				"Your new Industrial Electrolyzer isn't just for Aluminum refining - it can also &6triple most ores&r."
 				""
@@ -973,8 +844,8 @@
 		{
 			title: "Extreme Power!"
 			icon: "immersiveengineering:wirecoil_steel"
-			x: 8.0d
-			y: 1.0d
+			x: 7.0d
+			y: 0.0d
 			subtitle: "HV Wires will bring your power transfer to the next level!"
 			description: ["Warning! These aren't called &6high voltage&r for nothing - they can shock you to death!"]
 			dependencies: ["7E669A982589507E"]
@@ -1053,7 +924,7 @@
 			title: "Spawner Assault Essentials"
 			icon: "pneumaticcraft:spawner_extractor"
 			x: 1.0d
-			y: 4.5d
+			y: 6.75d
 			subtitle: "Next, we'll need a Spawner Extractor and Vacuum Pump."
 			description: [
 				"To set this up, you will need to bring suitable equipment to apply pressure on the &6+&r side of the vacuum pump, and then connect pressure tubes on the &6-&r side to the spawner extractor."
@@ -1091,8 +962,8 @@
 		}
 		{
 			title: "Claim Your Prize!"
-			x: 1.0d
-			y: 6.5d
+			x: -2.5d
+			y: 6.75d
 			subtitle: "That wasn't so bad, was it?"
 			description: ["When finished, the spawner extractor should drop out the spawner's core. You are now free to mine the empty spawner - silk touch not required!"]
 			dependencies: ["38A4FF4DDDDBD9A0"]
@@ -1118,8 +989,8 @@
 		}
 		{
 			title: "Your Own Mob Farm"
-			x: -1.0d
-			y: 6.5d
+			x: -6.75d
+			y: 6.75d
 			shape: "gear"
 			subtitle: "Time to set things up."
 			description: ["A Pressurized Spawner offers a highly configurable way to set up mob farms. You can even customize spawners to output mobs of your choosing!"]
@@ -1181,7 +1052,7 @@
 		}
 		{
 			title: "Chemical Dissolution"
-			x: -5.0d
+			x: -6.75d
 			y: -5.5d
 			subtitle: "A Chemical Dissolver provides a method of obtaining base elements."
 			description: ["This will streamline the process of obtaining any base elements you may need."]
@@ -1210,8 +1081,8 @@
 		}
 		{
 			icon: "chemlib:element_hydrogen"
-			x: -5.0d
-			y: -1.5d
+			x: -6.75d
+			y: -2.5d
 			subtitle: "How to create unique items!"
 			description: ["What good are all of these rare and unique materials without using them?"]
 			dependencies: ["09812AE1E82D15C5"]
@@ -1226,7 +1097,7 @@
 		}
 		{
 			title: "...And Combining!"
-			x: -6.5d
+			x: -8.5d
 			y: -4.5d
 			subtitle: "...And an Atomizer puts them back together!"
 			dependencies: ["3CAD4BCE2729EDEA"]
@@ -1241,7 +1112,7 @@
 		}
 		{
 			title: "Melting..."
-			x: -6.5d
+			x: -8.5d
 			y: -6.5d
 			subtitle: "A Liquifier dissolves elements into fluids..."
 			dependencies: ["3CAD4BCE2729EDEA"]
@@ -1256,7 +1127,7 @@
 		}
 		{
 			icon: "chemlib:compound_hydrochloric_acid"
-			x: -5.0d
+			x: -6.75d
 			y: -7.5d
 			shape: "gear"
 			description: ["You now have all the necessities for &6Alchemical Synthesis!&r This grants you access to the hidden &6Alchemical Synthesis&r chapter, which will teach you how to use all of the unique recipes!"]
@@ -1371,8 +1242,8 @@
 		{
 			title: "Advanced Infrastructure"
 			icon: "thermal:lapis_gear"
-			x: 6.0d
-			y: -0.5d
+			x: 4.5d
+			y: -1.5d
 			subtitle: "Let's put that Aluminum to use!"
 			description: [
 				"These pipes require &6no power or rotational force&r - truly a marvel of engineering!"
@@ -1408,6 +1279,170 @@
 					type: "item"
 					item: "pipez:fluid_pipe"
 					count: 5
+				}
+			]
+		}
+		{
+			icon: "engineersdecor:sign_hotwire"
+			x: -4.5d
+			y: 0.0d
+			subtitle: "Let's ramp things up!"
+			description: ["To perform electrolysis, you'll need some serious power output. To achieve this, you may use steam or diesel as fuel."]
+			dependencies: ["09812AE1E82D15C5"]
+			id: "350AD703B0E966AB"
+			tasks: [{
+				id: "306182540DDC4D38"
+				type: "checkmark"
+				title: "Power Problems"
+			}]
+		}
+		{
+			title: "Steampunk"
+			icon: "immersiveindustry:steam_turbine"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Construct the Steam Turbine, which uses steam from your Flywheel setups to generate up to 4,096 RF/T."
+			dependencies: ["7D4AA3C434A30047"]
+			id: "77755F85489AAC69"
+			tasks: [
+				{
+					id: "087690A32312E2D9"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 13L
+				}
+				{
+					id: "69A4A0A8337627CB"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 15L
+				}
+				{
+					id: "0B1EA4B0E08FC58B"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 6L
+				}
+				{
+					id: "0AD90F9E4F295C65"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 6L
+				}
+				{
+					id: "2F1CEF41D6B8E8DE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0FC97A448B14830B"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 3L
+				}
+				{
+					id: "391AE2FF55E84549"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "474761AA678B44DC"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+				}
+				{
+					id: "4E3B089B19D48EDD"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					count: 8
+				}
+				{
+					id: "703BEFB9A8AC9412"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Electrolysis!"
+			icon: "immersiveindustry:industrial_electrolyzer"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Now we're cooking with....water?"
+			description: [
+				"The Industrial Electrolyzer will purify your Bauxite into Aluminum!"
+				""
+				"You must insert graphite electrodes into the machine to allow it to operate. Requires 6,144 RF/t."
+			]
+			dependencies: [
+				"26C28AE460BABB1A"
+				"77755F85489AAC69"
+			]
+			dependency_requirement: "one_completed"
+			id: "6FCF434196E65C8A"
+			tasks: [
+				{
+					id: "717B49373AB037AF"
+					type: "item"
+					item: "thermal:machine_frame"
+					count: 2L
+				}
+				{
+					id: "06D878C00D68F5BD"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 10L
+				}
+				{
+					id: "46D51F79E3958ED0"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 13L
+				}
+				{
+					id: "1B7EAA965D7B956A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 9L
+				}
+				{
+					id: "22B84894BD60B28D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "77A6AEAF4EED6FD9"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "77307A4DD313CA10"
+					type: "item"
+					item: "kubejs:integrated_circuit"
+					count: 2
+				}
+				{
+					id: "266C7350E4972D40"
+					type: "item"
+					item: "immersiveengineering:ore_aluminum"
+					count: 4
+				}
+				{
+					id: "1ACD827D56FADB6E"
+					type: "xp"
+					xp: 250
 				}
 			]
 		}

@@ -1,0 +1,20 @@
+{
+	"type":"immersiveindustry:electrolyzer",
+	"input":{
+		"item":"immersiveengineering:ore_aluminum"
+	},
+	"fluid":{
+		"tag": "minecraft:electrolysis",
+		"amount":1000
+	},
+	"result_fluid":{
+		"fluid": "mekanism:oxygen",
+		"amount": 100
+	},
+	"result":{
+		"item":"immersiveengineering:dust_aluminum",
+		"count":1
+	},
+	"large_only":true,
+	"time": 1500
+}
