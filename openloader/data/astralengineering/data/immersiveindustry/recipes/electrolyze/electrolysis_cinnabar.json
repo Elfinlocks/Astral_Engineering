@@ -12,7 +12,7 @@
 		"amount": 100
 	},
 	"result":{
-		"item":"tardis:cinnabar",
+		"item":"thermal:cinnabar_dust",
 		"count":3
 	},
 	"large_only":true,

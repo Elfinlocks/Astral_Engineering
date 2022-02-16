@@ -12,7 +12,7 @@
 		"amount": 100
 	},
 	"result":{
-		"item":"minecraft:lapis_lazuli",
+		"item":"thermal:lapis_dust",
 		"count":16
 	},
 	"large_only":true,

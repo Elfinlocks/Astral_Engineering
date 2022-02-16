@@ -12,7 +12,7 @@
 		"amount": 100
 	},
 	"result":{
-		"item":"minecraft:emerald",
+		"item":"thermal:emerald_dust",
 		"count":3
 	},
 	"large_only":true,

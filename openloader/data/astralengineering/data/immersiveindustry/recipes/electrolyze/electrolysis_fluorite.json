@@ -12,7 +12,7 @@
 		"amount": 100
 	},
 	"result":{
-		"item":"mekanism:fluorite_gem",
+		"item":"mekanism:dust_fluorite",
 		"count":3
 	},
 	"large_only":true,
