@@ -12,12 +12,11 @@ background*
 biomemap*
 server-icon*
 */saves/*
+/schematics/uploaded/*
 */archived_saves/*
 archived_saves/*
 cache/*
 saves/*
-*/schematics/*
-schematics/*
 */screenshots/*
 screenshots/*
 */resourcepacks/*
