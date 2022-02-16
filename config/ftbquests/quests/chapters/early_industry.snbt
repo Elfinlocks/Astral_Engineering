@@ -1974,7 +1974,7 @@
 			title: "Electrical Alternatives"
 			icon: "immersiveengineering:fluid_pump"
 			x: 10.0d
-			y: 0.0d
+			y: -1.0d
 			description: ["If you'd prefer to use electricity, an &6Electric Pump&r will move water at a rate comparable to a maximum speed &6Mechanical Pump&r, for a relatively low about of energy."]
 			dependencies: ["0EF94371D99AC9BA"]
 			optional: true
@@ -2034,6 +2034,25 @@
 				id: "77C8121AFBACDCDB"
 				type: "item"
 				item: "create:empty_schematic"
+			}]
+		}
+		{
+			title: "Taking Measurements"
+			x: 10.0d
+			y: 1.0d
+			subtitle: "The multimeter offers an easy way to gauge RF throughput."
+			dependencies: ["0EF94371D99AC9BA"]
+			optional: true
+			id: "647CD769AA247A30"
+			tasks: [{
+				id: "44576D65A45C0AA3"
+				type: "item"
+				item: "createaddition:multimeter"
+			}]
+			rewards: [{
+				id: "394BB475E5F98B1E"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

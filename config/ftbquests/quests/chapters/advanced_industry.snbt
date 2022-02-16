@@ -317,7 +317,7 @@
 				}
 			}
 			x: 5.25d
-			y: 2.25d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "Thermal Expansion offers powerful and versatile machines to improve your automation efforts."
 			description: ["Like Mekanism, the Thermal Expansion offers basic processing machines as well, such as the Redstone Furnace and Sawmill."]
@@ -344,8 +344,8 @@
 		}
 		{
 			title: "Essential Induction"
-			x: 6.5d
-			y: 3.5d
+			x: 7.0d
+			y: 4.0d
 			subtitle: "The Induction Smelter offers an easy way to make most alloys, most notably Andesite Alloy."
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -363,7 +363,7 @@
 		}
 		{
 			title: "Phytogenic Insulation!"
-			x: 5.5d
+			x: 5.0d
 			y: 4.5d
 			subtitle: "The Phytogenic Insulator offers a way to automate the production of natural produce, even trees!"
 			dependencies: ["4010B64090D3B97C"]
@@ -383,7 +383,7 @@
 		}
 		{
 			title: "Fabrication Inspiration"
-			x: 4.0d
+			x: 3.5d
 			y: 3.5d
 			subtitle: "The Sequential Fabricator is capable of creating nearly any 3x3 recipe, and can even use liquids!"
 			dependencies: ["4010B64090D3B97C"]
@@ -403,8 +403,8 @@
 		}
 		{
 			title: "\"And from his lava came this song of hope...\""
-			x: 7.5d
-			y: 2.5d
+			x: 7.0d
+			y: 2.0d
 			subtitle: "The Magmatic Dynamo uses lava to produce some serious power output!"
 			dependencies: ["4010B64090D3B97C"]
 			optional: true
@@ -629,7 +629,7 @@
 		{
 			title: "The Power of The Sun"
 			x: 3.0d
-			y: 2.5d
+			y: 2.0d
 			subtitle: "In the palm of your hand."
 			dependencies: ["3AED57EBD34E6829"]
 			optional: true
