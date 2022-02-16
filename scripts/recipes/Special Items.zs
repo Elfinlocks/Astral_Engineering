@@ -16,10 +16,10 @@ furnace.addRecipe("secret", <item:tardis:broken_exterior>, <item:kubejs:red_herr
 
 craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
 
-craftingTable.addShaped("magic_feather", <item:magicfeather:magicfeather>, [
-	[<item:eidolon:arcane_gold_ingot>, <item:twilightforest:raven_feather>, <item:eidolon:arcane_gold_ingot>],
-	[<item:eidolon:arcane_gold_ingot>, <item:minecraft:elytra>, <item:eidolon:arcane_gold_ingot>],
-	[<item:eidolon:arcane_gold_ingot>, <item:twilightforest:raven_feather>, <item:eidolon:arcane_gold_ingot>]]);
+//craftingTable.addShaped("magic_feather", <item:magicfeather:magicfeather>, [
+//	[<item:eidolon:arcane_gold_ingot>, <item:twilightforest:raven_feather>, <item:eidolon:arcane_gold_ingot>],
+//	[<item:eidolon:arcane_gold_ingot>, <item:minecraft:elytra>, <item:eidolon:arcane_gold_ingot>],
+//	[<item:eidolon:arcane_gold_ingot>, <item:twilightforest:raven_feather>, <item:eidolon:arcane_gold_ingot>]]);
 	
 craftingTable.removeRecipe(<item:scannable:scanner>);	
 	

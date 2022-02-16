@@ -47,12 +47,10 @@ craftingTable.addShapeless("diamond_heart", <item:quark:diamond_heart>, [
 
 craftingTable.removeRecipe(<item:botania:apothecary_default>);
 
-craftingTable.addShaped("petal_apothecary", <item:botania:apothecary_default>, [
-    [<item:minecraft:stone>, <item:eidolon:gold_inlay>, <item:minecraft:stone>],
-    [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
-    [<item:minecraft:stone>, <item:eidolon:lesser_soul_gem>, <item:minecraft:stone>]]);
-	
-<recipetype:botania:mana_infusion>.addRecipe("cloth_to_leather", <item:minecraft:leather>, <item:eidolon:tattered_cloth>, 500, <blockstate:botania:alchemy_catalyst>);
+//craftingTable.addShaped("petal_apothecary", <item:botania:apothecary_default>, [
+//    [<item:minecraft:stone>, <item:eidolon:gold_inlay>, <item:minecraft:stone>],
+//    [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
+//   [<item:minecraft:stone>, <item:eidolon:lesser_soul_gem>, <item:minecraft:stone>]]);
 
 <recipetype:botania:mana_infusion>.addRecipe("syrup_to_honey", <item:minecraft:honey_bottle>, <item:crockpot:syrup>, 5000, <blockstate:botania:alchemy_catalyst>);
 

@@ -232,8 +232,6 @@ craftingTable.addShaped("kiln_bricks", <item:immersiveengineering:alloybrick>, [
     [<item:minecraft:nether_brick>, <item:quark:sandy_bricks>, <item:minecraft:nether_brick>],
     [<item:quark:sandy_bricks>, <tag:items:forge:plates/copper>, <item:quark:sandy_bricks>],
     [<item:minecraft:nether_brick>, <item:quark:sandy_bricks>, <item:minecraft:nether_brick>]]);
-	
-<recipetype:immersiveengineering:alloy>.addRecipe("kiln_pewter", <tag:items:forge:ingots/tin> * 2, <tag:items:forge:ingots/lead>, 200, <item:eidolon:pewter_ingot> * 2);
 
 // Hammer and Pliers crafting 
 craftingTable.addShapeless("sawdust", <item:thermal:sawdust>, [<tag:items:minecraft:planks>, <item:immersiveengineering:hammer>.anyDamage()]);

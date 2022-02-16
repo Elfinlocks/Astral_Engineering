@@ -67,15 +67,15 @@ craftingTable.addShaped("acid_unit", <item:boss_tools_giselle_addon:module_venus
 	[<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
 	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]]);
 	
-craftingTable.addShaped("gravity_unit", <item:boss_tools_giselle_addon:module_gravity_normalizing_unit>, [
-	[<item:mekanism:alloy_infused>, <item:eidolon:gravity_belt>, <item:mekanism:alloy_infused>],
-	[<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
-	[<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]]);
+//craftingTable.addShaped("gravity_unit", <item:boss_tools_giselle_addon:module_gravity_normalizing_unit>, [
+//	[<item:mekanism:alloy_infused>, <item:eidolon:gravity_belt>, <item:mekanism:alloy_infused>],
+//	[<item:mekanism:alloy_infused>, <item:mekanism:module_base>, <item:mekanism:alloy_infused>],
+//	[<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>]]);
 	
-craftingTable.addShaped("gravity_machine", <item:boss_tools_giselle_addon:gravity_normalizer>, [
-	[<tag:items:forge:plates/aluminum>, <item:eidolon:gravity_belt>, <tag:items:forge:plates/aluminum>],
-	[<item:mekanism:basic_control_circuit>, <item:rftoolsbase:machine_frame>, <item:mekanism:basic_control_circuit>],
-	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
+//craftingTable.addShaped("gravity_machine", <item:boss_tools_giselle_addon:gravity_normalizer>, [
+//	[<tag:items:forge:plates/aluminum>, <item:eidolon:gravity_belt>, <tag:items:forge:plates/aluminum>],
+//	[<item:mekanism:basic_control_circuit>, <item:rftoolsbase:machine_frame>, <item:mekanism:basic_control_circuit>],
+//	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 	
 craftingTable.addShaped("fuel_loader", <item:boss_tools_giselle_addon:fuel_loader>, [
 	[<tag:items:forge:plates/aluminum>, <item:pneumaticcraft:vacuum_pump>, <tag:items:forge:plates/aluminum>],

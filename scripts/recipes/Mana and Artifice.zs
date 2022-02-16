@@ -33,10 +33,10 @@ craftingTable.addShaped("runescribing_table", <item:mana-and-artifice:runescribi
 	[<tag:items:botania:livingrock>, <tag:items:botania:livingrock>, <tag:items:botania:livingrock>],
 	[<item:astralsorcery:infused_wood>, <item:minecraft:air>, <item:astralsorcery:infused_wood>]]);
 
-craftingTable.addShaped("ritual_focus1", <item:mana-and-artifice:ritual_focus_minor>, [
-	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>],
-	[<item:eidolon:arcane_gold_nugget>, <tag:items:forge:glass/colorless>, <item:eidolon:arcane_gold_nugget>],
-	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>]]);
+//craftingTable.addShaped("ritual_focus1", <item:mana-and-artifice:ritual_focus_minor>, [
+//	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>],
+//	[<item:eidolon:arcane_gold_nugget>, <tag:items:forge:glass/colorless>, <item:eidolon:arcane_gold_nugget>],
+//	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>]]);
 	
 craftingTable.addShaped("construct_workbench", <item:mana-and-artifice:construct_workbench>, [
 	[<item:minecraft:air>, <item:mana-and-artifice:chimerite_gem>, <item:minecraft:air>],
@@ -71,5 +71,3 @@ craftingTable.addShaped("stone_glyph", <item:mana-and-artifice:stone_rune_blank>
 furnace.addRecipe("arcane_ash", <item:mana-and-artifice:arcane_ash> * 4, <item:mana-and-artifice:arcane_compound>, 1.0, 50);
 
 furnace.addRecipe("bone_ash", <item:mana-and-artifice:bone_ash> * 4, <item:minecraft:bone>, 1.0, 50);
-
-furnace.addRecipe("enchanted_ash", <item:eidolon:enchanted_ash>, <item:mana-and-artifice:bone_ash>, 1.0, 50);

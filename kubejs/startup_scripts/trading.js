@@ -29,7 +29,6 @@ let AM = (id, x) => MOD("alexsmobs", id, x)
 let CP = (id, x) => MOD("crockpot", id, x)
 let AS = (id, x) => MOD("astralsorcery", id, x)
 let BT = (id, x) => MOD("botania", id, x)
-let EI = (id, x) => MOD("eidolon", id, x)
 //
 
 
@@ -281,10 +280,7 @@ onEvent('item.registry', event => {
 		{ in: MA('mote_ender'), out: S(20) },
 		{ in: AS('glass_lens'), out: S(4) },
 		{ in: AS('illumination_powder', 4), out: S(4) },
-		{ in: AS('nocturnal_powder', 4), out: S(6) },
-		{ in: EI('gold_inlay', 2), out: S(2) },
-		{ in: EI('ender_calx', 2), out: S(10) },
-		{ in: EI('lesser_soul_gem'), out: S(10) }
+		{ in: AS('nocturnal_powder', 4), out: S(6) }
 	])
 
 	profession("Cooking", 0xD8B384, 0xF7DAD9, [
