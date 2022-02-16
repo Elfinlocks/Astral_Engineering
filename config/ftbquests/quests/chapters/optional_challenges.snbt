@@ -204,7 +204,7 @@
 		}
 		{
 			title: "Curious Artifacts..."
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 			subtitle: "What da inconceivable artifacts doin'?"
 			description: [
@@ -230,7 +230,7 @@
 		{
 			title: "Seed of Interdimensional Power"
 			icon: "atmadditions:dimensional_seed"
-			x: 6.0d
+			x: 7.0d
 			y: -2.0d
 			subtitle: "An unstable and mysterious \"seed\" of some kind. You can buy one for an assortment of dimensional items."
 			dependencies: ["72A22FC844EF346E"]
@@ -598,7 +598,7 @@
 		{
 			title: "Interspacial Transporation"
 			icon: "astralsorcery:shifting_star_vicio"
-			x: 6.0d
+			x: 7.0d
 			y: -4.0d
 			shape: "gear"
 			subtitle: "Extremely safe and consistent interdimensional transportation"
@@ -738,7 +738,7 @@
 		}
 		{
 			title: "The Force of Giants, In Your Hand"
-			x: 8.5d
+			x: 7.5d
 			y: 3.5d
 			subtitle: "The Creative Motor offers the pinnacle of creative might!"
 			dependencies: ["294690BBCB747B25"]
@@ -756,8 +756,8 @@
 		}
 		{
 			title: "All The Room In The World"
-			x: 7.5d
-			y: 3.5d
+			x: 10.0d
+			y: 1.5d
 			subtitle: "And still not enough space."
 			dependencies: ["294690BBCB747B25"]
 			id: "43E6347B9B0AB0C0"
@@ -835,8 +835,8 @@
 		}
 		{
 			title: "High Pressure Scenario"
-			x: 9.5d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
 			subtitle: "Yet finely tuned."
 			dependencies: ["294690BBCB747B25"]
 			id: "4301E7C43DFE7DB1"
@@ -853,8 +853,8 @@
 		}
 		{
 			title: "Ultimate Exchanging"
-			x: 13.0d
-			y: 0.0d
+			x: 10.5d
+			y: -3.0d
 			subtitle: "This is not the law of equivalent exchange..."
 			id: "1376D95AE1754AB5"
 			tasks: [{
@@ -886,7 +886,7 @@
 		}
 		{
 			title: "Creative \"Flight\""
-			x: 6.0d
+			x: 7.0d
 			y: -6.0d
 			subtitle: "Unlimited Artron units, for all of your timey wimey needs."
 			dependencies: ["70D3C2F06582E4FA"]
@@ -906,8 +906,8 @@
 		}
 		{
 			title: "UNLIMITED POWER!!!"
-			x: 10.0d
-			y: 2.0d
+			x: 9.5d
+			y: 3.0d
 			subtitle: "Never power a generator again."
 			dependencies: ["294690BBCB747B25"]
 			id: "250186F4602AFCD3"
@@ -924,10 +924,12 @@
 		}
 		{
 			title: "Matter Fabrication..."
-			x: 15.0d
-			y: 0.0d
+			x: 13.5d
+			y: -2.25d
+			shape: "gear"
 			subtitle: "...And reality alteration."
 			dependencies: ["1376D95AE1754AB5"]
+			size: 1.5d
 			id: "71854C52BA1756DA"
 			tasks: [{
 				id: "1630034561AAAE97"
@@ -936,6 +938,24 @@
 			}]
 			rewards: [{
 				id: "3B1EBF419A9C817B"
+				type: "xp"
+				xp: 2000
+			}]
+		}
+		{
+			title: "A Song of Ice and Fire"
+			x: 6.0d
+			y: 1.0d
+			subtitle: "This thing is great for faking a temperature."
+			dependencies: ["294690BBCB747B25"]
+			id: "31F0B4B864AA4C8E"
+			tasks: [{
+				id: "5FE79343DA8FC68C"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+			rewards: [{
+				id: "21F224675FD91CD1"
 				type: "xp"
 				xp: 2000
 			}]

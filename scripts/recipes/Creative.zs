@@ -93,3 +93,13 @@ craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capac
 	[<item:immersiveengineering:plate_steel>, <item:libvulpes:plateiridium>, <item:libvulpes:plateiridium>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:immersiveengineering:plate_steel>, <item:immersiveengineering:plate_steel>, <item:steampowered:steel_cogwheel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 	
+// Creative Compressed Iron 
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_compressed_iron", <item:pneumaticcraft:creative_compressed_iron_block>, [
+	[<item:extendedcrafting:the_ultimate_ingot>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:extendedcrafting:the_ultimate_ingot>],
+	[<item:create:shadow_steel_casing>, <item:mythicbotany:alfsteel_ingot>, <item:pneumaticcraft:vortex_tube>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:vortex_tube>, <item:mythicbotany:alfsteel_ingot>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:pneumaticcraft:printed_circuit_board>, <item:rftoolsbase:machine_frame>, <item:mekanism:ultimate_control_circuit>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:printed_circuit_board>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:pneumatic_dynamo>, <item:pneumaticcraft:programmable_controller>, <item:pneumaticcraft:pneumatic_dynamo>, <item:pneumaticcraft:compressed_iron_block>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:pneumaticcraft:printed_circuit_board>, <item:rftoolsbase:machine_frame>, <item:mekanism:ultimate_control_circuit>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:printed_circuit_board>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:mythicbotany:alfsteel_ingot>, <item:pneumaticcraft:vortex_tube>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:vortex_tube>, <item:mythicbotany:alfsteel_ingot>, <item:create:shadow_steel_casing>],
+	[<item:extendedcrafting:the_ultimate_ingot>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:extendedcrafting:the_ultimate_ingot>]]);
