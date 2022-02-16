@@ -81,3 +81,15 @@
 craftingTable.addShapeless("capacitor_to_cell", <item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}}), [<item:immersiveengineering:capacitor_creative>]);
 
 craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capacitor_creative>, [<<item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}})]);
+
+// Creative WorldShaper 
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_worldshaper", <item:create:handheld_worldshaper>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:plate_steel>, <item:libvulpes:platetitanium>, <item:pneumaticcraft:cannon_barrel>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:plate_steel>, <item:libvulpes:platetitanium>, <item:botania:sextant>, <item:libvulpes:platetitanium>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:immersiveengineering:plate_steel>, <item:libvulpes:platetitanium>, <item:extendedcrafting:the_ultimate_ingot>, <item:libvulpes:platetitanium>, <item:immersiveengineering:plate_steel>],
+	[<item:minecraft:air>, <item:immersiveengineering:plate_steel>, <item:mekanism:ultimate_control_circuit>, <item:botania:astrolabe>, <item:libvulpes:platetitanium>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>],
+	[<item:steampowered:steel_cogwheel>, <item:libvulpes:plateiridium>, <item:exchangers:creative_exchanger>, <item:mekanism:ultimate_control_circuit>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:immersiveengineering:plate_steel>, <item:libvulpes:plateiridium>, <item:libvulpes:plateiridium>, <item:immersiveengineering:plate_steel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:immersiveengineering:plate_steel>, <item:immersiveengineering:plate_steel>, <item:steampowered:steel_cogwheel>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+	
