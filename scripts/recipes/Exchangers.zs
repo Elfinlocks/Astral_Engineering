@@ -1,4 +1,5 @@
 craftingTable.removeRecipe(<item:exchangers:golden_exchanger>);
+craftingTable.removeRecipe(<item:exchangers:iron_exchanger>);
 craftingTable.removeRecipe(<item:exchangers:emerald_exchanger>);
 craftingTable.removeRecipe(<item:exchangers:obsidian_exchanger>);
 craftingTable.removeRecipe(<item:exchangers:exchanger_core_tier1>);

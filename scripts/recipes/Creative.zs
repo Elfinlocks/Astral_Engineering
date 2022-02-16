@@ -46,3 +46,14 @@
 	[<item:create:refined_radiance_casing>, <item:pneumaticcraft:printed_circuit_board>, <item:rftoolsbase:machine_frame>, <item:mekanism:ultimate_control_circuit>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:printed_circuit_board>, <item:create:refined_radiance_casing>],
 	[<item:create:refined_radiance_casing>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:pneumaticcraft:flux_compressor>, <item:pneumaticcraft:advanced_pcb>, <item:pneumaticcraft:flux_compressor>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:create:refined_radiance_casing>],
 	[<item:extendedcrafting:the_ultimate_ingot>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:extendedcrafting:the_ultimate_ingot>]]);
+
+// Creative Exchanger
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_exchanger", <item:exchangers:creative_exchanger>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:exchangers:exchanger_core_tier3>, <item:exchangers:end_exchanger>, <item:exchangers:exchanger_core_tier3>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:create:shadow_steel_casing>, <item:cyclic:ender_eye_reuse>, <item:exchangers:exchanger_core_tier3>, <item:cyclic:ender_eye_reuse>, <item:create:shadow_steel_casing>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:storagedrawers:creative_vending_upgrade>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:minecraft:air>, <item:minecraft:air>]]);
