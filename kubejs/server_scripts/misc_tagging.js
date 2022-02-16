@@ -7,6 +7,8 @@ events.listen('fluid.tags', function (event) {
 		.remove('create:honey')
 		.remove('boss_tools:fuel')
 		.remove('createaddition:seed_oil')
+		.remove('hexerei:tallow_fluid')
+		.remove('hexerei:blood_fluid')
 })
 
 events.listen('block.tags', function (event) {
