@@ -24,3 +24,8 @@ craftingTable.addShaped("luminessence", <item:extendedcrafting:luminessence>, [
 	[<item:astralsorcery:illumination_powder>, <item:minecraft:gunpowder>, <item:astralsorcery:illumination_powder>],
 	[<item:minecraft:redstone>, <item:astralsorcery:illumination_powder>, <item:minecraft:redstone>]]);
 	
+craftingTable.addShaped("ultimate_table", <item:extendedcrafting:ultimate_table>, [
+	[<item:mythicbotany:alfsteel_armor_upgrade>, <item:mekanism:ultimate_control_circuit>, <item:mythicbotany:alfsteel_armor_upgrade>],
+	[<item:create:mechanical_crafter>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:mechanical_crafter>],
+	[<item:mythicbotany:alfsteel_armor_upgrade>, <item:immersiveengineering:storage_aluminum>, <item:mythicbotany:alfsteel_armor_upgrade>]]);
+	

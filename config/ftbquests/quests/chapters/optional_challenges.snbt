@@ -548,7 +548,7 @@
 		{
 			title: "The Ultimate Plushie"
 			icon: "dads_sewing:rana_plush"
-			x: -11.25d
+			x: -12.75d
 			y: 0.0d
 			shape: "circle"
 			subtitle: "Only Real Gamers(tm) remember"
@@ -757,7 +757,7 @@
 		{
 			title: "All The Room In The World"
 			x: 10.0d
-			y: 1.5d
+			y: 2.0d
 			subtitle: "And still not enough space."
 			dependencies: ["294690BBCB747B25"]
 			id: "43E6347B9B0AB0C0"
@@ -853,9 +853,10 @@
 		}
 		{
 			title: "Ultimate Exchanging"
-			x: 10.5d
-			y: -3.0d
+			x: 12.0d
+			y: -0.5d
 			subtitle: "This is not the law of equivalent exchange..."
+			dependencies: ["483389347D5D46BD"]
 			id: "1376D95AE1754AB5"
 			tasks: [{
 				id: "1CFF504AE31429C1"
@@ -924,7 +925,7 @@
 		}
 		{
 			title: "Matter Fabrication..."
-			x: 13.5d
+			x: 12.0d
 			y: -2.25d
 			shape: "gear"
 			subtitle: "...And reality alteration."
@@ -958,6 +959,55 @@
 				id: "21F224675FD91CD1"
 				type: "xp"
 				xp: 2000
+			}]
+		}
+		{
+			title: "Enough Messing Around"
+			x: 10.0d
+			y: 0.5d
+			subtitle: "We know what you're here for."
+			dependencies: ["294690BBCB747B25"]
+			id: "7219D8B198A75D93"
+			tasks: [{
+				id: "5D8DF8040386AE9F"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			title: "The Upgrade"
+			x: 12.0d
+			y: 1.25d
+			shape: "hexagon"
+			subtitle: "You want Creative Mode? Come and get it."
+			description: ["Welcome to the most difficult recipe in the pack. Create it, and you win - good luck!"]
+			dependencies: [
+				"7219D8B198A75D93"
+				"43E6347B9B0AB0C0"
+			]
+			size: 1.5d
+			id: "483389347D5D46BD"
+			tasks: [{
+				id: "1B6F429D15833E16"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "3B6DCEEC3E22BC73"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Unbreakable: 1
+						Damage: 0
+						display: {
+							Lore: ["[{\"text\":\"A reminder of simple times\",\"italic\":false}]"]
+							Name: "[{\"text\":\"The Momento\",\"italic\":false}]"
+						}
+						Enchantments: [{ }]
+					}
+				}
 			}]
 		}
 	]

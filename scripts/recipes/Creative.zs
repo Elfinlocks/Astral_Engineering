@@ -103,3 +103,14 @@ craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capac
 	[<item:create:shadow_steel_casing>, <item:pneumaticcraft:printed_circuit_board>, <item:rftoolsbase:machine_frame>, <item:mekanism:ultimate_control_circuit>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:printed_circuit_board>, <item:create:shadow_steel_casing>],
 	[<item:create:shadow_steel_casing>, <item:mythicbotany:alfsteel_ingot>, <item:pneumaticcraft:vortex_tube>, <item:pneumaticcraft:compressed_iron_block>, <item:pneumaticcraft:vortex_tube>, <item:mythicbotany:alfsteel_ingot>, <item:create:shadow_steel_casing>],
 	[<item:extendedcrafting:the_ultimate_ingot>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:extendedcrafting:the_ultimate_ingot>]]);
+	
+// Creative Vending Upgrade 
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_vending_upgrade", <item:storagedrawers:creative_vending_upgrade>, [
+	[<item:ironchest:crystal_chest>, <item:mythicbotany:alfsteel_block>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:mythicbotany:alfsteel_block>, <item:ironchest:crystal_chest>],
+	[<item:mythicbotany:alfsteel_block>, <item:libvulpes:blockiridium>, <item:libvulpes:blockiridium>, <item:mekanism:qio_drive_supermassive>, <item:libvulpes:blockiridium>, <item:libvulpes:blockiridium>, <item:mythicbotany:alfsteel_block>],
+	[<item:createaddition:overcharged_casing>, <item:libvulpes:blockiridium>, <item:extendedcrafting:the_ultimate_block>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_block>, <item:libvulpes:blockiridium>, <item:createaddition:overcharged_casing>],
+	[<item:createaddition:overcharged_casing>, <item:mekanism:qio_drive_supermassive>, <item:extendedcrafting:ultimate_singularity>, <item:storagedrawers:creative_storage_upgrade>, <item:extendedcrafting:ultimate_singularity>, <item:mekanism:qio_drive_supermassive>, <item:createaddition:overcharged_casing>],
+	[<item:createaddition:overcharged_casing>, <item:libvulpes:blocktitanium>, <item:extendedcrafting:the_ultimate_block>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_block>, <item:libvulpes:blocktitanium>, <item:createaddition:overcharged_casing>],
+	[<item:mythicbotany:alfsteel_block>, <item:libvulpes:blocktitanium>, <item:libvulpes:blocktitanium>, <item:mekanism:qio_drive_supermassive>, <item:libvulpes:blocktitanium>, <item:libvulpes:blocktitanium>, <item:mythicbotany:alfsteel_block>],
+	[<item:ironchest:crystal_chest>, <item:mythicbotany:alfsteel_block>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:mythicbotany:alfsteel_block>, <item:ironchest:crystal_chest>]]);
