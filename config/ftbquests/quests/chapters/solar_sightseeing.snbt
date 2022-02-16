@@ -187,7 +187,7 @@
 				{
 					id: "72A9336BBC1BDF2E"
 					type: "xp"
-					xp: 2500
+					xp: 5000
 				}
 				{
 					id: "706D388DEC137831"
@@ -587,7 +587,7 @@
 		}
 		{
 			title: "First Stop: The Moon!"
-			icon: "pamhc2foodcore:cheeseitem"
+			icon: "explorercraft:cheese"
 			x: 6.5d
 			y: -3.0d
 			subtitle: "As the closest and easiest to reach part of the local solar system, the moon is our first stop."
@@ -609,11 +609,6 @@
 			}]
 			rewards: [
 				{
-					id: "2C97C95AB8925EFC"
-					type: "item"
-					item: "pamhc2foodcore:cheesecakeitem"
-				}
-				{
 					id: "2D95F446E8E28680"
 					type: "item"
 					item: {
@@ -623,6 +618,11 @@
 							spell: { }
 						}
 					}
+				}
+				{
+					id: "0EEF65033B276E67"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cheesecake"
 				}
 			]
 		}
@@ -751,11 +751,6 @@
 			}]
 			rewards: [
 				{
-					id: "28347B9A8E72793B"
-					type: "item"
-					item: "pamhc2foodextended:redvelvetcupcakeitem"
-				}
-				{
 					id: "206799FBE3AF5E18"
 					type: "item"
 					item: {
@@ -765,6 +760,11 @@
 							spell: { }
 						}
 					}
+				}
+				{
+					id: "2F6F39E15331EE2B"
+					type: "item"
+					item: "tconstruct:magma_cake"
 				}
 			]
 		}
@@ -877,11 +877,6 @@
 			}]
 			rewards: [
 				{
-					id: "71476C448D7A05B0"
-					type: "item"
-					item: "pamhc2foodextended:lemondrizzlecakeitem"
-				}
-				{
 					id: "08E0288DEE21C7CA"
 					type: "item"
 					item: {
@@ -892,6 +887,11 @@
 						}
 					}
 				}
+				{
+					id: "34F533FD06A3E7F0"
+					type: "item"
+					item: "createaddition:honey_cake"
+				}
 			]
 		}
 		{
@@ -899,7 +899,7 @@
 			icon: "minecraft:magma_block"
 			x: 14.5d
 			y: 4.0d
-			subtitle: "Mercury is the only place that you can find Rutile."
+			subtitle: "Mercury is the smallest and closest planet to the Sun."
 			description: ["Like Venus, Mercury also has Aluminum and Iridium, but not as commonly."]
 			dependencies: ["0B0964D4863E3C70"]
 			size: 1.5d
@@ -922,9 +922,9 @@
 					}
 				}
 				{
-					id: "54F93575C856CD82"
+					id: "33958893222E632F"
 					type: "item"
-					item: "tconstruct:magma_cake"
+					item: "createaddition:chocolate_cake"
 				}
 			]
 		}

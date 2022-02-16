@@ -366,7 +366,6 @@ val items as IIngredient[] = [
 <item:explorercraft:leek>,
 <item:explorercraft:leek_bowl>,
 <item:explorercraft:cawl_bowl>,
-<item:explorercraft:cheese>,
 <item:explorercraft:lamb_shank_raw>,
 <item:explorercraft:lamb_shank_cooked>,
 <item:extendedcrafting:redstone_ingot>,

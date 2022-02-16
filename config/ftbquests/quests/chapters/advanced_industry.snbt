@@ -451,16 +451,12 @@
 			title: "First Processors"
 			x: 1.0d
 			y: -4.0d
-			subtitle: "Next, we'll need some basic processor prints. These can be made more easily via The Thermal Expansion, if you have delved into it."
+			subtitle: "Next, we'll need some basic processor prints."
+			description: [""]
 			dependencies: ["631FBD2CC11F4972"]
 			optional: true
 			id: "4E756DC38491E2A1"
 			tasks: [
-				{
-					id: "2CCFB0A10EA3D6AD"
-					type: "item"
-					item: "appliedenergistics2:printed_silicon"
-				}
 				{
 					id: "00A85F9DD48882B2"
 					type: "item"
