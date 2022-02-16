@@ -597,7 +597,6 @@ val items as IIngredient[] = [
 <item:crockpot:tomato>,
 <item:crockpot:onion>,
 <item:crockpot:onion_seeds>,
-<item:eidolon:soul_enchanter>,
 <item:immersiveindustry:electrolyzer>,
 <item:extendedcrafting:basic_table>,
 <item:extendedcrafting:advanced_table>,

@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "advanced_industry"
 	title: "&eAdvanced Industry"
-	icon: "kubejs:electrolysis_controller"
+	icon: "immersiveindustry:electrolyzer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

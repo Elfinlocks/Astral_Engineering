@@ -106,7 +106,7 @@ craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capac
 	
 // Creative Vending Upgrade 
 
-<recipetype:create:mechanical_crafting>.addRecipe("creative_vending_upgrade", <item:storagedrawers:creative_vending_upgrade>, [
+<recipetype:create:mechanical_crafting>.addRecipe("creative_vending_upgrade", <item:storagedrawers:creative_vending_upgrade> * 2, [
 	[<item:ironchest:crystal_chest>, <item:mythicbotany:alfsteel_block>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:mythicbotany:alfsteel_block>, <item:ironchest:crystal_chest>],
 	[<item:mythicbotany:alfsteel_block>, <item:libvulpes:blockiridium>, <item:libvulpes:blockiridium>, <item:mekanism:qio_drive_supermassive>, <item:libvulpes:blockiridium>, <item:libvulpes:blockiridium>, <item:mythicbotany:alfsteel_block>],
 	[<item:createaddition:overcharged_casing>, <item:libvulpes:blockiridium>, <item:extendedcrafting:the_ultimate_block>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_block>, <item:libvulpes:blockiridium>, <item:createaddition:overcharged_casing>],

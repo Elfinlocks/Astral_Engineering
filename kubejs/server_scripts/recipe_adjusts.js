@@ -42,6 +42,7 @@ onEvent('recipes', event => {
 	log.push('Registering Recipes')
 	rubberMatters(event)
 	alchemistry(event)
+	event.remove({id: ('immersiveindustry:electrolyzer/alumium')})
 	log.push('Recipes Updated')
 })
 
