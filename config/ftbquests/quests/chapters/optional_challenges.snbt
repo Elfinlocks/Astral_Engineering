@@ -884,5 +884,43 @@
 				xp: 2000
 			}]
 		}
+		{
+			title: "Creative \"Flight\""
+			x: 6.0d
+			y: -6.0d
+			subtitle: "Unlimited Artron units, for all of your timey wimey needs."
+			dependencies: ["70D3C2F06582E4FA"]
+			hide: true
+			optional: true
+			id: "3C548E7EF8876878"
+			tasks: [{
+				id: "640E7610A6309A7F"
+				type: "item"
+				item: "tardis:artron_battery_creative"
+			}]
+			rewards: [{
+				id: "606E0ECE8C4781A9"
+				type: "xp"
+				xp: 2000
+			}]
+		}
+		{
+			title: "UNLIMITED POWER!!!"
+			x: 10.0d
+			y: 2.0d
+			subtitle: "Never power a generator again."
+			dependencies: ["294690BBCB747B25"]
+			id: "250186F4602AFCD3"
+			tasks: [{
+				id: "68D24E36DE888A94"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+			rewards: [{
+				id: "53B61FDE70E13C1B"
+				type: "xp"
+				xp: 2000
+			}]
+		}
 	]
 }

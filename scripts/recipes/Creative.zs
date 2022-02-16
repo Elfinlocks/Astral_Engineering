@@ -67,3 +67,17 @@
 	[<item:minecraft:air>, <item:mekanism:ultimate_control_circuit>, <item:tardis:artron_battery_high>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:create:refined_radiance_casing>, <item:extendedcrafting:the_ultimate_ingot>, <item:create:refined_radiance_casing>, <item:minecraft:air>]]);
 	
+// Creative Energy Cube 
+
+<recipetype:create:mechanical_crafting>.addRecipe("creative_energy_cube", <item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}}), [
+	[<item:rftoolsbase:machine_frame>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:rftoolsbase:machine_frame>],
+	[<item:create:shadow_steel_casing>, <item:mekanism:ultimate_induction_cell>, <item:immersiveengineering:plate_aluminum>, <item:mekanism:ultimate_control_circuit>, <item:immersiveengineering:plate_aluminum>, <item:mekanism:ultimate_induction_cell>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:wirecoil_steel>, <item:extendedcrafting:the_ultimate_block>, <item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:plate_aluminum>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:mekanism:ultimate_control_circuit>, <item:extendedcrafting:the_ultimate_block>, <item:mekanism:ultimate_energy_cube>, <item:extendedcrafting:the_ultimate_block>, <item:mekanism:ultimate_control_circuit>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:wirecoil_steel>, <item:extendedcrafting:the_ultimate_block>, <item:immersiveengineering:wirecoil_steel>, <item:immersiveengineering:plate_aluminum>, <item:create:shadow_steel_casing>],
+	[<item:create:shadow_steel_casing>, <item:mekanism:ultimate_induction_cell>, <item:immersiveengineering:plate_aluminum>, <item:mekanism:ultimate_control_circuit>, <item:immersiveengineering:plate_aluminum>, <item:mekanism:ultimate_induction_cell>, <item:create:shadow_steel_casing>],
+	[<item:rftoolsbase:machine_frame>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:rftoolsbase:machine_frame>]]);
+	
+craftingTable.addShapeless("capacitor_to_cell", <item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}}), [<item:immersiveengineering:capacitor_creative>]);
+
+craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capacitor_creative>, [<<item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}})]);
