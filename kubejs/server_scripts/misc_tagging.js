@@ -1,3 +1,8 @@
+events.listen('fluid.tags', function (event) {
+	event.get('electrolysis')
+		.add('minecraft:water')
+})
+
 events.listen('block.tags', function (event) {
 	event.get('dimensional_beacon').add('minecraft:dragon_egg')
 	event.get('chisel:marble')
