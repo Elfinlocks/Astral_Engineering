@@ -598,7 +598,8 @@ val items as IIngredient[] = [
 <item:crockpot:tomato_seeds>,
 <item:crockpot:tomato>,
 <item:crockpot:onion>,
-<item:crockpot:onion_seeds>
+<item:crockpot:onion_seeds>,
+<item:eidolon:soul_enchanter>
 ];
 
 for item in items {
