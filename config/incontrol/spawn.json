@@ -50,7 +50,6 @@
 	"mob": [
 		"minecraft:skeleton",
 		"minecraft:zombie",
-		"eidolon:zombie_brute",
 		"mana-and-artifice:hulking_zombie"
 	],
 	"result": "default",
