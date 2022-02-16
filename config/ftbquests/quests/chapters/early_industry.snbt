@@ -782,10 +782,10 @@
 		{
 			title: "Refined Processing"
 			icon: "pneumaticcraft:refinery_output"
-			x: 18.5d
+			x: 17.0d
 			y: 5.0d
 			subtitle: "Next, we'll need some refining components..."
-			dependencies: ["72AA947C2A8BC7FA"]
+			dependencies: ["48BBC2E819A1B6A5"]
 			id: "4E62555C8A1D9A46"
 			tasks: [
 				{
@@ -853,27 +853,6 @@
 				type: "item"
 				item: "immersiveengineering:ingot_steel"
 				count: 5
-			}]
-		}
-		{
-			title: "Logistical Transportation"
-			x: 17.0d
-			y: 5.0d
-			subtitle: "To move your oil to the next stage, you'll need some pipes. I recommend Mekanism pipes. "
-			description: ["NOTE: You will need a configurator to adjust the input and output of these pipes. There is a quest for it in the Handy Tools chapter."]
-			dependencies: ["48BBC2E819A1B6A5"]
-			id: "72AA947C2A8BC7FA"
-			tasks: [{
-				id: "361BA62E0A890501"
-				type: "item"
-				item: "mekanism:basic_mechanical_pipe"
-				count: 8L
-			}]
-			rewards: [{
-				id: "589D6384471D3BC4"
-				type: "item"
-				item: "mekanism:basic_mechanical_pipe"
-				count: 8
 			}]
 		}
 		{

@@ -13,7 +13,3 @@ onEvent('item.registry', event => {
 	event.create('rocket_salvage_1').displayName('Tier 1 Rocket Salvage')
 	event.create('rocket_salvage_2').displayName('Tier 2 Rocket Salvage')
 })
-
-onEvent('block.registry', event => {
-	event.create('electrolysis_controller').displayName('Electrolysis Controller')
-})

@@ -454,7 +454,7 @@
 			title: "Not a lie"
 			x: -1.0d
 			y: 3.0d
-			subtitle: "Craft one of every available cake."
+			subtitle: "Cook these cakes!"
 			dependencies: ["484335796DA3D55B"]
 			id: "7E2908135D3906E1"
 			tasks: [

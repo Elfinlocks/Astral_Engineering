@@ -207,4 +207,8 @@ events.listen('item.tags', function (event) {
 	event.get('thermal_enderium_ender')
 		.add('minecraft:ender_pearl')
 		.add('thermal:ender_pearl_dust')
+	event.get('forge:ingots/ultimate')
+		.add('extendedcrafting:the_ultimate_ingot')
+	event.get('forge:nuggets/ultimate')
+		.add('extendedcrafting:the_ultimate_nugget')
 })
