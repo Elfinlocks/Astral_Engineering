@@ -8,6 +8,8 @@ craftingTable.addShapeless("red_herring", <item:kubejs:red_herring>, [<item:mine
 
 <item:kubejs:red_herring>.addTooltip("This might do something, or not.");
 
+mods.jei.JEI.hideRecipe("minecraft:crafting_table", "crafttweaker:red_herring");
+
 furnace.addRecipe("secret", <item:tardis:broken_exterior>, <item:kubejs:red_herring>, 1.0, 150);
 
 <item:tardis:broken_exterior>.addTooltip("This poor timeship needs repairs. Careful where you place it - it probably won't move for a while.");

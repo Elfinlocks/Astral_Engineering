@@ -278,7 +278,7 @@ onEvent('item.registry', event => {
 		{ in: MA('mote_water'), out: S(10) },
 		{ in: MA('mote_arcane'), out: S(10) },
 		{ in: MA('mote_ender'), out: S(20) },
-		{ in: AS('glass_lens'), out: S(4) },
+		{ in: AS('glass_lens'), out: S(1) },
 		{ in: AS('illumination_powder', 4), out: S(4) },
 		{ in: AS('nocturnal_powder', 4), out: S(6) }
 	])
