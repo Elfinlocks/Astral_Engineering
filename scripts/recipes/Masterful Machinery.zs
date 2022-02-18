@@ -1,14 +1,14 @@
 // Nitrogen-Oxygen Compressor
 
 craftingTable.addShaped("noc_item_in", <item:masterfulmachinery:noc_item_port_items_input>, [
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_logistical_transporter>, <item:immersiveengineering:plate_aluminum>],
+	[<item:immersiveengineering:plate_aluminum>, <item:pipez:item_pipe>, <item:immersiveengineering:plate_aluminum>],
 	[<item:kubejs:integrated_circuit>, <item:immersiveengineering:reinforced_crate>, <item:kubejs:integrated_circuit>],
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_logistical_transporter>, <item:immersiveengineering:plate_aluminum>]]);
+	[<item:immersiveengineering:plate_aluminum>, <item:pipez:item_pipe>, <item:immersiveengineering:plate_aluminum>]]);
 	
 craftingTable.addShaped("noc_power_in", <item:masterfulmachinery:noc_energy_port_energy_input>, [
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_universal_cable>, <item:immersiveengineering:plate_aluminum>],
+	[<item:immersiveengineering:plate_aluminum>, <item:pipez:energy_pipe>, <item:immersiveengineering:plate_aluminum>],
 	[<item:kubejs:integrated_circuit>, <item:mekanism:elite_energy_cube>, <item:kubejs:integrated_circuit>],
-	[<item:immersiveengineering:plate_aluminum>, <item:mekanism:elite_universal_cable>, <item:immersiveengineering:plate_aluminum>]]); 
+	[<item:immersiveengineering:plate_aluminum>, <item:pipez:energy_pipe>, <item:immersiveengineering:plate_aluminum>]]); 
 	
 craftingTable.addShaped("noc_gas_in", <item:masterfulmachinery:noc_gas_port_mekanism_gas_input>, [
 	[<item:immersiveengineering:plate_aluminum>, <item:pneumaticcraft:pressure_tube>, <item:immersiveengineering:plate_aluminum>],

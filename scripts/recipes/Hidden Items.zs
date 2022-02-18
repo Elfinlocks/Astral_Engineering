@@ -597,7 +597,23 @@ val items as IIngredient[] = [
 <item:extendedcrafting:basic_table>,
 <item:extendedcrafting:advanced_table>,
 <item:extendedcrafting:elite_table>,
-<item:extendedcrafting:ultimate_table>
+<item:extendedcrafting:ultimate_table>,
+<item:mekanism:basic_universal_cable>,
+<item:mekanism:advanced_universal_cable>,
+<item:mekanism:elite_universal_cable>,
+<item:mekanism:ultimate_universal_cable>,
+<item:mekanism:basic_mechanical_pipe>,
+<item:mekanism:advanced_mechanical_pipe>,
+<item:mekanism:elite_mechanical_pipe>,
+<item:mekanism:ultimate_mechanical_pipe>,
+<item:mekanism:basic_pressurized_tube>,
+<item:mekanism:advanced_pressurized_tube>,
+<item:mekanism:elite_pressurized_tube>,
+<item:mekanism:ultimate_pressurized_tube>,
+<item:mekanism:basic_logistical_transporter>,
+<item:mekanism:advanced_logistical_transporter>,
+<item:mekanism:elite_logistical_transporter>,
+<item:mekanism:ultimate_logistical_transporter>
 ];
 
 for item in items {

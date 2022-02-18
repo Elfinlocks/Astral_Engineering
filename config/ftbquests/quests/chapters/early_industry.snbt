@@ -1626,7 +1626,7 @@
 		{
 			title: "I Can See...I Can FIGHT!"
 			x: 4.0d
-			y: 4.5d
+			y: 1.5d
 			subtitle: "Engineer Goggles make tweaking your creations much easier."
 			description: ["They allow you see stress capacity, interconnected devices, and more!"]
 			dependencies: ["696CC33BB96232F5"]
@@ -2033,41 +2033,6 @@
 				type: "xp"
 				xp: 100
 			}]
-		}
-		{
-			title: "Tools of the Trade"
-			x: 4.0d
-			y: 1.5d
-			subtitle: "A nice place for all the essentials."
-			dependencies: ["338596C4B0C1A8E5"]
-			optional: true
-			id: "768C8F095258021B"
-			tasks: [{
-				id: "5F2BD9F2F2484EC7"
-				type: "item"
-				title: "Any #create:toolboxes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "create:toolboxes"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "42E49E46011D72A7"
-					type: "item"
-					item: "create:cogwheel"
-					count: 5
-				}
-				{
-					id: "12AAF532E152F5D2"
-					type: "item"
-					item: "create:shaft"
-					count: 4
-				}
-			]
 		}
 	]
 }

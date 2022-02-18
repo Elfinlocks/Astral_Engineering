@@ -28,9 +28,21 @@ craftingTable.removeRecipe(<item:mekanism:crusher>);
 craftingTable.removeRecipe(<item:mekanism:module_gravitational_modulating_unit>);
 craftingTable.removeRecipe(<item:mekanism:module_jetpack_unit>);
 craftingTable.removeRecipe(<item:mekanism:basic_universal_cable>);
+craftingTable.removeRecipe(<item:mekanism:advanced_universal_cable>);
+craftingTable.removeRecipe(<item:mekanism:elite_universal_cable>);
+craftingTable.removeRecipe(<item:mekanism:ultimate_universal_cable>);
 craftingTable.removeRecipe(<item:mekanism:basic_mechanical_pipe>);
+craftingTable.removeRecipe(<item:mekanism:advanced_mechanical_pipe>);
+craftingTable.removeRecipe(<item:mekanism:elite_mechanical_pipe>);
+craftingTable.removeRecipe(<item:mekanism:ultimate_mechanical_pipe>);
 craftingTable.removeRecipe(<item:mekanism:basic_pressurized_tube>);
+craftingTable.removeRecipe(<item:mekanism:advanced_pressurized_tube>);
+craftingTable.removeRecipe(<item:mekanism:elite_pressurized_tube>);
+craftingTable.removeRecipe(<item:mekanism:ultimate_pressurized_tube>);
 craftingTable.removeRecipe(<item:mekanism:basic_logistical_transporter>);
+craftingTable.removeRecipe(<item:mekanism:advanced_logistical_transporter>);
+craftingTable.removeRecipe(<item:mekanism:elite_logistical_transporter>);
+craftingTable.removeRecipe(<item:mekanism:ultimate_logistical_transporter>);
 craftingTable.removeRecipe(<item:mekanism:enrichment_chamber>);
 craftingTable.removeRecipe(<item:mekanismgenerators:gas_burning_generator>);
 craftingTable.removeRecipe(<item:mekanism:teleportation_core>);
@@ -75,21 +87,6 @@ craftingTable.addShaped("configurator", <item:mekanism:configurator>, [
 	[<item:minecraft:air>, <item:create:cogwheel>, <item:minecraft:air>],
 	[<item:immersiveengineering:plate_steel>, <item:create:cogwheel>, <item:immersiveengineering:plate_steel>],
 	[<item:immersiveengineering:plate_steel>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:plate_steel>]]);
-
-craftingTable.addShaped("basic_mechanical_pipe", <item:mekanism:basic_mechanical_pipe> * 8, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:immersiveengineering:ingot_steel>, <item:minecraft:bucket>, <item:immersiveengineering:ingot_steel>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
-	
-craftingTable.addShaped("basic_pressurized_tube", <item:mekanism:basic_pressurized_tube> * 8, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:immersiveengineering:plate_steel>, <item:pneumaticcraft:pressure_tube>, <item:immersiveengineering:plate_steel>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
-	
-craftingTable.addShaped("basic_logistical_transporter", <item:mekanism:basic_logistical_transporter> * 8, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-	[<item:immersiveengineering:plate_steel>, <item:immersiveengineering:conveyor_basic>, <item:immersiveengineering:plate_steel>],
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("enrichment_chamber", <item:mekanism:enrichment_chamber>, [
 	[<item:mekanism:alloy_infused>, <item:mekanism:basic_control_circuit>, <item:mekanism:alloy_infused>],

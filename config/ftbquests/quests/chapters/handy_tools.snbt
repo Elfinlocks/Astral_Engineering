@@ -349,7 +349,7 @@
 					HideFlags: 2
 				}
 			}
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 			subtitle: "Atomic Dissassemblers are an all in one tool - the ultimate electronic paxel, if you will."
 			dependencies: ["7D1B8FA0E879196C"]
@@ -601,31 +601,11 @@
 			}]
 		}
 		{
-			title: "The Good Wrench"
-			x: 0.0d
-			y: 2.0d
-			subtitle: "A unsurprising tool to help you immediately."
-			description: ["This is Mekanisms' wrench, primarily used for adjusting the settings on Mekanism pipes."]
-			id: "059A3FFEF1C9668F"
-			tasks: [{
-				id: "3DFB00126FDB7BEA"
-				type: "item"
-				item: "mekanism:configurator"
-			}]
-			rewards: [{
-				id: "29310A2151F68B05"
-				type: "item"
-				item: "immersiveengineering:plate_steel"
-				count: 2
-			}]
-		}
-		{
 			title: "The Better Wrench"
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 			subtitle: "The best one"
 			description: ["This is the most universal wrench in this pack - I highly recommend it as your first solution for rotating blocks and configuring pipes."]
-			dependencies: ["059A3FFEF1C9668F"]
 			id: "7D1B8FA0E879196C"
 			tasks: [{
 				id: "3182EE06A6D55480"
@@ -1855,6 +1835,39 @@
 				item: "minecraft:cobblestone"
 				count: 64
 			}]
+		}
+		{
+			title: "Tools of the Trade"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "For keeping all the essentials in one place."
+			id: "06BFC6B3314AAB4D"
+			tasks: [{
+				id: "40610401DEAC0600"
+				type: "item"
+				title: "Any #create:toolboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "794EF74F2A42E655"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+				{
+					id: "42DBEA0155D9D270"
+					type: "item"
+					item: "create:cogwheel"
+					count: 5
+				}
+			]
 		}
 	]
 }
