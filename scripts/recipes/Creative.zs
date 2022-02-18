@@ -12,9 +12,9 @@
 // Ultimate Ingot
 
 <recipetype:create:mechanical_crafting>.addRecipe("ultimate_ingot", <item:extendedcrafting:the_ultimate_ingot>, [
-[<item:thermal:enderium_ingot>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:shadow_steel>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:thermal:enderium_ingot>],
+[<item:mana-and-artifice:greater_mote_air>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:shadow_steel>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:mana-and-artifice:greater_mote_earth>],
 [<item:mekanism:pellet_antimatter>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:libvulpes:blockiridium>, <item:botania:gaia_ingot>, <item:libvulpes:blocktitanium>, <item:mythicbotany:alfsteel_armor_upgrade>, <item:mekanism:pellet_antimatter>],
-[<item:thermal:enderium_ingot>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:refined_radiance>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:thermal:enderium_ingot>]]);
+[<item:mana-and-artifice:greater_mote_fire>, <item:betterendforge:aeternium_ingot>, <item:astralsorcery:starmetal_ingot>, <item:create:refined_radiance>, <item:astralsorcery:starmetal_ingot>, <item:betterendforge:aeternium_ingot>, <item:mana-and-artifice:greater_mote_water>]]);
 
 // Creative Storage Upgrade
 
