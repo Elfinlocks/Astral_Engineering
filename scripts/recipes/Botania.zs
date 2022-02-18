@@ -1,8 +1,14 @@
 craftingTable.removeRecipe(<item:botania:terra_plate>);
 craftingTable.removeRecipe(<item:botania:elven_spreader>);
 craftingTable.removeRecipe(<item:botania:flight_tiara>);
+craftingTable.removeRecipe(<item:botania:lens_normal>);
 mods.botania.Orechid.main.removeOreWeight(<blockstate:libvulpes:orealuminum>);
 craftingTable.removeRecipe(<item:botania:runic_altar>);
+
+craftingTable.addShaped("mana_lens", <item:botania:lens_normal>, [
+	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ingot>, <item:minecraft:air>],
+	[<item:mana-and-artifice:vinteum_ingot>, <item:astralsorcery:glass_lens>, <item:mana-and-artifice:vinteum_ingot>],
+	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ingot>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("runic_altar", <item:botania:runic_altar>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],

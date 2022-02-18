@@ -1450,16 +1450,15 @@
 			}]
 			rewards: [
 				{
-					id: "4903E88CB099F36F"
-					type: "item"
-					item: "eidolon:arcane_gold_ingot"
-					count: 3
-				}
-				{
 					id: "5189CBE522B9F1AA"
 					type: "item"
 					item: "minecraft:diamond"
 					count: 2
+				}
+				{
+					id: "75C66916AFDAD543"
+					type: "xp"
+					xp: 1000
 				}
 			]
 		}
