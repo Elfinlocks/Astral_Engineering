@@ -1261,7 +1261,7 @@
 			description: [
 				"This is a handy device which provides &6unstable teleportation&r to the wearer. You'll need &6batteries&r to operate it."
 				""
-				"Note: Does NOT allow interdimensional teleportation. Maximum range of 10,000 blocks."
+				"Note: Maximum range of 10,000 blocks."
 			]
 			id: "7DC32B2C666BE76A"
 			tasks: [

@@ -220,7 +220,6 @@ onEvent('item.registry', event => {
 		{ in: TE('apatite', 16), out: S(4) },
 		{ in: TE('sapphire', 1), out: S(10) },
 		{ in: TE('ruby', 1), out: S(10) },
-		{ in: EC('jade', 3), out: S(10) },
 		{ in: MC('diamond', 1), out: S(14) },
 		{ in: MC('coal', 16), out: S(2) },
 		{ in: AE2('certus_quartz_crystal', 16), out: S(6) }
