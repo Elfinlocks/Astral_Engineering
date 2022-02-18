@@ -66,9 +66,9 @@
 	aggroCreative = false
 	#The maximum range a user can be teleported by the Angels
 	#Range: > 1
-	teleportRange = 450
+	teleportRange = 3000
 	#If this is enabled, angel teleporting can also tp the player to other dimensions
-	angelDimTeleport = true
+	angelDimTeleport = false
 	#Teleport Type - STRUCTURES: Teleports you to Structures Only - DONT: No Teleporting, only damage - RANDOM: Anywhere
 	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
 	teleportType = "RANDOM_PLACE"

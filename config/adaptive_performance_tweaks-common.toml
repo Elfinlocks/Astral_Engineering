@@ -129,6 +129,19 @@
 		#Range: 1 ~ 512
 		minecraftMaxWaterNeutralMobsPerWorld = 16
 
+	[Spawn.Limitations]
+		#Enable/Disable general spawn limitations for unknown mobs.
+		spawnLimitationEnabled = true
+		#Blocks every x spawn of unknown mobs to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
+		#Range: 0 ~ 100
+		spawnLimitationLimiter = 10
+		#Defines the max. number of unknown entities of a specific type, which could spawn within the player view area. Use 0 to disable this optimization.
+		#Range: 1 ~ 256
+		spawnLimitationMaxMobsPerPlayer = 16
+		#Defines the max. number of unknown entities of a specific type, which could spawn within a single world. Use 0 to disable this optimization.
+		#Range: 1 ~ 512
+		spawnLimitationMaxMobsPerWorld = 64
+
 #This sections allows to control specific setting for some mods.
 #You don't need to disable any mod support if the mod is not installed.
 #In general there are 3 settings per supported mod.

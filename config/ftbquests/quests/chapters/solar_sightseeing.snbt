@@ -373,7 +373,7 @@
 					id: "374C6B2EA6D8A9A6"
 					type: "item"
 					item: "immersiveengineering:stairs_steel_scaffolding_standard"
-					count: 16L
+					count: 21L
 				}
 				{
 					id: "6EFC3FDC697AC9AF"
@@ -385,7 +385,7 @@
 					id: "2BBFB03793DED5CC"
 					type: "item"
 					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 38L
+					count: 34L
 				}
 				{
 					id: "741E0A0E2B47CE4C"
@@ -409,13 +409,13 @@
 					id: "5174D4B99EEAF0BD"
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
-					count: 4L
+					count: 12L
 				}
 				{
 					id: "0CE561C4E4DF7923"
 					type: "item"
 					item: "immersiveengineering:radiator"
-					count: 4L
+					count: 2L
 				}
 				{
 					id: "063FD42532141859"
@@ -424,21 +424,15 @@
 					count: 2L
 				}
 				{
-					id: "3030AF161CC661EA"
-					type: "item"
-					item: "engineersdecor:halfslab_sheetmetal_steel"
-					count: 2L
-				}
-				{
 					id: "25150AC658054E0C"
 					type: "item"
 					item: "immersiveengineering:generator"
-					count: 2L
+					count: 4L
 				}
 				{
-					id: "51C935C9C2C8DD84"
+					id: "1B978F571C886EC8"
 					type: "item"
-					item: "immersiveengineering:conveyor_covered"
+					item: "immersiveengineering:slab_sheetmetal_steel"
 					count: 2L
 				}
 			]
@@ -1425,7 +1419,7 @@
 			y: -3.0d
 			subtitle: "The second half of your shopping list."
 			description: [
-				"You will now need to put it all together - as before, you can view the layout in JEI, by right-clicking on the controller block. "
+				"You will now need to put it all together - as before, you can view the layout in JEI, by right-clicking on the controller block. However, I would recommend using the &6SchematicCannon&r for this."
 				""
 				"Once assembled, you will need to provide the machine with PneumaticCraft pressure, RF, Mekanism Oxygen Gas, and Enriched Carbon. It will then synthesize Rocket Fuel! This can be easily pumped out and bucketed through normal methods."
 			]

@@ -5,114 +5,105 @@
   "name": "Nitrogen-Oxygen Compressor",
   "layout": [
     [
-      " ,,- -,, ",
-      " ../0/.. ",
-      ",..///..,",
-      "...///...",
-      ",..///..,",
-      " ../0/.. ",
-      " ,,- -,, "
+      " ))* *)) ",
+      " ++,-,++ ",
+      ")++,,,++)",
+      "+++,,,+++",
+      ")++,,,++)",
+      " ++,.,++ ",
+      " ))* *)) "
     ],
     [
       "         ",
-      "   1C1   ",
-      "   2 2   ",
-      ".  3 3  .",
-      "   2 2   ",
-      "   141   ",
-      "         "
-    ],
-    [
-      "         ",
-      "   151   ",
-      "   1 1   ",
-      ".  3 3  .",
-      "   1 1   ",
-      "   151   ",
-      "         "
-    ],
-    [
-      "         ",
-      "   ,6,   ",
+      "   /C/   ",
       "   000   ",
-      "v  708ppp",
+      "+  101  +",
       "   000   ",
-      "   ,9,   ",
+      "   /2/   ",
       "         "
     ],
     [
       "         ",
-      "    :    ",
-      "   010   ",
-      ".--111--.",
-      "   010   ",
-      "    :    ",
+      "   ///   ",
+      "   /0/   ",
+      "+  101  +",
+      "   /0/   ",
+      "   /3/   ",
+      "         "
+    ],
+    [
+      "         ",
+      "   )/)   ",
+      "   444   ",
+      "+  404  +",
+      "   444   ",
+      "   )/)   ",
+      "         "
+    ],
+    [
+      "         ",
+      "    5    ",
+      "   444   ",
+      "+))/0/))+",
+      "   444   ",
+      "    5    ",
       "         "
     ],
     [
       "         ",
       "         ",
-      "   ...   ",
-      "-..;0;..-",
-      "   ...   ",
+      "   )))   ",
+      "*++676++*",
+      "   )))   ",
       "         ",
       "         "
     ]
   ],
   "legend": {
-    ",": {
+    ")": {
       "block": "immersiveengineering:stairs_steel_scaffolding_standard"
     },
-    "-": {
+    "*": {
       "block": "immersiveengineering:steel_slope"
     },
-    ".": {
+    "+": {
       "block": "immersiveengineering:steel_scaffolding_standard"
     },
-    "/": {
+    ",": {
       "block": "minecraft:gray_concrete"
     },
-    "0": {
-      "block": "immersiveengineering:storage_steel"
-    },
-    "1": {
-      "block": "immersiveengineering:sheetmetal_steel"
-    },
-    "2": {
-      "block": "immersiveengineering:heavy_engineering"
-    },
-    "3": {
-      "block": "immersiveengineering:radiator"
-    },
-    "4": {
-      "block": "masterfulmachinery:noc_air_port_pncr_pressure_input"
-    },
-    "5": {
-      "block": "immersiveengineering:rs_engineering"
-    },
-    "6": {
-      "block": "masterfulmachinery:noc_energy_port_energy_input"
-    },
-    "7": {
-      "block": "masterfulmachinery:noc_item_port_items_input"
-    },
-    "8": {
+    "-": {
       "block": "masterfulmachinery:noc_fluid_port_fluids_output"
     },
-    "9": {
-      "block": "masterfulmachinery:noc_gas_port_mekanism_gas_input"
+    ".": {
+      "block": "masterfulmachinery:noc_item_port_items_input"
     },
-    ":": {
-      "block": "engineersdecor:halfslab_sheetmetal_steel"
+    "/": {
+      "block": "immersiveengineering:sheetmetal_steel"
     },
-    ";": {
+    "0": {
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    "1": {
       "block": "immersiveengineering:generator"
     },
-	"v": {
-		"block": "immersiveengineering:conveyor_covered"
-	},
-	"p": {
-		"block": "immersiveengineering:fluid_pipe"
-	}
+    "2": {
+      "block": "masterfulmachinery:noc_air_port_pncr_pressure_input"
+    },
+    "3": {
+      "block": "masterfulmachinery:noc_gas_port_mekanism_gas_input"
+    },
+    "4": {
+      "block": "immersiveengineering:storage_steel"
+    },
+    "5": {
+      "block": "immersiveengineering:slab_sheetmetal_steel"
+    },
+    "6": {
+      "block": "immersiveengineering:radiator"
+    },
+    "7": {
+      "block": "masterfulmachinery:noc_energy_port_energy_input"
+    }
   }
 }

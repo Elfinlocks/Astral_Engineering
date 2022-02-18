@@ -278,6 +278,10 @@
 	notify_of_trade_removal = true
 	#Broadcast a notification when a custom Amadron trade is made
 	notify_of_deal_made = true
+	#Amadrone spawn location, relative to the delivery/pickup position. This is a X/Y/Z triple. See also 'amadrone_spawn_location_relative_to_ground_level' for how the drone's Y position is calculated.
+	amadrone_spawn_location = [30, 30, 0]
+	#Affects Amadrone Y spawning position: when true, the Y position is relative to ground level at the calculated X/Z position. When false, it is relative to the delivery/pickup position.
+	amadrone_spawn_location_relative_to_ground_level = true
 
 [Heat]
 	#Default thermal resistance for solid blocks
