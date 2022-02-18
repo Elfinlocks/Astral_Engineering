@@ -50,6 +50,12 @@ craftingTable.removeRecipe(<item:mekanism:configurator>);
 craftingTable.removeRecipe(<item:mekanism:electrolytic_separator>);
 craftingTable.removeRecipe(<item:mekanism:pressurized_reaction_chamber>);
 craftingTable.removeRecipe(<item:mekanism:cardboard_box>);
+craftingTable.removeRecipe(<item:mekanism:basic_chemical_tank>);
+
+craftingTable.addShaped("chemical_tank_basic", <item:mekanism:basic_chemical_tank>, [
+	[<tag:items:forge:plates/aluminum>, <item:pneumaticcraft:pressure_tube>, <tag:items:forge:plates/aluminum>],
+	[<tag:items:forge:plates/aluminum>, <item:mekanism:alloy_infused>, <tag:items:forge:plates/aluminum>],
+	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
 craftingTable.addShaped("chemical_washer", <item:mekanism:chemical_washer>, [
 	[<tag:items:forge:ingots/refined_obsidian>, <item:pneumaticcraft:small_tank>, <tag:items:forge:ingots/refined_obsidian>],
