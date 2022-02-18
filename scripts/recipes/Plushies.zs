@@ -4,6 +4,7 @@ craftingTable.removeRecipe(<item:dads_sewing:sewing_machine>);
 craftingTable.removeRecipe(<item:dads_sewing:sewing_machine_white>);
 craftingTable.removeRecipe(<item:dads_sewing:eye_inator>);
 
+stoneCutter.removeRecipe(<item:dads_sewing:cylinder_hat>);
 stoneCutter.removeRecipe(<item:dads_sewing:pig_plush>);
 stoneCutter.removeRecipe(<item:dads_sewing:sheep_plush>);
 stoneCutter.removeRecipe(<item:dads_sewing:seal_plush>);

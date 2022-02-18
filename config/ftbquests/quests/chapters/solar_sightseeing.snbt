@@ -1587,7 +1587,7 @@
 		}
 		{
 			title: "Advanced Logistics"
-			x: 16.5d
+			x: 16.0d
 			y: 0.5d
 			subtitle: "The second tier of pipe improvements."
 			description: [

@@ -613,7 +613,8 @@ val items as IIngredient[] = [
 <item:mekanism:basic_logistical_transporter>,
 <item:mekanism:advanced_logistical_transporter>,
 <item:mekanism:elite_logistical_transporter>,
-<item:mekanism:ultimate_logistical_transporter>
+<item:mekanism:ultimate_logistical_transporter>,
+<item:dads_sewing:cylinder_hat>
 ];
 
 for item in items {
