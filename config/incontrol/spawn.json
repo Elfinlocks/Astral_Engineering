@@ -17,9 +17,18 @@
   },
   {
 	  "dimension": "boss_tools:venus",
+	  "mob": "boss_tools:pygro",
+	  "onjoin": true,
+	  "result": "default",
+	  "healthmultiply": 8,
+	  "damagemultiply": 5
+  },
+  {
+	  "dimension": "boss_tools:venus",
 	  "mob": "tardis:dalek",
 	  "result": "allow",
-	  "damagemultiply": 2
+	  "damagemultiply": 3,
+	  "healthmultiply": 2
   },
   {
 	  "dimension": ["boss_tools:moon", "boss_tools:mars"],
