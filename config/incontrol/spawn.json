@@ -16,11 +16,6 @@
     "result": "deny"
   },
   {
-	  "mob": "explorercraft:enderreeper",
-	  "result": "deny",
-	  "onjoin": true
-  },
-  {
 	  "dimension": "boss_tools:venus",
 	  "mob": "tardis:dalek",
 	  "result": "allow",
@@ -84,7 +79,7 @@
 		"minemcraft:sheep",
 		"minecraft:rabbit"
 	  ],
-	  "result": "default",
+	  "result": "allow",
 	  "conditions": {
 		  "mincount": 1
 	  }

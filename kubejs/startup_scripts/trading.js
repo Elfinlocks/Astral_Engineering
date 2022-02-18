@@ -23,7 +23,6 @@ let AC = (id, x) => MOD("aquaculture", id, x)
 let PC = (id, x) => MOD("pneumaticcraft", id, x)
 let BYG = (id, x) => MOD("byg", id, x)
 let PVJ = (id, x) => MOD("projectvibrantjourneys", id, x)
-let EC = (id, x) => MOD("explorercraft", id, x)
 let Q = (id, x) => MOD("quark", id, x)
 let AM = (id, x) => MOD("alexsmobs", id, x)
 let CP = (id, x) => MOD("crockpot", id, x)
@@ -191,10 +190,6 @@ onEvent('item.registry', event => {
 		{ in: PVJ('sakura_log', 64), out: S(1) },
 		{ in: PVJ('tamarack_log', 64), out: S(1) },
 		{ in: PVJ('joshua_log', 64), out: S(1) },
-		{ in: EC('cherry_log', 64), out: S(1) },
-		{ in: EC('maple_log', 64), out: S(1) },
-		{ in: EC('ash_log', 64), out: S(1) },
-		{ in: EC('bamboo_log', 64), out: S(1) }
 	])
 
 	profession("Mining", 0x1C1124, 0x88FFF7, [

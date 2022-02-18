@@ -26,9 +26,7 @@ events.listen('block.tags', function (event) {
 		.add('quark:marble_pillar')
 		.add('quark:marble')
 		.add('quark:polished_marble')
-		.add('explorercraft:marble')
 	event.get('forge:workbench').add('minecraft:crafting_table')
-    event.get('chisel:basalt').add('explorercraft:basalt')
 	event.get('forge:ores/iridium').remove('libvulpes:oreiridium')
 })
 
@@ -161,8 +159,6 @@ events.listen('item.tags', function (event) {
 	event.get('forge:cookedfish').add('aquaculture:fish_fillet_cooked')
 	event.get('forge:cooked_fishes').add('aquaculture:fish_fillet_cooked')
 	event.get('forge:workbench').add('minecraft:crafting_table')
-	event.get('chisel:marble').add('explorercraft:marble')
-    event.get('chisel:basalt').add('explorercraft:basalt')
 	event.get('curios:glasses')
 		.add('bountifulbaubles:sunglasses')
 		.add('create:goggles')

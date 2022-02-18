@@ -587,7 +587,11 @@
 		}
 		{
 			title: "First Stop: The Moon!"
-			icon: "explorercraft:cheese"
+			icon: {
+				id: "boss_tools:rover"
+				Count: 1b
+				tag: { }
+			}
 			x: 6.5d
 			y: -3.0d
 			subtitle: "As the closest and easiest to reach part of the local solar system, the moon is our first stop."

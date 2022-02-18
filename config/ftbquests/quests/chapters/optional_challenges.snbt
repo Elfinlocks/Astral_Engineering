@@ -46,7 +46,7 @@
 		{
 			title: "Ore Quintupling"
 			icon: "mekanism:crystal_iron"
-			x: 0.0d
+			x: 1.0d
 			y: -3.5d
 			subtitle: "Set up a system that, when given ores, will process them and quintuple the output."
 			description: [""]
@@ -60,8 +60,8 @@
 		{
 			title: "Watermelon Man"
 			icon: "minecraft:melon"
-			x: -1.5d
-			y: -3.0d
+			x: -1.0d
+			y: -3.5d
 			shape: "circle"
 			subtitle: "Fully automate a self-sustaining power production system off of Melons."
 			description: ["Dedicated to InspireFire."]
@@ -91,7 +91,7 @@
 			title: "Solving World Hunger"
 			icon: "farmersdelight:steak_and_potatoes"
 			x: -2.0d
-			y: -2.0d
+			y: -2.5d
 			subtitle: "Automate the production of 14 unique food types."
 			description: [""]
 			dependencies: ["60FE564C79D326E1"]
@@ -163,8 +163,8 @@
 		{
 			title: "Have You Many Wools"
 			icon: "twilightforest:quest_ram_trophy"
-			x: 1.5d
-			y: -3.0d
+			x: 2.0d
+			y: -2.5d
 			subtitle: "Complete the Questing Ram's Quest in the Twilight Forest."
 			description: [""]
 			dependencies: ["60FE564C79D326E1"]
@@ -659,8 +659,8 @@
 		}
 		{
 			title: "Fancy A Barrows Run?"
-			x: 2.5d
-			y: -2.0d
+			x: 3.0d
+			y: -1.0d
 			subtitle: "Obtain every Will from Botania."
 			dependencies: ["60FE564C79D326E1"]
 			id: "03A78FE2E6B15FC8"
@@ -803,31 +803,6 @@
 				id: "0C3B606ADE562849"
 				type: "xp"
 				xp: 2000
-			}]
-		}
-		{
-			title: "The Unbreakable Shield"
-			x: 3.0d
-			y: -1.0d
-			subtitle: "Gorau Cymro, Cymro oddi Cartref."
-			description: ["You can obtain this shield by trading a red dragon egg to a wizard."]
-			dependencies: ["60FE564C79D326E1"]
-			id: "243E6E35DB987BEB"
-			tasks: [{
-				id: "3CAB651F0A7F19E5"
-				type: "item"
-				item: {
-					id: "explorercraft:welsh_shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5792E671FDF388C1"
-				type: "item"
-				item: "paraglider:heart_container"
 			}]
 		}
 		{
