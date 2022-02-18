@@ -10,6 +10,17 @@ craftingTable.removeRecipe(<item:mana-and-artifice:runescribing_table>);
 craftingTable.removeRecipe(<item:mana-and-artifice:mana_resevoir>);
 craftingTable.removeRecipe(<item:mana-and-artifice:pedestal>);
 craftingTable.removeRecipe(<item:mana-and-artifice:runic_torch>);
+craftingTable.removeRecipe(<item:mana-and-artifice:arcane_compound>);
+craftingTable.removeRecipe(<item:mana-and-artifice:purified_vinteum_dust>);
+craftingTable.removeRecipe(<item:mana-and-artifice:purified_vinteum_coated_iron>);
+
+craftingTable.addShapeless("vinteum_ingot_purified_prep", <item:mana-and-artifice:purified_vinteum_coated_iron>, [<item:mana-and-artifice:purified_vinteum_dust>, <item:mana-and-artifice:vinteum_ingot>]);
+
+<recipetype:botania:petal_apothecary>.addRecipe("vinteum_purification", <item:mana-and-artifice:vinteum_dust>, <item:kubejs:impure_vinteum>, <tag:items:botania:petals>, <tag:items:botania:petals>, <item:astralsorcery:aquamarine>);
+
+craftingTable.addShapeless("purified_vinteum_dust", <item:mana-and-artifice:purified_vinteum_dust>, [<item:mana-and-artifice:vinteum_dust>, <item:mana-and-artifice:arcane_ash>, <item:botania:mana_powder>, <tag:items:mana-and-artifice:ma_flowers>]);
+
+craftingTable.addShapeless("arcane_compound", <item:mana-and-artifice:arcane_compound>, [<item:mana-and-artifice:vinteum_dust>, <item:mana-and-artifice:bone_ash>, <tag:items:mana-and-artifice:ma_flowers>]);
 
 craftingTable.addShapeless("arcanist_ink", <item:mana-and-artifice:arcanist_ink>, [<item:mana-and-artifice:purified_vinteum_dust>, <item:minecraft:glass_bottle>, <tag:items:mana-and-artifice:ma_flowers>, <tag:items:forge:dyes/black>]);
 
@@ -33,10 +44,10 @@ craftingTable.addShaped("runescribing_table", <item:mana-and-artifice:runescribi
 	[<tag:items:botania:livingrock>, <tag:items:botania:livingrock>, <tag:items:botania:livingrock>],
 	[<item:astralsorcery:infused_wood>, <item:minecraft:air>, <item:astralsorcery:infused_wood>]]);
 
-//craftingTable.addShaped("ritual_focus1", <item:mana-and-artifice:ritual_focus_minor>, [
-//	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>],
-//	[<item:eidolon:arcane_gold_nugget>, <tag:items:forge:glass/colorless>, <item:eidolon:arcane_gold_nugget>],
-//	[<item:minecraft:air>, <item:eidolon:arcane_gold_nugget>, <item:minecraft:air>]]);
+craftingTable.addShaped("ritual_focus1", <item:mana-and-artifice:ritual_focus_minor>, [
+	[<item:minecraft:air>, <item:botania:manasteel_nugget>, <item:minecraft:air>],
+	[<item:botania:manasteel_nugget>, <item:astralsorcery:glass_lens>, <item:botania:manasteel_nugget>],
+	[<item:minecraft:air>, <item:botania:manasteel_nugget>, <item:minecraft:air>]]);
 	
 craftingTable.addShaped("construct_workbench", <item:mana-and-artifice:construct_workbench>, [
 	[<item:minecraft:air>, <item:mana-and-artifice:chimerite_gem>, <item:minecraft:air>],
@@ -68,6 +79,6 @@ craftingTable.addShaped("stone_glyph", <item:mana-and-artifice:stone_rune_blank>
 	[<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>],
 	[<item:minecraft:air>, <tag:items:forge:stone>, <item:minecraft:air>]]);
 	
-furnace.addRecipe("arcane_ash", <item:mana-and-artifice:arcane_ash> * 4, <item:mana-and-artifice:arcane_compound>, 1.0, 50);
+furnace.addRecipe("arcane_ash", <item:mana-and-artifice:arcane_ash> * 2, <item:mana-and-artifice:arcane_compound>, 1.0, 100);
 
-furnace.addRecipe("bone_ash", <item:mana-and-artifice:bone_ash> * 4, <item:minecraft:bone>, 1.0, 50);
+furnace.addRecipe("bone_ash", <item:mana-and-artifice:bone_ash> * 2, <item:minecraft:bone>, 1.0, 100);

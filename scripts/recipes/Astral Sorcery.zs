@@ -18,21 +18,21 @@ craftingTable.addShapeless("vicio", <item:astralsorcery:constellation_paper>.wit
 
 craftingTable.removeRecipe(<item:astralsorcery:wand>);
 
-//craftingTable.addShaped("wand", <item:astralsorcery:wand>, [
-//    [<item:minecraft:air>, <item:astralsorcery:aquamarine>, <item:eidolon:lesser_soul_gem>],
-//   [<item:minecraft:air>, <item:eidolon:arcane_gold_ingot>, <item:astralsorcery:aquamarine>],
-//    [<item:eidolon:arcane_gold_ingot>, <item:minecraft:air>, <item:minecraft:air>]]);
+craftingTable.addShaped("wand", <item:astralsorcery:wand>, [
+	[<item:minecraft:air>, <item:astralsorcery:aquamarine>, <item:mana-and-artifice:vinteum_dust>],
+	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ingot>, <item:astralsorcery:aquamarine>],
+	[<item:mana-and-artifice:vinteum_ingot>, <item:minecraft:air>, <item:minecraft:air>]]);
 	
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("resonating_gem", <item:astralsorcery:aquamarine> * 2, [<item:botania:mana_diamond>, <item:mana-and-artifice:purified_vinteum_ingot>], 1200, 1560000, [<item:astralsorcery:resonating_gem>]);
 
 craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 
-//<recipetype:astralsorcery:altar>.addRecipe("arcane_gold", "DISCOVERY", <item:eidolon:arcane_gold_ingot> * 5, [
-//	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-//	[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:redstone>, <item:minecraft:air>],
-//	[<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:eidolon:soul_shard>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
-//	[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:gold_ingot>, <item:minecraft:redstone>, <item:minecraft:air>],
-//	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 125, 35);
+<recipetype:astralsorcery:altar>.addRecipe("vineteum_purification", "ATTUNEMENT", <item:mana-and-artifice:vinteum_dust> * 5, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:gold_ingot>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:gold_ingot>, <tag:items:mana-and-artifice:ma_flowers>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:gold_ingot>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 125, 35);
 
 <recipetype:astralsorcery:altar>.addRecipe("structures_compass", "RADIANCE", <item:structurescompass:structures_compass>, [
 	[<item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:thermal:signalum_plate>, <item:immersiveengineering:plate_aluminum>, <item:minecraft:air>],

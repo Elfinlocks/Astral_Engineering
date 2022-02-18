@@ -12,4 +12,5 @@ onEvent('item.registry', event => {
 	event.create('drilled_circuit').displayName('Drilled Circuit')
 	event.create('rocket_salvage_1').displayName('Tier 1 Rocket Salvage')
 	event.create('rocket_salvage_2').displayName('Tier 2 Rocket Salvage')
+	event.create('impure_vinteum').displayName('Impure Vinteum Dust')
 })

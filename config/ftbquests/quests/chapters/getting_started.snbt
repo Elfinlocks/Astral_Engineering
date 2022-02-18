@@ -165,7 +165,7 @@
 			x: 24.75d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Craft Steel in a Blast Furnace - this material is necessary for progress in both magic and technology."
+			subtitle: "Craft Steel in a Blast Furnace - this material will be essential for technological development."
 			description: ["To proceed, insert iron ingots or blocks, alongside coal coke pieces or blocks, and wait for the steel to smelt."]
 			dependencies: ["0E1C4AEDB8594945"]
 			size: 2.0d
@@ -181,90 +181,6 @@
 				type: "item"
 				item: "minecraft:coal_block"
 				count: 3
-			}]
-		}
-		{
-			title: "Early Alloys"
-			x: 15.5d
-			y: -3.0d
-			subtitle: "This way for magic!"
-			dependencies: ["35D0D95034259B1D"]
-			id: "632ED810D5453781"
-			tasks: [{
-				id: "7027344EDDD2BB91"
-				type: "item"
-				item: "eidolon:pewter_ingot"
-				count: 5L
-			}]
-			rewards: [{
-				id: "6C1D0AE5AEBA5EA0"
-				type: "item"
-				item: "eidolon:pewter_ingot"
-				count: 2
-			}]
-		}
-		{
-			title: "Bubble, Bubble.."
-			x: 14.0d
-			y: -5.0d
-			subtitle: "A Crucible can, when given heat and water, be used to combine certain items."
-			dependencies: ["632ED810D5453781"]
-			id: "331536656893BD82"
-			tasks: [{
-				id: "25034D878C6CBB58"
-				type: "item"
-				item: "eidolon:crucible"
-			}]
-			rewards: [{
-				id: "5B799ED7EF81CFA8"
-				type: "item"
-				item: "eidolon:pewter_ingot"
-				count: 2
-			}]
-		}
-		{
-			title: "Not Necromancy, We Swear"
-			x: 17.0d
-			y: -5.0d
-			subtitle: "Consult your Ars Ecclesia for information on the Crystallization Ritual, used to obtain Soul Shards."
-			description: ["Your Ars Ecclesia is located in your Akashic Tome."]
-			dependencies: ["632ED810D5453781"]
-			id: "2D3D6EDBFDA95965"
-			tasks: [{
-				id: "48BF2DB2F3FA3627"
-				type: "item"
-				item: "eidolon:soul_shard"
-				count: 4L
-			}]
-			rewards: [{
-				id: "6F8DA81D6A033514"
-				type: "item"
-				item: "minecraft:redstone"
-				count: 4
-			}]
-		}
-		{
-			title: "Intro to the Arcane"
-			x: 15.5d
-			y: -6.75d
-			shape: "hexagon"
-			subtitle: "Mix up a Lesser Soul Gem in your Crucible. Required to begin Arcane Exploits."
-			dependencies: [
-				"2D3D6EDBFDA95965"
-				"331536656893BD82"
-			]
-			size: 1.5d
-			id: "6915EC195906281A"
-			tasks: [{
-				id: "3B07F279BF4260BE"
-				type: "item"
-				item: "eidolon:lesser_soul_gem"
-			}]
-			rewards: [{
-				id: "030BEB6A0D0E8CA6"
-				type: "item"
-				item: "eidolon:soul_shard"
-				count: 4
 			}]
 		}
 		{
@@ -793,6 +709,128 @@
 				type: "item"
 				item: "minecraft:rotten_flesh"
 				count: 3
+			}]
+		}
+		{
+			title: "Magical Basics"
+			x: 14.0d
+			y: -1.5d
+			subtitle: "This way for magic quests!"
+			description: [
+				"In order to begin magic progression, you will need at least some &6Vinteum&r, a major building block of magic."
+				""
+				"Note: You will need to use that iron pickaxe to harvest it."
+			]
+			dependencies: ["1AF3E867A00953D7"]
+			id: "0C07355B11719FD5"
+			tasks: [{
+				id: "0B5D3D39D1C25320"
+				type: "item"
+				item: "mana-and-artifice:vinteum_ore"
+				count: 3L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			subtitle: "Grind the ore to get some Impure Vinteum Dust."
+			dependencies: [
+				"0C07355B11719FD5"
+				"35D0D95034259B1D"
+			]
+			id: "1D5826989FF36C3F"
+			tasks: [{
+				id: "174B5CC60E4AC79C"
+				type: "item"
+				item: "kubejs:impure_vinteum"
+			}]
+		}
+		{
+			title: "Botanical Purification"
+			icon: "botania:apothecary_default"
+			x: 15.5d
+			y: -5.0d
+			subtitle: "Next, some purification essentials."
+			description: [
+				"Vinteum is a magical ore, which is resistant to most convential tech-based methods of purification."
+				""
+				"However, a Botanical Apothecary with the correct magical reagents should coax it out."
+			]
+			dependencies: ["1D5826989FF36C3F"]
+			id: "4BEFCF37588A5619"
+			tasks: [
+				{
+					id: "3CE10591F157A603"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "3C69E9DA08A54809"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2L
+				}
+				{
+					id: "4CFC1DA11E035FA1"
+					type: "item"
+					title: "Any #botania:petals"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			icon: "mana-and-artifice:vinteum_dust"
+			x: 18.5d
+			y: -5.0d
+			subtitle: "A quick how-to."
+			description: ["Simply fill your Apothecary with water, place two petals or mushrooms, one impure vinteum dust, and two aquamarines inside to create &6Vinteum Dust&r."]
+			dependencies: ["4BEFCF37588A5619"]
+			id: "4986926BC0C8221E"
+			tasks: [{
+				id: "63C3614150720147"
+				type: "item"
+				item: "mana-and-artifice:vinteum_dust"
+			}]
+		}
+		{
+			title: "Magical Alloys"
+			x: 21.5d
+			y: -5.0d
+			dependencies: ["4986926BC0C8221E"]
+			id: "29ED7AA1CB8AE08F"
+			tasks: [{
+				id: "3A7FFC840F09ADBD"
+				type: "item"
+				item: "mana-and-artifice:vinteum_coated_iron"
+			}]
+		}
+		{
+			title: "Successful Purification!"
+			x: 24.75d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "The beginning of something really excellent."
+			description: ["Vinteum is an inherently mana-attuned metal, and should serve well as a basic ingredient for future magical pursuits."]
+			dependencies: ["29ED7AA1CB8AE08F"]
+			size: 2.0d
+			id: "71595EC6A6586BBA"
+			tasks: [{
+				id: "34D9A19040D77834"
+				type: "item"
+				item: "mana-and-artifice:vinteum_ingot"
+			}]
+			rewards: [{
+				id: "7B2F6A03E305360F"
+				type: "item"
+				item: "mana-and-artifice:vinteum_ore"
+				count: 4
 			}]
 		}
 	]

@@ -21,17 +21,14 @@ let KJ = (id, x) => MOD("kubejs", id, x)
 let EG = (id, x) => MOD("endergetic", id, x)
 let FD = (id, x) => MOD("farmersdelight", id, x)
 let BOP = (id, x) => MOD("biomesoplenty", id, x)
-let PR_C = (id, x) => MOD("projectred-core", id, x)
-let PR_T = (id, x) => MOD("projectred-transmission", id, x)
-let PR_I = (id, x) => MOD("projectred-illumination", id, x)
 let RQ = (id, x) => MOD("xreliquary", id, x)
 let SD = (id, x) => MOD("storagedrawers", id, x)
 let SP = (id, x) => MOD("supplementaries", id, x)
 let F = (id, x) => MOD("forge", id, x)
 let AC = (id, x) => MOD("aquaculture", id, x)
 let PP = (id, x) => MOD("prettypipes", id, x)
-let OC = (id, x) => MOD("occultism", id, x)
 let BYG = (id, x) => MOD("byg", id, x)
+let MA = (id, x) => MOD("mana-and-artifice", id, x)
 //
 
 let colours = ['white', 'orange', 'magenta', 'light_blue', 'lime', 'pink', 'purple', 'light_gray', 'gray', 'cyan', 'brown', 'green', 'blue', 'red', 'black', 'yellow']
@@ -42,9 +39,15 @@ onEvent('recipes', event => {
 	log.push('Registering Recipes')
 	rubberMatters(event)
 	alchemistry(event)
+	earlyartifice(event)
 	event.remove({id: ('immersiveindustry:electrolyze/alumium')})
 	log.push('Recipes Updated')
 })
+
+function earlyartifice(event) {
+	event.remove({ id: 'mana-and-artifice:vinteum_dust_blast_furnace' })
+	event.remove({ id: 'mana-and-artifice:vinteum_dust' })
+}
 
 function alchemistry(event) {
 	

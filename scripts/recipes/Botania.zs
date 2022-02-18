@@ -2,6 +2,12 @@ craftingTable.removeRecipe(<item:botania:terra_plate>);
 craftingTable.removeRecipe(<item:botania:elven_spreader>);
 craftingTable.removeRecipe(<item:botania:flight_tiara>);
 mods.botania.Orechid.main.removeOreWeight(<blockstate:libvulpes:orealuminum>);
+craftingTable.removeRecipe(<item:botania:runic_altar>);
+
+craftingTable.addShaped("runic_altar", <item:botania:runic_altar>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>],
+	[<item:astralsorcery:infused_wood>, <item:botania:manasteel_ingot>, <item:astralsorcery:infused_wood>]]);
 
 craftingTable.addShaped("elven_spreader", <item:botania:elven_spreader>, [
 	[<item:botania:dreamwood>, <item:botania:dreamwood>, <item:botania:dreamwood>],
@@ -47,22 +53,21 @@ craftingTable.addShapeless("diamond_heart", <item:quark:diamond_heart>, [
 
 craftingTable.removeRecipe(<item:botania:apothecary_default>);
 
-//craftingTable.addShaped("petal_apothecary", <item:botania:apothecary_default>, [
-//    [<item:minecraft:stone>, <item:eidolon:gold_inlay>, <item:minecraft:stone>],
-//    [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
-//   [<item:minecraft:stone>, <item:eidolon:lesser_soul_gem>, <item:minecraft:stone>]]);
+craftingTable.addShaped("petal_apothecary", <item:botania:apothecary_default>, [
+	[<item:minecraft:stone>, <item:astralsorcery:aquamarine>, <item:minecraft:stone>],
+	[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>],
+	[<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>]]);
 
 <recipetype:botania:mana_infusion>.addRecipe("syrup_to_honey", <item:minecraft:honey_bottle>, <item:crockpot:syrup>, 5000, <blockstate:botania:alchemy_catalyst>);
 
-// Changes Manansteel to use steel instead of iron, as well as to use more mana
+// Changes Manansteel to use vinteum instead of iron, as well as to use more mana
 
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_ingot>);
-<recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <tag:items:forge:ingots/steel>, 10000);
+<recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <item:mana-and-artifice:purified_vinteum_ingot>, 10000);
 
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_block>);
-<recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <tag:items:forge:storage_blocks/steel>, 90000);
+<recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <item:mana-and-artifice:vinteum_block>, 90000);
 
-/*
 <recipetype:botania:petal_apothecary>.removeRecipe(<item:botania:orechid>);
 
 <recipetype:botania:petal_apothecary>.addRecipe("orechid", <item:botania:orechid>, [<item:botania:life_essence>, <item:botania:rune_greed>, <item:botania:rune_pride>, <item:botania:redstone_root>, <item:botania:pixie_dust>, <tag:items:botania:petals/gray>, <tag:items:botania:petals/gray>, <tag:items:botania:petals/yellow>, <tag:items:botania:petals/green>, <tag:items:botania:petals/red>]);
@@ -70,4 +75,3 @@ craftingTable.removeRecipe(<item:botania:apothecary_default>);
 <recipetype:botania:petal_apothecary>.removeRecipe(<item:botania:orechid_ignem>);
 
 <recipetype:botania:petal_apothecary>.addRecipe("orechid_ignem", <item:botania:orechid_ignem>, [<item:botania:life_essence>, <item:botania:rune_greed>, <item:botania:rune_pride>, <item:botania:redstone_root>, <item:botania:pixie_dust>, <tag:items:botania:petals/red>, <tag:items:botania:petals/red>, <tag:items:botania:petals/white>, <tag:items:botania:petals/white>, <tag:items:botania:petals/pink>]);
-*/

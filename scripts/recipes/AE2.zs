@@ -58,6 +58,8 @@ craftingTable.addShaped("grindstone", <item:appliedenergistics2:grindstone>, [
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_starmetal", <item:jaopca:dusts.starmetal>, <tag:items:forge:ores/starmetal>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_fluix", <item:appliedenergistics2:fluix_dust>, <tag:items:appliedenergistics2:crystals/fluix>, 2); 
 
+<recipetype:appliedenergistics2:grinder>.addRecipe("impure_vinteum_ae2", <item:kubejs:impure_vinteum>, <item:mana-and-artifice:vinteum_ore>, 2);
+
 // Ingots
 
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_lead1", <item:thermal:lead_dust>, <tag:items:forge:ingots/lead>, 2);

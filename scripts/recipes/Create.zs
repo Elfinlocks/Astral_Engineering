@@ -197,6 +197,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.addRecipe("wheel_niter", [<item:thermal:niter_dust> * 1 % 100], <tag:items:forge:gems/niter>);
 <recipetype:create:crushing>.addRecipe("wheel_coal", [<item:mekanism:dust_coal> * 1 % 100], <item:minecraft:coal>);
 <recipetype:create:crushing>.addRecipe("wheel_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
+<recipetype:create:crushing>.addRecipe("wheel_vinteum_impure", [<item:kubejs:impure_vinteum> * 2 % 100], <item:mana-and-artifice:vinteum_ore>);
 
 <recipetype:create:crushing>.addRecipe("wheel_blackdye1", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);
 <recipetype:create:crushing>.addRecipe("wheel_blackdye2", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:minecraft:wither_rose>);
@@ -250,6 +251,8 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_coal", [<item:mekanism:dust_coal> * 1 % 100], <item:minecraft:coal>);
 <recipetype:create:milling>.addRecipe("mill_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
 
+<recipetype:create:milling>.addRecipe("mill_vinteum_impure", [<item:kubejs:impure_vinteum> * 1 % 100], <item:mana-and-artifice:vinteum_ore>);
+
 <recipetype:create:milling>.addRecipe("mill_blackdye1", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);
 <recipetype:create:milling>.addRecipe("mill_blackdye2", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:minecraft:wither_rose>);
 <recipetype:create:milling>.addRecipe("mill_blackdye3", [<item:minecraft:black_dye> * 1 %100], <tag:items:botania:petals/black>);
@@ -266,7 +269,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 
 <recipetype:create:mixing>.addRecipe("create_vinteum_superheated", "superheated", <item:mana-and-artifice:superheated_vinteum_ingot>, [<item:mana-and-artifice:vinteum_ingot>]);
 
-<recipetype:create:mixing>.addRecipe("create_pure_vinteum_normal", "heated", <item:mana-and-artifice:purified_vinteum_ingot>, [<tag:items:forge:ingots/iron>, <item:mana-and-artifice:purified_vinteum_dust>]);
+<recipetype:create:mixing>.addRecipe("create_pure_vinteum_normal", "heated", <item:mana-and-artifice:purified_vinteum_ingot>, [<item:mana-and-artifice:vinteum_ingot>, <item:mana-and-artifice:purified_vinteum_dust>]);
 
 <recipetype:create:mixing>.addRecipe("create_pure_vinteum_superheated", "superheated", <item:mana-and-artifice:superheated_purified_vinteum_ingot>, [<item:mana-and-artifice:purified_vinteum_ingot>]);
 
