@@ -50,7 +50,7 @@
 			width: 0.5d
 			height: 0.5d
 			rotation: 0.0d
-			image: "minecraft:textures/entity_icon/cat/calico.png"
+			image: "ftbchunks:textures/faces/minecraft/cat.png"
 			hover: ["Click here to learn more about blins and cats"]
 			click: "https://youtu.be/OgJIPP39pRI"
 			dev: false
@@ -588,7 +588,7 @@
 		{
 			title: "CHOCOLATE"
 			x: 5.5d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "I remember when they invented chocolate..."
 			description: ["Make yourself a saucepan, and you can start cooking up Chocolate! This stuff is very useful for making Stamina Vessels (see Handy Tools quest chapter)."]
 			dependencies: ["484335796DA3D55B"]
@@ -788,27 +788,6 @@
 				id: "78E6DDD6B4D1504E"
 				type: "item"
 				item: "paraglider:heart_container"
-			}]
-		}
-		{
-			title: "Delicious Rarebit"
-			x: 5.5d
-			y: -0.5d
-			subtitle: "Not to be confused with rabbits."
-			description: ["Rarebit is a Welsh dish, consisting of a hot cheese-based sauce served over slices of toasted bread."]
-			dependencies: ["484335796DA3D55B"]
-			id: "6AB9721BA54AEBA3"
-			tasks: [{
-				id: "5DA0CB7A1DD7AA4A"
-				type: "item"
-				item: "explorercraft:welsh_rarebit"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "6196A05E18BC6E76"
-				type: "item"
-				item: "minecraft:rabbit_spawn_egg"
-				count: 2
 			}]
 		}
 		{
