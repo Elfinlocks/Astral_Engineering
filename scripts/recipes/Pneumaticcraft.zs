@@ -87,6 +87,7 @@ mods.jei.JEI.addInfo(<item:kubejs:drilled_circuit>, ["How did you even get this?
 
 mods.jei.JEI.addInfo(<item:kubejs:prepared_circuit>, ["All of the essential components for a highly detailed batch of circuitry."]);
 
+mods.jei.JEI.hideRecipe("pneumaticcraft:assembly_controller", "crafttweaker:circuit1");
 mods.jei.JEI.hideRecipe("pneumaticcraft:assembly_controller", "crafttweaker:circuit2");
 
 <recipetype:pneumaticcraft:assembly_drill>.addRecipe("circuit1", <item:kubejs:prepared_circuit>, <item:kubejs:drilled_circuit>);
