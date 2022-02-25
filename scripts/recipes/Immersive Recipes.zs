@@ -144,12 +144,12 @@ craftingTable.addShaped("light_engineering_block", <item:immersiveengineering:li
     [<item:immersiveengineering:component_iron>, <item:kubejs:integrated_circuit>, <item:immersiveengineering:component_iron>],
     [<item:immersiveengineering:sheetmetal_iron>, <item:immersiveengineering:component_iron>, <item:immersiveengineering:sheetmetal_iron>]]);
 
-craftingTable.addShaped("heavy_engineering_block", <item:immersiveengineering:heavy_engineering> * 2, [
+craftingTable.addShaped("heavy_engineering_block", <item:immersiveengineering:heavy_engineering> * 1, [
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>],
     [<tag:items:forge:ingots/brass>, <item:kubejs:integrated_circuit>, <tag:items:forge:ingots/brass>],
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>]]);
 
-craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering:rs_engineering> * 2, [
+craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering:rs_engineering> * 1, [
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>]]);
