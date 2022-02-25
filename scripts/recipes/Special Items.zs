@@ -6,6 +6,10 @@ craftingTable.removeRecipe(<item:extendedcrafting:basic_table>);
 
 craftingTable.addShapeless("red_herring", <item:kubejs:red_herring>, [<item:minecraft:red_dye>, <item:aquaculture:atlantic_herring>]);
 
+mods.jei.JEI.hideRecipe("minecraft:crafting_table", "crafttweaker:red_herring");
+
+mods.jei.JEI.hideRecipe("minecraft:furnace", "crafttweaker:secret");
+
 <item:kubejs:red_herring>.addTooltip("This might do something, or not.");
 
 mods.jei.JEI.hideRecipe("minecraft:crafting_table", "crafttweaker:red_herring");
