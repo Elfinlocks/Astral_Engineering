@@ -5,6 +5,18 @@ craftingTable.removeRecipe(<item:createaddition:capacitor>);
 <recipetype:create:pressing>.removeRecipe(<item:create:iron_sheet>);
 craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
 craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
+craftingTable.removeRecipe(<item:create:millstone>);
+craftingTable.removeRecipe(<item:create:hand_crank>);
+
+craftingTable.addShaped("millstone", <item:create:millstone>, [
+	[<item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>],
+	[<tag:items:minecraft:logs>, <item:minecraft:grindstone>, <tag:items:minecraft:logs>],
+	[<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]]);
+	
+craftingTable.addShaped("hand_crank", <item:create:hand_crank>, [
+	[<item:minecraft:air>, <tag:items:forge:stone>, <item:minecraft:air>],
+	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:stone>]]);
 
 craftingTable.addShaped("radiance_casing", <item:create:refined_radiance_casing> * 2, [
 	[<tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>, <tag:items:forge:treated_wood>],
@@ -229,23 +241,23 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_starmetal", [<item:jaopca:dusts.starmetal> * 1 % 100], <tag:items:forge:ingots/starmetal>);
 <recipetype:create:milling>.addRecipe("mill_netherite", [<item:mekanism:dust_netherite> * 1 % 100], <tag:items:forge:ingots/netherite>);
 <recipetype:create:milling>.addRecipe("mill_steel", [<item:immersiveengineering:dust_steel> * 1 % 100], <tag:items:forge:ingots/steel>);
-<recipetype:create:milling>.addRecipe("mill_iron", [<item:thermal:iron_dust> * 2 % 100], <tag:items:forge:ores/iron>);
-<recipetype:create:milling>.addRecipe("mill_gold", [<item:thermal:gold_dust> * 2 % 100], <tag:items:forge:ores/gold>);
-<recipetype:create:milling>.addRecipe("mill_copper", [<item:thermal:copper_dust> * 2 % 100], <tag:items:forge:ores/copper>);
-<recipetype:create:milling>.addRecipe("mill_zinc", [<item:jaopca:dusts.zinc> * 2 % 100], <tag:items:forge:ores/zinc>);
-<recipetype:create:milling>.addRecipe("mill_osmium", [<item:mekanism:dust_osmium> * 2 % 100], <tag:items:forge:ores/osmium>);
-<recipetype:create:milling>.addRecipe("mill_silver", [<item:immersiveengineering:dust_silver> * 2 % 100], <tag:items:forge:ores/silver>);
-<recipetype:create:milling>.addRecipe("mill_tin", [<item:thermal:tin_dust> * 2 % 100], <tag:items:forge:ores/tin>);
-<recipetype:create:milling>.addRecipe("mill_lead", [<item:thermal:lead_dust> * 2 % 100], <tag:items:forge:ores/lead>);
+<recipetype:create:milling>.addRecipe("mill_iron", [<item:thermal:iron_dust> * 1 % 100], <tag:items:forge:ores/iron>);
+<recipetype:create:milling>.addRecipe("mill_gold", [<item:thermal:gold_dust> * 1 % 100], <tag:items:forge:ores/gold>);
+<recipetype:create:milling>.addRecipe("mill_copper", [<item:thermal:copper_dust> * 1 % 100], <tag:items:forge:ores/copper>);
+<recipetype:create:milling>.addRecipe("mill_zinc", [<item:jaopca:dusts.zinc> * 1 % 100], <tag:items:forge:ores/zinc>);
+<recipetype:create:milling>.addRecipe("mill_osmium", [<item:mekanism:dust_osmium> * 1 % 100], <tag:items:forge:ores/osmium>);
+<recipetype:create:milling>.addRecipe("mill_silver", [<item:immersiveengineering:dust_silver> * 1 % 100], <tag:items:forge:ores/silver>);
+<recipetype:create:milling>.addRecipe("mill_tin", [<item:thermal:tin_dust> * 1 % 100], <tag:items:forge:ores/tin>);
+<recipetype:create:milling>.addRecipe("mill_lead", [<item:thermal:lead_dust> * 1 % 100], <tag:items:forge:ores/lead>);
 <recipetype:create:milling>.addRecipe("mill_aluminum", [<item:immersiveengineering:dust_aluminum> * 1 % 100], <item:libvulpes:orealuminum>);
-<recipetype:create:milling>.addRecipe("mill_uranium", [<item:immersiveengineering:dust_uranium> * 2 % 100], <tag:items:forge:ores/uranium>);
-<recipetype:create:milling>.addRecipe("mill_nickel", [<item:immersiveengineering:dust_nickel> * 2 % 100], <tag:items:forge:ores/nickel>);
+<recipetype:create:milling>.addRecipe("mill_uranium", [<item:immersiveengineering:dust_uranium> * 1 % 100], <tag:items:forge:ores/uranium>);
+<recipetype:create:milling>.addRecipe("mill_nickel", [<item:immersiveengineering:dust_nickel> * 1 % 100], <tag:items:forge:ores/nickel>);
 <recipetype:create:milling>.addRecipe("mill_cobble", [<item:minecraft:cobblestone> * 1 % 100], <tag:items:forge:stone>);
 <recipetype:create:milling>.addRecipe("mill_diamond", [<item:thermal:diamond_dust> * 1 % 100], <item:minecraft:diamond>);
-<recipetype:create:milling>.addRecipe("mill_cobalt", [<item:jaopca:dusts.cobalt> * 2 % 100], <tag:items:forge:ores/cobalt>);
-<recipetype:create:milling>.addRecipe("mill_netherite_ore", [<item:jaopca:dusts.netherite_scrap> * 1 % 100, <item:jaopca:dusts.netherite_scrap> % 30], <tag:items:forge:ores/netherite_scrap>);
-<recipetype:create:milling>.addRecipe("mill_obsidian", [<item:mekanism:dust_obsidian> * 3 % 100], <tag:items:forge:obsidian>);
-<recipetype:create:milling>.addRecipe("mill_thallasium", [<item:jaopca:dusts.thallasium> * 2 % 100], <tag:items:forge:ores/thallasium>);
+<recipetype:create:milling>.addRecipe("mill_cobalt", [<item:jaopca:dusts.cobalt> * 1 % 100], <tag:items:forge:ores/cobalt>);
+<recipetype:create:milling>.addRecipe("mill_netherite_ore", [<item:jaopca:dusts.netherite_scrap> * 1 % 100], <tag:items:forge:ores/netherite_scrap>);
+<recipetype:create:milling>.addRecipe("mill_obsidian", [<item:mekanism:dust_obsidian> * 1 % 100], <tag:items:forge:obsidian>);
+<recipetype:create:milling>.addRecipe("mill_thallasium", [<item:jaopca:dusts.thallasium> * 1 % 100], <tag:items:forge:ores/thallasium>);
 <recipetype:create:milling>.addRecipe("mill_cinnbar", [<item:thermal:cinnabar_dust> * 1 % 100], <tag:items:forge:gems/cinnabar>);
 <recipetype:create:milling>.addRecipe("mill_sulfur", [<item:thermal:sulfur_dust> * 1 % 100], <tag:items:forge:gems/sulfur>);
 <recipetype:create:milling>.addRecipe("mill_niter", [<item:thermal:niter_dust> * 1 % 100], <tag:items:forge:gems/niter>);
@@ -255,11 +267,11 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 
 <recipetype:create:milling>.addRecipe("mill_vinteum_impure", [<item:kubejs:impure_vinteum> * 1 % 100], <item:mana-and-artifice:vinteum_ore>);
 
-<recipetype:create:milling>.addRecipe("mill_blackdye1", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);
-<recipetype:create:milling>.addRecipe("mill_blackdye2", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:minecraft:wither_rose>);
+<recipetype:create:milling>.addRecipe("mill_blackdye1", [<item:minecraft:black_dye> * 1 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);
+<recipetype:create:milling>.addRecipe("mill_blackdye2", [<item:minecraft:black_dye> * 1 %100, <item:minecraft:black_dye> * 1 %10], <item:minecraft:wither_rose>);
 <recipetype:create:milling>.addRecipe("mill_blackdye3", [<item:minecraft:black_dye> * 1 %100], <tag:items:botania:petals/black>);
-<recipetype:create:milling>.addRecipe("mill_blackdye4", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:byg:black_rose>);
-<recipetype:create:milling>.addRecipe("mill_blackdye5", [<item:minecraft:bone_meal> * 3 %100, <item:minecraft:black_dye> * 1 %25, <item:minecraft:bone_meal> * 3 % 25], <item:tconstruct:necrotic_bone>);
+<recipetype:create:milling>.addRecipe("mill_blackdye4", [<item:minecraft:black_dye> * 1 %100, <item:minecraft:black_dye> * 1 %10], <item:byg:black_rose>);
+<recipetype:create:milling>.addRecipe("mill_blackdye5", [<item:minecraft:bone_meal> * 2 %100, <item:minecraft:black_dye> * 1 %25, <item:minecraft:bone_meal> * 3 % 25], <item:tconstruct:necrotic_bone>);
 
 // Alloys
 
