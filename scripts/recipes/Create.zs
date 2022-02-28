@@ -8,6 +8,19 @@ craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
 craftingTable.removeRecipe(<item:create:millstone>);
 craftingTable.removeRecipe(<item:create:hand_crank>);
 
+// Sawmill compat
+
+<recipetype:create:cutting>.addRecipe("cutting_cherry_blossom1", <item:projectvibrantjourneys:stripped_sakura_log>, <item:projectvibrantjourneys:sakura_log>);
+<recipetype:create:cutting>.addRecipe("cutting_cherry_blossom2", <item:projectvibrantjourneys:sakura_planks> * 6, <item:projectvibrantjourneys:stripped_sakura_log>);
+
+<recipetype:create:cutting>.addRecipe("cutting_tamarack1", <item:projectvibrantjourneys:stripped_tamarack_log>, <item:projectvibrantjourneys:tamarack_log>);
+<recipetype:create:cutting>.addRecipe("cutting_tamarack2", <item:projectvibrantjourneys:tamarack_planks> * 6, <item:projectvibrantjourneys:stripped_tamarack_log>);
+
+<recipetype:create:cutting>.addRecipe("cutting_joshua1", <item:projectvibrantjourneys:stripped_joshua_log>, <item:projectvibrantjourneys:joshua_log>);
+<recipetype:create:cutting>.addRecipe("cutting_joshua2", <item:projectvibrantjourneys:joshua_planks> * 6, <item:projectvibrantjourneys:stripped_joshua_log>);
+
+// Misc Recipes
+
 craftingTable.addShaped("millstone", <item:create:millstone>, [
 	[<item:minecraft:air>, <tag:items:minecraft:logs>, <item:minecraft:air>],
 	[<tag:items:minecraft:logs>, <item:minecraft:grindstone>, <tag:items:minecraft:logs>],
