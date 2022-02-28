@@ -162,6 +162,8 @@ events.listen('item.tags', function (event) {
 	event.get('curios:glasses')
 		.add('bountifulbaubles:sunglasses')
 		.add('create:goggles')
+		.add('dads_sewing:nerd_glasses_hat')
+		.add('dads_sewing:dope_glasses_hat')
 	event.get('curios:head')
 		.add('create:goggles')
 	event.get('forge:ores/aluminum').remove('immersiveengineering:ore_aluminum')

@@ -1222,13 +1222,61 @@
 			]
 		}
 		{
+			title: "Fisherman's Ways"
+			icon: "minecraft:salmon"
 			x: -8.0d
 			y: -8.0d
+			subtitle: "35 Silver"
 			id: "5B0E6D36B7A1FC88"
-			tasks: [{
-				id: "7A5C5818067EB409"
+			tasks: [
+				{
+					id: "7A5C5818067EB409"
+					type: "item"
+					item: "minecraft:pufferfish"
+					consume_items: true
+				}
+				{
+					id: "63FC7EB5D940DEE5"
+					type: "item"
+					item: "minecraft:salmon"
+					consume_items: true
+				}
+				{
+					id: "5BB312D0A1023C28"
+					type: "item"
+					item: "aquaculture:perch"
+					consume_items: true
+				}
+				{
+					id: "2E36E6B82F8E459A"
+					type: "item"
+					item: {
+						id: "aquaculture:minnow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2C9720B3D69DFA61"
+					type: "item"
+					item: "aquaculture:catfish"
+					consume_items: true
+				}
+				{
+					id: "0A47C6AD71257595"
+					type: "item"
+					item: "aquaculture:brown_trout"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "12CFAE8DA12922EA"
 				type: "item"
-				item: "minecraft:pufferfish"
+				item: "thermal:silver_coin"
+				count: 35
 			}]
 		}
 	]
