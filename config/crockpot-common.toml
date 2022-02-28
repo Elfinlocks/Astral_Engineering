@@ -4,7 +4,7 @@
 	#Set this to false to disable Unknown Seeds.
 	#This is a way to obtain crops in the mod and we strongly recommend that set it to true.
 	#Please make sure there are other ways to obtain crops in the mod if set it to false.
-	enableUnknownSeeds = true
+	enableUnknownSeeds = false
 	#Define the crops list that Unknown Crops will be converted into.
 	#Both the seed item for the crop and the crop block itself are acceptable.
 	unknownCropsList = ["crockpot:eggplant"]
