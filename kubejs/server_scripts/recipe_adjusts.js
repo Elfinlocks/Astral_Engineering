@@ -51,6 +51,7 @@ function mekanism(event) {
 	event.recipes.mekanismCrushing('appliedenergistics2:fluix_dust', 'appliedenergistics2:purified_fluix_crystal')
 	event.remove({id: 'mekanism:control_circuit/basic'})
 	event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'kubejs:integrated_circuit', 'mekanism:gold', 40)
+	event.remove({id: 'mekanism:processing/steel/enriched_iron_to_dust'})
 }
 
 function earlyartifice(event) {
