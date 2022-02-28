@@ -83,7 +83,7 @@ craftingTable.addShaped("wooden_gear", <item:appliedenergistics2:wooden_gear>, [
 
 // Logic Processor
 
-<recipetype:create:pressing>.addRecipe("printed_logic", [<item:appliedenergistics2:printed_logic_processor>], <tag:items:forge:ingots/electrum>);
+<recipetype:create:pressing>.addRecipe("printed_logic", [<item:appliedenergistics2:printed_logic_processor>], <tag:items:forge:plates/electrum>);
 
 	
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_logic")
