@@ -736,11 +736,12 @@
 			}]
 		}
 		{
-			title: "Crops Collection"
+			title: "Farming, Really?"
 			icon: "minecraft:carrot"
 			x: -6.0d
 			y: -6.0d
 			subtitle: "25 Silver"
+			description: ["A man of your talents?"]
 			id: "4D07666ECE75D9B5"
 			tasks: [
 				{
@@ -795,7 +796,7 @@
 			}]
 		}
 		{
-			title: "Plentiful Crops Collection"
+			title: "Curious Crop Collector"
 			icon: "farmersdelight:rice_panicle"
 			x: -8.0d
 			y: -6.0d
@@ -814,13 +815,6 @@
 					id: "5AE85D27C59EDB92"
 					type: "item"
 					item: "minecraft:beetroot"
-					count: 3L
-					consume_items: true
-				}
-				{
-					id: "46748564E10CA41F"
-					type: "item"
-					item: "supplementaries:flax"
 					count: 3L
 					consume_items: true
 				}
@@ -1228,38 +1222,13 @@
 			]
 		}
 		{
-			title: "Farming, Really?"
-			icon: "farmersdelight:tomato_crate"
 			x: -8.0d
 			y: -8.0d
-			subtitle: "20 Silver"
-			description: ["A man of your talents?"]
-			id: "016A6E3A3F8D6413"
-			tasks: [
-				{
-					id: "099198363E65FC27"
-					type: "item"
-					item: "farmersdelight:onion_crate"
-					consume_items: true
-				}
-				{
-					id: "2AA1146DBFDA450E"
-					type: "item"
-					item: "farmersdelight:cabbage_crate"
-					consume_items: true
-				}
-				{
-					id: "025F5DB5D3995557"
-					type: "item"
-					item: "farmersdelight:tomato_crate"
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "686AC37E50FD35CB"
+			id: "5B0E6D36B7A1FC88"
+			tasks: [{
+				id: "7A5C5818067EB409"
 				type: "item"
-				item: "thermal:silver_coin"
-				count: 20
+				item: "minecraft:pufferfish"
 			}]
 		}
 	]

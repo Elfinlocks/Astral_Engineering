@@ -548,9 +548,9 @@
 				item: "paraglider:stamina_vessel"
 			}]
 			rewards: [{
-				id: "1A017037C15FFEC4"
+				id: "516647EBF21D5FF8"
 				type: "item"
-				item: "pamhc2foodcore:chocolatecaramelfudgeitem"
+				item: "crockpot:pow_cake"
 			}]
 		}
 		{

@@ -606,9 +606,9 @@
 				}
 			]
 			rewards: [{
-				id: "173B4F4598DFD912"
+				id: "31990221FD6F6DB3"
 				type: "item"
-				item: "pamhc2foodextended:greenteaitem"
+				item: "crockpot:iced_tea"
 			}]
 		}
 		{

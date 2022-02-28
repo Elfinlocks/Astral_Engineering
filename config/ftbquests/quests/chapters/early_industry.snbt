@@ -1176,9 +1176,9 @@
 				title: "Choose Your Path"
 			}]
 			rewards: [{
-				id: "57F7D43D73412C7D"
+				id: "0C5AAC15B1D1EF82"
 				type: "item"
-				item: "pamhc2foodcore:cookiesandmilkitem"
+				item: "farmersdelight:milk_bottle"
 			}]
 		}
 		{
