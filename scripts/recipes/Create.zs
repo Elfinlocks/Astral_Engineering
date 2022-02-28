@@ -211,6 +211,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.addRecipe("wheel_coke", [<item:immersiveengineering:dust_coke> * 1 % 100], <tag:items:forge:coal_coke>);
 <recipetype:create:crushing>.addRecipe("wheel_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
 <recipetype:create:crushing>.addRecipe("wheel_vinteum_impure", [<item:kubejs:impure_vinteum> * 2 % 100], <item:mana-and-artifice:vinteum_ore>);
+<recipetype:create:crushing>.addRecipe("wheel_blackstone", [<item:crockpot:blackstone_dust> * 2 % 100], <item:minecraft:blackstone>);
 
 <recipetype:create:crushing>.addRecipe("wheel_blackdye1", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);
 <recipetype:create:crushing>.addRecipe("wheel_blackdye2", [<item:minecraft:black_dye> * 2 %100, <item:minecraft:black_dye> * 1 %10], <item:minecraft:wither_rose>);
@@ -264,7 +265,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_coal", [<item:mekanism:dust_coal> * 1 % 100], <item:minecraft:coal>);
 <recipetype:create:milling>.addRecipe("mill_coke", [<item:immersiveengineering:dust_coke> * 1 % 100], <tag:items:forge:coal_coke>);
 <recipetype:create:milling>.addRecipe("mill_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
-
+<recipetype:create:milling>.addRecipe("mill_blackstone", [<item:crockpot:blackstone_dust> * 1 % 100], <item:minecraft:blackstone>);
 <recipetype:create:milling>.addRecipe("mill_vinteum_impure", [<item:kubejs:impure_vinteum> * 1 % 100], <item:mana-and-artifice:vinteum_ore>);
 
 <recipetype:create:milling>.addRecipe("mill_blackdye1", [<item:minecraft:black_dye> * 1 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);

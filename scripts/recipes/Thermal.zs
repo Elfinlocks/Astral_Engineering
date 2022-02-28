@@ -58,23 +58,25 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 	[<item:thermal:invar_plate>, <item:appliedenergistics2:printed_silicon>, <item:thermal:invar_plate>],
 	[<item:minecraft:air>, <item:thermal:invar_plate>, <item:minecraft:air>]]);
 
-<recipetype:thermal:pulverizer>.addRecipe("kelp", [<item:mekanism:salt> % 100] , <item:minecraft:dried_kelp>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("kelp", [<item:mekanism:salt> % 100] , <item:minecraft:dried_kelp>, 2, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("thermal_limesand", [<item:create:limesand> % 100] , <tag:items:forge:sand>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("thermal_limesand", [<item:create:limesand> % 100] , <tag:items:forge:sand>, 2, 4000);
 
 <recipetype:thermal:furnace>.addRecipe("leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("coke", [<item:immersiveengineering:dust_coke> % 100] , <tag:items:forge:coal_coke>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("coke", [<item:immersiveengineering:dust_coke> % 100] , <tag:items:forge:coal_coke>, 2, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("coke2", [<item:immersivepetroleum:petcoke_dust> % 100] , <item:immersivepetroleum:petcoke>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("coke2", [<item:immersivepetroleum:petcoke_dust> % 100] , <item:immersivepetroleum:petcoke>, 2, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("pulv_coal", [<item:mekanism:dust_coal> % 100] , <item:minecraft:coal>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("pulv_coal", [<item:mekanism:dust_coal> % 100] , <item:minecraft:coal>, 2, 4000);
 
-<recipetype:thermal:pulverizer>.addRecipe("pulv_charcoal", [<item:mekanism:dust_charcoal> % 100] , <tag:items:forge:charcoal>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("pulv_charcoal", [<item:mekanism:dust_charcoal> % 100] , <tag:items:forge:charcoal>, 2, 4000);
+
+<recipetype:thermal:pulverizer>.addRecipe("pulv_blackstone", [<item:crockpot:blackstone_dust> % 200] , <item:minecraft:blackstone>, 2, 4000);
 
 <recipetype:thermal:pulverizer>.removeRecipe(<item:mekanism:dust_steel>);
-<recipetype:thermal:pulverizer>.addRecipe("pulv_steel", [<item:immersiveengineering:dust_steel> % 100] , <tag:items:forge:ingots/steel>, 2, 500);
-<recipetype:thermal:pulverizer>.addRecipe("pulv_zinc", [<item:jaopca:dusts.zinc> % 200] , <tag:items:forge:ores/zinc>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("pulv_steel", [<item:immersiveengineering:dust_steel> % 100] , <tag:items:forge:ingots/steel>, 2, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("pulv_zinc", [<item:jaopca:dusts.zinc> % 200] , <tag:items:forge:ores/zinc>, 2, 4000);
 
 <recipetype:thermal:smelter>.removeRecipe(<item:mekanism:ingot_steel>);
 
