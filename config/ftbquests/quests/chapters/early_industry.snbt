@@ -394,7 +394,7 @@
 			x: 6.0d
 			y: -2.5d
 			subtitle: "A Kiln can be used to combine some metals into alloys. Create it by right clicking a 2x2x2 cube of Kiln Bricks with an Engineer's Hammer."
-			description: [""]
+			description: ["This is really only necessary if you want an alternative to the &6Tinker's Smeltery&r."]
 			dependencies: ["5F68C4D92EF20E09"]
 			optional: true
 			id: "2E3880C1F6D082FA"
@@ -402,13 +402,13 @@
 				id: "3836154FED8CB897"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 6L
+				count: 4L
 			}]
 			rewards: [{
 				id: "2B0EC1C6D98F5B76"
 				type: "item"
 				item: "immersiveengineering:alloybrick"
-				count: 2
+				count: 4
 			}]
 		}
 		{

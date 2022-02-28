@@ -3909,7 +3909,7 @@
 			x: -2.0d
 			y: 0.25d
 			shape: "hexagon"
-			subtitle: "30 Silver"
+			subtitle: "45 Silver"
 			description: [
 				"Getting through Early Industry is hard work!"
 				""
