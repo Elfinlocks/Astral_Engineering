@@ -62,6 +62,7 @@
 				id: "772821832EE93341"
 				type: "item"
 				item: "thermal:gold_coin"
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -98,6 +99,7 @@
 				icon: { id: "thermal:silver_coin", Count: 64b }
 				item: "thermal:silver_coin"
 				count: 64L
+				consume_items: true
 			}]
 			rewards: [
 				{
@@ -1261,7 +1263,7 @@
 			description: [
 				"This is a handy device which provides &6unstable teleportation&r to the wearer. You'll need &6batteries&r to operate it."
 				""
-				"Note: Maximum range of 10,000 blocks."
+				"Note: Maximum range of 10,000 blocks. Only operates in The End, The Nether, and The Overworld."
 			]
 			id: "7DC32B2C666BE76A"
 			tasks: [
@@ -1322,6 +1324,7 @@
 			icon: "tardis:artron_battery"
 			x: -5.5d
 			y: 2.5d
+			description: ["You'll need Artron batteries to operate the manipulator. Here is a source of them until you can buy your own."]
 			dependencies: ["7DC32B2C666BE76A"]
 			id: "5B225F1BF4A7D5B6"
 			tasks: [{

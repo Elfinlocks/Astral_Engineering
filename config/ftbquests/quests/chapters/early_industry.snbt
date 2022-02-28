@@ -267,7 +267,7 @@
 		}
 		{
 			title: "Perfect Plates"
-			x: 4.0d
+			x: 5.0d
 			y: -4.5d
 			subtitle: "Smash some copper down into plates for the next step in this route."
 			description: ["You can also make these with an Engineer's Hammer."]
@@ -312,7 +312,7 @@
 			y: -4.5d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
-			dependencies: ["2E3880C1F6D082FA"]
+			dependencies: ["5F68C4D92EF20E09"]
 			dependency_requirement: "one_completed"
 			id: "2BA7183800B331E0"
 			tasks: [
@@ -357,7 +357,7 @@
 			}]
 		}
 		{
-			title: "Early Doubling!"
+			title: "Alternative Doubling"
 			x: 8.0d
 			y: -2.5d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
@@ -392,10 +392,11 @@
 				}
 			}
 			x: 6.0d
-			y: -4.5d
+			y: -2.5d
 			subtitle: "A Kiln can be used to combine some metals into alloys. Create it by right clicking a 2x2x2 cube of Kiln Bricks with an Engineer's Hammer."
 			description: [""]
 			dependencies: ["5F68C4D92EF20E09"]
+			optional: true
 			id: "2E3880C1F6D082FA"
 			tasks: [{
 				id: "3836154FED8CB897"
