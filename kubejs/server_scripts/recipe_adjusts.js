@@ -40,9 +40,18 @@ onEvent('recipes', event => {
 	rubberMatters(event)
 	alchemistry(event)
 	earlyartifice(event)
+	mekanism(event)
 	event.remove({id: ('immersiveindustry:electrolyze/alumium')})
 	log.push('Recipes Updated')
 })
+
+function mekanism(event) {
+	event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
+	event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused', 'immersiveengineering:ingot_steel', 'mekanism:redstone', 20)
+	event.recipes.mekanismCrushing('appliedenergistics2:fluix_dust', 'appliedenergistics2:purified_fluix_crystal')
+	event.remove({id: 'mekanism:control_circuit/basic'})
+	event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'kubejs:integrated_circuit', 'mekanism:gold', 40)
+}
 
 function earlyartifice(event) {
 	event.remove({ id: 'mana-and-artifice:vinteum_dust_blast_furnace' })
@@ -50,10 +59,8 @@ function earlyartifice(event) {
 }
 
 function alchemistry(event) {
-	
 	event.recipes.createMilling([AE2('certus_quartz_dust')], '#appliedenergistics2:crystals/certus').processingTime(200)
 	event.recipes.createMilling([TE('quartz_dust')], '#appliedenergistics2:crystals/nether').processingTime(200)
-	
 }
 
 function rubberMatters(event) {
