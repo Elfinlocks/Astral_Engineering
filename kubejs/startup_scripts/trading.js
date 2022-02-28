@@ -30,6 +30,7 @@ let AS = (id, x) => MOD("astralsorcery", id, x)
 let BT = (id, x) => MOD("botania", id, x)
 let AD = (id, x) => MOD("amfd", id, x)
 let ND = (id, x) => MOD("nethers_delight", id, x)
+let ST = (id, x) => MOD("simplytea", id, x)
 //
 
 
@@ -381,7 +382,15 @@ onEvent('item.registry', event => {
 		{ in: ND('grilled_strider', 16), out: S(10) },
 		{ in: ND('strider_moss_stew', 16), out: S(10) },
 		{ in: ND('stuffed_hoglin_item', 1), out: S(10) },
-		{ in: ND('magma_gelatin', 1), out: S(5) }
+		{ in: ND('magma_gelatin', 1), out: S(5) },
+		{ in: ND('grilled_strider', 16), out: S(10) },
+		{ in: ST('cup_tea_black', 1), out: S(2) },
+		{ in: ST('cup_tea_green', 1), out: S(1) },
+		{ in: ST('cup_tea_floral', 1), out: S(2) },
+		{ in: ST('cup_tea_chai', 1), out: S(3) },
+		{ in: ST('cup_tea_iced', 1), out: S(3) },
+		{ in: ST('cup_tea_chorus', 1), out: S(3) },
+		{ in: ST('cup_cocoa', 1), out: S(2) }
 	])
 
 	let quota = 8
