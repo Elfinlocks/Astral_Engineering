@@ -19,6 +19,8 @@ furnace.addRecipe("glass_convert", <item:minecraft:glass>, <tag:items:forge:glas
 
 furnace.addRecipe("rusty_iron_convert_vanilla", <item:minecraft:iron_nugget> * 4, <item:dustrial_decor:rusty_iron_ingot>, 0.35, 200);
 
+<recipetype:create:mixing>.addRecipe("rusty_iron_convert_create", "heated", <item:minecraft:iron_ingot>, [<item:dustrial_decor:rusty_iron_ingot>], [<fluid:pneumaticcraft:etching_acid> * 100]);
+
 furnace.addRecipe("membrane", <item:minecraft:phantom_membrane> * 4, <item:minecraft:shulker_shell>, 0.35, 50); 
 
 smoker.addRecipe("flesh2leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 0.35, 100);
