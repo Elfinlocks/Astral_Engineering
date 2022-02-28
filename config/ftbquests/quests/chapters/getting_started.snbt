@@ -790,7 +790,11 @@
 			x: 18.5d
 			y: -5.0d
 			subtitle: "A quick how-to."
-			description: ["Simply fill your Apothecary with water, place two petals or mushrooms, one impure vinteum dust, and two aquamarines inside to create &6Vinteum Dust&r."]
+			description: [
+				"Simply fill your Apothecary with water, place two petals or mushrooms, one impure vinteum dust, and one aquamarine inside to create &6Vinteum Dust&r."
+				""
+				"Note: As with all Petal Apothecary recipes, you will need to add one &6Wheat Seed&r as well, to finish the craft."
+			]
 			dependencies: ["4BEFCF37588A5619"]
 			id: "4986926BC0C8221E"
 			tasks: [{

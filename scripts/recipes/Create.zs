@@ -196,6 +196,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.addRecipe("wheel_sulfur", [<item:thermal:sulfur_dust> * 1 % 100], <tag:items:forge:gems/sulfur>);
 <recipetype:create:crushing>.addRecipe("wheel_niter", [<item:thermal:niter_dust> * 1 % 100], <tag:items:forge:gems/niter>);
 <recipetype:create:crushing>.addRecipe("wheel_coal", [<item:mekanism:dust_coal> * 1 % 100], <item:minecraft:coal>);
+<recipetype:create:crushing>.addRecipe("wheel_coke", [<item:immersiveengineering:dust_coke> * 1 % 100], <tag:items:forge:coal_coke>);
 <recipetype:create:crushing>.addRecipe("wheel_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
 <recipetype:create:crushing>.addRecipe("wheel_vinteum_impure", [<item:kubejs:impure_vinteum> * 2 % 100], <item:mana-and-artifice:vinteum_ore>);
 
@@ -249,6 +250,7 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_sulfur", [<item:thermal:sulfur_dust> * 1 % 100], <tag:items:forge:gems/sulfur>);
 <recipetype:create:milling>.addRecipe("mill_niter", [<item:thermal:niter_dust> * 1 % 100], <tag:items:forge:gems/niter>);
 <recipetype:create:milling>.addRecipe("mill_coal", [<item:mekanism:dust_coal> * 1 % 100], <item:minecraft:coal>);
+<recipetype:create:milling>.addRecipe("mill_coke", [<item:immersiveengineering:dust_coke> * 1 % 100], <tag:items:forge:coal_coke>);
 <recipetype:create:milling>.addRecipe("mill_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
 
 <recipetype:create:milling>.addRecipe("mill_vinteum_impure", [<item:kubejs:impure_vinteum> * 1 % 100], <item:mana-and-artifice:vinteum_ore>);
