@@ -2,7 +2,7 @@
   "oreConfig": [
     {
       "ore": "libvulpes:orerutile",
-      "filler": "boss_tools:mercury_cobblestone",
+      "filler": "boss_tools:mercury_stone",
       "minY": 1,
       "maxY": 50,
       "maxVeinSize": 3,
