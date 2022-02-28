@@ -32,3 +32,5 @@ craftingTable.addShaped("enchanting_table", <item:minecraft:enchanting_table>, [
 	[<item:mana-and-artifice:mote_arcane>, <item:minecraft:book>, <item:mana-and-artifice:mote_arcane>],
 	[<item:minecraft:diamond>, <item:minecraft:obsidian>, <item:minecraft:diamond>],
 	[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
+	
+craftingTable.addShapeless("beets_to_sugar", <item:minecraft:sugar>, [<item:minecraft:beetroot> * 2]);
