@@ -14,6 +14,8 @@ craftingTable.removeRecipe(<item:thermal:machine_press>);
 <recipetype:thermal:refinery>.removeByName("boss_tools_giselle_addon:compat/thermal/refinery/refinery_oil");
 craftingTable.removeRecipe(<item:thermal:rf_coil>);
 
+craftingTable.addShapeless("gunpowder_block_dismantle", <item:minecraft:gunpowder> * 9, [<tag:items:forge:storage_blocks/gunpowder>]);
+
 craftingTable.addShaped("trading_computer", <item:thermal:machine_press>, [
 	[<tag:items:forge:plates/steel>, <tag:items:forge:treated_wood>, <tag:items:forge:plates/steel>],
 	[<item:mekanism:alloy_atomic>, <item:computercraft:computer_advanced>, <item:mekanism:alloy_atomic>],
