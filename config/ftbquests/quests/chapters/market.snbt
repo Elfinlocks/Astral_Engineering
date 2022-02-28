@@ -69,6 +69,7 @@
 					id: "26512E93CE404069"
 					type: "item"
 					icon: { id: "thermal:silver_coin", Count: 64b }
+					team_reward: false
 					auto: "enabled"
 					item: "thermal:silver_coin"
 					count: 64
@@ -105,6 +106,7 @@
 				{
 					id: "66BE3DDEC92812C4"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "thermal:gold_coin"
 				}

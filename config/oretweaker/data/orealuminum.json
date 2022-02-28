@@ -22,7 +22,7 @@
     },
 	{
       "ore": "libvulpes:orealuminum",
-      "filler": "boss_tools:mercury_cobblestone",
+      "filler": "boss_tools:mercury_stone",
       "minY": 1,
       "maxY": 70,
       "maxVeinSize": 10,

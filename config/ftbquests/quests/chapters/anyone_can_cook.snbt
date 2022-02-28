@@ -214,7 +214,7 @@
 		}
 		{
 			title: "Fine Dining"
-			x: 1.0d
+			x: 0.5d
 			y: 3.0d
 			subtitle: "Create some of the finest meals known to man."
 			dependencies: ["484335796DA3D55B"]
@@ -254,6 +254,12 @@
 					id: "7C7ABC39B10E3AA6"
 					type: "item"
 					item: "crockpot:tea"
+					consume_items: true
+				}
+				{
+					id: "67FF650B725ACC9F"
+					type: "item"
+					item: "nethers_delight:stuffed_hoglin_item"
 					consume_items: true
 				}
 			]
@@ -401,7 +407,7 @@
 		}
 		{
 			title: "Pie"
-			x: 0.0d
+			x: -0.5d
 			y: 3.0d
 			subtitle: "Pie."
 			dependencies: ["484335796DA3D55B"]
@@ -452,7 +458,7 @@
 		}
 		{
 			title: "Not a lie"
-			x: -1.0d
+			x: -1.5d
 			y: 3.0d
 			subtitle: "Cook these cakes!"
 			dependencies: ["484335796DA3D55B"]
@@ -827,6 +833,92 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "Just Tea, Thank You"
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["484335796DA3D55B"]
+			id: "31F59FD24837BD9B"
+			tasks: [
+				{
+					id: "590FC19C2D654100"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_black"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "68F41D6925968EE3"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_green"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "65239A0944E8E5E7"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_floral"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7C332EDFB3C7B4C6"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_chai"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "14E4A9D3FE0B816D"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_iced"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3F2B2A5393EDCBF1"
+					type: "item"
+					item: {
+						id: "simplytea:cup_tea_chorus"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2A9086C7E6F1E0C6"
+				type: "item"
+				item: "paraglider:heart_container"
+			}]
 		}
 	]
 }
