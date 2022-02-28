@@ -92,10 +92,10 @@ craftingTable.addShaped("thermal_upgrade_1", <item:thermal:upgrade_augment_1>, [
 	
 craftingTable.addShaped("thermal_upgrade_2", <item:thermal:upgrade_augment_2>, [
 	[<item:create:brass_sheet>, <item:mekanism:elite_control_circuit>, <item:create:brass_sheet>],
-	[<item:mekanism:enriched_redstone>, <item:thermal:signalum_gear>, <item:mekanism:enriched_redstone>],
+	[<item:mekanism:enriched_redstone>, <item:thermal:upgrade_augment_1>, <item:mekanism:enriched_redstone>],
 	[<item:create:brass_sheet>, <item:mekanism:elite_control_circuit>, <item:create:brass_sheet>]]);
 	
 craftingTable.addShaped("thermal_upgrade_3", <item:thermal:upgrade_augment_3>, [
 	[<item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>],
-	[<item:thermal:rf_coil>, <item:thermal:lumium_gear>, <item:thermal:rf_coil>],
+	[<item:thermal:rf_coil>, <item:thermal:upgrade_augment_2>, <item:thermal:rf_coil>],
 	[<item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>]]); 
