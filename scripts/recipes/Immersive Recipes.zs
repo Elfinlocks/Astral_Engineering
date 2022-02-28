@@ -10,6 +10,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_elect
 craftingTable.removeRecipe(<item:immersiveengineering:conveyor_basic>);
 craftingTable.removeRecipe(<item:immersiveengineering:cokebrick>);
 craftingTable.removeRecipe(<item:immersiveengineering:blastbrick>);
+craftingTable.removeRecipe(<item:immersiveengineering:sawdust>);
 
 // Coke Bricks and Blast Bricks 
 
@@ -153,6 +154,11 @@ craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
     [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>]]);
+	
+craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust> * 9, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>],
+	[<tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>, <tag:items:forge:dusts/wood>]]);
 
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_saltpeter>);
 

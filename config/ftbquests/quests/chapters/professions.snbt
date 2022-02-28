@@ -981,11 +981,11 @@
 			}]
 		}
 		{
-			title: "Farming, Really?"
+			title: "Old MacDonald"
 			x: -6.5d
 			y: -3.0d
 			subtitle: "15 Silver"
-			description: ["A man of your talents?"]
+			description: ["He hi he hi hoe"]
 			id: "562696C1D01B2685"
 			tasks: [{
 				id: "07132D69A1BA37B5"
@@ -1154,6 +1154,15 @@
 					team_reward: true
 					auto: "no_toast"
 				}
+				{
+					id: "103077C6751C4A7D"
+					type: "custom"
+					title: "Clears \"Bad Omen\" Status Effect"
+					icon: "minecraft:lily_of_the_valley"
+					tags: ["bad_omen"]
+					team_reward: true
+					auto: "no_toast"
+				}
 			]
 		}
 		{
@@ -1217,6 +1226,41 @@
 					auto: "no_toast"
 				}
 			]
+		}
+		{
+			title: "Farming, Really?"
+			icon: "farmersdelight:tomato_crate"
+			x: -8.0d
+			y: -8.0d
+			subtitle: "20 Silver"
+			description: ["A man of your talents?"]
+			id: "016A6E3A3F8D6413"
+			tasks: [
+				{
+					id: "099198363E65FC27"
+					type: "item"
+					item: "farmersdelight:onion_crate"
+					consume_items: true
+				}
+				{
+					id: "2AA1146DBFDA450E"
+					type: "item"
+					item: "farmersdelight:cabbage_crate"
+					consume_items: true
+				}
+				{
+					id: "025F5DB5D3995557"
+					type: "item"
+					item: "farmersdelight:tomato_crate"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "686AC37E50FD35CB"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20
+			}]
 		}
 	]
 }
