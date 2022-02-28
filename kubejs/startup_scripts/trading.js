@@ -29,6 +29,7 @@ let CP = (id, x) => MOD("crockpot", id, x)
 let AS = (id, x) => MOD("astralsorcery", id, x)
 let BT = (id, x) => MOD("botania", id, x)
 let AD = (id, x) => MOD("amfd", id, x)
+let ND = (id, x) => MOD("nethers_delight", id, x)
 //
 
 
@@ -376,7 +377,11 @@ onEvent('item.registry', event => {
 		{ in: AD('kangaroo_stew', 16), out: S(6) },
 		{ in: AD('gongylidia_bruschetta', 16), out: S(4) },
 		{ in: AD('acacia_blossom_soup', 16), out: S(4) },
-		{ in: AD('maggot_salad', 16), out: S(5) }
+		{ in: AD('maggot_salad', 16), out: S(5) },
+		{ in: ND('grilled_strider', 16), out: S(10) },
+		{ in: ND('strider_moss_stew', 16), out: S(10) },
+		{ in: ND('stuffed_hoglin_item', 1), out: S(10) },
+		{ in: ND('magma_gelatin', 1), out: S(5) }
 	])
 
 	let quota = 8
