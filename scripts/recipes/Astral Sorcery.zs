@@ -30,7 +30,7 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 <recipetype:astralsorcery:altar>.addRecipe("vineteum_purification", "ATTUNEMENT", <item:mana-and-artifice:vinteum_dust> * 5, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:gold_ingot>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:minecraft:gold_ingot>, <tag:items:mana-and-artifice:ma_flowers>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:astralsorcery:aquamarine>, <tag:items:mana-and-artifice:ma_flowers>, <item:astralsorcery:aquamarine>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:gold_ingot>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 125, 35);
 
