@@ -357,7 +357,7 @@
 [tweaks]
 	"Armed Armor Stands" = true
 	"Lock Rotation" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Replace Scaffolding" = true
 	"Axe Leaf Harvesting" = true
 	"Sign Editing" = true
