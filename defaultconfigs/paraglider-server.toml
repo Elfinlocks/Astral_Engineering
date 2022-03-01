@@ -36,24 +36,24 @@ paragliderInTowersOfTheWild = "DEFAULT"
 	maxHeartContainers = 20
 	#Maximum amount of stamina Player can get. Do note that one third of this value is equal to one stamina wheel.
 	#Range: > 0
-	maxStamina = 3000
+	maxStamina = 4000
 	#Amount of stamina Player starts with. Values higher than maxStamina doesn't work.
 	#If you want to make this value displayed as exactly one stamina wheel, you have to make this value one third of maxStamina.
 	#Range: > 0
 	startingStamina = 1000
 	#Stamina Vessels players need to obtain max out stamina. More vessels means lesser stamina increase per vessel.
 	#Range: > 0
-	maxStaminaVessels = 10
+	maxStaminaVessels = 15
 
 [stamina]
 	#Paragliding and ascending will consume stamina.
 	paraglidingConsumesStamina = true
 	#Actions other than paragliding or ascending will consume stamina.
-	runningAndSwimmingConsumesStamina = false
+	runningAndSwimmingConsumesStamina = true
 
 	[stamina.consumptions]
 		#Range: > -2147483648
-		idleStaminaConsumption = 20
+		idleStaminaConsumption = 17
 		#Range: > -2147483648
 		midairStaminaConsumption = 0
 		#Range: > -2147483648
@@ -63,9 +63,9 @@ paragliderInTowersOfTheWild = "DEFAULT"
 		#Range: > -2147483648
 		underwaterStaminaConsumption = 3
 		#Range: > -2147483648
-		breathingUnderwaterStaminaConsumption = 10
+		breathingUnderwaterStaminaConsumption = 12
 		#Range: > -2147483648
-		ridingStaminaConsumption = 20
+		ridingStaminaConsumption = 17
 		#Range: > -2147483648
 		paraglidingStaminaConsumption = -3
 		#Range: > -2147483648

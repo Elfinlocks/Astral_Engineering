@@ -41,9 +41,16 @@ onEvent('recipes', event => {
 	alchemistry(event)
 	earlyartifice(event)
 	mekanism(event)
+	crockpot(event)
 	event.remove({id: ('immersiveindustry:electrolyze/alumium')})
 	log.push('Recipes Updated')
 })
+
+function crockpot(event) {
+	event.remove({id: ('crockpot:campfire_cooking/cooked_egg')})
+	event.remove({id: ('crockpot:smelting/cooked_egg')})
+	event.remove({id: ('crockpot:smoking/cooked_egg')})
+}
 
 function mekanism(event) {
 	event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})

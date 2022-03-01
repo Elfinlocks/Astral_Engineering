@@ -423,7 +423,7 @@
 			description: [
 				"A simple millstone will help you with this. Don't worry, there's easier ways to accomplish this later on."
 				""
-				"To use, simply place the millstone, and then place the crank on top of a connected &6cog&r. Right click the crank to grind the ore down into dust. Please note that this only works with some ores."
+				"To use, simply place the millstone, and then place the crank on top of a connected &6gear&r. Right click the crank to grind the ore down into dust. Please note that this only works with some ores."
 			]
 			dependencies: ["1AF3E867A00953D7"]
 			id: "35D0D95034259B1D"
@@ -438,21 +438,18 @@
 					type: "item"
 					item: "create:hand_crank"
 				}
-			]
-			rewards: [
 				{
-					id: "09DB81689D9EB39E"
+					id: "41CD1023BF167A97"
 					type: "item"
-					item: "minecraft:iron_ore"
-					count: 2
-				}
-				{
-					id: "2D2530B55D53AAA4"
-					type: "item"
-					item: "create:cogwheel"
-					count: 3
+					item: "creategears:half_shaft_gear"
 				}
 			]
+			rewards: [{
+				id: "09DB81689D9EB39E"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 2
+			}]
 		}
 		{
 			title: "Diggy Diggy Hole"

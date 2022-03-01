@@ -30,6 +30,7 @@
 				{
 					id: "556BBA8B09E4BA0C"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_mining"
 				}
@@ -39,6 +40,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -65,6 +67,7 @@
 				{
 					id: "4F0E97B8E88BF530"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_farming"
 				}
@@ -74,6 +77,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -100,6 +104,7 @@
 				{
 					id: "63A13A9463AFEEC8"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_construction"
 				}
@@ -109,6 +114,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -135,6 +141,7 @@
 				{
 					id: "382E25CBB362EB84"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_cooking"
 				}
@@ -144,6 +151,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -170,6 +178,7 @@
 				{
 					id: "63F5E4415DD98E69"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_slayer"
 				}
@@ -179,6 +188,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -296,6 +306,7 @@
 				{
 					id: "70312C750F6E2115"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_fishing"
 				}
@@ -305,6 +316,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -331,6 +343,7 @@
 				{
 					id: "2E450774C09EF266"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_smithing"
 				}
@@ -340,6 +353,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -580,6 +594,7 @@
 					id: "76F8080C0E176A08"
 					type: "item"
 					icon: { id: "thermal:silver_coin", Count: 32b }
+					team_reward: false
 					auto: "enabled"
 					item: "thermal:silver_coin"
 					count: 32
@@ -590,6 +605,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -791,6 +807,7 @@
 				id: "001C0326E6B6F1FF"
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 25b }
+				team_reward: false
 				item: "thermal:silver_coin"
 				count: 25
 			}]
@@ -844,6 +861,7 @@
 				id: "2EE90E45D02D23F1"
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 45b }
+				team_reward: false
 				item: "thermal:silver_coin"
 				count: 45
 			}]
@@ -908,6 +926,7 @@
 				id: "15ACAE1E4D900E4C"
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 30b }
+				team_reward: false
 				item: "thermal:silver_coin"
 				count: 30
 			}]
@@ -970,6 +989,7 @@
 				id: "0D8EB996DBC24C64"
 				type: "item"
 				icon: { id: "thermal:gold_coin", Count: 2b }
+				team_reward: false
 				item: "thermal:gold_coin"
 				count: 2
 			}]
@@ -993,6 +1013,7 @@
 				id: "76F2C38DE80E75F0"
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 15b }
+				team_reward: false
 				item: "thermal:silver_coin"
 				count: 15
 			}]
@@ -1135,6 +1156,7 @@
 					id: "72ADE787CA674127"
 					type: "item"
 					icon: { id: "thermal:silver_coin", Count: 10b }
+					team_reward: false
 					auto: "enabled"
 					item: "thermal:silver_coin"
 					count: 10
@@ -1208,6 +1230,7 @@
 				{
 					id: "6D0E6FFC529908F4"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:profession_card_runecrafting"
 				}
@@ -1217,6 +1240,7 @@
 					title: "Repeatable"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
+					team_reward: true
 					auto: "no_toast"
 				}
 			]
@@ -1275,6 +1299,7 @@
 			rewards: [{
 				id: "12CFAE8DA12922EA"
 				type: "item"
+				team_reward: false
 				item: "thermal:silver_coin"
 				count: 35
 			}]

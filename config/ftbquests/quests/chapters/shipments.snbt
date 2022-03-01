@@ -48,6 +48,7 @@
 				{
 					id: "0A6DEF2E19943F9F"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "kubejs:trade_card_exchange_currencies"
 				}
@@ -3930,6 +3931,7 @@
 				{
 					id: "26C6A3ACA1B59772"
 					type: "item"
+					team_reward: false
 					auto: "enabled"
 					item: "thermal:machine_press"
 				}

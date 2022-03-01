@@ -1,8 +1,8 @@
 {
   "inventory": {
-    "0:0": "{id:\"ftbquests:book\",Count:1b}",
     "0:2": "{id:\"sophisticatedbackpacks:backpack\",Count:1b}",
-    "0:1": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{botania:{id:\"botania:lexicon\",Count:1b,tag:{display:{Name:'{\"text\":\"Lexica Botania\"}'}}},astralsorcery:{id:\"astralsorcery:tome\",Count:1b,tag:{display:{Name:'{\"text\":\"Astral Tome\"}'}}},pneumaticcraft:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"pneumaticcraft:book\",display:{Name:'{\"text\":\"PNC:R Manual\"}'}}},mana-and-artifice:{id:\"mana-and-artifice:guide_book\",Count:1b,tag:{display:{Name:'{\"text\":\"Codex Arcana\"}'}}},crockpot:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"crockpot:book\",display:{Name:'{\"text\":\"Crock Pot Cookbook\"}'}}},immersiveengineering:{id:\"immersiveengineering:manual\",Count:1b,tag:{display:{Name:'{\"text\":\"Engineer\\'s Manual\"}'}}},fd_cookbook:{id:\"fd_cookbook:cook_book\",Count:1b,tag:{display:{Name:'{\"text\":\"Cookbook\"}'}}},eidolon:{id:\"eidolon:codex\",Count:1b,tag:{display:{Name:'{\"text\":\"Ars Ecclesia\"}'}}},solcarrot:{id:\"solcarrot:food_book\",Count:1b,tag:{display:{Name:'{\"text\":\"Food Book\"}'}}}}}}"
+    "0:1": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{botania:{id:\"botania:lexicon\",Count:1b},astralsorcery:{id:\"astralsorcery:tome\",Count:1b},pneumaticcraft:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"pneumaticcraft:book\"}},mana-and-artifice:{id:\"mana-and-artifice:guide_book\",Count:1b},immersiveengineering:{id:\"immersiveengineering:manual\",Count:1b},crockpot:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"crockpot:book\"}},supplementaries:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"supplementaries:supplementaries_guide\"}},fd_cookbook:{id:\"fd_cookbook:cook_book\",Count:1b},securitycraft:{id:\"securitycraft:sc_manual\",Count:1b}}}}",
+    "0:0": "{id:\"ftbquests:book\",Count:1b}"
   },
   "wipeBlacklist": []
 }
