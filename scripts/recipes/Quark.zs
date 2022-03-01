@@ -23,4 +23,4 @@ craftingTable.addShaped("rope_coil", <item:quark:rope> * 8, [
     [<item:minecraft:air>, <item:farmersdelight:straw>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
 	
-<recipetype:tconstruct:melting>.addMeltingRecipe("gold_bars_melt", <item:quark:gold_bars>, <fluid:tconstruct:molten_gold>, 1000, 48);
+<recipetype:tconstruct:melting>.addMeltingRecipe("gold_bars_melt", <item:quark:gold_bars>, <fluid:tconstruct:molten_gold> * 48, 1000, 32);
