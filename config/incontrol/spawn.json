@@ -50,6 +50,14 @@
 	"armorchest": "boss_tools:space_pants"
   },
   {
+	  "dimension": "minecraft:overworld",
+	  "mob": ["alexsmobs:grizzly_bear"],
+	  "result": "default",
+	  "onjoin": true,
+	  "healthmultiply": 3,
+	  "damagemultiply": 3
+  },
+  {
 	"dimension": "minecraft:overworld",
 	"mob": [
 		"minecraft:skeleton",
