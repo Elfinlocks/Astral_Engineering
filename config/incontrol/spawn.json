@@ -27,8 +27,8 @@
 	  "dimension": "boss_tools:venus",
 	  "mob": "tardis:dalek",
 	  "result": "allow",
-	  "damagemultiply": 3,
-	  "healthmultiply": 2
+	  "damagemultiply": 5,
+	  "healthmultiply": 3
   },
   {
 	  "dimension": ["boss_tools:moon", "boss_tools:mars"],
