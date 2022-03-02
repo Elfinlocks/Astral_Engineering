@@ -34,7 +34,7 @@
 	  "dimension": ["boss_tools:moon", "boss_tools:mars"],
 	  "mob": "weeping_angels:weeping_angel",
 	  "result": "allow",
-	  "healthmultiply": 5,
+	  "healthmultiply": 6,
 	  "damagemultiply": 5
   },
   {
