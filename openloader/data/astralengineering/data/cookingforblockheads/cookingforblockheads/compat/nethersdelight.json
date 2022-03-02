@@ -1,0 +1,9 @@
+{
+	"modid": "nethers_delight",
+	"foods": {
+		"GENERAL": [
+			"nethers_delight:raw_stuffed_hoglin",
+			"nethers_delight:nether_skewer"
+		]
+	}
+}

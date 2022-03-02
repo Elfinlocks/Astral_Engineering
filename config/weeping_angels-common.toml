@@ -44,7 +44,7 @@
 	torchBlowOut = false
 	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
 	freezeOnAngel = false
-	#If this is enabled, angels will break blocks (If gamerules allow)
+	#If this is enabled, angels will break blocks (If gamerules allow) - !!!! BLOCK BLACKLISTING: You may be looking for a config option in order to stop certain blocks from being broken. You can do this with a datapack using weeping_angels:angel_proof
 	blockBreaking = false
 	#Toggle seen sounds
 	playSeenSounds = true
