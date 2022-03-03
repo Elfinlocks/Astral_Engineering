@@ -30,7 +30,7 @@
 	pickaxeOnly = true
 	#The damage dealt by an angel
 	#Range: 1.0 ~ 1.7976931348623157E308
-	damage = 12.0
+	damage = 13.0
 	#XP gained from angels
 	#Range: > 1
 	xpGained = 50
