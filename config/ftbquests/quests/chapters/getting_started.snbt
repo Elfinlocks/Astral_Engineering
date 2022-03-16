@@ -404,9 +404,8 @@
 			dependency_requirement: "one_completed"
 			id: "73CC3630DABFEB89"
 			tasks: [{
-				id: "687678E6C3960D34"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
+				id: "4C2CF94EB3A2DD70"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "6B8C7A164092900D"
