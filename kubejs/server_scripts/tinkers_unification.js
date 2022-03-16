@@ -5,6 +5,7 @@ onEvent('recipes', event => {
 // ============================================================= Removals =============================================================
 
 // ingots,nugets,blocks which can't be unified by default methodes
+event.remove({id: 'tconstruct:smeltery/casting/ender/eye'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/copper/ingot_gold_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/copper/ingot_sand_cast'})
 event.remove({id: 'tconstruct:smeltery/casting/metal/copper/nugget_sand_cast'})
