@@ -14,7 +14,6 @@ let MC = (id, x) => MOD("minecraft", id, x)
 let KJ = (id, x) => MOD("kubejs", id, x)
 let J = (id, x) => MOD("jaopca", id, x)
 let FD = (id, x) => MOD("farmersdelight", id, x)
-let BOP = (id, x) => MOD("biomesoplenty", id, x)
 let RQ = (id, x) => MOD("xreliquary", id, x)
 let SD = (id, x) => MOD("storagedrawers", id, x)
 let SP = (id, x) => MOD("supplementaries", id, x)
@@ -113,7 +112,6 @@ onEvent('item.registry', event => {
 		{ in: MC('bread', 8), out: S(1) },
 		{ in: MC('brown_mushroom', 8), out: S(1) },
 		{ in: MC('red_mushroom', 8), out: S(1) },
-		{ in: BOP('toadstool', 8), out: S(1) },
 		{ in: MC('kelp', 64), out: S(1) },
 		{ in: MC('pumpkin', 9), out: S(1) },
 		{ in: MC('#wool', 16), out: S(1) },
@@ -125,20 +123,10 @@ onEvent('item.registry', event => {
 		{ in: MC('spruce_log', 64), out: S(1) },
 		{ in: MC('jungle_log', 64), out: S(1) },
 		{ in: MC('dark_oak_log', 64), out: S(1) },
-		{ in: BOP('redwood_log', 64), out: S(1) },
-		{ in: BOP('fir_log', 64), out: S(1) },
-		{ in: BOP('umbran_log', 64), out: S(1) },
-		{ in: BOP('dead_log', 64), out: S(1) },
 		{ in: MC('acacia_log', 64), out: S(1) },
 		{ in: MC('birch_log', 64), out: S(1) },
-		{ in: BOP('cherry_log', 64), out: S(2) },
-		{ in: BOP('willow_log', 64), out: S(3) },
-		{ in: BOP('palm_log', 64), out: S(3) },
-		{ in: BOP('mahogany_log', 64), out: S(3) },
-		{ in: BOP('magic_log', 64), out: S(3) },
 		{ in: MC('crimson_stem', 64), out: S(4) },
 		{ in: MC('warped_stem', 64), out: S(4) },
-		{ in: BOP('hellbark_log', 64), out: S(4) },
 		{ in: SP('checker_block', 64), out: S(4) },
 		{ in: TC('seared_bricks', 64), out: S(10) },
 		{ in: MC('bricks', 64), out: S(6) },
@@ -571,7 +559,6 @@ onEvent('item.registry', event => {
 		next_group()
 		entry_cost = 10
 		simple("Zelkova Log", BYG('zelkova_log', 16), 4, S, 0x5A501D, 0x9B6E4C)
-		simple("Dead Log", BOP('dead_log', 16), 2, S, 0x3D362D, 0x7A756D)
 		simple("Oak Log", MC('oak_log', 16), 4, S, 0x735932, 0xA88756)
 		simple("Birch Log", MC('birch_log', 16), 4, S, 0xD6D6D2, 0xC4B079)
 		simple("Spruce Log", MC('spruce_log', 16), 4, S, 0x523E21, 0x6F522F)
@@ -629,14 +616,6 @@ onEvent('item.registry', event => {
 		entry_cost = 10
 		simple("Rice", FD('rice_bag', 1), 4, S, 0x9F7653, 0xCEC6BC)
 		simple("Straw", FD('straw', 32), 8, S, 0x623A17, 0x966537)
-		simple("Glowshroom", BOP('glowshroom', 4), 9, S, 0x2C65C9, 0x83A7B7)
-		simple("Bramble", BOP('bramble', 4), 9, S, 0x8C3122, 0xECCDBC)
-		simple("Barley", BOP('barley', 4), 4, S, 0xB78B44, 0xD8BC64)
-		simple("Watergrass", BOP('watergrass', 4), 4, S, 0x43763D, 0x538B51)
-		simple("Mangrove Root", BOP('mangrove_root', 4), 9, S, 0x795740, 0xB8AB88)
-		simple("Reed", BOP('reed', 4), 5, S, 0x7B4E35, 0xB2855C)
-		simple("Willow Vine", BOP('willow_vine', 4), 7, S, 0x265F0D, 0x317B10)
-		simple("Cattail", BOP('cattail', 4), 4, S, 0x186B2B, 0x845738)
 		simple("Sugar Cane", MC('sugar_cane', 4), 3, S, 0x688546, 0xC5FC85)
 		simple("Kelp", MC('kelp', 8), 3, S, 0x5B8131, 0x58A92F)
 		simple("Bamboo", MC('bamboo', 8), 5, S, 0x4F7416, 0x88AC5F)
