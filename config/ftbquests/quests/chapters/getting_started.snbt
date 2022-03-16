@@ -812,12 +812,18 @@
 			title: "Magical Alloys"
 			x: 21.5d
 			y: -5.0d
+			subtitle: "Next, coat some Iron in a layer of Vinteum dust."
 			dependencies: ["4986926BC0C8221E"]
 			id: "29ED7AA1CB8AE08F"
 			tasks: [{
 				id: "3A7FFC840F09ADBD"
 				type: "item"
 				item: "mana-and-artifice:vinteum_coated_iron"
+			}]
+			rewards: [{
+				id: "16266A44F62A6086"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -839,7 +845,7 @@
 				id: "7B2F6A03E305360F"
 				type: "item"
 				item: "mana-and-artifice:vinteum_ore"
-				count: 4
+				count: 2
 			}]
 		}
 	]

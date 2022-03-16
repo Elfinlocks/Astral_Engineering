@@ -253,9 +253,9 @@
 				item: "minecolonies:blockhutdeliveryman"
 			}]
 			rewards: [{
-				id: "7F1F79F0F17F3A32"
+				id: "7662302E30ED6766"
 				type: "item"
-				item: "pamhc2crops:hotcoffeeitem"
+				item: "crockpot:iced_tea"
 			}]
 		}
 		{
