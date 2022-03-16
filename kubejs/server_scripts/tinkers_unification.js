@@ -540,23 +540,23 @@ result: {item: 'thermal:nickel_block'},
 cooling_time: 150
 })
 
-// platinum replaceInput =============================================================
-// event.custom({
-// type: 'tconstruct:casting_table',
-// cast: {tag: 'tconstruct:casts/multi_use/ingot'},
-// fluid: {name: 'tconstruct:molten_platinum',amount: 144},
-// result: {item: 'silents_mechanisms:platinum_ingot'},
-// cooling_time: 50
-// })
+platinum replaceInput =============================================================
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/ingot'},
+fluid: {name: 'tconstruct:molten_platinum',amount: 144},
+result: {item: 'chemlib:ingot_platinum'},
+cooling_time: 50
+})
 
-// event.custom({
-// type: 'tconstruct:casting_table',
-// cast: {tag: 'tconstruct:casts/single_use/ingot'},
-// cast_consumed: true,
-// fluid: {name: 'tconstruct:molten_platinum', amount: 144},
-// result: {item: 'silents_mechanisms:platinum_ingot'},
-// cooling_time: 50
-// })
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/ingot'},
+cast_consumed: true,
+fluid: {name: 'tconstruct:molten_platinum', amount: 144},
+result: {item: 'chemlib:ingot_platinum'},
+cooling_time: 50
+})
 
 // event.custom({
 // type: 'tconstruct:casting_table',
@@ -575,12 +575,12 @@ cooling_time: 150
 // cooling_time: 17
 // })
 
-// event.custom({
-// type: 'tconstruct:casting_basin',
-// fluid: {name: 'tconstruct:molten_platinum', amount: 1296},
-// result: {item: 'silents_mechanisms:platinum_block'},
-// cooling_time: 150
-// })
+event.custom({
+type: 'tconstruct:casting_basin',
+fluid: {name: 'tconstruct:molten_platinum', amount: 1296},
+result: {item: 'jaopca:storage_blocks.platinum'},
+cooling_time: 150
+})
 
 // silver replaceInput =============================================================
 event.custom({
