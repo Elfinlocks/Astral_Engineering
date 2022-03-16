@@ -16,7 +16,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:sawdust>);
 
 <recipetype:tconstruct:casting_basin>.addItemCastingRecipe("cokebrick_casting", <item:quark:sandy_bricks>, <fluid:minecraft:lava> * 250, <item:immersiveengineering:cokebrick>, 200, true, true);
 
-<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("blastbrick_casting", <item:quark:sandy_bricks>, <fluid:tconstruct:magma> * 1000, <item:immersiveengineering:blastbrick>, 200, true, true);
+<recipetype:tconstruct:casting_basin>.addItemCastingRecipe("blastbrick_casting", <item:quark:sandy_bricks>, <fluid:tconstruct:blazing_blood> * 50, <item:immersiveengineering:blastbrick>, 200, true, true);
 
 // Misc Removals 
 

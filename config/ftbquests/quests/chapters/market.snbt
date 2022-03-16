@@ -555,12 +555,6 @@
 			}]
 			rewards: [
 				{
-					id: "1BA12452E9A090EC"
-					type: "item"
-					item: "biomesoplenty:flowering_oak_leaves"
-					count: 32
-				}
-				{
 					id: "17FCE9D6C12A7822"
 					type: "item"
 					item: "minecraft:oak_leaves"

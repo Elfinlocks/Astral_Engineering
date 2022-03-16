@@ -202,7 +202,6 @@ onEvent('chest.loot_tables', event => {
 	  pool.addItem('minecraft:glistering_melon_slice', 5, [1, 2])
 	  pool.addItem('minecraft:gold_ingot', 5, [1, 3])
 	  pool.addItem('tconstruct:rose_gold_ingot', 3, [1, 2])
-	  pool.addItem('eidolon:arcane_gold_ingot', 3 [1, 2])
 	  pool.addItem('minecraft:clock', 3, [0, 1])
 	  pool.addItem('minecraft:light_weighted_pressure_plate', 3, [0, 1])
 	  pool.addItem('minecraft:gold_block', 2, [1, 2])

@@ -567,6 +567,7 @@ onEvent('item.registry', event => {
 		simple("Dark Oak Log", MC('dark_oak_log', 16), 4, S, 0x2C1B0D, 0x422B15)
 		simple("Crimson Stem", MC('crimson_stem', 16), 8, S, 0x442332, 0x7A3852)
 		simple("Warped Stem", MC('warped_stem', 16), 8, S, 0x3E1E2D, 0x347776)
+		simple("Mahogany Log", BYG('mahogany_log', 16), 4, S, 0x5A501D, 0x9B6E4C)
 		
 		next_group()
 		entry_cost = 10
@@ -623,6 +624,7 @@ onEvent('item.registry', event => {
 		simple("Vines", MC('vine', 4), 7, S, 0x183D08, 0x317B10)
 		simple("Tree Fertilizer", CR('tree_fertilizer', 1), 8, S, 0xCF8469, 0x71933A)
 		simple("Floral Fertilizer", BT('fertilizer', 1), 8, S, 0xCF8469, 0x71933A)
+		simple("Lilypad", MC('lily_pad', 4), 4, S, 0xCF8469, 0x71933A)
 		
 		next_group()
 		entry_cost = 10

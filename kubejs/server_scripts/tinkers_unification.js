@@ -540,7 +540,7 @@ result: {item: 'thermal:nickel_block'},
 cooling_time: 150
 })
 
-platinum replaceInput =============================================================
+// platinum replaceInput =============================================================
 event.custom({
 type: 'tconstruct:casting_table',
 cast: {tag: 'tconstruct:casts/multi_use/ingot'},
@@ -558,22 +558,22 @@ result: {item: 'chemlib:ingot_platinum'},
 cooling_time: 50
 })
 
-// event.custom({
-// type: 'tconstruct:casting_table',
-// cast: {tag: 'tconstruct:casts/multi_use/nugget'},
-// fluid: {name: 'tconstruct:molten_platinum',amount: 16},
-// result: {item: 'silents_mechanisms:platinum_nugget'},
-// cooling_time: 17
-// })
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/nugget'},
+fluid: {name: 'tconstruct:molten_platinum',amount: 16},
+result: {item: 'silents_mechanisms:platinum_nugget'},
+cooling_time: 17
+})
 
-// event.custom({
-// type: 'tconstruct:casting_table',
-// cast: {tag: 'tconstruct:casts/single_use/nugget'},
-// cast_consumed: true,
-// fluid: {name: 'tconstruct:molten_platinum', amount: 16},
-// result: {item: 'silents_mechanisms:platinum_nugget'},
-// cooling_time: 17
-// })
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/nugget'},
+cast_consumed: true,
+fluid: {name: 'tconstruct:molten_platinum', amount: 16},
+result: {item: 'silents_mechanisms:platinum_nugget'},
+cooling_time: 17
+})
 
 event.custom({
 type: 'tconstruct:casting_basin',
