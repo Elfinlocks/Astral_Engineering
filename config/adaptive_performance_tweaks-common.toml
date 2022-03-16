@@ -4,7 +4,7 @@
 	#Enable/Disable optimization which are happening during player login.
 	optimizePlayerLogin = true
 	#Enable/Disable view distance optimization depending on the server load.
-	optimizeViewDistance = true
+	optimizeViewDistance = false
 	#Enable/Disable passive mobs optimization depending on the server load.
 	optimizePassiveMobs = false
 	#Enable/Disable neutral mobs optimization depending on the server load.
