@@ -3910,7 +3910,7 @@
 			x: -2.0d
 			y: 0.25d
 			shape: "hexagon"
-			subtitle: "45 Silver"
+			subtitle: "60 Silver"
 			description: [
 				"Getting through Early Industry is hard work!"
 				""
@@ -3924,7 +3924,7 @@
 				type: "item"
 				icon: { id: "thermal:silver_coin", Count: 30b }
 				item: "thermal:silver_coin"
-				count: 45L
+				count: 60L
 				consume_items: true
 			}]
 			rewards: [

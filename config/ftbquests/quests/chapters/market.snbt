@@ -324,7 +324,7 @@
 		}
 		{
 			title: "Gardener's Starter Pack"
-			icon: "biomesoplenty:glowflower"
+			icon: "supplementaries:planter_rich"
 			x: 2.5d
 			y: 1.0d
 			subtitle: "24 Silver"

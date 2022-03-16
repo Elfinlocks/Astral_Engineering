@@ -360,7 +360,7 @@
 		}
 		{
 			title: "Plentiful Sapling Collection"
-			icon: "biomesoplenty:flowering_oak_sapling"
+			icon: "quark:yellow_blossom_sapling"
 			x: -5.5d
 			y: -2.0d
 			subtitle: "45 Silver"
@@ -368,39 +368,39 @@
 			id: "08DB1CFAE4555525"
 			tasks: [
 				{
-					id: "6467B7BC46B95AB7"
+					id: "38DD41EDA78F7DEA"
 					type: "item"
-					item: "biomesoplenty:white_cherry_sapling"
+					item: "quark:orange_blossom_sapling"
 					consume_items: true
 				}
 				{
-					id: "53B388480793BD58"
+					id: "118B9B0FFCE4D4E9"
 					type: "item"
-					item: "biomesoplenty:maple_sapling"
+					item: "quark:pink_blossom_sapling"
 					consume_items: true
 				}
 				{
-					id: "57263F412DD5DF08"
+					id: "69B9B46A68DCCBC3"
 					type: "item"
-					item: "biomesoplenty:fir_sapling"
+					item: "quark:yellow_blossom_sapling"
 					consume_items: true
 				}
 				{
-					id: "657B38C214414E2B"
+					id: "1F9ADC58D7F9362C"
 					type: "item"
-					item: "biomesoplenty:redwood_sapling"
+					item: "quark:red_blossom_sapling"
 					consume_items: true
 				}
 				{
-					id: "3E7A122FD86E017F"
+					id: "12B9B54C7BA72101"
 					type: "item"
-					item: "biomesoplenty:flowering_oak_sapling"
+					item: "byg:blue_spruce_sapling"
 					consume_items: true
 				}
 				{
-					id: "7CBBC7FB7C7F5D7E"
+					id: "5FB6702B8B17FB27"
 					type: "item"
-					item: "biomesoplenty:palm_sapling"
+					item: "byg:mahogany_sapling"
 					consume_items: true
 				}
 			]

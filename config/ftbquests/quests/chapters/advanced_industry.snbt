@@ -680,9 +680,9 @@
 					item: "pneumaticcraft:etching_acid_bucket"
 				}
 				{
-					id: "3D06F9E3A674EED1"
+					id: "426113D231E1EEAB"
 					type: "item"
-					item: "pneumaticcraft:unassembled_pcb"
+					item: "pneumaticcraft:empty_pcb"
 				}
 			]
 			rewards: [{
