@@ -609,6 +609,7 @@
 				{
 					id: "2D95F446E8E28680"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "paraglider:heart_container"
 						Count: 1b
@@ -620,6 +621,7 @@
 				{
 					id: "0EEF65033B276E67"
 					type: "item"
+					auto: "enabled"
 					item: "farmersdelight:sweet_berry_cheesecake"
 				}
 			]
@@ -751,6 +753,7 @@
 				{
 					id: "206799FBE3AF5E18"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "paraglider:heart_container"
 						Count: 1b
@@ -762,6 +765,7 @@
 				{
 					id: "2F6F39E15331EE2B"
 					type: "item"
+					auto: "enabled"
 					item: "tconstruct:magma_cake"
 				}
 			]
@@ -877,6 +881,7 @@
 				{
 					id: "08E0288DEE21C7CA"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "paraglider:heart_container"
 						Count: 1b
@@ -888,6 +893,7 @@
 				{
 					id: "34F533FD06A3E7F0"
 					type: "item"
+					auto: "enabled"
 					item: "createaddition:honey_cake"
 				}
 			]
@@ -911,6 +917,7 @@
 				{
 					id: "6D0DBAFA4B7960C1"
 					type: "item"
+					auto: "enabled"
 					item: {
 						id: "paraglider:heart_container"
 						Count: 1b
@@ -922,6 +929,7 @@
 				{
 					id: "33958893222E632F"
 					type: "item"
+					auto: "enabled"
 					item: "createaddition:chocolate_cake"
 				}
 			]

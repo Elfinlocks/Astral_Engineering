@@ -125,7 +125,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 // Misc 
 
-craftingTable.addShaped("conveyor_belt", <item:immersiveengineering:conveyor_basic> * 3, [
+craftingTable.addShaped("conveyor_belt", <item:immersiveengineering:conveyor_basic> * 6, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:thermal:cured_rubber>, <tag:items:forge:leather>, <item:thermal:cured_rubber>],
 	[<tag:items:forge:ingots/steel>, <item:immersiveengineering:rs_engineering>, <tag:items:forge:ingots/steel>]]);
@@ -151,9 +151,9 @@ craftingTable.addShaped("heavy_engineering_block", <item:immersiveengineering:he
     [<item:immersiveengineering:sheetmetal_steel>, <item:immersiveengineering:component_steel>, <item:immersiveengineering:sheetmetal_steel>]]);
 
 craftingTable.addShaped("redstone_engineering_block", <item:immersiveengineering:rs_engineering> * 1, [
-    [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>],
+    [<item:immersiveengineering:sheetmetal_steel>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_steel>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
-    [<item:immersiveengineering:sheetmetal_iron>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_iron>]]);
+    [<item:immersiveengineering:sheetmetal_steel>, <item:minecraft:redstone>, <item:immersiveengineering:sheetmetal_steel>]]);
 	
 craftingTable.addShaped("sawdust_flooring", <item:immersiveengineering:sawdust> * 9, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -237,9 +237,9 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 craftingTable.removeRecipe(<item:immersiveengineering:alloybrick>);
 
 craftingTable.addShaped("kiln_bricks", <item:immersiveengineering:alloybrick>, [
-    [<item:minecraft:nether_brick>, <item:quark:sandy_bricks>, <item:minecraft:nether_brick>],
-    [<item:quark:sandy_bricks>, <tag:items:forge:plates/copper>, <item:quark:sandy_bricks>],
-    [<item:minecraft:nether_brick>, <item:quark:sandy_bricks>, <item:minecraft:nether_brick>]]);
+    [<item:minecraft:nether_brick>, <item:minecraft:bricks>, <item:minecraft:nether_brick>],
+    [<item:minecraft:bricks>, <tag:items:forge:plates/copper>, <item:minecraft:bricks>],
+    [<item:minecraft:nether_brick>, <item:minecraft:bricks>, <item:minecraft:nether_brick>]]);
 
 // Hammer and Pliers crafting 
 craftingTable.addShapeless("sawdust", <item:thermal:sawdust>, [<tag:items:minecraft:planks>, <item:immersiveengineering:hammer>.anyDamage()]);

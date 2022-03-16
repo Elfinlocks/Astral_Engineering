@@ -66,124 +66,6 @@
 			}]
 		}
 		{
-			title: "HAMMAH!"
-			x: 18.0d
-			y: 0.0d
-			subtitle: "Craft an Engineer's Hammer."
-			dependencies: ["4EB25C20BB94A8BB"]
-			id: "3E2E706C04B33A45"
-			tasks: [{
-				id: "7702DDC68BD72434"
-				type: "item"
-				item: {
-					id: "immersiveengineering:hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "235D4083E53FCE79"
-					type: "item"
-					item: "minecraft:string"
-				}
-				{
-					id: "3D50552F75A3043F"
-					type: "xp"
-					xp: 25
-				}
-			]
-		}
-		{
-			title: "JESSE, WE NEED TO COOK"
-			icon: {
-				id: "immersiveengineering:coke_oven"
-				Count: 1b
-				tag: {
-					spell: { }
-				}
-			}
-			x: 19.5d
-			y: 0.0d
-			subtitle: "Cast some Coke Bricks. Left click for information on creating a Coke Oven."
-			description: [
-				"Right click a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven."
-				""
-				"The Coke Oven will fill up with Creosote Oil and eventually stop working - for now you'll need to bucket it out."
-			]
-			dependencies: ["3E2E706C04B33A45"]
-			id: "75ACC6EA81DF8C4D"
-			tasks: [{
-				id: "67EDF398D500CD42"
-				type: "item"
-				item: "immersiveengineering:cokebrick"
-				count: 27L
-			}]
-			rewards: [{
-				id: "00D0207F8EF77B7D"
-				type: "item"
-				item: "minecraft:coal_block"
-				count: 3
-			}]
-		}
-		{
-			title: "Brown Bricks"
-			icon: {
-				id: "immersiveengineering:blast_furnace"
-				Count: 1b
-				tag: {
-					spell: { }
-				}
-			}
-			x: 23.0d
-			y: 0.0d
-			subtitle: "Cast some Blast Bricks. Left click for information on creating a Blast Furnace."
-			description: [
-				"Right click a 3x3x3 cube of Blast Bricks with an Engineer's Hammer to make a Blast Furnace."
-				""
-				"A Blast Furnace will accept Coal Coke produced in a Coke Oven and Iron Ingots to slowly produce Steel."
-			]
-			dependencies: ["73CC3630DABFEB89"]
-			id: "0E1C4AEDB8594945"
-			tasks: [{
-				id: "2B20273225A90A38"
-				type: "item"
-				item: "immersiveengineering:blastbrick"
-				count: 27L
-			}]
-			rewards: [{
-				id: "3FF494CE479A40E2"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 10
-			}]
-		}
-		{
-			title: "Blazing Through"
-			x: 24.75d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "Craft Steel in a Blast Furnace - this material will be essential for technological development."
-			description: ["To proceed, insert iron ingots or blocks, alongside coal coke pieces or blocks, and wait for the steel to smelt."]
-			dependencies: ["0E1C4AEDB8594945"]
-			size: 2.0d
-			id: "031023A8EA6FD4D0"
-			tasks: [{
-				id: "5CFC34FC014226DE"
-				type: "item"
-				item: "immersiveengineering:ingot_steel"
-				count: 10L
-			}]
-			rewards: [{
-				id: "49221E1091AB2A3A"
-				type: "item"
-				item: "minecraft:coal_block"
-				count: 3
-			}]
-		}
-		{
 			title: "Old Reliable"
 			x: 12.5d
 			y: 2.0d
@@ -345,25 +227,6 @@
 			}]
 		}
 		{
-			title: "Dumping Excess..."
-			x: 19.5d
-			y: 1.75d
-			subtitle: "Once you get ahold of some piping, a fluid trash can will serve you well for disposing of unwanted Creosote Oil."
-			dependencies: ["75ACC6EA81DF8C4D"]
-			optional: true
-			id: "162DFFD5D4CE1757"
-			tasks: [{
-				id: "0B49B5D4E8A589D7"
-				type: "item"
-				item: "trashcans:liquid_trash_can"
-			}]
-			rewards: [{
-				id: "73B794A996427B83"
-				type: "item"
-				item: "minecraft:bucket"
-			}]
-		}
-		{
 			title: "Dealing With Snipers"
 			x: 10.5d
 			y: 0.0d
@@ -386,31 +249,6 @@
 				id: "25D4B2BFF361C371"
 				type: "xp"
 				xp: 100
-			}]
-		}
-		{
-			title: "Down, Down, to Ghast Town"
-			icon: "dads_sewing:ghast_plush"
-			disable_toast: true
-			x: 21.25d
-			y: 0.0d
-			subtitle: "Construct a Nether Portal and travel to your first of many dimensions."
-			description: [
-				"You can choose to cast a nether portal with lava, or to go diamond hunting. Tools are made via normal vanilla recipes in this pack - you're welcome."
-				""
-				"Collect some &6Magma Blocks&r while you're here for the next quest."
-			]
-			dependencies: ["75ACC6EA81DF8C4D"]
-			dependency_requirement: "one_completed"
-			id: "73CC3630DABFEB89"
-			tasks: [{
-				id: "4C2CF94EB3A2DD70"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "6B8C7A164092900D"
-				type: "item"
-				item: "dads_sewing:ghast_plush"
 			}]
 		}
 		{
@@ -551,7 +389,7 @@
 			title: "Building Blocks of Industry"
 			icon: "tconstruct:grout"
 			x: 15.5d
-			y: 1.75d
+			y: 2.0d
 			subtitle: "This way for tech!"
 			description: [
 				"Although you can grind your ores manually, it will be much easier to smelt them in a Tinker's Forge."
@@ -609,8 +447,8 @@
 		}
 		{
 			title: "Black Bricks"
-			x: 15.5d
-			y: 3.5d
+			x: 17.0d
+			y: 2.0d
 			subtitle: "Seared Bricks are the fundamental building block of Tinkers Construct."
 			description: ["You'll need several to complete your smeltery, but getting these does become easier. You'll need a good bit of clay, sand, and gravel."]
 			dependencies: ["70C734FADA46E9D1"]
@@ -631,8 +469,8 @@
 		{
 			title: "Controlled Smelting"
 			icon: "tconstruct:smeltery_controller"
-			x: 18.0d
-			y: 1.75d
+			x: 20.0d
+			y: 2.0d
 			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
 			description: [
 				"The controller, fuel tank, and drain must all be placed on a specific side of the Tinker's Smeltery, meaning that they cannot occupy a \"corner\" block."
@@ -668,8 +506,8 @@
 		{
 			title: "Casting Your Metal"
 			icon: "tconstruct:seared_basin"
-			x: 18.0d
-			y: 3.5d
+			x: 18.5d
+			y: 2.0d
 			subtitle: "Next, we need casting materials."
 			description: ["These will be useful once the completed smeltery is assembled."]
 			dependencies: ["4E810B1014C143CA"]
@@ -809,7 +647,7 @@
 		}
 		{
 			title: "Magical Alloys"
-			x: 21.5d
+			x: 22.0d
 			y: -5.0d
 			subtitle: "Next, coat some Iron in a layer of Vinteum dust."
 			dependencies: ["4986926BC0C8221E"]
@@ -845,6 +683,39 @@
 				type: "item"
 				item: "mana-and-artifice:vinteum_ore"
 				count: 2
+			}]
+		}
+		{
+			x: 22.0d
+			y: 2.0d
+			subtitle: "Grind down some Andesite in your Millstone, and then apply a coating of it to some Iron."
+			dependencies: ["4EB25C20BB94A8BB"]
+			id: "1A47CE7159D3D28D"
+			tasks: [{
+				id: "6CBE545128330FF8"
+				type: "item"
+				item: "kubejs:andesite_coated_iron"
+			}]
+			rewards: [{
+				id: "5EA8375C1E53DBBD"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 3
+			}]
+		}
+		{
+			title: "The First Alloy"
+			x: 25.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Next, cast molten Zinc onto the compound to get Andesite Alloy!"
+			dependencies: ["1A47CE7159D3D28D"]
+			size: 2.0d
+			id: "7B2BF47DD51A3D05"
+			tasks: [{
+				id: "219752A601F7BA22"
+				type: "item"
+				item: "create:andesite_alloy"
 			}]
 		}
 	]

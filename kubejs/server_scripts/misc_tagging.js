@@ -197,4 +197,7 @@ events.listen('item.tags', function (event) {
 		.add('extendedcrafting:the_ultimate_ingot')
 	event.get('forge:nuggets/ultimate')
 		.add('extendedcrafting:the_ultimate_nugget')
+	event.get('andesite_alloy_materials')
+		.add('minecraft:andesite')
+		.add('kubejs:andesite_dust')
 })

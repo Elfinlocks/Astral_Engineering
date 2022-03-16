@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 11.0d
-			y: 4.5d
+			x: 13.0d
+			y: 5.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -33,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: 9.0d
-			y: 2.5d
+			x: 10.0d
+			y: 4.0d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -47,33 +47,10 @@
 	]
 	quests: [
 		{
-			title: "Your First Alloy"
-			x: 0.5d
-			y: 6.5d
-			shape: "gear"
-			subtitle: "Craft Andesite Alloy."
-			description: ["Don't worry - this stuff gets cheaper later on!"]
-			dependencies: ["031023A8EA6FD4D0"]
-			size: 1.5d
-			id: "4B00B60DE355C08C"
-			tasks: [{
-				id: "6F3C9BABD832940C"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4L
-			}]
-			rewards: [{
-				id: "0ED61AC080941486"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 3
-			}]
-		}
-		{
 			title: "Windmill, Windmill, For The Land..."
 			icon: "create:windmill_bearing"
-			x: 7.0d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
 			subtitle: "A Windmill can provide you with large amounts of Rotational Force, used to power later machines."
 			dependencies: ["37A1141824C64B5A"]
 			optional: true
@@ -106,8 +83,8 @@
 		}
 		{
 			title: "Waterwheel, turning in my life so sweet..."
-			x: 6.0d
-			y: 1.5d
+			x: 3.5d
+			y: 2.5d
 			subtitle: "A Water Wheel can supply you with medium amounts of Rotational Force, used to power later machines."
 			dependencies: ["37A1141824C64B5A"]
 			optional: true
@@ -125,8 +102,8 @@
 		}
 		{
 			title: "Baby's First Rotational Force"
-			x: 6.0d
-			y: 4.5d
+			x: 3.5d
+			y: 5.5d
 			subtitle: "An Encased Fan placed above a heat source can provide very small amounts of Rotational Force, used to power later machines."
 			dependencies: ["37A1141824C64B5A"]
 			optional: true
@@ -145,8 +122,8 @@
 		{
 			title: "Working with Rotational Force"
 			icon: "create:large_cogwheel"
-			x: 2.0d
-			y: 3.0d
+			x: 0.5d
+			y: 4.0d
 			subtitle: "These items are used to transfer and manipulate Rotational Force for powering contraptions."
 			description: [
 				"Tip: Hold down W while looking at any Create item in JEI to Ponder. Doing this shows you a short \"cutscene\" that gives an overview of how the item in question works - its extremely useful!"
@@ -182,8 +159,8 @@
 		{
 			title: "Mixing Things Up"
 			icon: "create:mechanical_mixer"
-			x: 0.0d
-			y: 3.0d
+			x: -1.5d
+			y: 4.0d
 			subtitle: "A Mechanical Mixer placed 2 blocks above a Basin allows for blending a variety of items together. Some recipes may require heat."
 			dependencies: ["696CC33BB96232F5"]
 			optional: true
@@ -209,7 +186,7 @@
 		{
 			title: "Pressing Matters"
 			icon: "create:mechanical_press"
-			x: 2.0d
+			x: 0.5d
 			y: 1.5d
 			subtitle: "A Mechanical Press can help you make many useful items."
 			dependencies: ["696CC33BB96232F5"]
@@ -248,8 +225,8 @@
 		}
 		{
 			title: "Industrial Heating"
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.5d
 			subtitle: "A Blaze Burner can act as a perfect heat source for a Basin."
 			dependencies: ["4D36622ECF38295D"]
 			optional: true
@@ -267,7 +244,7 @@
 		}
 		{
 			title: "Perfect Plates"
-			x: 5.0d
+			x: 3.5d
 			y: -4.5d
 			subtitle: "Smash some copper down into plates for the next step in this route."
 			description: ["You can also make these with an Engineer's Hammer."]
@@ -287,7 +264,7 @@
 		}
 		{
 			title: "They See Me Rollin'"
-			x: 3.5d
+			x: 2.0d
 			y: -6.0d
 			subtitle: "A Rolling Mill can be used to create metal rods and wires."
 			description: ["If you haven't found any rods as loot to make a cast from, you will need to make one of these in order to create more rods."]
@@ -308,32 +285,32 @@
 		{
 			title: "Automation Comes Early"
 			icon: "create:mechanical_crafter"
-			x: 8.0d
+			x: 6.5d
 			y: -4.5d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
 			dependencies: ["5F68C4D92EF20E09"]
 			dependency_requirement: "one_completed"
 			id: "2BA7183800B331E0"
-			tasks: [
-				{
-					id: "7AFC5E7A39F1EEF2"
-					type: "item"
-					item: "create:mechanical_crafter"
-					count: 3L
-				}
-				{
-					id: "1077CAC4EE65154C"
-					type: "item"
-					item: "create:crafter_slot_cover"
-				}
-			]
-			rewards: [{
-				id: "1774419211F0778F"
+			tasks: [{
+				id: "7AFC5E7A39F1EEF2"
 				type: "item"
 				item: "create:mechanical_crafter"
-				count: 2
+				count: 21L
 			}]
+			rewards: [
+				{
+					id: "1774419211F0778F"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 4
+				}
+				{
+					id: "3D8DA0C57F4DC496"
+					type: "xp"
+					xp: 150
+				}
+			]
 		}
 		{
 			title: "An Alternate Route"
@@ -342,7 +319,10 @@
 			shape: "gear"
 			subtitle: "This is a major milestone! You've discovered a way to convert Rotational Energy into electricity (FE)."
 			description: ["You will need several alternators, or a significant bank of capacitors, to progress from this point."]
-			dependencies: ["4B9454AF18012B10"]
+			dependencies: [
+				"4B9454AF18012B10"
+				"3A1369AE1E8D34B0"
+			]
 			size: 1.5d
 			id: "0EF94371D99AC9BA"
 			tasks: [{
@@ -358,8 +338,8 @@
 		}
 		{
 			title: "Alternative Doubling"
-			x: 8.0d
-			y: -2.5d
+			x: 6.5d
+			y: -6.0d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
 				"Tip: Crushers can be vertically or horizontally aligned. Keep this in mind when creating assembly lines!"
@@ -391,8 +371,8 @@
 					spell: { }
 				}
 			}
-			x: 6.0d
-			y: -2.5d
+			x: 3.5d
+			y: -6.0d
 			subtitle: "A Kiln can be used to combine some metals into alloys. Create it by right clicking a 2x2x2 cube of Kiln Bricks with an Engineer's Hammer."
 			description: ["This is really only necessary if you want an alternative to the &6Tinker's Smeltery&r."]
 			dependencies: ["5F68C4D92EF20E09"]
@@ -503,7 +483,7 @@
 		}
 		{
 			x: 12.0d
-			y: 2.0d
+			y: 2.5d
 			subtitle: "Integrated Circuits are a common ingredient in the creation of more powerful electronics and computing devices."
 			description: ["It is worth your time to automate these!"]
 			dependencies: ["0EF94371D99AC9BA"]
@@ -523,7 +503,7 @@
 		{
 			title: "Computer: Deactivate Iguana"
 			x: 12.0d
-			y: 3.5d
+			y: 5.0d
 			subtitle: "Computers can be programmed to suit your needs, and interface with a surprising amount of mods."
 			description: ["As computers are cheap, it is recommended to take some time to learn how to use them."]
 			dependencies: ["275FE11C673E522D"]
@@ -544,7 +524,7 @@
 			title: "Engineering Blocks!"
 			icon: "immersiveengineering:light_engineering"
 			x: 14.5d
-			y: 2.0d
+			y: 2.5d
 			subtitle: "Engineering Blocks will be used as a component to construct large yet powerful machines."
 			dependencies: ["275FE11C673E522D"]
 			id: "4AADFD307A5BCF37"
@@ -642,7 +622,7 @@
 		{
 			title: "Black Gold"
 			icon: "thermal:crude_oil_bucket"
-			x: 17.0d
+			x: 18.5d
 			y: 3.5d
 			subtitle: "Next, gather the remaining materials needed for a Pumpjack. You can consult your Engineer's Manual for the layout of this machine."
 			description: [
@@ -701,7 +681,7 @@
 		}
 		{
 			title: "Putting Straw Golems Out of a Job"
-			x: 0.5d
+			x: -1.0d
 			y: -6.0d
 			subtitle: "A Harvester can be attached to a contraption to &6automatically harvest&r crops as it runs over them. A good start would be attaching these to blocks rotated around by a &6Radial Chassis&r."
 			dependencies: ["2807E15C7B1E4D22"]
@@ -721,8 +701,8 @@
 		}
 		{
 			title: "Your New Best Friend"
-			x: 13.5d
-			y: 3.5d
+			x: 15.5d
+			y: 1.0d
 			subtitle: "A projector is a valuable tool for quickly showing the exact layout for Immersive Engineering structures within the world."
 			description: [
 				"I recommend making one of these prior to advancing, but it is not required. The projector has two modes: projection mode (for placing the projection in the world) and selection mode (for selecting the appropriate structure)."
@@ -753,7 +733,7 @@
 				""
 				"I recommend dropping an entire stack of iron at once, to ensure you don't waste TnT."
 			]
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["3BD6D4ED98074251"]
 			id: "6500817F2DBF14D6"
 			tasks: [{
 				id: "6669DBBA7FDA6EC2"
@@ -791,8 +771,8 @@
 		{
 			title: "Refined Processing"
 			icon: "pneumaticcraft:refinery_output"
-			x: 17.0d
-			y: 5.0d
+			x: 20.0d
+			y: 3.5d
 			subtitle: "Next, we'll need some refining components..."
 			dependencies: ["48BBC2E819A1B6A5"]
 			id: "4E62555C8A1D9A46"
@@ -844,8 +824,8 @@
 					spell: { }
 				}
 			}
-			x: 15.5d
-			y: 3.5d
+			x: 14.5d
+			y: 0.5d
 			subtitle: "You're now able to make the Immersive Engineering variant of the metal press, if desired."
 			dependencies: ["4AADFD307A5BCF37"]
 			optional: true
@@ -1013,13 +993,13 @@
 		}
 		{
 			title: "Finally, the good stuff"
-			x: 25.5d
-			y: 3.0d
+			x: 23.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "You've worked hard to set up the infrastructure, now you can move on to Advanced Industry!"
 			description: [""]
 			dependencies: ["625F93FB523C6684"]
-			size: 1.5d
+			size: 2.0d
 			id: "120F2353F2110106"
 			tasks: [{
 				id: "0FF502EEF1AB951E"
@@ -1075,7 +1055,7 @@
 		}
 		{
 			title: "Mechanical Mobilization!"
-			x: 2.0d
+			x: 0.5d
 			y: -4.5d
 			subtitle: "Belts can be attached to two shafts to create conveyor belts - the faster the shafts are spinning, the faster the belt will move!"
 			description: ["Tip: These can be dyed to assist with organization!"]
@@ -1096,11 +1076,14 @@
 		}
 		{
 			title: "Blast Preheating"
-			x: 4.0d
-			y: 8.0d
+			x: 10.5d
+			y: 2.0d
 			subtitle: "Blast Furance Preheaters can be attached to the sides of an improved Blast Furnace, and powered with FE."
 			description: ["Doing this will greatly increase the speed of your steel processing."]
-			dependencies: ["5C0C42050567B5D6"]
+			dependencies: [
+				"5C0C42050567B5D6"
+				"0EF94371D99AC9BA"
+			]
 			optional: true
 			id: "58575B2165C2EA96"
 			tasks: [{
@@ -1119,11 +1102,11 @@
 		{
 			title: "Improved Blasting"
 			icon: "immersiveengineering:advanced_blast_furnace"
-			x: 2.0d
-			y: 8.0d
+			x: 9.0d
+			y: 2.0d
 			subtitle: "The Blast Furnace can be made into an improved version through reinforcement with steel."
 			description: ["It is recommended that you do this early, to improve the speed of steel production."]
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["3A1369AE1E8D34B0"]
 			optional: true
 			id: "5C0C42050567B5D6"
 			tasks: [
@@ -1160,11 +1143,13 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 2.0d
-			y: 4.5d
-			subtitle: "In the following chapters, you will learn how to make plates through Create."
-			description: [""]
-			dependencies: ["4B00B60DE355C08C"]
+			x: 0.5d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "Welcome to Early Industry! Let's kick this off!"
+			description: ["In the following quests, you'll kick into gear on getting your Tech developed. These quests will show you how to make everything from &6Steel&r to &5Electricity&r to &4Plastic!&r"]
+			dependencies: ["7B2BF47DD51A3D05"]
+			size: 1.5d
 			id: "3BD6D4ED98074251"
 			tasks: [{
 				id: "5354B59BBD950D44"
@@ -1178,30 +1163,12 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 6.5d
-			subtitle: "Materials and You is a comprehensive guide to all of the neat modifiers available from Tinkers Construct for your tools."
-			dependencies: ["4AFDEA24E595D3A3"]
-			optional: true
-			id: "061857003E840821"
-			tasks: [{
-				id: "5EC833F8E5736E8C"
-				type: "item"
-				item: "tconstruct:materials_and_you"
-			}]
-			rewards: [{
-				id: "434613B13BB0B801"
-				type: "item"
-				item: "minecraft:magma_cream"
-			}]
-		}
-		{
 			title: "ACME Anvils"
-			x: -1.5d
-			y: 6.5d
+			x: 6.5d
+			y: 2.0d
 			subtitle: "The creator of this modpack is not responsible for any harm done by such anvils to cartoon critters."
 			description: ["A Tinker's Anvil can be used to create much more powerful tools, such as the broadaxe, excavator, and more."]
-			dependencies: ["4B00B60DE355C08C"]
+			dependencies: ["3A1369AE1E8D34B0"]
 			optional: true
 			id: "4AFDEA24E595D3A3"
 			tasks: [{
@@ -1229,7 +1196,7 @@
 				tag: { }
 			}
 			x: 17.0d
-			y: 2.0d
+			y: 2.5d
 			subtitle: "You may now choose your preferred route for plastic creation."
 			description: [
 				"Your goal is to create Liquified Petroleum Gas (LPG), or Biodiesel. Both of these can be converted into Liquid Plastic via the Thermopneumatic Processing Plant."
@@ -1302,8 +1269,8 @@
 		{
 			title: "Step 1: Industrial Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: 20.0d
-			y: 2.0d
+			x: 18.5d
+			y: 1.5d
 			subtitle: "Ethanol will form part of biodiesel production."
 			description: ["Various crops can create ethanol - I recommend potatoes or sugarcane for ease of production."]
 			dependencies: ["357C8ABBFAD44DC9"]
@@ -1364,7 +1331,7 @@
 			title: "Step 2: Industrial Squeezer"
 			icon: "immersiveengineering:squeezer"
 			x: 22.0d
-			y: 2.0d
+			y: 1.5d
 			subtitle: "You can also use alternative oils for this, but we're doing it the Immersive Engineering way for simplicity."
 			description: ["Plant Oil can be made by squeezing various types of seeds. I recommend industrial hemp seeds for the best output."]
 			dependencies: ["5CB28DA20679E52D"]
@@ -1420,7 +1387,7 @@
 		}
 		{
 			title: "Full Steam Ahead!"
-			x: 10.0d
+			x: 9.0d
 			y: -4.5d
 			subtitle: "We've got some basic industry going, let's kick this up a notch or two!"
 			description: ["The following quests will teach you how to create steam, and then use it to power steam engines!"]
@@ -1468,7 +1435,7 @@
 			title: "Pump, Pump It Up!"
 			icon: "create:mechanical_pump"
 			disable_toast: true
-			x: 2.0d
+			x: 0.5d
 			y: -6.5d
 			subtitle: "A pump is a great way to get fluids moving around."
 			description: [
@@ -1503,10 +1470,10 @@
 		}
 		{
 			title: "Stylish AND Functional!"
-			x: 0.0d
-			y: -4.5d
+			x: 4.5d
+			y: -3.0d
 			subtitle: "An Engineer's Wrench is your best friend for all things Create."
-			dependencies: ["2807E15C7B1E4D22"]
+			dependencies: ["5F68C4D92EF20E09"]
 			optional: true
 			id: "7773C57CB30240D5"
 			tasks: [{
@@ -1558,8 +1525,8 @@
 		{
 			title: "Upgrades, People - Upgrades!"
 			icon: "steampowered:cast_iron_flywheel"
-			x: 14.0d
-			y: -4.5d
+			x: 13.5d
+			y: -4.0d
 			subtitle: "If you can spare the resources, you can really turn things up a notch."
 			description: ["The Cast Iron flywheel and engine setup has a stress capacity of 4096."]
 			dependencies: ["4B9454AF18012B10"]
@@ -1597,13 +1564,18 @@
 		{
 			title: "Industrially Revolutionizing"
 			icon: "steampowered:steel_flywheel"
-			x: 17.0d
-			y: -4.5d
-			shape: "gear"
+			x: 9.0d
+			y: -2.5d
 			subtitle: "A steel steam engine knocks the others out of the park!"
-			description: ["The Steel Flywheel and Engine can generate up to 9216su!"]
-			dependencies: ["555F46F17ADBACE9"]
-			size: 1.5d
+			description: [
+				"The Steel Flywheel and Engine can generate up to 9216su!"
+				""
+				"Warning: You need to provide this thing a LOT of steam, at a very fast rate!"
+			]
+			dependencies: [
+				"3A1369AE1E8D34B0"
+				"4B9454AF18012B10"
+			]
 			optional: true
 			id: "639FEBA9F1C5AF29"
 			tasks: [
@@ -1634,11 +1606,11 @@
 		}
 		{
 			title: "I Can See...I Can FIGHT!"
-			x: 4.0d
-			y: 1.5d
+			x: 2.5d
+			y: -3.0d
 			subtitle: "Engineer Goggles make tweaking your creations much easier."
 			description: ["They allow you see stress capacity, interconnected devices, and more!"]
-			dependencies: ["696CC33BB96232F5"]
+			dependencies: ["5F68C4D92EF20E09"]
 			optional: true
 			id: "677EFF1454F57237"
 			tasks: [{
@@ -1655,7 +1627,7 @@
 		{
 			title: "Molten Core!"
 			x: 18.5d
-			y: 3.5d
+			y: 5.0d
 			subtitle: "A Core Sample Drill will help you find Oil"
 			description: [
 				"The Core Sample Drill needs power, but only a bit - approximately 40 RF per tick. You must then activate it with a right click, or a redstone signal. It will provide you with detailed information on available ores and fluids in the particular chunk."
@@ -1687,7 +1659,7 @@
 		{
 			title: "Castaway"
 			icon: "tconstruct:seared_table"
-			x: 4.0d
+			x: 3.5d
 			y: -2.5d
 			subtitle: "These essentials will make the creation of specific parts a bit easier."
 			description: [
@@ -1728,8 +1700,8 @@
 		}
 		{
 			title: "Heating Up"
-			x: 14.5d
-			y: 0.75d
+			x: 13.5d
+			y: 4.0d
 			subtitle: "A Heat Generator provides some very basic power generation, if you can get the fuel."
 			dependencies: ["4AADFD307A5BCF37"]
 			optional: true
@@ -1754,7 +1726,7 @@
 		}
 		{
 			title: "The Foundation"
-			x: 2.0d
+			x: 0.5d
 			y: -0.5d
 			subtitle: "Rubber is a widely useful material - it will be worth the effort to automate!"
 			description: ["You may wish to make an Arboreal Extractor to ease with producing it."]
@@ -1767,7 +1739,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 0.5d
 			y: -2.5d
 			subtitle: "Cure the raw rubber in a furnace."
 			description: ["You can increase this output later with an Induction Smelter."]
@@ -1781,7 +1753,7 @@
 		}
 		{
 			title: "Arboreal Automation"
-			x: 4.0d
+			x: 2.5d
 			y: -0.5d
 			subtitle: "Passive resin collection can greatly help with producing rubber."
 			dependencies: ["38D0C9EF84083DE8"]
@@ -1800,8 +1772,8 @@
 		}
 		{
 			title: "Vein Mining!"
-			x: -3.0d
-			y: 8.0d
+			x: 7.5d
+			y: 3.0d
 			subtitle: "A Vein Hammer does what it says on the tin - it's vein mining!"
 			description: ["Make one out of any materials to complete this quest."]
 			dependencies: ["4AFDEA24E595D3A3"]
@@ -1855,8 +1827,8 @@
 		}
 		{
 			title: "Vein Chopping!"
-			x: -3.0d
-			y: 5.0d
+			x: 5.5d
+			y: 1.0d
 			subtitle: "A Broad Axe lets you fell trees with ease!"
 			description: ["Make one out of any materials to complete this quest."]
 			dependencies: ["4AFDEA24E595D3A3"]
@@ -1946,8 +1918,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 2.5d
+			y: 4.0d
 			subtitle: "To power your contraptions, you'll need a source of rotational force."
 			dependencies: ["696CC33BB96232F5"]
 			optional: true
@@ -1961,8 +1933,8 @@
 		{
 			title: "Electrical Alternatives"
 			icon: "immersiveengineering:fluid_pump"
-			x: 10.0d
-			y: -1.0d
+			x: 10.5d
+			y: -1.5d
 			description: ["If you'd prefer to use electricity, an &6Electric Pump&r will move water at a rate comparable to a maximum speed &6Mechanical Pump&r, for a relatively low about of energy."]
 			dependencies: ["0EF94371D99AC9BA"]
 			optional: true
@@ -1996,8 +1968,8 @@
 		{
 			title: "Multiblock Madness!"
 			icon: "create:schematicannon"
-			x: 14.5d
-			y: 4.0d
+			x: 13.5d
+			y: 1.0d
 			subtitle: "This handy tool just might save your life."
 			description: [
 				"A Schematiccannon offers an easy way to build all of these multiblocks. As a courtesy, I have created some premade schematics for popular multiblocks for you - you will find them in the schematics table."
@@ -2026,8 +1998,8 @@
 		}
 		{
 			title: "Taking Measurements"
-			x: 10.0d
-			y: 1.0d
+			x: 13.5d
+			y: -1.5d
 			subtitle: "The multimeter offers an easy way to gauge RF throughput."
 			dependencies: ["0EF94371D99AC9BA"]
 			optional: true
@@ -2046,7 +2018,7 @@
 		{
 			title: "Light and Portable!"
 			x: 10.0d
-			y: 3.5d
+			y: 5.0d
 			subtitle: "Is that a SOCKS5 protocol in your pocket?"
 			description: ["Note: Adding peripherals is a bit broken due to a mod incompatibility. In order to add them without using the crafting recipe, see the &6Adding Peripherals&r tip, which is just above this quest."]
 			dependencies: ["2CBD58CB08491491"]
@@ -2069,6 +2041,143 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			title: "Blazing Through"
+			x: 9.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Smelt some Steel in your new Blast Furnace."
+			description: ["Placing Iron and Coal in your Blast Furnace will cause it to slowly smelt &6Steel&r, an essential alloy for development of Tech."]
+			dependencies: ["24391C070CD8BD71"]
+			size: 1.5d
+			id: "3A1369AE1E8D34B0"
+			tasks: [{
+				id: "0BC48D89D25642FF"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 10L
+			}]
+			rewards: [{
+				id: "33EF92B5F047AAFF"
+				type: "item"
+				item: "thermal:coal_coke_block"
+			}]
+		}
+		{
+			title: "JESSE, WE NEED TO COOK!"
+			x: 6.5d
+			y: -3.0d
+			subtitle: "Cast some Coke Bricks. Look inside this quest for additional information."
+			description: [
+				"Right click on a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven."
+				""
+				"The Coke Oven will slowly burn Coal into &6Coal Coke&r. In addition, it will make &6Creosote Oil&r. I recommend piping this out."
+			]
+			dependencies: ["2BA7183800B331E0"]
+			id: "69A49BF7B857E93B"
+			tasks: [{
+				id: "4ADE6CF1F8BB42B2"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "3FD2074A466A5198"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 2
+			}]
+		}
+		{
+			title: "Down, Down, to Ghast Town"
+			icon: "dads_sewing:ghast_plush"
+			x: 6.5d
+			y: -1.5d
+			subtitle: "Travel to your first of many dimensions."
+			description: [
+				"You may choose to cast a Nether portal with &6Lava&r, or to create a Diamond Pickaxe to mine the Obsidian manually."
+				""
+				"Remember - a portal must be a minimum of 2 blocks wide, and 3 blocks tall."
+			]
+			dependencies: ["69A49BF7B857E93B"]
+			id: "7EF0B3492EFA48C2"
+			tasks: [{
+				id: "4191DFD03F6E79AF"
+				type: "checkmark"
+				title: "The Bottom Floor: Reached!"
+			}]
+			rewards: [{
+				id: "7FC91F7C6EF03B74"
+				type: "item"
+				item: "dads_sewing:ghast_plush"
+			}]
+		}
+		{
+			title: "Brown Bricks"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Cast some Blast Bricks. You will need the burning lifeblood of a Blaze for this."
+			dependencies: ["7EF0B3492EFA48C2"]
+			id: "24391C070CD8BD71"
+			tasks: [{
+				id: "61084CE04EFEF5ED"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "249D1B72C8EA35A1"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			subtitle: "Fluid Tanks offer some great modular storage for your liquids."
+			dependencies: ["139213600D20C9FA"]
+			optional: true
+			id: "79E2EB2DD46CEBAC"
+			tasks: [{
+				id: "1F6F792FC049EA9B"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2931D879C7CADA79"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2
+			}]
+		}
+		{
+			title: "Rotationless Item Transfer"
+			x: 15.5d
+			y: 4.0d
+			subtitle: "These handy self-powered belts will probably make life easier."
+			description: [
+				"According to all known laws of physics, there is no way these belts should be able to move without power or rotational force."
+				""
+				"The belt, of course, moves anyway, because it doesn't care what you think is impossible."
+			]
+			dependencies: ["4AADFD307A5BCF37"]
+			optional: true
+			id: "59C4A5F55CDBE276"
+			tasks: [{
+				id: "4D0114828D949485"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+				count: 3L
+			}]
+			rewards: [{
+				id: "18204B1652759D50"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+				count: 6
+			}]
 		}
 	]
 }

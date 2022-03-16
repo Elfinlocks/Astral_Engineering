@@ -153,7 +153,7 @@ craftingTable.addShaped("adv_solar_generator", <item:mekanismgenerators:advanced
 	[<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>]]);
 
 craftingTable.addShaped("heat_generator", <item:mekanismgenerators:heat_generator>, [
-    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
+    [<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>],
     [<item:create:andesite_casing>, <item:mekanism:steel_casing>, <item:create:andesite_casing>],
     [<item:immersiveengineering:light_engineering>, <item:minecraft:furnace>, <item:immersiveengineering:light_engineering>]]);
 

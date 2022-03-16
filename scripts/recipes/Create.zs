@@ -46,15 +46,22 @@ craftingTable.addShaped("capacitor", <item:createaddition:capacitor>, [
     [<tag:items:forge:plates/iron>, <tag:items:forge:plates/electrum>, <tag:items:forge:plates/iron>],
     [<item:thermal:cured_rubber>, <item:minecraft:redstone_torch>, <item:thermal:cured_rubber>]]);
 
+// Andesite Alloy Stuff
+
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);
 
-craftingTable.addShaped("crafting_table/andesite_alloy", <item:create:andesite_alloy> * 4, [
-    [<item:create:zinc_nugget>, <item:minecraft:andesite>, <item:create:zinc_nugget>],
-    [<item:minecraft:andesite>, <tag:items:forge:ingots/steel>, <item:minecraft:andesite>],
-    [<item:create:zinc_nugget>, <item:minecraft:andesite>, <item:create:zinc_nugget>]]);
-	
-<recipetype:thermal:smelter>.addRecipe("andesite", [<item:create:andesite_alloy> % 200], [<item:minecraft:andesite>, <item:immersiveengineering:ingot_steel>], 50, 3200);
+<recipetype:create:crushing>.addRecipe("wheel_andesite", [<item:kubejs:andesite_dust> * 1 % 100], <item:minecraft:andesite>);
+<recipetype:create:milling>.addRecipe("mill_andesite", [<item:kubejs:andesite_dust> * 1 % 100], <item:minecraft:andesite>);
+craftingTable.addShapeless("andesite_coated_iron", <item:kubejs:andesite_coated_iron>, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/iron>]);
+craftingTable.addShapeless("andesite_coated_iron2", <item:kubejs:andesite_coated_iron> * 2, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/steel>]);
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_andesite_iron", <item:kubejs:andesite_coated_iron>, <fluid:tconstruct:molten_zinc> * 72, <item:create:andesite_alloy>, 80, true, true);
+
+<recipetype:create:mixing>.addRecipe("mixing_andesite_iron", "heated", <item:create:andesite_alloy> * 2, [<tag:items:minecraft:andesite_alloy_materials>, <item:minecraft:iron_ingot>, <tag:items:forge:ingots/zinc>]);
+<recipetype:create:mixing>.addRecipe("mixing_andesite_steel", "heated", <item:create:andesite_alloy> * 4, [<tag:items:minecraft:andesite_alloy_materials>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/zinc>]);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_andesite_iron", <item:minecraft:iron_ingot>, [<tag:items:forge:ingots/zinc>, <tag:items:minecraft:andesite_alloy_materials>], 100, 51200, [<item:create:andesite_alloy> * 6], <item:thermal:rich_slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_andesite_steel", <tag:items:forge:ingots/steel>, [<tag:items:forge:ingots/zinc>, <tag:items:minecraft:andesite_alloy_materials>], 100, 51200, [<item:create:andesite_alloy> * 8], <item:thermal:rich_slag>);
 
 // Create: Steampowered fixes and adjustments
 
@@ -178,8 +185,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.removeRecipe(<item:thermal:diamond_dust>);
 <recipetype:create:crushing>.removeRecipe(<item:mekanism:dust_obsidian>);
 <recipetype:create:crushing>.removeRecipe(<item:minecraft:black_dye>);
-
-
 
 // Crushing Wheel Fixes 
 

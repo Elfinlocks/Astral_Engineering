@@ -19,5 +19,5 @@ onEvent('item.registry', event => {
 
 onEvent('fluid.registry', event => {
 	let colors = [0xCBE827, 0xAEE827, 0x68E827, 0x27E86E, 0x27E8B1, 0x27DEE8, 0x27B5E8, 0x2798E8, 0x2778E8, 0x2748E8]
-	event.create('matrix').displayName(`Molten Ultimate Alloy`).textureStill('kubejs:fluid/ultimate_still').textureFlowing('kubejs:fluid/ultimate_flowing').bucketColor(colors[0])
+	event.create('molten_ultimate').displayName(`Molten Ultimate Alloy`).textureStill('kubejs:fluid/ultimate_still').textureFlowing('kubejs:fluid/ultimate_flowing').bucketColor(colors[0])
 })

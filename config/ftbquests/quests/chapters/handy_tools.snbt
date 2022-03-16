@@ -497,7 +497,6 @@
 			x: 6.0d
 			y: 0.0d
 			subtitle: "These Wooden Storage Crates act similarly to a Shulker Box, and can be reinforced."
-			dependencies: ["75ACC6EA81DF8C4D"]
 			id: "48D3F6B00BE148BB"
 			tasks: [{
 				id: "0F528615E644A874"
@@ -1353,7 +1352,6 @@
 				""
 				"Essentially, More Red adds several tools which allow the player to create intricate circuit networks through its logic gate blocks. These gates can be placed on WALLS and CEILINGS as well! You may want to reference the More Red wiki when attempting to utilize this mod."
 			]
-			dependencies: ["73CC3630DABFEB89"]
 			id: "7C37096468CB685B"
 			tasks: [{
 				id: "516866067AB37D06"
