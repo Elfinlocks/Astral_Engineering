@@ -51,8 +51,12 @@ craftingTable.addShaped("capacitor", <item:createaddition:capacitor>, [
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);
 
-<recipetype:create:crushing>.addRecipe("wheel_andesite", [<item:kubejs:andesite_dust> * 1 % 100], <item:minecraft:andesite>);
+<recipetype:create:crushing>.addRecipe("wheel_andesite", [<item:kubejs:andesite_dust> % 100, <item:kubejs:andesite_dust> % 50], <item:minecraft:andesite>);
 <recipetype:create:milling>.addRecipe("mill_andesite", [<item:kubejs:andesite_dust> * 1 % 100], <item:minecraft:andesite>);
+<recipetype:immersiveengineering:crusher>.addRecipe("ie_crusher_andesite", <item:minecraft:andesite>, 500, <item:kubejs:andesite_dust>, <item:kubejs:andesite_dust> % 80);
+<recipetype:thermal:pulverizer>.addRecipe("pulverizer_andesite", [<item:kubejs:andesite_dust> * 2 % 100] , <item:minecraft:andesite>, 0.35, 4000);
+<recipetype:appliedenergistics2:grinder>.addRecipe("grinder_andesite", <item:kubejs:andesite_dust>, <item:minecraft:andesite>, 4);
+
 craftingTable.addShapeless("andesite_coated_iron", <item:kubejs:andesite_coated_iron>, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/iron>]);
 craftingTable.addShapeless("andesite_coated_iron2", <item:kubejs:andesite_coated_iron> * 2, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/steel>]);
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_andesite_iron", <item:kubejs:andesite_coated_iron>, <fluid:tconstruct:molten_zinc> * 72, <item:create:andesite_alloy>, 80, true, true);

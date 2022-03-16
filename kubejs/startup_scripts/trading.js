@@ -581,7 +581,7 @@ onEvent('item.registry', event => {
 		simple("Gold Ingot", MC('gold_ingot', 8), 48, S, 0xD99413, 0xFAF25E)
 		simple("Vinteum Ingot", MA('vinteum_ingot', 8), 48, S, 0x3E4644, 0xB8DAC8)
 		simple("Osmium Ingot", MK('ingot_osmium', 8), 32, S, 0x3E4644, 0xB8DAC8)
-		simple("Andesite Alloy", CR('andesite_alloy', 16), 8, S, 0x505050, 0x878787)
+		simple("Andesite Alloy", CR('andesite_alloy', 8), 16, S, 0x505050, 0x878787)
 		simple("Silica Steel", "8x moreminecarts:silica_steel", 16, S, 0x3E4644, 0xB8DAC8)
 		simple("Brass Ingot", CR('brass_ingot', 8), 48, S, 0x6F3C2D, 0xFCF085)
 		simple("Bronze Ingot", TE('bronze_ingot', 8), 32, S, 0x6F3C2D, 0xFCF085)

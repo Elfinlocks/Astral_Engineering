@@ -686,6 +686,7 @@
 			}]
 		}
 		{
+			title: "Technical Alloys"
 			x: 22.0d
 			y: 2.0d
 			subtitle: "Grind down some Andesite in your Millstone, and then apply a coating of it to some Iron."
@@ -704,7 +705,7 @@
 			}]
 		}
 		{
-			title: "The First Alloy"
+			title: "Industrial Initiation"
 			x: 25.0d
 			y: 2.0d
 			shape: "gear"
