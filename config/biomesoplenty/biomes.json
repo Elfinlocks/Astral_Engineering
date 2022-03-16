@@ -1,7 +1,7 @@
 {
   "standard_weights": {
     "biomesoplenty:alps": {
-      "weight": 5
+      "weight": 0
     },
     "biomesoplenty:bayou": {
       "weight": 10
@@ -10,7 +10,7 @@
       "weight": 1
     },
     "biomesoplenty:coniferous_forest": {
-      "weight": 10
+      "weight": 0
     },
     "biomesoplenty:crystalline_chasm": {
       "weight": 5
@@ -61,7 +61,7 @@
       "weight": 7
     },
     "biomesoplenty:seasonal_forest": {
-      "weight": 7
+      "weight": 0
     },
     "biomesoplenty:shrubland": {
       "weight": 7
@@ -70,7 +70,7 @@
       "weight": 1
     },
     "biomesoplenty:snowy_coniferous_forest": {
-      "weight": 5
+      "weight": 0
     },
     "biomesoplenty:tundra": {
       "weight": 7
@@ -128,7 +128,7 @@
       "rarity": 0.75
     },
     "biomesoplenty:coniferous_lakes": {
-      "weight": 100,
+      "weight": 0,
       "rarity": 1.0
     },
     "biomesoplenty:dead_swamp": {
@@ -216,7 +216,7 @@
       "rarity": 0.75
     },
     "biomesoplenty:seasonal_orchard": {
-      "weight": 100,
+      "weight": 0,
       "rarity": 1.0
     },
     "biomesoplenty:seasonal_pumpkin_patch": {
@@ -236,7 +236,7 @@
       "rarity": 0.75
     },
     "biomesoplenty:snowy_maple_forest": {
-      "weight": 100,
+      "weight": 0,
       "rarity": 1.25
     },
     "biomesoplenty:tropic_plains": {

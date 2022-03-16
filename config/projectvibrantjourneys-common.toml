@@ -37,30 +37,30 @@
 	#Biome Settings
 	[Settings.Biomes]
 		overgrown_spires = true
-		verdant_sands = true
-		boreal_forest = true
-		snowy_boreal_forest = true
-		redwoods = true
-		snowy_redwoods = true
-		redwood_peaks = true
-		pine_meadows = true
-		alpine_heights = true
-		boreal_plateau = true
-		aspen_grove = true
-		mangrove_marsh = true
-		willow_wetlands = true
-		baobab_fields = true
+		verdant_sands = false
+		boreal_forest = false
+		snowy_boreal_forest = false
+		redwoods = false
+		snowy_redwoods = false
+		redwood_peaks = false
+		pine_meadows = false
+		alpine_heights = false
+		boreal_plateau = false
+		aspen_grove = false
+		mangrove_marsh = false
+		willow_wetlands = false
+		baobab_fields = false
 		prairie = true
-		blossoming_fields = true
-		autumnal_coniferous_forest = true
-		crimson_thicket = true
-		desert_shrubland = true
+		blossoming_fields = false
+		autumnal_coniferous_forest = false
+		crimson_thicket = false
+		desert_shrubland = false
 		red_rock_valley = true
 		crystal_lakes = true
-		windswept_cliffs = true
-		meadows = true
-		flooded_woodlands = true
-		stony_fields = true
+		windswept_cliffs = false
+		meadows = false
+		flooded_woodlands = false
+		stony_fields = false
 
 		#Biome Weights
 		[Settings.Biomes."Biome Weights"]
@@ -127,6 +127,6 @@
 
 	#Tree Settings
 	[Settings."Tree Settings"]
-		enablePalmTrees = true
+		enablePalmTrees = false
 		enableJuniperTrees = true
 
