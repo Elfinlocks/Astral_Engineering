@@ -6,9 +6,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
@@ -85,9 +85,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
@@ -173,9 +173,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
@@ -260,9 +260,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
@@ -332,9 +332,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
@@ -402,9 +402,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // Diamond and Netherite Stuff ====================================
@@ -494,9 +494,9 @@ onEvent('chest.loot_tables', event => {
 // The Ingots =====================================
     table.addPool(pool => {
       pool.rolls = [1, 2]
-      pool.addItem('botania:manasteel_ingot', 7, [1, 2])
-	  pool.addItem('immersiveengineering:ingot_steel', 7, [1, 2])
-	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 4])
+      pool.addItem('botania:manasteel_ingot', 5)
+	  pool.addItem('immersiveengineering:ingot_steel', 5)
+	  pool.addItem('pneumaticcraft:ingot_iron_compressed', 7, [1, 2])
 	})
 	
 // The Vanilla =====================================
