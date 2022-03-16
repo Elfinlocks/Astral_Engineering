@@ -224,9 +224,9 @@ craftingTable.addShaped("blueprint_spec_projectiles", <item:immersiveengineering
 
 // Arc Furnace
 	
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_steel", <item:minecraft:iron_ingot>, [<item:immersiveengineering:dust_coke>], 100, 51200, [<item:immersiveengineering:ingot_steel>], <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_steel", <item:minecraft:iron_ingot>, [<item:immersiveengineering:dust_coke>], 100, 51200, [<item:immersiveengineering:ingot_steel>], <item:thermal:slag>);
 
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_elementium", <item:mythicbotany:elementium_ore>, [<item:minecraft:air>], 100, 51200, [<item:botania:elementium_ingot>], <item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_elementium", <item:mythicbotany:elementium_ore>, [<item:minecraft:air>], 100, 51200, [<item:botania:elementium_ingot>], <item:thermal:slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_furnace_iridium", <item:libvulpes:dustiridium>, [<item:immersiveengineering:dust_coke>], 1200, 12000000, [<item:libvulpes:ingotiridium>], <item:thermal:rich_slag>);
 

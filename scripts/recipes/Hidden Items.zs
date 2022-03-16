@@ -573,7 +573,8 @@ val items as IIngredient[] = [
 <item:crockpot:cooked_egg>,
 <item:immersiveengineering:coal_coke>,
 <item:immersiveengineering:coke>,
-<item:immersiveengineering:slab_coke>
+<item:immersiveengineering:slab_coke>,
+<item:immersiveengineering:slag>
 ];
 
 for item in items {

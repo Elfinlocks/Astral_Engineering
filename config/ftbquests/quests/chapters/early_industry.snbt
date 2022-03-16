@@ -436,11 +436,7 @@
 			x: 17.0d
 			y: 0.0d
 			subtitle: "You have power, but now you need a way to transfer it. These should get the job done."
-			description: [
-				"Note: Capable of transferring up to 2048 RF per tick."
-				""
-				"If desired, you may want to substitute basic Mekanism universal cables, if you have the steel to do so."
-			]
+			description: ["Note: Capable of transferring up to 2048 RF per tick."]
 			dependencies: ["0EF94371D99AC9BA"]
 			id: "1F1994D8C11FAB3D"
 			tasks: [
