@@ -482,10 +482,10 @@
 				item: "minecolonies:blockhutcook"
 			}]
 			rewards: [{
-				id: "12DBECCB17694F17"
+				id: "3E62D13BD67C6CCB"
 				type: "item"
-				item: "pamhc2foodcore:carrotsoupitem"
-				count: 3
+				item: "amfd:acacia_blossom_soup"
+				count: 2
 			}]
 		}
 		{
