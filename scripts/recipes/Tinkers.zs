@@ -20,3 +20,6 @@ craftingTable.addShaped("tinker_station", <item:tconstruct:tinker_station>, [
 craftingTable.addShaped("part_builder", <item:tconstruct:part_builder>, [
 	[<item:tconstruct:pattern>, <item:tconstruct:pattern>],
 	[<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
+	
+<recipetype:tconstruct:melting>.addMeltingRecipe("melt_blaze1", <item:minecraft:blaze_powder>, <fluid:tconstruct:blazing_blood> * 20, 1000, 20);
+<recipetype:tconstruct:melting>.addMeltingRecipe("melt_blaze2", <item:minecraft:blaze_rod>, <fluid:tconstruct:blazing_blood> * 50, 1000, 40);
