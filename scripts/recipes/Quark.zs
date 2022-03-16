@@ -24,3 +24,8 @@ craftingTable.addShaped("rope_coil", <item:quark:rope> * 8, [
     [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>]]);
 	
 <recipetype:tconstruct:melting>.addMeltingRecipe("gold_bars_melt", <item:quark:gold_bars>, <fluid:tconstruct:molten_gold> * 48, 1000, 32);
+
+craftingTable.addShaped("slime_bucket", <item:quark:slime_in_a_bucket>, [
+	[<tag:items:forge:slimeballs>, <tag:items:forge:slimeballs>, <tag:items:forge:slimeballs>],
+	[<tag:items:forge:slimeballs>, <item:minecraft:bucket>, <tag:items:forge:slimeballs>],
+	[<tag:items:forge:slimeballs>, <tag:items:forge:slimeballs>, <tag:items:forge:slimeballs>]]);
