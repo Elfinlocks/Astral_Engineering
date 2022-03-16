@@ -570,7 +570,10 @@ val items as IIngredient[] = [
 <item:dads_sewing:cylinder_hat>,
 <item:bountifulbaubles:potion_recall>,
 <item:bountifulbaubles:potion_wormhole>,
-<item:crockpot:cooked_egg>
+<item:crockpot:cooked_egg>,
+<item:immersiveengineering:coal_coke>,
+<item:immersiveengineering:coke>,
+<item:immersiveengineering:slab_coke>
 ];
 
 for item in items {
