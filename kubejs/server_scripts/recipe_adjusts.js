@@ -59,6 +59,7 @@ function mekanism(event) {
 	event.remove({id: 'mekanism:control_circuit/basic'})
 	event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'kubejs:integrated_circuit', 'mekanism:gold', 40)
 	event.remove({id: 'mekanism:processing/steel/enriched_iron_to_dust'})
+	event.remove({id: 'mekanism:paper'})
 }
 
 function earlyartifice(event) {
