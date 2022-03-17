@@ -469,7 +469,7 @@
 		{
 			title: "Controlled Smelting"
 			icon: "tconstruct:smeltery_controller"
-			x: 20.0d
+			x: 21.0d
 			y: 2.0d
 			subtitle: "These are the final pieces you'll need to put together a Tinker's Smeltery."
 			description: [
@@ -506,7 +506,7 @@
 		{
 			title: "Casting Your Metal"
 			icon: "tconstruct:seared_basin"
-			x: 18.5d
+			x: 19.0d
 			y: 2.0d
 			subtitle: "Next, we need casting materials."
 			description: ["These will be useful once the completed smeltery is assembled."]
@@ -571,6 +571,12 @@
 				item: "mana-and-artifice:vinteum_ore"
 				count: 3L
 			}]
+			rewards: [{
+				id: "6802E2FEF6C404E4"
+				type: "item"
+				item: "minecraft:coal"
+				count: 3
+			}]
 		}
 		{
 			x: 15.5d
@@ -585,6 +591,12 @@
 				id: "174B5CC60E4AC79C"
 				type: "item"
 				item: "kubejs:impure_vinteum"
+			}]
+			rewards: [{
+				id: "063674C3E30325AF"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 3
 			}]
 		}
 		{
@@ -626,6 +638,12 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "2EE289C0801079AF"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 3
+			}]
 		}
 		{
 			icon: "mana-and-artifice:vinteum_dust"
@@ -643,6 +661,11 @@
 				id: "63C3614150720147"
 				type: "item"
 				item: "mana-and-artifice:vinteum_dust"
+			}]
+			rewards: [{
+				id: "6E25AF1C44D811D4"
+				type: "item"
+				item: "astralsorcery:aquamarine"
 			}]
 		}
 		{
@@ -678,16 +701,23 @@
 				type: "item"
 				item: "mana-and-artifice:vinteum_ingot"
 			}]
-			rewards: [{
-				id: "7B2F6A03E305360F"
-				type: "item"
-				item: "mana-and-artifice:vinteum_ore"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "7B2F6A03E305360F"
+					type: "item"
+					item: "mana-and-artifice:vinteum_ore"
+					count: 2
+				}
+				{
+					id: "59588D4B10AF3193"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Technical Alloys"
-			x: 22.0d
+			x: 23.0d
 			y: 2.0d
 			subtitle: "Grind down some Andesite in your Millstone, and then apply a coating of it to some Iron."
 			dependencies: ["4EB25C20BB94A8BB"]
@@ -698,10 +728,9 @@
 				item: "kubejs:andesite_coated_iron"
 			}]
 			rewards: [{
-				id: "5EA8375C1E53DBBD"
+				id: "0DE1AA60084ABE8D"
 				type: "item"
-				item: "minecraft:andesite"
-				count: 3
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -718,6 +747,19 @@
 				type: "item"
 				item: "create:andesite_alloy"
 			}]
+			rewards: [
+				{
+					id: "798563D606ECCCC6"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 3
+				}
+				{
+					id: "472A7BF431E8B202"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }
