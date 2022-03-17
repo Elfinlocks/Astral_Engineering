@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 13.0d
-			y: 5.0d
+			x: 10.5d
+			y: 4.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -33,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: 10.0d
-			y: 4.0d
+			x: 9.0d
+			y: 4.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -482,6 +482,7 @@
 			]
 		}
 		{
+			title: "Integration of Circuitry"
 			x: 12.0d
 			y: 2.5d
 			subtitle: "Integrated Circuits are a common ingredient in the creation of more powerful electronics and computing devices."
@@ -502,8 +503,8 @@
 		}
 		{
 			title: "Computer: Deactivate Iguana"
-			x: 12.0d
-			y: 5.0d
+			x: 10.5d
+			y: 3.5d
 			subtitle: "Computers can be programmed to suit your needs, and interface with a surprising amount of mods."
 			description: ["As computers are cheap, it is recommended to take some time to learn how to use them."]
 			dependencies: ["275FE11C673E522D"]
@@ -801,7 +802,10 @@
 			x: 12.0d
 			y: 6.5d
 			subtitle: "Next, we need some Air Compressors"
-			dependencies: ["724C3D0AF2973493"]
+			dependencies: [
+				"724C3D0AF2973493"
+				"275FE11C673E522D"
+			]
 			id: "0109A3C663358A54"
 			tasks: [{
 				id: "66C3553C90E8524C"
@@ -2017,8 +2021,8 @@
 		}
 		{
 			title: "Light and Portable!"
-			x: 10.0d
-			y: 5.0d
+			x: 9.0d
+			y: 3.5d
 			subtitle: "Is that a SOCKS5 protocol in your pocket?"
 			description: ["Note: Adding peripherals is a bit broken due to a mod incompatibility. In order to add them without using the crafting recipe, see the &6Adding Peripherals&r tip, which is just above this quest."]
 			dependencies: ["2CBD58CB08491491"]
@@ -2170,7 +2174,7 @@
 				id: "4D0114828D949485"
 				type: "item"
 				item: "immersiveengineering:conveyor_basic"
-				count: 3L
+				count: 6L
 			}]
 			rewards: [{
 				id: "18204B1652759D50"

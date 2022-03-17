@@ -45,7 +45,7 @@ craftingTable.addShaped("reinforced_stone", <item:pneumaticcraft:reinforced_ston
 
 craftingTable.addShaped("air_compressor", <item:pneumaticcraft:air_compressor>, [
 	[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
-	[<tag:items:forge:plates/steel>, <item:minecraft:air>, <item:pneumaticcraft:pressure_tube>],
+	[<tag:items:forge:plates/steel>, <item:kubejs:integrated_circuit>, <item:pneumaticcraft:pressure_tube>],
 	[<tag:items:forge:plates/steel>, <item:minecraft:blast_furnace>, <tag:items:forge:plates/steel>]]);
 
 craftingTable.addShaped("vortex_tube", <item:pneumaticcraft:vortex_tube>, [ 
