@@ -981,5 +981,23 @@
 				}
 			}]
 		}
+		{
+			title: "Cooking By The Book"
+			x: 8.5d
+			y: 0.0d
+			subtitle: "It's a piece of cake to bake a pretty cake..."
+			dependencies: ["294690BBCB747B25"]
+			id: "50E4EC4E42EC4728"
+			tasks: [{
+				id: "4BD5CC6E9691EC21"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "2E1CEE92C22B54DD"
+				type: "xp"
+				xp: 2000
+			}]
+		}
 	]
 }

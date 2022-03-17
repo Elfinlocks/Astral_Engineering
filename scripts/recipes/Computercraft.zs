@@ -5,11 +5,11 @@ craftingTable.removeByName("computercraft:pocket_computer_advanced");
 
 
 craftingTable.addShaped("computer", <item:computercraft:computer_normal>, [
-    [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>],
+    [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+    [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.addShaped("pocket_computer", <item:computercraft:pocket_computer_normal>, [
-    [<item:minecraft:iron_ingot>, <item:minecraft:golden_apple>, <item:minecraft:iron_ingot>],
+    [<tag:items:forge:ingots/steel>, <item:minecraft:golden_apple>, <tag:items:forge:ingots/steel>],
     [<item:minecraft:redstone>, <item:kubejs:integrated_circuit>, <item:minecraft:redstone>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:redstone>, <item:minecraft:iron_ingot>]]);
+    [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>]]);

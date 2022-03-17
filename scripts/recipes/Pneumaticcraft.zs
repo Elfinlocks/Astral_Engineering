@@ -55,13 +55,13 @@ craftingTable.addShaped("vortex_tube", <item:pneumaticcraft:vortex_tube>, [
 	
 craftingTable.addShaped("thermopneumatic_processing_plant", <item:pneumaticcraft:thermopneumatic_processing_plant>, [
 	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>],
-	[<item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>), <item:pneumaticcraft:pressure_tube>, <item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>)],
+	[<item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>), <item:kubejs:integrated_circuit>, <item:pneumaticcraft:small_tank>.transformReplace(<item:minecraft:air>)],
 	[<tag:items:forge:plates/steel>, <item:minecraft:piston>, <tag:items:forge:plates/steel>]]);
 	
 craftingTable.addShaped("heat_frame", <item:pneumaticcraft:heat_frame>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:pneumaticcraft:ingot_iron_compressed>, <tag:items:forge:ingots/steel>, <item:pneumaticcraft:ingot_iron_compressed>],
 	[<item:immersiveengineering:plate_constantan>, <item:immersiveengineering:plate_constantan>, <item:immersiveengineering:plate_constantan>],
-	[<item:pneumaticcraft:ingot_iron_compressed>, <item:immersiveengineering:ingot_steel>, <item:pneumaticcraft:ingot_iron_compressed>]]);
+	[<item:pneumaticcraft:ingot_iron_compressed>, <tag:items:forge:ingots/steel>, <item:pneumaticcraft:ingot_iron_compressed>]]);
 
 craftingTable.addShaped("printed_circuit_board", <item:pneumaticcraft:printed_circuit_board>, [
 	[<item:minecraft:air>, <item:pneumaticcraft:transistor>, <item:minecraft:air>],
