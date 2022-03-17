@@ -23,3 +23,7 @@ craftingTable.addShaped("part_builder", <item:tconstruct:part_builder>, [
 	
 <recipetype:tconstruct:melting>.addMeltingRecipe("melt_blaze1", <item:minecraft:blaze_powder>, <fluid:tconstruct:blazing_blood> * 20, 1000, 20);
 <recipetype:tconstruct:melting>.addMeltingRecipe("melt_blaze2", <item:minecraft:blaze_rod>, <fluid:tconstruct:blazing_blood> * 50, 1000, 40);
+
+<recipetype:tconstruct:melting>.addMeltingRecipe("melt_ultimate_ingot", <item:extendedcrafting:the_ultimate_ingot>, <fluid:kubejs:molten_ultimate> * 144, 1500, 320);
+<recipetype:tconstruct:melting>.addMeltingRecipe("melt_ultimate_nugget", <item:extendedcrafting:the_ultimate_nugget>, <fluid:kubejs:molten_ultimate> * 16, 1500, 100);
+<recipetype:tconstruct:melting>.addMeltingRecipe("melt_ultimate_block", <item:extendedcrafting:the_ultimate_block>, <fluid:kubejs:molten_ultimate> * 1296, 1500, 2880);

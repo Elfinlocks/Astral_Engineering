@@ -708,6 +708,49 @@ result: {item: 'thermal:tin_block'},
 cooling_time: 150
 })
 
+// ultimate replaceInput =============================================================
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/ingot'},
+fluid: {name: 'kubejs:molten_ultimate',amount: 144},
+result: {item: 'extendedcrafting:the_ultimate_ingot'},
+cooling_time: 50
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/ingot'},
+cast_consumed: true,
+fluid: {name: 'kubejs:molten_ultimate', amount: 144},
+result: {item: 'extendedcrafting:the_ultimate_ingot'},
+cooling_time: 50
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/multi_use/nugget'},
+fluid: {name: 'kubejs:molten_ultimate',amount: 16},
+result: {item: 'extendedcrafting:the_ultimate_nugget'},
+cooling_time: 17
+})
+
+event.custom({
+type: 'tconstruct:casting_table',
+cast: {tag: 'tconstruct:casts/single_use/nugget'},
+cast_consumed: true,
+fluid: {name: 'kubejs:molten_ultimate', amount: 16},
+result: {item: 'extendedcrafting:the_ultimate_nugget'},
+cooling_time: 17
+})
+
+event.custom({
+type: 'tconstruct:casting_basin',
+fluid: {name: 'kubejs:molten_ultimate', amount: 1296},
+result: {item: 'extendedcrafting:the_ultimate_block'},
+cooling_time: 150
+})
+
 // uranium replaceInput =============================================================
 
 event.custom({

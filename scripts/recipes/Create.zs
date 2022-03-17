@@ -161,7 +161,7 @@ craftingTable.addShaped("steel_boiler", <item:steampowered:steel_boiler>, [
 
 <recipetype:tconstruct:melting>.addMeltingRecipe("melting_iron_wheel", <item:steampowered:cast_iron_flywheel>, <fluid:tconstruct:molten_iron> * 1728, 1000, 200);
 
-<recipetype:tconstruct:melting>.addMeltingRecipe("melting_bronze_wheel", <item:steampowered:steel_flywheel>, <fluid:tconstruct:molten_steel> * 1728, 1000, 200);
+<recipetype:tconstruct:melting>.addMeltingRecipe("melting_steel_wheel", <item:steampowered:steel_flywheel>, <fluid:tconstruct:molten_steel> * 1728, 1000, 200);
 
 
 // Sequenced Assembly 
