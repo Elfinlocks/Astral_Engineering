@@ -1,3 +1,7 @@
+// Creative Blaze Cake
+
+<recipetype:create:filling>.addRecipe("creative_blaze_cake", <item:create:creative_blaze_cake>, <item:create:blaze_cake_base>, <fluid:kubejs:molten_ultimate> * 144);
+
 // Creative Motor
 
 <recipetype:create:mechanical_crafting>.addRecipe("creative_motor", <item:create:creative_motor>, [
@@ -114,3 +118,6 @@ craftingTable.addShapeless("cell_to_capacitor", <item:immersiveengineering:capac
 	[<item:createaddition:overcharged_casing>, <item:libvulpes:blocktitanium>, <item:extendedcrafting:the_ultimate_block>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_block>, <item:libvulpes:blocktitanium>, <item:createaddition:overcharged_casing>],
 	[<item:mythicbotany:alfsteel_block>, <item:libvulpes:blocktitanium>, <item:libvulpes:blocktitanium>, <item:mekanism:qio_drive_supermassive>, <item:libvulpes:blocktitanium>, <item:libvulpes:blocktitanium>, <item:mythicbotany:alfsteel_block>],
 	[<item:ironchest:crystal_chest>, <item:mythicbotany:alfsteel_block>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:mythicbotany:alfsteel_block>, <item:ironchest:crystal_chest>]]);
+	
+// Creative Blaze Cake
+
