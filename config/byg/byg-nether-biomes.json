@@ -1,33 +1,5 @@
 {
   "biomes": {
-    "biomesoplenty:undergrowth": {
-      "weight": 5,
-      "dictionary": [
-        "NETHER"
-      ],
-      "hills": []
-    },
-    "biomesoplenty:visceral_heap": {
-      "weight": 5,
-      "dictionary": [
-        "NETHER"
-      ],
-      "hills": []
-    },
-    "biomesoplenty:crystalline_chasm": {
-      "weight": 5,
-      "dictionary": [
-        "NETHER"
-      ],
-      "hills": []
-    },
-    "biomesoplenty:withered_abyss": {
-      "weight": 5,
-      "dictionary": [
-        "NETHER"
-      ],
-      "hills": []
-    },
     "byg:sythian_torrids": {
       "weight": 5,
       "dictionary": [
