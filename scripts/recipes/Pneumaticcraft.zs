@@ -98,7 +98,7 @@ mods.jei.JEI.hideRecipe("pneumaticcraft:assembly_controller", "crafttweaker:circ
 
 craftingTable.addShaped("prepared_circuit", <item:kubejs:prepared_circuit>, [
 	[<item:thermal:cured_rubber>, <item:thermal:signalum_gear>, <item:thermal:cured_rubber>],
-	[<item:mekanism:basic_control_circuit>, <item:create:polished_rose_quartz>, <item:mekanism:basic_control_circuit>],
+	[<item:mekanism:alloy_infused>, <item:create:polished_rose_quartz>, <item:mekanism:alloy_infused>],
 	[<item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>, <item:immersiveengineering:plate_electrum>]]);
 	
 <recipetype:pneumaticcraft:assembly_drill>.addRecipe("electrodes", <item:immersiveengineering:ingot_hop_graphite> * 4, <item:immersiveengineering:graphite_electrode>.withTag({graphDmg: 0 as int}));
