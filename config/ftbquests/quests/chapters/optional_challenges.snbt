@@ -204,14 +204,11 @@
 			y: 0.0d
 			subtitle: "What da inconceivable artifacts doin'?"
 			description: [
-				"This is it, this is where you make the best of the best items. You can't start these until you have finished the final chapter and obtained antimatter."
+				"This is it, this is where you make the best of the best items."
 				""
 				"Warning: These are creative-level items, and are not for the faint of heart."
 			]
-			dependencies: [
-				"60FE564C79D326E1"
-				"36367A18678E09A3"
-			]
+			dependencies: ["60FE564C79D326E1"]
 			id: "72A22FC844EF346E"
 			tasks: [{
 				id: "19E6EA0B243504A7"
@@ -268,6 +265,12 @@
 					id: "4A167E7FD3C0E022"
 					type: "item"
 					item: "boss_tools:venus_stone"
+					consume_items: true
+				}
+				{
+					id: "742E5430AE76FC18"
+					type: "item"
+					item: "boss_tools:mercury_stone"
 					consume_items: true
 				}
 			]
