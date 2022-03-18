@@ -114,14 +114,14 @@
 			}]
 			rewards: [
 				{
-					id: "2549E08255560227"
-					type: "item"
-					item: "biomesoplenty:wildflower"
-				}
-				{
 					id: "7D1E3A71F0263E22"
 					type: "item"
 					item: "minecraft:flower_pot"
+				}
+				{
+					id: "61F5AE81E49C8594"
+					type: "item"
+					item: "byg:silver_vase_flower"
 				}
 			]
 		}

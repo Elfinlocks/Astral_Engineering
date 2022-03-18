@@ -74,18 +74,11 @@
 					item: "immersiveengineering:generator"
 				}
 			]
-			rewards: [
-				{
-					id: "547CECF666C635A4"
-					type: "item"
-					item: "createaddition:alternator"
-				}
-				{
-					id: "33F15A633EF7605D"
-					type: "xp"
-					xp: 200
-				}
-			]
+			rewards: [{
+				id: "33F15A633EF7605D"
+				type: "xp"
+				xp: 200
+			}]
 		}
 		{
 			title: "Diggy Diggy Hole"
