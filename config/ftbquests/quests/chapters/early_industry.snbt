@@ -286,10 +286,10 @@
 			title: "Automation Comes Early"
 			icon: "create:mechanical_crafter"
 			x: 6.5d
-			y: -4.5d
+			y: -3.0d
 			subtitle: "Besides its uses for autocrafting, an array of Mechanical Crafters will allow for creating recipes that are larger than the standard 3x3."
 			description: ["Tip: You can use a Redstone signal to \"force\" a mechanical crafter grid to proceed with the craft."]
-			dependencies: ["5F68C4D92EF20E09"]
+			dependencies: ["69A49BF7B857E93B"]
 			dependency_requirement: "one_completed"
 			id: "2BA7183800B331E0"
 			tasks: [{
@@ -338,8 +338,8 @@
 		}
 		{
 			title: "Alternative Doubling"
-			x: 6.5d
-			y: -6.0d
+			x: 8.0d
+			y: -3.5d
 			subtitle: "Crushing Wheels can be used to crush ores, allowing for increased output."
 			description: [
 				"Tip: Crushers can be vertically or horizontally aligned. Keep this in mind when creating assembly lines!"
@@ -1395,7 +1395,7 @@
 			y: -4.5d
 			subtitle: "We've got some basic industry going, let's kick this up a notch or two!"
 			description: ["The following quests will teach you how to create steam, and then use it to power steam engines!"]
-			dependencies: ["2BA7183800B331E0"]
+			dependencies: ["69A49BF7B857E93B"]
 			id: "2559683F0335DB99"
 			tasks: [{
 				id: "08B79F2624DA7B47"
@@ -2071,14 +2071,14 @@
 		{
 			title: "JESSE, WE NEED TO COOK!"
 			x: 6.5d
-			y: -3.0d
+			y: -4.5d
 			subtitle: "Cast some Coke Bricks. Look inside this quest for additional information."
 			description: [
 				"Right click on a 3x3x3 cube of Coke Bricks with an Engineer's Hammer to make a Coke Oven."
 				""
 				"The Coke Oven will slowly burn Coal into &6Coal Coke&r. In addition, it will make &6Creosote Oil&r. I recommend piping this out."
 			]
-			dependencies: ["2BA7183800B331E0"]
+			dependencies: ["5F68C4D92EF20E09"]
 			id: "69A49BF7B857E93B"
 			tasks: [{
 				id: "4ADE6CF1F8BB42B2"
@@ -2104,7 +2104,7 @@
 				""
 				"Remember - a portal must be a minimum of 2 blocks wide, and 3 blocks tall."
 			]
-			dependencies: ["69A49BF7B857E93B"]
+			dependencies: ["2BA7183800B331E0"]
 			id: "7EF0B3492EFA48C2"
 			tasks: [{
 				id: "4191DFD03F6E79AF"
