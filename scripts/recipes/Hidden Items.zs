@@ -574,7 +574,8 @@ val items as IIngredient[] = [
 <item:immersiveengineering:coal_coke>,
 <item:immersiveengineering:coke>,
 <item:immersiveengineering:slab_coke>,
-<item:immersiveengineering:slag>
+<item:immersiveengineering:slag>,
+<item:paraglider:stamina_vessel>
 ];
 
 for item in items {

@@ -534,25 +534,6 @@
 			}]
 		}
 		{
-			title: "Spreading Your Wings"
-			x: -2.0d
-			y: 0.0d
-			subtitle: "We've had one flight yes, but what about more flight?"
-			description: ["Craft a Stamina Vessel to increase the duration that you can use your glider for. You can consume up to 10 vessels in total."]
-			dependencies: ["11DD885FA2FA7209"]
-			id: "69905385C45819E5"
-			tasks: [{
-				id: "217CC1601510D881"
-				type: "item"
-				item: "paraglider:stamina_vessel"
-			}]
-			rewards: [{
-				id: "516647EBF21D5FF8"
-				type: "item"
-				item: "crockpot:pow_cake"
-			}]
-		}
-		{
 			title: "The Pack to Cover All Backs"
 			x: 6.0d
 			y: 4.0d
@@ -1552,8 +1533,8 @@
 					Inventory: { }
 				}
 			}
-			x: 6.0d
-			y: -6.0d
+			x: -2.0d
+			y: 0.0d
 			subtitle: "Your other best building friend, for the detailers!"
 			id: "6B6F5B124E49520F"
 			tasks: [
