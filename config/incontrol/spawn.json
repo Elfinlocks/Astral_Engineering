@@ -94,7 +94,8 @@
 		"minecraft:cow",
 		"minecraft:pig",
 		"minemcraft:sheep",
-		"minecraft:rabbit"
+		"minecraft:rabbit",
+		"minecraft:chicken"
 	  ],
 	  "result": "allow",
 	  "conditions": {
