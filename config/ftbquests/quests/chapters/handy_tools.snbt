@@ -146,6 +146,7 @@
 			x: 2.0d
 			y: 4.0d
 			subtitle: "Upgrade your backpack to the next tier for more room!"
+			dependencies: ["1D8690FFABD3BAF4"]
 			dependency_requirement: "one_completed"
 			id: "0DD49C340174DC36"
 			tasks: [{
@@ -1038,7 +1039,7 @@
 				}
 			}
 			x: -2.0d
-			y: 4.0d
+			y: 0.0d
 			subtitle: "Cyclic adds several handy charms, which can be worn as baubles."
 			id: "42B01A4546971D1A"
 			tasks: [
@@ -1495,7 +1496,7 @@
 		}
 		{
 			title: "Your Best Building Friend"
-			x: -6.0d
+			x: -2.0d
 			y: -6.0d
 			subtitle: "The iChisel makes converting blocks extremely easy!"
 			id: "0E107FF2A7C10FE1"
@@ -1533,8 +1534,8 @@
 					Inventory: { }
 				}
 			}
-			x: -2.0d
-			y: 0.0d
+			x: 2.0d
+			y: -6.0d
 			subtitle: "Your other best building friend, for the detailers!"
 			id: "6B6F5B124E49520F"
 			tasks: [
@@ -1774,7 +1775,7 @@
 		{
 			title: "An Engineer's Best Friend"
 			icon: "create:brown_toolbox"
-			x: 0.0d
+			x: -2.0d
 			y: 4.0d
 			subtitle: "A Toolbox offers a portable and convenient place to store all of your mechanical components!"
 			id: "66EC2CC70F572BCE"
@@ -1847,6 +1848,23 @@
 					count: 5
 				}
 			]
+		}
+		{
+			title: "Tough As Iron"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "The first upgrade of many"
+			id: "1D8690FFABD3BAF4"
+			tasks: [{
+				id: "026846235D3BCC9A"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "23DEB90ABEEB71B3"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }
