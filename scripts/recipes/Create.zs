@@ -59,7 +59,7 @@ craftingTable.removeRecipe(<item:create:andesite_alloy>);
 
 craftingTable.addShapeless("andesite_coated_iron", <item:kubejs:andesite_coated_iron>, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/iron>]);
 craftingTable.addShapeless("andesite_coated_iron2", <item:kubejs:andesite_coated_iron> * 2, [<item:kubejs:andesite_dust>, <tag:items:forge:ingots/steel>]);
-<recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_andesite_iron", <item:kubejs:andesite_coated_iron>, <fluid:tconstruct:molten_zinc> * 72, <item:create:andesite_alloy>, 80, true, true);
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_andesite_iron", <item:kubejs:andesite_coated_iron>, <fluid:tconstruct:molten_zinc> * 72, <item:create:andesite_alloy>, 80, true, false);
 
 <recipetype:create:mixing>.addRecipe("mixing_andesite_iron", "heated", <item:create:andesite_alloy> * 2, [<tag:items:minecraft:andesite_alloy_materials>, <item:minecraft:iron_ingot>, <tag:items:forge:ingots/zinc>]);
 <recipetype:create:mixing>.addRecipe("mixing_andesite_steel", "heated", <item:create:andesite_alloy> * 4, [<tag:items:minecraft:andesite_alloy_materials>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/zinc>]);
