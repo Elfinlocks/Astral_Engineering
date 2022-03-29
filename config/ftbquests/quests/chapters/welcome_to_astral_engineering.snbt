@@ -13,7 +13,7 @@
 			x: -2.25d
 			y: -3.0d
 			shape: "hexagon"
-			description: ["Don't forget to adjust your keybindings!"]
+			description: ["Don't forget to adjust your keybindings! You can modify &6Inventory Tweaks&r by pressing R+C in game."]
 			dependencies: ["7FA5F864A358783F"]
 			size: 1.5d
 			id: "5C3734DA48D7E479"
