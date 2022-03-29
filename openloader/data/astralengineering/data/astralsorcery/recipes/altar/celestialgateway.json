@@ -1,0 +1,74 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 600,
+  "starlight": 5600,
+  "pattern": [
+    "_ABA_",
+    "_CDC_",
+    "EFGHE",
+    "_CIC_",
+    "_ABA_"
+  ],
+  "key": {
+    "A": {
+      "item": "astralsorcery:starmetal_ingot"
+    },
+    "B": {
+      "item": "astralsorcery:nocturnal_powder"
+    },
+    "C": {
+      "item": "mythicbotany:alfsteel_ingot"
+    },
+    "D": {
+      "item": "mythicbotany:asgard_rune"
+    },
+    "E": {
+      "item": "astralsorcery:illumination_powder"
+    },
+    "F": {
+      "item": "mythicbotany:vanaheim_rune"
+    },
+	"G": {
+	  "item": "mythicbotany:midgard_rune"
+	},
+	"H": {
+	  "item": "mythicbotany:alfheim_rune"
+	},
+	"I": {
+	  "item": "mythicbotany:niflheim_rune"
+	}
+  },
+  "output": [
+    {
+      "item": "astralsorcery:celestial_gateway",
+      "count": 1
+    }
+  ],
+  "relay_inputs": [
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "item": "astralsorcery:stardust"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "item": "astralsorcery:stardust"
+    },
+    {
+      "tag": "forge:feathers"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

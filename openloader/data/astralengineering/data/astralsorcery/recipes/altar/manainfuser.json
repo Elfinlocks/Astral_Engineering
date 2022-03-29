@@ -1,0 +1,74 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 600,
+  "starlight": 5600,
+  "pattern": [
+    "_AAA_",
+    "ABCBA",
+    "DEFGD",
+    "HBIBH",
+    "_HHH_"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "item": "astralsorcery:resonating_gem"
+    },
+    "C": {
+      "item": "mythicbotany:asgard_rune"
+    },
+    "D": {
+      "item": "twilightforest:fiery_ingot"
+    },
+	"E": {
+	  "item": "botania:rune_winter"
+	},
+	"F": {
+	  "item": "botania:terra_plate"
+	},
+	"G": {
+	  "item": "botania:rune_spring"
+	},
+	"H": {
+	  "item": "botania:terrasteel_ingot"
+	},
+	"I": {
+	  "item": "mythicbotany:midgard_rune"
+	}
+  },
+  "output": [
+    {
+      "item": "mythicbotany:mana_infuser",
+      "count": 1
+    }
+  ],
+  "relay_inputs": [
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

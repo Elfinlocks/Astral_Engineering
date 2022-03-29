@@ -34,13 +34,6 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 	[<item:minecraft:air>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:gold_ingot>, <item:mana-and-artifice:vinteum_ore>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]], 125, 35);
 
-<recipetype:astralsorcery:altar>.addRecipe("structures_compass", "RADIANCE", <item:structurescompass:structures_compass>, [
-	[<item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:thermal:signalum_plate>, <item:immersiveengineering:plate_aluminum>, <item:minecraft:air>],
-	[<item:immersiveengineering:plate_aluminum>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:alfsteel_nugget>, <item:astralsorcery:resonating_gem>, <item:immersiveengineering:plate_aluminum>],
-	[<item:thermal:signalum_plate>, <item:mythicbotany:alfsteel_nugget>, <item:minecraft:compass>, <item:mythicbotany:alfsteel_nugget>, <item:thermal:signalum_plate>],
-	[<item:immersiveengineering:plate_aluminum>, <item:astralsorcery:resonating_gem>, <item:mythicbotany:alfsteel_nugget>, <item:astralsorcery:resonating_gem>, <item:immersiveengineering:plate_aluminum>],
-	[<item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:thermal:signalum_plate>, <item:immersiveengineering:plate_aluminum>, <item:minecraft:air>]], 140, 75);
-
 <recipetype:astralsorcery:altar>.addRecipe("illumination_powder", "DISCOVERY", <item:astralsorcery:illumination_powder> * 4, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:mana-and-artifice:purified_vinteum_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:air>],
@@ -51,13 +44,6 @@ craftingTable.removeRecipe(<item:structurescompass:structures_compass>);
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/illumination_powder");
 
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/celestial_gateway");
-
-<recipetype:astralsorcery:altar>.addRecipe("celestial_gateway", "RADIANCE", <item:astralsorcery:celestial_gateway>, [
-	[<item:minecraft:air>, <item:astralsorcery:starmetal_ingot>, <item:astralsorcery:nocturnal_powder>, <item:astralsorcery:starmetal_ingot>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:mythicbotany:alfsteel_ingot>, <item:mythicbotany:asgard_rune>, <item:mythicbotany:alfsteel_ingot>, <item:minecraft:air>],
-	[<item:astralsorcery:illumination_powder>, <item:mythicbotany:vanaheim_rune>, <item:mythicbotany:midgard_rune>, <item:mythicbotany:alfheim_rune>, <item:astralsorcery:illumination_powder>],
-	[<item:minecraft:air>, <item:mythicbotany:alfsteel_ingot>, <item:mythicbotany:niflheim_rune>, <item:mythicbotany:alfsteel_ingot>, <item:minecraft:air>],
-	[<item:minecraft:air>, <item:astralsorcery:starmetal_ingot>, <item:astralsorcery:nocturnal_powder>, <item:astralsorcery:starmetal_ingot>, <item:minecraft:air>]], 200, 75);
 	
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:resonating_gem>);
 <recipetype:astralsorcery:infusion>.addRecipe("gunpowder_to_sulfur", <item:thermal:sulfur_dust>, <item:minecraft:gunpowder>, <fluid:astralsorcery:liquid_starlight>, 200, 2, false, true, false);

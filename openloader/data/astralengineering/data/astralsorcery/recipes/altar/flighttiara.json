@@ -1,0 +1,74 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 600,
+  "starlight": 5600,
+  "pattern": [
+    "_AAA_",
+    "ABCBA",
+    "DEFGD",
+    "HBIBH",
+    "_HHH_"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "item": "mana-and-artifice:greater_mote_air"
+    },
+    "C": {
+      "item": "mythicbotany:vanaheim_rune"
+    },
+    "D": {
+      "item": "botania:life_essence"
+    },
+	"E": {
+	  "item": "botania:rune_autumn"
+	},
+	"F": {
+	  "item": "magicfeather:magicfeather"
+	},
+	"G": {
+	  "item": "botania:rune_summer"
+	},
+	"H": {
+	  "item": "botania:terrasteel_ingot"
+	},
+	"I": {
+	  "item": "mythicbotany:asgard_rune"
+	}
+  },
+  "output": [
+    {
+      "item": "botania:flight_tiara",
+      "count": 1
+    }
+  ],
+  "relay_inputs": [
+    {
+      "item": "astralsorcery:aquamarine"
+    },
+    {
+      "item": "astralsorcery:aquamarine"
+    },
+    {
+      "item": "astralsorcery:aquamarine"
+    },
+    {
+      "item": "astralsorcery:aquamarine"
+    },
+    {
+      "item": "astralsorcery:aquamarine"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}
