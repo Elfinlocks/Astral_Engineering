@@ -199,7 +199,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:blueprint>.withTag({bluepr
 // Blueprints
 
 craftingTable.addShaped("blueprint_crafting", <item:immersiveengineering:blueprint>.withTag({blueprint: "components" as string}), [
-	[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/manasteel>],
+	[<tag:items:forge:ingots/bronze>, <tag:items:forge:ingots/electrum>, <tag:items:forge:ingots/invar>],
 	[<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>],
 	[<tag:items:forge:paper>, <tag:items:forge:paper>, <tag:items:forge:paper>]]);
 	
