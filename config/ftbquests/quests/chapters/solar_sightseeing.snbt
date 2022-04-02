@@ -1640,6 +1640,8 @@
 			x: 15.0d
 			y: 8.0d
 			subtitle: "Finally, a way to streamline the chemical process."
+			dependencies: ["3ADD95C01FC89CF2"]
+			optional: true
 			id: "364768867FFB8A34"
 			tasks: [{
 				id: "59AF1F562A0A54CF"
@@ -1657,6 +1659,12 @@
 					id: "041C9BAFE0F0F3DD"
 					type: "item"
 					item: "chemlib:element_titanium"
+					count: 64
+				}
+				{
+					id: "4528654C292FA06E"
+					type: "item"
+					item: "chemlib:element_platinum"
 					count: 64
 				}
 			]

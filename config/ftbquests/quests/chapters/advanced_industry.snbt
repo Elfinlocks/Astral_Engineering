@@ -1172,12 +1172,19 @@
 					count: 82L
 				}
 			]
-			rewards: [{
-				id: "2FD2A34101C0D1D1"
-				type: "item"
-				item: "alchemistry:fission_casing"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "2FD2A34101C0D1D1"
+					type: "item"
+					item: "alchemistry:fission_casing"
+					count: 16
+				}
+				{
+					id: "466B7EB38399B3C4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 		}
 		{
 			title: "...Come Together In A New Whole."
@@ -1213,7 +1220,20 @@
 					id: "55DB0066F1947671"
 					type: "item"
 					item: "alchemistry:fusion_casing"
-					count: 98L
+					count: 82L
+				}
+			]
+			rewards: [
+				{
+					id: "267AC918B223E611"
+					type: "item"
+					item: "alchemistry:fusion_casing"
+					count: 16
+				}
+				{
+					id: "2D534955AE2967CD"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
