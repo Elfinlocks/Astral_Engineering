@@ -1050,12 +1050,19 @@
 				type: "item"
 				item: "pneumaticcraft:liquid_compressor"
 			}]
-			rewards: [{
-				id: "379F195D96040AFC"
-				type: "item"
-				item: "mekanism:basic_mechanical_pipe"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "65E0C9990760987A"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+				{
+					id: "276056F35E881DDE"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Mechanical Mobilization!"
