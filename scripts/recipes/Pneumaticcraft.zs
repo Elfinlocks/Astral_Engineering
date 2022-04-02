@@ -23,6 +23,11 @@ craftingTable.removeRecipe(<item:pneumaticcraft:minigun>);
 
 // General Changes
 
+craftingTable.addShaped("capacitor_scrap", <item:createaddition:capacitor>, [
+	[<item:minecraft:air>, <tag:items:forge:plates/zinc>, <item:minecraft:air>],
+	[<tag:items:forge:plates/iron>, <item:minecraft:air>, <tag:items:forge:plates/iron>],
+	[<item:thermal:cured_rubber>, <item:pneumaticcraft:capacitor>, <item:thermal:cured_rubber>]]);
+
 craftingTable.addShaped("drill_pipe", <item:pneumaticcraft:drill_pipe> * 5, [
 	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:pneumaticcraft:advanced_pressure_tube>, <item:minecraft:air>],
