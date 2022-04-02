@@ -1147,7 +1147,7 @@
 			description: ["The Fission Multiblock allows you to split apart the very fabric that binds elements together, to form entirely new ones, based upon Atomic Number."]
 			dependencies: [
 				"62D2D5FA1059D613"
-				"3CAD4BCE2729EDEA"
+				"07CF04F807390602"
 			]
 			hide: true
 			size: 1.25d
@@ -1169,9 +1169,15 @@
 					id: "734A38313F813455"
 					type: "item"
 					item: "alchemistry:fission_casing"
-					count: 98L
+					count: 82L
 				}
 			]
+			rewards: [{
+				id: "2FD2A34101C0D1D1"
+				type: "item"
+				item: "alchemistry:fission_casing"
+				count: 16
+			}]
 		}
 		{
 			title: "...Come Together In A New Whole."
@@ -1185,7 +1191,7 @@
 			]
 			dependencies: [
 				"7D63EF937637FE9B"
-				"4BA5452F2C0A2536"
+				"62F545FFAEFB123B"
 			]
 			hide: true
 			size: 1.5d
@@ -1441,6 +1447,166 @@
 					xp: 250
 				}
 			]
+		}
+		{
+			title: "Beryllium"
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Chemical Fission: Part 1"
+			description: ["Dissolve &6Prismarine&r or &6Emeralds&r to obtain Beryl, which can then be dissolved further into Beryllium. Mix with a &6Sodium-Chloride&r mixture under medium heat to purify."]
+			dependencies: ["3CAD4BCE2729EDEA"]
+			optional: true
+			id: "346D7F11201EF708"
+			tasks: [{
+				id: "376A191F97D30D86"
+				type: "item"
+				item: "chemlib:ingot_beryllium"
+			}]
+			rewards: [{
+				id: "7E31793B4C27F7D8"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Magnesium"
+			x: -3.0d
+			y: -5.5d
+			subtitle: "Chemical Fission: Part 2"
+			description: ["By superheating &6Dolomite&r and adding a bit of &6Silicon&r, the Magnesium within can be isolated and purified. This is known as the Pidgeon Process."]
+			dependencies: ["346D7F11201EF708"]
+			optional: true
+			id: "0C16667A3C49F2BE"
+			tasks: [{
+				id: "03278F8712283027"
+				type: "item"
+				item: "chemlib:ingot_magnesium"
+			}]
+			rewards: [{
+				id: "733F8FB21814B8DB"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Barium"
+			x: -1.0d
+			y: -5.5d
+			subtitle: "Chemical Fission: Part 3"
+			description: ["To obtain Barium, I recommend dissolving &6Quartz&r in the Chemical Dissolver, then combining with &6Aluminum&r over high heat to form an ingot."]
+			dependencies: ["0C16667A3C49F2BE"]
+			optional: true
+			id: "23CCA99E8EBEF699"
+			tasks: [{
+				id: "7DD0B4A78AE62F14"
+				type: "item"
+				item: "chemlib:ingot_barium"
+			}]
+			rewards: [{
+				id: "0A8AE80B1DC68FFE"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Chromium"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Chemical Fission: Part 4"
+			description: ["Create Chromium by placing &6Chromatic Compound&r into an Arc Furnace with &6Enriched Carbon&r."]
+			dependencies: ["23CCA99E8EBEF699"]
+			optional: true
+			id: "07CF04F807390602"
+			tasks: [{
+				id: "24841F6098C83E9F"
+				type: "item"
+				item: "chemlib:ingot_chromium"
+			}]
+			rewards: [{
+				id: "0D1431294B1366CA"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Selenium"
+			x: -5.0d
+			y: -7.5d
+			subtitle: "Chemical Fusion: Part 1"
+			description: ["You can isolate Selenium from &6Copper&r granules by heating with &6Sulfuric Acid&r."]
+			dependencies: ["4BA5452F2C0A2536"]
+			optional: true
+			id: "3B62AD1F88FD590F"
+			tasks: [{
+				id: "5A0EFC009A50BC9E"
+				type: "item"
+				item: "chemlib:ingot_selenium"
+			}]
+			rewards: [{
+				id: "2A3D46124D5ED834"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Thorium"
+			x: -3.0d
+			y: -7.5d
+			subtitle: "Chemical Fusion: Part 2"
+			description: ["Thorium can be extracted from &6End Sand&r, using &6Sulfuric Acid&r."]
+			dependencies: ["3B62AD1F88FD590F"]
+			optional: true
+			id: "79885809D4CE7412"
+			tasks: [{
+				id: "45F25B5B8D4DB641"
+				type: "item"
+				item: "chemlib:ingot_thorium"
+			}]
+			rewards: [{
+				id: "344DB18EC205796B"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Tungsten"
+			x: -1.0d
+			y: -7.5d
+			subtitle: "Chemical Fusion: Part 3"
+			description: ["Extract Tungsten from &6Ancient Debris&r or &6Netherite Scrap&r, then liquify it, and finally cast into an ingot."]
+			dependencies: ["79885809D4CE7412"]
+			optional: true
+			id: "3A58B6BBA1C47B57"
+			tasks: [{
+				id: "211221DAE7FD99E6"
+				type: "item"
+				item: "chemlib:ingot_tungsten"
+			}]
+			rewards: [{
+				id: "09D7B3F8C3DD8377"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "Neodymium"
+			x: 1.0d
+			y: -7.5d
+			subtitle: "Chemical Fusion: Part 4"
+			description: ["Neodymium can be synthesized through binding &6Ender Pearls&r to &6Graphite&r under high heat."]
+			dependencies: ["3A58B6BBA1C47B57"]
+			optional: true
+			id: "62F545FFAEFB123B"
+			tasks: [{
+				id: "7E144473DED1EFA3"
+				type: "item"
+				item: "chemlib:ingot_neodymium"
+			}]
+			rewards: [{
+				id: "19076EE19C0B8642"
+				type: "xp"
+				xp: 300
+			}]
 		}
 	]
 }

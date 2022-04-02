@@ -11,6 +11,13 @@ craftingTable.removeRecipe(<item:alchemistry:liquifier>);
 	[<item:thermal:signalum_plate>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:thermal:signalum_plate>],
 	[<item:thermal:invar_gear>, <item:thermal:signalum_plate>, <item:thermal:signalum_plate>, <item:thermal:signalum_plate>, <item:thermal:invar_gear>]]);
 	
+<recipetype:create:mechanical_crafting>.addRecipe("chemical_combiner", <item:alchemistry:chemical_combiner>, [
+	[<item:thermal:lumium_gear>, <item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>, <item:thermal:lumium_gear>],
+	[<item:thermal:enderium_plate>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:thermal:enderium_plate>],
+	[<item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>, <item:mana-and-artifice:patch_conveyance>, <item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>],
+	[<item:thermal:enderium_plate>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:thermal:enderium_plate>],
+	[<item:thermal:lumium_gear>, <item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>, <item:thermal:lumium_gear>]]);
+	
 <recipetype:create:mechanical_crafting>.addRecipe("atomizer", <item:alchemistry:atomizer>, [
 	[<item:thermal:electrum_gear>, <item:immersiveengineering:plate_constantan>, <item:immersiveengineering:plate_constantan>, <item:immersiveengineering:plate_constantan>, <item:thermal:electrum_gear>],
 	[<item:immersiveengineering:plate_constantan>, <item:pneumaticcraft:vortex_tube>, <item:rftoolsbase:machine_frame>, <item:pneumaticcraft:vortex_tube>, <item:immersiveengineering:plate_constantan>],
@@ -54,3 +61,17 @@ craftingTable.removeRecipe(<item:alchemistry:liquifier>);
 <recipetype:create:mixing>.addRecipe("chem_silicon_purification", "superheated", <item:jaopca:mekanism_shards.silicon>, [<item:appliedenergistics2:silicon> * 5], [<fluid:pneumaticcraft:etching_acid> * 1000]);
 
 <recipetype:create:mixing>.addRecipe("chem_dilithium_synthesis", "superheated", <item:libvulpes:dustdilithium>, [<item:betterendforge:ender_dust>], [<fluid:mekanism:lithium> * 1000, <fluid:mekanism:uranium_oxide> * 500]);
+
+<recipetype:create:mixing>.addRecipe("chem_beryllium", "heated", <item:chemlib:ingot_beryllium>, [<item:chemlib:element_beryllium> * 16], [<fluid:mekanism:sodium> * 100, <fluid:mekanism:chlorine> * 100]);
+
+<recipetype:create:mixing>.addRecipe("chem_magnesium", "superheated", <item:chemlib:ingot_magnesium>, [<item:create:dolomite> * 16, <item:appliedenergistics2:silicon> * 5]);
+
+<recipetype:create:mixing>.addRecipe("chem_barium", "superheated", <item:chemlib:ingot_barium>, [<item:chemlib:element_barium> * 16, <item:chemlib:element_aluminum> * 8]);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("arc_chromium", <item:create:chromatic_compound>, [<item:mekanism:enriched_carbon> * 2], 1200, 24000000, [<item:chemlib:ingot_chromium>]);
+
+<recipetype:create:mixing>.addRecipe("chem_selenium", "heated", <item:chemlib:ingot_selenium>, [<tag:items:forge:dusts/copper> * 8], [<fluid:mekanism:sulfuric_acid> * 500]);
+
+<recipetype:create:mixing>.addRecipe("chem_thorium", "heated", <item:chemlib:ingot_thorium>, [<item:byg:end_sand> * 32], [<fluid:mekanism:sulfuric_acid> * 500]);
+
+<recipetype:create:mixing>.addRecipe("chem_neodymium", "superheated", <item:chemlib:ingot_neodymium>, [<tag:items:forge:dusts/hop_graphite> * 8, <item:minecraft:ender_pearl> *2]);
