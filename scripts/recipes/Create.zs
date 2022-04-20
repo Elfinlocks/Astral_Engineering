@@ -198,27 +198,52 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 
 // Crushing Wheel Fixes 
 
+// Ingots
+
 <recipetype:create:crushing>.addRecipe("wheel_nickel_ingot", [<item:immersiveengineering:dust_nickel> * 1 % 100], <tag:items:forge:ingots/nickel>);
-<recipetype:create:crushing>.addRecipe("wheel_apatite", [<item:thermal:apatite_dust> * 1 % 100], <tag:items:forge:gems/apatite>);
 <recipetype:create:crushing>.addRecipe("wheel_brass", [<item:jaopca:dusts.brass> * 1 % 100], <tag:items:forge:ingots/brass>);
 <recipetype:create:crushing>.addRecipe("wheel_starmetal", [<item:jaopca:dusts.starmetal> * 1 % 100], <tag:items:forge:ingots/starmetal>);
 <recipetype:create:crushing>.addRecipe("wheel_netherite", [<item:mekanism:dust_netherite> * 1 % 100], <tag:items:forge:ingots/netherite>);
-<recipetype:create:crushing>.addRecipe("wheel_iron", [<item:thermal:iron_dust> * 2 % 100, <item:thermal:iron_dust> % 30], <tag:items:forge:ores/iron>);
 <recipetype:create:crushing>.addRecipe("wheel_steel", [<item:immersiveengineering:dust_steel> * 1 % 100], <tag:items:forge:ingots/steel>);
+<recipetype:create:crushing>.addRecipe("wheel_ironwood_ingot", [<item:jaopca:dusts.ironwood> * 1 % 100], <tag:items:forge:ingots/ironwood>);
+<recipetype:create:crushing>.addRecipe("wheel_desh_ingot", [<item:jaopca:dusts.desh> * 1 % 100], <tag:items:forge:ingots/desh>);
+<recipetype:create:crushing>.addRecipe("wheel_knightmetal_ingot", [<item:jaopca:dusts.knightmetal> * 1 % 100], <tag:items:forge:ingots/knightmetal>);
+<recipetype:create:crushing>.addRecipe("wheel_silicon_ingot", [<item:libvulpes:dustsilicon> * 1 % 100], <tag:items:forge:ingots/silicon>);
+<recipetype:create:crushing>.addRecipe("wheel_thallasium_ingot", [<item:jaopca:dusts.thallasium> * 1 % 100], <tag:items:forge:ingots/thallasium>);
+
+<recipetype:create:crushing>.addRecipe("wheel_titanium_ingot", [<item:libvulpes:dusttitanium> * 1 % 100], <tag:items:forge:ingots/titanium>);
+<recipetype:create:crushing>.addRecipe("wheel_iridium_ingot", [<item:libvulpes:dustiridium> * 1 % 100], <tag:items:forge:ingots/iridium>);
+<recipetype:create:crushing>.addRecipe("wheel_ref_obsidian_ingot", [<item:mekanism:dust_refined_obsidian> * 1 % 100], <tag:items:forge:ingots/refined_obsidian>);
+<recipetype:create:crushing>.addRecipe("wheel_osmium_ingot", [<item:mekanism:dust_osmium> * 1 % 100], <tag:items:forge:ingots/osmium>);
+<recipetype:create:crushing>.addRecipe("wheel_cobalt_ingot", [<item:jaopca:dusts.cobalt> * 1 % 100], <tag:items:forge:ingots/cobalt>);
+<recipetype:create:crushing>.addRecipe("wheel_copper_ingot", [<item:thermal:copper_dust> * 1 % 100], <tag:items:forge:ingots/copper>);
+<recipetype:create:crushing>.addRecipe("wheel_tin_ingot", [<item:thermal:tin_dust> * 1 % 100], <tag:items:forge:ingots/tin>);
+<recipetype:create:crushing>.addRecipe("wheel_lead_ingot", [<item:thermal:lead_dust> * 1 % 100], <tag:items:forge:ingots/lead>);
+<recipetype:create:crushing>.addRecipe("wheel_silver_ingot", [<item:thermal:silver_dust> * 1 % 100], <tag:items:forge:ingots/silver>);
+<recipetype:create:crushing>.addRecipe("wheel_bronze_ingot", [<item:thermal:bronze_dust> * 1 % 100], <tag:items:forge:ingots/bronze>);
+<recipetype:create:crushing>.addRecipe("wheel_electrum_ingot", [<item:thermal:electrum_dust> * 1 % 100], <tag:items:forge:ingots/electrum>);
+<recipetype:create:crushing>.addRecipe("wheel_invar_ingot", [<item:thermal:invar_dust> * 1 % 100], <tag:items:forge:ingots/invar>);
+<recipetype:create:crushing>.addRecipe("wheel_signalum_ingot", [<item:thermal:signalum_dust> * 1 % 100], <tag:items:forge:ingots/signalum>);
+<recipetype:create:crushing>.addRecipe("wheel_lumium_ingot", [<item:thermal:lumium_dust> * 1 % 100], <tag:items:forge:ingots/lumium>);
+<recipetype:create:crushing>.addRecipe("wheel_enderium_ingot", [<item:thermal:enderium_dust> * 1 % 100], <tag:items:forge:ingots/enderium>);
+<recipetype:create:crushing>.addRecipe("wheel_zinc_ingot", [<item:jaopca:dusts.zinc> * 1 % 100], <tag:items:forge:ingots/zinc>);
+<recipetype:create:crushing>.addRecipe("wheel_aluminum_ingot", [<item:immersiveengineering:dust_aluminum> * 1 % 100], <tag:items:forge:ingots/aluminum>);
+<recipetype:create:crushing>.addRecipe("wheel_uranium_ingot", [<item:immersiveengineering:dust_uranium> * 1 % 100], <tag:items:forge:ingots/uranium>);
+<recipetype:create:crushing>.addRecipe("wheel_constantan_ingot", [<item:thermal:constantan_dust> * 1 % 100], <tag:items:forge:ingots/constantan>);
+<recipetype:create:crushing>.addRecipe("wheel_graphite_ingot", [<item:immersiveengineering:dust_hop_graphite> * 1 % 100], <tag:items:forge:ingots/hop_graphite>);
+
+// Misc
+
+<recipetype:create:crushing>.addRecipe("wheel_apatite", [<item:thermal:apatite_dust> * 1 % 100], <tag:items:forge:gems/apatite>);
+<recipetype:create:crushing>.addRecipe("wheel_iron", [<item:thermal:iron_dust> * 2 % 100, <item:thermal:iron_dust> % 30], <tag:items:forge:ores/iron>);
 <recipetype:create:crushing>.addRecipe("wheel_gold", [<item:thermal:gold_dust> * 2 % 100, <item:thermal:gold_dust> % 30], <tag:items:forge:ores/gold>);
 <recipetype:create:crushing>.addRecipe("wheel_copper", [<item:thermal:copper_dust> * 2 % 100, <item:thermal:copper_dust> % 30], <tag:items:forge:ores/copper>);
 <recipetype:create:crushing>.addRecipe("wheel_zinc", [<item:jaopca:dusts.zinc> * 2 % 100, <item:jaopca:dusts.zinc> % 30], <tag:items:forge:ores/zinc>);
 <recipetype:create:crushing>.addRecipe("wheel_ironwood_ore", [<item:jaopca:dusts.ironwood> * 2 % 100], <item:twilightforest:ironwood_raw>);
-<recipetype:create:crushing>.addRecipe("wheel_ironwood_ingot", [<item:jaopca:dusts.ironwood> * 1 % 100], <tag:items:forge:ingots/ironwood>);
 <recipetype:create:crushing>.addRecipe("wheel_desh_ore", [<item:jaopca:dusts.desh> * 2 % 100], <tag:items:forge:ores/desh>);
-<recipetype:create:crushing>.addRecipe("wheel_desh_ingot", [<item:jaopca:dusts.desh> * 1 % 100], <tag:items:forge:ingots/desh>);
 <recipetype:create:crushing>.addRecipe("wheel_knightmetal_ore", [<item:jaopca:dusts.knightmetal> * 2 % 100], <tag:items:forge:ores/knightmetal>);
-<recipetype:create:crushing>.addRecipe("wheel_knightmetal_ingot", [<item:jaopca:dusts.knightmetal> * 1 % 100], <tag:items:forge:ingots/knightmetal>);
 <recipetype:create:crushing>.addRecipe("wheel_silicon_ore", [<item:libvulpes:dustsilicon> * 2 % 100], <tag:items:forge:ores/silicon>);
-<recipetype:create:crushing>.addRecipe("wheel_silicon_ingot", [<item:libvulpes:dustsilicon> * 1 % 100], <tag:items:forge:ingots/silicon>);
 <recipetype:create:crushing>.addRecipe("wheel_starmetal_ore", [<item:jaopca:dusts.starmetal> * 2 % 100], <tag:items:forge:ores/starmetal>);
-<recipetype:create:crushing>.addRecipe("wheel_thallasium_ingot", [<item:jaopca:dusts.thallasium> * 1 % 100], <tag:items:forge:ingots/thallasium>);
-
 <recipetype:create:crushing>.addRecipe("wheel_osmium", [<item:mekanism:dust_osmium> * 2 % 100, <item:mekanism:dust_osmium> % 30], <tag:items:forge:ores/osmium>);
 <recipetype:create:crushing>.addRecipe("wheel_silver", [<item:immersiveengineering:dust_silver> * 2 % 100, <item:immersiveengineering:dust_silver> % 30], <tag:items:forge:ores/silver>);
 <recipetype:create:crushing>.addRecipe("wheel_tin", [<item:thermal:tin_dust> * 2 % 100, <item:thermal:tin_dust> % 30], <tag:items:forge:ores/tin>);
@@ -267,9 +292,42 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 
 // Milling Mill Fixes 
 
-<recipetype:create:milling>.addRecipe("mill_starmetal", [<item:jaopca:dusts.starmetal> * 1 % 100], <tag:items:forge:ingots/starmetal>);
-<recipetype:create:milling>.addRecipe("mill_netherite", [<item:mekanism:dust_netherite> * 1 % 100], <tag:items:forge:ingots/netherite>);
-<recipetype:create:milling>.addRecipe("mill_steel", [<item:immersiveengineering:dust_steel> * 1 % 100], <tag:items:forge:ingots/steel>);
+// Ingots
+
+<recipetype:create:milling>.addRecipe("milling_nickel_ingot", [<item:immersiveengineering:dust_nickel> * 1 % 100], <tag:items:forge:ingots/nickel>);
+<recipetype:create:milling>.addRecipe("milling_brass", [<item:jaopca:dusts.brass> * 1 % 100], <tag:items:forge:ingots/brass>);
+<recipetype:create:milling>.addRecipe("milling_starmetal", [<item:jaopca:dusts.starmetal> * 1 % 100], <tag:items:forge:ingots/starmetal>);
+<recipetype:create:milling>.addRecipe("milling_netherite", [<item:mekanism:dust_netherite> * 1 % 100], <tag:items:forge:ingots/netherite>);
+<recipetype:create:milling>.addRecipe("milling_steel", [<item:immersiveengineering:dust_steel> * 1 % 100], <tag:items:forge:ingots/steel>);
+<recipetype:create:milling>.addRecipe("milling_ironwood_ingot", [<item:jaopca:dusts.ironwood> * 1 % 100], <tag:items:forge:ingots/ironwood>);
+<recipetype:create:milling>.addRecipe("milling_desh_ingot", [<item:jaopca:dusts.desh> * 1 % 100], <tag:items:forge:ingots/desh>);
+<recipetype:create:milling>.addRecipe("milling_knightmetal_ingot", [<item:jaopca:dusts.knightmetal> * 1 % 100], <tag:items:forge:ingots/knightmetal>);
+<recipetype:create:milling>.addRecipe("milling_silicon_ingot", [<item:libvulpes:dustsilicon> * 1 % 100], <tag:items:forge:ingots/silicon>);
+<recipetype:create:milling>.addRecipe("milling_thallasium_ingot", [<item:jaopca:dusts.thallasium> * 1 % 100], <tag:items:forge:ingots/thallasium>);
+
+<recipetype:create:milling>.addRecipe("milling_titanium_ingot", [<item:libvulpes:dusttitanium> * 1 % 100], <tag:items:forge:ingots/titanium>);
+<recipetype:create:milling>.addRecipe("milling_iridium_ingot", [<item:libvulpes:dustiridium> * 1 % 100], <tag:items:forge:ingots/iridium>);
+<recipetype:create:milling>.addRecipe("milling_ref_obsidian_ingot", [<item:mekanism:dust_refined_obsidian> * 1 % 100], <tag:items:forge:ingots/refined_obsidian>);
+<recipetype:create:milling>.addRecipe("milling_osmium_ingot", [<item:mekanism:dust_osmium> * 1 % 100], <tag:items:forge:ingots/osmium>);
+<recipetype:create:milling>.addRecipe("milling_cobalt_ingot", [<item:jaopca:dusts.cobalt> * 1 % 100], <tag:items:forge:ingots/cobalt>);
+<recipetype:create:milling>.addRecipe("milling_copper_ingot", [<item:thermal:copper_dust> * 1 % 100], <tag:items:forge:ingots/copper>);
+<recipetype:create:milling>.addRecipe("milling_tin_ingot", [<item:thermal:tin_dust> * 1 % 100], <tag:items:forge:ingots/tin>);
+<recipetype:create:milling>.addRecipe("milling_lead_ingot", [<item:thermal:lead_dust> * 1 % 100], <tag:items:forge:ingots/lead>);
+<recipetype:create:milling>.addRecipe("milling_silver_ingot", [<item:thermal:silver_dust> * 1 % 100], <tag:items:forge:ingots/silver>);
+<recipetype:create:milling>.addRecipe("milling_bronze_ingot", [<item:thermal:bronze_dust> * 1 % 100], <tag:items:forge:ingots/bronze>);
+<recipetype:create:milling>.addRecipe("milling_electrum_ingot", [<item:thermal:electrum_dust> * 1 % 100], <tag:items:forge:ingots/electrum>);
+<recipetype:create:milling>.addRecipe("milling_invar_ingot", [<item:thermal:invar_dust> * 1 % 100], <tag:items:forge:ingots/invar>);
+<recipetype:create:milling>.addRecipe("milling_signalum_ingot", [<item:thermal:signalum_dust> * 1 % 100], <tag:items:forge:ingots/signalum>);
+<recipetype:create:milling>.addRecipe("milling_lumium_ingot", [<item:thermal:lumium_dust> * 1 % 100], <tag:items:forge:ingots/lumium>);
+<recipetype:create:milling>.addRecipe("milling_enderium_ingot", [<item:thermal:enderium_dust> * 1 % 100], <tag:items:forge:ingots/enderium>);
+<recipetype:create:milling>.addRecipe("milling_zinc_ingot", [<item:jaopca:dusts.zinc> * 1 % 100], <tag:items:forge:ingots/zinc>);
+<recipetype:create:milling>.addRecipe("milling_aluminum_ingot", [<item:immersiveengineering:dust_aluminum> * 1 % 100], <tag:items:forge:ingots/aluminum>);
+<recipetype:create:milling>.addRecipe("milling_uranium_ingot", [<item:immersiveengineering:dust_uranium> * 1 % 100], <tag:items:forge:ingots/uranium>);
+<recipetype:create:milling>.addRecipe("milling_constantan_ingot", [<item:thermal:constantan_dust> * 1 % 100], <tag:items:forge:ingots/constantan>);
+<recipetype:create:milling>.addRecipe("milling_graphite_ingot", [<item:immersiveengineering:dust_hop_graphite> * 1 % 100], <tag:items:forge:ingots/hop_graphite>);
+
+// Misc 
+
 <recipetype:create:milling>.addRecipe("mill_iron", [<item:thermal:iron_dust> * 1 % 100], <tag:items:forge:ores/iron>);
 <recipetype:create:milling>.addRecipe("mill_gold", [<item:thermal:gold_dust> * 1 % 100], <tag:items:forge:ores/gold>);
 <recipetype:create:milling>.addRecipe("mill_copper", [<item:thermal:copper_dust> * 1 % 100], <tag:items:forge:ores/copper>);
@@ -295,7 +353,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_charcoal", [<item:mekanism:dust_charcoal> * 1 % 100], <tag:items:forge:charcoal>);
 <recipetype:create:milling>.addRecipe("mill_blackstone", [<item:crockpot:blackstone_dust> * 1 % 100], <item:minecraft:blackstone>);
 <recipetype:create:milling>.addRecipe("mill_vinteum_impure", [<item:kubejs:impure_vinteum> * 1 % 100], <item:mana-and-artifice:vinteum_ore>);
-<recipetype:create:milling>.addRecipe("mill_nickel_ingot", [<item:immersiveengineering:dust_nickel> * 1 % 100], <tag:items:forge:ingots/nickel>);
 <recipetype:create:milling>.addRecipe("mill_blaze_powder", [<item:minecraft:blaze_powder> * 2 % 100], <item:minecraft:blaze_rod>);
 
 <recipetype:create:milling>.addRecipe("mill_blackdye1", [<item:minecraft:black_dye> * 1 %100, <item:minecraft:gray_dye> * 1 %10], <item:minecraft:ink_sac>);

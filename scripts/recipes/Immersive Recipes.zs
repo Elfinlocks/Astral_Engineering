@@ -77,12 +77,10 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 // Copper
 
-<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_copper_ingot", <tag:items:forge:ingots/copper>, 500, <item:thermal:copper_dust>);
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_copper_ore", <tag:items:forge:ores/copper>, 500, <item:thermal:copper_dust> * 2, <item:thermal:gold_dust> % 10);
 
 // Lead
 
-<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_lead_ingot", <tag:items:forge:ingots/lead>, 500, <item:thermal:lead_dust>);
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_lead_ore", <tag:items:forge:ores/lead>, 500, <item:thermal:lead_dust> * 2, <item:immersiveengineering:dust_silver> % 10);
 
 // Uranium
@@ -101,7 +99,6 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 // Tin
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_tin_ore", <tag:items:forge:ores/tin>, 500, <item:thermal:tin_dust> * 2);
-<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_tin_ingot", <tag:items:forge:ingots/tin>, 500, <item:thermal:tin_dust>);
 
 // Cinnabar
 
@@ -128,6 +125,18 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 // Limesand
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_limesand", <tag:items:forge:sand>, 500, <item:create:limesand>);
+
+// Signalum
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_signalum", <tag:items:forge:ingots/signalum>, 500, <item:thermal:signalum_dust>);
+
+// Lumium
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_lumium", <tag:items:forge:ingots/lumium>, 500, <item:thermal:lumium_dust>);
+
+// Enderium
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_enderium", <tag:items:forge:ingots/enderium>, 500, <item:thermal:enderium_dust>);
 
 // Misc 
 
