@@ -1353,5 +1353,52 @@
 				}
 			]
 		}
+		{
+			title: "Finding Your Way"
+			icon: {
+				id: "waystones:waystone"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
+			x: 4.0d
+			y: 2.5d
+			id: "6089147D7A0E5BF2"
+			tasks: [
+				{
+					id: "351F4BDA1F825156"
+					type: "item"
+					item: "thermal:gold_coin"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "13E5251897902FCE"
+					type: "item"
+					item: "twilightforest:carminite_block"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "14DABFA71DCCB6B1"
+					type: "item"
+					item: {
+						id: "waystones:waystone"
+						Count: 1b
+						tag: {
+							spell: { }
+						}
+					}
+				}
+				{
+					id: "21BCB0D733A100DB"
+					type: "custom"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["reset"]
+				}
+			]
+		}
 	]
 }

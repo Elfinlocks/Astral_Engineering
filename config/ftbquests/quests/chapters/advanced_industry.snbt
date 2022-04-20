@@ -972,14 +972,14 @@
 			}]
 			rewards: [
 				{
-					id: "18C9CD88BF778217"
-					type: "item"
-					item: "pamhc2foodextended:friedfeastitem"
-				}
-				{
 					id: "1FE66831C5E0427A"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "15D350215D28E527"
+					type: "item"
+					item: "crockpot:turkey_dinner"
 				}
 			]
 		}
