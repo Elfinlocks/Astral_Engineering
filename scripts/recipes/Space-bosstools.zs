@@ -32,6 +32,7 @@ craftingTable.removeRecipe(<item:boss_tools:golden_engine>);
 craftingTable.removeRecipe(<item:boss_tools:diamond_engine>);
 craftingTable.removeRecipe(<item:boss_tools:water_pump>);
 craftingTable.removeRecipe(<item:boss_tools:wheel>);
+craftingTable.removeRecipe(<item:boss_tools:blast_furnace>);
 
 // Giselle Addon Adjustments
 
