@@ -115,6 +115,10 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_quartz", <tag:items:forge:gems/quartz>, 500, <item:thermal:quartz_dust>);
 
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_pure_cert_quartz", <tag:items:appliedenergistics2:crystals/certus>, 500, <item:appliedenergistics2:certus_quartz_dust>);
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_pure_nether_quartz", <tag:items:appliedenergistics2:crystals/nether>, 500, <item:thermal:quartz_dust>);
+
 // Charcoal
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_charcoal", <tag:items:forge:charcoal>, 500, <item:mekanism:dust_charcoal>);
