@@ -138,6 +138,10 @@ craftingTable.removeRecipe(<item:immersiveengineering:minecart_metalbarrel>);
 
 <recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_enderium", <tag:items:forge:ingots/enderium>, 500, <item:thermal:enderium_dust>);
 
+// Refined Obsidian 
+
+<recipetype:immersiveengineering:crusher>.addRecipe("im_crusher_ref_obsidian", <tag:items:forge:ingots/refined_obsidian>, 500, <item:mekanism:dust_refined_obsidian>);
+
 // Misc 
 
 craftingTable.addShaped("conveyor_belt", <item:immersiveengineering:conveyor_basic> * 6, [
