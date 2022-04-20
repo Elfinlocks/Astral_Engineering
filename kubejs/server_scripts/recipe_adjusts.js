@@ -43,6 +43,8 @@ onEvent('recipes', event => {
 	mekanism(event)
 	crockpot(event)
 	event.remove({id: ('immersiveindustry:electrolyze/alumium')})
+	event.remove({id: ('apotheosis:fletching/iron_mining_arrow')})
+	event.remove({id: ('apotheosis:fletching/diamond_mining_arrow')})
 	log.push('Recipes Updated')
 })
 

@@ -173,6 +173,8 @@ event.replaceOutput({}, '#forge:dusts/charcoal', 'mekanism:dust_charcoal')
 
 event.replaceOutput({}, '#forge:dusts/coal_coke', 'immersiveengineering:dust_coke')
 
+event.replaceOutput({}, '#forge:dusts/starmetal', 'astralsorcery:stardust')
+
 
 
 // Misc ==================================================================================================================

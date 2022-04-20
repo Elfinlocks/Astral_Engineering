@@ -1255,7 +1255,7 @@
 			}
 			x: -5.5d
 			y: 0.5d
-			subtitle: "1 Gold"
+			subtitle: "2 Gold"
 			description: [
 				"This is a handy device which provides &6unstable teleportation&r to the wearer. You'll need &6batteries&r to operate it."
 				""
@@ -1267,6 +1267,7 @@
 					id: "3D55416AD09E7F3A"
 					type: "item"
 					item: "thermal:gold_coin"
+					count: 2L
 					consume_items: true
 				}
 				{
@@ -1320,6 +1321,7 @@
 			icon: "tardis:artron_battery"
 			x: -5.5d
 			y: 2.5d
+			subtitle: "25 Silver"
 			description: ["You'll need Artron batteries to operate the manipulator. Here is a source of them until you can buy your own."]
 			dependencies: ["7DC32B2C666BE76A"]
 			id: "5B225F1BF4A7D5B6"
@@ -1364,6 +1366,7 @@
 			}
 			x: 4.0d
 			y: 2.5d
+			subtitle: "Waystones are a source of instantaneous travel."
 			id: "6089147D7A0E5BF2"
 			tasks: [
 				{
