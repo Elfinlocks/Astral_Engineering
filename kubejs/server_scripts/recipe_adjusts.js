@@ -58,8 +58,11 @@ function mekanism(event) {
 	event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
 	event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused', 'immersiveengineering:ingot_steel', 'mekanism:redstone', 20)
 	event.recipes.mekanismCrushing('appliedenergistics2:fluix_dust', 'appliedenergistics2:purified_fluix_crystal')
+	event.recipes.mekanismCrushing('appliedenergistics2:certus_quartz_dust', '#appliedenergistics2:crystals/certus')
+	event.recipes.mekanismCrushing('thermal:quartz_dust', '#appliedenergistics2:crystals/nether')
 	event.remove({id: 'mekanism:control_circuit/basic'})
 	event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'kubejs:integrated_circuit', 'mekanism:gold', 40)
+	event.remove({id: 'mekanism:processing/quartz/to_dust'})
 	event.remove({id: 'mekanism:processing/steel/enriched_iron_to_dust'})
 	event.remove({id: 'mekanism:paper'})
 }
