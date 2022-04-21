@@ -1833,5 +1833,22 @@
 				xp: 100
 			}]
 		}
+		{
+			title: "Who Needs Bottles?"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "The Hero's Medallion offers a great spot to stow away experience."
+			id: "73B352B7EDC6F48D"
+			tasks: [{
+				id: "0F53C0C4DB65C6CE"
+				type: "item"
+				item: "xreliquary:hero_medallion"
+			}]
+			rewards: [{
+				id: "19EF2B0D0B128A68"
+				type: "xp"
+				xp: 500
+			}]
+		}
 	]
 }

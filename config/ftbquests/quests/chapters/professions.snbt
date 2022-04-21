@@ -723,7 +723,14 @@
 				{
 					id: "4BCA88E713BFF541"
 					type: "item"
-					item: "farmersdelight:onion"
+					title: "Any #forge:crops/onion"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:crops/onion"
+						}
+					}
 					count: 3L
 					consume_items: true
 				}
