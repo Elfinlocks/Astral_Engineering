@@ -191,7 +191,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.removeRecipe(<item:create:crushed_aluminum_ore>);
 <recipetype:create:crushing>.removeRecipe(<item:create:crushed_uranium_ore>);
 <recipetype:create:crushing>.removeRecipe(<item:create:crushed_nickel_ore>);
-<recipetype:create:crushing>.removeRecipe(<item:minecraft:cobblestone>);
 <recipetype:create:crushing>.removeRecipe(<item:thermal:diamond_dust>);
 <recipetype:create:crushing>.removeRecipe(<item:mekanism:dust_obsidian>);
 <recipetype:create:crushing>.removeRecipe(<item:minecraft:black_dye>);
@@ -251,7 +250,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:crushing>.addRecipe("wheel_aluminum", [<item:immersiveengineering:dust_aluminum> * 1 % 100, <item:immersiveengineering:dust_aluminum> % 30], <item:libvulpes:orealuminum>);
 <recipetype:create:crushing>.addRecipe("wheel_uranium", [<item:immersiveengineering:dust_uranium> * 2 % 100, <item:immersiveengineering:dust_uranium> % 30], <tag:items:forge:ores/uranium>);
 <recipetype:create:crushing>.addRecipe("wheel_nickel", [<item:immersiveengineering:dust_nickel> * 2 % 100, <item:immersiveengineering:dust_nickel> % 30], <tag:items:forge:ores/nickel>);
-<recipetype:create:crushing>.addRecipe("wheel_cobble", [<item:minecraft:cobblestone> * 1 % 100], <tag:items:forge:stone>);
 <recipetype:create:crushing>.addRecipe("wheel_diamond", [<item:thermal:diamond_dust> * 1 % 100], <item:minecraft:diamond>);
 <recipetype:create:crushing>.addRecipe("wheel_cobalt", [<item:jaopca:dusts.cobalt> * 2 % 100, <item:jaopca:dusts.cobalt> % 30], <tag:items:forge:ores/cobalt>);
 <recipetype:create:crushing>.addRecipe("wheel_netherite_scrap", [<item:jaopca:dusts.netherite_scrap> * 1 % 100, <item:jaopca:dusts.netherite_scrap> % 30], <tag:items:forge:ores/netherite_scrap>);
@@ -285,7 +283,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.removeRecipe(<item:create:crushed_aluminum_ore>);
 <recipetype:create:milling>.removeRecipe(<item:create:crushed_uranium_ore>);
 <recipetype:create:milling>.removeRecipe(<item:create:crushed_nickel_ore>);
-<recipetype:create:milling>.removeRecipe(<item:minecraft:cobblestone>);
 <recipetype:create:milling>.removeRecipe(<item:thermal:diamond_dust>);
 <recipetype:create:milling>.removeRecipe(<item:mekanism:dust_obsidian>);
 <recipetype:create:milling>.removeRecipe(<item:minecraft:black_dye>);
@@ -339,7 +336,6 @@ furnace.addRecipe("recycle_circuit", <item:create:rose_quartz>, <item:kubejs:unf
 <recipetype:create:milling>.addRecipe("mill_aluminum", [<item:immersiveengineering:dust_aluminum> * 1 % 100], <item:libvulpes:orealuminum>);
 <recipetype:create:milling>.addRecipe("mill_uranium", [<item:immersiveengineering:dust_uranium> * 1 % 100], <tag:items:forge:ores/uranium>);
 <recipetype:create:milling>.addRecipe("mill_nickel", [<item:immersiveengineering:dust_nickel> * 1 % 100], <tag:items:forge:ores/nickel>);
-<recipetype:create:milling>.addRecipe("mill_cobble", [<item:minecraft:cobblestone> * 1 % 100], <tag:items:forge:stone>);
 <recipetype:create:milling>.addRecipe("mill_diamond", [<item:thermal:diamond_dust> * 1 % 100], <item:minecraft:diamond>);
 <recipetype:create:milling>.addRecipe("mill_cobalt", [<item:jaopca:dusts.cobalt> * 1 % 100], <tag:items:forge:ores/cobalt>);
 <recipetype:create:milling>.addRecipe("mill_netherite_ore", [<item:jaopca:dusts.netherite_scrap> * 1 % 100], <tag:items:forge:ores/netherite_scrap>);

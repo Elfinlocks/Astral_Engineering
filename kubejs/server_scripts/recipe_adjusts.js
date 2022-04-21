@@ -45,6 +45,8 @@ onEvent('recipes', event => {
 	event.remove({id: ('immersiveindustry:electrolyze/alumium')})
 	event.remove({id: ('apotheosis:fletching/iron_mining_arrow')})
 	event.remove({id: ('apotheosis:fletching/diamond_mining_arrow')})
+	event.remove({id: ('thermal:machine/pulverizer/pulverizer/pulverizer_andesite')})
+	
 	log.push('Recipes Updated')
 })
 
