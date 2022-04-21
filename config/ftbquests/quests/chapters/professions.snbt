@@ -588,7 +588,14 @@
 				{
 					id: "63909F521730B80A"
 					type: "item"
-					item: "create:limestone"
+					title: "Any #chisel:limestone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chisel:limestone"
+						}
+					}
 					count: 8L
 					consume_items: true
 				}
