@@ -739,7 +739,7 @@
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
 		"Enable Slate" = true
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 
 		[world.new_stone_types.marble]
 
