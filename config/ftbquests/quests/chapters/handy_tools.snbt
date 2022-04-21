@@ -1817,39 +1817,6 @@
 			}]
 		}
 		{
-			title: "Tools of the Trade"
-			x: 4.0d
-			y: 2.0d
-			subtitle: "For keeping all the essentials in one place."
-			id: "06BFC6B3314AAB4D"
-			tasks: [{
-				id: "40610401DEAC0600"
-				type: "item"
-				title: "Any #create:toolboxes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "create:toolboxes"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "794EF74F2A42E655"
-					type: "item"
-					item: "create:shaft"
-					count: 4
-				}
-				{
-					id: "42DBEA0155D9D270"
-					type: "item"
-					item: "create:cogwheel"
-					count: 5
-				}
-			]
-		}
-		{
 			title: "Tough As Iron"
 			x: 0.0d
 			y: 4.0d
