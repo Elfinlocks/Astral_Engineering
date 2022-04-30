@@ -1,7 +1,7 @@
 
 [general]
 	#The module blacklist of this material.
-	moduleBlacklist = []
+	moduleBlacklist = ["storage_blocks", "dusts", "mekanism", "mekanism_compat", "mekanism_non_ingot"]
 	#The alternative names of this material.
 	alternativeNames = []
 	#The color of this material.

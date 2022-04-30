@@ -55,7 +55,7 @@ craftingTable.addShaped("grindstone", <item:appliedenergistics2:grindstone>, [
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_sulfur", <item:thermal:sulfur_dust>, <tag:items:forge:gems/sulfur>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_niter", <item:thermal:niter_dust>, <tag:items:forge:gems/niter>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_apatite", <item:thermal:apatite_dust>, <tag:items:forge:gems/apatite>, 2);
-<recipetype:appliedenergistics2:grinder>.addRecipe("crushed_starmetal", <item:jaopca:dusts.starmetal>, <tag:items:forge:ores/starmetal>, 2);
+<recipetype:appliedenergistics2:grinder>.addRecipe("crushed_starmetal", <item:astralsorcery:stardust>, <tag:items:forge:ores/starmetal>, 2);
 <recipetype:appliedenergistics2:grinder>.addRecipe("crushed_fluix", <item:appliedenergistics2:fluix_dust>, <tag:items:appliedenergistics2:crystals/fluix>, 2); 
 
 <recipetype:appliedenergistics2:grinder>.addRecipe("impure_vinteum_ae2", <item:kubejs:impure_vinteum>, <item:mana-and-artifice:vinteum_ore>, 2);

@@ -175,8 +175,6 @@ event.replaceOutput({}, '#forge:dusts/coal_coke', 'immersiveengineering:dust_cok
 
 event.replaceOutput({}, '#forge:dusts/starmetal', 'astralsorcery:stardust')
 
-
-
 // Misc ==================================================================================================================
 
 event.replaceOutput({}, '#forge:gems/sapphire', 'iceandfire:sapphire_gem') 

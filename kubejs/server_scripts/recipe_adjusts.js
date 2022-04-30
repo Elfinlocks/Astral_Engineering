@@ -62,6 +62,8 @@ function mekanism(event) {
 	event.recipes.mekanismCrushing('appliedenergistics2:fluix_dust', 'appliedenergistics2:purified_fluix_crystal')
 	event.recipes.mekanismCrushing('appliedenergistics2:certus_quartz_dust', '#appliedenergistics2:crystals/certus')
 	event.recipes.mekanismCrushing('thermal:quartz_dust', '#appliedenergistics2:crystals/nether')
+	event.recipes.mekanismCrushing('astralsorcery:stardust', 'astralsorcery:starmetal_ingot')
+	event.recipes.mekanismCrushing('astralsorcery:stardust', 'astralsorcery:starmetal_ore')
 	event.remove({id: 'mekanism:control_circuit/basic'})
 	event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'kubejs:integrated_circuit', 'mekanism:gold', 40)
 	event.remove({id: 'mekanism:processing/quartz/to_dust'})

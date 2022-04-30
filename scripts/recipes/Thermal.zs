@@ -70,6 +70,9 @@ craftingTable.addShaped("processor_die", <item:kubejs:press_circuit_die>, [
 
 <recipetype:thermal:pulverizer>.addRecipe("pulv_coal", [<item:mekanism:dust_coal> % 100] , <item:minecraft:coal>, 2, 4000);
 
+<recipetype:thermal:pulverizer>.addRecipe("pulv_starmetal", [<item:astralsorcery:stardust> % 100] , <item:astralsorcery:starmetal_ore>, 2, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("pulv_starmetal_bar", [<item:astralsorcery:stardust> % 100] , <item:astralsorcery:starmetal_ingot>, 2, 4000);
+
 <recipetype:thermal:pulverizer>.addRecipe("pulv_charcoal", [<item:mekanism:dust_charcoal> % 100] , <tag:items:forge:charcoal>, 2, 4000);
 
 <recipetype:thermal:pulverizer>.addRecipe("pulv_blackstone", [<item:crockpot:blackstone_dust> % 200] , <item:minecraft:blackstone>, 2, 4000);
