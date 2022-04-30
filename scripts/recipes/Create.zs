@@ -45,6 +45,8 @@ craftingTable.addShaped("capacitor", <item:createaddition:capacitor>, [
     [<tag:items:forge:dusts/nickel>, <tag:items:forge:plates/zinc>, <tag:items:forge:dusts/nickel>],
     [<tag:items:forge:plates/iron>, <tag:items:forge:plates/electrum>, <tag:items:forge:plates/iron>],
     [<item:thermal:cured_rubber>, <item:minecraft:redstone_torch>, <item:thermal:cured_rubber>]]);
+	
+craftingTable.addShapeless("brass_block", <item:create:brass_block>, [<tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>]);
 
 // Andesite Alloy Stuff
 
