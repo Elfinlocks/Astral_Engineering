@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "thermal:lightning_charge"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+    {
+      "item": "appliedenergistics2:calculation_processor"
+    }
+  ],
+  "category": "specialBullet",
+  "result": {
+    "item": "pneumaticcraft:micromissiles",
+    "count": 1
+  }
+}

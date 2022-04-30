@@ -10,6 +10,7 @@ craftingTable.removeRecipe(<item:pneumaticcraft:network_io_port>);
 craftingTable.removeRecipe(<item:pneumaticcraft:spawner_agitator>);
 craftingTable.removeRecipe(<item:pneumaticcraft:drill_pipe>);
 craftingTable.removeRecipe(<item:pneumaticcraft:minigun>);
+craftingTable.removeRecipe(<item:pneumaticcraft:micromissiles>);
 
 // Minigun
 
