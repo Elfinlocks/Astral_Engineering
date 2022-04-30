@@ -208,6 +208,7 @@ events.listen('item.tags', function (event) {
 		.add('music_discs_backport:memorie')
 		.add('music_discs_backport:infini')
 		.add('music_discs_backport:anc')
+		.add('quark:music_disc_endermosh')
 	event.get('forge:ingots/plutonium')
 		.add('mekanism:pellet_plutonium')
 	event.get('pipez')
