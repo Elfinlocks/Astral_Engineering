@@ -1,9 +1,0 @@
-<recipetype:create:splashing>.addRecipe("wash_iron_dust", [item:minecraft:iron_nugget * 10, item:minecraft:iron_nugget * 5 % 50], tag:items:forge:dusts/iron);
-<recipetype:create:splashing>.addRecipe("wash_gold_dust", [item:minecraft:gold_nugget * 10, item:minecraft:gold_nugget * 5 % 50], tag:items:forge:dusts/gold);
-<recipetype:create:splashing>.addRecipe("wash_tin_dust", [item:thermal:tin_nugget * 10, item:thermal:tin_nugget * 5 % 50], tag:items:forge:dusts/tin);
-<recipetype:create:splashing>.addRecipe("wash_osmium_dust", [item:mekanism:nugget_osmium * 10, item:mekanism:nugget_osmium * 5 % 50], tag:items:forge:dusts/osmium);
-<recipetype:create:splashing>.addRecipe("wash_urnaium_dust", [item:immersiveengineering:nugget_uranium * 10, item:immersiveengineering:nugget_uranium * 5 % 50], tag:items:forge:dusts/uranium);
-<recipetype:create:splashing>.addRecipe("wash_lead_dust", [item:thermal:lead_nugget * 10, item:thermal:lead_nugget * 5 % 50], tag:items:forge:dusts/lead);
-<recipetype:create:splashing>.addRecipe("wash_silver_dust", [item:thermal:silver_nugget * 10, item:thermal:silver_nugget * 5 % 50], tag:items:forge:dusts/silver);
-<recipetype:create:splashing>.addRecipe("wash_nickel_dust", [item:thermal:nickel_nugget * 10, item:thermal:nickel_nugget * 5 % 50], tag:items:forge:dusts/nickel);
-<recipetype:create:splashing>.addRecipe("wash_zinc_dust", [item:create:zinc_nugget * 10, item:create:zinc_nugget * 5 % 50], tag:items:forge:dusts/zinc);
