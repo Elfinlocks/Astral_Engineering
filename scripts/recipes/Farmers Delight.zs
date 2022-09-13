@@ -24,6 +24,6 @@ craftingTable.addShaped("tomato_crate", <item:farmersdelight:tomato_crate>, [
     [<tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>, <tag:items:forge:crops/tomato>]]);
 
 craftingTable.addShaped("cabbage_crate", <item:farmersdelight:cabbage_crate>, [
-    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>],
-    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>],
-    [<tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>, <tag:items:forge:crops/cabbage>]]);
+    [<item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>],
+    [<item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>],
+    [<item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>]]);
