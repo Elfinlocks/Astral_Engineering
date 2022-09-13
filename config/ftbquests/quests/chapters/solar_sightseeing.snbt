@@ -601,9 +601,9 @@
 			size: 1.5d
 			id: "4E53F7B2450CADBB"
 			tasks: [{
-				id: "6908ADFBC9BA6DAD"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "6CDBDC633B63EC15"
+				type: "checkmark"
+				title: "Guess It Wasn't Made of Cheese..."
 			}]
 			rewards: [
 				{
@@ -745,9 +745,9 @@
 			size: 1.5d
 			id: "6D038C6527B718DB"
 			tasks: [{
-				id: "03E15BF336E3406D"
-				type: "dimension"
-				dimension: "boss_tools:mars"
+				id: "4A2F1B69C2462DFE"
+				type: "checkmark"
+				title: "Visit the Red Planet!"
 			}]
 			rewards: [
 				{
@@ -873,9 +873,9 @@
 			size: 1.5d
 			id: "1E14D4F1B3BB549D"
 			tasks: [{
-				id: "7311DCD4655BBEDA"
-				type: "dimension"
-				dimension: "boss_tools:venus"
+				id: "3C756F2F2D8AB5D8"
+				type: "checkmark"
+				title: "Visit Venus!"
 			}]
 			rewards: [
 				{
@@ -909,9 +909,9 @@
 			size: 1.5d
 			id: "32065B4871D4F940"
 			tasks: [{
-				id: "691C122ECCDDD907"
-				type: "dimension"
-				dimension: "boss_tools:mercury"
+				id: "716AC7733284DFC1"
+				type: "checkmark"
+				title: "Visit Mercury!"
 			}]
 			rewards: [
 				{
