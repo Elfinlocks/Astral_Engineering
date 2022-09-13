@@ -1,7 +1,7 @@
 events.listen('item.tags', function (event) {
 	event.get('twilightforest:portal/activator')
-		.add('botania:mana_diamond')
 		.remove('#forge:gems/diamond')
+		.add('botania:terrasteel_ingot')
 	event.get('twilightforest:portal/edge').add('#forge:dirt')
 	event.get('byg_planks')
 		.add('twilightforest:tower_wood')
