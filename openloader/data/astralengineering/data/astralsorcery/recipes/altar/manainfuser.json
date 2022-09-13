@@ -4,11 +4,11 @@
   "duration": 600,
   "starlight": 5600,
   "pattern": [
-    "_AAA_",
+    "ZAAAZ",
     "ABCBA",
     "DEFGD",
     "HBIBH",
-    "_HHH_"
+    "ZHHHZ"
   ],
   "key": {
     "A": {
@@ -37,6 +37,9 @@
 	},
 	"I": {
 	  "item": "mythicbotany:midgard_rune"
+	},
+	"Z": {
+		"item": "minecraft:end_stone_bricks"
 	}
   },
   "output": [
