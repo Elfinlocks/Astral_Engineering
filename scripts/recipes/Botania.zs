@@ -58,7 +58,7 @@ craftingTable.addShaped("petal_apothecary", <item:botania:apothecary_default>, [
 <recipetype:botania:mana_infusion>.addRecipe("manasteel_ingot", <item:botania:manasteel_ingot>, <item:mana-and-artifice:purified_vinteum_ingot>, 10000);
 
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_block>);
-<recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <item:mana-and-artifice:vinteum_block>, 90000);
+<recipetype:botania:mana_infusion>.addRecipe("manasteel_block", <item:botania:manasteel_block>, <item:mana-and-artifice:vinteum_block>, 180000);
 
 <recipetype:botania:petal_apothecary>.removeRecipe(<item:botania:orechid>);
 
